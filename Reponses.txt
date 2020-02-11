@@ -71,3 +71,20 @@ Réponse : HTTP/1.1 400 Bad Request
 Requête : GET http://www.facebook.com/index.html HTTP/1.0
 Code réponse : HTTP/1.1 200 OK
 
+17) Nous avons trouvé dans la documentation que l'en-tête Host devient obligatoire dans les requêtes. 
+Voilà pourquoi on a l'échange
+GET /index.html HTTP/1.1
+HTTP/1.1 400 Bad Request
+mais l'échange 
+GET /index.html HTTP/1.1
+Host:rocklee.com      
+HTTP/1.1 200 OK
+est valide.
+
+Au bout de quelques secondes, la communication est coupée. Si l'on a entré une chaine de caractères ne formant pas une requête valide, on reçoit en plus un message d'erreur HTTP/1.1 400 Bad Request
+
+18) Pour refermer immédiatement la connection, on fait : 
+GET /index.html HTTP/1.1
+Host:rocklee.com
+Connection: close
+HTTP/1.1 200 OK
