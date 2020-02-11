@@ -12,9 +12,7 @@
 
 Cette modification permet de rediriger les recherches vers le site www.toto.com (ou buster) vers le serveur buster.b120.esisar.fr (qui est aussi connu pour son adresse 127.0.1.1). Ce dernier redirige les recherches vers notre propre machine, d'où la différence de résultats.
 
-Faire des captures du réseau pour les deux requêtes 
-
-7) à 12) inclues : faire des dragon-(re)quêtes
+Faire des captures du réseau pour les deux requêtes
 
 7) Il faut 2 requetes pour afficher une page (1 pour la page et l'autre pour le favicon, si il n'y a pas de favicon il n'est faut qu'une)
 
@@ -28,4 +26,18 @@ Faire des captures réseaux
 
 15) Préciser le protocole utilisé (HTTP/1.0 ou HTTP/1.1) et c'est tout ? A tester 
 
-16) 
+16) Dans tous les cas, la commande pour ouvrir une connexion est nc -C 127.0.0.1 80
+
+Requête : HELLO  / HTTP/1.0
+Code réponse :
+HTTP/1.1 400 Bad Request
+
+Requête : GET /
+Code réponse : aucun 
+
+Requête : GET / HTTP/3.3
+Code réponse : 400 Bad Request (alors que erreur de version : cf la doc, renvoie une erreur Bad Request si erreur de version)
+
+Requête : GET / WEB/2.0
+HTTP/1.1 400 Bad Request
+
