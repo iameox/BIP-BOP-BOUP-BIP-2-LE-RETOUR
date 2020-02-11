@@ -38,8 +38,7 @@ Faire des captures réseaux
 16) Dans tous les cas, la commande pour ouvrir une connexion est nc -C 127.0.0.1 80
 
 Requête : HELLO  / HTTP/1.0
-Code réponse :
-HTTP/1.1 400 Bad Request
+Code réponse : HTTP/1.1 400 Bad Request
 
 Requête : GET /
 Code réponse : aucun (et on n'appuie qu'une seule fois sur Entrée. Normal car n'est pas considéré comme de l'HTTP.)
