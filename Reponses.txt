@@ -10,6 +10,18 @@
 
 6) Si l'on accède au site www.toto.com sans avoir modifié le fichier /etc/hosts, nous accédons au site internet obtenu par recherche sur n'importe quel moteur de recherche sur n'importe quelle autre machine (voir capture n°1).
 
-Cette modification permet de rediriger les recherches vers le site www.toto.com vers le serveur buster.b120.esisar.fr (qui est aussi connu pour son adresse 127.0.1.1).
+Cette modification permet de rediriger les recherches vers le site www.toto.com (ou buster) vers le serveur buster.b120.esisar.fr (qui est aussi connu pour son adresse 127.0.1.1). Ce dernier redirige les recherches vers notre propre machine, d'où la différence de résultats.
 
 Faire des captures du réseau pour les deux requêtes 
+
+7) à 12) inclues : faire des dragon-(re)quêtes
+
+13) L'option -C permet d'envoyer la chaîne de caractères CRLF (ce qui veut dire Carriage Return Line Feed, soit en français la juxtaposition de Retour Charriot et de Saut de Ligne) en tant que caractères de fin de ligne.
+
+14) La première fois pour écrire un retour à la ligne, la deuxième fois pour l'envoyer.
+
+Faire des captures réseaux 
+
+15) Préciser le protocole utilisé (HTTP/1.0 ou HTTP/1.1) et c'est tout ? A tester 
+
+16) 
