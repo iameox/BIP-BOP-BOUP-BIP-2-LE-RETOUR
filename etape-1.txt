@@ -1,0 +1,7 @@
+III.
+    1. 0.0.0.0 est l'adresse IP qui désigne la station.
+       Les autres serveurs installés sont disponibles sur toutes les adresses IP, pour les ports 22 et 111.
+    
+    2. Le serveur peut être contacté depuis l'adresse IP 0.0.0.0, ainsi que le bloc d'adresses 127.0.0.1 à 127.255.255.254 inclus.
+    
+    3.
