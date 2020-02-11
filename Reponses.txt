@@ -58,8 +58,8 @@ Code réponse : HTTP/1.1 404 Not Found
 Requête : GET /%?? HTTP/1.0
 Code réponse : HTTP/1.1 400 Bad Request
 
-Requête : GET / WEB/2.0
-Code réponse : HTTP/1.1 400 Bad Request
+Requête : GET /index.html HTTP/1.0
+Code réponse : HTTP/1.1 200 OK
 
 Requête : GET /%69%6E%64%65%78%2E%68%74%6D%6C HTTP/1.0
 Code réponse : HTTP/1.1 200 OK
