@@ -1,0 +1,8 @@
+Les 8 RFC de HTTP
+
+1 : résumé
+2 : Ressources
+3 : Représentation des ressources
+4 : méthodes (GET, PUT...)
+5 : En-têtes (Expect, User-Agent...)
+6 : codes de retour (1xx info, 2xx succès, 3xx redirection, 4xx erreurs client, 5xx erreur serveur)
