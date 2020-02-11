@@ -16,6 +16,10 @@ Faire des captures du réseau pour les deux requêtes
 
 7) à 12) inclues : faire des dragon-(re)quêtes
 
+7) Il faut 2 requetes pour afficher une page (1 pour la page et l'autre pour le favicon, si il n'y a pas de favicon il n'est faut qu'une)
+
+8) chaque image rajoute une requete
+
 13) L'option -C permet d'envoyer la chaîne de caractères CRLF (ce qui veut dire Carriage Return Line Feed, soit en français la juxtaposition de Retour Charriot et de Saut de Ligne) en tant que caractères de fin de ligne.
 
 14) La première fois pour écrire un retour à la ligne, la deuxième fois pour l'envoyer.
