@@ -1,1 +1,15 @@
-Test
+1) Le 0.0.0.0 désigne toutes les adresses IPv4 de la machine locale, dans le cadre des serveurs (source : https://fr.wikipedia.org/wiki/0.0.0.0)
+
+2) Toutes les adresses ip peuvent le contacter de 0.0.0.1 à 0.0.255.254. Le serveur est à l'adresse 127.0.0.1 (peut aussi être contacté à 0.0.0.0 mais déconseillé)
+
+3) /var/www/html 
+
+4) En quel langage est écrit un fichier .html ? Attention il y a un piège 
+
+5) Dans la RFC 1866 : Hypertext Markup Language - 2.0, par exemple sur le site https://tools.ietf.org/html/rfc1866 
+
+6) Si l'on accède au site www.toto.com sans avoir modifié le fichier /etc/hosts, nous accédons au site internet obtenu par recherche sur n'importe quel moteur de recherche sur n'importe quelle autre machine (voir capture n°1).
+
+Cette modification permet de rediriger les recherches vers le site www.toto.com vers le serveur buster.b120.esisar.fr (qui est aussi connu pour son adresse 127.0.1.1).
+
+Faire des captures du réseau pour les deux requêtes 
