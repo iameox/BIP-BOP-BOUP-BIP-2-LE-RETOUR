@@ -18,9 +18,9 @@ Faire des captures du réseau pour les deux requêtes
 
 8) chaque image rajoute une requete
 
-13) L'option -C permet d'envoyer la chaîne de caractères CRLF (ce qui veut dire Carriage Return Line Feed, soit en français la juxtaposition de Retour Charriot et de Saut de Ligne) en tant que caractères de fin de ligne.
+13) L'option -C permet d'envoyer la chaîne de caractères CRLF (ce qui veut dire Carriage Return Line Feed, soit en français la juxtaposition de Retour Charriot et de Saut de Ligne) en tant que caractères de fin de ligne. Cela permet d'envoyer plusieurs requêtes d'un seul coup si l'on appuie sur Return.
 
-14) La première fois pour écrire un retour à la ligne, la deuxième fois pour l'envoyer.
+14) La première fois pour écrire un retour à la ligne, ce qui n'envoie pas l'instruction mais permet plutôt d'écrire une autre requête immédiatement, la deuxième fois pour l'envoyer.
 
 Faire des captures réseaux 
 
