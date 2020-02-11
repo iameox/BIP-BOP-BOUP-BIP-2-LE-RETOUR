@@ -42,11 +42,33 @@ Code réponse :
 HTTP/1.1 400 Bad Request
 
 Requête : GET /
-Code réponse : aucun 
+Code réponse : aucun (et on n'appuie qu'une seule fois sur Entrée. Normal car n'est pas considéré comme de l'HTTP.)
 
 Requête : GET / HTTP/3.3
 Code réponse : 400 Bad Request (alors que erreur de version : cf la doc, renvoie une erreur Bad Request si erreur de version)
 
 Requête : GET / WEB/2.0
 HTTP/1.1 400 Bad Request
+
+Requête : GET toto HTTP/1.0
+Code réponse : HTTP/1.1 400 Bad Request
+
+Requête : GET /toto HTTP/1.0
+Code réponse : HTTP/1.1 404 Not Found
+
+Requête : GET /%?? HTTP/1.0
+Code réponse : HTTP/1.1 400 Bad Request
+
+Requête : GET / WEB/2.0
+Code réponse : HTTP/1.1 400 Bad Request
+
+Requête : GET /%69%6E%64%65%78%2E%68%74%6D%6C HTTP/1.0
+Code réponse : HTTP/1.1 200 OK
+Equivalent de index.html en ascii (ok car avec des %)
+
+Requête : GET index.html HTTP/1.0
+Réponse : HTTP/1.1 400 Bad Request
+
+Requête : GET http://www.facebook.com/index.html HTTP/1.0
+Code réponse : HTTP/1.1 200 OK
 
