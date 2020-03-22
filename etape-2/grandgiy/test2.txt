@@ -1,0 +1,43 @@
+- HTTP-message = start-line * ( header-field CRLF ) CRLF [ message-body ] 
+
+- Retourne -1 si erreur, la longueur de la chaîne parsée sinon
+http_message(chaine, index) :
+    longueur_totale ← 0
+    boucle ← vrai
+
+    - Si longueur = 0, on l'ajoute quand même à l'arbre
+    longueur ← start_line(chaine, index)
+    si longueur = -1 alors retourner -1
+
+    longueur_totale ← longueur_totale + longueur
+    index ← index + longueur_totale
+
+    tant que boucle = vrai faire
+        longueur ← header_field(chaine, index)
+        si longueur = -1 alors retourner -1
+        
+        - Si longueur = 0, on l'ajoute pas à l'arbre
+        si longueur = 0 alors boucle ← false
+        sinon 
+            longueur_totale ← longueur_totale + longueur
+            index ← index + longueur_totale
+
+            - Si longueur = 0, on l'ajoute quand même à l'arbre
+            longueur ← crlf(chaine, index)
+            si longueur = -1 alors retourner -1
+
+            longueur_totale ← longueur_totale + longueur
+
+    - Si longueur = 0, on l'ajoute quand même à l'arbre
+    longueur ← crlf(chaine, index)
+    si longueur = -1 alors retourner -1
+
+    longueur_totale ← longueur_totale + longueur
+    index ← index + longueur_totale
+
+    - Si longueur = 0, on l'ajoute pas à l'arbre
+    longueur ← message_body(chaine, index)
+    si longueur = -1 alors retourner -1
+
+    longueur_totale ← longueur_totale + longueur
+    retourner longueur_totale
