@@ -4,10 +4,8 @@ A = 2X
 X = *"a"
 
 -- Retourne la longueur du texte trouvé s'il est trouvé
--- Retourne 0 si rien n'est trouvé
--- Retourne -1 si erreur
-
-faire un groupe avec les xx.xx.xx
+-- Retourne 0 si rien n'est trouvé mais que isok
+-- Retourne -1 si rien n'est trouvé mais qu'il aurait dû
 */
 
 typedef struct {
@@ -15,25 +13,24 @@ typedef struct {
     int length;
 } string;
 
-
 typedef struct {
     // L'un des trois uniquement
     int min_max[2];
     string string;
     int *set;
-} abnf_params;
+} rule_params;
 
 typedef struct {
    string name;
 
    // Soit la fonction, soit la sous-règle
-   int (*function)(abnf_params); 
-   abnf_params params;
-   struct abnf_node *sub_rule;
+   int (*function)(rule_params, struct rule *, char *, int); 
+   rule_params params;
+   struct rule *rule;
 
-   struct abnf_node *children;
-   struct abnf_node *next;
-} abnf_node;
+   struct rule *children;
+   struct rule *next;
+} rule;
 
 typedef struct {
     // whatever
@@ -93,6 +90,7 @@ exec_rule(regle, chaine, index):
         sinon longueur ← exec_rule(get_rule(regle), chaine, index)
 
         longueur_totale ← longueur_totale + longueur
+        index ← index + longueur
         regle ← get_next(regle)
 
     si longueur = -1 alors retourner -1
@@ -105,9 +103,10 @@ repetition(param, regle, chaine, index):
     longueur ← 1
     i ← 0
 
-    tant que i < max et longueur > 0 faire
+    tant que i != max et longueur > 0 faire
         longueur ← exec_rule(regle, chaine, index)
         longueur_totale ← longueur_totale + longueur
+        index ← index + longueur
         i ← i + 1
 
     si longueur = -1 ou si (longueur = 0 et i <= min) alors retourner -1
