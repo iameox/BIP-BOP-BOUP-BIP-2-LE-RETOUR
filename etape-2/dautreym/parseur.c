@@ -96,12 +96,13 @@ int main(void)
 		nombre_de_mots = compter_mots(lignes[index]);
 		printf("\n\n La ligne %d : \"%s\" contient %d mots. \n\n",index,lignes[index],nombre_de_mots);
 
+		taille_des_mots[index] = malloc(nombre_de_mots*sizeof(int));
+
 		for (index_mots = 0; index_mots < nombre_de_mots; index_mots++)
 		{
 			taille_mot_n = taille_mot(lignes[index] + total_decalage);
 			//printf("\n\n Le mot %d de la ligne %d contient %d char. \n\n",index_mots,index,taille_mot_n);
 
-			taille_des_mots[index] = malloc(nombre_de_mots*sizeof(int));
 			taille_des_mots[index][index_mots] = taille_mot_n;
 
 			mots[index][index_mots] = malloc(taille_mot_n*sizeof(char));
