@@ -1,74 +1,17 @@
-parser_requete(requete) :
-    arbre ← liste_chainee_vide()
-    arbre ← parser_http_message(arbre, requete, 0)
+repeat(fonction, min, max, chaine, index, resultat):
+    i ← 0
 
-    retourner arbre
-fin
-
-parser_http_message(arbre, requete, index) :
-    sous_chaine ← exclure_premiers_caracteres(requete, index)
-    references ← tableau(parser_start_line, parser_header_field, parser_crlf, parser_crlf, parser_message_body)
-
-    noeud ← nouveau_noeud("HTTP-message", sous_chaine, 0)
-    arbre ← inserer_noeud(arbre, noeud)
-
-    (noeud, est_valide) ← parser_abnf(noeud, sous_chaine, "start-line * ( header-field CRLF ) CRLF [ message-body ]", references)
-
-    si est_valide alors
-        noeud ← changer_longueur(noeud, __longueur__)
-    sinon
-        arbre ← supprimer_noeud(arbre, noeud)
-    fin si
-
-    retourner (arbre, est_valide)
-fin
+    tant que i < max faire
 
 
-parser_abnf(arbre, requete, format, references) :
-    caractere ← premier_caractere(requete)
-    continuer ← vrai
-    est_valide ← vrai
+    si i <= min alors resultat ← NIL
+    sinon resultat ←
 
-    est_chaine ← faux
-    est_nombre ← faux
-    est_nombre_pret ← faux
-    est_regle ← faux
-    est_repetition ← faux
-    est_repetition_avec_max ← faux
-    taille_chaine ← 0
-    repetition_min ← 0
-    repetition_max ← 0
 
-    tant que non(est_dernier_caractere(requete, caractere)) et continuer faire
-        si est_vchar(caractere) et est_chaine alors
+hex_val(chaine, index):
+    c ← get_char(chaine, index)
 
-        sinon si est_b_ou_d_ou_x(caractere) et est_nombre alors
+    si c != 'x' retourner NIL
+    c ← suivant(c)
 
-        sinon si est_etoile(caractere) alors
-        
-        sinon si est_guillemet(caractere) alors
-
-        sinon si est_slash(caractere) alors
-
-        sinon si est_parenthese_ouvrante(caractere) alors
-        
-        sinon si est_parenthese_fermante(caractere) alors
-
-        sinon si est_crochet_ouvrant(caractere) alors
-
-        sinon si est_crochet_ouvrant(caractere) alors
-        
-        sinon si est_pourcentage(caractere) alors
-
-        sinon si est_lettre(caractere) alors
-
-        sinon si est_chiffre(caractere) alors
-
-        sinon si est_blanc(caractere) alors
-        fin si
-
-        caractere ← caractere_suivant(requete, caractere)
-    fin tant que
-
-    retourner(arbre, est_valide)
-fin
+    n ← repeat()

@@ -13,7 +13,7 @@ int exec_rule(rule *rule, char *input, int index) {
     return length;
 }
 
-int exec_rules(rule *rule, char *input, int index) {
+int concatenation(rule_params *unused, rule *rule, char *input, int index) {
     int total_length = 0,
         length = 0;
 
@@ -35,8 +35,8 @@ int repetition(rule_params *params, rule *rule, char *input, int index) {
         length = 1,
         i = 0;
 
-    while (i != max && length > 0) {
-        length = exec_rules(rule, input, index);
+    while (i != max && length != -1) {
+        length = concatenation(NULL, rule, input, index);
 
         if (length != -1) {
             total_length += length;
@@ -46,12 +46,17 @@ int repetition(rule_params *params, rule *rule, char *input, int index) {
         i++;
     }
 
-    return length == -1 && i <= min ? -1 : total_length;
+    return i <= min ? -1 : total_length;
 }
 
-int alternation(rule_params *params, rule *rule, char *input, int index) {
-    int length = -1;
+// Raccourci pour générer des options, p = NULL.
+int option(rule_params *unused, rule *rule, char *input, int index) {
+    rule_params params = { { 0, 1 }, NULL, NULL };
+    return repetition(&params, rule, input, index);
+}
 
+int alternation(rule_params *unused, rule *rule, char *input, int index) {
+    int length = -1;
     while (rule != NULL && length == -1) {
         length = exec_rule(rule, input, index);
         rule = rule->next;
@@ -111,4 +116,8 @@ int char_val(rule_params *params, rule *rule, char *input, int index) {
     }
 
     return i < max ? -1 : length;
+}
+
+int parse(char *input) {
+    return concatenation(NULL, r->children, input, 0);
 }
