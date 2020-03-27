@@ -142,38 +142,6 @@ int nombre_espaces_apres_chaine(char *ligne)
 }
 
 
-
-/* Fonction prenant en entrée une chaine de caractères et un entier naturel
-non nul.
-Cette fonction retourne un pointeur vers la n-ième occurrence
-du caractère ' ' dans la chaine, NULL si non trouvé */
-
-/*
-char* trouver_mot_n_test(char *s, int n, int taille_ligne_n)
-{
-	int index_mots;
-        for(index = 0; index < nombre_de_lignes; index++)
-        {
-                printf("\n\n Ligne %d : \n%s \nTaille : %d \n",index,lignes[index],tailles_des_lignes[index]);
-                nombre_de_mots = compter_mots(lignes[index]);
-                printf("\n Nombre de mots dans la ligne %d : %d \n\n",index,nombre_de_mots);
-
-                char *mots[nombre_de_mots];
-
-                for(index_mots = 0; index_mots < nombre_de_mots; index_mots++)
-                {
-                        // ça va pas !!!!
-                        nombre_de_char = taille_mot(lignes[index])
-
-
-                        mots[index_mots] = malloc(nombre_de_char*sizeof(char));
-                        recopier(s,mots,nombre_de_char);
-                }
-        }
-}
-*/
-
-
 char* trouver_mot_n(char *s, int n, int taille_mot_n)
 {
 	supprimer_espace(s);
