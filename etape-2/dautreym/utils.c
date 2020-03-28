@@ -4,6 +4,7 @@
 
 #include "utils.h"
 
+
 /* Fonction prenant en entrée une chaine de caractères, et un caractère.
 Cette fonction compte et retourne le nombre d’occurrences du caractère
 dans la chaine. */

@@ -83,12 +83,16 @@ void tailles_mots(char *lignes[], int nombre_de_lignes, int *tailles_des_mots[],
 int parseur_ligne_1(char *ligne, int taille_ligne, char *mots[], int tailles_des_mots[])
 {
 	int to_return = 0;
+	int to_return_status;
+	int to_return_request;
 	if(taille_ligne >= 11)
 	{
 		printf("\n Début de la comparaison... \n\n");
-		to_return = (is_request_line(ligne,mots,tailles_des_mots) || is_status_line(ligne,mots,tailles_des_mots));
-		if (to_return && is_request_line(ligne,mots,tailles_des_mots)) printf("\n C'est une request_line !!\n\n");
-		else if (to_return && is_status_line(ligne,mots,tailles_des_mots)) printf("\n C'est une status line !!\n\n");
+		to_return_status = (is_status_line(ligne,mots,tailles_des_mots));
+		to_return_request = (is_request_line(ligne,mots,tailles_des_mots));
+		to_return = (to_return_status || to_return_request);
+		if (to_return_request) printf("\n C'est une request_line !!\n\n");
+		else if (to_return_status) printf("\n C'est une status line !!\n\n");
 		else printf("\n Ce n'est ni une request line ni une status line... \n\n");
 	}
 	return to_return;
@@ -150,18 +154,36 @@ int parseur_ligne_1(char *ligne, int taille_ligne, char *mots[], int tailles_des
 }
 
 
+
+
+
+
+
 /* Fonction chargée de parser la deuxième ligne d'une requête */
 /* Prend en entrée une chaine de caractères égale à la deuxième ligne de la requête */
 /* Retourne un entier 1 si la ligne est correcte syntaxiquement, 0 sinon */
-int parseur_ligne_2(char *ligne_2)
+int parseur_ligne_2(char *ligne, int taille_ligne, char *mots[], int tailles_des_mots[])
 {
-        return 0;
+	/* On assume que la ligne donnée en paramètre est soit un Host Header, soit un Transfer-Encoding-Header */
+	int to_return = 0;
+	if (taille_ligne > 0) to_return = is_host_header(ligne);
+	if (to_return == 0) printf("\n %s n'est pas un Host Header valide. \n\n",ligne);
+	else printf("\n C'est un Host Header valide !!!! \n\n");
+
+    return to_return;
 }
+
+
+
+
+
+
 
 int main(void)
 {
 	//char requete[500] = "GET / HTTP/1.1\nUser-Agent: Wget/1.16 (linux-gnu)\nAccept: */*\nHost: www.google.com\nConnection: Keep-Alive\0";
-	char requete[1000] = "GET /abc/ HTTP/1.1\nHost: www.cvedetails.com\nUser-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:44.0) Gecko/20100101 Firefox/44.0\nAccept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8\nAccept-Language: fr,fr-FR;q=0.8,en-US;q=0.5,en;q=0.3\nAccept-Encoding: gzip, deflate\nConnection: keep-alive";
+	char requete[500] = "POST /abc?language=fr HTTP/1.1\nHost: www.google.com\n";
+	// "POST /abc/def?language=fr HTTP/1.1\n"
 	//char requete[500] = "HTTP/1.1 / HTTP/1.1\n";
 
 	int nombre_de_lignes = compter_nombre_de_lignes(requete);
@@ -195,8 +217,9 @@ int main(void)
 
 	tailles_mots(lignes, nombre_de_lignes, tailles_des_mots, mots);
 	int resultat = parseur_ligne_1(lignes[0], tailles_des_lignes[0], mots[0], tailles_des_mots[0]);
+	int resultat_2 = parseur_ligne_2(lignes[1], tailles_des_lignes[1], mots[1], tailles_des_mots[1]);
 
-	printf("\n\n\n\n\n\n\n\n\n\n FIN DU CHARGEMENT . AFFICHAGE ... %d \n\n\n\n\n\n",resultat);
+	printf("\n\n\n\n\n\n\n\n\n\n FIN DU CHARGEMENT . AFFICHAGE ... %d %d \n\n\n\n\n\n",resultat,resultat_2);
 
 	int index_mots;
 	for (index = 0; index < nombre_de_lignes; index++)
@@ -212,7 +235,9 @@ int main(void)
 		printf("\n\n");
 	}
 
+
 	printf("\n\n It works !! \n\n");
+	//printf("\n\n %d %d %d %d \n\n", ((int) -2 < (int) -3), ((int) -2 < (int) -1), ((int) (-2) < (int) 1), ((int) -2 < (int) 257));
 /*
 	char test[3]; char test_advanced[4];
 	test[0] = 0x0D; test_advanced[0] = 0x0D;
