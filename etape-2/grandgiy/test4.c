@@ -718,7 +718,7 @@ int get_defined_as(char *abnf, int *index) {
     return return_value;
 }
 
-int get_rulename(string **rulename, char *abnf, int *index) {
+int get_rulename(string **rulename, char *abnf, int *index) { // No support for redefinition of rules
     char *base = abnf + *index;
     int length = 0,
         return_value = 0;
