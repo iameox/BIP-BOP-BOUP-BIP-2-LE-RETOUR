@@ -200,18 +200,20 @@ int parse(abnf_rule * rule, string str) {
 					break;
 				case '[': // optionnel, on cherche si il y est 
 				case '/': //OU
+					printf("OU\n");
 					i++;
 					if(valid == -1) { //on remet valide a 0 car il y a une autre possibilité
 						valid = 0;
 					}
 					break;
 				case ' ': //concaténation, on cherche les 2 règles à gauche et à droite
+					printf("CONCATENATION\n");
 					i++;
 					break;
 				default:
 					subrule = get_subrule(rule, i);
 					if( subrule != NULL) {
-						//printf("On applique la sous regle %s = \"%s\"\n", subrule->rule_name.str, subrule->expression.str);
+						printf("On applique la sous regle %s = \"%s\"\n", subrule->rule_name.str, subrule->expression.str);
 						valid = parse(subrule, tmp_str);
 						if(valid > 0) { //si règle vérifiée, on avance
 							//printf("ok, on avance de %d\n", valid);
@@ -249,7 +251,7 @@ void test(abnf_rule *rule, char * str, int size) {
 	int a = parse(rule, test);
 	printf("RESULTAT = %d\n", a);
 	if(a == size) printf("OK\n");
-	else printf("\n\nTEST RATE NUL NUL NUL\n\n");
+	else printf(" ============================================ TEST RATE NUL NUL NUL ============================================\n");
 }
 
 abnf_rule * EXISTING_RULES = NULL;
@@ -258,7 +260,7 @@ int main() {
 	abnf_rule *ALPHA = create_rule("ALPHA", 5, "", 0, 1, NULL);
 	abnf_rule *DIGIT = create_rule("DIGIT", 5, "", 0, 1, NULL);
 
-	rule_list *liste_tchar = malloc(sizeof(rule_list)), *liste_test = malloc(sizeof(rule_list));
+	rule_list *liste_tchar = malloc(sizeof(rule_list)), *liste_test = malloc(sizeof(rule_list)), *liste_test2 = malloc(sizeof(rule_list));
 	liste_tchar->rule = ALPHA;
 	liste_tchar->next = NULL;
 
@@ -270,6 +272,8 @@ int main() {
 	bwa->rule = tchar;
 	bwa->next = NULL;
 
+//tests unitaires, enfin vite fait
+	/*
 	abnf_rule *token = create_rule("token", 5, "1*3tchar", 7, 0, bwa);
 	abnf_rule *token2 = create_rule("token", 5, "*tchar", 6, 0, bwa);
 	abnf_rule *token13 = create_rule("token", 5, "1*3tchar", 6, 0, bwa);
@@ -281,11 +285,14 @@ int main() {
 	test(token, "bwa", 3);
 	test(token2, "bwa", 3);
 	test(token13, "bwa", 3);
-
+*/
 
 	//ZONE DE TEST
 	liste_test->rule = tchar;
-	abnf_rule *rtest = create_rule("test", 5, "tchar / DIGIT", 6, 0, bwa);
+	liste_test->next = liste_test2;
+	liste_test2->rule = DIGIT;
+	liste_test2->next = NULL;
+	abnf_rule *rtest = create_rule("test", 5, "tchar / DIGIT", strlen("tchar / DIGIT"), 0, liste_test);
 	test(rtest, "b0", 2);
 
 	return 1;
