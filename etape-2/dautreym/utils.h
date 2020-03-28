@@ -4,6 +4,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+
 int compter_caractere(char *s, char c);
 
 int compter_nombre_de_lignes(char *s);
