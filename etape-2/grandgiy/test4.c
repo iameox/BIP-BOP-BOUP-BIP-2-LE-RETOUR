@@ -31,7 +31,7 @@ void delete_last_concatenation(concatenation **head);
 concatenation *create_concatenation(concatenation **head);
 void delete_last_rule(rule **head);
 rule *find_rule(rule *head, string *rulename);
-rule *create_rule(rule **head);
+rule *create_rule(rule **head, string *rulename);
 int get_bin_or_dec_or_hex_val(bin_or_dec_or_hex type, num_val *num_val, char *abnf, int *index);
 int get_num_val(num_val **head, char *abnf, int *index);
 int get_char_val(string **char_val, char *abnf, int *index);
@@ -401,13 +401,14 @@ rule *find_rule(rule *head, string *rulename) {
     return element;
 }
 
-rule *create_rule(rule **head) {
+rule *create_rule(rule **head, string *rulename) {
     rule *new = malloc(sizeof(rule)), *element = *head;
     if (new == NULL) {
         fprintf(stderr, "Impossible d'allouer la mémoire.\n");
         exit(EXIT_FAILURE);
     }
 
+    new->rulename = rulename;
     new->concatenations = NULL;
     new->next = NULL;
 
@@ -738,7 +739,7 @@ int get_rulename(string **rulename, char *abnf, int *index) {
 }
 
 int get_rule(rule **head, char *abnf, int *index) {
-    rule *r = create_rule(head);
+    rule *r = create_rule(head, NULL);
     int previous_index = *index,
         return_value = 0;
 
@@ -760,6 +761,10 @@ int get_rulelist(rule **head, char *abnf) {
         index = 0,
         i = 0;
     
+    // Règles systèmes
+    create_rule(head, create_string("_CHAR_VAL", 9));
+    create_rule(head, create_string("_NUM_VAL", 8));
+
     while (is_valid) {
         if (get_rule(head, abnf, &index) == -1) {
             while (get_c_wsp(abnf, &index) != -1);
@@ -776,9 +781,8 @@ typedef struct node node;
 
 struct node {
     string *rulename;
+    string *content;
     node *children;
-    int length;
-
     node *next;
 };
 
@@ -786,13 +790,13 @@ void print_nodes(node *n, int i) {
     int j;
     while (n != NULL) {
         for (j = 0; j < i; j++) { printf(" "); } printf("name: "); print_string(n->rulename);
-        for (j = 0; j < i; j++) { printf(" "); } printf("length: %d\n", n->length);
+        for (j = 0; j < i; j++) { printf(" "); } printf("content: "); print_string(n->content);
         for (j = 0; j < i; j++) { printf(" "); } printf("children:\n"); print_nodes(n->children, i + 2);
         n = n->next;
     }
 }
 
-node *insert_node(node **head, string *rulename) {
+node *insert_node(node **head, string *rulename, string *content) {
     node *new = malloc(sizeof(node)), *element = *head;
     if (new == NULL) {
         fprintf(stderr, "Impossible d'allouer la mémoire.\n");
@@ -800,6 +804,7 @@ node *insert_node(node **head, string *rulename) {
     }
 
     new->rulename = rulename;
+    new->content = content;
     new->children = NULL;
     new->next = NULL;
 
@@ -825,6 +830,7 @@ void delete_last_node(node **head) {
         previous->next = NULL;
     }
 
+    delete_string(&(element->content));
     while (element->children != NULL) delete_last_node(&(element->children));
     free(element);
 }
@@ -834,8 +840,8 @@ int parse_rule(node **tree, string *rulename, unsigned char *input, int *index, 
 int parse_concatenations(node **tree, concatenation *c, unsigned char *input, int *index, int length, rule *head);
 int parse_concatenation(node **tree, concatenation *c, unsigned char *input, int *index, int length, rule *head);
 int parse_repetition(node **tree, repetition *r, unsigned char *input, int *index, int length, rule *head);
-int parse_char_val(node **tree, string *s, unsigned char *input, int *index, int length);
-int parse_num_val(node **tree, num_val *n, unsigned char *input, int *index, int length);
+int parse_char_val(node **tree, string *s, unsigned char *input, int *index, int length, rule *head);
+int parse_num_val(node **tree, num_val *n, unsigned char *input, int *index, int length, rule *head);
 int parse_num_val_set(node **tree, num_val_set *s, unsigned char *input, int *index, int length);
 
 int parse_rule(node **tree, string *rulename, unsigned char *input, int *index, int length, rule *head) {
@@ -845,11 +851,12 @@ int parse_rule(node **tree, string *rulename, unsigned char *input, int *index, 
 
     if (r == NULL) return_value = -1;
     else {
-        node *n = insert_node(tree, rulename);
+        //printf("Caractère : %d / Index : %d / Règle : ", *(input + *index), *index); print_string(rulename);
+        node *n = insert_node(tree, rulename, create_string((char *) input + *index, 0));
         return_value = parse_concatenations(&(n->children), r->concatenations, input, index, length, head);
 
         if (return_value == -1) delete_last_node(tree);
-        else n->length = *index - previous_index;
+        else n->content->length = *index - previous_index;
     }
 
     return return_value;
@@ -889,8 +896,8 @@ int parse_repetition(node **tree, repetition *r, unsigned char *input, int *inde
     while (i != r->max && is_valid) {
         if (type == RULENAME && parse_rule(tree, r->content.rulename, input, index, length, head) == -1) is_valid = 0;
         else if ((type == GROUP || type == OPTION) && parse_concatenations(tree, r->content.concatenations, input, index, length, head) == -1) is_valid = 0;
-        else if (type == CHAR_VAL && parse_char_val(tree, r->content.char_val, input, index, length) == -1) is_valid = 0;
-        else if (type == NUM_VAL && parse_num_val(tree, r->content.num_val, input, index, length) == -1) is_valid = 0;
+        else if (type == CHAR_VAL && parse_char_val(tree, r->content.char_val, input, index, length, head) == -1) is_valid = 0;
+        else if (type == NUM_VAL && parse_num_val(tree, r->content.num_val, input, index, length, head) == -1) is_valid = 0;
         else i++;
     }
 
@@ -902,7 +909,8 @@ int parse_repetition(node **tree, repetition *r, unsigned char *input, int *inde
     return return_value;
 }
 
-int parse_char_val(node **tree, string *s, unsigned char *input, int *index, int length) {
+int parse_char_val(node **tree, string *s, unsigned char *input, int *index, int length, rule *head) {
+    node *n = insert_node(tree, find_rule(head, create_string("_CHAR_VAL", 9))->rulename, create_string((char *) input + *index, 0));
     char *base = s->base;
     int previous_index = *index,
         return_value = 0,
@@ -914,21 +922,28 @@ int parse_char_val(node **tree, string *s, unsigned char *input, int *index, int
     }
 
     if (i < s->length) {
+        delete_last_node(tree);
         *index = previous_index;
         return_value = -1;
-    }
+
+    } else n->content->length = *index - previous_index;
 
     return return_value;
 }
 
-int parse_num_val(node **tree, num_val *n, unsigned char *input, int *index, int length) {
-    int return_value = -1;
+int parse_num_val(node **tree, num_val *v, unsigned char *input, int *index, int length, rule *head) {
+    node *n = insert_node(tree, find_rule(head, create_string("_NUM_VAL", 8))->rulename, create_string((char *) input + *index, 0));
+    int previous_index = *index,
+        return_value = -1;
 
-    if (*index < length && n->type == MIN_MAX && n->value.min_max[0] <= *(input + *index) && *(input + *index) <= n->value.min_max[1]) {
+    if (*index < length && v->type == MIN_MAX && v->value.min_max[0] <= *(input + *index) && *(input + *index) <= v->value.min_max[1]) {
         return_value = 0;
         (*index)++;
 
-    } else if (n->type == SET) return_value = parse_num_val_set(tree, n->value.set, input, index, length);
+    } else if (v->type == SET) return_value = parse_num_val_set(tree, v->value.set, input, index, length);
+
+    if (return_value == -1) delete_last_node(tree);
+    else n->content->length = *index - previous_index;
 
     return return_value;
 }
@@ -966,8 +981,12 @@ int main () {
     else {
         printf("ABNF parsé avec succès.\nParsing de la requête...\n");
         if (parse_http_request(&tree, input, strlen((char *)input)) == -1) printf("Requête invalide.\n");
-        else printf("Requête parsée avec succès.\n");
-        print_nodes(tree, 0);
+        else {
+            printf("Requête parsée avec succès. Affichage du contenu :\n");
+            print_nodes(tree, 0);
+        }
+
+        //printf("\nAffichage des règles :\n");
         //print_rules(rulelist);
     }
 }
