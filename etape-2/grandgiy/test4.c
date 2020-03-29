@@ -239,16 +239,16 @@ int compare_insensitive(char c1, char c2) {
 
 int compare_strings(string *s1, string *s2) {
     char c1, c2;
-    int return_value = 0,
+    int return_value = 1,
         i = 0;
 
-    if (s1->length != s2->length) return_value = -1;
+    if (s1->length != s2->length) return_value = 0;
     else {
-        while (i < s1->length && return_value == 0) {
+        while (i < s1->length && return_value) {
             c1 = *(s1->base + i);
             c2 = *(s2->base + i);
 
-            return_value = compare_insensitive(c1, c2) ? 0 : -1;
+            return_value = compare_insensitive(c1, c2);
             i++;
         }
     }
@@ -419,7 +419,7 @@ void delete_last_rule(rule **head) { // There is at least a rule
 rule *find_rule(rule *head, string *rulename) {
     rule *r = head, *element = NULL;
 
-    while (r != NULL && compare_strings(r->rulename, rulename)) r = r->next;
+    while (r != NULL && !compare_strings(r->rulename, rulename)) r = r->next;
     if (r != NULL) element = r;
 
     return element;
@@ -454,19 +454,19 @@ int get_bin_or_dec_or_hex_val(bin_or_dec_or_hex type, num_val *num_val, char *ab
         base;
 
     if (type == BIN) {
-        c = 'b';
+        c = 'B';
         base = 2;
 
     } else if (type == DEC) {
-        c = 'd';
+        c = 'D';
         base = 10;
 
     } else {
-        c = 'x';
+        c = 'X';
         base = 16;
     }
 
-    if (*(abnf + *index) != c) return_value = -1;
+    if (!compare_insensitive(*(abnf + *index), c)) return_value = -1;
     else {
         (*index)++;
 
@@ -796,8 +796,8 @@ int get_rulelist(rule **head, char *file_name) {
         exit(EXIT_FAILURE);
     }
 
-    fseek(f, 0, SEEK_END); // seek to end of file
-    int size = ftell(f); // get current file pointer
+    fseek(f, 0, SEEK_END);
+    int size = ftell(f);
     rewind(f);
 
     char *abnf = malloc(size * sizeof(char));
@@ -962,7 +962,7 @@ int parse_char_val(node **tree, string *s, unsigned char *input, int *index, int
     string *content = create_string((char *) input + *index, content_length);
     insert_node(tree, find_rule(head, create_string("_CHAR_VAL", 9))->rulename, content);
 
-    if (!compare_strings(s, content)) *index += content_length;
+    if (compare_strings(s, content)) *index += content_length;
     else {
         delete_last_node(tree);
         return_value = -1;
