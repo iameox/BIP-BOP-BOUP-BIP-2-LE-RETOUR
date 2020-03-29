@@ -39,6 +39,11 @@ int is_digit(char c) {
 	return(c >= 0x30 && c <= 0x39);
 }
 
+int is_char(char c, string s) {
+	if(s.size == 0) return 0;
+	if(c == s.str[0]) return 1;
+	else return -1;
+}
 
 //Retourne 1 si la chaine sub est présente dans str à partir de start
 /*int is_subchain(string sub, string str, int start) {
@@ -127,23 +132,43 @@ abnf_rule * get_subrule(abnf_rule * rule, int start) {
 	else return NULL;
 }
 
+int bite = 0;
 //valid > 0 : ok et c'est la taille qu'il faut avancer
 //valid = 0 : 
 //valid < 0 : règle fausse
 int parse(abnf_rule * rule, string str) {
-	int i = 0,
+	int i = 0, j,
 	    k, a, b,
 	    valid = 0,
 	    match = 0;
 	abnf_rule * subrule = NULL;
 	string tmp_rule = {rule->expression.str, rule->expression.size},
 		   tmp_str = {str.str, str.size},
-		   parenthese;
+		   tmp_subrule;
+
+	for(int f = 0 ; f < bite ; f++) printf("\t");
+	printf(">>>ON ENTRE DANS %s ET STR = \"%s\"\n", rule->rule_name.str, str.str);
+	bite++;
+	
 
 	if(!(rule->is_terminal)) {
-		while(i < rule->expression.size && valid != -1) {
+		while(i < rule->expression.size) {
 			switch(rule->expression.str[i]) {
+				case '"':
+					i++;
+					match = is_char(rule->expression.str[i],tmp_str);
+					if(match > 0) { //si règle vérifiée, on avance
+						//printf("\"%c\" match un caractère entre guillemets\n", rule->expression.str[i]);
+						valid += match;
+						tmp_str.str += valid;
+						tmp_str.size -= valid;
+					}
+					i += 2;
+					tmp_rule.str+= 3;
+					tmp_rule.size-=3;
+					break;
 				case '*': //récup les digits avant et après, et répéter la règle
+					//printf("REPETITION\n");
 					if(i == 0) {
 						a = 0;
 					} else {
@@ -163,9 +188,18 @@ int parse(abnf_rule * rule, string str) {
 						i++;
 					}
 					i++;
+					tmp_rule.str++;
+					tmp_rule.size--;
 					k = a;
-					subrule = get_subrule(rule, i);
-					if( subrule != NULL) {
+					if(rule->expression.str[i] == '(') {
+						//FAUT GERER LES CAS TYPE (C (A/B) D)
+						j = 1;
+						while (rule->expression.str[j] != ')' || rule->expression.str[(j-1)] == '"') j++;
+						subrule = create_rule("jsp cque jfais", strlen("jsp cque jfais"), tmp_rule.str + 1, j-1, 0, rule->elements);
+					} else {
+						subrule = get_subrule(rule, i);
+					}
+					if(subrule != NULL) {
 						//printf("On va appliquer %s = \"%s\" de %d à %d sur la chaine \"%s\"\n", subrule->rule_name.str, subrule->expression.str,a,b, tmp_str.str);
 						match = 1;
 						while(k != b && match > 0) {
@@ -178,10 +212,9 @@ int parse(abnf_rule * rule, string str) {
 							}
 							k++;
 						}
-
-						if(match < 0 && k >= a && k < b) {
+						if(match < 0 && k <= a+1 && a != 0) {
 							valid = -1;
-						} else if (k <= b && match > 0) {
+						} else if (k == b && match > 0) {
 							match = parse(subrule, tmp_str);
 							if(match > 0) { //si règle vérifiée, on avance
 								tmp_str.str += match;
@@ -192,66 +225,92 @@ int parse(abnf_rule * rule, string str) {
 						i += subrule->rule_name.size;
 					} else {
 						i++;
+						tmp_rule.str++;
+						tmp_rule.size--;
 					}
 					break;
 				case '(': // système de stack pour les expressions parenthèsées? 
 					// OWS A GERER
+					//printf("parenthèses\n");
 					i++;
+					tmp_rule.str++;
+					tmp_rule.size--;
 					break;
 				case '[': // optionnel, on cherche si il y est 
 				case '/': //OU
-					printf("OU\n");
+					//printf("OU\n");
 					i++;
-					if(valid == -1) { //on remet valide a 0 car il y a une autre possibilité
+					tmp_rule.str++;
+					tmp_rule.size--;
+					if(valid == -1) { //on remet valid a 0 car il y a une autre possibilité
 						valid = 0;
+					} else if (valid > 0){
+						bite--;
+						for(int f = 0 ; f < bite ; f++) printf("\t");
+						printf("<<< MDR ON SORT DE %s, valid = %d\n", rule->rule_name.str, valid);
+					 	return valid;
 					}
 					break;
 				case ' ': //concaténation, on cherche les 2 règles à gauche et à droite
-					printf("CONCATENATION\n");
+					//printf("CONCATENATION\n");
 					i++;
+					tmp_rule.str++;
+					tmp_rule.size--;
 					break;
 				default:
 					subrule = get_subrule(rule, i);
 					if( subrule != NULL) {
-						printf("On applique la sous regle %s = \"%s\"\n", subrule->rule_name.str, subrule->expression.str);
-						valid = parse(subrule, tmp_str);
-						if(valid > 0) { //si règle vérifiée, on avance
-							//printf("ok, on avance de %d\n", valid);
+						//printf("On applique la sous regle %s = \"%s\"\n", subrule->rule_name.str, subrule->expression.str);
+						match = parse(subrule, tmp_str);
+						if(match >= 0) { //si règle vérifiée, on avance
+							valid += match;
 							tmp_str.str += valid;
 							tmp_str.size -= valid;
+						} else {
+							valid = -1;
 						}
 						i += subrule->rule_name.size;
+						tmp_rule.str+= subrule->rule_name.size;
+						tmp_rule.size-= subrule->rule_name.size;
 					} else {
 						i++;
-						printf("jsp\n");
+						tmp_rule.str++;
+						tmp_rule.size--;
 					}
 					
 					break;
 			}
-			tmp_rule.str++;
-			tmp_rule.size--;
+			//printf("checkup, char = \"%c\" = \"%c\", i= %d \n",rule->expression.str[i], tmp_rule.str[0],i);
+			
 		}
 	} else { //Règles terminales
 		if(!strcmp(rule->rule_name.str,"ALPHA")) {
-			if(str.size == 0) return 0;
-			else if(is_alpha(str.str[0])) return 1;
-			else return -1;
+			if(str.size != 0 && is_alpha(str.str[0])) valid = 1;
+			else valid = -1;
 		} else if(!strcmp(rule->rule_name.str,"DIGIT")) {
-			if(str.size == 0) return 0;
-			else if(is_digit(str.str[0])) return 1;
-			else return -1;
+			if(str.size != 0 && is_digit(str.str[0])) valid = 1;
+			else valid = -1;
+		} else if(!strcmp(rule->rule_name.str,"QUOTES")) {
+			if(str.size != 0 && is_char(rule->expression.str[0], str)) valid = 1;
+			else valid = -1;
 		}
 	}
 
+	//if(valid > 0) {
+	//	printf("\"%s\" (%d) match la règle %s = \"%s\", valid = %d\n", str.str, str.size, rule->rule_name.str, rule->expression.str, valid);
+	//}
+	bite--;
+	for(int f = 0 ; f < bite ; f++) printf("\t");
+	printf("<<<ON SORT DE %s, valid = %d\n", rule->rule_name.str, valid);
 	return valid;
 }
 
 void test(abnf_rule *rule, char * str, int size) {
 	string test = {str, size};
 	int a = parse(rule, test);
-	printf("RESULTAT = %d\n", a);
-	if(a == size) printf("OK\n");
-	else printf(" ============================================ TEST RATE NUL NUL NUL ============================================\n");
+	printf("*** RESULTAT = %d\n", a);
+	if(a == size) printf("*** OK : \"%s\" (%d) match la règle %s = \"%s\"\n", test.str, test.size, rule->rule_name.str, rule->expression.str);
+	else printf("*** KO : \"%s\" (%d) ne match PAS la règle %s = \"%s\"\n", test.str, test.size, rule->rule_name.str, rule->expression.str);
 }
 
 abnf_rule * EXISTING_RULES = NULL;
@@ -259,24 +318,27 @@ abnf_rule * EXISTING_RULES = NULL;
 int main() {
 	abnf_rule *ALPHA = create_rule("ALPHA", 5, "", 0, 1, NULL);
 	abnf_rule *DIGIT = create_rule("DIGIT", 5, "", 0, 1, NULL);
+	abnf_rule *QUOTE = create_rule("QUOTE", 5, "", 0, 1, NULL);
 
-	rule_list *liste_tchar = malloc(sizeof(rule_list)), *liste_test = malloc(sizeof(rule_list)), *liste_test2 = malloc(sizeof(rule_list));
+	rule_list *liste_tchar = malloc(sizeof(rule_list)), *liste_test = malloc(sizeof(rule_list)), 
+			  *liste_tchar2 = malloc(sizeof(rule_list)),
+			  *liste_token = malloc(sizeof(rule_list));
 	liste_tchar->rule = ALPHA;
-	liste_tchar->next = NULL;
+	liste_tchar->next = liste_tchar2;
+	liste_tchar2->rule = DIGIT;
+	liste_tchar2->next = NULL;
 
 
-	abnf_rule *tchar = create_rule("tchar", 5, "ALPHA", 5, 0, liste_tchar);
+	char * tchar_exp = "\"!\" / \"#\" / \"$\" / \"%\" / \"&\" / \"'\" / \"*\" / \"+\" / \"-\" / \".\" / \"^\" / \"_\" / \"`\" / \"|\" / \"~\" / DIGIT / ALPHA";
+	abnf_rule *tchar = create_rule("tchar", 5, tchar_exp, strlen(tchar_exp), 0, liste_tchar);
 
-	rule_list * bwa = malloc(sizeof(rule_list));
-
-	bwa->rule = tchar;
-	bwa->next = NULL;
-
+	liste_token->rule = tchar;
+	liste_token->next = NULL;
 //tests unitaires, enfin vite fait
-	/*
-	abnf_rule *token = create_rule("token", 5, "1*3tchar", 7, 0, bwa);
-	abnf_rule *token2 = create_rule("token", 5, "*tchar", 6, 0, bwa);
-	abnf_rule *token13 = create_rule("token", 5, "1*3tchar", 6, 0, bwa);
+	
+	abnf_rule *token = create_rule("token", 5, "1*tchar", 7, 0, liste_token);
+	abnf_rule *token2 = create_rule("[token]", 5, "*tchar", 6, 0, liste_token);
+	abnf_rule *token13 = create_rule("tokenmaisjfaiscquejveux", 5, "1*3tchar", 8, 0, liste_token);
 
 	test(token, "", 0);
 	test(token2, "", 0);
@@ -285,15 +347,15 @@ int main() {
 	test(token, "bwa", 3);
 	test(token2, "bwa", 3);
 	test(token13, "bwa", 3);
-*/
 
+	printf("============================================================================================\n");
 	//ZONE DE TEST
-	liste_test->rule = tchar;
-	liste_test->next = liste_test2;
-	liste_test2->rule = DIGIT;
-	liste_test2->next = NULL;
-	abnf_rule *rtest = create_rule("test", 5, "tchar / DIGIT", strlen("tchar / DIGIT"), 0, liste_test);
-	test(rtest, "b0", 2);
+	
+	char * my_rule = "1*3(tchar / DIGIT)";
+	abnf_rule *rtest = create_rule("test", 5, my_rule, strlen(my_rule), 0, liste_tchar);
+
+	char * requete = "!#$%&!b!";
+	test(token, requete, strlen(requete));
 
 	return 1;
 }
