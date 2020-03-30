@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer: F://M@[::0.197.252.68]/Bz/zB%5E( 		 	 
+Accept:	
+Referer:   	 		  b://9C2GA@[vE66.BG]:73//l)8T%08      
+

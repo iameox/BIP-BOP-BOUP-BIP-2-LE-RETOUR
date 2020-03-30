@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Charset: gWHA						; 					q=0. 	 	, 	1JW#    , 		 				3.RL 		 	 	  				; q=0.7	 	 	 		 		    				 , 	,  		`  
+

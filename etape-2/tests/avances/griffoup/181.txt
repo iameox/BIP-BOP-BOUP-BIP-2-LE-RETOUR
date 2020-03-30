@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	 				 KYs~d=1?; J="S"; 3yIbQJj=N3Cqn+^z>]k<a^~; .fo#CSQY`jg4kr.=""	  			
+

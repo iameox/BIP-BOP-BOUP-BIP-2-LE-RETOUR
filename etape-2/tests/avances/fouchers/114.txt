@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:, , 	,	 z4^    ;q=1,	 ,			 	 	  	 	S,	,3ut'L&.d		 ,*  ; 			  	q=0. 		,    ,  	Q-K~| 	 		 ;			q=0.    	 ,		oj~2^6n52  ;	 		  q=0.907	  ,	 	,s		 ;q=0
+Cookie:	 x="Ppb"; sPc=""  
+

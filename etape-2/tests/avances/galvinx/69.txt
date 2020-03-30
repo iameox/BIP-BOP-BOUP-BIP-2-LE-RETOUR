@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Language:			, cY	 ;	q=0		, l   	; q=0			  		  	
+Accept-Language:	,	 ,		,	   , ,, 		   	 P-n-Jz-x-8-C-IP-Mw-X-x-Sow-T-Q-v-8T1	;   q=0  	 ,
+Accept-Language:,	    ,		 ,		 ,,	    		 ZBEc	   ;  	   	 	 	q=0		 	,  	, 	 
+Accept-Language:		, 	,	, 		 	,			 U-C-C     					 		; 	 	q=0
+Accept-Language:   , ,	,			 	 	 ZE-C-Dt-b;	 	q=0.65 				  ,  	 Nr	 		 		   	; 	    	 q=0		 
+

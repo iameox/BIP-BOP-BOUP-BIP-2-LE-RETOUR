@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Host:	  			[CD71::216.145.247.3]
+Transfer-Encoding: 9		,   deflate   ,	 	 , 	 |FbfD4		,, Xf,1h ;	yH	= 	 	#f5+	,$e ;	 MJ3=    "\%ÞáS-\üºü" 		 		  	;ZoM`z.rSM7z =	 	"`\"" 		 ; 		 	 	nTvBkratZ	  = 	"\³\”Š"	, 
+Transfer-Encoding:, 	 	  	,,	  ,,	,,	 					 	  ,chunked,,3r; 		 -k1   ="m\ï|"	;B!DX= 	DP	;7%=	 "ÜX"	 			;	  		j		 		= 			  	"\n¾" 	  ; 	   2p	 			=""  	    ; 	 		c= 		 edwKQ5 ,  OB;-6T#5^2~qdpb 	 		="\K"	;	 			b=	N 	  	 ;		  	4		 	="\š\ëó?\¹"	   			;	  `	  			  	 ="" ;  	I	  =	"1\é\úü";   				   				FOuK=	"\2\V\4\¶"  ;   	Dy    =""	 		
+Host:250.49.79.213 	
+

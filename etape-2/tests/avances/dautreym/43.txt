@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	 	w:7241	 
+Transfer-Encoding:	,	 , 	 ,  , 	,, ,,,   ,	 	 t8  , 		 		  			 			  	   
+

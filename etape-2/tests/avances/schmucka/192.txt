@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:  	  , ,, 	 	,  ,,,   , 	  ,, ,    	 ,,	  ,		,   ,,  	  ,,  ,	   	   	,	 	 			 	  ,	, , 	 	 	   m&-	 ; 	   q=0. 	, 	5	, d  	;q=0  ,&	 
+Cookie:	    MwsXz=1}Z9; kSHIG=wD$9?)KC		 	   
+Cookie:						 |#|ul-qG#=""	  	
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Encoding:    		 		 	 	 	 
+Content-Type:	kpoWLu/^Au	 				 		 
+Content-Type:		  	5#/y-^nf    ;	 	  qx=""
+

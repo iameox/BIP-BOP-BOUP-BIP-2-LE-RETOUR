@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:	 	rv	
+Accept-Language:, P-W 	; 	q=0				 	,  	 			 		   	j-X	 	   	,  
+

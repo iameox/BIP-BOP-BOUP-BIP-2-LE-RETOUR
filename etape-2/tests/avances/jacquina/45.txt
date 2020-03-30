@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:,  ,	,	3YH,		,,  
+Transfer-Encoding:	 gzip		 , 		, 	   	  	  Q$5b ,		 cPFyY7	; 	 		R			=""	 ;   	a=	"\š\€" 		; 		  	 	`175	 	  =	"\ù\ " 	   	;is=	 					 	 "¤\Ö"  	   	;X!="u"  		; 	  Dhv9= ""		   						 ;	z6        	  = 				"";	 K!  		=	"\ùÿ"			   	; 	   	    	UGSMK+Si.i`tq=			 	 	 Wq	
+

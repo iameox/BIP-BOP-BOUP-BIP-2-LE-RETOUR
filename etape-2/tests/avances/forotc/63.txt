@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Encoding:	,, ,k
+Accept-Encoding: 		 			 		 	 
+Referer:		  Zmm/6/%79rI//~/Q/S:b--?@	 
+

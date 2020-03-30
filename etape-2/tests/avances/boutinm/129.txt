@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:    90%=""; Z7|Z=&B{I]H5%X; |=(*nSJcH/
+Cookie:	 %EI="oo6"; A=a^p}i 	  		
+Cookie:	 t.1=#PKN  	 
+

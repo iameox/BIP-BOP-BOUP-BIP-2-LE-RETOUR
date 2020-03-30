@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:[EF:ED9F:008B:D::237.250.38.15]
+Accept:	 	  */8P'nPi  ;E^~8v'S79=` 
+

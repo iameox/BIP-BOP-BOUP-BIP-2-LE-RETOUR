@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie: 	   	$9B1oE%0VT="m"		  		
+User-Agent:  QT 			 	()
+Cookie:	+rgTwCY="%h2bO'"; u="!Ljq*3*C"; g~=""; n= 	
+

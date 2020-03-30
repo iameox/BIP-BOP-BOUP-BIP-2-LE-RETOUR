@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:  		 			  	     	   	  pDED/1N8.n		   ; 		 ^Xf="" 	; -="kR\n"	 		 	  	 	   ;xhjHr=""
+

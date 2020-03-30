@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:		   LJ://R@[::79:63:1:3:B:209.8.250.25]:7 
+Referer:		  tW://236.65.255.150/A
+Referer: 		/?-   
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+User-Agent:	U!/tG^	 	 
+Accept-Language:	 		jnsI-Sg-f-y-sB-e4-pm	
+Accept-Language:,		Qd-Lkj-dNWy-9LeSar-F5X6qCJ-Dh9fmg-I-K-I0-4f-uM				 			
+

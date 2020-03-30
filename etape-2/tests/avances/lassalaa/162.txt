@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 	^AQ="P)"; 6=$; us="3"; Gq|6^bb="pt"; Woi0ST6HC=:OV; Q=F$G6; 4W=(5>n; G1P="u7" 
+Cookie:Vd=>t7hc; #2EmUD!ek7n~3="e6W9eic"			 
+

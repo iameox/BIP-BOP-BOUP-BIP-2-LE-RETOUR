@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:&'=; mc5=g4G=o; IG="E"	
+User-Agent:	F/y	
+

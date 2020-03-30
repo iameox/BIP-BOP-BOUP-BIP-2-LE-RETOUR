@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:	f:pd///(%17Ln%90i!k/K:$;kh%BEGS%92(%BC://=zj  	 	
+Accept-Encoding:#yV3fgiNOb~y	   			 		   	   ,		 $R'!w  	 		 
+

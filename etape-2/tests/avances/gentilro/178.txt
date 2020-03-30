@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		 G="_L"; bH=&DC; 4gmg3LSH&`XTL="YkUyj[" 
+

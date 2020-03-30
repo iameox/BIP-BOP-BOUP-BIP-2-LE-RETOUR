@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		 				!J6U%53&="n"; e="z.!a" 
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer: //Wg%56@!:3780///A//o?%7B   
+

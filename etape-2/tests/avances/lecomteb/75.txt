@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:   	  	 	 aXls=""; F=E; TH=; tr="/^ZD*DY"		  
+Content-Type:t1ULw/akE				 		; d="\n\ð‚À>”\Ç"   	  	; 			8wS94~GR="Þ\#"  	;`c+="o"  	
+Cookie:`=R; 6uUY="3f)5S"; YJdyODoZ="-$KM" 		 			
+

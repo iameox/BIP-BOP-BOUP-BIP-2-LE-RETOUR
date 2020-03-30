@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:		 	z ; 	  		  		l3F`E*CF1 =    		 "\‚\ï" 	   	 		  	 			 	 ,	 z+c;  			6z  		=	 	 	 "\Ž";  dZfv		=   				"";MO57gGdrN=  			"«"  ,  	pdKX;  	dcQiX	   = "5\xö\y\úg\óÆ"	 	   ;	 2O3Be	  = "\‚\±ü"; v95^sE  =   			 	 		"\$¸\Y"    ; 	 	 	u4C%			  =   "s"  ; 	H#n$'=	   eS	     	;3		= 		    			""		 	 ;XO9juH= 	   	"",
+

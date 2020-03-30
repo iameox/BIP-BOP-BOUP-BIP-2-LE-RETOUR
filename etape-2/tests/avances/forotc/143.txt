@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:				  	 L		,Kbh, 		,  	   	  	3 		; q=1.000 	 	
+Referer:tIbM://%0BP'@b7/%88O4/%2E%37W%21e/zJC%55/%255_y///C.
+

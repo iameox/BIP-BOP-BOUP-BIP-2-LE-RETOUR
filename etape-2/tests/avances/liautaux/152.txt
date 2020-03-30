@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:	,		 		 			    u0jcwjU8$~prQhQf	,		 
+Cookie:		  	  Q=f
+

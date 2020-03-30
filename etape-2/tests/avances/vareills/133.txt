@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language: 		, 		  q-muH-d7-M	; 	 		    q=0.	,	  h-ir6-o-WJ			
+Content-Type:			m/-j;UAF="q\&\!É\◊\;\‚–\}»‚" 	  ;	 		 	5QjCrR#T=""	;	   		H=2A	;  of.$w="\ç\‚\/À§\„";	 	   `lUWr="" 	  ; C`s8_#="÷»	C\‡è" ; 	 		 gl%~$.|YC6ZM="\="				; u8.s0K+&*v%="" ;	  	f%B-="\É\ß\ˆ\)";	vuA="\(" 			 	 
+

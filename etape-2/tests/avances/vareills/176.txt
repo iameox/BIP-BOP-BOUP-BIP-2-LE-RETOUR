@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type:1a%/%;'M2bZ7v3="\ŒÄ" 	  	 ;+%S!Uk!|q="\i";s!0WN+|M="\L\«\ä\3" 	  
+Content-Type:		4sPJ/7		;bM~="\EØ"		  	;2Az$="á"		;8V&N``=-#|1F 
+Accept-Language:		   			,  ,  	 N-g6u-6AZABo6-u2-r2-7P-jS8-n-uQ2uJ-uX-K ;	q=0      		 		 ,	 ,   	    	 
+

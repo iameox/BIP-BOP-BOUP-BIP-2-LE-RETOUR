@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:zGcJ=; ZFg'|1=^EWyfr; aX="uY4=k"; 4hsx="5"; QO%q=08; !&o$jHq={gw	  
+

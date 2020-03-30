@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:	   	 	k7="8f"; VJB=)nP		 
+Accept-Charset:  , 		  , 			 		  			 	  eBiapV	 ;  	q=0 , 		 ,	*; 	 	  	 			q=1 	     	 	  
+Accept-Charset:	 ,			    	 , 			 	2mg5cL0e0	,		
+

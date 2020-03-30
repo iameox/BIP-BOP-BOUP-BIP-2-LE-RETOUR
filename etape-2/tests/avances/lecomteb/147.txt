@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	  9p1C*6H1!=""; Yb=jef^s; &tdEr=Fh:/(; Fn&mJNN=; dBHVA=""
+Cookie:vF=""; Ql17HDFuNga="hA"; xVp=2)j0@#4					
+

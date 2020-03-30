@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Encoding:  	
+Referer:			 	 	u://[vEAC31A.7U]/'rQ;Wb%34Q%A2E/4%B37P/b%A8? 	
+Referer: 	)=%E2/F/(XS3T%BAy%6A%96Yd/x0v//S/i/V-R?u8o 			 	 	
+

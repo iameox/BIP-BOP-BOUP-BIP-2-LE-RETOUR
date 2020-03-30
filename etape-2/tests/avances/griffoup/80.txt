@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: 	 ,,	 	 ,	 		 y%-S ;	y&	=  	 	   	 			"S\¥";8=			"[\Î5\’\w#\žÝ\Ä\SŒ\•";		gqy= 			 	  "ÿ\’|"	  		 ,  					 		 
+Cookie:	H=oms_'VWa
+

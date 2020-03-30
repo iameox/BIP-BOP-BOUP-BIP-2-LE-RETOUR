@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:		 ,,			 	 		    #xO		;		q=0,    		 
+Referer:     		  		 	//255.223.140.219:687139//W/nTeha%F2eAJr%99u0K%01P%54An_b/0%9D/=j%82@/%780?W	
+Referer:	     		%D2/U!ABK%4C5Q8d/OZ	 	  
+

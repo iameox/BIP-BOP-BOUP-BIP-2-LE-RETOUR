@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:+43v+9=":qE81@[q"; 8="}_gx"; 3M="R"; 5%b=M; %~C=	   	  
+Cookie: 5QwpT2E.=p; X="48ZZnh~MU7"; fA=E; Srbh6enm*1=; .kjk=--	  	  	
+

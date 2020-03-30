@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:			PGf="O[fBy"; cI=Dv'se-`SxE; 0k=	  
+Content-Type:	 	De_/a 	;TW7Zj="\‚"		
+

@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Language: ,, 	 Cc-RN-j-LR-ynb-P		,				 	, 		 	HW-0oRZahaw-7-Eq-s9-H-z2L5-j-M2o-4n-8-68-Wr4-AH ;q=0,  b-D2 ,		    	 	   ,	  ,	 ,	,	  	   fclI-K,,		 NC-p7-bz8-l-rXnYB-h-ZTX-p-ilYDIi-Fj-6-j-dd-j-lS-VG-5-E-Wl-YH3-9IDN-qMB-n-m-r-c-n-x-8-KKU-R-PQ
+Accept-Language: ,			  ,		,,ar-Zb-E-z-ACAu  ; 		 			 q=1.0
+Content-Type:  	*/BWy4		; 	4IYcWseY9+Y="\v"
+Content-Type:			H%-/o  	;	   	 9a="ô\… \ú"		 	 		;  	   yWfZB="!Ú\N\.F"		;EUv="®ˆ\mr\/"	;	 	  %Demn="\"\b\Û\	" 					; 	F3uCn&n&="G" 	 ;tY="k\É³\U"	 ; 	N1="Õ‡";  evHB=""
+Content-Type:C''HjXf/MKYyy ; `&="\F\=5ð\Í"  
+

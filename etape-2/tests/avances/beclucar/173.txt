@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:   	 	   N  ;q=0.	   	   	      , `Cg'   
+Content-Type:	  5/0+Y ; 	7Z*="\Ó" ;	eZ=Ib-a ;	+BJ="mä\Íé\®\K" ;GN=""; 		X&e="Ý\+\#\W"		; 		 2="œ" 	  			 	;h="\1\‚\[Ú®E\Ø"; 	 GH="\DÁ\ŽY\ëgo"; 	hx="\3\•\Í\œ"   	  	; 	 	Zhx="\¶\Y´\éë"   ;pyG&GA4q="Š\á\åÁ4\W×U"  	  
+

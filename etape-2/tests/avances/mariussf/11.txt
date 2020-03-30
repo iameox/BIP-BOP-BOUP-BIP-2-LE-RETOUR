@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:,			,  , 	,	 			 					,i-XzOwr_27LKu^_W.PnMfwt	 ;	ogaD#+kPz^tig||^	=     	"" ,~F9cev&yc+* 	 ;  		 		    	 q-b7+*YqP8=  	"x\¸\6\v†-ÔÕ\þ"  ,		,	deflate 	,	 A		 		 			 ;			  vc	  =	""				 	   	 	     
+Host: 	   		 [vF8._]
+Transfer-Encoding: 	,   , ,,,	 ,,		 ,   ,	 	d
+

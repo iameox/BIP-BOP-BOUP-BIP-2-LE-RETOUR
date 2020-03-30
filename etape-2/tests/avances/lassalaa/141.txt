@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Cookie:	  18*E=""; 'woFN=@/c5; y`YFwLKk_wI="z?"; Zg="R"; RY&eHE9kcehq=R??; .iBZYs_Tb=; cA^hWY&V="Zp#zj"; _0rp~q2=pzcEJ; _uBrv="]"; r6E-=g}R; Xj=Jd; oyM%!tv%j=""   		
+Content-Type:	 	UbV/Y_b	;		 Ti=""	 	    	;   	b5="" 		;  	E="\…\¿Ã"    			;		  OT|^.="\¸"		 
+Content-Type: 	t/6Z+L|	    ;		|8V6q="\œ\FÂ\Ç" 		 		 ;	 6EWoJqO*n="¢" 		;			  	  		%-n="\©,"	;	     	 	Tr="" ;	  PToU="\µr"  ;U="" 
+Content-Type:	H/+e;		5="Í˜}";   Baq-0&l~kCD="\X"  	 	  		  	;	 	  y="\B\ö\×\•\n" 		   ;	  G="\]\GëvÙ\¸\iø\ÈÉ"			  	;	W'6HqU#h3&=""  		;&MPrxr=""			 	;	_$%LdgxWa="-"		  							
+Cookie:Dy|vwf="g"; 5`FY="fP#="; Qu9QC=x&5<; y="w*u*"
+

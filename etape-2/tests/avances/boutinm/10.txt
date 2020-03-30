@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:qKH-p='Z#; W=; TKYP="&os).`"; D="PAYU"; sP^=; R=I^?
+Transfer-Encoding:   , ,	,,   	   	 	 ,,,  ,   	 		,		 	   	,    ,	, ,		 	,,  	 ghTLhWi7Ay&h 	;  4CB=	"" 		
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie: 		rJ2=RjP%
+Transfer-Encoding:			,	,		, ,xu 		 	; 	 	kikP'F!3	=		 	  	 	 "è\ÛÄ\æå≠"	 	  ,	 			,	  							,	  ,		 		 	Qvyqfq		 ,	   J#		  	  	  	 	 			; pfXr 				   	 =	 	 ""	 	; z=".\ù\r\ô\h\"\ò\?\c\ﬁU\Í\'.\Ôı"    	;Gy	 	 	  	 =	  "\cQ\C"				 	; 4H =  	 	  	   	 	"K/"	; 		 *Po8IZi6  	     ="" ,     	 	  ,		   		 	   8 	; Ik=	 			     "\∆\‘‹q";		 m9s|pk%^Vbq 	 		 	=""	 	 	;			 	 1*p-l5	="¢" ;n!-Y		 =		 ""  ,   	deflate
+Cookie:sKR_%=""; !C!I="b"	
+

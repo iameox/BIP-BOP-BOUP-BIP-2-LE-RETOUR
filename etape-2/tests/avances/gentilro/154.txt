@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:o!BBV=R; R="1ri"; n=""
+

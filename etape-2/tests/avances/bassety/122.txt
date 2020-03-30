@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: D/5rW 	;0|yo="\—\ÞÏÐ"	
+

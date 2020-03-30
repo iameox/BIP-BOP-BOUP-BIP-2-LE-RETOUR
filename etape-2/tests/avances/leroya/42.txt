@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent: 		LkYPRs/8n$MnVX 		((”\ù)\¤) 	((Í*L\‰Ç\J\6É/\\\ŸA\X\'›)\óË) 	  	(\¼É()\!\Ó)				u
+

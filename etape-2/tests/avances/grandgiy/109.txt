@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:		 		 	H!/9LJ	  ; wJ#`xK="f\pôŽ&"	   	
+Cookie: 	 		s'G0="fEK"; dp-=MZ; L=""; j!y6aQ%kpIJ2="U"
+

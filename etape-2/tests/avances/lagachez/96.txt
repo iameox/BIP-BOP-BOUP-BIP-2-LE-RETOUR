@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:  nmdF=; xJDXo="X"  	 		 	  	 	
+Accept:	  	vwynbQ/* 	 ; AH="\é\œ‚è\µ\ò\sa" ;q=1.00	, 	 	 		 		   	  		 I`10r/*;					 k6A.nX=TGp+3b; 	   	  	NRl="\¿"  ;	q=0 ,			 	,				 	   
+Accept:  
+

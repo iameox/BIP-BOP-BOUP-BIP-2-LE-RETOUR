@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent: _O/WN	 			 	 (…\á) 	
+User-Agent:	 75OJu	(\÷(6\¨­\;¾\š¶\ü)±G\ñ8)
+

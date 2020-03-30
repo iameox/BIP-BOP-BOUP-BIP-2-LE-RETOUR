@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:	   kAQmgC    ;q=0	 			  	   	 	 	,
+User-Agent:	 		T   			(Y\) 		(()) (B(\ƒ&)(~)ú\]³) Gq9`/M2AHO	(Ç\ÈK(\)Œ»^\'))			 	(Ú())	(\÷)	(\lfbQ\›‹Ş) 
+User-Agent:uu		  	  
+

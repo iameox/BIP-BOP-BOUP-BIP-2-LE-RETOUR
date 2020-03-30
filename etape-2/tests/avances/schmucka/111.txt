@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:  		7UTP6&Se=8
+Cookie:	IygojukOq=zXb; PQ0=; eDfM="@"; Y^C8="7sDv2m.>{"; *X2DT=""; 6C*+ZP2Nx=; `r="dN" 
+

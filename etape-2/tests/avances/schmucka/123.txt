@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:		 	#A=TF	 
+Accept-Charset:	 , ,	  	 	  	 ,   	  !l;q=1.	 ,	ygID    	    , 	 
+Cookie: 	Bf=@Ftc`/vQU>; Zhm*="U(oZ"
+

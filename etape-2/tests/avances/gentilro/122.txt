@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:						 czymcaB="7I"; 4P=vff; cj=OM/?dL 	 
+Cookie: 6=?L; 7XjjppC="WJ"		 				 	
+

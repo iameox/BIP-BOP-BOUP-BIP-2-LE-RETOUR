@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:  	  		[v90.o] 
+Host:5:7 	 		
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:   				 4=+; 6X2p="!"; efW|~rv= 
+

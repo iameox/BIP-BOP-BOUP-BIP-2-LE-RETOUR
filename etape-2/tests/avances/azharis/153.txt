@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept:    bK/*	 	 
+Content-Type:V1jVR/3M 	 ; 6HgCG6=6l0.e4~   	  
+Accept:		  		
+Accept:      	
+

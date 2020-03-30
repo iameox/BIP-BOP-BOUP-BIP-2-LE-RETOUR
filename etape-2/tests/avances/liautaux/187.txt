@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:,		a; H 	="–Ž\h%" ; 	  		D1c 		="\Z\D" 
+Cookie:	 	 chQH=EQ'DK; OXbA#=""   				     				   	 			
+

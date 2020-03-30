@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:		,  	 ,	,			 	 ,  ,,  		, ,	,	     ,	 Wpz	 ;16^E	 	=  	 			 "\ë\š\$]\«"	 		 						,8bOc;%s7= ""  		;				 					   K =TV,,	 	,,  	,	 ,  6	  		 , 		,-Bx;  GlNT =   	"\Y";$cpa-="\þ"   				  	;g0!pc& =	7L 	; f!uP = 	 "\z\%" 		 	;	 x3%tZfG						 ="\8\®";	7= 			  			"\L^²\¦", G 			; QDw	="\n\^\‹\·" ;	I=		 	"\e­\ÆN\Â"	;	U 	="\;§\å\CÏJÙ\;\L\²"	 				 	;#MlXEikR^9	 = 			 			"";			   	 	I	=	"" 	;  	U = 	 	"\!\é"	 	, 
+Accept-Charset: 	 		 				 	  			,   Q   		
+Transfer-Encoding:, ,		, 	JG	 	 ; 			~vTjqM9HC2MF2dkG  =		 "Å\ "		 			 	;  	e		  = "\Ø\}_å";     	 			 	LyuGA7  	  = "¨‰\ý\¥\îî" ; 		z		=				"Ë"	;				B= 	 	"Þ"   ;	  pIo'b = X1		;		U	=  	 "\Ÿ\'"; 	e 	 		  	   	 			="\:Ú"	;!oq 		=		 	"\E\_\â\Ùxì"  		   	,	  R	;  	 e#phpDI  		      =				  	  	   ""		 		 			 ;T="\‡š\=þ";	 		 	NmF   = 		"\«+ÈÉ"   ;F=  	+Uaj; 	 					  # 			 	=		  			 	 	"";  N_9tf&n0 =	 "\ó"	 	; 	 		 	RY=		 "\ãw"	 ;   	I_  	 = 	 			  N	;hN	= 		"\ô"; 	rAc =		  "" ,	B 	 ;  		eH7Br =enJU`h	 			  ;				    ^-			=""	;s#fyd2TD`#4g%K 	 		=		 			 		"¶'"	  ;		 	&^		="­\Ã\ý"	;C8	= 	"\Ü\µÊ\6\¨’\D\`E"
+

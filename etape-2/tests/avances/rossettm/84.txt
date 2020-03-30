@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+User-Agent:   pFOv^FQPA!m#A8 		 gCDsL/F%fLR 	(\›¢(:Q)çY(\+)(\ÕU)\å\TÏ¿ý‰àP)  	  		
+Cookie:|z^uoYbHTguE=; zW$=ztQ; 1^dd~zgw.Sc~T=b%7'; tw_m=4B[; Wp9%6=""
+Cookie:ihl&=VNd; jsKHvsC'~8=ee	 				   			 		 	 	 	
+

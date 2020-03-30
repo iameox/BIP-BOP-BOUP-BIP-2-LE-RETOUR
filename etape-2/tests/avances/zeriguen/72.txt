@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:		  		
+Content-Type:			 HW/Cd15h&Cc ;_9="\þ\¬"	 
+

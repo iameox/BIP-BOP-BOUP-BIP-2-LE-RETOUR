@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer: 			  	J-K://_@,:247?%1Do 
+Referer: 	  	 Akhi://P=%C21j@[::CA4:4:58:2:7C:37DF:BB]:4/5b(6?=KYvT%40	 		
+Accept-Charset:	  	  TeD_xwdE0~  		  	  ; q=0.7 
+

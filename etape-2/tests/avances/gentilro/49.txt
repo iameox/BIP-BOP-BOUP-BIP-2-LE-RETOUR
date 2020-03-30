@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:	  ,,i;|T=	   BX9.29euGO&		 	 	 		 ;xquIT#vW9-6W = 	"e"		
+Transfer-Encoding:	, ,		  ,, ,			,	 , ,,	049y; 2F	= 	"\8\ß¾³"			  ;					b^			  	=				  "ý\í"	  	 			; 		 	 Q6 		  =	 		"Š";mgL#B 		 ="\4·g"	;	wZ=		"\=\m?Âbý\‹lç\âl\Æò¬§u\É\Ç\¿»\N\†"	, ,8f			;			 	  e*85aond 	 	  	    	 =F%i!  	 ,	   Ny		 
+

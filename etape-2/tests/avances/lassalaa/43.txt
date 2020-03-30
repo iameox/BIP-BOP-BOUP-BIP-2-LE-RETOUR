@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: 	|5/2G;	 		 	v="\|q³Ç"	 ; 	 					9#Hbn39GTGUbWG6="\f"	 ;   	  -RPDs|Dc="\É_Ô"		 
+

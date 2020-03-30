@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Charset:		 		 U4a2kvb*3|HE	 ,	 0r`	  		  	   ;q=0.	 , 	  ,,		 		 ,GKW		 	; 		q=0. , 	
+Accept-Charset: ,,	#G'PLV, *		 
+Transfer-Encoding:	chunked 	
+Accept-Charset:,,, 		, 	,		,		  		,	,	 ,,		,, ,	  	,			 		 		 	 		 	 			  ,,			 			 	 		,	  			  			 		  	,	 K,  			 	d 		 ;q=0 ,8&vqBZ*	
+

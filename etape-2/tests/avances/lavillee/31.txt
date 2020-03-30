@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	IOPp^xUk1N*1q#YH=(on!; Msnx.k=659Z43?	
+

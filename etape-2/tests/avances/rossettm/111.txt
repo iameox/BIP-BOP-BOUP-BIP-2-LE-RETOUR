@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:			  	 	 E0!rwmbS=/>_/ssc]; u=I&bHP0Ey
+User-Agent:0^	 
+Cookie:  	  			 i="Nf1q<t"	
+Cookie:					VMg=; F=""; UlbJ6hm2v#H2=; 8MI=$#; oMb=; B7K=""; etfQr="W~xY"; B#*="e&m7m"; &=f[gKG+{:; &4U="SOH6" 
+

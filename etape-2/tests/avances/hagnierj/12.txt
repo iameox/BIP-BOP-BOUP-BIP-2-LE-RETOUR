@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:   hja:?    	
+Referer:	  	  C:bGy@/////)@R/$0/t/b1		  	 
+

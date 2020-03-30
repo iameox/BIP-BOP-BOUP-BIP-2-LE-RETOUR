@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer:  Rnbc://215.38.2.7:93833/q?t!Sj;x  
+Referer:  	//[::71:6C47:250.251.122.255]/M+%F5kA
+Accept-Charset:   	 ,	,	, ,,		  ,,v3yc  		,  ,	,  	 	 	   Jh	 ,	m'Y!	,		,k		,	  ~6DhP, HiLdM,  ,	  			 	U~mIU9p	 		 	 
+Accept-Charset:  	 		 ,				  	N	,		
+

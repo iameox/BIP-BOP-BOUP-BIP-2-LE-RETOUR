@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	Bs&G=F; #SNhXV=""; AU7on=""; &h7="zVI`"; `$-i.i&T=4W
+

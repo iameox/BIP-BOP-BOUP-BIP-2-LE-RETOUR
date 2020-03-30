@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Charset:,,,, 	,			  ,	  	, 		    ,	 	 ,OX		  ;q=1.  			, 		 	7APtEb|n6	; q=0
+

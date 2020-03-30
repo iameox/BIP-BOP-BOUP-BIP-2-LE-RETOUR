@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent: %m   	  	 	  (\œ\ƒ)  Dyc0!v-DZ't.`hfS5Z	  		
+User-Agent:rMUm     	 	(¿)	
+

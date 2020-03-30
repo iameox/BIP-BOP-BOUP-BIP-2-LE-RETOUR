@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer: v://Uz@[::63:E5C8:C:E:6:2.6.245.76]?.g%E90E%6C$E-x%43a 
+Accept-Encoding:	    	
+Referer:		/%FEic	
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:KzpjjS/_c8	 	  	;		B=".\*âXù"
+

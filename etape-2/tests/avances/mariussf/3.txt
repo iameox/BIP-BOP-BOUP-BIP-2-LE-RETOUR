@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:			  , 	   	U	 	 	 ;1 		 =  			"ø—\Ö" 	;   PKHAUp2bm=		Bv;|oADs	     =	Y~$	    	;R_M3GxdO	  =	"Ž\’Ü·s\í"  ;	 w~bJdJ3W^nB   					=  	 "\Æ_"  	 	 		;	 	 	 *	 		 = 					"•";	4="ã\þî"				 ,M	    ;	7	 = 			"µ\O";			 0nR6g 	=  	 "\v´@\p"	;	 	 		'Re+_	 					   ="\ñV\Gf\u\'\œÏ";	^y =						"\Ï\n_\ôÒ\Ò\ÔŸ\ê\l"; 		 F= 	 	 	 ~!q|%e;		  FY2*  = 	 			   	 "êÎ"	;cA#*R4				  				=    		   	 	 "" 	; 	 e 	 	 	   =		"”œÀo"	 	 		 	 	 	 ,	 deflate		   	 
+Host:		 	ZqD:
+

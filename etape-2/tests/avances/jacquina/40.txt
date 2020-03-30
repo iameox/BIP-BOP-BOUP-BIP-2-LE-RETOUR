@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: ,, 	 						  chunked	 	 		,     	  	,		     	 			 ,chunked	,		    	 		
+Accept-Charset:		,	   		,	, 	,*	;	  	 	 q=0.588	 , 	  Rf 	;q=0
+

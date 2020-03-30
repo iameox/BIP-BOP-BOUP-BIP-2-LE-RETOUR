@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 			Rw_3Wh=g0(XY[~0c}x; GMORO8=w     		
+

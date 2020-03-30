@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:	, ,	  H;	q=0.,25 			   ;   	 	   		q=0.  
+Transfer-Encoding:,, 	  i26 ;	   	  			 5$. 		 	=	Hs	,  %~nj1   ;		 		 	 	!r*9 				=  ""  	  		 ;E   =	"" 		 	  	; v	 	  	 	 	 	=	"",
+

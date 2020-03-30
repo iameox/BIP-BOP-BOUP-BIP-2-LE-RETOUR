@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset: 0PoD	 ;q=0.699	 
+Referer:	 	  	//[v2.H=]/%B9:p2%41o//9p/t%F0%74$!&//?*
+Referer:I8jT6gSHEQ:m8/6		 	
+

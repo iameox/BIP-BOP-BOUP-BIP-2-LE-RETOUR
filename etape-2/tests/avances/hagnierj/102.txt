@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer://+%5AspA%C6,Y'@[::BCD7:F:F30:C01:81.58.2.3]:66353/U/B&/Ulc%F0/%4A)?k%31%17%89k!	
+Referer://Gx(TX@3.213.227.1:/%35  
+Referer:C://u8W%34@[::C:F:B:A:2:253.161.252.41]/b.%05/J_XXoS/f&%41~05m@		
+Referer:	//[::A3:57:C8:243.92.251.252]:135830
+Referer:Ar://VqTbkkA%37g@228.231.219.67:5//F/%65t	
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		 	E=""; VmDZRj&YKeo8="35U0M0[C4"; cx=g
+

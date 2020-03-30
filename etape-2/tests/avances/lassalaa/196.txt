@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: O/-M3fhMB.wJSc+v;  HICR="" 	;-0="Q\B\˜oz"	  			 ;   	  q="\t"	 ;   Y%="C\˜ý2ª¼"
+

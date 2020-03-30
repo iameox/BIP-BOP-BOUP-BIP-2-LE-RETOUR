@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:,c	 ;   q=0.94	 ,	e-Vw
+Accept-Language:		 				 	, 	  ,,	l-1Joa-X-xy; 	 q=0.45 	 	    	 	,	 
+

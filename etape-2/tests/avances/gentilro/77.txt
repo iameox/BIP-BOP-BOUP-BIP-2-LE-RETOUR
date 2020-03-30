@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:		kbp'6 ;M					   	=	  Pn'FG$5D-U   	
+

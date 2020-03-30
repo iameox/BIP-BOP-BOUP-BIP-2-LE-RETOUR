@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host: 	[vD.TF)7]:418  	
+Host: 	  	[B99:0DA::1:C8]: 	 
+

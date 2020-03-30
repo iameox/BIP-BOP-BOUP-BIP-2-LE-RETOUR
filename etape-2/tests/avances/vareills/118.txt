@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:	I-t-US-SO-ZbG-G0n	;  q=0	 	,	W 	 ;  q=1.00 	  ,   CiLt-Z3-wpduC-r-c-F-YA-I-e-iE-Q-Z	   	 ; q=0.9,	 	  ,, 	    ,	
+

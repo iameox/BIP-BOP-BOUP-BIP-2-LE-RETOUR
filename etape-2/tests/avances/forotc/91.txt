@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:	NlPEQ://88.3.240.81:10/8%75'?		
+Accept-Encoding: 	   	
+

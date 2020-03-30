@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie: `y&GY9YByZ.W="{g'"; mfM=n; g="}!@"; X-="#Iin*"; #A=_|!_; '2="<:Y"; 9%$ID="A"
+Transfer-Encoding:, 	 	 				 	  ,	  compress    	  	
+Cookie:	8kDIm=~; !-=x|; nOHY&OyI.dE^TG84="." 		      	
+Cookie:	    Bt`E="b&a@FGU"; Mwu=; g6'EW0="X"	  	
+

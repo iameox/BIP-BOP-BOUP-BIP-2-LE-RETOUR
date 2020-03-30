@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	~x="?lG"; A-G99=Dq]B; A=E_; 0BV*gTsW#i=~|@
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:	%uh$6#r|		,!-u 
+Accept-Encoding:		 
+

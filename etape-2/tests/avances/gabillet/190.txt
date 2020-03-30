@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:	 LD6/1Vo2Byv		(\b(#Ä5\Æ\N\t‹))    		a$V3L  		  		 ((Y\ë\¯Ã_\5Z\L\çt\ş\ÂZU\l\–)“\é(Î\¼ä)7)	  (¬)		  (L\s)  
+

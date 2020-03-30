@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:      mPfD ;q=0.7 				  		
+Referer: 		 j7q://1b@[::5116:2:E5:E:837F:3:87]///!qV?
+

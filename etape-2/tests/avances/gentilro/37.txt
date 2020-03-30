@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 		rjk$="B"; mV2'~wb-%n=""; I'Casi=""
+Cookie:	     	 		 			.*|Gt5=bo		
+

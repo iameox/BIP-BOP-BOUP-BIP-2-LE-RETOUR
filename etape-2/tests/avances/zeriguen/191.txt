@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:  				 	 Sz~x2Q/q	 			;	 Yawg=yT	 ;  		    	  VkD*b="\3j" 	 	  
+

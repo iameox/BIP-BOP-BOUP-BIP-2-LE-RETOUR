@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 			&LucO="l!"; v7=""; wQUO~v#LU`6J9MdP=d*			 	
+

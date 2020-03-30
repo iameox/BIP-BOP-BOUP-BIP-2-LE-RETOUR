@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 5k!="FEH"; Q#=*L*./q7HFMSc&; 727~p={:.; !="?"  			
+Cookie:K3jRT="v1k"; KZ5U="Jv"; s=""
+

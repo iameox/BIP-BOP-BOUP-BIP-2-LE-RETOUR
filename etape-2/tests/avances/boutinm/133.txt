@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:	  	  	  	,,	,	,	,,  		 				mArETfEF|!Cr&Ma 		  	 	 ; xBY+g5   	=	 	"ã"    	  ; 				  		 .nb	= 	"\Ñ"	  		  	;f 	 		   	=	 	":";	HwI=   	"‘,¿ŒwÉ" 	 	;KT=	   	 			 	 "";75g0T-Nyj=	~E_	  ;&j  	= "™Ê.Z" , 		,	, deflate	 ,	   			  	 	IQRZu ;  	   Lr4=	 	 "\!ö\T\X\y"; 	 L%V=	 	  ""	  			 ;			  		  6m      	=   	 				 "…B\;\»\þ"  ; 	 	~-="!"; 					   ~	 = 			 	     	"\¡" ,	  	1U	 		  ,'v5wa;`Y+Kt6iJs=3 		, F5*nkv7	;    	 	iK$_a	     	=  "\¼”!\Ù\`¥\Þ"   	, deflate	,	 	,
+

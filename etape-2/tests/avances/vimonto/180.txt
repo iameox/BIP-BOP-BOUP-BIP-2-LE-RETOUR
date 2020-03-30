@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:		 [v0.rfUq]:413
+Host:	[::86:D74F:0:EF:4271:5]:4		 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:		 		,chunked       	,  	
+Cookie:	n="]D=|"; MS31=>J'X; lIf8I#X7jVv="F&"; tAXQC6m#E="r7"
+

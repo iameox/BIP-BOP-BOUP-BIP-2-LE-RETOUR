@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent: 		 Pbo   	(\O\?\─БМ╨)		(()Ь(Н\у"\u\·))				   () 			  	(\З\иц\OС╪х\Y\H) 		   	
+User-Agent: 	u1/uC3%Kat|-h*MyjPIBdJ7z 	 	    			 ()  	  	(\Т()(м)\╔\з\Хe(\П\╦)\О\В)
+

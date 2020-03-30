@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	 %i="oL?uiSO[MH*"; XVa88=; %=@n|0h.PQ@-_; C="|xOT3SqGB"; H`="o~"; %5F=vP; +d`J~NsHR7D2G5*cx$rIs0=<wP(C>; 7#Wl23K=Z6yoKyf; IE*m4|e-'_'DE6=K; .f'vJv$5=<TLvs; Nk_="zgy"; o9="t"	
+

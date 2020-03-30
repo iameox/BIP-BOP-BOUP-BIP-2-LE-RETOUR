@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	  	7=")|cxuVlr3=neuA"; d!#=_	
+Transfer-Encoding:gUhg ;	 3=  "Ú*—\#)\ïo\³\F"	,,    	 bed~ 	,				 *a#-eTT			;	   %yv8`a8 	= 	"\e\€\{\i\B\Œ"	 	,			 	,deflate	,	     , 	    ,	F  ;w8&$jz	= 	"ª_ÖG"		
+

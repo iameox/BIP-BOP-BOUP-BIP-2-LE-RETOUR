@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:  Js   ,   , ,			*				,	 xr-N		,		 			Lk-d-s-25-sj-e	,					 iKv-q4G2Krnx-88 ;q=0
+

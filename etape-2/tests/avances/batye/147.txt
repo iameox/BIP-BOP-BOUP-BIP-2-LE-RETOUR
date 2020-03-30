@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 		QCC=De(; ~RDfpkQaSt1yyF1="zw"
+

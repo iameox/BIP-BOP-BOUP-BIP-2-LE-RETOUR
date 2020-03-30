@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Host:	  	 	 [79::D:C21:8.254.210.5]
+Accept:6/*	 		  		 			;	 3F=sT ;		     	 Gf|d=^	 ;LO="\V\B\ıÕ\k°\Óç?˝";`fD2.="" 	;	gvS=FJureL`v-				  	   	;  		 W9L`eh="\ùS" 	 			;A.+qb=Be2   		 	;o0`="\–" 				 		 	  	 		 	 			 ;VIDZXz!8z~c="" 
+Host:		 	 [::9:B:A8D:E6:B6C:215.237.49.255]:959	      	  	  
+Host: 	 	  	8.5.6.5:2904     	 
+Host: 4.8.66.109:6	
+

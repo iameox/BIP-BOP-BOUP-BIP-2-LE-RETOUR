@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:  	     		  ,		,   ,					, bB;	 	q=0  		  	 ,			 ,	 	
+Accept-Language:,		   				,	   		, 	 		,			 ,	 	 	 	    sem-w4n-O-K-rB3-S-2	,	U
+User-Agent:XrfY/L&D		 				 		 				
+

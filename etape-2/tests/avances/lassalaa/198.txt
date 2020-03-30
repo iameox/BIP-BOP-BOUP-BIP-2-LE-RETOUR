@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	ZOyfW1UT7|Op8EnG="g"  
+Content-Type:ZVDtUAX6h0/B	 ;		cH#'m="\•"	;oac=`4'|%;	Wtj=""
+

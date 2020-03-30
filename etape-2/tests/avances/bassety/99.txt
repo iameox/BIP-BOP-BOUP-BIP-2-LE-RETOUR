@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type: 			  			-L/S54Q 	 ; 		6PBF4="\√Üq"					 ;		  u=k#$; 	 			aT="\Ê\Ú" ;     	 		 	 	   !="\L\˛\6\ä"		 ;						   FTa_="\‘"	  ; 3XY1|&=x08R#lr;	 8YfB'y6kf!Pn=Qku&L^ 	  ;	  D$="®\˘RØ\ˇ"  	;				 		    #%L=""  ;   	  	o#="" 	 	;U="ﬂ|"  ;sJ|_bZ=xzi		 ; A2="ä" 			
+Expect: 		100-continue		 
+Content-Type: q6*uY/Z		  ;	  	 					.I="\º\´\Å\g\O\¢" 
+

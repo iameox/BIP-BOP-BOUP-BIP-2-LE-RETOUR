@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		 	  4MG+="~"; ~=?[}yO3K!k; rvusb=""; jP=; ~E="'S:3"; g#=""	  	 
+

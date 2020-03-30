@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:	!L  ;  				 	 P3P=	"\$๛\ค\Q\รถ\eจ\ป๗T\p\ชฮh\^เV"		 		, 	 	  ,XVu	 ,	,	%
+

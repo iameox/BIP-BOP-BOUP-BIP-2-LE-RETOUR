@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding: 			     ,,  ,,compress					,			,  
+Transfer-Encoding:, x	;			M				 =   		  	"Ü"				  		 	 	 ; G#Ko+pxo$= 	  	  ""
+Transfer-Encoding:,	  	  , 	 q81T~  , f+					 	 ;.M 	=	 	"\¹§¹" , rTH0hMNilSnL4^0ACfnK| ;|=	  	   	"";d|IUaa%q	 	 			  	="Q\$\|:\À\F\Ù"  						 	 	;	  	iz	=""	 ; +A	 =   "\S" ;		 		.#_S!&_eb|Gk0d=     	 |
+

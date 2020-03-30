@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:WyDQ'1	     
+Cookie: -5bI=""; *&+fxIT=; +2=NU; X=	
+Cookie: *b%Hv6T5rZ=H=#; J=^W
+

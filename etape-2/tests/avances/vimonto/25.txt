@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Host:[::8397:58.251.246.5]
+Accept:
+Host:[v8.KTbs9F8]:08	  
+Host: 		   		 ! 
+

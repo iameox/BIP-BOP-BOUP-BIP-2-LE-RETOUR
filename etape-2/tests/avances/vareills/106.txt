@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Language:, 		 ,  , 		y-PevB-tc-FBYPI-E-4; q=1 	  			
+Accept-Language:					,	 		  	,,		, ,    , 	e-Bw 	   			 ;	q=0 		,	  W-q-mxH-9IDHV;			 q=0	,	 sa-n;	q=0.309	  	,    			rjS		;q=1, 	,		 			   
+Accept-Language:		,Lvmek-G-Qt-V-i 	 	 ;	 		 	q=1. 
+Content-Type:  PGo/&WcZk 	 		; 6Uq="ø\M" 	 	 ;   w="»"  	   	 		; h="i­ð\ªß\Ã\‚";e9n="\¬"
+

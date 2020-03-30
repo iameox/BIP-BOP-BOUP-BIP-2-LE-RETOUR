@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:, 		 , 		S	 ; 	q=1	
+Cookie:		8'=")*"; nW0c=; S="us("; td="l"  
+

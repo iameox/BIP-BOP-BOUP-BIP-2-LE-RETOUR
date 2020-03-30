@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:j/W9 	
+Accept-Language:		     ,,	   ,  		,   	 ,	  	 	PVzF-j-v		 ; q=0.     		,     NF-qAvE	    
+

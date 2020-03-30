@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:  	  	3a=C; '1AMc2ro="P"; gk="bp&"; $fWm=; `*t="LM"; WW!="7["; anmBSN="/X["; T$l%="s:q"; m="PMGHJH"; l~e.=""; vE-jw="VT"  	 
+

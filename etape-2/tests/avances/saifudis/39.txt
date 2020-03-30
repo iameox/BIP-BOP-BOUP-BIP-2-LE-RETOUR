@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	 	  	  [v8.LppOj-]:12		  
+Host: 						 249.2.198.251	 					 
+

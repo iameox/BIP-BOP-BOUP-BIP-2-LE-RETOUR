@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: kvd!/2 ;b="Ö" ;	  	 'Y=K		 
+

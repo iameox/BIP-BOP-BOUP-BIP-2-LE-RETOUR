@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:	 	  	q/64fiA$.
+Content-Type: 							 		n/Jv#mzTjr2d$7	;Gp="\v"	
+

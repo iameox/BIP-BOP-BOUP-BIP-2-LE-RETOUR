@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Content-Type:	 w-d/x|C*G3l		;				  7h8JTa="\/"	 	 	 
+Content-Type:		 GzG1u!j_/kuD~  	;				NwP+_="F\ˆ\ô";O=""		;  		 `7*#t="\·¬0"		   ;	Sb0f*!KTHOe.6i="}"	
+Content-Type:	     f/6FftN	 ;m="X\ÿ\o" 				 		;xr-S="\Ç\¿\b_\p\´8\s\	"		  	; 	 ge*x&=azOY%L;  9+QyrT="¢£h\÷\}"	   		 ;	 9K="/o";		  		 r3%1Ua="\ñ\ñ+" ;mDhCQ4AJ="\Q“\êô"	 	; 	 		cHswI="™"
+Expect:					100-continue
+Content-Type:	rq/Vo0  	 	
+

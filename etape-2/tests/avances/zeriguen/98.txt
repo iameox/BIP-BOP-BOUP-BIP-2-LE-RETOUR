@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type:   ZM/ORP`u5pkXqI!A;^k="\¤¬\¸Ø"
+Accept-Encoding: 			   AD	;	 			 		q=0.20	    	 , 	 	-'	  ,	  		 		  ,	 
+Content-Type: 	T/FW	; 	 yH`="\X\¤" 	 
+

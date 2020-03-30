@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:		,  ,	,			, 	 	  ,,, 	 	deflate 	,				Df,	Gk ,%3y; 		u^nZq= 		"", , 	&D'ihq	, compress	 	 	  		 	,	  
+Accept-Charset:		, ,	       *	 ; 	q=0. ,	 
+

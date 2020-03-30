@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:e-FTV	 ;   q=0    
+Accept-Language:  	 	 	  ,, 	,		, 		KL-z-X  ,,	     	tnUHel  		 	 	 ;	 q=1.000
+

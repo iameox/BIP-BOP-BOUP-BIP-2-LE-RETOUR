@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: #=q<Fd; iON#-M15="?"
+Transfer-Encoding:   G#e~y'.     ;	   	 	  'lKf0= 		""	 ; 7 	 	=	 	 	"[x\Ïa"		 		
+

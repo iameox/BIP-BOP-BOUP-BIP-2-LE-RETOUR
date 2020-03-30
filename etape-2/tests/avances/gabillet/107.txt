@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:,	 		  	,cy-a-VgZ	  	 ;	q=0., 	   gCJdz    	  ;    			 q=1.0,	 bi-J0z  ; 		q=1.00,			  , 	 ,  	xm-Y   		,  Z-b-f-ftzu	 	 ,   	 X 	,	 g-7mmv-P-g-fC-j	 ;  	 		q=1
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding: 	4		; O		 	  =				"ã\Þ)\z\Tw\ã\ê‡\i\º\)×\i\„\ü" 		 	; 	  	 	`nzK* =						    	   	8PFm7;	ARvK=	 			 	""	,	    		 , 	,   	,  G,,		  	  4x,,	,	 ,	    
+

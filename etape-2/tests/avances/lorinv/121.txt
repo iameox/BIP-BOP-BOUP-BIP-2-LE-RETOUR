@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:	 
+Content-Type:  			 WRu6_/44G74E ; 		 	B="\¢\ô\ð\õÕ"	;Xd="þ"  ; 		9="\Fè\¬"; j2=""  	; 	nfO0uC="\q˜W"	 		  	 	; o7N1=O|OjSl145;	   	   dl="Ô*" ; 		 	pT-="\b" 			 ;-9R="Ý1\»\Â\ÐË\™F\Å\c\#\$Ô\B"  ; 		R=""   	;			 	      	Oz%zsBBa%=Z 	 		 		  
+

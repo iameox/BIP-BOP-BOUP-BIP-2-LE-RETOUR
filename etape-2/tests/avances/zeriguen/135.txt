@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:				Fo#1/c	   	  ;      m|G=""	 	 ;	  				P="\@£‘\Jô‡"  				    ;  		T="\…\Ø\È\Ñ"; 	 	 	m*-=ws ;  m="À_"  	
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	 	0buxb=.JR; U=N; EU*HR=; 8FL=""; 64p5M0bb#YT#=8$; LF|P0!=""; 5="[a[K`"; G="S"; DsA="d/VKpC"; VVO="Y"; h8="JSK_#I"; L={	 	    			 	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:	 R (Ë}∆†\Àg\u(\P\ó\Ñ\ê\ÙM\y\~ó\L\’ˆ\÷)\É)		  (E(\#Ú\§\t0\¿ÆR“)) 	 0tj0 		((\O°ñâ_)(«˝?8·g\N))   		   	 x/j`SufgKe`!	 	()	
+Cookie:  	 	xTI*T_5Qh5=|^{h3; Qxbz2=z; e-Ke="?"; h5="ZGb(."; A|=""; n%="kI'"			
+

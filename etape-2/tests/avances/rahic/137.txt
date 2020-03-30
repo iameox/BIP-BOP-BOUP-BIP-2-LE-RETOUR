@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:	  	 				,,	 ,	 ,	 		 	  			 				 	,   , 			,,		  	 	, ,,,	 	,	 ,	    	, 		Qn   ,   	jn$8+76 ,	   ,,	*;q=1		,ff		 	 ; 	 			 	 	    	 q=0.5 	,  ,	   #5   	 		 ;	     	 			q=0.079,   
+Accept-Charset:	   ,  	 , ,	,^~qg ,							 
+Referer: 		Ch8OPged://[107::208.206.207.89]		
+

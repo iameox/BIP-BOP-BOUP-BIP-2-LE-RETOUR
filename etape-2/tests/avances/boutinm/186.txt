@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Transfer-Encoding:		QDPrfW  		; 	  %	 	 =	"" ; 	 	 	 	   			 ! 	= P;  3w`H-0SQU#SKmLt=	""		 	;p	=	 	   		 	 		 	   	 	 	 	 "";K%_+			    =	  "\>X"	;5Z=			 	 	"\ª\B\k\Êç\|W" ;	q^	 =   "\‹"  ;   			  gL=	 	"" ;e=	"\!7\3"	 	  			 ; qR-pT	= "&≠\{9\«\≠\˙\'~";		  	    	 	ssaS	=	  	  	 		  $InR			 ; 	h8="\˘\œ" 	  						; 		 	  	 		  	 	 1GAq 	=	gYBt1P 				,	 qk	,
+Cookie: l=; sO="k"	
+Transfer-Encoding:	  	 ,3o			; 1	 	 			 	 =""			 			,	  	'p 		 ;						 	w-=  	  "\_\Œ\\\˚"	    	   ,	 					,	
+Transfer-Encoding:			 ,		,	 	  AQ_	;	 3 	    	 	 =		  "\J\A\ë"
+

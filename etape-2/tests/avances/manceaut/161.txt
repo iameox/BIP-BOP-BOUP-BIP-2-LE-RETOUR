@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:,	  , 		,		  	,,     	 		   		,,			fBcApam-vm1-vL-FA-Y-TRnSUf-IkVH-R-W6vT-S-wyT-s-8-4q0  ,
+Accept-Language:, ,  			 	, 	 ,, 	  , 			,	 	, y-hE-7-yGyq2a-qr5jBLh-m-497	, , 		 		    			 ,	 	,,			g-g-U-aSi-Oj-S-V7-2DM-y	;  	 	  	  q=1.000	,		 U 		   	, Oyd-Bz-9-TT 	
+

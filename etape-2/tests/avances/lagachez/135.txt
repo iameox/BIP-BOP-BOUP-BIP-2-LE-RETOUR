@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:9|%g=>; SY="(7T^S"; n$="7<h/c"; ne$5rT=""; o=; 5X1=; 7=""; t0="q0xzZ>|"	 	 	
+Cookie:		  	L=""; O="C=fGP"; F=
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer:    g%81/*%82r///fUwCy~ps&//ZNqK?%00$ 	
+

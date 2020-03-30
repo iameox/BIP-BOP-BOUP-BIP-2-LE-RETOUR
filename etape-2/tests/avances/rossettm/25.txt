@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:		B=n<hAAWam>u+(qu5r|+Lmwd%L*a?; ^%.EUMy6.2="FTH"; hx=		
+User-Agent:`hs/cb4Y. 		  	(\µ)			
+User-Agent: 		  ~/PR0W|   ()	(à\M()\Ñ\`()(r\Š)) (()) 			()	((Ùs\j)(ó))	((\L\Ê)\w\¶\‹(Õ\W)(Ê)()ã) 	 	(\aå\@\ù\è\ˆ'GºC) (\ó›\ý\ÕÅ()¡(r\Ÿéë)\ÓÙ)  (Û\ñ)    
+

@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer:~/%0B%48/!45Xa4  	   				
+Accept-Encoding:	
+Referer: 	b://@1.130.237.250/%EEEr0	 
+Referer: 	 	  		 	 	dcOpItMVWl:/?ZH4'S$4 
+Referer: 			  	 			  bXMc:/'/?fJ 	  	
+

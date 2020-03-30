@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:,j;DHM= "εσ" ; 	N							   ="\_k\"  		 		  ;PW$*Ywo8tW 	=					 	  ""
+Transfer-Encoding:		 ,   		 			 		,	   	 ,,  	 			   ,	  		,, 			|R1fH  			 	 			 ;   T		= "" 	
+Accept-Charset:	 	 		 	&	,,		        			 ,P|	 ,  r	;	  	q=0.,
+

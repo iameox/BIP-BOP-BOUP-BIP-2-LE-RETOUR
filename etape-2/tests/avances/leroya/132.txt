@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Expect:100-continue	 			
+Expect:100-continue     			  		
+User-Agent: ^$/YQfkMVev 	 (`(f)`)
+User-Agent:		  					x ((\“Á\¢)šz)	   	         (¤\Ÿ\V(‘g\¼\1\/£)\Ø)  
+User-Agent:  				  	|&Fao 
+

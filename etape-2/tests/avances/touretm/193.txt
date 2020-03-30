@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:			c%CEzZ?a 
+Accept-Charset:	 ,, , 	     				,			,,* ;q=0.	,			 	Z	,				 		 	 	  	 	 f8PvCgM;q=0  , 		 1CJ	 ,._,	* 
+

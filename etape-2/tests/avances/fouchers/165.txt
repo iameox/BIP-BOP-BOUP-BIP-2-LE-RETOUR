@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 		L2LB'cR=Ci; Zz="J$*"; wHZ_ni'="*@m"	
+Accept-Charset:,	, , 	,, 	  		,	 	XgYt	    	 		,	
+

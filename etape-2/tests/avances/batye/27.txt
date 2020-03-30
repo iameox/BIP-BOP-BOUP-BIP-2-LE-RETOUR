@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:  B/.bBP
+Cookie:		&&w=&*; O=QJC; AQ%=""; U="F1Hh}D"; ph=}$d:2r_I>|$?&C0.; ^=
+

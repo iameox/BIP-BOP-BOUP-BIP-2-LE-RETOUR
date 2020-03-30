@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept: 			   4t/bx;q=0.    ,67/*    	;	u%H&="\Г."    ;Q|3E="\╜G\й"	;  	 		ne="\╣0й\PV\кE┤\├y\З3"  	 		  ,, 	  E4/* ;	L%J="Ў\┐"   	  ;  		 	oOqyDHJ.X="\ЁЩ╧╕"		 ; .ixq="\╙\G"	;	Z.tkH0eW_f^$T'wMLLz="sr-\x\╛\S\t"				  	  ;#=CbHQR3uVRM9kr7k  	;		   		 SKSSr!+M="\щ\√\╧Ц\EР\n\▒W8ап"		;	 	  v0="\Ж" ;	q=0 	 
+

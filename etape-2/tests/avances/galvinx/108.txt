@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language: 	lfmpk-Rc1-X49-8da4    		 		 ,eaz-A3m-Mt-8-7-79-4K9	 ; q=0.20  	 
+

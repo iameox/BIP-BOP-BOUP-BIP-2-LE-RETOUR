@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host: 156.96.254.60  	
+Host:	  		b-rD:06		
+

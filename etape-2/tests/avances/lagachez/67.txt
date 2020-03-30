@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	zWn|A%S="o+NnP"; eS="zAK{ejUi|^>'7A"; S="L7.j"	  	
+Cookie:  	  l="O]u8@$8M3R"
+

@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:,, 	R#-;  	   	 3= 		  "\»";  $qd 	 		 	 	 			  =			 		"¢\5\›9\6)\ë";  g_	=  "\ü" ;	#M*=  ^ZKY			 	 ;   uU 		=	"Ž\[\Ù\¸\|"	, 		
+Host:	 [::A]    	  
+Host: 	 
+Host: %0F:28    			
+Host:		 	 230.17.217.24 	
+

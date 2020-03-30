@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:		 , 	 ,  		F%b3y`$3DaR2 	 	 	 ; 7E =	  		 "O"; Kp="\N\é"   ,
+Host:[vB4.cfet.0F0JT]:02 
+

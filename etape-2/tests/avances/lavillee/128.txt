@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 	 bY="g)1!&"; BX=A; 1=k  	 	 		 	 	
+Accept:	 			   		   	
+

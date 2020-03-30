@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language: 	 	,,	GgV ;q=0 
+Accept-Language:	  sge-t21-IQ; 		  	q=1. 	 			  			 ,qR-7UQ-ObgD-xl60;q=1 		    	,,	  		   ,  ,g-m-E3-qW-W-s-4	  ;q=0 ,Lb  			 	,T 		; q=0.	    	,  	 y 	 ;   q=1 		,RMs-hJ-g-R9-Rv; 	q=0  			    ,							* 			;q=0.3 		 	,	 	 		    * 	 	 			; q=1	,	Hm-V-Vv-i 	,  ,  	jO  , 	,	*;	q=0.	  	,   T-yQY-vHeQ-Jw	,		 ,S-1-L
+

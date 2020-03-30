@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:  ,			   	 	, 	, 			4pp	 ;q=0	        			
+Transfer-Encoding:	 	 	, 	  , ,		    				#!GLL			    ; 	wZ.XG9&m~7D 	=  	 		"\”\ú™",,P',	DGuW-y	; 	  uJ8f    ="\“" 			 	;	T1#D^db5 	  = 	"\Ë\s\ý\" 	 			 ;  l=		 "\>S‡"	;d6iH~k = 		 	 	"\¶"		  		    ;	  ws  		 =	 "" ,	,				   F			 		 			;	6=	 "\J\M";	1mh2	= "³\8þâ\/\Áa";^eBLCWgLEC.$rfE1				  	=     "\„ÎöÓ\ó\ô\ù";	lZbC   		 		 	 =	 	E ;		 	Ihti ="i"; 	  wA!=FC	  	 ; 	 	 T 		   = 		 P				;	 	~-w=					 "\²Æ\îç\}0ä\»"  
+

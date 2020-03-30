@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept: 			  	  	
+Accept: 	
+Accept:	 				 		 		 
+Accept:   			   		g^1/*	 ,
+Cookie:&Rj=Q> 
+

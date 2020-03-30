@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:	 EE:!/y%044%83//3y?  	 			
+Referer:	  			//q%DA%61PE@[vEA3D2.EP11ep~'50cz8)]/HmoTF%04!F%D7!c-sb%44?
+Accept-Encoding:	k 	,   
+

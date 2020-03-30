@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Language: 	 	  	 			  ,		rh-I-ZU	    ;		q=0.  		 ,	 	 J-olV-so;	 q=1 	, 	 LIKw-z					 	 		
+User-Agent: 	 `j 				 			(\X\σ%\™(\Q\Z)„ό\ΰ\f\o_\B)   
+User-Agent:			        r	 			(\γγ—)  (\ÿ\ζ)					   		  (\†\σ()) 			 		 ()				 	 			 g	  			() 	  ()  BJ
+Accept-Language:		  	  		, 		  	 , 	y-a-FWd	 ,	  	 , 	 	, 	   	 , ,
+

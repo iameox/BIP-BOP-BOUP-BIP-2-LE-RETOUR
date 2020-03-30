@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	Ob 		
+Host:  [vBC9D1C3EEF6.DY]	
+

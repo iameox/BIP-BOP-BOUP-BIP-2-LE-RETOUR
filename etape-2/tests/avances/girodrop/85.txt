@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:		 	 //G@[B::1D:36:7:C:253.147.173.6]
+Accept-Encoding: 			
+

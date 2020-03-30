@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer:Xf:nZ/h/&f*/&0/ 	 	 
+Referer:		 	 			 e://rYk@/%119W%42fD/%BE5%02?%3CKY 		 	 	 	
+Referer://[v76.UG*=1]?fLslM		 	 		  	 
+Referer://249.238.254.247:190/t%6EakBjKvh7/NW%D9/m2aXwkV9x%A4em/rTs.Av4n/a    
+Referer://4.221.29.68/j/qH%FB%54J%D50?   		 
+

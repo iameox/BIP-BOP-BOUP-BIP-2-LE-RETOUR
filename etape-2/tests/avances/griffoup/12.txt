@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:	 ,, ,		 			,	 JXg;		 		72O 	 =   	"\Sº\táÅ\+\ëû\p" 	,	   8R
+Cookie:Kw=; fgX="@Z.rE$ew?"; kR=|_ti 
+

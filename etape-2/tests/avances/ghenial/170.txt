@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer:	     		 			    gXzh54cVeu://K!8p%C3rHF@9.165.230.3:105/bgvCL@/vUjC1ZMzs%A6/t
+Accept-Charset: 			6%M6Mq,	 	 ,	
+Referer:LC3uXpqQtQC7zh2:;%638%0CD%36pqT7QHB&/8A/Sg/O8?Hu 
+Accept-Charset:	,        	,	  	 	 		,   , 	 ,		 	 g.%x ,	  	 	,		  ,zBVmk|+v! ; q=0 		
+Referer:		   		 Fc://@1:3/8Y6Q_%783G%35/?$sA%4D		 		 	 		 	
+

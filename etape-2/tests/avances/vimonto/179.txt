@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:	  		  	C0F/z	;   	 			  ^egj="s±Àh6";  q=1	,,	,   	 				,	
+Host:	  	   			 	[::8:F:73:15:E:161A:2]  				  
+

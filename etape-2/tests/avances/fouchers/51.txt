@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:`=; !wVj.fc~=i3]4		
+

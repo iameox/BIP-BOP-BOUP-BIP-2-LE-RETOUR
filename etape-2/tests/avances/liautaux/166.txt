@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	|at+|8Abw=">m^BK"; `Ok=""; g=""; 6F'CyR=""		    				
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:pL2W^C^voFa#me="!_K"	
+

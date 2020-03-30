@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Encoding:kJwStz6sMs	  						;  q=0.	,ssdI			
+Referer: nsI://6.215.54.236/L0xeH/WI3f	  		
+Referer:     				  	QTScfY://1BH-@[::5:228.37.222.243]:3540/vD/%24	    	
+Referer:  //[::4:F:B:211.37.44.5]:61///T+%14:%3B*4g/tsfon5/nKu/%AFh-A-%0F/%7Ah1Z%C5+l/	 		 	
+

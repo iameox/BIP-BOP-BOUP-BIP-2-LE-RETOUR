@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	  		   xwj=]; xE+'RVF$uzy3ug=; sED7#fB3="G"; C9m4u=
+

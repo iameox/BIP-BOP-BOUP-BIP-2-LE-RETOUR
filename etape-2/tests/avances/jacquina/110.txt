@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:		 ,,	 	 ,   	  	  Or ;	 u_    	   =vMQIP~tcfm		    	  ;M 						 		=		"1\@\Yý"
+Accept-Charset:	  , T 			 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:	  5g/4dy# 							;di3C="";		 q8="А┬\v\Р\Б";   O="d\;"	;^1T="\╖\■"   		  ;		 *g="╣&\ кто\Uо"
+Accept-Encoding: 		 	  p- 	;		 		 	 		 		q=0.566		, 	 	 		P, 9  		     	,	 ,			Cb
+

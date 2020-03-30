@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Charset:,		4xC ; 			 	q=0.,			, 	U.ts0b     	 	  ;	   q=0 	  	  		 		,,			  	  		 		MQ+   	  	,, 
+Accept-Charset: 	 	 	, xjp+		; 	q=1 	 ,  		
+Cookie:			FJBg="3"; $='; _L$U=^oAcCI$Su$; *0xaxK_3`gy6erwncc+ImVG24onZG=#; P&sR="1"; _|C="!D+jXv"; |LrP6u="x"; pE=	 		
+Accept-Charset:    ,,, 		,yYo5zmH	  ,	,	*	; q=0.6 
+Cookie: 	 	 	MH=""; 5="sU4"; Q="S%W>k'"; &k2zV1rDr+D0*=""; ~=; v^HV9L!sm=; vlL%x0=		
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:		,, 	 , ,	 ,	 	 ,     ,   ,	,		 ,	  	, 				 	 				,,, ,	 	,,deflate ,		 compress,	 			 		  	 , 		 
+Transfer-Encoding: ,, 	,  	 q'3v^i4	;	'sj		 							       	="\*"	;  	N-  		=	"s\{" 	     	;.yg		=				"";0 	 		   			=	 "\ñ\/"		; 	 N6.ApM!	= ""  ;C~  	=6  				 ;~I =		  	 "\±\;\—"; 		_=		 			 "" ;		  _	 =  		  	 			"";5  ="\°\∂\…"	  	;K  		=	"Nê"	 ;	|*u%Ve6|uMas2v.OMl|= 2VU	 ;	2L#09 	 	 =  	"\FHì√";o		 	 	=	"\p\ª\˘\xO"  ;uf		 	  = "\N\Ï"  	;		5#C  	=  "P\÷"  ; 5AQf   =	  ""		;   					2UKe2gLMmS& 		   	=		  		  "\ﬂ\L"		  ;		 7= "¶\¬\#H,\6–"	;7F#It=    +oY;		4    	  =	"´/";	 		  		   ViW6|lf=	     "bc"	;WqcPmgn0C'	= 	"" 	 ;	 ul0+rMR = 			  "2"; 		j=      	 "\Ü"			  			 	 ,	
+Transfer-Encoding:  	,,, 	 		 		,,, 	,		 		  9', 			  	 	   	 	 3ms1W	  
+

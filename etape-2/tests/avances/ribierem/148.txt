@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer://255.0.9.71     		 	
+Referer:  ;+I	
+Accept:#8y5_bTu|pju+3Irqse/* 	 		;  	vu=""	;	Is=z 	,		  			, 	  	
+Referer:	d://apCKVo@8.9.227.22:8134596790116//q(/U
+

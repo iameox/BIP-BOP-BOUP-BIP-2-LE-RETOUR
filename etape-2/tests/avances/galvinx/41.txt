@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:	 z-Or-i	 	  	;	   q=0	 ,	 , , oj-ZV  ;q=0,			, 	   		 A;     	 q=1	,	,,  		, 	,   
+Accept-Language:	  ,	 		  	,  	 		H,	E-B-b-VR;		     			q=0.227	   	   	 
+

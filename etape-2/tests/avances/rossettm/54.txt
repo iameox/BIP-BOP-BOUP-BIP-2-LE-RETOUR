@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent: 			ng	(\:(;\E)(Í)(\‘)t(\å\Ô\™)\"\M*þ\ ) 	   (\T)			 	 
+Cookie:qb6`UA4lP7IndZ#2r|=3i#FgHO; K'pB=mm~ 		  
+

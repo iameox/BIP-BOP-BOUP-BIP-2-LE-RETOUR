@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie: 	2ylW=&SB; +#9f=""; Z5O=Z; l'+Q2|c&hQ*=; O8="k*k5"; NHX.YQ=	   		 			  		
+Cookie: 	 		p%="c"; s="-Bc"; o*="m"	
+User-Agent:*FeNs (š(¿è\ƒ\g\¢\¼‰\ü)|ß\\\Ù)	(\ã)	(Ì(\Û)) 
+

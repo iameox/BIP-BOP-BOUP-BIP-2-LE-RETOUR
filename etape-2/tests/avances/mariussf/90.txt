@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host: [1::C76:FC:154.250.1.8] 	  
+Host:  [vED020.)n]:955707	 
+Transfer-Encoding:			  			,   gzip,		, 			
+

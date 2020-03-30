@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 6nN=r4wC0yB; aRDKjD="I"; rX#T=""; 7zOI#b=""; z="'<hbt."; 4="Yn0"; $VDu=; c="C"; N=PG9
+

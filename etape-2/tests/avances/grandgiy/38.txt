@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:5eY~/pRPBy^ 
+Content-Type:eiI5gf/E 
+

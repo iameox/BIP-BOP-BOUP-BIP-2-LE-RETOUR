@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:	7/`iS88 ;     	 mHW%=qP		;	     	 	 B="\º";	h3B="\×\/"	;	  		EB="ø"		  	   ;	 O'f="°.¦žÄ\š" 
+Accept-Language:					 ,, qZ-T3-6F-F36Zj-V-9l-w-bcH-xxoKg-o-G ;		q=0.701  	 			 	, 	   		  ,	   	  oL-oSHJW-5jx-5-BK-Ys-Q-x4L-cw-aD-k-KK-Z-X-9	 			     ; q=0,   ,mYS-f-PWx-C-Wh-wu-Iq25DUt-GzX 
+

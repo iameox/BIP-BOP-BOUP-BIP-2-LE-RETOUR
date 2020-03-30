@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 		C1B3'IjuT'Hidl="i"
+

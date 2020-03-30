@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	kL~rlZ~_om="U"; +'N~=; C=O
+

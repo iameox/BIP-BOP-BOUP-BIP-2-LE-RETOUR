@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:,   		,,, 	DRn|   ;   	 #F 	 			 =1	  ; Y`="\|\E" 	 ; 	5G#D%o2						= 		ykDV'FEuq&Eu 	; 	%lG3S%^		= 	  	 "\Ñol\g", 	   	VB+2S ; ie   =			  		"\x"    	 	  		
+Host:[6E30:4::E0:3:2:9:2E]:670616
+Transfer-Encoding:,~     
+

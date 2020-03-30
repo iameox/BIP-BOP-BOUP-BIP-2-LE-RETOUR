@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:   244.241.222.209	
+Accept:0vmUVB$iK++TUGl/*;  Gc9z8I="ö"				 ; u_-8.WjCNy0="m\H6°]"	  ;  rC=W; 	Y="\Ç";	q=0.		, ,		   		W/*  		; 		  	 	!wGjudTBl="‚¢\~\G"	;F-X="\e"		; 	 			   	 lD+DGPt9="" 	;EKVPg="\>:#"  ;  q=0.060	  			 ,		  , 				  ojXs-c$M%LFZHwtdF/*   	;FfofGpToe^$H="”" 	;	&=H 				; 		_d.Nfn_`=ux4bD'  	;	 	 		 	   #=""	 ;			 w7="" 	     ;I2rVD`wscT="T\wMá\œ\Ö<I³\‘\²\Z\ê" ;	 	hbpLvFn="Ôc"	    	  ; XMzS|oVL="4" 		 		; vH=""	   ;1="|\´’Æ\z\É" ;	  EqR'=n 	 	  	 ,  		~/*;		 	GbjmYct=""		 		  ; fIp|0$1=""	;8E="\™à\2V"		 ; n="\Æ\â\w\ç|"		   	 	 ;~4="5ã\Æ¬"		;pa=C0 	 ;	q=1.0,, ,, ,		 		
+Host:	 				  		 253.3.8.3: 
+

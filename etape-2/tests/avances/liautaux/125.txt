@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	sBN2l49.o8="/v4"; fCES=lrVl; `s="E"; V=n; 9|Nf=w; $U8!=VdDm; f5YSAQgk^T=W@Ik{e_@a; J3="kyYb"; -="v"; f3Xd*R**zQom=""; q.|="2|Tk"; JSi=T_bVU; 8=; DRv=v 
+Cookie:	 RI8~=]; %.="["
+

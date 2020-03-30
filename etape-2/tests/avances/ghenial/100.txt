@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:		  k://%DD@12.251.217.250///3ij/K		
+Accept-Charset:	,   ,   			,		,  ,	 	,		,,'jPO 	,Ydm%S8 	 , ,     	 	* ; 	q=0	 ,  9r  		 		;q=1.00	  	     		, 	,	, 		u		;q=1.0   		,	 	 		*	,    		YTx 		, 					 	,		 		
+

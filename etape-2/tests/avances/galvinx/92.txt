@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:	 	  			,	, 			  					  	,	 RS-v8  	   		 ,			,Qu-4h-k56-2-v-D-H-c-h-bY 	;		  	q=0 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:%37%2BbS		
+Host:	252.6.252.1		
+

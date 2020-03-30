@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:		wU'jZq$rA="h"; vX4'=l+8- 
+Cookie:	 			$RL=m; b4=; s="3.o"; Um_0=; CWq9Nuw~op-U|+="e3"
+

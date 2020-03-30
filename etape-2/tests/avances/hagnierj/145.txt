@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept:  	  	
+Referer://@253.247.217.221/%51?%5Cn
+Referer:bgtC:J%72z/)_jD?pq4;H 	
+

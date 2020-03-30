@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:  	  	
+Accept-Encoding:   00ohbrJ 	 	;	q=0 ,   qZFpUx,	  	*		    	;q=1 		
+

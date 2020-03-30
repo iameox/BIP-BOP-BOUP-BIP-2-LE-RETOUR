@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:,					 U; 		q=0. 	  		, 		 ,		  i-S-hd-C090h;   q=0 ,   		   ui-K-LW;q=0.5   
+Accept-Language:Z  		, aw-S-y	   ;			 	q=0	   	
+Content-Type:IEPAU/x
+

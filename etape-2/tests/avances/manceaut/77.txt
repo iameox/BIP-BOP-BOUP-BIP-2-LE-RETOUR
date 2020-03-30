@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:	 ,				 	 enCb-G16-B	   		  ;					q=1.		,			  	C 	 		  	 	, xML-S-KBZB-Sn60-r-BeDr;			q=0	,	
+Accept-Language: 	 				 ,	 	 ,		,			,		 	,	,	 a-20Z-QdU-O2D  
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:247.132.220.3	 
+Transfer-Encoding:SW	     	 ,	  		 	p		;	G			=						 	 		"F\É<Fá\‰4þ\A"	  	 		     ;				S	= "ñ3ß"  	 ;	  		    			ygae  =	 "˜" ;	6fCX&`u%^	 =		 "\!ü\Ø×\ " 	 	  ; 	 Dzl 			  	=	 	  		  ""  ,chunked 	   	,kM	  	 		 , 	  	1		  	  ;	 n= 	 	  	    	"¬\à",  
+

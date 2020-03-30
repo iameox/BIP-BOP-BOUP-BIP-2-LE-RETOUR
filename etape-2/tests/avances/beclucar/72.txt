@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:eBRYG1_fb6aeWZ; 	q=0.375   ,,	,	 	  	 		   			 	 		  1	  		  			  ;		  q=0	 
+Content-Type:ni/G5y%					 ;	bOmC="\÷\EÍ^\B1áš\j\rwe³\{\=\M¼ô\–"	    ;	 	I~43^c0A1.Jo^=s*	
+

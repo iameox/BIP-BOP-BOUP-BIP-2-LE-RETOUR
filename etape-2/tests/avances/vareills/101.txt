@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:	fP'XIDv/xW%i 
+Content-Type: 				2j/5			 		  
+

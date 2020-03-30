@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:		 	[::6:9:2.71.13.7]:628				  	
+Transfer-Encoding:  EwCA  	 		 			, ,^`.EYn	  	 ; ii  =  	 	 		"\Ñ";-RW| =		"\Bƒ"	 		 ;	Iz	="´¬";	3="\D\h";   		m="\G\Î\9¢\J\Ã"; 				    Q=		  	"\®\¥\‰\$÷\Ï"  	;   	~vLP1vto$	=	 			"ä\E;\D"		 	 ;	   NG 		= 			"”tÑ"		, 		 	 4$qA	 , compress 			 	,	  dS_`m	
+

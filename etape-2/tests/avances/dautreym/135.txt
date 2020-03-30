@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:  								N0_m|JB*	;E=	 						"\©\£7" 		 		 ;	 '$		    		=  1m% 	 ;  A 		 	  			 	       	  =		"";	  		K'gAzY$!&BDS	  			  =		"\˚¨\Ó\îYÏ˙ñ\/\_ï£\L"  	;			 9vC	= 	 "#"	; 	bN	 	    		 =  "" ;	0M		  =	 "V";$GEOR+a`&9	  = 			""		;3=		X   ; c!t*	 =""   			 	 		 ;e	=		"\Æù"	 ;		8j		 	  	   = 	 					 "";     			 	  	 %p		  		 	= 	 ""	   		 			 		;RqYl05	 = WoT*x			 ;	^="\◊©\Ú4\›"		 ;	  	1XF0!zUqwI+u		   	=		E&8pVJz%O	; 	 		 ~	 	=		  #XaN;	 %KWi8  		 	=				  	   	  i 	;3bYB ="‘©\«";	N-AA		=		   					  ""		 ;'e=	"\R"				 	   				  	 ,, 		 	qWKaGXJ7Utox;	 toUKF 		="\r"		; 	 	#	 		=	"øë'\{{ï"			; 		9A#|R6~W-_ 					 	=!|$; 11f3c	  ="\Öa*KD\:\MW\$3\‚\å";   		Kk 	=""		 		 ;  	 				 	NgPLQYi	  	  ="\◊"	 	;ynp~y	=   		 	    "≈\Æ"	; *Sf	  =  "\¸\,Vƒ";		 	 	|%ZEzM'  				="\ÂŒr"		;G   	  	=	"\Gë\Ωéø\Í"  		 	 				;				4 			= 	"<k\ü\dK\l\Œ\L"	,,	chunked		,	 		Gr!C2hX7 			; 	  `|F 			=	 	"^"	
+Transfer-Encoding: 					  ,FfC			  	 	;	 	 	'F4v			=	 	"≤ø\ú∂˛\9\„"		, 	gzip 	,				TNNoK6		  ;y		  =		"í.◊"				    		;	VHzbW    = "\í\’\ª—\ÿ\l" 	      	  		;	DB		=	 	  	"\À\Ω\6'f\a\ﬂ\ø" ;RG			  	 		= 						 "\e" 			   		 ;     6Jd   	 	 =""			 ;	 	 1pkE`Sy|lg 	 =  "Ùø" 		  		;RpO	    ="îi"	
+Host:	 	 		 [::7:FC1B:3A:F860:53:214.11.22.247]:   		 	
+Host:    8.232.5.126:07606 	 				  
+Host:	[vCD7.6]:	 		 
+

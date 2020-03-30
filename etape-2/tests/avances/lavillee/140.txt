@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept: 	  		 
+Cookie:gaKx="sST_z?"; +BW="+ieL[Tk_"	 		 
+Cookie:Avp="4"; U="$#h"	   	 			  
+Cookie:gVN5B&UaR="G8hJgKtj"; xB8="L3t"  
+

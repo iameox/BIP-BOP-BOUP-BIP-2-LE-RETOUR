@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:[1F::AE1:B:FC:3F:111.8.6.48]:6
+Host: 			V;	  	  		
+

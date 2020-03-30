@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept:	8/Vlqb6 ,Zy/*	;Fh="J\É"			 ;	x%DB="\N";		 udT-="" 	;   nh="\ \bŸ’" 			;Z="|\ö"	 	 			   ; q=0.49
+

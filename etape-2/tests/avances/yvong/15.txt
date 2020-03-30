@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer://:/K//Y%C8?R$   	
+Referer:		//g%14@[F::AF1F:F:0:E:6.211.4.96]:3/*m 
+Referer:	 //%B9@[A::C:9:8:3C:253.49.238.108]/v%3D&.uP//P/o3j%FDv)%FAX%E6@W-@/?-
+Accept-Encoding:Lz		  	;	q=0.0	,  				,	|V	, 	,  	  PKzGAB|y 	  	; q=0 , 6    ; q=1. 
+

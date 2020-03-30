@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:		_Yu=""; i="lgkS"; QtH="PPoOg@1"; UTsG="}"	   
+Accept:  gn~I$MFh/* 	 ,		 				eU/* ;q=0   ,	,	 ,8/*;	m=""  	      ,	 		,	 
+

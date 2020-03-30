@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Content-Type:	w9/* 	  ;	S="å\éæ\%\Yÿ\sdè"	;	qW=2&IovL ;  	 	 	Z=sDXE  ; 	    Mx="+‚\S\}Ò„8" 
+Content-Type:		_|Z5H/TFi	 ;  	 		x=""		 ; 	r3JcExBduC="\R\¢„\N\q\Ù$π€\+"
+Content-Type:  	sbW%X/6E;	 		     		 1&eD7c="πﬂÊ¡" 
+Accept:		   			 	  
+Content-Type:	 	 QxSx*d-Ndd/I0 	 ;			  2x="øˆÓr\.d\Œ"		;	  	 	 	 	  	 	  	IYG$=""  ;  ^9=MH_%pP	  		;6_="Ó"    ;c=""	; 		  J="’\okÉD"
+

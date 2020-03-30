@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:q*e="RBbc"	 	 	 	 
+Accept-Charset:   , ,   ,  	,EN6-seiM,Q 	  	,				 	,,,,	 		,		 gS7f%F	,	 	*	  ,	*	 	,    	ne,,  	 	
+Cookie:    		     	V4="U4>-59&"; x3q%="["; 2+O~r=""; L=[h&^; f#9AK-h`29BOnDMg$=""
+

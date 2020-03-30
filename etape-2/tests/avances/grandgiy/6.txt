@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 3%b=hq 	  
+Content-Type:s/O   	;			 P'=G^E^J
+

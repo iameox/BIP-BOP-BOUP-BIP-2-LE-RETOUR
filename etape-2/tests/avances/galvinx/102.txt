@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:	  		 		 		  		 ,			 	  	,		  ,,	    	 , 	,		 	  	 	 	 		 	,,   	,	,  ,LXn-rp-as-V1				;		 	q=1,
+Accept-Language:	 	  	U-Ysct-PpIN-P-oDI-tn7 ;		  	 q=0.298 ,	,  ,   	,	  	 ,	 	U-8g0-aN-qMX-P-ki92x  ; q=0. , 	 fpi-cd9;    q=0  		, , ,	    	  	  HJ 	;	q=0 ,GmCSR-w-c-XZTF-M,		  ,	 
+

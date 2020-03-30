@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:  		,	    		    			 , 	,, 	 					 	 	   ,,		,	,	,	 ,, ,		 	,   G-4-eV-M-a-eQrQ-h-R,		 
+Accept-Language: ,,  ,	 	DtX  ;	 	   	q=1
+

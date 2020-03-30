@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:,,,	  		,   		iP-Bi  , 	 ,
+Accept-Language:  		,				 		vo-R-q-hGc-x-O-3-YpJ-k5H-mW57-Q-5-jcU-HM	;	  		q=1	 ,  *	;	q=1	 	
+

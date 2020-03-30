@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept:		j+F/* ;	G2=""  		 		;  	SWC|`T=".\çþ"   
+

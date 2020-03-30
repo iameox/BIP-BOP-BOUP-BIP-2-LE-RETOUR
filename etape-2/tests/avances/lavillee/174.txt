@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:	  fwC1ME="P"; NHenYm=; p'=""  	 
+Cookie:  _4F|="8B`'77U^?N"
+Cookie:  m3Ap-!t2=; #U4Z5%7QvQ6=nNp8b; |GTw=P$ 
+

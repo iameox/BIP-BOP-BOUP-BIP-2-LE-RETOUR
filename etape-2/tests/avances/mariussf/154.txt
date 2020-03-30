@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:  [v6E.E.Koa+kQIae]
+Host:   	   [A:E::F87:251.6.204.14]:9920529	
+

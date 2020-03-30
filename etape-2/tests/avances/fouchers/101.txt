@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:y`="bI"  
+Cookie: g=""; Lnc&="?O"; %b="VD"; !=F_#4<KYm
+Cookie:~^="z"; 7-#'f2=d' 
+Accept-Charset:		  	 , ,,	 ,r;q=0.3		 , j 			, 		  f_	
+

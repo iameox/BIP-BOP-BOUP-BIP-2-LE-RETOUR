@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:hPC%DCc;/SJ%A7?rRBi%27OqB
+Accept-Charset:SEVZ	;	  q=1	 , ,  	,    	 ,
+

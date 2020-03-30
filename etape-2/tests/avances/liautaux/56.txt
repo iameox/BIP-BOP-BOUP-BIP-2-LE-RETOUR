@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 			 	 				 	           UJ=Xz6; Bf="c"; d!dA=l{; v!Jn~|on=; |j="wDQZ"			  	    
+Transfer-Encoding:	,BufP0D   		 ;	!~D=	 "";		  			    	X7U 	= 	 "\%o\e\¢\ü6Y\÷";	 	iFi	  ="\«€\O\1" 	
+

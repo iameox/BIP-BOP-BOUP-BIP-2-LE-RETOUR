@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:	O="`t"; _=kS; Oy= 			 
+Cookie:		 	ZPyMdDm=6n!v	    		 
+User-Agent:			   R/~iY 		 		(\^)  	(\«5(\Â)())	 ((2)\ñ()\Å(À]“\¯Mg’)\'ï)  	 
+

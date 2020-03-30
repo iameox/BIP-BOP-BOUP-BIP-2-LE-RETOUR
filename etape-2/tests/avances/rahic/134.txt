@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:	  q1a%PIs			; q=0 	  
+Referer:	  VGf-Z9l+K3AUN://UC%E2%EAH1%EA%B6&iG!%6Bs.@[0::DD:180:BD:A:253.76.89.217]:/%D8%6E(?M 	
+

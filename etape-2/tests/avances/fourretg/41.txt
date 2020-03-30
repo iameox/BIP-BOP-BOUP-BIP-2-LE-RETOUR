@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Charset: 	 	U. 	 ,	,ni_8O;	 				    	q=1.00	
+

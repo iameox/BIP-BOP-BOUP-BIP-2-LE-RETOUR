@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	[C:9F:F::7.25.250.56]				 
+Accept:,	 	  ,	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset: , , 	,				OgMM			;	  	  		    q=0 		, 	 	*$IoUs^W		 	; 	 	 		 q=0 		 		  	 							, 	OFy-	  	 ;q=0	 , 				   	 		*;q=0. 				  ,	,  	o_dhI ,   k*h1 ,	,	  	,,,,, '	;  	  q=0.	
+Cookie:	 	  					   M="@"; E="(ooM?Z>e+o"; P=""; y=   	
+

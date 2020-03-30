@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	Z|CVm=H]; %*-e="f]" 	  
+Cookie:		k="0(7#"; '=7'; b="ppfOUn:xc"; fe1=%9	
+

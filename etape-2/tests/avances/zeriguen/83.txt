@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Encoding:	 8q ; 	q=0,	 ,	 , 		*		,*	 ,		aJ      				 	 ;			 		q=0.87,	 
+

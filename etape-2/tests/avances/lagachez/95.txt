@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:bdk4+=[(~V; l6Dryfhb="{z2"
+

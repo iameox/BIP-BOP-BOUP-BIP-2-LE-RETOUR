@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:$SjW/#CvH2X8Q; m-8ffV="\!"	 ;	 	 pY1lLs="\8\ö\k\©"	
+

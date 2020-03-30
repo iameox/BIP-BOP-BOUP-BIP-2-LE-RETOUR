@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept: a/* ;			 S9="á\Ë\˜" 	 ; 	 gsCX=5OFYNAaJ^k	  ;E#="\!"	,	 RydFErg/* 		 ; 	c=""   ;^h^I1+oLkMr=""	 ; q=0	
+Accept: wC%/* ;  o=""	;  		  			8=""	;	  	J="$\(\y"	 ;  o-="\‚ÈŠ"		;  	-kn5Hv&`W="\¸";5yH26lkdd="ö\Ý\<\ì¸N]\Û\÷"	;q=0		 	 ,	,	,	DB-ZC/*	;	$G5T="\i\½¤<Û\" 	 ;	  		q=1			, 	 Si$/XX|m|Bq*FgC 	 ;		6UG=h 			    
+

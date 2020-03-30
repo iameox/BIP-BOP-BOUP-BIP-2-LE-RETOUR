@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:	 	 	  			C//
+Referer:Z://u;@[::255.246.1.38]/b/X////5		 
+Accept-Charset: 		, 			,	, ~;		  	  		  		 q=0
+

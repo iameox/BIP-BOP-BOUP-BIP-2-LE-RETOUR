@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:  		   	,		,dJp-D-db 	; 	 q=0.  	  ,		 
+User-Agent:		   H`1G
+

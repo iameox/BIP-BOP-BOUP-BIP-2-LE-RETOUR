@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: ,   	  	IAUKv1Qg-YN;0	 	 =			 		"i"	 	 	 	   ;		 6x=""  				 	;_!K!TfC-="",,		8#
+Accept-Charset: 			 , ';q=0	 		 
+

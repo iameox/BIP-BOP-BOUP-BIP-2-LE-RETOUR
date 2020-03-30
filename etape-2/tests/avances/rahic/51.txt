@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:						,		,	 ,		 jOV	 		;		  q=0.		
+Referer:		 	//9bTV%FE414'7@[v5.YZA]/b5/GxmRhR/ 		
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:G
+Accept: 	 	 u+/*	 					;S&UW=""; Tjv=""	; 	 		0Y8="´";		dtW="\ò"	;HS&f`dbdD1R=""    			;	 ADY=""	; Gt&+="ï\˚\ÓC";   hzR=""  	 ;H#="£"	  	    	  ;	 z=N.Dv;  I`4="Q4";				 k~g="8" ;					 Zm4p4PE="\Ω"	 	;		j'5="E\+\â«\Î"	;   10Co="" 		 		;	    UP^sZRH.fb="E\˛äk"	;	|pII="©‡T" 		;	iWJl+x5="\›\ˆ"  ,,	o/DcAY5;			  ~i3m~4KABkb=.36q-		  		;   BYu^$=B-|;HVmpn=!Cu1';pVgAGn~z$p="ç"		 		;e="O";u=""	;dN1="L!•\ô®\Ü\¨"; 	  				  ZsR|="‘"  ;	 		 	 			 	 					   *1Bd=oA    	     			  ;		XTgGmKUyz%=""	;S4ZBMii="ª´\Í$\”\•\Jˇ\ÃQˇ\ñ\⁄\Ÿÿ¨p\π"	;		 	 	G8BL="" ;		 		 q=0 , 	 VF/zf; 	  vF4="\Ì\|Ï\ˇ"  ;			     	 	 	q=0.799 			 
+Referer: nBvWq://Hv%52%C0f;%DB%DE@%B7e2Ms'4P=:6907875/uz+ht%54~KuP-//Ja:u&lC/$/Cn/RU/mJ%76DC/6.)F//?  
+

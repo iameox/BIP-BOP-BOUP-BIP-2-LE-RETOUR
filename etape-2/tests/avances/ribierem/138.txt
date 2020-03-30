@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer:		 	 yf:/X/?$%0Dh 	
+Referer:  	//[vF6.rljwe]:430/%D8a/FuW/%91/'/g+/%6A/X/%3BlJF/dqa/R62J/y/Zb//1fY%5D14OnL5	 	 	 	       		  			 
+Referer:/ 	 	
+Accept: 	 		W/*		   ; _Oj="\ÉÀ7"	  	;	6A~Yuu="\Æ~Bþ‰¶þêöe0\_\n" ;	 h~p2="à1"	 		 	;	  	 $~="K\2";			 	 		 	q=1,	  	,	-/`7Tsg;    q=0, 
+Referer: zJ3erPehQ:rX%B74:/S3/%56mw%CF/%C1i%43Gh(Kr/,vN.7/i/eHn6Om=/R%6Dr
+

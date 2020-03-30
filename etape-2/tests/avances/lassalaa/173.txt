@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:	  	AM/A 		 	  ; E="*\K" 			  ; Mt=""		;		 		   A="\§\‹\ÿv\Æ\*\ß"	 	 
+

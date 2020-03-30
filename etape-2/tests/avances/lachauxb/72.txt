@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:	 		  F		(\X†(\¦)c) 				 gAc^BT1t/Id94V21	    	        	 zAbWFx1P+Hgldfa^ZCoUOhxP	(\<)				 		 	  (\ÿç\¬) 	
+

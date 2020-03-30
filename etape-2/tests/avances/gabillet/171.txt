@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language: ,		* 	;    		  	 q=0.475,	, 	    		 ,	
+User-Agent:VXc		  (\â\W) (\4(&\¶\N)\¤ô\Ã())	(\ù)
+

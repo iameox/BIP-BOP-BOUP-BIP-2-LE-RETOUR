@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer:auliX6Mz://[81CB::4D88:7A:2:E:5E:1]/-%8B
+

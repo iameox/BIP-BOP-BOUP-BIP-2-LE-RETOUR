@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer://204.204.6.227:/+ru%575,%EC8@%40?  	
+Referer:	  	 	  /	  
+

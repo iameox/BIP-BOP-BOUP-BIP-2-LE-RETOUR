@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:J/m	 	;L!=mHpS;	  aX=""	; 	 S="ù\÷\êa"
+

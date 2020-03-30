@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:	ksE3/K; 	 		HL=$MU		 
+

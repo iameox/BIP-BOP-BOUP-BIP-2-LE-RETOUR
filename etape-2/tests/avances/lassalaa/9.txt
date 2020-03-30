@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:gEr=wK09r4; `=":"; 6m="KzG"; %xoA=""
+

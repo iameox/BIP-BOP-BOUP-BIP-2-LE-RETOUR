@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:   y6aeLCOO27Y:y/fPM%8C%E7/x/	     	 
+Accept-Charset: 		  	  	 *  ,
+

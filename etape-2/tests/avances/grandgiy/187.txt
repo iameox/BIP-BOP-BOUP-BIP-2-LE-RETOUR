@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	d=""; e*=; TrO&nXj40Mi="" 		 
+

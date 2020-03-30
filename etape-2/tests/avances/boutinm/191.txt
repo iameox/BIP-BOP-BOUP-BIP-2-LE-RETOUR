@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Transfer-Encoding:,   	 ,				gzip
+Cookie:  F=W}=; %A=pT]; 2A=Mu'hywxu; 8ze=M; A5=[+	  
+Cookie: X5=>; 1A35^LhC+="f6j=AFlu/q=_"; bh9Ql*&XB="eZQLNw!"
+Transfer-Encoding:,  		Iu 	; 	$GQPMg8 		  		=			 	"Á5", 	  Eg~    ;Zcn	="\Ñ\\\­þ"; 			 B   		 			   =		"\¡"	  	,   	 	  ,  
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:E="#Fm"; F=; gHi$.#OA=""; $QyDFnUFqiEGG^=".G"; !FZi="c.wx87Z"; #j=c3SBv8e}Y[^/; 9="veM}"; 7_%t+&X4sBLJZ=; TR+|v^9VjXaF5A=kQ/!=j	
+Accept:		   			  	  			  	 
+

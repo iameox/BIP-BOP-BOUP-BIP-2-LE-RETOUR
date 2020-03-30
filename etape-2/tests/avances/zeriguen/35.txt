@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:	  			|	; q=0,			3			    
+Content-Type:%VPh^iTGeC/2	 
+

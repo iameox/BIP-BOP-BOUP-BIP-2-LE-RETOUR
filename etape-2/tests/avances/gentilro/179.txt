@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:  		!+S 	;aQnDBF*d#&8CL=	  	"\îƒ\Ž"  ; 			X				 	 	= "c\ê\±\1)"		 	 	;vS  	  	  =	"D\AR\¤è"      ;	8= "" ,	 +Khl			
+Transfer-Encoding:		 ,  ,	 ,		  		   	deflate   						,  		gzip 	,			js	;	 			`nBz			 	     		=	    		 "\Š"   ;		 WM#y1KJBwntA4	 		 	 =		 	"\³";   	 Y="\º\;\,\8…"		;		# 				  = 				 "\*\<½"	;  		   	&_*o&nBv8&`=""			  	 		  		;	 						 	 vvYMQT.&	 	 		   	="ø"	;	   		Z+FYc$#6'gZ=  	"ã\¨"  	;_X				  ="Ä\0" ;	NP`	=  "" ;			 	$~PZ		="\ÿ\Z\?"	 		 		 ;zg= 		  "%\Å\3&\á" 	  ; 		 	 	c6hzHw4#-*7aZ-UW		 	=    		 		 ""	 
+

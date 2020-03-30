@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept:	yiUmR5UAI/s	;p="\ë\²\„"				 	; 		 		 	 v7+5QZb=| ;s'3p.YwK|ZGV=wB; 		 	q=0.6	
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:Dk5C!0uahQ8#="KY"; QG`^Ny=Dn{jEU; `x=`SU; ~R=_=	
+

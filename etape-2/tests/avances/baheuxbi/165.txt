@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:Pt_t/2VI   	-/2.   	(\®)			  
+

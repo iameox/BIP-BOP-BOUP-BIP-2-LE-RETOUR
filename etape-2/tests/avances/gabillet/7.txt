@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:     ,	 	, 	   ,			,,		,,		,	 gKlh-fg5V-FDXQ 	 ; 			  	 q=0.1 	 ,	 	 LB 
+

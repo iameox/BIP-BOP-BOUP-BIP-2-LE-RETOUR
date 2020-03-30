@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:  	,	 
+Accept:  	  				xt$|3_/*	; q=1.
+Host:  			:7			  	 	 					
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	 9T3N="*-0Sm!"; U=K_IJN^>AOB+3Mv; Y=dUeKd; O=   		 
+

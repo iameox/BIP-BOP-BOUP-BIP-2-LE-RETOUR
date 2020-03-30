@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+User-Agent:B/zD^dM
+Accept-Language:		 			,	 			 F-Dpk-C-I	 ,G-N 	,    	 GX-u, ,		,
+Accept-Language: 		  				  	  Uc-X 			     	;		  q=0.			
+User-Agent:	 	R%!hJ6g9A$c  	 
+

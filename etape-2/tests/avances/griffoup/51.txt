@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: 	 	 CUW,	 	,  jc ;  	Zehu =	 "\õrå\ü\æ‰" ;qV			  		 =	 "dò\€­";y^	=""	 	 		 	;	  5jG=  "\}8\rÞ\Zæ¯À" 	 	  
+Cookie:     		 	 	 		Zp~h6="k7hMI]5&z%"; D'VJ9|IY^="#U=+"; Xc&PG=""; 71Qu=; .K-Zv="-EU=G6.Ld_:1^J!bx!bHfT<"; 8578H=; s6W|pNtInhLSI3QKn="" 
+

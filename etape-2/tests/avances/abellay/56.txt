@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:y		 			  	 	;	q=1., |JUf8uWG#WU  ,	 	,,*jhN  		    		,		
+Referer:					/%A0Zk%5AQ9%C8*%21%41/	
+

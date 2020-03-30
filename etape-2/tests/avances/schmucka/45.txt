@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:XNl="KFo="; y=&F55Jv; T=""; -="X"
+

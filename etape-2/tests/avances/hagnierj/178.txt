@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept:		2+9+7/*				;0z60ZJD=Tp&UD 		   			  		  ;q=1. 	,				   	  			.`/*; ~XA~VTm_jr="\œ\—\”š\ö" ;  8JO="\ \†ï«" 	 ; UW1+DN2="\Z\#¨\0\€Ž"	 ;BRl+H8c="y\DÔ\Jó\V"	 		 		;Koe="\b\A\’\SI\ì" 	 ;R="\P"  	 				;					.o="Š\²\E"	;	lXH=""		 	;	xKGAlD!ioD_~F="\ê>" ;tcMDV9=SBQSTBz 		;	GxyE="~Õ"     		 	;  	 			   5="" 	;  	V="\|\¹"	  ;  JO|t*8IQ'V~lMJa="\û¹"		;!u!old=""		; 			 	6I=""		 ,  X/*						  		;q=0.76	
+

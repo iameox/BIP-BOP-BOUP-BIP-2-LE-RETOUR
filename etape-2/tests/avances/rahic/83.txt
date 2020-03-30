@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:TbIduCd:/?Js4@tr%4A%BB@
+Accept-Charset:   		 		 M;  	q=0 			,    	  ,	
+

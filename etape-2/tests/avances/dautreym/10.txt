@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:+V*'K		;	#XED  	= 		"a∑"	 ;0wBQ  ="ß\ùÉ"		 ,			  IofzgO  	  	 ;			 j8'=		  	  	   ""  ;AhiA 						 =	"ã\Ú M\L\∫";  sM	 			=  	  	 	 ""		   		  					 	, 	 	6	 		;	  	 		 M+fJJpH		="ç\+X "	 	;  	     u344 = 		""	 	 		,  	 		 	 
+Transfer-Encoding: 		,,			 ,	 	 , , 	 rGec9		  	     	;				    	$myn 	 		 			  =		  "\√X\‚"		;fw="\—≤Yp"	  , 	,		#g-		   ;	  		   s	=1 ,	 		 		 compress
+Host: [::250.214.2.230]:053351202 	  	
+

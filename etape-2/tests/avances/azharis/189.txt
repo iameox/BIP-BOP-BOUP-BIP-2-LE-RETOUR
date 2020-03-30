@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:		 	   	3AbLq/B		  ; 	R="k{]\à\y" 	 	 ;  .Zy5XZzR="\„\‹…Ãô\ﬁ"	  
+

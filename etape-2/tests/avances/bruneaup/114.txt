@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:[6::BEB:B:251.25.248.8]:16		 	
+Accept:Ma/* 	
+Accept:     	  
+

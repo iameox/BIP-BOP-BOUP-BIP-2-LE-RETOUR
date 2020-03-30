@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:S1=wu1IM-`R; XkUM~="'P"; 8Kw2O%=""	
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	  		 dXW`="JoGt"; d_="v"; .="/"; %=hbL$J^; Y*Yk=.; U="$"; s5="!lr)2!b"; t-=IR2%; erQ&MhvmYEPwWsWyl6eRz_%~y=; x="(mL]/"; qdb|f.="&t"; jn=LVa; n*3y1D~^=P; 3qG=; |laUmcFi=(x6]C#    
+

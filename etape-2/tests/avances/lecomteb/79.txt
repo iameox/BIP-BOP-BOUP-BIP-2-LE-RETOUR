@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: 		 z/88t     ;'="\ô©6[Ï\ê´*Mµ"
+Content-Type:  Kl/Bvcc-Dgp
+

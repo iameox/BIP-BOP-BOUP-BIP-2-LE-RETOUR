@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:	v_pn0-/jG3   		((B\Âd\-è\ÊŠÓ‹‚T\:„\F\U.\@\^ò\B)^D)
+

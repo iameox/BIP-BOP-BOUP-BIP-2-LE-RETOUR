@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:glS7/1_XzYO9C-- 	 
+Content-Type: 	   	R/PMV0Er&
+

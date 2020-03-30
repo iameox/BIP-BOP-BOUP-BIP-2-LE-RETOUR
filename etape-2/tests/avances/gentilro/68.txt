@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	0$`Sx3="]"; &f19U="Pp:"	    	 	 		
+

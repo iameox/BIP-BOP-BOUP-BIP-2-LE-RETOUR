@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:159.224.193.240	  		
+Transfer-Encoding: ,	    ,   		,		 	,								 	,   				 	, 			,  		,	  , X~		;	e		=	 "K";    Qt-EO0C*ZpE2	= 		  "\ç"  ; wIb	 		 =		"";3zRm2S7yLLFrkH =""   				 			;		 			 		 1cV6="\˙\K\Ì¿]\å\hÂ1}";9s=		"\†\Y\⁄" 				,  		 	 	UI	  	; 			-F 	 ="÷Ñ\n\@\q·\˚", 		 
+

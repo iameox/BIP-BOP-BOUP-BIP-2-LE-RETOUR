@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:	 	  
+Host:			  	%F3LC%B7Ls=:48670292
+

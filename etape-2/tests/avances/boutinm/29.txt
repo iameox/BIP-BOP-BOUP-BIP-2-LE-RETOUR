@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	4Mq5g="R6MlSSw"; 3b=""; E="6@U*=P5"; C'~3q="Z|@u"; 4C3*=i
+

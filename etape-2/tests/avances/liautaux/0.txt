@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: 		  , 			, ,		 				  			 	jFO9B	 	;wE'6xC1HFJg%I'9WdRl		 =		"\«" , ,	kY ,,
+Transfer-Encoding:   , ,	,		  chunked ,deflate,  	 	  XOIB  		  ,	  		lDi	 			  	;h#HQzu9a=    "ñ£",  	 	 	 compress		     	,Q	  	 	   ;  X-C3Gz'7cdl=	"\l"	 			 	  	, 		 	 |;  				 14x#u=	 	"æ\ç:" 	, 1~  , , 					    gJ8	;	7 	= 	kyD
+

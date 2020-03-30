@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer:TW://0.218.77.111//d/h/p9/rB/P/pU?
+Referer: 	     	//[v54.skIi-Nq]:?%CCnJ	 		
+Referer:		 	MvpdBO://[::F036:46:4:7F7:20]:3///nxQ%92kw%1D6Z%E6CQZO4%0B
+Referer://79.241.240.9/%FDY_c/O%8EJa;/%2B@7G/  	
+

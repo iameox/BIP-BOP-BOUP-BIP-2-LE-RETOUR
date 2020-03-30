@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		  |Z$N!="?B+1"; AGW7^Qf'i6=`A|Q2iZW#; msDh1E=$zi~n/Cz	 	
+

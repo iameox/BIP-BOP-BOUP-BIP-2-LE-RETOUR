@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type:			k!k5U3/Grz
+Accept-Language:	,,  ,,	,  ,			 		 ,,C					  ; q=0.6  	 		  	  			,Y-T-ebVk-W-Q-0-v5-nfPxH401-rz1N 		   		 	    			  		  ; q=1.0  		, ,		  u-iO-ny-l-Pu; 	q=0
+Accept-Language:, ,	 	 e-U-5-5-J-X-U 	 ;	  q=1,
+

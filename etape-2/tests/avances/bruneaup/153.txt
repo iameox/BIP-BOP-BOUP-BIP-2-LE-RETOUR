@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept: 		 
+Host:	7.251.204.33	   		
+

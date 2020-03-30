@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:169.2.204.6			
+Expect: 	 					   	 100-continue			
+

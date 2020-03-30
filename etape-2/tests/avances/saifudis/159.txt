@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:	250.2.4.8 	  		 
+Host:243.160.6.169			  
+Host:  PQLt4	 			
+

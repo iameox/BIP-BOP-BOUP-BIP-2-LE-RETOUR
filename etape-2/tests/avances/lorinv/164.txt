@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:&JRl$/qAz%Rb2PAquWF*M^2IIR$l-+enF;6LL$ct1="\ë"	; RV="\ \x"					 
+

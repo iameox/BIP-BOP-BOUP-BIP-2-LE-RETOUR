@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:Mq-r-KB-B, 
+Accept-Language:	,		 	S-n-uR		 	 				 
+

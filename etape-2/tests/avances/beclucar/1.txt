@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: 	 				H39r/6    		; 	W4'U="\—\Þ\È£"	 	 ;  					YLM=_CkM  	;	 	d`w="Ý\]"	;	.^w^=""	  	  	;B's9GH="\s'c\«" 	  ;  	 a=".#"		; `z_=P
+Accept-Encoding:  	 	 		 		 
+

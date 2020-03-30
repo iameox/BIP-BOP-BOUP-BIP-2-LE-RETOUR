@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:,,			   ,  ,			  		  ,   12
+Transfer-Encoding:,	, ,	, 	,   Lf;  	 			O3* 	="£\Ì"  	;*J^3Dm  =		"";	 7R	 	=	"";~u	=  	9-Y; Y	    ="\aÏ\&l×à" 	 ;			XRr2of*88  	 	 	= 			"q\¤³\¹õ"	 ;j 	 ="\õ"	 	,	 	  	   , ,  	  			 	  , 	, d;			      	  	lU 	 			 	    = 	""
+Transfer-Encoding:   		   	  	 hDaNe;		 &pjb+&   =	   	 		 "\û\É\ƒ\s\-\Za\Ë" 	  	  	 ,	NE			      		;  	VF			 =	 	q'58h		,	 	   	   		,			  ,	
+Transfer-Encoding: 		,    chunked	
+Host: 23.3.38.255  
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: dyU67="%G"; 9E.Q8iDM=""; c=p_; c=""
+

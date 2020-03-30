@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:   //[::0:C:9.1.197.208]:667/?(	  				 
+Referer: zTnwc9fQF://[B:FB:9::57:DEE:9.6.40.6]/%7F:iift/)/a%70V/%27/		 
+

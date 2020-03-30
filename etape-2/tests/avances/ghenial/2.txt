@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer: //209.68.40.62:?		
+Accept-Charset:, , 	  ,	,		  	wD^II+-qN--uES34i  	   		 			  	  ,
+

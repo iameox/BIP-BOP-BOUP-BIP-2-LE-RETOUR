@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:	  	  7i^dURr%l.izm	 	 	    (K\»(\ä|\°\„))  (()ø)	(å)	
+

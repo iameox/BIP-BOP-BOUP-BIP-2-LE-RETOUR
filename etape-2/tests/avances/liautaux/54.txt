@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: 		,	,		 	, 	 	compress	 	 	,  4
+Transfer-Encoding:,  		 yC	  			 	 	;			i-k=""  					  ;rUOXv#yctLnoo= "\¬¾b\w";	~ =	""	,  ,	   			   	, 	Og%	; 	  	 	ilN  		="",   		  y|		 	 ; 	  `  =	 "\7\b" ; j%	 		 	  		   		=	      	 "\A\$" 	;Hn= 		 	 		"\l"; 	  	 S		 =	 	  	"±ü"  ; 	r_=	 	 	 ""	 ;	^wM =				   "\,€\{g"			;		 	  $a$		  		 =		   "´B-\Ñ\<\Ê\¯\ñc^@’\D"   , NLzg^Vs3VV,  	
+

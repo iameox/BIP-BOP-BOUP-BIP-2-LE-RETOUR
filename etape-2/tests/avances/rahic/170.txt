@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer: 	       		 		nf://6s%D1@fO/i)*;bO%96=E/%01		
+Referer:D://-C@[v7B0.a*]://rFV5S%24wuBkBP;//M%B8+/D//k=g%07%BF	  
+Referer:	 			 				k	 			
+Accept-Charset:	,,	    K&;	q=0  	 ,			AG ; 	 q=0,   		,   	 	qCQi8DV&RTw	   
+Accept-Charset: , 		   	  ,, 	,	  		EUV%AN~1		
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:  /?dKU+W:-/ 
+Accept-Charset:	  , 	 			AENnc%gF , 				ZEp 	 	   ,		G	;			q=0,		 ,	 	 	i5R.	 ;  	   q=0 	  	 	 	, 	  T	 ,,td				; 			 	q=1	
+

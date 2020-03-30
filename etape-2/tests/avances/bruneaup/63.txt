@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept: 	 	 	   	 	 				  		 		  
+Host: 		[v1D8AA76.F]	 	     	
+

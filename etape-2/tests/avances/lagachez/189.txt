@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	 	.-DuKE6=#; |s3Hy="pQ7l#]2rp/+E"	
+

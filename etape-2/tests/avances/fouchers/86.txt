@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 9b-d*.B="/W"
+Cookie: 			 		Y=""; A1=""
+

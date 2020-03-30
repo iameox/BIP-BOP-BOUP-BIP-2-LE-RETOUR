@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:  	//:81890/v%389/e%52%72V   	  
+Referer://PTtR:21910?~%17:es%8E  						 
+

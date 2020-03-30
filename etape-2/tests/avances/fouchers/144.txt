@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:,,				 	 , , 	 b
+Cookie:	_RtB9n-E3bW$1d0=		  
+Accept-Charset:		I	,	 p~$&9U  	,e  	 ;	 q=0.5,, 	
+

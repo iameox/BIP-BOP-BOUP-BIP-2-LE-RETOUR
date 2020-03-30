@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host::21344067
+Host:  	  		[vE4A9.aH6)Tn:]:
+Transfer-Encoding:			,  	  	 	 , 	   	  	   				 ,, 	  umZ ,  		 	 			  W8	; 	RwFTz=		""	 	 	 	   ; 	   				 e~=	"g"  ;  Jd+pyAJtavKv	= 			 "ƒ\J"  
+

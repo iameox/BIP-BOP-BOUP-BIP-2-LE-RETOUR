@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:		 			 		  	  				 ,	 GGHcP-6-GD-WtA-o-l0-Nv-d-lP-A7hS7-i-ex	; 			 	 				q=1.  	,						uU-W-K-Zi-u-p-b-t-O 	,Z-18-a-Zn-D-yl-o-4;	   q=0			 	  ,
+

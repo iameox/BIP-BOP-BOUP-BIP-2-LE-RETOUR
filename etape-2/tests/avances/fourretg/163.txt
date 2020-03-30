@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:	,   		  |wnM`YUA7   ;  q=0	
+Transfer-Encoding: 	  						, &;ga		 =	 	 			  	 	 u4,	oTxo4cy!C3Xa`a7 		 ; 	Bc~	   =	"K\`Ж\$тя\j\sa";	i = 	"X\╓ь\яё"  ,pQ.j1		
+Accept-Charset:	,	,	   YLJ^rd 			,	    ,	   	 	   					   	   		$9M,	 Q+ 				;		 	 q=1.0 	,	   	   			,
+

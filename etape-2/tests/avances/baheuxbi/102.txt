@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+User-Agent:		4/%  
+User-Agent:		 B4d/ckg| (\ƒ \n\ья) 	-2	(\`\ ш\√)
+User-Agent: 	 	*fF 	LT|U%/Ud  (ќ\У)
+

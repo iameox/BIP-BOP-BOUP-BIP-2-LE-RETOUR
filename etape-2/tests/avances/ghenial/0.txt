@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer:		lC*YL%28J/dY89///%DB+/%85:(J!CL/V%40/o%DE//U%23		  			
+

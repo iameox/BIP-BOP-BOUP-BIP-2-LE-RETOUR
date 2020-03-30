@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:	,		, ,hkc-FXx-XK-vpLt-CN-C4Td	 	;    		 				q=1 	,,	YP-B 		;		 q=1.000	,	   B  ;  q=0  	  	  	 , 					 	   	 			,	,			  u 	 		
+Accept-Language:,	  ,  	 		 	 ba-N-n-j-HI9-Qk,		 G-2g-H-r-jv8-C1-hgDakA-x-v	 ,			 	 		 ,
+

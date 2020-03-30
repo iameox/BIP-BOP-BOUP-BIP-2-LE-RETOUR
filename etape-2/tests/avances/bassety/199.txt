@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:qB/C8    			 	 	 	 	    ;			 u="\¹«,\ø\ì[\«8\±"	  	
+

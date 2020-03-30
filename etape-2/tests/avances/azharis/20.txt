@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:  r/3  				 			 	 ; Y4_jb_N="\İ\gô\\×Â\ï"	 
+Accept:		 		    	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:  	WU5=z%FD9; Fuf5e#%K="OD%_"; CMW0N_wqr=""  
+Cookie: 		  	 		 A=""; Ko|ePLO=""; NeUG="R"; BQo9KnBy="|zY#:["; hBU1D6`FCF-="bi'/"
+

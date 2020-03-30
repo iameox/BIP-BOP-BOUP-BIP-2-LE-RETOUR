@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:	 	,	 ,	 				,,		 	,  			_l5iIN 	;     q=0 			,	 
+Cookie:  rv=9; p="BO"; q%B|=q 
+Accept-Charset: ,,, ,,   	,, 	 		 ,				 	, , 				 	  	%dN,		'P	 ;     	  	   	   q=1.     		 	 	 	,   	 	,		 		$lqkP, 			  				v$3A^8$	  	 ;				  q=1  	     ,	#2fN95.fOV 	;		 q=0		 	,		   		  	   	 ,		  	 ,		o^!#O,	 
+

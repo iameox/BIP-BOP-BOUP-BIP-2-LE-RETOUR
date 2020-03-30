@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:  	,  RkCJHTymb#whcD&W&$_s2	;		 	 	q=0. 		 	, 		 T.	;q=0
+Referer:	K(0N	  
+

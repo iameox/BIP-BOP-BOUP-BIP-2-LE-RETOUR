@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:n|3 	 	  ,		 	AOe; q=1 	  
+Content-Type: 			pP&9JR/0Ajn67&fSUQ	 				;			 0VnFwkb2="";_=_PHK 	 			 ;			  ~T-=6 
+

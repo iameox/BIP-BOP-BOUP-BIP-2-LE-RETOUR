@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer: x+qa7:/		 
+Referer:	a://1Yr@[F6B:6A4:70:C0:E:AE:191.230.243.79]?Q
+Accept-Charset:,TCBlh*QHH+t34Ld   , &-qr^3N	;			q=0.	  	 			
+Accept-Charset:		,		 	 	-		,
+

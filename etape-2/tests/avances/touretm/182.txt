@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer:mEJ://%49a@[EA:4::6:8:734:FE]?
+Accept-Charset:   		 , zdL-;q=0.339,	3. 	 					 ; 	   	 	 	q=0.9,
+Accept-Charset:  ,			   	 		  ,	,,	 ,	0;      q=0. 	,  ,
+Referer://2.235.2.255:1/%EDl%69%F28?.lsSGsn 	
+Referer:kW!/.8			 	  	
+

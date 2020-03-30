@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	 PYH=4tB; 0E`zM=u'/'; 1=h; 6'Gu=""		
+

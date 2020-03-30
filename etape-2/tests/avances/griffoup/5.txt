@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:5y=6; v1nQ3cXq|=""; _L="^PEok"; `=2; H=`q&#^; W&=JA?]I
+Transfer-Encoding: 	 ,  ,nxp$A8|;	 	5%R	=		   "\F\C\Æ"	   	,,, ,	gzip		,	 d%2xbgm; 		 n3h|*HLE8= "\D\W";	AWrc=		 "AÉ(`\;\ª"   		   ;lT*TNO =    	cN	,		  			 ,   f 			,,		   	 					 
+

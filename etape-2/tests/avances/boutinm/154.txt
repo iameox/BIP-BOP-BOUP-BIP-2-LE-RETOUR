@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:|=R; E=""; 1="@>}C'e"; b|!T=^t>Rw'$b[		
+

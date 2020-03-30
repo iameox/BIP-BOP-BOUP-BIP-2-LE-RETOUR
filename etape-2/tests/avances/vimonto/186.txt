@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Host:	[1:2682:6:6:BEB:C:1.250.252.2]: 	   
+Accept: 9q4x/* 			 			;	  	   _5="Ì\òØO\~\?®"  			;	15l6u=RodTd,	 T-3T/zGs	  	  
+Host: 			  	C%4BzHu:9
+Host:		20.230.240.141:239
+Host:$hY-mc:57 
+

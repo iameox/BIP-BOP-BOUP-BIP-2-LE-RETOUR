@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:,	,  , 			  ,	     ,	     ,,					Wl-t-h-8 			 	, 	
+

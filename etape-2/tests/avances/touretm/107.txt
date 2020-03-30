@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:	 , ,q4f ;  q=0	 		
+Referer://[v1821.m$]:45/R/_gs5UVB/Z%1CEa/OC7CX/ZY/			   	  		
+

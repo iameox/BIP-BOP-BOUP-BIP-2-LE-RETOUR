@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: l1=`+mO; CHZsE="1.dS"; SC&-=""; Z=; PRg=; 1Mn^S`~=2x; Vbyq-1WR="8)V|"; O=s; E#="-"; 6b6qXr= 	 		 	
+Accept:	     	 	 			  	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	uN=PN:!{r	 	  
+Accept-Charset:Zh|			 ;	 		 q=1,-  		;q=1	
+

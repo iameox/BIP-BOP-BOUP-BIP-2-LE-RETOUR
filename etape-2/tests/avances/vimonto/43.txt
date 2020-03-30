@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:250.65.105.179:29879
+Accept:4MEksGq#C/*	; 	 		 	  q=1.0	 
+

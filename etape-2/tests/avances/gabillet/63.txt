@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent: 	 NbL		  	 	  	 				 (\Š\‹\"\K(\–)(\Þ\^X•ø\¸)\d\û\¢ \X\2) 	18s/+%3gRS`n	() 	()
+

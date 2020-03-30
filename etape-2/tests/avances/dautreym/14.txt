@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:			  	   	 ,,,		   	,,eg	 ;	x-	 	 			   	  ="\∫\£"	;s%		 = 		 "\Æ";  		  9w=	"à\R" ;  	 		  SH=  			 	""  		  			  		; 	 			 			  m8		 	=   ""			; 	 	 	 6		="" 		;h=		   		 		"\•\" ;~4	  ="ù" 		 ;	 e!   		="ÿ" 	; a9u&AxS = "";	 	 K86			 	   	=		  	"" 	,io%g			
+Host:[vB23.8X]  
+Transfer-Encoding:!WV|^AbhQ; 0			 	=		 "\!\Ã\å\∆"   ;  		   	   	Fn427L			   		   	 =		"", 	 		 -_	  	      	,gzip,gzip 	 	    	,zYuvq$  	  ; T0  	 	     =8%z;	 	 3			="" 	 ; 	Y	 =  	  pUr    ;			      hYT7z 		 	 		 ="";	 oL= 	"";		 x_sg1S'=  	 ""   ;   	y`En   					="ê\PJ…ó"  	 	  ,	 			, 	   	 			, 	 		   chunked  		  ,	 ,	 	 ,^,			  	  	 			   , 		QLlKGv, 	  	 
+Host:				50.16.16.5	
+Host:1.4.252.29	 	
+

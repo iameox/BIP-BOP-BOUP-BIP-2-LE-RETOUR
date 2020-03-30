@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:	, 	    					 	,	, ,		  	,  w%3YrF3AK	   		  	 	,			 	 	  	
+Referer:zjGhEEq1.Zx5JndUe3u://h%9DUA%17b_@[E:B:FC:6:D:A:1.4.9.254]/xwzW.%DB/j)q%DC'Z/Td-/8N/? 		 	 				
+Referer: 		//s@[v8.7fe]/$//k/o%89vTvl
+

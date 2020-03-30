@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding: 	 	 
+Referer: 	 		 //Q@[99::3:E:1:BE:0.0.68.223]/9s	
+

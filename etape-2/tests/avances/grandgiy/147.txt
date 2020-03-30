@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	VPsb&~G*l8HB^IF|=~II0J#zF?Jq-txQ:/Q; 7g="Q" 	  
+

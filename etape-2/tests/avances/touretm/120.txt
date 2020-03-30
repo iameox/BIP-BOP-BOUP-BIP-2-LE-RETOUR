@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer:N8dn:1M//K//?
+Referer://229.252.246.8:/%24Xd*R06%29/PQ_/A%5C%23G/$=/%5B,%8F@%48?)%C4ly;	 
+Referer:	//[::252.82.16.200]:6441//;%B2X/dm=ior_.2fWZ/.Y9sK.t? 	  
+Accept-Charset:	 , 		 	,   		 			  ,  	   		53!4 		;	  q=0  ,6%n1 ;	q=0,		 	, 	 ^Q		  		;	q=0. ,	  	   EbX	, ,f		 , 	KKmzsvR 	 		;		 	q=1.  		, 	,		,,		 	  	,		O		 		;q=0.1
+

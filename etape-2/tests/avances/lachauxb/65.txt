@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Language:				    	 ,	,   		rubw			; q=1.0	 	,f-2-7UGd2A-4U-iVo-9-Pe-Fq3A-E-7-1	 , M-vW3L-7zl-uV-z-9-m5-N	    	 		
+Accept-Language:, 		 	,	c-0-3-j-Lb;	   q=0.1							 	 ,   	,	 ,	 ,,    Ed-9V 			 				 	
+User-Agent: 	8%b2ec4U2u 		        	 (à)    	     	 		(S)   (\s\∑\±\¬(3))		  	     	(Ø&Ú\Ã\Ú) 		  (Í\Lt\	) 	(w( `\Å))		 	  (i)  	 
+User-Agent:Rp2~%Ou^M/o6O	 ((≠\’7\´Y\|\=f\◊)\ë\“\ˇ')	() 	(‰(\ü\.\›))	  	
+User-Agent:~	 (q)	() (◊\“\*\oí\j\Õ\V\G(≠)\Ã(Ã\Îq\]))  	()	 			     (B(\:óÙ)M\ˇe\ù\ã†) 	 	((\*))	 (\ºÅ)  ()        			 		 (\Ë≥Ó) y/%EH	(\Ïí) 	()		 	()	 					 
+

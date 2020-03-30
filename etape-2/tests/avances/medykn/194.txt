@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:5.64.0.157	 	   
+Host: [vD8.')U,g]: 	
+

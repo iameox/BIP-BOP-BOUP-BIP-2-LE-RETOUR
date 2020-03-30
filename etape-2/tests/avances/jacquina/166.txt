@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset: 	  , 	 	  6$pa.~6 ;	q=0 	,	,			   	+- 	 	;	q=1.,, G|ded								,~		 	  ;		 	q=1  			 	 ,			w			,	qb' 		  	,T9!T!oZkVe ,			
+Transfer-Encoding: ,, 	, deflate  			 
+Accept-Charset:		 		    	R   		 		 	 ; 	q=0 
+

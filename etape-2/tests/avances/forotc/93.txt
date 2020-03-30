@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer: 	 	//0x'@n? 		
+Referer: 		 			 						erDk://202.157.29.3/@&?%B2.0  	
+Referer:///pLx%D2Mao8jk/aAzb/%14?Z%84@mW%D95C2%AFr'Z 		 
+Referer:Oa+m://%54Q@[v0.rg]/(F%7F%9CLpJmt 
+Referer:   	  		V9VhG:7%5E//D(%C5=wdrK/2%CD8x8o
+

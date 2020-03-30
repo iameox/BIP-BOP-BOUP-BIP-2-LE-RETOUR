@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Cookie:vL="%R"; 1Jph%=amjfB`; uUWf=c%NbK; Pt=""; PIk6!mb^ua+T9=oRC6GR|; N=; _wo=.6Jh+%Y  
+Content-Type:		IWxel/5 	;	OSfU$="\]"	  
+Cookie:  	 |0D=gc; y-=""; ++=""; wQrQQ4*qOFOSs1=""; 8t7= 
+Cookie:				   dR="fC"	 
+Cookie:					cyb!Li="~AdP_a]alD^&J6eg"; P$=; 3qHd$q=E; tV=; O="7'"		
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:  0y*F5H="n0}0"; n=`Gn
+

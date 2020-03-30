@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Host:   	  [vBC2D.7-$p~sIW80wK] 
+Host: 	 	 [::D9:D912:B5A:150.4.32.101]:
+Transfer-Encoding:  	 ,		 gzip  	  		  	, 		, 	
+Host: 	[0::0BCF:228.60.240.1]:38984	
+Host:  	[::69:F:78:2464:F7:87.9.8.221]:20
+

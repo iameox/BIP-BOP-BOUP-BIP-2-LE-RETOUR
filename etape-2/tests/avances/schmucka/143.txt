@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:		 			 	gKmc=; `ZY=; DasZ.q-=`q; o2="#B8("	
+Cookie: 	  s45K=s; Eh=rD`G]l; 3=A	 
+Cookie:    		tZ=; 0=3	 	 	 	
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Content-Type: 	 	5yY/F%xdLB
+Accept-Encoding:				# ,		 		 	 		     ZY, 	  		qrkFA$
+Accept-Encoding:			  	 	 
+Accept-Encoding:				  	 		 			8	 
+

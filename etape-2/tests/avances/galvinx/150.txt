@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:  			 	,	 Yl-n-wH-W-6W		 ;   			 q=1.		,	 I-5236ddt-CXF2f,,   UtM-4-r,
+

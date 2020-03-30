@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host: 		88.79.235.229:	 		  
+Transfer-Encoding:		  	 		  ,		,			,	 	 ,		,		, l  	 			;S	=		"\÷\¼\}"  ;  t'	=		  		 	"\™",		
+Host:     			252.72.177.111	  	
+

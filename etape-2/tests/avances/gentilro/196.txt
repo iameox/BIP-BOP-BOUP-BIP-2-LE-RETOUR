@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:  	   	dF=""; ^="=Cm_"; 2="0JnR#U" 
+Cookie:'Sv+yicJ0Qnn=""; k'sim%~r&ql=-B; hq=""; 7=""; r~k%B=oV		 		
+Transfer-Encoding:	2;		Lk		="{\1\D\â¨¥\3\iò" 		   	; 		  6plCECb="\Ô" 	 	
+

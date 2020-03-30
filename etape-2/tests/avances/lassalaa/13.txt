@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 	 	9oM= 
+Cookie: 	  	 		WK`l~MZch&aRErYLy|!==U; 0yb=""; '2T!Y=[5+W@Inw>[	
+

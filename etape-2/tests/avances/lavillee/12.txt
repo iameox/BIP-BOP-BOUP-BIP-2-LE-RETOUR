@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: *="S"; pb="6"; AO4^l="ml)"		  
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: 			75w5wvJ/O4 	 		   				   	  	 
+Content-Type:  m/y0Pp0T5N;Sv="\HÐ\f\Öb"					 ;  E=""			 	 
+

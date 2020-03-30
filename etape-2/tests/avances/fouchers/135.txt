@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:	, , E+			,	NaJ`D;q=0	   ,				 	 ,  ,,	    			 Hztqu;	q=0.	 	
+Cookie:	 	%0|cSvm=""  
+Cookie:	  	Y=""; jz=&y; Zu="zO"; CFb#CiFUUy~Zm=?
+

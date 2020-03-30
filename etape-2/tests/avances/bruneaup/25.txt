@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:[C6::3.7.8.67]  	        			 
+Accept:	 	b2/*	;d=+'Z ;	9-n=et8RByh	;|l="£\7"	;	 		  	O9="\3êõg\º\`3Í"		 ;3="\ä\<VÓ\Ã\pß";hW="|\d\b\ò\¸\i¥\Ö"    	 ;   3rtUHH=L	; LeF=""; 	 .="\†";	NQ%+kX`q+NR=S 	; 	 LA="";i=""; q=0.1  
+

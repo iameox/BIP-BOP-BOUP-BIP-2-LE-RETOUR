@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:				Mci.=v'WG$Vy; 0d~ppzAC=<o-:; N=; ^=N; a=*e; S=yj; +Qmb7=; SxTinOnb2BuSD35B=""; o=J8; 94y00siPS="@"; Jbr1=C@GY2Vs5?G|
+

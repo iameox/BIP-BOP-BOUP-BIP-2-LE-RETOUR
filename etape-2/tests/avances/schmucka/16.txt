@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	 #IT%Q=H!a@7; 9J*Ux="1V"; $Rym8PDe="" 
+Cookie:		 *S="Q"; kryQ!=0; .r=""; R=
+

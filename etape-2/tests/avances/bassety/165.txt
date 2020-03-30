@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:bb`/Qd   ;Q25Y=Su%C*2Wql	 
+

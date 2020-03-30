@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:39!V3YPh="]kW"; ^="+LM.!"; y%&="+9"; S=":"
+

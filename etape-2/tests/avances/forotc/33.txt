@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Encoding: identity;	q=0. 	, Q67OFGu5_qqj&E9f.Zq`  ,uF$l     ,	 	
+Referer://254.30.1.1///DS/Xj//9//%AD//%AAo%DE/laR?
+Referer:		 	Q://B;;@:19816231/(	
+

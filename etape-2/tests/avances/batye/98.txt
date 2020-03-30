@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	  s=; 3'=4~h/Gp; `t&JzS=7 				
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:  				Y=S(; 00w%ul!D=U%-; r1x=; GIIQ3=a0; Q="v*hq=w"; Oly%-4=qeA; $i=*hq	  		 
+

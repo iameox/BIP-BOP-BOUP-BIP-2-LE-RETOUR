@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:			 			W1uk2jd6  		; 	+G^W =	 				$d 			 ;  	lH% 		  ="+\L\¬"	;				C =			  	 "\e¾\ð\-\w"				 ;	 	3QpboO 	=		"Þ\†S" 			; 		CE	=Nt 	  	 ; 			 	B3 				=	  ";\*"	   						;LR 			="\r\J\ôŽ";			  $Mbx 		 	 	 = 	   	 			  	      			 4D 
+Accept-Charset:  				   *; 		q=1.
+

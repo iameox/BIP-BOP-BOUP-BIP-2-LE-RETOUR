@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:,	, O5y;	 	 CVFpGn= 	""	,	  ,,
+Accept-Charset: 		 	 	  , 		,	,	 	, ,	,,		  K^`		 ;	 	 q=1			,	  ,	v9Qtw1mHV 	 ; q=0		 ,   U1|0g 	 	  	 	   ;  q=1	,	   	 		 ,
+Transfer-Encoding:	 ,	   	 		 ,		  	 	   ,  ,,	Q	 	 	 		 	 			 ,	 
+Transfer-Encoding: 	 	, 	       	  			l00			 		 ;	 	     !wGD 			 		 	=	"\\ú"  ;  					  &S~= 		"ü\l€ã#"	; 	   	 	gD		   =  	"\·"	 	;  z4TT5c=	 	-Zjl|XaNQXK* ,		,	iI		 				 	 ; 	 	  	 Oki			 		=		 	"}" ;2v`		 		= 3+T ,g			,  	 gzip		, ,,	 	 		 	Kx`6xW	;	 	   0& 	 =	"ı";		s				  	=r	 	 	
+Accept-Charset:	N-2	;q=0	
+

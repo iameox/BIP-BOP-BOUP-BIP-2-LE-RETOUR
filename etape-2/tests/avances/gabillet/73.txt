@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:	UYX-x;	 q=1. ,	 		HqV 		 ;q=0.8		
+Accept-Language: 	,	  	,	liW-aK-o 	;	q=0.5  		
+

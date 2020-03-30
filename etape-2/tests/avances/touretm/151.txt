@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:		//d*_e4Z%BF%6Bu%0B7x?b 	
+Accept-Charset:, 			 				,					  , 	 , ,  i ,AnKUA7P;q=1.					,		,  	Om 			; q=0		 	 	 ,28&g 		; 		q=1. 			,s			  			;	q=1 ,, ,    bWBgg 	,  			  	M 	, 
+

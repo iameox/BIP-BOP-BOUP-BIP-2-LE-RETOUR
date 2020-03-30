@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:   			[v6.~~6JU:97,1]
+Host:	 	 	 	   			[93::9E:FE:D:4:99AD:C]
+

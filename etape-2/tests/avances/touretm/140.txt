@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:		 gw0/&?  
+Referer://@3.255.19.38:
+Referer: 	 		 //%82E8cz3v:4?%13%1AN		    				
+

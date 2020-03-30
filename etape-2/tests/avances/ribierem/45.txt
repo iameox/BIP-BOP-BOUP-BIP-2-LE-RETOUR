@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept:		iCV$Uf0K'lx/*;4=u|   ,
+

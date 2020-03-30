@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Encoding:	7DzG6W			,  XHT4&edCnwWEyG	;q=0,
+Referer:N4:eQ/=		
+Referer:		 Qw1B:T3%57/uZgl9~l/y'9l//J5%F1%9Dn~i9Wk8  	 	
+Referer:		vU://p@[::1A01]//oWm$/%02N9//7;%8F/Q%28%73%85%13NVM%1EZ/%50//Jc/:x%57?%F0A7
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:mBWv*  		 g/CXEf0$SQ 	     	pgF/._m&W ((\?'“Á\Ä„)) 			(\Á*)	 ()
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 		tCC|X8f|G8PZczv*6m=K; DaM="xXYwhe."; _&m0G1fDDm1S="" 	 
+

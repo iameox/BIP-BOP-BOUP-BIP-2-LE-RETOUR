@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:		,,   	 		, 	 	,	C	, 	 ,,	   		fWp-2; q=0	 	,		 * 	  ; 			   q=0.27						 	 ,		 , ,    sd-HZTs-h-M ;  q=1 	 	,	 o-um-8    ;q=0,	,	, 
+User-Agent:	 	 Qab0E`y
+

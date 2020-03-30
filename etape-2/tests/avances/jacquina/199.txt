@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:	   ,					   			,5a0^kFM;		 			 		   	q=0. ,			 	  		
+Transfer-Encoding:M;	 3+UhM-bVGe.4B =""	 	;		 		 XG 	=	  	I ;HW  =""	  		;	 			'  	=Om		;	i=	"" 			;   B  =	"\D"  	 ;	 	 		X	 =	"ßv"		    			 ;89T4xzt			=	"\§\≤∂\°"  	;	 	 zX =	"" 	 ,   +	;GuS    	 	=	 	"ôù\Â\M\◊‚\|\◊\Dq˛"						 ; p&BB		   	 	=					 "\(\ñ\("   		  	     	  		;   ^   =		 	"\÷\:ç" 			  	  ; 	   B 	 =  ""; 			  				20equfn# 	=  		"\è\{!ô“\5d\¿Ë"		   ;					   	na		 =  	iK		 	;Zl0=		"*\˘\w" ,					,F	 		  			 			 				 ;			c 	=		 	  "\µ\l\^\Ω>"				 ;	 l=   	"\¥\CÅ\å\ò"
+

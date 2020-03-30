@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:p;	    	 			   %6Y	 ="\ñq"  	;	 	  l!sM$477= "ü¤r\Y\¿1O\ŒG\)\³c";		 			 a#r=	  "\‡\Ð"		   		 	  	
+Transfer-Encoding: OE,	    	WJnB*T_N ;u%hKGh	 	 			 			=	 "\Z\.\®\[";l  	= "\í" 	    			 			    		   	,,	, 	  	 			 				,	Ins	 ;    		 aY4Dc^VA 		 		   =  "Ô\´"  ,			,	
+

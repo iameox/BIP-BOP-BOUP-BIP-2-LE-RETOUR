@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:[::F:9:3:3:8C1:1B72:8]:5			 
+Transfer-Encoding:	,  CcF		 		;		 ^	  	 =	 		 	 				""   ,,		HT   	 
+

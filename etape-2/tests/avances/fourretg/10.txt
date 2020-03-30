@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:	  	40~w	  			;SQ	=  	 "\yÅ\‚\g\…" ;  		  Q= 	    "Ä—"   	;j1qRBf!bLF  = 		  	 	 "Yºý\º"   	;	 	 _ 	= "",,			 
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:Hz/9H	   		  	 	; L="à%5\Ñ±Cï" 	; 			^U1|p="\ç\}\Þ"	;		r0t="„~é\k3©\¹"	  		
+

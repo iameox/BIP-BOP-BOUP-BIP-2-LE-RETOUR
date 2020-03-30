@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:		K-cjFB-o-q-g-b76-Yaf-5-H  	,
+

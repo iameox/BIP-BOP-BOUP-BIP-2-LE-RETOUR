@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Content-Type:^DE`pu2Fdt/x ;		 	 		 	   		  		1Wo=`N0d;O="\I"	   			;	L3!=""; rYt="×"	
+Accept-Language:	nDFs-J,		 		 		 	 ,	 			 	   		 ,hOB-D-z3-s-A-io-0iAu64-x-tZS-J	 ; q=0
+Accept-Language:	, ,,,  , 		 	,, 	 			 , ,, j-H-rs-kc0-3	;			 	q=0.254,	,	 	v	
+Accept-Language:  , 	 	,	,	  ,	 ,		,		  		 c-s-C-P-gX-t-lk ;		 q=0., 	
+Accept-Language:	,	, ,		 	,	   		 ,,	,,, ,,	, 	  	QcW; 	 		 q=0	 ,	,
+

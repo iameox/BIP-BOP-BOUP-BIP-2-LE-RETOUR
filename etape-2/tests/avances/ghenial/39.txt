@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:			 			  				G://@[::A2:22:7F0F:3:E:206.224.209.13]:794764//~A%99/hL;EGqL3/0//4/%D6;//:erAs%EAp%C3(  	   		
+Accept-Charset:,  		 ,			,* 	;q=1	,cz	 	;		  	  q=0,,		
+

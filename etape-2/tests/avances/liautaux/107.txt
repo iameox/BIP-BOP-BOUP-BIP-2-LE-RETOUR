@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:  E!pGH=; bL=E*Y; &=""; HE8I6c%`!-="&"	 	 	
+Cookie:				U=/'M/ym#q$; '=qfspw)IT; vYd=KPX$m; m="&"; t5yd1YO_y=""; +-Y13Mw38=1Wcv22		 	
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Host:    [::C:3:B:5:89:F4:93]:24847194627475535 							 
+Transfer-Encoding: 	   ,       	  	 		,	 		 		 		 	 	 	r5kSRzdPZ  ; *UQr^l 	      	   	 			=    		 	"\å"		
+Transfer-Encoding:IUOr6UL 	,	, 	,, i	 		;			3$-= 	 	  ""	 				  			 	 		,h	;!6ZPWtk	=	   	!		 
+Host:	[C::9356:6D87:A:5D:27.44.222.203] 
+

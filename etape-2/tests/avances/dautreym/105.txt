@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Host:  	   	 	 		  		[::F:B:181.179.241.4] 	    	
+Transfer-Encoding: 		 ,		 gzip	,  		,			 ,	, ,	 
+Host: op* 	 
+Transfer-Encoding:  	  ,	 	,    	 		, 	    	   	,   		,	 	  ,	, 		, 	 	  	q2		  	  ;c`a1			 =	"",		 	oQ 	 	;			3u 	 		= 	""	 	;	  *ukaAwj=Q~g; FcmLFNT^ =   ""	,   				 	 			  FNDb	, 	  ,	  	jt2							;	 +    =			""	 	  ;iN` 			 	=	 "\•\‘\A"	;	  	nVx%g4= 			 	 		"ÞI"  
+Host:[::29:D3:3:B0:D0:8] 				
+

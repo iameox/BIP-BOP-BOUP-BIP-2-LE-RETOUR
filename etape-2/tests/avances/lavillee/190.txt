@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept:		 
+Cookie:Nl=7tf?BxSRP2qX%; 4f+Jseviock^D^Z="l:v/"	 	 	 	
+Cookie:		A!="6"; 3h=^; Sm="A$!"; m=tK1-					 
+

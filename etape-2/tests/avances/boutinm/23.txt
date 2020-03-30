@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:  |="@iTmwl)vm?"; 6={BqzOw; Qw%=; rhRFT5qg#LYG29pWTZ8=E~
+Cookie:	or=+; Qo=; !9=h'j 		 
+Cookie:			_4=; J=; y8ES=<; '=; a=f^:shjSl 
+Transfer-Encoding:  			guwUO_TB 	;  Y8R!=	  	 	"";	V2N="u\ö"		  ,	 	,#	;MZ=	"º\©Ù\†} "	 ;	  	T="\·Õó•`" 	 ; 				tNV0-L	= 	   	  "\›û\S";					  	 	 	 bc	="\«\ž\\"	; 	Fz    	 =		"Ý\÷"   		,  		 		  		 ,	  ,		 ,
+

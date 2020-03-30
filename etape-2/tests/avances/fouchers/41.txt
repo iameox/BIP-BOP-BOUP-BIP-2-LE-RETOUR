@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:,,       	 	|br_F^ztt!3  	 ,	,	,   	, E8g 	 	  ;  	q=0		, 
+Accept-Charset: , ,,,   		 	       |$921N	  				 	 ;	q=0.			 , 		 	 	$O 	,		  	foPc	;		  	 q=0.0
+

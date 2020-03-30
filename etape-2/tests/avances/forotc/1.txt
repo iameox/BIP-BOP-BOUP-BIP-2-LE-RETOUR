@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:	 VTMlp6SK://6WH@242.9.80.36/u~/?	   
+Accept-Encoding:	 	
+Referer:	 //255.1.190.208//t/?z=a%E7
+

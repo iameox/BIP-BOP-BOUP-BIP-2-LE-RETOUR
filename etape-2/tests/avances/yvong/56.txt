@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:f+://[::78:2:5:187.5.255.96]/8OJ 
+Accept-Encoding:	  7a+P ,,	  	,	  , |oM, C~Tt+	  	 		 	   	;   q=0.  , 		, ,  ,
+Accept-Encoding:				  		 	
+

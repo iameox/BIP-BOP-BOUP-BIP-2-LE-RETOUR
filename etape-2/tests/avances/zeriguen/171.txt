@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:		   		 nEmi'V/F|; 		hd8offU_cE7`="6\¸Í\<ä"   ;WE="jÑÝ\Ï\a\T\‚" ;F="¹’ð\€\ÐR\±v\Ã"
+

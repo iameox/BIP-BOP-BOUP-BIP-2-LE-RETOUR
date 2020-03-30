@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:  	JH:/R*0H
+Accept-Charset:	n;			q=0.		 ,  	m.+Ck  	, K0;		  	q=0.						,	.O		 ,			  $-~50    	;q=1,4kQ
+

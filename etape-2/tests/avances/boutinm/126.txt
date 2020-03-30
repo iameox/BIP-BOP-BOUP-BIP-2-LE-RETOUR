@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		R8T=; Z&=`0			 	
+

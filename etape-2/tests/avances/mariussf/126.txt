@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host: 	  		  	7.250.22.251
+Transfer-Encoding: 		, ,	 	,,				,,				 ,  			 SjM	 	;jR8  	 ="\‰¹\Æ\ kH\«" ;Be*De	="µ\H\õÓ"  ,		,,,	, 	 ,	,	 	,			~C, 	  	 , 	,compress   	,     , 	compress,,		    	   	  	, 	,,	 H 	  ;KlhaO_IacM1			=  	!cKtRhGBzB`t			,
+

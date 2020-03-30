@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:  r$o#n/M (\G\[()\s\U)	(µ\$) 	     		 		()	 
+Accept-Language:,	, 		, 			  lKE-B-ku-D-sty-3N   			 					 	; 	q=0 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer://_@F:/H%1A/n0(rTNi	  				 					
+Accept-Encoding: 	 	
+

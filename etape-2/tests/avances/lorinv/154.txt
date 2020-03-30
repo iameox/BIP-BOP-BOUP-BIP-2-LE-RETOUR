@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: 		  		   I79Q-GRDFlDxp+u4Ge*/Q%dvKlEJdl8  ;   7=Z.uVGl 
+

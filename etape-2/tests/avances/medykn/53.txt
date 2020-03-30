@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Host: 	 Fl%72:876659	
+Host: [v6.M;'mB9cEP]		    
+Host:[::1249:A4EA:5:182.6.15.126]:920276			
+Host:P	
+Host:	 					  	
+

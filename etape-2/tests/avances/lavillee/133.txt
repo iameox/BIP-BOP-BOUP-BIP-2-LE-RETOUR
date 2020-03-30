@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:GX="H=U"; a-nVP=Zo; _do=; 5=; d#YlWia=Mm	
+

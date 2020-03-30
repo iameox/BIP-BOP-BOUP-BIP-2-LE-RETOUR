@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:#K="%E{U="; 3K==Tu; b4F=S	
+

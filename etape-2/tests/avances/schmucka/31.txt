@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Cookie:|CV=  				 
+Cookie:	v4FI="KV"; z^|=""; UcRo=; YSjM+U=""; v^E=; H%="9@"; Dv=; l="yjVsC"	 
+Accept-Charset:	 ,NG^MaP	 	; q=0.
+Accept-Charset: 				 	 A4EC!g$1!k	;  		 		 	 	q=1.	
+Accept-Charset:,,		  	 ,3~2; q=0	 
+

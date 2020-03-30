@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer:	R://%8CN+W%ADO!wJZ%8C%D4P
+

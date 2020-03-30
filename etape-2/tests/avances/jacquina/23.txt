@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:	 	,		#
+Transfer-Encoding:	MSKM	   	; BGYP1y5VC5+WyL3	=        	b-wf	; 	 g  	=	 	"–ƒ";		 	 DMk	= "\M4\Ãûi¥0\YÏ"	, uydfN;		 4#r4$ 	= 	"\Ñ|";^z32RH =		"\bdb\Å\ç\2E£\×Ó\Ä" ; 9Y`9e 	  =						    "\?.\¾"; q2i44c = 	 	""	 , 		chunked,   , LS;		AF'	 =""   		 		 ; 	 	  hzo``YwOx3u*qP 		 =	 		 	 	   	"s\Ê\ø\6š\Y\¹Q¦\>‚+Õ" ;&u 	 		 	    	="" 	 ;	 TY*	=	   	   "~\1\°\‡#\²\ú"		;			    	 		iN-l 		 	  	 	 	 		  	    =		"\ \—\×"		;		. =   		 		  	 			"" 	  
+

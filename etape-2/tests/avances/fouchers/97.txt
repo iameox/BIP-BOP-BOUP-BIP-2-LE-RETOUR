@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:    	m~=; Q="{"; 1D+!=; O+0Q1Q="w7"; iI2Px=ccsFoI7
+

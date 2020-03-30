@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:	  ,a 			 	  		 	 	;	 q=0.4,	 Tze; 	 		   	 q=0.907	
+

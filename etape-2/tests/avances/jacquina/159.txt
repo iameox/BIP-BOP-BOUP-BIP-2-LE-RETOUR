@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:chunked ,mL	;		 !voN7NT2s& =hT ; 9Rys7lS|     = 	  			   	  "" 	  ;		 	X2	="<\X" ;  	 		 Z+#Op|ZH= D7;			3S   		="\»\_Q"		  	;   	b = 	     	     "\ð\*"	 ; 	   0!06!bwYp	 	=   		"ÅV\u",  	dzVS	   	;	T=	 "ä";+ 	=  "{¿\\ï"  	;pEoKs~ =  	"\¼/6\‘\Î" 	;		1D		 	 ="x"  ;	z~&= 			"\—Ð\R"		 		 ;  a5F%^usxl	     = "\±ò\ÿ\Zv" 
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language: 	,	  	 WIclI-XV0O-j-r-Qjav-FOvl2m-DBG-b-eK-AT-J5hJ9xQs-R  ,	 yp-QOL-bsl 	 	  	;					q=0.,   , 		   		m-b-c-xJ-mSu-H-r-I-wT-y-Z4-J		  				 	;q=0., 		,	 so-e-oO4-r-fm-4mw-r-4Izm5-2N;  q=0., 	, ,		,	 	   			 ,  	     	,	 ,	   OPIrAkl-qGAnV-kg-U	  	 ;		 q=0 ,	  ,	      ,*		
+Content-Type:Pc/j1psZOE		 	;	28=""		  	 ; 	r="\­\¨"	 				;  	Y4bDa^^fIm84|aNMB="\Ï\þâ" ;    JdHdts=cn9b;	   YLe=""  	;	 	 $FHw=W   ;  	HFTd="s\þ\eY\‘"	;T|op5Yu="\J" 
+Accept-Language:		   ,   		  	 	,,,	,,, 		   BAQN		;  	  	  q=1		
+

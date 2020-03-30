@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Content-Type:	rQAM/7% ; 	     4="";xW="";	 		Q="" ;			  	 iyQ="8"   ; 		n~w="7" 		  		;px=""			   		   	  	;T5%'="\i";	~="\h╫б~Х\ \Ь┤\w" ;vQ="\s"  		;	 Cj=""; 			 			 	 	  OrI="Є\╜┌n$╣░Т78"	  		    	  ;C#u9XI="n\┘\a\й\пы" 	   ;    	8exu="э\5ш\Т\й\8ш \E\М╪\Б"	 ;0f1y="\Ё\╔"	  	 	
+Accept:
+Content-Type:	V/ny5		    	 
+Accept: 
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:		 			d!D^r=6Et; WqVl="m"; gx%8=""				  	
+Cookie:	gfnsPUju=^XhqGlZTo]U[M%f[8>Lv&dO
+Accept-Charset: 				 		 	,	,	,,, 		 			,   ^ , 	  
+

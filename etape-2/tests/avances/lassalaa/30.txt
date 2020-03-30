@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: ^JY=  
+Content-Type:r+&OWZL/W		 	 ; 	 		 	 Bh=""	 	; 		 			 	Qf9j5*="£"   	  	  ; 	 		 d="\û"  			 		    	;  R1=""	   ;	QCSHejj="\n\E"
+

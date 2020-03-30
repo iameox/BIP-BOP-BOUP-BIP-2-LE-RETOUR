@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding: 	 	
+Referer:			vcH://y@250.125.51.13//iux//R%1C!/O%70!fj%BDpF
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:	 	  	 		Wlr7/|5vFx	 			;hRS8HqjecC^^=mZ;5lj=""; 	r6*fmz="\Ó\rS"
+

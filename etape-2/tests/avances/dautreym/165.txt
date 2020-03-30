@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:		 	 			 [v4EF6D9E5D65C9.&]
+Host:		 136.155.202.62				
+Transfer-Encoding:		9      ;9I  	 =8JG 						;EDk-	  	  	 	  			= 	 "p" 		 			; ^V6_ 	="" 		 ;		 T+ViNz.`			 		=mzf, 	 	chunked		 ,  	 		GC~	   ;  	     			uUR	=	"º44\9!\¢\Ì\o—\/Ò"	 	;	 	R ="\U9\\Í\N\ÀC·" 		 	   ;!	 			=				  	 	 	"C÷"		;		 J =		  "ÉQ"	;8 ="Õ"; 		 5IkQ			= 	M8 ; 	 8^#4V-GZI=			"\®"
+

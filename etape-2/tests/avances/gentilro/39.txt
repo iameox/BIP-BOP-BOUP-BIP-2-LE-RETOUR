@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:   	,		 , 	,,	, 		 ,, 	  | 	 	 	   ;KwXQw="\Ê\i";  $PlX-6e1#0DoZZpU$j#p	  	="ûÚnü—"	  			 ;		 o	 	         =  	"K" ;4Dqf|' 	="\Ù\Gì\§\ü	Ÿ\Œ\œe\²"	 		 			;$+lTVytPL8o   	 	=	  	   		 vcbT'	 			  ,	     	vI			 	 
+Transfer-Encoding:,   ,chunked
+

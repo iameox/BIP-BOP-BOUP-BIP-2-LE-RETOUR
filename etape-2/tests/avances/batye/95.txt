@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:		   					F=:OA; &=uCr=	
+User-Agent:	 		%uL!YX!%H/nus		(ùÒ)	(<)	
+User-Agent:		 ~ 			 	(\ Ý\ÿ)	 	    
+

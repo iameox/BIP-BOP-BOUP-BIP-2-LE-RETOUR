@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Language:		 	 	  J 	 		   				  ;   q=1.					 	
+Content-Type:		 	~v/C5		
+Content-Type:dM/^#0Kod7Iv`oOyf ;YHm="G!\Š"	 	 	; lZ="\RX»\Då\³" ;	P|L_=""		    		
+Accept-Language:,	      YRLyuHm-cGNyt21		  	,K 	  		;	q=0.	 	,	
+Accept-Language: 	,     		m-gq-b-7		 	;		q=1.00	, 
+

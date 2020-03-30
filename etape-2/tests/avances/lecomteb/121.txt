@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: F!0%= 	
+Cookie:				YFsT=""		
+

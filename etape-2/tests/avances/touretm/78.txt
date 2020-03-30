@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:  			 	 				//[A3::6:21:D9:22.70.130.117]//%E4VpN/%4B%C2%21!Vw/$hzWk?/w&%D14kONi 
+Accept-Charset:,,,,R,				,		
+

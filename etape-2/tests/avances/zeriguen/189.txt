@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type:		 	  	P-a&G/X5D  ;	jJ_+z-4^="\žš"
+Accept-Encoding:		 	 	   
+Content-Type:4Z/~
+

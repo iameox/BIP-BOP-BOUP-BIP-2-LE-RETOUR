@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: GR48/QQ  ;  P="µ\ü"		 ; 	cqHMnz*4_G2*K~m**n|oxTv="\Ó÷j\6\vs"		  			 	 	 
+

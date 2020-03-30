@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	UAq&=
+Cookie:Fi=">]"; plu="4"; .|="M+="; y=VHXp5x; elv=		
+

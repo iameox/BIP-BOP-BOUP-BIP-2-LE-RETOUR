@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Encoding:  	wE    ,xJ	 		,		   		  	,		,		 		 	 		 	,			P'	, 			  	   , 	,,	  		,eK		  	,  ` ,	 	-      	;	  	  q=0,		,   	 	 	,	rn*
+

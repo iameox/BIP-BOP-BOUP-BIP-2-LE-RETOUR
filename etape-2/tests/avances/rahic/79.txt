@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:	,	,,	 	    	   	   	Zj*e	; 				  	q=0   			 ,		,		,			,  ,
+Referer:e://[::2:16]:13/%D2jj%0E&(!K/Vu/y,Qn///%09/Jv	 				 
+Referer:SRI:/??/	 	 	
+

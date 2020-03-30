@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 0bi="4^"; Z=; GIF4r=R; &_6x.ePFa2-="DO]C6R"; iy3.u9B="y"   	  
+

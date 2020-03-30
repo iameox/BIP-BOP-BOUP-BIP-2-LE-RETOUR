@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Cookie:	 	%qBpgddho8=""; gg4D=""; ^7=P5y. 
+Accept-Charset:+s  	 	,		, qg9kyDitK;  q=0 ,	 	$; 		q=0.491,,	  m,  	 					 	  d ,, 				
+Cookie:  	l=9)]; `E="I75v3n"; c="3yf@HH`:"; ww1=; mkh6f=; X9=; 7!f$d="7d9:"; t="SI" 	
+Cookie: 	LG=7bUNR
+Accept-Charset:,		 #*o	 ,u4_RKv;		  	 				 		  q=0,				 	 	, 	 , * 		 ; 	q=1 	 	,|M$L,	
+

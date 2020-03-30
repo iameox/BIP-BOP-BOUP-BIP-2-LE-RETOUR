@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding: E;	r	=  "\è" ;	 	 koY =    D,Mkqn;				     	  		7		  		="ì_\ŒG\1";	 l1	=  	"\H"  ; 2g 	  	=		    	 "ÕÑsb"   		 	 ;!YM=		K; KSATKb2				 =  	&i			, 	Dh	   ; 		    3VmK8Fb	 =	""   ;4_	     = 	    "\Y"		,	 	   , 		 
+Accept-Charset:			, 	,		  Y9cT;  q=1.000	  , ,  	 , 	 Y  		,,	,,  	,  	 ,	 		  	
+Transfer-Encoding:	  		 ,I 	 		 		 	 		,		chunked	 ,muBz			  ;X7LTE~jB$	 = 		   	  "∞\ò"  ; 	 | = "\€\â\k\∏˘\ÇL\≈K}\≈lH"	;y   				=o|FsRU 	  ;		rvz&$Tv	 	 		 =	"œ\?¶",	 	 
+

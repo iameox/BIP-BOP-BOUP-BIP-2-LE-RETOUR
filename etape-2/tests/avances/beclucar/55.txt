@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type:		To|aa/4`I;  bWB9lmweII'0r="\xÝ\þ"
+Accept-Encoding:
+Content-Type:	 H~i9$M/S	 	;	   m'%gzO-="Þ\w4'Z\¯\7\,´"  		  	
+

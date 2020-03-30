@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:			  	//225.191.170.235	
+Accept-Charset:	   	  	,, ,	, 			  	  ,,	 ,  	,,	  				 ,	   09	 ,   ,  		  , f`^ 	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:  	 lSvA=|			 
+Transfer-Encoding:	 ,0    	; 				  ^x		=	"x\A¾TÏÔ"	 		   	 	; 	Ts7COGUK		  	 =  	  ""	  	 	;		k 			=		5cO!_ucLO;	y					  =""		  	;^`	  = 		 F;  a	    = "\”†"	  	,	,
+

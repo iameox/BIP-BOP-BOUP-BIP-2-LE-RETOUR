@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: 	_ZRX/E	;$oXmMrAsO=ephpCCCbE
+Cookie: 	 q913i'V%2&%yCK="nI"  		 
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Charset:	 	,, 	 	,, 	,	, 		 	,		  	    		    	 ,		 	,     	  ,,	 		j0#GpAX 		;q=0.	  ,	 	 ,,,		 RzS&,DV	 ;  q=0
+

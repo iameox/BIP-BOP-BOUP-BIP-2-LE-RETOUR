@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer:/?FA%82%F0		
+Referer:		CCpOQh:N/S/%93%8AX/tH*F,%79;%03N/%02s//%693wW/wtf/  		 	
+Accept-Charset:,,		  						,Xy	;q=0,,,			 	,LG	 	 
+Referer:		   IvN7RtI4:'%3B%EEc/%A54%3B,%DB/c0$4 
+

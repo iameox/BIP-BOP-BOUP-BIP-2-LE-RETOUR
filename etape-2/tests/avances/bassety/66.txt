@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: 	 		 	4Z`3fGVx/CFyvZ|a    
+Content-Type:		    S/z1x6*
+

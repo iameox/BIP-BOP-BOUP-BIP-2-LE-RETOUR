@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:c3+TJv/e$1RKL		  		(\bB) () 		 		
+

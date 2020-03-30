@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:		 Z/ww#Lx 	 (•e\7()¯ (\Â\£•X\ug«ëm\V\³\‚)\F(\a\I\}2\Û\“)\n)			    (\•\fª) 				 			 (()TYoIMÝ\sVí\+(\î\®-R)\V\ï¾)	
+User-Agent:S/BUO
+

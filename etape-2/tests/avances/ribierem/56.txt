@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:			  //%D7%3AK@9.239.204.217/;8?qTD		 	
+Accept: 7Bh|XI/*;	 		  8ktK="U\ü\²ŸT"	  				 ;		  Rm="\Ø"  ;	Ni="$"; 	q=1
+

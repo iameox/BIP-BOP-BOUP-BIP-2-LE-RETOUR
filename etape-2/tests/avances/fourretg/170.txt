@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:	!8xIG	;Clb=		"-\ﬂ"		  ;	h-Y=   						  	 "ù\∑\ﬂ‚ÆD\ã[`\<" 	 ,	3;	  1Ej#Os6gS 		=	  			"\ä"			; P&!p`nBV5%	= 	   	"óM\k";  	ZLGE =   	  		"\ø\Ó\Ñ\C\¬\ï9ı˝\˚\ˇ\," 			 	  ;rh        =	"\≤\O"
+Transfer-Encoding:	   w				;	 	 H   	  	=	 "";   		 	 			FL-D	   =f  ,	,	    	 	 	 	 qh; 	D27m 	 			  = 	"\ÅÑê"
+Transfer-Encoding:	 ,    , ,,  	, ,%  ;.v 		  ="\≈)\ã" 	   	 ;	0072`Bg#vUknqv& 	 	     	 ="ó\÷A\ß"	;rL	 	 	 =	   				 	  ""	 ;h= 	 	 	":"	 	
+Accept-Charset: ,  ,		  ,		 	Z
+Transfer-Encoding: 				, 	 ,		,	 	 ,h6634RgpZiCzyb6_z~; 	cJCxA*$+		  =	  Fm%R	;	 	no	= 		T^`crpvG  ; 	   56U	=	"k\s\e\E\A";  	Uz= $xRVhKJ8saaw			
+

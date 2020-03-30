@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:  			  	4NA7I5b="]J"; Hz=   	
+Accept:  
+

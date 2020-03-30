@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		  su9=}; KX3.^U0=""	 	 
+

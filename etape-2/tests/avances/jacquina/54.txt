@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:  	 ,	 ,	  ,,,  		  	 6	,			  c;eOX|+a 		= 	 		 	CT 			;h2z6x#	 = 		 	 					"\n¹"	 	 	 	
+Accept-Charset: 	  ,Lozg|P3  	 	 	 	 				,	`qzQAV9,I;     q=0.  
+

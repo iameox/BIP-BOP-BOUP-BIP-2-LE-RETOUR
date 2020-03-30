@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer://b@[::B:75.1.81.9]:215087865229 		 	 	
+Accept-Encoding:				 	
+Accept-Encoding:	 
+

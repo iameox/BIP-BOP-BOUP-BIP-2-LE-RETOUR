@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+User-Agent:	&/r*	(\b\8())			
+User-Agent:	  W/-6A 	(}Ù\!\¬) (\WÆ\r\é()\^)	  
+User-Agent:9pBn 		
+

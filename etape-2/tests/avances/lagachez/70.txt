@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept: 			 	U7X7j/0  ;		 			 	iA%3F="."	 	 	 ;		 	 iY80.k="";	oVbX3sQSo9lz+~NV=""	;4="\Í";q=0		 	
+

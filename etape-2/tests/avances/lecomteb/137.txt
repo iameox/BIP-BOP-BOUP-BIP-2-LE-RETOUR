@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:		S7/8vxa-	 	; t="\t\û\u1\ˇ\*\∏\r-\æ≤’N\ç\¿"			;Y1Z!="\8\T\û\Œ\ú";  			  W4=Zg|; 8Sh="ﬁ\Ô"			 	
+

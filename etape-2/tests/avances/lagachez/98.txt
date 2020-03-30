@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:	1#~F="p[l3yb"; SzsM=; aFc+fY9XPviL=""; 4$u2fT-sW$=i4}7; #=fd0/anAs; t!._-ib="{IH)X" 		
+Cookie:	   	~I=; -dE=; x2x="X6g5S?4"; p.="Z"; +G=					
+Cookie:			`UG=">Ac'3#GS24"
+Cookie:   		%=">8"; 6l5Gv=; KNDpc3EX6=; OH+d6T=z!jV6ut 
+

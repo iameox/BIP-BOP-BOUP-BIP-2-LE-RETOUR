@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:	 |IH_=T.; *q9%NjtW='     			
+Cookie:		vDK=""; 6!u&m1=7kgX; EnEuvDlay=%#qe^<Hij*0; #nDM7vA*=XRDbf; wwgW^xgf!i=e; BO~=Jy; gpBeG=Z-B3+FxTCpl; p%*1iBW7t="~|"; o`%mn6XI*GwXu`xn8=""	 
+Cookie:'-=H^VlO; 2P=""; 6=""; J="-e"; 0="s#t>7_E"; Ck="'" 
+

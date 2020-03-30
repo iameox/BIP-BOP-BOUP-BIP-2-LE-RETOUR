@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	%n.="0(d"; #r=&{N; '*8*0L=C<b~w(); vE6q=""; 2w=gI=; O=""; G8N="!$&z+(["; W=~B
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:t=""; Wfsq%o0d-!2=Q; q=GL; _*E%5=""; yu=		
+Accept:	 
+Cookie:I=k#T	 
+

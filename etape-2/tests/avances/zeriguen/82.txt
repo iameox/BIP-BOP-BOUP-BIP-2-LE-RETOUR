@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:	~g 		; q=0
+Content-Type:    	*GY%/E$		 ;	0e3H+7="\$\$\—º\3";	Q="";B6R$PgGJso=""		;bQXA!="Ö\ám\¾4ÖÌ\«\o\‹ó\¢O/" ;		szLS+="\ä\d"  	; X_Cnw4N05Y="ë"	   	  		 				 ;  *Ef="l";hlUzN="\Õ"	  	;&p%q60=""    					   ;  		!KfJ="" 	
+

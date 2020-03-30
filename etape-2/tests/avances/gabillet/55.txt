@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:	 	'_/K   	
+Accept-Language:	 	,	 	 	 	,	   Pw-d-vj-2-Sa-7-M-1-HD-X8C-KoMI7P-0-9-y7x-d-Id-2-0-jKTC-a-qbpQK-I-75B  	  ,		 yeEo 	,     	  H 		 	;		 		 	 q=0  ,	,fY-i-hrP-X-hc-W-e4w-D			,eMY-wp4-7-F-ZX-1L-db-4O-LK8m-bLw-L-Qm;q=0.6	
+

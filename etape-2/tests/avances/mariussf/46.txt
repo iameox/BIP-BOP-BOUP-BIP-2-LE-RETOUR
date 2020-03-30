@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:	  [::B:496:0:241.235.1.66]:57343
+Transfer-Encoding: , ,, ,	   	  ,  ,H5KVM  	   	 	 ,, 			 		  d2DGXQ.e 	 ; 	  Mbx  	 		 	=	  "B\6" 		 ;  		     	`=	   	"\Ò	"   		 ;  4|x 		=								"ô"	 	; !R	="";#0wxzguQT`n.g|KVw- =	 "´\³ˆ\«"  ; 	iu2Kj$ 	 	 				   =			 "¸\ö",, 	  	 yg&p&X	;			   	    				 `    = 	 "\ÓÄ>"	;+g ="Û&×f"	, 		 ,, ,		,, 	  	  	lX; YdP=S  ,l 	; +xjpXt0 	     	=			""
+Host:[v8.uX]
+

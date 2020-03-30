@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:PW_g/5BBP;			-W18="h";  I#Loi="\Εά" ; 	snI=""
+

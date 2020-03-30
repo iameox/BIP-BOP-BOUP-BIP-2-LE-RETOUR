@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer:X0:/b;%7B;/Iy?%5A  		
+

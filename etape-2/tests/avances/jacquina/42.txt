@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:		 d ;m0a  = 		   	"¨ã";		       	7	  	=		 ""	    	;		 y=				"\G";			  'zR  	=			"\í)ˆ\\Z"	  , ,2H~TE	  ;LbDh =Iwd,		,	   
+

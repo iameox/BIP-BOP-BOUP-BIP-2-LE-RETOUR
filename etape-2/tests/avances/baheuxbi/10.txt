@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent: yTnjN4oR/'|HoP	(\„I\&г\g(FЃ)ю(ХЪ•\т\7E\Н\Х\‹м)\А)   	 (Ё()\K(•TфУ\/\P\ЫBЎО\©ј\d)\1)	
+User-Agent:			  H2Jq/L*			 (\З0\ДJ)		
+

@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer:	  azhkr8r8://W@[5::0:253.62.98.211]:5/V?+
+Referer:	 o:?T 			
+Referer: n3://215.7.223.133? 
+Referer:	     H:P3?
+Accept-Charset:	  ,49	 	  ;q=1 , 		
+

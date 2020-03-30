@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:	,	 , 	    		  				,	 		  ,	 	 	 	tdmeFV0SOI_ec;Z~pk_ebGUdbIgiK	=	  I*oKN#ULV		  	 		 	;Cl8			="" ,	 	   	  	 	 chunked 		 					 ,	
+

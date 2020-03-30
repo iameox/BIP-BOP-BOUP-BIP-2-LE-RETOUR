@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent: 		ZTvS		 (\³)
+User-Agent: r ()	 (™\ç)  		 (\#\;(ô\ì‡\=\W\fM\Þ\€\“\µNË\Ñ\_)\<Š\Ê) 	 		 
+

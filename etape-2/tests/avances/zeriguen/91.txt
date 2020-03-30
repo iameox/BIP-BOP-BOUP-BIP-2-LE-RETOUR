@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: 	 		erfT/*		 ;	8="§~@’";				  	 Rg="l\ﬂ\ÿ\˚"		        ;7="\Á\w†i\ﬂ\Õ5" 		  	 			 ;			     k="…∑ï\\÷ê" 	;	$="T&";R4pr*="\<\~‘\ˆ\N";'PZz="\ù"
+Accept-Encoding:  D 		 ,		, %   
+

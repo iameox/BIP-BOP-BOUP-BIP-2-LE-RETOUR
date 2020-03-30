@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:		   1QF` 		 	 ;	 		t^h	    	=      	 	  		 3Hv	;  h6  		=""; 	$= "\Y\+"		; 			 	2	="Ð\9p}\ÌÖ\Y\J "		  		;					 	^tm.#8 		 					     ="", ,			 	chunked	   ,	 		 km,	 	  	  #n!Di0 ;			9^i|`	 				 	 	=  zL;#%		 =   ""	; 			   d  		 		  	= 	  "\UŽK\P";	  		  P'Ad=   	"";  	 	  E= "A" 	  ,	  		 , ,  	,  gzip			 ,,	 	g7		;B~  	 	 	 =	"\|\3_á·,\¾" 	 	  		;J.b6		= 	"\:"		  	;	jS = "\—"   ;		     		  3-	 ="æ"	,		 	 		 	 Hv	 ;i'-	=		 	 	 	 	"\ß"		 	;N     =		""  ;   	   xRYn04z		= 	o&-Udv~4|		  ;pY'cqrrTO="Ð\Ã\…\,9\¬"		   			  			 ;	 	 			 	ll= 	  ".ÿ\Ê\àªÛ´"	 ;~WJ'	   				="Ù"	;	06lMc  =			 "\k\/wJ»";  	   	 #yJ-2_1u=  Xnv%D				  ;			 	 		2	  		=	  	 		 "!\Ín"; 	 	 	 h	 	= 	 "\é\M"
+Host: 	B%46 	
+

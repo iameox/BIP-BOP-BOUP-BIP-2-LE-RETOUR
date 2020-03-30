@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:t%13:956	 		 		   			  	 		
+Transfer-Encoding:J	,	 		 $Q
+

@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:	9iaf; SL'_PB_A3= "¿"  	; 				'M=	   ju9*u; 	  	  		h- = 		 				 		I_89	;		0 ="\ÓÑ\Cà"	;  	 		   	  	   9 =		  	  			B	;u   = 	  "’"  , $Mi 	      	;		-  	 	=	  	"";   	t$RQ!n= 	 ""		,^;L1X	=	 "˙\W\¥"	 ;cm			 	= "" 	    ,	 			 		    ,ir ;F	 = 	"\“\áﬁ\Í\U"			 		; 	 xk  =	7X 		 	;	 R2ka$~Che--PsHx	=   ","	 ;	 		#AGcSMFC=  		  	 	"\y" 	;  	 		B  	 	="è\Ωô"								   	,		 _`Lu4z|BR;		 h 	 ="9o"    ;27`WhnYAS="" 	  ;	 	  	   	9I		= 	 	 ""			 	  		 	  		  	 ; P 		=  				 			"ä\œ\8" 	;	    T+he#ZD%tm= 	 "\)\¨";		 TuxiEmtJFgvFPY	 	= 	  	 	"R“\óÄóp\⁄" 	 	,zr		 ; Q_j~FNHAY|v	 	  = %5	,	$' ;	2qe`b  	  		=  	  "]"  ;			   		   	   ZZK_JOHyB$n#= "Ê\á\[" ;	W.= "";  	 			 		W%4D~	=	"/\A\t"	;  	GE2  =			"é\r\⁄\æ" 		;EzDNL#  =   	IF_; 	 $JN			 	 	 = 				 "B\=\J\Œ" 	 ;  W		= 	"\ﬁò\vÖ" ;  5			=	  	    "\ﬁ";  					 		 	wOakgS 	 ="\C",, 			 	 
+Accept-Charset:,			f^x'+	  	    ,	  		  D 	  	;	 	 	 	q=1.0 		 	,		 N		  ,	, 	 ,	 				   ,,,	,  ,, K.QJ#uzS1&8	;	q=1 
+Accept-Charset: 	, 	 		  	 	, 	  xU;	q=0	      ,	
+Transfer-Encoding:	   	 	  , 	 Xp6M;	O	= 		 "\Û"	; wlLaX		 =		 	+G8a8I	 	;d   =  	    	 	"",, 	,B6VU
+Accept-Charset:,   	, 	,, 	, 				 		,	*;q=0
+

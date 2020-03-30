@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:eM=j; L&=V24; _XL!zPn="V}[KDO]76"   
+Accept-Charset:   ,   ,   			,		, 	,	, 		 ,	 ,	   2VCk
+Cookie:	X="p"; n2ju$'X=1U
+Accept-Charset: 	 	 		 x0VXj	; q=0	    		     ,     	,		 				K#	  	   ,	, 		,		^7AeCD	;  	  	 		 q=1    	 		,		 B  		  	
+

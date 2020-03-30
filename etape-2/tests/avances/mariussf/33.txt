@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Transfer-Encoding:	 ,	,  U%5					    				;  !6o= 	  			  		   	   "\\\ê\i" 	  ;  6	 	 	= "\q\r\êŸ\!\9\¨×";P*="\p\.\<";	      z-="";	+VrT  		 = "Š"  
+Host: [vE3F0A126EFC.6:]		 
+Transfer-Encoding:   KL&k    
+Transfer-Encoding:			     				 		 		 sXCnsYC~	  ;			yo   			 	=  "y\è",	 chunked
+

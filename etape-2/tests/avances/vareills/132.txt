@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:	 	  		   	, 	,		 	, 		 	, 		 ow-S-o-NyhNC-nz	 	  	 ; 	 	   		 	q=1,		 		 			  	  	 	   	  fdvp-X-v-c		
+Accept-Language:	  zFb-hibDf-uH0  	;	 q=0.847 				 ,	,x			 	
+

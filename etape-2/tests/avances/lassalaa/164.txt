@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type:	  Z-%2/AaM;1="\’T\þ\„\‚Ê3\~d#\€" 	 ;	 	  			 	qgK="\@\x"	; 		JvmmM="\_";	k="" ; 	T2kDm4P="3\‰Ö\«\Ù\nÒ3¿" 		; lKT'fg|="\õx¤2)F\Œ\O\â"		 		 			 	 	 	 		
+Content-Type: 			 	  	  3H/W   ;4-yJ="\Ý\Ü\y"	;    	CU="\„v\H'ù"		 
+Cookie:_S|*3l=; B9=(; QvVK%r=-@_; cU`-OqD=|:dxSB$(L; ^=; ^hyKr=-^<:~r; ch=jJ 	
+

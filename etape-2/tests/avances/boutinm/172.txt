@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	yh="iun-oEKv:go~"; dwKf8d~bA7_X=""		 	  	
+

@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Charset:	  ,	   		 		 ,	 	 	, ,	 			KN ,Z;q=1,	 	
+Accept-Charset:	,	   	    		,J!Ly   ;			   	 q=0	
+Transfer-Encoding:, 	,	,	 ,	, 		 	,	ht8clRN8& 		;	W 			   		 	="\0+";YcRI	=	   				 			   "";	 		 	 		 !6 = 	  "i:F\ˆ" 	;	 	X			 	=					 		   	 "i¾\øÓ\,"	,, 	,	   	,&s7  	 	, 			    	 L	;  MjJ%WST&="VNÛÃn\h€]"			,w;NW'Osfpjg	  			 		="º";YN$		   				=	"‡â¢\ŒÂ/"	,
+Transfer-Encoding:,,, 			, , 	,		  	,	 rV; 	 	   	zZ         	 						 =  ""	 	;	   	   P			  =			 		 	 "\O\ô"		;  	 		L+q		 =""  ;M= 			 		"\â’\¢"	 		;					 b   		  =	 		 "" 		 	; r+p6f =		"öÌC_"   	 		,				a+; 	   	v|0J		= 	rAXqP!~ 	  	;	  z   	    		= 			 "ƒ~\ô" ;	vS	 = 	"\î\£’''\¸"   ; 		 n= 	 "Ø\ˆ" 			 ; 	~Yo ="§ª" 			,gzip 	  		 	 ,				E*L7q  	  		 	 	 
+Accept-Charset:  Foa	  
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:		//I@G5$t:785/%95/h%DDTh/?8  	  
+Referer:	 	//245.252.4.207:37278?gftuT%C9SJZ8b5@	
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer:	//[v2C.=yIv]:5//Z%2AK%7B1,7?web%DB%25kg%EB3N%2FQ2pjH	  
+

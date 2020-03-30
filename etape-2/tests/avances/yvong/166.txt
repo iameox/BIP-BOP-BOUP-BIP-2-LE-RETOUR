@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer: 		 Ji://[9A::4:E:238A:D:237.64.92.215]/u9%D0sm5!Pi/$zl@/@zH  	
+Referer://8.8.116.2:42/s/N%AD	
+Referer:  //X)8g@:86  
+

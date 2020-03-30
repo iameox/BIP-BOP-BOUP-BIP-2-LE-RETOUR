@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:!-%p1y.			
+Cookie:n+Dr1n=""   
+Cookie:#yH#=&(P'; +=R+E:!-*cszoe$N#; M!K`w=pZE; 9!="~s#"; RHVj=":g"; zSn="q_)"; _=""; n5o^RU#q="[A"; ^B~=; 2im=-
+

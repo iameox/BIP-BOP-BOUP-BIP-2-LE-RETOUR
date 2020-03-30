@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	 	  fGC_&SQ02'DgJysV="z~{0]MiV/Z" 
+Cookie:S=""; ~pYX7-V=; eftDvS7s$="'"; b="u?D"; E="^ZZ=I["   		
+

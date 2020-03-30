@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	 		   u=tmFOWN			  
+User-Agent:Glkxl6 () 	
+

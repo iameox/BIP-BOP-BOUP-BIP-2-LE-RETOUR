@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept:  +D/* ;*jzN_VF=WY	; s7Q4V`*z3Dt3c="\©N\æ";'8D="\Æ"; 82F*^="\}	"	; q=0, 				 , VXQC/*;	 q=0.12   		,,		
+

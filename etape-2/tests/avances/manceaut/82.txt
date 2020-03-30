@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language: , , 		  ,	 		 sP-WsJN-N-ej ;q=0 		  	 
+Accept-Language:	 			e,,		,  		    		  		,  				,  	,		 		 ,	StvF-Cpn-k-8-7-IC-Swgoz ,	 	 	
+Accept-Language:     			   		   			    				,	 		,	 	,  ,  	 ,	   					  	  , 	L		  	;	     	 	 				q=1.0, 	 c-yO-A-GAFo-E-kKP-1R8-f-eL-c-HLEmT 	 	,		  
+

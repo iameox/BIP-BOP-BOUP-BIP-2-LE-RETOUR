@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:  qiXB-Mco-ly-N-m-o-VefxV-Y-wV-Ss-j-hbDV   		;    q=0. ,			,
+

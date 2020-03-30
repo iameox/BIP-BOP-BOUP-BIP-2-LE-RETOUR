@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	 D&_!7e^=""  
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:	bm/7M; J="U"  
+

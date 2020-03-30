@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:	 iCMVr6s2://$YA@202.89.195.75? 		
+Accept-Charset:	,				,  	 	, ,,		awqe;q=0.7    	
+

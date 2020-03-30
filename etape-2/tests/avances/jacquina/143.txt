@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding: , 		   ,			, 		,				 			  deflate   	 			,	  ,  	 								  			vjy;$gR#Q9HR=	U; ZJ 	   	 		=":\:à\ê\ž\2\ \¯\é\ñ"				 	;  	-2      			    	="\Æ"
+

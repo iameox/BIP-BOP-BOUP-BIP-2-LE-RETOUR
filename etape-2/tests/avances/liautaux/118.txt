@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:	    	TEOAdWNX;	 9cIFI	 	 =	   "\4" ;	PicQb		  = "yGC"   ;	 .Ru   	= 	 "\i\ÚÅ" ;Y = 	"»\’\Ø\?C"	 	 	 
+Cookie:	8=]QyJJvyu); 'mE= 	 	  
+

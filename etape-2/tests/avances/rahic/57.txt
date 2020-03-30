@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Charset:		,   	M&  ,,  
+Referer:	l-y://@[vF6A7802FE.9:S50]/f0YzF@%78$4/l/3%DA?k     
+Referer: 		/ 		 
+Referer:	 A.kYf://7.0.230.227:?0:_6M
+

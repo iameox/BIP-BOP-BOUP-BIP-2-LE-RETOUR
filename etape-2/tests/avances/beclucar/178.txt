@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:  Ab	  ;q=0.	,	   
+Content-Type:		76/JhUv			;	 Su="\“á\¶kL&K$y\Ïç"			 	 ;D="¥"	 ;  n="\S"		;	   		f#H="L∂n"	  		 		; 1#woC$^0v9cwMV="e"			   	  ;uW+^Bua="\ûç\∆";Ij-t4="\∂"
+

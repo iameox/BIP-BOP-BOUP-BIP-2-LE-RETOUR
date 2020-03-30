@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:  	, 	   V-UR-y-9-F	; 	q=1.00,	 	VX-TE			   	 		,  
+Accept-Language:	,	 		  BF-x-N-p-drQ-Ba-plgbl-f-6-bAD		,
+User-Agent:% (R\í)	   ((≈)0(}\XΩ[\%\-)\\C\m;\ø£!?) 	()		 		(f()\î\,(‚\.¿))	bn%			XJ~75+/b#C		 (ic\m(ì‰)\Æ)	 	 	(»ö()\ê()()\È\â\ß\òÈ(…)\Ä) (\ˇ(C)(ú\Ÿ\‹))  		(\æn)
+

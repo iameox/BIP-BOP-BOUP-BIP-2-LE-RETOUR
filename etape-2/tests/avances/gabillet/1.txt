@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+User-Agent: 			O/2 ((q\Åk\4)(\¿\“ã\ \)\”\&\ÁÕ\Ù)þ\Áñ) 	  	(È\[\3)			 ()	 	
+Accept-Language:	 	 	 	 	  						, 	 	cH
+Accept-Language: 	  ,EVQrw-U;  		   		q=0.	 ,w-RN ,,,	 	 D-e-mY3NxC 
+

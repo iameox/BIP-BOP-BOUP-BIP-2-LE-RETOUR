@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 		ide="QH"; B=""; ubCt=""; 3yKyL%!="G"	    		  
+

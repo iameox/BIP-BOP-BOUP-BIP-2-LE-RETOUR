@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:					  Sn-2wy-Sc-r-4YoX  	,
+User-Agent: 	      		 	  	 W8-fv/D+	 			
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:    5=; lY=""; cq6_6br5=O; M^="E"; !Ok=
+

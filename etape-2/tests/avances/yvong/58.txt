@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer: D:0~/oe%F4Yn/=D/1/=/_%63//2l1%CAW96CBi7PJB//?B%7C8gI)				  
+Referer:	  F:/%53F//E/?&
+

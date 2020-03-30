@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:  	 		  $Ja="w"; vr9e=~y; M4A=4J; D0GOad=&d3Ad; Sf!+ACS="PabZ{<O~7"	 	 
+Cookie:	9="oJ" 	 		 
+

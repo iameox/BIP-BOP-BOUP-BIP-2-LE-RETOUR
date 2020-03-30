@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		2T=""; bgJs="Vp"; 'SS~=GYFeYd; |lT%='g<Baj; D6S~Rrr7sv=*Pi; k*+#="f6ex"
+

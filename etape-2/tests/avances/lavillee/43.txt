@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Cookie:MPmQi=""; &tm4=">*%A"; 39`%&^=gi&Q
+Cookie: C'DmpALL="^"; zzt`p="L<8"; &xvGkC="SOg"; cb="Y"
+Cookie: 	t=.pj; tB=  				 	
+Accept: 	onV2eGaQ'f/tDtC  ;  rhHW9=""	   ;NC="\Gß\q";  mAR="œ\â\)ÙÑ\Ö" 	;kx="" 	,	 		 , |E/*	  ; 			 q=0 	 ,	,F+8K_/*   		;   !l~T="5’\j"   	; 	   rK="W\÷"		   	 			; 	  	TzOVgi=""	;q=1,  ^`Gzlw#O/PmW'#; 	 f6#n=bd9   
+Cookie:U="c" 
+

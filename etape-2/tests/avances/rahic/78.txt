@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:Gk9's/_QS/U/(ym2%0Ey%397%42/5v%5Fv37,?R	  	   		
+Accept-Charset:	 			 		 , 	,,		  		 	 #rJ		 	;	q=1	,	,  B,T8U	 ;	  q=0. , k		;		q=1.,		 		
+

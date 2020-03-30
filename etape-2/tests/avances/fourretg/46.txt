@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Charset:	 ,,			, Uyb       ,	
+Transfer-Encoding: 		,, ,,,  chunked	 	,		 	  ,		 	Er&HJ	  ,,, 	C*2 		;    	  	 		 	o 	 = "\C",	,,    				   	 	, 		
+Accept-Charset:9 	; 	  	  q=0 	,	  ,				 v%sGs 			 ;  		  q=0.,	, liDtmHj 			  	;	q=0.		
+Accept-Charset:  	  			,	 	  		1 	  				; 		 q=0.06					 			
+Accept-Charset: l18%a	;q=1.0,, 	    	,		 *,		 0a 	 	  	 		 	 , 	 	   		K	,			  Ju  ;	     q=0.,	 u 	
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	K5Xz!bJB_.8O="o"	
+

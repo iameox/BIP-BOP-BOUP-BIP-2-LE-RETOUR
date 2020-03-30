@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	%qv=); ELT2=v; Bd0="y*C'@"  
+

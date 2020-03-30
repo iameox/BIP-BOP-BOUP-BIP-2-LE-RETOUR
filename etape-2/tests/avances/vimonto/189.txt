@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:			[E::26.90.213.8]	
+Host:			 							1YYF		
+

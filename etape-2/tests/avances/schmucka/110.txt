@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Charset:  fyg				 ;q=0 			
+Cookie:8'=J; B=""; 2=""; E="#"
+Cookie:F_lNL="%" 
+Cookie: 		h="5+rm"; p= 	  	
+Cookie:	8~0A8Q=p; 0&%=; ^=""; !97me&YLvc.'kI^svi8+NBOZ=k; TO|Z$3="k"; +MeXJ#=Y; 5qj#=""; cg0$Xv=""		
+

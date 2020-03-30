@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 	 n="6U01t?N(v>vb"    				   	 		 	
+Cookie:				  	 			  	  F=g; R="R"; S!q="b~$"			 	 
+

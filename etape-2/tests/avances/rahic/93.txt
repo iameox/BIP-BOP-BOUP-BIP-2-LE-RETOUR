@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer:AKT://96.81.1.4:5? 					
+Referer:	 n:HD7/	
+Referer:  z6://u@[D::3C:8:ED:45.253.1.252]/?8=J	
+Referer:  	//6.253.87.254/A//A%58W%3B/%50%53%8C//cOZc//v9(/%38Q/y%A0P/H7V/9/a-fLYy9B/;%F3Vo 
+

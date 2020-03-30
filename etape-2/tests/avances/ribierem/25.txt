@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer: bk/*/%F6kJ%50w//%F2N/?
+Referer:		fyDddPNd://%9F%8BC%84@/-?S%9F%2Bc
+Referer:  	   xZ://[v09E2F8.DX]	  
+Referer: 	  	//%73%2Ej=@232.8.130.5///K/r*A/hi/%00/%74f%BAI/k%A8/z.-?	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:S/e~;		rgGXruV%q#D="Ü";			  	  				  q=0		 , 			 
+Referer:		 	 	//@mY3k:/%76/%F3+)/d%0Fx,?%35tl~@5%4A	
+

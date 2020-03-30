@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	3n3+M=; bnBTcW=nz; dh0^D="+Rgv>#R"
+Content-Type: 	|fKZs/ScD;woil="\HBõ\ú"	
+

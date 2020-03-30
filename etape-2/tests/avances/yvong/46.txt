@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Encoding:Xa		;	 	 				 		 q=0.203 	 		, ,	  	ORq&A_Ugn		 	 	  	;			 q=0 			,	 
+

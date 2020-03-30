@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:		  			 		k=Ni		 
+Transfer-Encoding:,	 		,,, !	 ;p	="" 	 		    ;  Lm_7h&	 				=    		 "Î\~"  	,	4n|W|gO^;	Ocr5 =7QG	    	 	;	6$z%$1x-c_	= 6H 	 ;l`Q  	=		 	 "\Ö\¡",	   ,chunked			,
+Transfer-Encoding:	  		 		+dO 
+

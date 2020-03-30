@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Transfer-Encoding:	   ,,,  	  ,  , 	 	  , 				 	Y 		 		;V7Gd=""  		 
+Transfer-Encoding: , 		  	,, 	  	 		,   |oS%',,		 ,  		 
+Transfer-Encoding:	 			  ,		, , , 		,, 	  w'K1t'I 	 		 ;  	 	 +		 ="\ä‰"	 ;	s#P. ="\$¢"			  	 ; 			 		DpHfn88KeG3	  =	"\+\z*ò’"   ,	 	,		r;IZykh.	 =       	 "\s"			,	  	,	 C54 		   
+Transfer-Encoding: 	Y^ ,		 	 b` 	 	  ;		 			   	+		= 	"";M       	        						 	=		 	'DcMI	    ,		 z2 ;	  			   					  O= 	  "" 			    ,FLSsi$.a%1jPxBSr	 		 	 ;	 	 	G'LJA4G~	="\$õ]\Q$µ"	;	&tyN.RO56gw6	  	= 	 		  			"\®\ê7\'«", 	,
+

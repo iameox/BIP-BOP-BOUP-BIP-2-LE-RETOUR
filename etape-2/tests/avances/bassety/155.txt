@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:  		S&e/U; nj="\ºªÆ\¼\W\“\\" ;kE9="\¤ü\·\m"; 0R=w2
+

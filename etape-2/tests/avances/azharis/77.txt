@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:			 		   				  n/9D	; 	  i="";	 	  	Z3KTy^jhAfC=H 		; stJ=">Ни\Rш\а\x" 		     		;uOnx="\p"	  			
+

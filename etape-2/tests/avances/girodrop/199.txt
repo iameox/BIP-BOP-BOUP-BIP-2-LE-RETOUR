@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer://68.205.6.204/QCdlnVETqUK//B/K+%05Y%F12G~*K.//5J%44/;g)		      	 	
+Accept-Encoding:	 
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Encoding:		V2.	,_U7My ,
+Referer: shNq5F7t://[0B36::161.207.2.255]:673  				
+Referer: 	 	//[::64.0.7.2]:4992/Vd/kk? 		  	  
+

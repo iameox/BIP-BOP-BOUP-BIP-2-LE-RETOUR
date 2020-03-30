@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:		 ,N|AJNvczkI3u, ,			 ZNO;q=0  ,   	 		  		 ,	PrVh  ,  	   	M;q=0.	 			 			 ,,	  0 ;q=0.,  	k-, 	 	 
+Referer:c://vL@6.252.9.217:4/j/L6l0%C8N/MV%69MBcnD15YBT*!/S%B68V/a%B0W?7%75 
+

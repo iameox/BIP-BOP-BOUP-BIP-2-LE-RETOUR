@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:	[D8::75:4E:F:FA6:254.241.237.255] 
+Host:[v40B3B57.X]
+Host: 				
+

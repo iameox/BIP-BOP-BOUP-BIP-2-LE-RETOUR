@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer: //I8$%09y@[v0.J(HW]:07879/%368//o?m			 
+Accept-Encoding: zg
+Referer:		 		 			  //QGX%83s%442/(D5/%5AAQI7E/%64;Bb/lz%38nZ  	
+Referer:  	 z+5S0://F.$fk@228.95.204.2	 
+

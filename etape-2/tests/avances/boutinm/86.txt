@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:	   	 6=k	
+Transfer-Encoding:  	, 	, , 				 ,		 ,		, 	 ,	   	 deflate 	 	,    		  	,	, 		 
+Transfer-Encoding:, 	 	 ,		B8	; 2hlgM				="" ;	 d34	 =		 "B\†Ö"  	;*	 =		""	;&= ""; _#%Sirbqx15	= 		 		 	   		"#";	xy		 ="–¬\Ý\ª¾";U =""; 				X			 		 =	""	;	 		  ca7		=	  "X<ã"   	    	;	      			V	= 	 		J; &gQtu#="\g\œí"	 	 ;	d	   	=	"iZ.\)"	  	;	AR3			=		  "\ì\`\»\ñ\ÑX";  _ 	="\î¸Â*\{"	;		%#XK~G3#oo`Ib66sO8z = 	"\2¨"   , 		b!BP%L,		 ,  		,	l,			  	 	.CW!JSe5M,		 , 		 ,		,			 ,		  	
+

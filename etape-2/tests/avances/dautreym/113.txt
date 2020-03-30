@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:		 249.108.180.215:83	 	 
+Transfer-Encoding:	 		, ,	,,	Q!i'2zj'.k&A5t; UkqR  =	"\Ï"	 				 , 	   			 ,,, 		 	 compress ,	
+

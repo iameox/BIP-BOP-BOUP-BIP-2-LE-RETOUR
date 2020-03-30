@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: 	WVjBf*q5/A2hhnVg4RdIMrxl; V#Duxvn.="Ž\µ,\è"	; 	 X_=""  
+

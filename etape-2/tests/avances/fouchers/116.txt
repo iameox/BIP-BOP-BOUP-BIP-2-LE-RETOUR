@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:R=^e^C; 0E="jeFjjo"; 2kI=d; JiFp="rM?" 		
+Cookie:				 			9C%cv="$B9"; J-=			
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:	 OfZ-f	  	 		; 	   q=0 		, 			Z-Bedw 	 ;	 	q=1. 				,	 	 		 
+Accept-Language:				, ,	,		,, y-V   ;  q=0	,				S-b	;q=0  
+Accept-Language:		  	   ,	   				  	, ,  		cZ-BoG-d-2; q=1.,	 ,  				 	Kl   ; 	 	 		  	q=0 	 	  			 	,KDTdf	  	;	q=1.0		, 	 ,     ZM-Xde	 ,	dU-tcE-b-1o2-fk-g-Vx0-O-QlTIgDh-L-Ri-u-ye-E		 				  ; q=0,D-M-Z-3-7	 ,  
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:,	 	,	  ,    ,,		,		   	 	,    			 ,,	 		 , 	 ,,  		   			  , 	 ,, gzip  ,	 	S2ikD 	 ;	 AU	=	 uN	;sR` =   			   		 		"cé\Øx\ø"  ;					1'xKDgkT="Ð\°q" ;	 ^heK^7="Z\ð\Ç.\A"	
+

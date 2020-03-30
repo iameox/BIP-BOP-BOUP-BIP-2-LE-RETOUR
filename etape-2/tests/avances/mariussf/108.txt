@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Host:[::B8:7B:244.2.7.251]
+Host: [::7:888D:5D9C:91:7D:241.248.115.5]   	   
+Transfer-Encoding:	E`4zJB  	;	 X*bn5T		 	   = 		"\v\—£\N" ;	K- =	 	  	  		    "\sœ%\Õ\_"	 	 	;q	  =""; F+8=","	  		 	 	 	   ;	pDLZjA8ANo 	 	 = 			  	 			 	"\¸\®¬¬\’\n§" 							 		 ;	eJQb_				 	=		 			 ""	;^%8x=  "I" 			
+Host:	3.252.201.131 	
+

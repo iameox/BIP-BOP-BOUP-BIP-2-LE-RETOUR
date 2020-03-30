@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:	 			  %j/%ZL; azn11sh="\tЅК\љ\И\D\ув®Гƒ"		      ;				 		p#="≤\¬√\(г"	 	  			
+Content-Type:  			Tt/CemD  
+

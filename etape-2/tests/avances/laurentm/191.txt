@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Host:			[::1.221.245.171]:3
+Transfer-Encoding:,	,   ,		 		 ,			sD	 	 			  ;				4	=  	    		   "" 		 	 	;	    	CKa|="\ÿÖ"	
+Host::1
+Host:D.:636 
+Host: 		   		  	[554D:4:0:1271::0BC5:223.6.110.6]:
+

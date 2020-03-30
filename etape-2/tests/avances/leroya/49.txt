@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent: 	T0/gQ	  6M0EP/G  	  	  		    		 (ëøó\æ(Ê\þ))		 		u/| 	 G/F.*H	    (\9\‘\oç]\I) 	 ()	7R
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent: lO		()	Ev6T/8 	(E)		sSqsxO/fdiWaRk (\¢)	 	
+

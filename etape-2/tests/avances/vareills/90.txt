@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Language: ,	 	 		 			   	  ,,,	 	gEw-wl4-AEq-Dm-i-R8HLCRnS-u-3-X ,			mtVZC-1		 	 	;q=0.590
+Accept-Language: ,,	j-dM0-4-C-8A-9FXtZt-02-I 		 , 		 		 *		;    	 		q=0.2	, cH-r-S-yQ,	  yh-x-j-0vXJTDOI-kA-9-F-VoY		     	  		 		,		 		 	 	  					   			 	 NK-s-g-wT-K-pKmVh-b-B-Z-LI-g  		  , 		  ZEi-yZbC	;	 			q=1, bTCAd 	 			
+Content-Type:   	 	  		  9yN/y;r="•\8Ø\Ü\eD\Œ\Èñ0" ;Z="â" 		  	; 	H=NRJ;5=&KnS!.
+Content-Type: 	#XZ!s9*5Yd/` 		;		  e="\[ú\T\f" ;u~z=M&6Ot.88%A  	 ; 	 	  	 	k4="/X∑\	~çOÉ"
+

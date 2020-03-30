@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	  ODy=6N; j=y; O=Q!V'C	 	
+

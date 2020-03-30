@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:	pvsax~rffbC=a)Rr:M0^	    		 
+Accept-Charset:				,  	 		,,	 ,  	 		  				,	 	 	  ,   	,|	 	 	 	 , ,,n  ;	 		q=0.	
+Cookie:	   		1#aC&=; E_^u`.e=u; X6r=Y; 8h!**9hc=+; 9iDR=423	
+

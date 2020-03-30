@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: 	5f/j	 ;  		    	 		f=b	;						  	   	sH="\;\¹\#"	 ;oL="\f\ˆ"	 		     	;	 ab2UY=hakrH		 	  	  		 				   		 	 	  	  	;  				3Xe6L=""
+

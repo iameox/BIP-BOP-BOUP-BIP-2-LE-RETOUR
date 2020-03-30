@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:	//%66@[410::BC:E:3:254.13.235.64]:/4/h,x4/		 	
+Accept-Charset:  	  ,,		 , ,			,,,		 ,    ,		 					nvy			  	,,	,   			-   ,	 Qs,
+

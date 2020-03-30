@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language: 	,		  ,, 	 ,	  ,,	,,	  	zN-z-j 	; 	 	q=0, wcwd,	  		ty-7sW		    	 		     ; q=1.00	 ,  ,	  	 		,   		  				 		  	 ,	,DRDg	, 
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer: //m@[::C:6E8:F:0C89:228.71.195.2]:42746//%08/kYlqT%1Ei1Gx);D3+zsTs%4Dg/		
+Accept-Charset:	 jKbX;q=1 , *z#nkA  ;q=0,	Nj7vT ,DQ	 ,	j-	,SK; q=0,					 ,TtF	,	 CT^u, 				f7 	   			; 	  q=0.	 	,HaLE  
+Referer:	 9W;0r%FAW~La;N,0%58= 
+

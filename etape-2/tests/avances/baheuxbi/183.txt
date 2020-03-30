@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:bwVXH/T (€y\ÆðÀ\u\%) (Ð\h(%\&0))		 
+User-Agent: 5eD	 (\Ê\™(½ªn\¤.\7­\¢)s\²()\h€\j\¦8()(\¿B)\i<®)  0~/0LB	    	    	 	(T)	((\Õ\K)\;())
+

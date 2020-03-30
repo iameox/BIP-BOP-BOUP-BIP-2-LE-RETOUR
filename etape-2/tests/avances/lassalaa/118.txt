@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: q`|=qr; 5GYa#=; q=$P!mx7'w; EFkm3bf=""; A="=a3Us"; -!V=-D; tM!=""  	 			 		   	   	 			 
+Cookie:		 		%=0G; 2g_d=1_$m  
+

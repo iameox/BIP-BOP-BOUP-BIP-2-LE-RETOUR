@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 			Dk=Xm; 9WylqI=")`z{eJ(vANF"; Lg=0
+

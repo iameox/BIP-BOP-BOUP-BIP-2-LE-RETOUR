@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:_WW~#+="e'%woO0_"; U%|Xh-="j?GC4"  				
+

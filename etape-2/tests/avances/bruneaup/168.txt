@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	[vCD2D1.Br]	 	 
+Host:	  	  			[v6E0BA.AdaX.x]:4184612380	 			 	  	   	 	  			
+

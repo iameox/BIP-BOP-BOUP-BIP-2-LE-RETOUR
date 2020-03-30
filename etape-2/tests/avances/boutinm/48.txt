@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	3*8sa=I  	 
+Transfer-Encoding:  ,  		, ,  	 		,p6O ,  			 ,
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:		 	U="" 
+Cookie:8=6fn; 9hHIU2i=			
+Cookie:		  		 			3+Ety="@z"; #="zz"
+

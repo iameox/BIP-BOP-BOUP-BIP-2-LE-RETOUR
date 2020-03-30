@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer:	     //PC:0?i%D2yM  
+Referer:%F5%7C%31tA/o*/FtiO%8F/h(/6) 
+Referer: 				  U9:_*%81/chra)JP/-?%71  
+Referer:    	//[::63D:B8:0004:8:0B]:/y/1:o/E%6C&h,%55/V/KV%DE87/(AMtUV/Fo?				 
+Referer:	 JA9kmXwOXwKCd://[::8:4:58.252.254.131]:432 		
+

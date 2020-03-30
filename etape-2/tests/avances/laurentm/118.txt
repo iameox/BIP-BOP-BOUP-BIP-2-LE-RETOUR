@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:			[::21:9B]:993203 
+Transfer-Encoding:	 	 	 				 ,, 	,		%h5p*U7eP$;	|M8`	   		=	 		 ""		 	;M	= 	"Ê\Æ"	  ,  
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Encoding: Hs+6N- ; q=0,	 	,	 ,	P  			 		; q=1   	  			  	,	 	,	 	   	 	 	   ,	 	  HzG1RL'h_6ji  		
+

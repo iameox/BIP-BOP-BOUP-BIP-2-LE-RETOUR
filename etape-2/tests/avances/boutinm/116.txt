@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:			  		uAO#E=R; O~EK=	      	  	
+Transfer-Encoding: 	, , 	    ,    	, 		 		 KGF ;	 		~	 ="o\f\n\ภ\ํ๛ใ\ÿL\c\)B“\นq"  	  ;				  	KG =  		  	""   	; 	 		   	 F	=  "\ต\o\ซü"			;$ 	 	= %|YE		 	 	,,	  I4Gn 			 	;  	Kf%o	=    ""	;		NI2egf			= "/\"\ฬ\้h\ํ–"   	 
+Transfer-Encoding:a;	 s			  	= 	 	  "\ü" ;	   Vr70t^f8X 		 ="\ฎ\\นด)\c€\ฌ\]ฉพอ"	;r~  =	"ฒ\ว\[\'\iR\u"	;		  	  	BU$o.RW=  	"\ั"		   			
+

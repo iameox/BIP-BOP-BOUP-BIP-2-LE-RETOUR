@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:		  %j			  		;	     M9=      			  ""		  	, 	 
+Host:	 	 		[v3.I]:27 
+Host:LPEMrl   
+

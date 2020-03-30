@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Expect:			 100-continue
+User-Agent:    4.cO6c/i 	J_M4XD*/`_u			  () 	() 	(Ц\хн(\·)\°Т╬\█\т)	
+

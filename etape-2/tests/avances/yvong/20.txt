@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:		 /	 
+Referer: zQ://@[::C:9:79:254.5.2.252]:79/H%8F2/_ 		 
+

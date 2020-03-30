@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:  		,     , ,,	 UH*  	;q=1.00,, 7		 		 ;  		 q=0, 	,	 	  		 	 	 +zvR# 	 ;q=1 	,,		  	 	 	,	, 		,	
+Accept-Charset:	,' 	,,
+

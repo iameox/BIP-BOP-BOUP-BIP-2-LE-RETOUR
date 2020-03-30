@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:			l/2rP		;STNBCaa="" ; 	      	  		05="" 	;   				  	  cG3="ýz\9\Ü\o*\¶\oÌ\õ"	   				;	  	q=0				
+Referer:				  		  	 			JM-Ay0riy:)!?pUn	 
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer:I4n://230.0.164.82/7%3B~?/&
+Referer:  avj0k%9F-2.-%D6CwZ/(8x%60%98/%0C;EQ_u/./%F8/W/f/%12/%A5/%EF	
+Referer: 		 ss+6L://@[vCCB.O]/     				
+Accept-Charset:,	`i'Hmdi	; 	 	 	q=0.8
+

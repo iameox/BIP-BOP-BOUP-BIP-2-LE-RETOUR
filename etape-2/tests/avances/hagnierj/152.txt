@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:	 	 	 	   		 				  			 		    
+Referer: 	NN://[749:2BB0:0:DC14:29::156.253.153.1]/%75%BE7BP%47wib/rhE*/BZG%16A2mO 	
+

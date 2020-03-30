@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept: 	   		 	 	  
+Cookie:	X+=pGDe4E		  	  	  			 	
+

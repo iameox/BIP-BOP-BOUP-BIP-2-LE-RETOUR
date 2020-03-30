@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset: 			   ,	 	  	   ,H~f*%V2p~Z2#D`M,	   	 	 							
+Cookie:  SrIFSz+udDf=W$t; i=0KKV<u!; 5$="kAa*H{L"; 2ze=N/; pX%09=; &ZV=B*wK2  
+

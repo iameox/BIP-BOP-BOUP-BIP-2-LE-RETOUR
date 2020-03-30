@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:				 fb-G2T-2-lX-scG-FW-u5U-c,L-V-wy-G 	; 			 q=1	 	 	 ,	 
+

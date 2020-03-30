@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:  |L=XMXlfYT; 9="2:l7I"; p$yQ&mN=DZ; ~Ha0U2="X]&"; |=tn<)/-+[(f&fw&Y; D^`w~JSP="z"; OdklB=""   	 	 		  	
+Transfer-Encoding:, 	  	 	,	 	  			 	 I6			; hqW2cd 		 	=	  	 		"\Ý" 	 		 ;	&X'  ="" 	  	 ,  	 	 ,5$ 		;qI =	  "-…\…";M+f!zpsV0bo=	 		""	 ;		  	  5="\="   	
+

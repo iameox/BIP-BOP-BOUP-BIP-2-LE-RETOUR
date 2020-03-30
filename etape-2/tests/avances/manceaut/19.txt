@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:  	,					J-sz 		 ;	      		    			  	q=0.,		,, 		 	 QOGB-w-u-C-0
+

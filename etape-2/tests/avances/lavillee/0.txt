@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		 				Q=RG; xeb&="{"; jv='yH; nE=0; ys_6=ESoY 		  			 	
+

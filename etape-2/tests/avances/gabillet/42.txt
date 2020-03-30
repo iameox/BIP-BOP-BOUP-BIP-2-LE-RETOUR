@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:bx ()	 	 (\-$\:)   	 		   qqJ3h  	 
+Accept-Language:	 	 ,u-lj-Too5-w-1-j-ID;    q=0.1
+

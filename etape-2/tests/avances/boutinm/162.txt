@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:		 		compress,,	wf2#80				; qg=					 "6z\\Q\c\ﬁ"  		  	 ;		 		nxc	=	  	"*\∂"; 		 	 	x 	=  Zk		  ; 	Xr  =	 	"\#f\ü"	; U 	 	=  "\ùÀ\k\í\Ì"		;n!8="\»\M\ãuJ\π\s'\¥\@" 	 ;	IlSHfg9			=""	;cHtr = "\õ\4\»"  	 ; 9LDxzOY|Ut =8oK&Z	 ;		 	 	 			  !|wl*y1!mN0Ush^   =  			 "“\J"   ;V	="\z";	  `4Np7m		=	      		  	  		"tÍ" ;		 		 	    			eAsQM=      "Êg\m˙Å\4†\r\¿"   	 ;		MFVBBGv="" 		
+

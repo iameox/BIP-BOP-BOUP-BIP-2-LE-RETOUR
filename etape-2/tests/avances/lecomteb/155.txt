@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:'Y2^f4/Y4E+x 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:  	  		    					 S-K2A-5G-F	 ,  	  	  cU-W	    	; 	 q=0. 		 
+Content-Type:				  C/$QR		;$.Yo=""
+

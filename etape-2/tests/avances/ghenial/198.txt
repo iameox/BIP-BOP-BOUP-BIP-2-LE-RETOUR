@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:,,		,		xi		    			   	,khI%	     			     	  	  	 ;q=0.9,		,, ,	 ,Cr  		;	  q=0.,+K#HzRzb	 ; 		q=0.,   			     4n03 				   	  
+Referer:  			-QQ?)PeI%96 	 		  	 	 	
+

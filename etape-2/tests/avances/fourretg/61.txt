@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:		t+B.JO;  	 SMVlQ  ="" 			 		 			 	   	 ;	  	   		|h01B=	"" ;  6WsbJGZPzQP	=		 c		 	;		%PoY=  ""		;dI=		   	  	"\~\„\w\ŸC\×\¡\;â\Î\¯Üì´!G\‰"  ,	 
+Accept-Charset:   	,		 	  	,,  	H 		 ,	 xqyh	;   	q=0			 	  	 	 	 ,    
+Accept-Charset:			 	    		 	 ,,Guk	;	   q=0.3,		u50UN , * 	 ,
+Transfer-Encoding: %Frce	;    	^Ktc$		="\Ü:\¡4" 					 ; hnA3PQNYVLql1Y 	    =	"s" 	 	 ,
+Transfer-Encoding:7l%W			   	;T+A.	=  	x9 ,gzip,	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:		,		  	,,			 	 ,   , 	,		 , , 	,Z , 	u-9-C-TI-V,  ,	  	SwJg-w-M-Rhl-Q	;	 		 	q=1, 	
+User-Agent:			 	  	 	Z 	  	 
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept:   	 
+Cookie:		 O=^q!)E|&  	 	
+Cookie:w#`%HH=; X=5M7h?LC
+Cookie:				v="}'wZOF0(X"
+

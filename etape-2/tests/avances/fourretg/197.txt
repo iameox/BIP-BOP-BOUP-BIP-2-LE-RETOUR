@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:   	,Ztd  	 	,			V636;Esm	 = 	 	  		"\\B",	   	LQX 	; 	BvSgXas		 		     			 = 	    		 	 ""  
+

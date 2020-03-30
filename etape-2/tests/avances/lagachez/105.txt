@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	h-=""; Y#=Q/NttMWwX9VT7b{P]=r
+

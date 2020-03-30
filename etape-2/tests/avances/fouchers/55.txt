@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	I3qD1rSD="q<B_"; j=n9[`Ub; vv="Yy"; pt45Mp="H"
+

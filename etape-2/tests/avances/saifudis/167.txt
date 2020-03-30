@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Host:	 [vD483874.5SP]:1 
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Transfer-Encoding: ,  		,,				 compress 	   ,			, 			 	 	 , 			  
+Transfer-Encoding:   	 	,  	  	,,v3S'O	; F=1,, 	  	 29NOgQh	;			 					l 	="\Í\"		;A&K4&Ztn 	   					=		"\:ƒ≥" ;YbPj 		= 		"\´\/¢\Ëô\="		   ;	 	 	 		cN		="\ë*\ù" ;			 		 k  	=	 	    	6nY ;	  	 Cr_ =		"µ¨"   	     	 ; 		 b`KQ~= 	"Cb∆\9\F‰"	    ;		   	K-  			= "˙N"	    	  		  	;	 					   #uED1x_o = "";		 z|6.iLSK6=    	 "" ;~9 	=		"\B'A"	   	 		 ;  yAyX3w 						= 			" =8Î\Yr"  	 	;		 j		 			= 	  	   "\®"					 
+Cookie:	 b=; .u=; r=  	
+Cookie:rdvxc|+=""; 4wVKMgACHa+2d=g
+

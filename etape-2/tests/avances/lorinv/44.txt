@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: 	%XmoBZq-U`ZC0Bqf/nz#;Zs!="\ö\“ºc…\ß\&\ƒ\~" 	;  	 1FY|hoeu8a=6kg*v;z*hL=""; 					 #="\kœ"		 	 	  	 			;	   D_!M=V  	  	  ;Pq=""	;		   		1Y="\S\y\[	\ó\Ò\ti";%7%'B="ƒ\U\j"	 	;		 vl="Ø\Ÿ" 	 	 ;	r8="\˚\ö"  ;		   	   t!d4+jJI5A="®\>\^#ßà\ç"	    
+

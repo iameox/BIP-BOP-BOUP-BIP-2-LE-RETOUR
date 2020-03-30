@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:,,					,	 	  ,	Q.p9
+Transfer-Encoding:	  ,  5`D			  	 , 
+

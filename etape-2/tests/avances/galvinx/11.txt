@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language: 		 C-y-ipg1;q=0.8,,   ,		 ,   Z-hzLt-X-ikZ  	     ;	q=1.,,  		 	,,		 chqJ-e-I		;q=0. , 
+Accept-Language:zE-D-KdG-GPH			;	    q=1.0				,	ImFu	 	 ; 	  q=0.,	 	 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:m*S,
+Accept-Charset:			,	, , 	,   ,,  	,	 ,  			 , !tcgLcB	,		wZW  	 		  	;  	 	 		 	  	 	 			 		q=0.4 	 
+

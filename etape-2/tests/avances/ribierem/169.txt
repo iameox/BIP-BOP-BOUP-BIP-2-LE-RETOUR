@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:	 		 	  		  	   
+Referer:			 C://[::B043:32F:87B8:D:292C]/q?pp		 
+

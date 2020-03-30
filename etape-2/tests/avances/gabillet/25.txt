@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:   		pRr-N-j3i-FDqJaxm-Y-9I-y-2-o-A-j
+User-Agent:	 g/ovpqjL0		(\È+)	 	
+Accept-Language:,* ,  			PlItkn 	 ;	q=0.3	    	, 	  AU-nKa0YX-nM-PE-Po7-M-m-2or-K-8-d			 			  	 		 ;		  		  q=0.651	 	  	, 	L-z-H1-6-c-S-W 	;q=0 	  ,		     	 	  	  , 	 ,,		  B-p-dC-ZHazbj-Ayjd-Z-hSu-M		 				 ,  LyA	,mu-5mrMMAL-dKpk	  ;				 q=0.  ,hq-w7-y-5P-W 
+

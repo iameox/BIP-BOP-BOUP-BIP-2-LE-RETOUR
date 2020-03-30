@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Encoding:		  Qk4 	,  uCXb0B,	 `wW|p8w3LW  	, *	; 	q=1.00   	 ,LJ$ 	 ,`g6		 ; q=0., ,  identity ;	  			  q=1.00,,		 	  o;q=0.19		, 	 			9 		; 			 		 q=1.,sj6, 		  ,   	 ,	U` 	
+Accept-Encoding:	 
+Referer: bxv://kNQ&u(e-@251.251.255.78:91/pdpQUMX/8/A(0-FcW-/%39 		 
+

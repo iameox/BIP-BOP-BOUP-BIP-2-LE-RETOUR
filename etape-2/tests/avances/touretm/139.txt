@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer:GJ://[EC:BCC::1:2:3.5.233.0]  	 		      
+

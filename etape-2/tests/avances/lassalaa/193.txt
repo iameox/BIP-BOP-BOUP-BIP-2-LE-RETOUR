@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: 		   +/6;		 _EG="ˆåp";				  x=","	  ;   	_q=""	  	
+Content-Type:	d|vpYPD/6Puw	;tT="\²";	 	 F="" 
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:	,	,,	 		 ,	 ,^lb; 		 		 q=1
+Referer:  	eteNcXygeV1MF1:S%42'%4B/902:%86&2D-/u:%346X: 
+Accept-Charset:  	 j-d 												  			 , 		zSQ0X 		
+

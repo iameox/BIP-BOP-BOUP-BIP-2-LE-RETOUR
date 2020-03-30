@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: $q7G=; tZ4_="DN"; r`=; N=".q+I#4X[" 		    				 
+

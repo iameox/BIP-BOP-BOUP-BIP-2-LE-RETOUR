@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent: cJ/F5q 	  
+User-Agent:cVz  	(\¯)	(¬(Õ)) (\Æ4) 	   	 (\l) 	(m)	 (\a\ä(Ô\©¥))	 (×) 		 ()	 	 			(s¶“)
+

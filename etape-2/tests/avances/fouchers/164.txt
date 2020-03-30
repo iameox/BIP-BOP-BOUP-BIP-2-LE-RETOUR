@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:kIv=f#; 8pk6=$; ~GZ3~X=">7@psD"; IhX3="sarHp"		
+

@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer://oP6%5Fh@6%D8;iY!SM%F5oqH/%21%65$?ku$~			  	  	
+Referer:	//c@238.218.4.71:025//%B8+-/tm%48uo0%53$//QVu9xW/%48F/%A1?~47 	  	 	
+Referer: 	jIs?b$%38RJyothtR* 	
+Referer:dYo:=%DBOA/
+Accept:pRl/*  ;		7T="€ë\¶†"	 ;		1~1Lw="\Ç"   	;	 Nr="\µ" ;rl5$="\Ö_\a\lË\"\<\„";Kwg="" ; q=1,  		 L306B/vN ; Rql*_^="\ì";O7="×é®"	  	;   	 	 q=0.  	 	  ,Ht'54FG/*		 	       ;	 J`P_'CF*D=""		;  X!uc="\È\»„%\Í\â" ; 			 '%="\è\ÿ"  		;aMqQ="~ì\p\“ã" 	;  	 		 	pjCf3="" ;2=hU ; 	 	q=0,			 							7B/*; hB="]”" ;		_8="\•\J\,©âÊ"  		 ; 	 	 q=1, 	 ,	  &/I% 		 		;		 'a~t5jN'CFAS="1W\‚´\D©\¯ó"  	;   lG="" 	 ;	Y3hy="\¼t\~\¦\ðƒ"	  
+

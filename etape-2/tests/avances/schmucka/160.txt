@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:	 		9 	 ,		,	 
+Cookie:06W*=a; `iN="}!"; Y=0K#)_	  
+

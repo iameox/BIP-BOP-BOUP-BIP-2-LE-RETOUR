@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:	 K'0.O9%o481Sx.o/xoRkRR7  	()  		 	  3Fu  	()	(\Р(Х+)\7\Я(Х\})\K(\оз)z)
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Expect:100-continue	 
+Host:	FI 
+Host: [::8:A:D:3BF5:222.204.249.217]		 				
+

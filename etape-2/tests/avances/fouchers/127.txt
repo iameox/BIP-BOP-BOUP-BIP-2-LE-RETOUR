@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset: 		  9-|7;	 	 q=0
+Accept-Charset: 	 ,+QQRcsuw;	q=0,	  , 		  T	   	 		 	 ,nER,		  						Yt4	,      	 ,,  		  	`
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:	 lfKRqVJ0MMnN3://@3.1.3.3:18322?:%9B		 		
+Accept-Charset:ho	 	; 		 			  		q=0		 	,,e1L	 	 			 		 	;q=0.6 		 
+Accept-Charset:, 			 	   	, 	 ynt`y+Zn3		,	 	    	  		 			  	 ~ft!^ ;q=0 		 		,~$	 	   ;q=0.  
+

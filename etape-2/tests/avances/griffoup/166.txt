@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	  		lW=sFry; G={#; di^-^jq=F; Tf=""; yqz=-C; b=; F="j%"; Ex="nkFv*@"  	
+Transfer-Encoding: 	  ,  	 ,,		,, 	 	, 	compress   ,	
+

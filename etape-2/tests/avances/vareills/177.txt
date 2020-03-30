@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:gxy_7dP/rMl360	
+Accept-Language: 	N-n-2-N-hgt7-bi-3    , 		 	  	, 		  	 	 	 	   				 ,   	NV-jP-I-4v	 	, , 	  	  
+

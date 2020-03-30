@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:	 		   G~XSWX/cop-1vy;		`lRX="\üt\ \¨aËô" 	 				;q=0	,
+Referer: 	  		    	   Y,//? 	 	  		 	 
+

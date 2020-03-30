@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:	AsEU-nw-c-4n-h-0EH;q=1.000	 	 		 
+Accept-Language:	,	   ,	 			 ,		 	H-D0 ;	 				q=0. 	  ,BvOl-dOoGf-y-Wm-AT-W;q=0.	   	 	 , 	Or-Q-u-jGP-h  ;   	q=0.   	 	 			,	  ZSg			,y,		,		,  Ob-FtU-F4;			q=1 ,	  					 w-X-H-x-9x-abr-d	 		 ;  	q=0 	  			  	 
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	  			7DNp.=w{kL:g1VQcdg; jNT*CYz=|; gWkm="98"
+

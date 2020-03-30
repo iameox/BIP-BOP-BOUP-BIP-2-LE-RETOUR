@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:	, 	 		    &.	  ;~=K, 	 		
+Transfer-Encoding:				 			 1	  		
+

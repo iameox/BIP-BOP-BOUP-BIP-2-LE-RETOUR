@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:   =	  
+Host:  	  	[A:36:3:AAE5:E:5:5.229.42.59]		 		 
+Accept:		
+

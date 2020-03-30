@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:4C/h ;	xBeUsSQmKv+U="Ác" ;KPOTS="\Õ\	" 					  			
+Content-Type:H'0eYGS/KP*		
+

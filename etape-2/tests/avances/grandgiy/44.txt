@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 		WsQS=Z8{; QK4="2M/"; f="IuH"	 					
+

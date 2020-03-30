@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:			 .A*5uQBYO/UFSKfV|Vq&IO  		,, 	 eX./d+7H&x		; 		 	  			'=""; 	1b#ry="\ø\Ý"			; 		 60="\¿";		li^=""  			
+Accept: 	
+

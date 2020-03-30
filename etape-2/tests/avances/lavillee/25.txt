@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	 	RSYB8|f-|rm$!e'd==xQC~p; !*=Qwa 				 	 
+

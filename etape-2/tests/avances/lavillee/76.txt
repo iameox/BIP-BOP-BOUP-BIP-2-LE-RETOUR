@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	*X~=	
+Accept:	  	_/*	  	;On="\Ñ"		     ;q=0, h/3aR	      ; Pl=""	;  s4w=""	 ;   by=""	    ;		 	1|Vhw=J$a9Y 		  ;		     d|9~*Y="\g"	 ;   		 cHY="" 			   		 				  ;  Shqf|'="8" ,	 			qPq/*;  		  		NRd+GWXLABZmI="\U" 	;q=0		,			,  't/*   	; 	DTVH0sJk~ws1g=""		 			 		 	  ;	 	   	7="yµÚ"	,  XPSX/S 	;q=1	 ,	  G/~+ivb0LS; -NdKQ-PN=x;	`7diR=x			  		 	 ;*#83="\”Íx\ü\%"; 	 9o="" 		 	; +5z=h4; q=1.,			  	  	 	  	Z/*	 	  			 		;0l5=PV		;a="" ;	q=1.0  , 	 	 $*/+bw%P		  	  		   	 ;			0M*lSq+="" 	 	  			 			 			 ;l="±\[\=" 	;  	   	      q=0
+

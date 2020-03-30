@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept:	9xbDiru/*  	; 		q=0.3			,n/*	 		  	 ;	q=0.   
+Referer: 	  	 	 		   	//[B1::2:A:55C:87AD:53.70.219.209]:74/,4=v   		
+Referer://k-%9FT;:943/zh%BFayt=%2FOCRKQNR/%94/mIM'%83y8R/5/sk/?3%02Nx;YY
+

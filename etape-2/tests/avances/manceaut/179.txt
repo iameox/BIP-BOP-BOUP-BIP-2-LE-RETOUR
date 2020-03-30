@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:	 , 		,  		pWYpg-MGCVWqjR  	; 	q=0.	
+Accept-Language:,	 	  sDApZ ,  		    
+

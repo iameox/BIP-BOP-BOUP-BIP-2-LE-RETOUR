@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:	   ,	,  	 	 		,,YL	   	;  				q=0 
+Accept-Charset: 	7Ub9_v9  ,  &gAGp				 	 		 ;	q=0	,   		 ,		 MG		
+Transfer-Encoding: 	,	, ,gzip,, O`  
+

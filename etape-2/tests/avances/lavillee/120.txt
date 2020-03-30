@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:			1A=""; zJvF="`"		 
+Cookie:	N4n#f4_icm5=; CY=; OhgYdOP=; 9=Ne#TO; &|d=
+

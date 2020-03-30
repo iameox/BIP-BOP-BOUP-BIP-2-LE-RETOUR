@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:	5  	; q=0		,  	 		 	
+Content-Type:~cHZo/s2	 	; 	  	$$S=6ym|r7rA2W;My$="\$"   ;	3="gz\!\ç\e" ;	 		VQv5j="­" 
+

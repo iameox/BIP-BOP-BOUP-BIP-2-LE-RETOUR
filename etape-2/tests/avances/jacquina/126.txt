@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding: 			 	 	 	  	g*95G ;		~m ="",
+Accept-Charset:,     ,	 6		 ;	  	 q=0.8,			, 		R	 ;q=0.688 , 	^z  	 ,	,		 	,	,	 		   ,	z$e			 ; 	q=1. 	   ,	  s 			 ,	kMd0	;q=0.	 	 		 ,8l#d&v5GC	 	 	 ,   	 		  	W88L				,,,   
+Transfer-Encoding:  	 ,		,   	,  ,	,	, 	 		,			,,  , 		  ,X		 ;h   			      =	    ad3Jb#- ;UA+W_O		 	 	 	   		="\K" 	   			 	;  		 	C	 			 		=  "!\¥\™" 		    	 ;Wm =	 "\	"	; KWdC~="Sµ"	;  			EV2TtF2|=	 	"\¦\åz=òQ."	 ,  		 			  ,   			,  cQSk9YU; HIL= 				   	"\3\>\ß\„\Ã’\ä\‚"		   	
+

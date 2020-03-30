@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:		i://201.7.6.54?%A0mHZg%5DE%DDy@		 	   			
+Referer:	 	 	 //%967CMAK%18~S@213.22.37.222:///%7C0%AAlO/w%05cElKO$?Q 	
+

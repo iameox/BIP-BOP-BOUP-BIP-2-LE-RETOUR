@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:  	 	 	mhWZLB/*; 		  ki2r#F="\“ŒI\D\Ã"	 		 ;    	 						B-5="\°\2Ö¤";q=0.47	 	,	  	 		 
+Accept:&/GPl+*	 ;  ~cW=""; mwhYO="º\Ž";yn="";TA="";	 5^%7=""	   	    	 	 		 	; 		  4g="\t\®mg\U";t="Ú\ô\¡ç\-\¥‹" ;	 ~Tuk+FPOA|+="žë"	;  0!-j'!*bKo=">"    	  			;q=0.			
+

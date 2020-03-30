@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:	QL*UMp		 		  	 	     		(()˜¬)	(Ô(·)1(\9))	NuW		(\À®d) 
+

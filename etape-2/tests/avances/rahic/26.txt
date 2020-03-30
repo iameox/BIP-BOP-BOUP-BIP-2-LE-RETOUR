@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:  	 t2F:?	  	
+Accept-Charset:	 	   ,,	 ,  AjSU	 		  			 ;	 	q=0.4	,  		7Hdkn;  	  	  	q=1.0 ,!q ,  								`   ;q=0.			 	,	 	 QZ;q=0.9,	,  	WJo  	  ,  ,	 		6Fp	,		
+

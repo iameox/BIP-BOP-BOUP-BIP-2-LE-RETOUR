@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset: Y|F  
+Transfer-Encoding:		Of ;	 kwl4y =	  "" 	  ,			F8t2pPgI^	 , 	 	,   	 , 			  	  compress	,	,	deflate	,   	 	   	
+Transfer-Encoding:		,, 	,  	,  	 7			  		   			;		    Bv	=  	 "\_"	 ;Zl9w		  			 				 =  "W|" 	 
+

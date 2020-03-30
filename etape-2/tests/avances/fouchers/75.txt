@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:+-m ; q=1 	 		,	,	 	DjGRP;			  q=0.		 		 					
+Accept-Charset:,		  	,	,   ,J		      	 	  ;q=1. , doK	 	,  B6JP	   						, 	,			      	,	Xg    	;	q=0,C~ ,Aj2d 	,,	j0 	 		, %U	 		 ;       q=0  	 ,					  	
+

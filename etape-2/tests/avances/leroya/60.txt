@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent: 		 			Ly.p8KND ()	(\p\Шп\0(Jf\ф)()Ы\Џ()\q) ((\†\Тр“б)) 
+

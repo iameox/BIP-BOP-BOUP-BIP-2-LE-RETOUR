@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	77="M="; x3XMAE1Flgm`Kw=""; QE7hC=2	 	
+

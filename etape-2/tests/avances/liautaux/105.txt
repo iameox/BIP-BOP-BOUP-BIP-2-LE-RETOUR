@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: L="P"; i="q+"; r3="&Ek[A*3|"; U7=LW%xSa:q	  
+

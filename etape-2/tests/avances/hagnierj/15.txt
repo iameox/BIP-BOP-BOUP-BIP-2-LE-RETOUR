@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:I:///tX/0%CFW5%3A=;%CAix.i/t(/Q88/Bk/Pu)//!''T?g  	 
+Referer: XP:7?%97Z_gje((=Bq@@)!;:q/Us	
+Accept:				
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer: m://8.66.208.7:157344?cRlr 	
+Referer:  	f:)-:wq*/%2CP/%7C!/nlFrX/)H/?  
+Referer:		 	sFwRM1:%28Y/6Gy/%83k%1E/%7Bfe40/FWS,L8c./2%9AWJ%F8//3%89%F4+iH%41LH~?Mo%8De!:z~ 
+Referer:	 	 	 U6:////QJ3~/i&4Ez%8B2BWTbRsvW/F/1Ih/%70%D3HX:~%3D;w/%3Eq(/
+

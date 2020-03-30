@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:_~=1o/Z4!; YC="7"; w5R2cx="[.zl"; kYz=QywY; !s=y; u=4; 9=2A$m; %h=; hE=a; wzu#PL="kh]'G"; F=""; u="}:-(/>Uqkf^(CGz"  
+Cookie: ZmIz=; xvC="Hy"; h="" 	    	
+Accept-Charset:,		  ,,	,	,	   	 1 	 	   	 		  ; q=0 		 	
+

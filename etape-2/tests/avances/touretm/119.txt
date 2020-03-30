@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer:		/UB4/1/%CBk*1/x*/'
+

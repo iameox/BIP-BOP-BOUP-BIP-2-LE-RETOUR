@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	 *H4=t; 9j="F"; T^bsC'HZ="r"; F=; OJ=w'; b#`|QY="g4pl"; 6f5CP="-"; v.1|rce=Bu
+

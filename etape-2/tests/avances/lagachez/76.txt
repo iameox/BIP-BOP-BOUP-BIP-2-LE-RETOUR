@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: Ni=; |CA="2WHht"; *hBsg13KBx="]"	  
+Cookie: 	 	 '="M06"; J=""; m2=""; tQU=UuqN?([J; xfE&q3="q"	  
+

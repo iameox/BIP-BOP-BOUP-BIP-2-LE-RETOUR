@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer:	k://0.204.37.0?%E9M	    	 	
+

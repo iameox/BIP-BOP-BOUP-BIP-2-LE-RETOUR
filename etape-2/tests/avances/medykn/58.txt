@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:[14::3]  					 		
+Host:		7!MhJ: 	
+

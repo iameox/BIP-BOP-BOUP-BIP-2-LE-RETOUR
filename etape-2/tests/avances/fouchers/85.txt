@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 	Ino&uHC$|QnO$z_S=""; w-=; 3%AJ="hDP"; G^FrP2|=""; 1=k(U?; !ZX-&Jy.="36"
+Accept-Charset: , 	  , ,     	 	,'g	   
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:  		[vABEB466AD9C.Kxe]	 			  
+Host:	[::1:03:E6C:52.4.254.69] 	
+

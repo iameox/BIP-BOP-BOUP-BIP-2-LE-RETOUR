@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: Cl/f#;		7a="ö\‹¡±!\º¶\“\π";		 `8b="" 			  	  		 	  ;	 	 L6^E="\h?Ã\Œ" ;	OB="<–\ô"; 2'lD="\(\”Z\.ô"	  ; 		4=""		 			 		
+Content-Type: TF/J!3~iOKL	;	3U=""		 		 ;	    '="a˜A" 		
+

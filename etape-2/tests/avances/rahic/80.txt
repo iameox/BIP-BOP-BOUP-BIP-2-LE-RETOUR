@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer: 	 		 		rK%36be/f/Ru/oX?%EBU%70 		
+

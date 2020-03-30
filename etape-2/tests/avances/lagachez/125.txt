@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:K&V=0zm?e2; pL*E%hu="E]_"; Py=Vf; jQLt6bQT="Bq}" 	 
+

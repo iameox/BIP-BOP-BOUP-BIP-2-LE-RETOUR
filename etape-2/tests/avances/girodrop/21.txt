@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Encoding:PwLp7ehYE	;		   	 q=0,			 P-_e	 	,   	  IefpjI; 	q=1 ,67	 	   	,, 		  4    ,l  	 ; 	q=1	 		 	  	,	 	Di!d5H		 	;	 			 			  	   		q=0		
+

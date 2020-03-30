@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Encoding: 		 		|2O,,  , 	     , 	  4qSbYW'tje	 		;		q=0. 	 	 	 ,% 	 ; 	 	 			 	q=1.	,    			 5p7cZF	
+Referer:/? 	
+Accept-Encoding:		   	 		 	
+

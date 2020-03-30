@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:	
+Content-Type: 6.ECZpbCp/3gaD   	   		  	 		   			 
+

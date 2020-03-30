@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Expect:   100-continue		 
+Accept-Language:   	 		  ,	    , 				   Oj;  	 	q=1.0	,	 		HrwdlF-x-o-t0U-a-gKz-dgTl-a,	sxRl 	  		,,	yL-X-os-9-T-HR-y		 	 ,	 f-z-gf-9-2R	  ;	q=0	 		 		  	, 	,N-i-1R8FnS-w		; q=0.,	 	 			, 		 			
+

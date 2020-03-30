@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:,  				,, ,,, 	 	  ,   			  	  	,	U*p		 			 		  	  ; 			  q=0	  ,	 	
+Transfer-Encoding:	s ;	 	..	  = 		     ""   ;		 DEK		  =	"" ;	  NJz 	=	 "\∞",aQB|-%	;r= 			 		  	""   	     			   	 	 		 ;		z1		= 	 					"£\Ôπ\÷\t˚\ù" ;			 		 yRcuz*w-	   			 	    				  			 =	    		 	     			""							
+

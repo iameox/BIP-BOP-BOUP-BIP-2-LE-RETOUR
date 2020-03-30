@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:	RaB://[7::E50:2:4:252.0.188.200] 	   			 
+Accept-Encoding:   			   	
+Referer:  		//[4:6::189.107.252.58]:6	 	
+

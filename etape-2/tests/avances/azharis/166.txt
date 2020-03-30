@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:	 -k_L+7K/AZ	 				;sW="PL" 
+

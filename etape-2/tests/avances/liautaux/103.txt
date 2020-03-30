@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:		, 				 chunked	 ,*	,,,, 	  	-~		
+Cookie:	 			 	|v.3HOD#-x=; %MXetC="" 
+Cookie:		Ep=k*mQ<FBp
+

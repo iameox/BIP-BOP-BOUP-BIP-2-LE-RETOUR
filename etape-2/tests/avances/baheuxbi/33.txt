@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:FPS/e9	
+User-Agent:o6kgF		('YËŒ\><Ý\²\¨\s)		 
+

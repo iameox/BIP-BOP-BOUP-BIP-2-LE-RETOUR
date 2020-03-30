@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:		 `Si9_u'gh/Y610		  	2AdE/d	("\8ã\)sX+‹\¾\0\>d\µ\¤%\[(+\Î))		 (n\í\õ¢)	(p¸P*(Q\Ûà\ª)(B)(Á))
+User-Agent:		 9'E& (K\4L()\SÁ\Œ) (¾)
+

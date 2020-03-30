@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: 	u|YG.D/t!	   ;h="ì"		; 	  	   Y^g="Í\4ã\#" ;fdCa="\'\•\ž\“";	oZ-2m="\ì"  ;	  	0y=$	 
+

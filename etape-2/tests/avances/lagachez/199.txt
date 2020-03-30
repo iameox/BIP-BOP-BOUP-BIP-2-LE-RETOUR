@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: D="<Hj"; C=UMaCZd; B="c[1Y"; 49h'ws=XA; 48n#eXw-="JB%1TYcUMIX^-" 			 		
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Host:		  	68.252.254.9:		 
+Host:		  		 [vBEBB.0sn]:
+Host: 	[::0236:D:0:6:4CF2:3.0.8.1]
+Host:   [v2.uHGt] 
+

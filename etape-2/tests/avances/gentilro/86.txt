@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:					, ,,	,		   	 gzip  		 	 	,W3rK5x ; 	 	 			 DIye=	  		  		"ý\½;\ÃeÂ" , 		 		 	 	 ,
+

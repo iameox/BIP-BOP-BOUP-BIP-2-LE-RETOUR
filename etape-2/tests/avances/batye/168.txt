@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	 			 	RL4C=ZYb8ef'qq5Sr&l]7w; C="W!p"; yMb=	  	 	 		 	 					   
+

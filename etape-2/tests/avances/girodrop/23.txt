@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:			
+Referer:	//[3D06::2:4:9:209.231.8.95]//r://p%07%BB%DB81xf1mK5jhW:zH%4E%B9B%2Er/(//I
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:	 'QCL   (\ôÄ()\]\è\i\†\6?())	  
+User-Agent: ^_.Q1	 	 	 	(È)		 (\õ\Ô)	
+

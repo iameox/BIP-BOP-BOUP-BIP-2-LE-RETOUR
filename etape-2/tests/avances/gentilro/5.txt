@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:	  			U8=f7oPZz=?U0M8KuE	
+Transfer-Encoding:	t ; 	tnb	 	="\œ\©¢^\∏"		 ,,  B,KLdpQajRH4wx6     	 	;		   	i9jz~HPuc="\ü#ã\qé\e\N\h`v\Å\Ç\ü"	  	
+Transfer-Encoding: 	 , 				,      	,	, 	   , 	 ,		,	 ,		  	, 	~1vfzo+yhdFUtk	  		 ;  		 b= 						"’\,…\¿" ;		o  =	 			 	 	"≤"; 	IXq="2"	 	 ;aO+  	 =  	 	  ";\+\=£\ù\Áô\˝c\Æ" 	  
+Transfer-Encoding:			 		gbEHRUWqY	  ,  deflate	, 			,deflate
+

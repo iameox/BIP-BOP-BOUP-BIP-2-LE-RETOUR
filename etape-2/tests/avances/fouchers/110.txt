@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset: ,  		,	,  	 		, 		 ,,		   ,  ,  	,,   ,,    ,  	  	,,		,, 		,0  	;q=0.   	 	
+Accept-Charset:	,	 &%tM 			 		 ;q=1	,	,		 `LkZN60L		 	 	   	   		 	 ;	q=1	
+

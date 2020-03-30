@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:		,		 H ;	q=1.0 	  
+Transfer-Encoding: 		 ,	  ,	`Y#; Tt!v 		=w7K 				  ;	 		 	  U			="G\p\ûŽ\¨L";		 g2E 			=	pzn$W ;  	 	$	 =   				"\Î" 	  ;	 Z    		= ""	 ;	  							~2c5u  	=    	"\Š\Þ\ö" 					  	; J 	  =		  "v\6\¢\s";	 		B5		="5\–\u\8\‘\E¸\Œ" 	   ;   I  =	 	 "¹"  	;	  `V4 	 ="²\ÚÕ;\Ó·"	      		;	  				M8OpG4baSF0*j= 	  	k	;	Sm*	= 	""	 ;a=	   "9"			  		  	,	  
+

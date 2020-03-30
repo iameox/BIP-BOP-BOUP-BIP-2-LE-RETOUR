@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:  sp:@%E4/xv%D7Bq/OX6/ 	 	 
+Accept:		t/* 		    	    	;	  _LQ3+R!="!i" ,	
+

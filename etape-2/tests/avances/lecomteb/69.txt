@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: 7~t20/0Kl4
+

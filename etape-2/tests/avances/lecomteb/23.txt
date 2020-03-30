@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:1=kQ/0-e   	
+Cookie:   .dIU1z=BO+
+

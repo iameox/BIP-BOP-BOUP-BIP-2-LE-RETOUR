@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:7=x5; -1="<"
+Cookie:0!x%="4ut0vzuO+nyqW"; i="GV"; 98=""; %=&		
+Accept: 	  		 		 	nf&k_Te2sWft*AX/*;ZG="°\¦wV\U";	 		  	q=1. 	  	  		,d/*;	 			  NGgfIfGLk+=1r		; 		q=0				,    	 	 		5eYJYCP/*			 ; Mu^4bzT="“\,\²ì\\Ì\E\÷\<",  _y/mx		 		 		,,	 ms6/*		 	 ;  	 	 g*$="\r\­"   		  	;	ynkJrKXK="",	 	 	 gFC/H	 		 	; 	 	bsL-!n^a*+9pX="\=\§" 			;	  			 	kn=""				;			  pwwLzvoc7="å\Ûð\¢\o¬"	       ;	  	.="\|"  ;	 	 	f=""		    ;	 			 				 	 axn|="\¦"			 	  ; J="W\O`ÐÌ .\h9’"  	; 			 	 X="/*A";8^g!Dz*=""			; 	W=""	;	 	  	   i="\’?«‚\3½"	 		 	;	 	 		  Mi9YysNf="\ª)\Ô\Qjz\¦\…\²"		  	 	     ; 	 	oS%2F8467="H\™Ø‚\)\“1/á\Ò"  		;	q=0	  ,Gkt3/*   ; 	-nawIl="\Ò" ; elW`x*="\-" 		 ;	     	$="\s^ \è\X"	  ;	`9="\•\–5"	  	; 	uUF$GpS^2=""	 	;	78=LSyK	;		  	Kz3S="\A®\bX" ;	q=0			 	,  	 5/~UWKx1`1_fSz~w`;   aUT="\o\®­\w†\}¶%\Ã" 	, 	 R-l+/f8ov	 ;EhG8`xol'Ps3U=""					 				  ;		q=0. 	,  	TtNo-g7z*_/R		;	 #=""	  ;						 	v4="Q" 	;8`Dy_J1#l^HNIX=""; %4G~&="\°å\»" 		 ;lZ'rmOE!2F="";    	 D=""	 ;	 		q=0.3 
+Cookie: -ttM="u" 
+

@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Host:	 [v28.mA$zz,)]:
+Host:[vD3851F.vyjOu]:0		 	
+Host:	  [8B:C::E]	 	 		
+Host:	[54:4BB:A:D:681A:8:1.255.17.202]	 	   
+Host:232.6.119.243: 	  	 
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:	 		FE4.p/MXw  				;  	|-1djYqhzWf43r1pV-'l=""  	 ;				 	G="x\6\Îq\’\%¼\x"
+

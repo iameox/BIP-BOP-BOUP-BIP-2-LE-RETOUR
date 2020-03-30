@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language: 	 	   gSeu-b	,   mQt 		 
+Accept-Language:    		 ,, 	  , 		 ZG-Yi-r-a-VQE	,	  		 		VBB-x-L-a7-fa-u-V-r-I			;	q=0  			
+

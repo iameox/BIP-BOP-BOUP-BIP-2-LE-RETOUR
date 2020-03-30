@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:		[v3AA0.VAG']:016  	 
+Host: 233.93.210.252
+

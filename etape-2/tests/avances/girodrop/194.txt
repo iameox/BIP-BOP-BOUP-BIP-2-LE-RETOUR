@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:		//[::253.7.218.12]:37??xKW=!V9F	   
+Accept-Encoding: 				 		
+Accept-Encoding:		
+

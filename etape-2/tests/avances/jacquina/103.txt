@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:	  ,,		 		 ,	,,		 ,	V%EYi;q=0.  	,
+Transfer-Encoding:	 	,	 			  ,	 		 ,	 	,,,	,	,, ,  LL 		,    	3a-;		.Q1		=	 "‰";0.V`P	 		= ".\ı";lw8  				="≈"		 ;!-H%Eq		   	="\A"			   		     ;  u  =		"\\ùƒ"		 	  ;  	lN	 	=	B+;	 TE'	  ="Ωíg"	;		 ^O ="0"	 ;mA= "\Í" ;i9+5=   "0" 		,   
+

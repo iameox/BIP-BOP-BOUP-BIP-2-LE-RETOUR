@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:		*-4/%23/%DB/5vMdS%66/2f////U/%EBp@/r3X8A/%A0?vB?				
+Referer:  s://[vDE0B.m*;7rD] 
+Referer:  //[vF.5rQ]/7/gf%19
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:   	,	  			 	,	 ,	,,		 ,      	 	  	 ,   , ,,	  	O	,,ZTcE-lxTl-k-D 	 
+Accept-Language:	h-1W; q=1.	 ,			 	  	 		
+

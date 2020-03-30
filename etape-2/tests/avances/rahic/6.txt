@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:		   9Efx	   ; q=0.,     T_		 ,	,	,,		 	 	  ,
+Referer://[::7:F]:851//%31z)~?9Q%7E			    
+

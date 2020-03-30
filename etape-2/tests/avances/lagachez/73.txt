@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:		 	 mGn4L="~:[Nfq#"; y0=o`; ^X*a9oA=9r; .=	
+Cookie:		_HB^zyu=
+

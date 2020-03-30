@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:	[36:C:E5:A:9A:C60:255.48.213.98]
+Accept:	|5s5~/l  ; q=0
+Host:   	 46%F8%C60A:9	
+

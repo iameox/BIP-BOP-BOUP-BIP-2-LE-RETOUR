@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:       	 kI-z8jgjoetUrS:/Qs_zg///DS&ih%8Br%0F,/,//ZZl/*4%63%09&?j*
+Accept-Charset:  ,,      			 	,  ,  	  	 		,SwQe|1t 	  							  ; 	 q=0  	,	,			   HB 		 	,  EgF7F3		 		 ;q=0	,	 	 u 	   				 ; 	 	q=0 		 	  ,	     aDhR  ,	,,6jcd6siW		  , 		 Lj   ;			 q=1.0 ,	 bo1nF;	 		q=0   ,11|avKe 					  		;	q=0 		 	, 	, 	Lr3iArW	,			,	  	,,     ,QCC	  			 		  			   	;	 		 	  	q=0.,						  ,
+Referer:		//[::]
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+User-Agent:	VGA8/`
+User-Agent:		  	 s6$bEEuB1C ((\ù)\í) 	(Þ)	 	 
+User-Agent: 	 			ogA'n/Hyy  () 
+

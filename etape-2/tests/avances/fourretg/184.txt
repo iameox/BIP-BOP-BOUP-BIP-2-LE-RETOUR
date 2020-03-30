@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:  	 ,	 E 					  ;  	 			   P= "O\î\ﬁ∑”"; 		 				I   	="ƒÜiöu\ì\Õ\Åvû"	 		  ; -xh	 =BL_ 	 ;  Vdlsj`h   =				$	 	     ;  J		= 			"\†\}\⁄\u\`¢~" 	 ;	7	 ="\≈\ÅÊ\/"  	 ;1= ""  	;R6jNXFH&Th				 	=6J   ; 	 AAb2#*ZqZ$..!%kp.  					= "\≤\ì\o\˛\È"	;   		QsX=  "ê\≥\õ\È\µ\W‚Æß"   	;  BmE=	"Ô";inW^=wyirs8M~K`tR8pgM5  		  		;um!kI  	 	=  "k",	OSbN,  		Eu;		   	 	F 	=-onMQ			  	    ;M= 		""	,		   k6+BA0	; 	# =   		 		 	 	 "\›\ØR\XÆ"
+

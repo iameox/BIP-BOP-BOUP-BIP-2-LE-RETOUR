@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:				T0G2	  ;	q=0 
+Transfer-Encoding:  	 	,, 					 	 		  		 ,,,,		 		&NkV	 	;  u  	 = 	 	"™";^fs		  	=  ""   			    	;np|w=	"\¬\y=ä("	    ;  	D#ZP	=		  "\Ñ\”\“½" 	 ;	 		O7zGqbHD  	  =   ""	  	,   i 	 ;bGYQ	=		  "",eW-	 			  	 ;		  #`		   =7F		  ;		H51wy =	lYrY 	 	,		,	s6z-o	  		;	 Q02M'f13 	 ="\È\09x"   ; HZrTYyDup^G08^r'8pM^ld#		=	 		""	 		 			 	 ;M+c    	   	= 	"" ; 		'   		  	= YOBg ; 	ECjf 	 = 				 	"\ \À"	  	;   			 	 	h$`GIsb! =	 		Qzw4	
+Accept-Charset:    ,	 	,	 	,	, ,,	 		 , ,1BFm 			;q=1	
+

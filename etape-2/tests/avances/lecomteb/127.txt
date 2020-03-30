@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:  kB/k	  	 	
+Cookie:L6Q.W#QGPe#="JN:"
+

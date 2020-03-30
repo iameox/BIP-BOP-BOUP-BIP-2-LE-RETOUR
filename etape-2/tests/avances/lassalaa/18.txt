@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:			  LWWq=?.rwPi<r; _=".dN"; sG^DmO27%V1ryKsz.`t.Qock|zhFe=t; `=>d]FQ; 9v#o=""
+Cookie:lsZ="1L[ZsPR"	   
+Cookie:13h!=u(D=L; ~="%"; f=""; $=fCiG; !Uo=oPvS; G=
+Content-Type:|/wsh 
+

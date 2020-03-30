@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:,	 				 	 	 , 	 , ,,,   phr		 	  		, 					 	 	 				HHt		;iOV		  		 	 	  				="\Å"		 
+Transfer-Encoding:	 	     	Cw` ,	 	I_7#K.   ;  	 X 	= 	"\ü"				 		 	 ;			 		 	KQF~RckJ&lYybXFbHy			 =	 	 				 "m\6\⁄"  ,,,Yd3-kZpwEY*hJ74K 	  ;45.1`Z+ ="!ﬁ\xã"	;%luM.bEY	=	""		
+Host:  			  [::3:207.1.0.6]	 	
+

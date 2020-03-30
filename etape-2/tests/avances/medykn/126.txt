@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:		 [vFBB.6DM]:1			 
+Host:	  [::6:E:6E43:FE84:3]:	 	
+Host:10.0.182.0	
+

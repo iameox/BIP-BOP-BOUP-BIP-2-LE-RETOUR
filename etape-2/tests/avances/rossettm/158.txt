@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+User-Agent:   i	(¿˜) 
+User-Agent: 	Q/x0-g6.x1n		 
+Cookie:pW3q**.Qew=Cxt; d+.Wx01N=<; kWxj=A
+

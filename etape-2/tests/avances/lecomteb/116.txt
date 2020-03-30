@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:-8cYjuRk/x7EW   	 ; BA*70g3eM="|Ä"
+

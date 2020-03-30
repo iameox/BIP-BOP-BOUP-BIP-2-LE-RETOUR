@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:		  	  ,	 	 		,,	     	 ,	x2	 	  		,%	 ;	0  ="Þ",deflate,
+Transfer-Encoding:	    		   	 	 ,n	;w=  	 	 		 					 	"\˜Þ\$" ;4+	  	="\Š";   		29 		 =		"s\B\›Xû\ë\—"   				 ; 8.c 	=		 			"\å\í\Ë£\’\ý%\ö"	 	;	1k	 = "\2ü" 	 ;.fxW			 			=  "·;\¢"	 		;   1svO'N	 	 	=		    "";	  ^ 	 =		""		;	 	erM5		 =8i      ;    D$t =		"˜"  ;		 F  		  	 =	 	"^ç\g"	    ,  	 	+3zP ;	 uVx		=	   "\ÉÿÆ<";   DY`!=""   ;	X~=		"ÄS"		;  	 4$yuKHb-DH1=""	  	   ;   	Z%_= 	 		"¨	&\~\±\J";			   3 			 	  		 		= "3\ø";+6h	=	  	"\C"   			 ;G^A=			   				""
+Cookie: 		 Mz+=""	 	   		 
+

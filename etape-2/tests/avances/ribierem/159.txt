@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer: //wMCx!!Z$@[06:E4::B:B:C8:0.242.69.238]:54896/? 	 
+Referer:    	//[vE25.b]:/    		 	 
+Accept:		h/MR		;	 				 	_="½";&="¾¢SW¼È\3,´…|åºw\uT"  ;w`0K="\þX˜\¯á-"	  		 , 	 	u/V'n     	 	   ;MH.^TIl8=""; 		   dp="\ø\¥\å\Ö\÷Ù"  	       ;  		 q=0			
+Referer:	/ 
+

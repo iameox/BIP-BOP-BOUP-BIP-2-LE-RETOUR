@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Charset:	 		  		,  	,,,	,, 	,	6Lis%t~OoE|d|h				  ;q=0			,  	 	 			,		 ,,  	,		 fF| 	
+Accept-Charset: ,	 		,,,	, ,	,		 	 		 u7		,, 	    
+Transfer-Encoding:	  	,, 	,	  				 ,,  	   zc	
+Accept-Charset: ,,Dc_t2 	 	
+Transfer-Encoding:,	,,, , ,, ,		 		,,  	 pz; 		1g3=hr					,  ,	qM`_	 		 	 ;	  		    			 	 	    XsxMk 		 		 		 	="" ;  		   D		  		 		  ="\W\P" ;  yZlT    	=	""
+

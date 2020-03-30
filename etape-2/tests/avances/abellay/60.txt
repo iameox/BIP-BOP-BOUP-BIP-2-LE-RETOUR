@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer:	//%25;ErXe/Lz%C1.W/MJ%67f?bj: 	 		
+Referer:	 ffwj+NIc5:/(z/8*/'1WD=C%45//~!G.//%08/G=/8%D9W%4D%70439W//@%D0//%B2&/6sg1~%BCFi%B5%E2a/B%42m%2E/%C2%22/Omw2-I//1M%2C2_dA%AB?%68
+Accept-Encoding: 	  	  		 		%;	   q=0	,,,p4X`!	  						   ;					q=0 	,	       	 	 o,g9z&j;  q=1				 
+Referer:G://.l%95bN9/r%F1&@:eg
+

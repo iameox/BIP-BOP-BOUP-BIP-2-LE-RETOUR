@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:,		 		  *	 			 ,n		 		;			 	    			q=0.
+User-Agent:fDAj5%3G/&Qv 			
+User-Agent:p		 	  () 	
+

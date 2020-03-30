@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer:			 KkvgmT7://8@[v7CC15D5D.2g3QQEpw*]/%00DR~Q?d 	  	 
+

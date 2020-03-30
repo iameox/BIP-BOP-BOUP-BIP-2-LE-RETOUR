@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:,	 	  					 		  , 	,	E' ;	 	 q=0.	 		,	p   	 	     			  ;q=0. 	   		  , 	 	 ,,,    	 ,		Jp		   ;		    		 			 	q=0 
+Referer: //[v4A.T]//G%6582?   
+

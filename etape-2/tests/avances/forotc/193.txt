@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Encoding:	  	   c|-y 		 	   			, 	 	,	,	9	;	q=0,  	,	
+Referer:   	  TDj7MR21J2GSv://56.3.55.4 			 	  
+Accept-Encoding:				 	 
+

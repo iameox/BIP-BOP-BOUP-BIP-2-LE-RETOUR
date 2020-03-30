@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:, 	,, 				 , , ,		 ,    	  ,		  	     			 ,	   	  		,     ,		*^DW 	 ;	q=0
+Cookie:	8`8`y6OFNSWI-="sGg#"
+

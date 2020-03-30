@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept:  
+Cookie:  7=B; 3t="^_xX"			
+Cookie: Wx="T"; ~~=""; C="8`%"; 0=; B5HA9V=14HmCl1L-; heV=<3		
+

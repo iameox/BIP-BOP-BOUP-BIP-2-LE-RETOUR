@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:	 				c5/*;	 				8~L="ψ¦";	 	 q=0.  	     	,  	    	 LJOfO'J/*	,hDB5/~G ;q=0.	   	 ,nif'E/* 	 			  ;sFOWl="¥νω\γ\\τ" 	;		 			 	  	*3="Χ\c\q" 	; 	  	 		  3=$;		 				 9A=""		;			IFF="Ν`"	;`+&1="\ι\·\-:\Ϋΰ"   	;noX=-;	  	  l="\ζ \D"	;		q=0. 		 ,  	^3$/a 	 						;			w="\z\¬±®*\»\]\F\T"	 	
+Referer:   	PO3nRUV:/,%04/Vn~-)%94w;rs!?F 	  		 	  
+

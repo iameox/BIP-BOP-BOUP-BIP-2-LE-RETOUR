@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:5="%D" 
+Content-Type:		6/B4UFB; 	8TfT=""	 
+

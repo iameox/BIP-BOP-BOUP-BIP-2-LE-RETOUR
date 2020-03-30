@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 		 &x6#YSy=  	 		 
+Cookie: Z=O; HudO~B="d1tG"; 7zT="f>qheRK{I&A"; '.Yt&-UtveYPlj_K=X; 64tgOO=; 7="ux"; b%a="["; U=VVF; &-lu="U"	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:   	Ul://203.250.230.2//%D1/%E2kOg/ogx/AG,%40D0:M/?R0		
+Accept-Encoding:	 		$ ;	 q=0 ,	 	
+

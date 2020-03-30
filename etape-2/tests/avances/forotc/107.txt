@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:		 	//%E9bl@d/c%2F*/%60;1/5/%E9gcX%88xs/O/i%2Aj*?U'Y 
+Accept-Encoding:7G	  		;		 		 	 	  		q=0 ,7+98nBexY-5i		, B
+

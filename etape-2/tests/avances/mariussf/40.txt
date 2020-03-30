@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Transfer-Encoding:  ,	 ,	  	bU  ; f =""	; 	qDR	 	=		"\‘\π"			 	;l= 	 "Å\ü\MŒ⁄P\C_"	 ,    	
+Host:  			212.4.79.144:56
+Transfer-Encoding:	sNmS9  	;		.  =		  	  		""	    ;8m6="\ˇ\ì",			  g	;	 		 		.V_eXWiI   	= 	 "\_"	;9kc$|13b    =	 	 "~\KÃ8"	 	    		;U="ÄV\∫"	;V=   		 	9N   ,,  	 ,hRq8		 ;0D|7_eN!ImE0IE0D  =	"I"  ;	  YJ.Ui-vd|=""    		 ;  z=lC*9P			 	;	  i	 		 ="\)(";		  	 FtlR 	 	 =  bK		;	 	~		=	 "\$\$ƒ\∂Ä" ;ad^Ln-1*6 	="\f\c\‘Èæ-"			 		 ;1Ze= 	"\n\6å"; y~	=  ""  ;	 					 	Hv   	 ="Ç\M’Œ", 		VuNnwe	;G		 	 = 	 	 	 	  "2"  ,      		 			  			,	_Xl	 				 	,KUF 				;		Xj7wa_vR$GdV	="" ;		    $= 		"\J"  	 ;2 	="\øÓ#∞¨";		 		U|c9DpyMAZ	="" 	 	 ;	RO5tjT*g		   =	5U		 	;			    Y.^MOQ|Pl =	  	  "";   	XO8= 		 "Ú\q"  	 	   ; 					8		 ="a\ük\Bû\Êã\W\6g";  		DqF#aEuKH="ô?ú\E˚\æπ" 	 ,
+Transfer-Encoding: 	,					,	,  	 			, 		,	 	   	 	  	   	 ,7 			 ;cWsy			  	=  	 "\Â≠≤ï\¯F\“R\Æß\X\ì\ë\ˇ¬å\6j\Ú\w"  	 	  			 		, 	 	  	  *w; 	LoimE =	 	   "\≥" 	 ;		 		7W=			"\q8‰\€\R"   	 	 ;	 	eV4LzIB'="";pcjx	=	"\Ò0ƒˇ)-\ÆÓ\|\MÌl`D";	 ' 	 	 	 =   "Á\ê\≤\ı" 	 	 	  				 , 			PEX5e	   ;svXu		=	"≈\g\¯Ú\8" 
+

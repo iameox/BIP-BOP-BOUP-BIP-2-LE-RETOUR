@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:			 	cnT=Noas; ZbcIll=Z; d5`ErCTG="Y"; w%="a:"	   
+Cookie: XbCuqjo="4"	    
+

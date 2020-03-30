@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:		Pn4=w	 				  	
+Cookie:				GC^D=""; MKXv9&-Y=; 1xsij$=tm|Qu+^/M; q#aYB71NY~Ol&ZzkFJn#h="H" 
+Accept: +/*	 
+

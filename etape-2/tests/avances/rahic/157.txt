@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:, K8W6|&qw ;	 	q=1.0	  	 
+Referer:	tmqCyQ5:8/$/jU	 	   	 	 	  
+

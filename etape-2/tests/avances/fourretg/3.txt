@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:  		  	 	   ,	 	 	,,		  	,	v
+Transfer-Encoding:		 	 ,,				Upl;	  i!y 	 = "\Ø\Á\›\z³q" 		   		   ,			  	X; jcT=			 ""  	    	; 		O	 =I030!	 		 		 	;		 	5I=  	"‚\"  	  ;		  cg~bJA	="\5\e" 		   ;	fG' ="Ğ"	   
+Transfer-Encoding:  ,, lcp~T6c	 ;	K67^v=	   Q|$w'jp&;	  			'	= "\1ç\»"		 	;	'  =c2NGFv|w  				   	 	,, 	 compress,jS   ;    	XsnUdY&~	= "\ª\U";	 7  = "\@\*ç\>",			  *ba  		 	;N			  			=	 	"" 		  ,	
+

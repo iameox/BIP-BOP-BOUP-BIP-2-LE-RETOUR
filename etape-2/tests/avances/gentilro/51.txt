@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:2o1+="'x"; nEJ-="u"; J_hfpc=n; u2N^G="^h"	 
+

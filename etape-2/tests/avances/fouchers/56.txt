@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:4="W" 
+Accept-Charset:  UK-vG&I$ , 	2;q=1	  	  
+

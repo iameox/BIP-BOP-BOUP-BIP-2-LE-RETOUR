@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	 			 	.8qe="a}"; r_="dZd<x"; O7="TIF"; dwfQHs5vt=">DdEIo7"; LC*PV%sRx="bB"; l=">Y[l@[Kutxu6"; ^=; wA=X	 	
+

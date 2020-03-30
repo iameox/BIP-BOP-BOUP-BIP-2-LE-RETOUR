@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer:e-52I://[9::81:215.168.250.9]/.h/ 	
+Accept-Encoding:			   
+Referer: 	 T::%4FI%6F?%F7
+Accept-Encoding:			 1z
+Referer:to:/						 	 
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	   v2=*[V#i=k; u|=; K6s="IZ"		 	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:			U:$u;//%D0~*ADq
+Accept-Encoding:5,  	 		 M	;q=0.7
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:		  		  	!`Lid=; NYm=!f>8; |="+[(0'GJt"; EEpu+NC0d=7?; 1U7A="&u"; 4p`63=; rU=rw; mg="{"
+Accept-Charset:		,		 ,	,	 	 		, HkWgP7aS	 ,   	   iq 	  	; q=1.000	 	 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:sviSvg-1tNc-q-tA  
+Accept-Language:	 	,  	 		, ,,  w-XU-g-Ea-v8-vBSk-wV-F-U		 	 	 	;		 q=0.1	    
+

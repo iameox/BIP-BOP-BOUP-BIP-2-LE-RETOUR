@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept:  
+Host: 	[D:8:3CB2::8B:69:8]:	
+Accept:		2pm/* 	;		 	 XOuF="jU\Q"		;UMGL%YV&J~xZ!="ó" ;q=1 ,		  ,2/*  		 	 , 
+Accept:	  	 io/9L_jj		;   7bcb="\:"	    		 	 ;		hbv2jA4M="'\ó¤\Q\D" 	  	 	; d$c="œ\j\ú\,\M" 	 			 	  ;			4i65APf9="" ;	  BJ="r\¾\ÆóSÄ";		EPni=#L	;	 					.="\I\q\½" , 			  		, HR/* ,*/*;	LhyW$ZHfeL`|h="";	21|&Cvee5="¥"		 ;	 	   	MGB="";	  	    				q=0.7 	,E/*	  	 	;  	   q=0 
+Host:[::A:8E:C:A78D:519]			 
+

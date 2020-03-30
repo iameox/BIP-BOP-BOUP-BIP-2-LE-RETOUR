@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:,	,  	 ,, 	, ,  			,	 gRk;		q=0.1 , 		 l-a-Qr-pm  ;  	q=1,  		  V-B-C;	  		q=1.00  , 	     			 hI-JR-r-H-EL		 	;	q=0	,, 	h-9-I5KP-lr			 			   	; q=0 ,BPm ;     	q=0
+User-Agent:	 	~x			
+

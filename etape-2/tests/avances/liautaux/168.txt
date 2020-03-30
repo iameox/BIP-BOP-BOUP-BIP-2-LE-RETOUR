@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:  		 5z ; IR7= "\ъ";M= 		"y"		,			,		   ,  VUEVlk	 	  	   		     ;	oewgj  	 	  	   = 				 "\••\~\И";J7U   		=	"\В\w\ h\Р\а\1"		  ; vz		  		= 	 ""			 ;		    	   .FrD= "";			 !FAE6L	=		  "!"		; VHSprU% ="\ј"	;  	 	zxCws	 	=	"\з\>"	 	   ;I	 	=	""		 ;dzSB!V  	=		 	 	B!IWpNv	 	;k4fkL	 = 				   			 	 	 ""  				 ;6	  	  						 		=  				"Е\ы\дfђ"	 	;  	f			=    "\<\H}\Ѕ\јР"	,	 	
+

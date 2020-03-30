@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer:  w:/P9eI/%B6AZX%C6/%EC//~8M/Cj@sm(c%26T//b%47ThR%C8?u%69D  	
+

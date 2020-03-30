@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:	 	SJid-zi1X-mF78-Z-svh-2Hj-Y-h  ;	 q=0.1     ,AQ-Xd-Q 		 	,k ,Q-R-G-Y   ;	q=1,		   	 UbN-sJ-G2-3, 		,			S-u-GY-i-FHlaG-z-F; q=0.	 	,,O   	,qs-e-jqs-i-H-5izDriM-T-O 			,	   		 ,,	    	  			  , rkE  	;	q=0.	, 	  	,D			, 	   ,
+

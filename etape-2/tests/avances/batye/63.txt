@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 		x%x#_fB="T!jq&"; YWXlax~=h[; z="~)A"; J=""; ^Z=""; 8Ds`g="~W"; QiIm7L= 	 
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host: 	245.99.104.97
+Host:			EP%87 
+Accept: 	    		  	
+

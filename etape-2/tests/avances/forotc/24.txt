@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer: 			dycDt://[4F65::B:23AC:43B:FA6:202.253.0.192]/S)YS//u&X18/e5/fc(///%11g_%36/7/-*//6M/%EF9Q/%DD7:f/:%2E?-HG 	  
+

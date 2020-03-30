@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: Qz8HemF*yI_KY9+v/23JB ;	EFjc="\T\Æ"	
+Cookie:	  m##2=!   
+

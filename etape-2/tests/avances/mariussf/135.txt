@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:   	 [vA45.GngfIn0]:				
+Host: 		[::2D:2] 	
+Transfer-Encoding:   	 ,  	 		   		 chunked	  	 	 ,  ,  	XC#fJQU  ;p 			="Âç≠\hÜ"; 4*vNVp-r="\C¢"	,  ,			   	 , u9^sOmP	 	 	    	,wa	  ;		pX+Ld&r	="πB"					 , 	chunked 		 ,  8 	  	; 		 	Ip1b =   	  &'2q;w1o		=	 	"…\·¥¶\¡®"	  	 ,	 	 ,	 	!		 				,	 ,			 					gzip ,	 	  		 	  ,,  y ;4    	 			   =		"\À\;\T5\hg\õT4\£\…\¥"	   	;	yM9TwC	=			"Å\≤"	 			,		 	 	cF'v63MLo ;'mWNAP="˘ø";	NW.1.9*zLYw~=  		"\Ò‡" 	 		;	N2 = 				   "\/"  ;b=				""		 ;	g	= "\X";  	tTy$ 	=		 		 		 	 	   "\ª§ﬂ"	; k	  		= 	"" 	; ec	     =					 "\≈\Ú\æ"  		; pAgtI  = 	   		"\Ë\ûF"    ; Giece5_j	    	 	  =	 	"l\˛"	;	A	 	=	 	    	"ê";KW  		 	 		=A	 	   	  ; 4^ 		 			 = jF| 						;%H%VZcc9F				   		=   "{"	         			 	;6LP^ 		 ="ÚP"	 	   	 		;i=	 "\⁄7";			 		1lK= 	"", 
+

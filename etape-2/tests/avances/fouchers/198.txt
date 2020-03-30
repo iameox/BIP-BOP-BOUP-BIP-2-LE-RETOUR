@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 			D="t"; V5pv9ooGoA="]RNxA>[Fu"; Qyjan="0Znl5>`<"
+

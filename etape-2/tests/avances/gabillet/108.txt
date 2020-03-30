@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent: 		1U7/Y	()	 (±V£\ì(\þ½)(\ZF\2U))
+Accept-Language: ,,	 		 ,,P	 	
+

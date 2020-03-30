@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:	 	  ,,  			 	gzip				
+Cookie:t5G6w= 
+

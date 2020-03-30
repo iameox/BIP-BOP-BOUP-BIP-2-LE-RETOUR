@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept:		A-Y9/o8S_m	; q=0		 
+

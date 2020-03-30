@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+User-Agent:bs 	  	 ()    (")	(¬) 	(~\T\Â∂)	(ü⁄)    			() (ç\ú\:\() 	 	 
+User-Agent:	  ~_eUz/#kdm'qS+Sb0Z#-s&1	   		 ((\Ö)ì\û(\,))	-D/!	 	 () (\ﬂ˚ï(Ü)É)				M	()				 (\Ø\@)
+User-Agent:	  y			 ()	 			(“(®)(è\À\µ?)÷\ø()&(\∏û\7)) (Ì8\î)		   (F)		+	   			 		 ((\)Œ›\’))		  					(\°(\l)(Ü)\ﬂ)	 
+User-Agent: xpzf_X/hlbk'tT7a`a.3!85g8Dxkg	((\ù≈\:\ﬂ—∑)N)		 (\Â\x¡(\+H\#≈\Äã¢\s\{)(\’\å)¯\ª_)
+Expect:  		100-continue			 	  		  
+

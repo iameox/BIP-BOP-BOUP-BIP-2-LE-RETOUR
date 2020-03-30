@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset: ,	   	,	J; q=0.96 						 	 	    ,~B0v  	  ;q=0   
+Referer:i7miQbe.W:d/n@/A&_bm/zXP5E;@/;/%96x%E5/%D3%E3/HC:?%7B:cY%A5
+

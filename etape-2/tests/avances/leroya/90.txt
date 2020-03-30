@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+User-Agent:  				  bCC9E6/bSh	  ([(¸)) 				 				
+User-Agent: 					 	~aUYY_/4.Ch_HK	 (õ(Ç)I()¾\Þ\é\V\ò(:Œ¸\“\ö)Þ\žI)	R	 	3'w%H|aY/biwY   		(ª) 	   ()   		 		 				  		(¸(\_\Ï\©)) 	
+User-Agent:S/X 		 (¿c~\„)			(¬)				
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent: O`#3Im&/% (–) 	 			  (S(\´Â¨)ø)	(()ô\£) wc/c	 $V~QL95-iDmtbqWVG5r+z45pclA/HK+&z2oQ`#j			  	()
+

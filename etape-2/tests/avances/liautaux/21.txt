@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:		 		 		 			 SegO!Hr0TZDg5n=; mhE7m==Na; d=; Px7*r="Q3c>"; vZK="e8re"; !0=QA	
+Cookie: %HJYs=%; 1pmnX'w4="Q04]+x"; 4C~="Z$'kC"; 8=""; B=kcl%$x/; SE="ml_<sb:49{Cyy"  
+Cookie: 		|1%NmrXh=""; f="R"		
+

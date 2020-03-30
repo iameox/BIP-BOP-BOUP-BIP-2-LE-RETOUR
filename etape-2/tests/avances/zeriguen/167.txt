@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:	$1/SN;~Hj="\ó"	 	;HxB=""	;pi1^tz3f="©66\ú\ë\#"  
+

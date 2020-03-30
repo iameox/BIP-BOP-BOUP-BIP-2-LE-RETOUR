@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 			  			  	  	 	 	 AV#1M=}; F=b?LC; fR4hw%F.="YS%["; GZej=w.4_; o|="M"; u=c 
+

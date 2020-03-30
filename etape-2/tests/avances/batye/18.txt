@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:  _="%"; q=		 
+User-Agent:  	 E	  	() 		  	  () (x\Ù)   (‰\[fw \	ø)  	mWm%kKA/k	     	    	 		 	 	(\Î)				     	 	(()\Æ5)		 ()	   		hVzb (Ω)	 	
+Cookie:	gI9S=%Cma+2; r8'b="."; &l=""		
+User-Agent:  	 	 	%4%4hoB^+A/l3S	 		  
+

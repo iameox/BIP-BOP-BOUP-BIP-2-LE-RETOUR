@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:			   		 VL-mCb-Cc;q=0.41		    ,  			,    ,z  	 , 	 		 b-XEI ,		 , 	   ,	 	  	xzVKf-Cd					 	
+

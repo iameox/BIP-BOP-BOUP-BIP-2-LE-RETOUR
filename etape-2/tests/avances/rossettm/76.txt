@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+User-Agent:st/v|	 	 9/M.HR4OI#|4~T	 	 
+Cookie:	h=e   				 
+Cookie:		  		 		 jIdJ=>; k3f1^K4B=n; 9|Bo&n1qc="I"; g9y=""; Ep1EZ="y&"; fAY^z=~4n; G="l"; _4n="|02UB"	
+

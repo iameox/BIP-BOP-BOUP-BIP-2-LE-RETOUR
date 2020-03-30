@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:			 vO2_qlE/hA6_&|C	 	 			(ин) 	
+

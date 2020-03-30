@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 7b="O"; 6M=|#v; EC0T*RbyJy="$jm"; 3MB="^"; C|a=<o+G(AW 
+

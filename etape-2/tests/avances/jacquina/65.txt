@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding: 		 ,,		 , 	 		  		 ,	  	 	  		 ,					 ,	 *bh'qT#c3G;	pW = 			 e		 	   	;  r^iE%=		"ðc\#\$\¬\—\O"  	;  				e$0Ao	  =   			 	  	 		"\¼", 	G			  ;		oa		=  "c"	 
+Accept-Charset: ,,,	,,	 	  				a,	 	.y8'5;  q=0	,	g1^c    	, 
+Accept-Charset:  *	 ;q=1.0,  				 	_Lp  		
+Transfer-Encoding: 			   ,	,		,	, HdnG	 ;	 N%	 = 	   "7©ã"	 	 ;A=	  				""  	;	|4 			="Õy-"	  ;	 		 	 PK  	 =				 "\*\ø€\`\¼" 	 		        	      			 ; 		Q	 =	 "g"	;	%8  ="áž\Æ\›";  Rky7 =	"\ù" 			   	
+Transfer-Encoding:,	 ,  		   ,,		 		eTdK 
+

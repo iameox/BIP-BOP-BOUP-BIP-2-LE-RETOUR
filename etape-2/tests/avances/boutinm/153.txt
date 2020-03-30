@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:,p;~	=	   	 "î×"		  ;4c&4EC=  		"\¢f%\H´"			 ;U%					=  		  "" 	;p9	 		  		=	 		G ;		 7	  	  	  =	 "\[ó"	
+Cookie:	8!FL-z=
+

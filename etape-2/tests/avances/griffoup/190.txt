@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:,A;Jc4n = "\ŸoÅF"	,		 9zL; 92|~	=	"\ã×" 			;	kB5x=""		 			 		  ;N= "®\ü\ë\Ü\–Ø²‹"		 			 		 				    
+

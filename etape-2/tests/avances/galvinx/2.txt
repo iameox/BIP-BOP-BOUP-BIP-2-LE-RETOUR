@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language: 		 	 		  		     , ,  , ,		,, ,	  bw-QUK-4L-b7r-Z-5zr-b5-r-IYG-AS9-Om-JFJ-f		 					;q=0,u-2;	 q=0.5	,	D-X		; q=0	  		,rU	 ;		 q=1.000    	  ,		Vh-F-B-C0 			 	 ;	q=0
+

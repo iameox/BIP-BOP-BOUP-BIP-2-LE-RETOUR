@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:	  	,,, Faj ;K^ = ""	, 		, 	gzip  , 	 !  ;x0`=  			""			,s	; 	p= 	"q}\#\\";	Gx	 	   	=	  	 		"êã\˙\à" ;	eSm~5l'Q 	   	=			 "\¨¥\©\Ïj\ÖÎ\‰\† \/º\T\(\Ó\uÕ\Z" 	;	 		 				 	 		^D6 ="" 	;	 4U	 	 		= 	 "'\f∂\îµ\”", 	   	  ^a|py		 ;N$!.+eP%+|mP___6 	 	=	"\A∫[\ß\â\ı⁄" 	    ;		-4z		 	 			 =   		   	 	'bR45T	  	 	 	, 		-Fbcfy	   		   ;b~x$1Y44~	 			 			 = "‡\8ïC" 	  	 		 
+

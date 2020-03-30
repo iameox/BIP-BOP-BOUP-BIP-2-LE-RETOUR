@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type: 		 	Mp7Vxynl1B/gvg*3H3	; 	  		djM^exJHm=gl	   ;		*=""	 		 	;&V=|HAH
+Expect:		100-continue
+Content-Type: 	  zh/uOJFd5_ZT		;L'PFzqMMVIo=""  	 		 ;  C="\rY" ; 	aK%=6Z|%cQ%
+

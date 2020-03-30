@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:		 		  		F:%55;%30.?r
+Accept-Charset: OJ-mB	 ; 	q=0	 		,	 	 	X		 		     	 ; 	q=0.5 
+Accept-Charset:							   	 ,  ,,	roIZ|;q=0 	
+

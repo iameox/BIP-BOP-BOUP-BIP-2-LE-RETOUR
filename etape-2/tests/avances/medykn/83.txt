@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:	 	[v41E11541AAC.4]:60
+Host:	 		
+Host:		[::8C] 
+

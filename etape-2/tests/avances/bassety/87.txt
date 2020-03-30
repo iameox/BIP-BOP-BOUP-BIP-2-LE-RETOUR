@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:mse/C3ke.aq	;uZc$x="uú"	    ;7="\&\å\e.\aZ¶ë\ã"		 ;   	 	 	 	0Wn="µ\N#"	  	
+

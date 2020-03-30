@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:					 	 .bM="->28iU.d"; g|=; q="!uhV]D4zF^+<A."	
+Transfer-Encoding:	  	,	 				,  	 ,  	  				gzip 	 ,	    							  	,, 	  6				;   					 QeXMB  			 = "\ž\Í\?\E\§\‰\ "		 	 		 	 		  ,  compress,		 ,		 	 		4J1!;	cp		  		     	=	"d"	; |sQT 	="\¿\ƒ"	 		  	 ; 	i6="\dK\A<"	 ;	 		q		  		 =	 "_\Þ\%\¸ç\Ü" 	  ;	 	 zjUaF =			  		 	 	  	"\P"					 ;	f^ 	=	  ""	;			  !_r-i#*  	= 	  	"\ðoãq‘\©"	  ;QwTFqTN= 	"\¿"	  ;	  PI 		=  A9A&	 		 	 	 ;zIg		 =		"\4{";	 	 R 		  			=	"ö§\~\Å\ÊÆ\’\Ï\E";   		UQ3'wy_ 	 	=		 		"" ;j	  ="" 	
+

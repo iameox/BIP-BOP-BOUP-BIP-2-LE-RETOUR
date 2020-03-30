@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:  Me1:911			
+Host:		%F4%F7%67jC%88Y%AFC	
+Host:	 				 	 	[5FFF:520:8::D7:B:208.6.236.7] 	     		 	
+

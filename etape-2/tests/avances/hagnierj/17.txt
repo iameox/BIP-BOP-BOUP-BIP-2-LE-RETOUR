@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept:
+Accept: X/*	 		;0.Ldieb="‹‰\–\P\€Ìœ~\y\#¥A";pzl="\î"	 ; 		   		 5HXBCBHtp=""	; gM5Z65'hyr!X="6\ãı8|\º" 	 		;	 TmFHeD="\Íe\†§";	  			CjzI="\ n"; 		 			 	j="Ñ" 	    	   ;	   	 6x4dhW=S ; Bp1-=""		;		 				 f&_f_0e%g|d!XWcxgxEn="\∏Ô\z\ëí"   	  	  		;     EP-g9KkE-e5LX=""		;4TU'q="\Ô"  	  	 	 			;   			dyewF$5m2c="\„ERÅµÚ\}"; Q4~W5u=""	 	 						 ;    		UVHFk~OZ="";	w="";   			 ^X="\±"			 ;	 DkMwaEJuy4WZ+=x%	  	 	; 		 		    	gjfVT0="o"				;   	+'x="°\‹\§";	d|SaINogn4`="\¶-\S\ö€" ;    0sk="" 	  	;	 		B="\»f"	  ;	 q=0  		, ,,		  FTF7i/'^9*43u  	 		; 	N=ZF  ;					 	   8og-$f="\N\ye"	  		    	 ,	*/*  	  ;				 Co3vW="\*«c\f\ã" ;  	 9Nz="\S\U\À\R"		 	;	  0bbpZ#="";p8="Â"		; AE=$R ;		N="[?"     
+Referer:	 	 		  eG://[9:8::C:D06:EF:1AB:D9B]/+%F5zE/QX-@eir%8CU//o27+%32//5a0DI%0C_5
+

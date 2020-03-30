@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: 		 ,	 	  	,     			,,		deflate	
+Transfer-Encoding:		`T ,		 		gzip, 	,,		 		 		  dFE					  	 		;	F 	   	=  				 	8tWL 	 ; j   =		 		"\Å" 
+

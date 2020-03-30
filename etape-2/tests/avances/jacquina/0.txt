@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:	 ,,	  		 ,Uh 	 ;$.dC =			"Í\ð)" ,	   		M	 
+Transfer-Encoding:	 	    	 ,	 deflate	,	 Z0  ;OQbO	 	=		  		 	""		;TY2X 	=  ze 	 	;	  t`3Y0#R="4|\D\Ú\¶\K\ÿ\’\ð@Á"	 	;s6*lO  =  	 			 "\¢\Ô\…ï\[\ð"  		;	   			  jhjtjt		= ""		     , JE	  ; 			~=   "\{º" 	; 4=	 "\Ð"	
+Transfer-Encoding: 	,  		,	 	  	,	  	 			,, +XeB;f		="%û=y1\Ü{\É\Ç\í",	uyX       	 	     	      ,	 , 	
+Transfer-Encoding:	d;	  	  			^^ 	="\>†\ñ\¤\¡³" 	; 	 	 		pd			= 	"\Ê]\ö¿n\¬"   ,	 , 	hz		  		 	  
+Accept-Charset:	 ,   	,	 	   		,		, 	 	 	 ,,* 	;q=1 	, 				-R$Ww;	 q=0.		 		
+

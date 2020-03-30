@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		 	H=""; %ApLO&=:J; `o+9'e=; ~4+=; BM0="e|1:pr&"; 5h=; g=""; BJGrFR=&n[; SMOD="c"; h`="@[2kL"; HK=""; Z14Z=38YQ; d0mf="?"	
+

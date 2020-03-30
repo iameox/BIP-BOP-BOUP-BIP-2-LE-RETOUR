@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: 		  H1f4/Ec;w="\ˆäﬁˆXœÖ"	 			 	; r="\Zk";	 ko="U\h\L!\Ù";			 	w8="\-\,";		  RBI$=m;105u`S!="\IE";Y="";	 N="\.\ê\ó\µ\/…W\k"	
+

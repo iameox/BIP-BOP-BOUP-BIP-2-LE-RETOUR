@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:	 W~YLN/D  		(\„+\;) (Ã(¨}\}p\o\w”±\È)\ü\âe\ªy)	    ()	 	 
+

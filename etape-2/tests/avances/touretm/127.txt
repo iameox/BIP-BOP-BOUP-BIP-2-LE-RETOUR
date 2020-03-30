@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:  ,	, 	JC,	   ,	
+Referer:		2B%1E/G//t/G$/dN.*%8E/%96X)Mxbia%44/=:-		 		 
+

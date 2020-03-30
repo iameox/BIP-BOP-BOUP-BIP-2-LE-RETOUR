@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:				,  	,,	 	       ,			 	 	,, xamvPYlN, 		 a    	  		 	
+User-Agent:+/5%Br+Aum8bj	 (3)   	  		  
+

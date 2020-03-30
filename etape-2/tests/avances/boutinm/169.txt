@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:sn 	  ;	^= ""; p ="\k¡" 			 	  ;					 	_l= "\≠<\Á\™ÜÛ\6" 	 ,					,		  								 
+Cookie:  	     i="?cQ$EC#quE8f"	
+Transfer-Encoding:  deflate	  ,			 	 0Z+1u0IKCUUo3`$ 			;		 		 DP =	"\)" ;Eu 	= "\Ò\›P",	
+

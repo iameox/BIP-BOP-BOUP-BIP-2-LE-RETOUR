@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:  +JN1WJIO/mJ+q	  ; 	  Wjj8="\á\ck†\ÔEI1\Ñ\<É&\à\ô\p0Ø\ÿ\„;\Ý" ; 	lAo="\d\ž" 
+

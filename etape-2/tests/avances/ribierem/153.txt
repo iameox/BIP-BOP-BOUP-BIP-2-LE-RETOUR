@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer: 	%32%80CX/'%B5/~I/6D-%F9/=%60XX@t	
+Referer://Ra)X+t*n~%5C@211.238.17.9/yc/dw/%1D%662/LI8c
+

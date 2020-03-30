@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 	 	 H=^I>	 	 
+Cookie:  				 	 		 	 -I1=""; ZV=C'Y; q="88l" 	  		 	 		
+

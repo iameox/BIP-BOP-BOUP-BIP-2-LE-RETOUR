@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: Y47=BGcMkQm; z=BT{.!Pm/^n
+

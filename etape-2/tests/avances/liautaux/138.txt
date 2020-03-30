@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:  	  Lg4="!"; s="]"; '="wU"; AX=6&[o8OB9FA; 8.="X)$"	 
+

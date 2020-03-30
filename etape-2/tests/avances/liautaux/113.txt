@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Transfer-Encoding:	 	,	 	  	  , 	,    BwFsxyNIe			 	;	t-VAxB="";  		       	 		 rz 			=  			    "\ ¥\Ý\~\èe";Nrf		 	     =		"\¿"   		 ,  , 		chunked  		 		, 	 SF 	 	,	   
+Transfer-Encoding:    	,  ,	 	 		  ,,			,,h'R9H2 
+Transfer-Encoding: ,	, ,,	,			bL`tfj		  			;		r3=   	"-\_{9"; i'08dX  	= 	"FÍ\©\n"  	 			  	  	
+Transfer-Encoding:chunked	   ,  ,  	 		,,	W;	  +		= 	""; 	 	   	RsO1po4=			  	  	""	 	; u=""		
+

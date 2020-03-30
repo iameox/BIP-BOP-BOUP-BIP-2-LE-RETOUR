@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Host:'Q6_: 
+Transfer-Encoding:	  I 	 ,3~jX_  ,   		 			 gzip 		,	 		, 					VND	;3	 			  		=   "\ำ,ü";		     	nM 	 	  	=		 		 	"P@รุ8\ษ\ษ\\ý\”" 	 ;O	 		    =		 		1Q	 		;  H	 	="ฒ"	;				  	   1nLO    		 	 	= 		"\n\’þ";		 	  		`		  	 		 =   		""		 	   	
+Transfer-Encoding:	    L0IAj^q ,	,		  		
+Host: [v8E895A72.ascG7w:mvl]: 	 
+

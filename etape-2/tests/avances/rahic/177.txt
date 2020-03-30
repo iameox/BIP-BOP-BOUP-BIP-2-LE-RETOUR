@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer: 	 	 	 	uvem://d=T@sWR%AAmz%82%1F!TB=h%17ZX~:63426//i?7ocP 	   
+Referer:CosA.2retFoe2tkfx2PsdQtX://210.2.160.124:9	
+Accept-Charset: 	  ,jncy6-a		 ; 	 q=1	, |&o 	  			;	 q=1.000		 	 		,&9_ ;	   		   	 	q=0,ZO9$D|! ;  	q=0  
+

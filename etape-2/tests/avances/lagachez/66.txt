@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept:			
+Accept:		 	   				 G4_b#2~CsfJ/LS; 	e="\%";$N-3p="\Û\í\a\v\6";	 	  	 			*xV21$q7z=&Uy8t_U 	;  q=0.154  
+Cookie: 	 RLgJ_`Z*B=; Yk="V"	 
+

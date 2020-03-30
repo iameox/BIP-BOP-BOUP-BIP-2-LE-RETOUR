@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: 			 , ,,, D				 	;%H		=		%YO6S
+Host:	 [7:E:B:7:9:4:116.2.57.9]:9		
+

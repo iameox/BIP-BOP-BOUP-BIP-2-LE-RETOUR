@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:   	&L=""; z="JT~"; $=""; %q7=""; TAq=; rd=q*Z|TKAmq4*w; kz-KYwqEQ1S=PoP; yC=">SlWFj"	  	 	
+Cookie: 				 qw9="-k^>o"; O*`K=""; %l'V="g" 
+

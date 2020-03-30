@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host: 		[v49.1]	
+Transfer-Encoding:    	 	 		,,			compress  		  	,		Tl	,ou`^ ; S 	  =	 "\	\ öŒ=3\’";		 f=	  		""; $9he	=	 			 "\bn"	  	   		 	 	  , 	,			  	 	 	gzip	 
+Host: 8.215.1.155
+

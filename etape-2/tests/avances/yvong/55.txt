@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer: 	ltHRNIfox:/	 			  
+Referer:	D://[52::254.28.98.73]
+

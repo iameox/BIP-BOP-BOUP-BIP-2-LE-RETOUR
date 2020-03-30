@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:$/#			  			;  _s4J="\Î"	;	DYa="§ÀQ" 	
+

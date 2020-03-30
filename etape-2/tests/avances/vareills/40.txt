@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: Zk/Kb6x  ;cV="";	 			 	9Qq10="Ô";   B`aC=f;sCRcWyEtBF="\H\CÉ" ; Q_=""  		  	;		9l%RP=""  			 		  		 
+

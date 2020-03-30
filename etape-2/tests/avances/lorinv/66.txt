@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: 	 		 	#~bzUMf/v.9	; 	Q="”\>\ֵ" 		; 	   iiX4enG="הָ|" 	
+

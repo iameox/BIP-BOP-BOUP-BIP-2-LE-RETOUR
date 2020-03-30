@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:cySLI	(\")	 	(\ภ\c\ศ(\ะ)Aฆ\U\ฯ\วน\๘\แ) 			 ()	 	    	   	({)  (I\Bข\Bv)	  	 		(()(ํฝ))
+User-Agent:&p				 	
+

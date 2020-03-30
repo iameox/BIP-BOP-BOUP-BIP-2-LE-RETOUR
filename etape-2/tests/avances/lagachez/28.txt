@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	Lte+g6IbZ21M'9#x=.!h|xhl'; tB="+7`aj!#UVC"; W_="G'2Tp"; aHNJb`^v|&bPU=]mqj|C; dkT=""; 6X6vcQaK'5="V"; 2#s-=; 9Z="l%rsq"; 8FI8=+YgtoC!Ar~		 	
+

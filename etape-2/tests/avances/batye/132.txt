@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:FSw		  	 ~/y$9bLAH4ercVf 	 (()\û\çØÅ)  
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept:	    T5/*  	;	 lVX5o="\H"			 ;  	 	*%S=""; 		2="\‡\Ó´&"	  ;    					 	 		   				Mx`HUT.7="ó\à" 	;jF=""  ,		     	 	 ,	,	 	%/* 		 	 			 ;		 q=1 , 	,,	  Gmh&c/2D;3="\Ó\µ)"  		 ;		*E.8WiH="bg";E~Y="\`\s\÷\ﬁ"	;x=z  	;				zD="\M\A]ä\ó"; 	O1I+="\^\î\"\Œ"	 ; WO#8M9J7~mJ8EY'="";	.mT8Slp$0l96RF#TR=""  		 		;			  3="\R\V\å\x\""	  	;	  	oDqn^2HGK="†\°\p"		 ;w="\Ö$vå"	   					;	  %b3="`"     		;kTF+YNb="'ì\∏ã!l"	  ; 	 Pi6W.p="†\ü\„y"; eA4&p="\Õ#	\˙\*U"		  ; pjq%="" ;  		  	 Jy5Ce="\z" 	  		 	 		  ;bN="\!"	   ; 	  		a8="Ó"			;q=0			,w8VKs/*;  Ys="\‚H\ z\0ÉÃÕ" ;				 0=7t$	;^D6BG=GJ  			 		;s4=""; 		 	a="\Á";-A6mDwO=""  	    		;		po24X="\Å\ﬁ\S\π\a\Êﬁ\cy"	;		2="" ;		q=1.00	 ,		  	, 			  	N/.6  ; 		l0o.=E;			 	7="ò\"\]\ï";UfWTIBGO=C		;`9="◊\´å\ÈK"; 			 f=L%d	; 	 eozD#|=""		 			 	; 		 			 q=0.   ,	 ,	,  jyxp/'bM6S		 	; U6buiL="õ";  q=0 ,		 
+Accept:GZHCnXOnrj_7D/*  ;	 	  aQ=!23 ;		 	  		 61="\¨\Å\?" 				  	,    	 z^7IE/* 	; 	 	 	 j=""		 			;		 		 				 	q=0.	     ,   , 	,, 	+/*		  			 ; 		q=1.	 ,  						d/*			;	rd="\ÙU" ;i="É\0°\h∂ã*\S\èëÚ{";	^="lˇ\€\7^"; 	tU=p	  	 		 		 ;	 K=gw^2^dL`' 	;			 				+3=""  	 	;l+=4; 		a="˘\Â"	;  ULMU="≥ù"       			
+Accept: 	 			    	 
+Accept:	 	 -fvLl'/*;		T~1J_s=""	;hac="\–\õ\√à"		 , l5C/* 		 	; &AT`2x8FYn=72 	 , Ak/^9zO.pg 	 ;	q=0., Q#h+6RzT5/s		;q=0  
+

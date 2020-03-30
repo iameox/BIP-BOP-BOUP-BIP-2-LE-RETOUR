@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie: 				 	j=@k~p 	
+Cookie:	 			 		 		   A5=W 			 
+Cookie: 	  	 Ly~Yr=QkwC# 		  		
+Cookie:	ovX=8d4jN1J^Nv; ns="$"		   
+

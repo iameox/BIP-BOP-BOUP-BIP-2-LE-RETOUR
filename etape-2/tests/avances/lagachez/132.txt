@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 			 V_F|="@"; |ni9r="/"
+Cookie:	l=U; |_="EKa"; U+t=	 
+

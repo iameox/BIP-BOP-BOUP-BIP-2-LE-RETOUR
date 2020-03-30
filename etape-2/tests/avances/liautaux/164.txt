@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:	 			 	 	   		sC=p
+Transfer-Encoding:	 	,		, ,	  ,	 ,	 		 	 f		
+Cookie:		-18y&-=Q; qzC#k-Mt&="rWvf-sOI5"; 1=>=|gP; K=; 4=_ 	
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:u08aIJ=; nBQE="y@la"
+Cookie: E'uN.=C; 28#|=u	  	  	 
+Cookie: o=; b$=""; qVZWfs="&q[" 
+

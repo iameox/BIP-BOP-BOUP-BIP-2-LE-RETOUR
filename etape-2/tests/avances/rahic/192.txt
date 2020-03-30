@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:,		 	 	 				 ,	Y!BN		 	    	   ; 	q=0,	,	 	 *qve  ,  		z 			;   	q=0  	,  	  			xx	 ;		 q=0. 
+Referer:   		 //[vBE7B2C4.8gTF=m&xqOXP]:5921/_	  		
+Referer:	lrk:/T/%36%C2Mkhqg8d?%43
+

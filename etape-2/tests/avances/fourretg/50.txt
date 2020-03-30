@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Charset:  	 	,	 Cd	;		 		 		q=1.000,	DlRD4|Mq;  q=1.0
+Transfer-Encoding:	 	 ,		,	, 	  	 		 ,	 	,    ,   	 %6raMAvutuS8;e+Uq5 =  	"¬š\Ú1ü\ì\ß^"	   	;	 	   				#Wp#Avw`Rf*#^pF			   ="\ë@ìË\Ó\–i";   	c=	 			 "" ; 4up1  	="\a\W\Y" 	 	;	RQeCUz	 		   			 	= 	p;	  2I~N				= ""  	 	 , 	 ,,  
+Transfer-Encoding: 		,,, ,	 		  	   ,			 	,		, 			  	, ,,, 	  ,,, 	,  	gzip	 	 		, 	 
+Transfer-Encoding:	  p3		   		; 		  Nu	 =""  ; 8O%	="+\ºJ"  		
+

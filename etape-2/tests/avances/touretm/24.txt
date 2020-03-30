@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer:			 	XKC%07dpG 	
+Referer:   //[8::3F:6:3:0A:8.95.44.210]:/%B4//qkf/d/%D9/@G/84N/%A9'M%62/F/%6FOX?5%839%F7x
+Referer: 	t8L:/  
+Referer: /BI@Pd8o-'		 	  	
+

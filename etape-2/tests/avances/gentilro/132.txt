@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:	,, 			    	 	 		,   	,	,	 	 ,,, ,,,	 			 	 ,AS , G , n ,  	  	,,|  ;~w="\аю" ;	  	 * =	"ф";	 	f    		 		  					= "С\ыЈ"		  ,uBP5;t0    				=9		 ;En41J*al		  =  "7"	;	 		 	  			 %ehSpT=  	 	""	 	
+

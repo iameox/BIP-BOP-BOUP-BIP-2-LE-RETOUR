@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Cookie:		BTP+=>	 	
+Cookie: 	 			vi=Y}Q$yn19@-%; g=""; k=xNFG@w 
+Cookie: 	 i5D`1=; LrT6|jA.+=O/m1a{*; ZzO.A=6!d*~>I@2V$; Xr+_="g"; 5N&~l6=""; L1="b"; vi`~=""; ewLa|$="fnC/V"
+Cookie:S=; KwMm~J=y?aI&dFK; c="" 
+Cookie:	  	Hw=A+h; u7|_J``-j=)z; $P90.8.IU'=u:=zQ   
+

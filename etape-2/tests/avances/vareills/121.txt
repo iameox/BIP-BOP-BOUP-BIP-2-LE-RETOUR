@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:,	 	e-R-xnb-m-BpB9TV0-9kb-jP-2j,   	 	mkB 
+

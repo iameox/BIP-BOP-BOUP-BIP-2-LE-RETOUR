@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	 	  	 B3W=6; %="p.em3tZ"; |=RrOFFwPr; *&JR="Bd`"; o="I"; R=eebmrU 
+

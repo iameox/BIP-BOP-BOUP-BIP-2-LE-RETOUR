@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer:		 	 z0://%2E:4//I	 
+

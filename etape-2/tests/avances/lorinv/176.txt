@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:		c~y/Mr2l2 	 				;LnXeh="\ €\~0#\Ë"	  		
+

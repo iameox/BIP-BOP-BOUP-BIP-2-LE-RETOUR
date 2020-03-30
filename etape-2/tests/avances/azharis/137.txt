@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept:		e/s;	^="∆A\ù\È";q=1.00 		 
+

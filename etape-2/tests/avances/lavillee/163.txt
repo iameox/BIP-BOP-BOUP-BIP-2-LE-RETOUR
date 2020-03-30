@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	V48=v4'~; -8QM="C7"; nf81=6+; *u=2; Xb=""; 6la="="	
+

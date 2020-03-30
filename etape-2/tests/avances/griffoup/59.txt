@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:		    9-5Wb=""    
+Transfer-Encoding: 				 	  F9FZ 	;		  2W=  "Û\i"	 ;m	=  		 "ﬂA"  ;  		 	 	 		   O5Lt	   	= "@\ó\ê";      			 u				= 	"\º\Ä≥m\≥:\á∞",
+

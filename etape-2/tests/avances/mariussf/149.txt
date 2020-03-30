@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: 	,q;s$=   		-.``~ 		;K   = 	 	 		 		""  	 		;SWsM#	=		 	 	"\ÿS"	; 	 .%*9Pi'I5'EZ8Ir6Xk4= 	"\í\°\àñ";	6		 	= "\^\ “\,\Ω\""		 ;8wd.	   	=	"";	  				 	m2&|=			 "\c\,d"			; 	r      	=	 	"Î\8\–\gù+ª"		 ,y.|		 				 		,		 	  	, 		 ,A5	 ;		  vd  ="\Ú∂y\…" 		 	; 	 9=	  "&" ; AZL7=""  	;  			aCc   = 		 "\ïà"			  			, 
+Transfer-Encoding:,		 		,, 			    		 	 	 	 SR,  ,chunked, 	 aS	; ht_2d-=	 "\dË≠\˝"	  ;h	  		= "Y\ç" ; 		 	2  =	"Y"				; 		  		RC=""			   ,gzip   
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:E3L  	 
+Cookie: 2|*ar#=e$W<}JdZ@|dXW; U!FA="'kf"; gx5L=""	  			
+

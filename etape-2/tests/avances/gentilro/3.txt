@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 	pn="~"; N="y']"; i=; l8=; f#Rs_C~yo=""				
+Cookie:d="]"	 
+

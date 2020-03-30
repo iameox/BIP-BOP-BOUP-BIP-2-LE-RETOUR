@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:,RwVlJ7, ztofI   		,  	
+Host:  36.202.234.255:76063672 	   
+

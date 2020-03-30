@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:			E="l]"; i#l="B"	
+Content-Type:0-/ONoSv!;koulj="\bø";0#=""  ;	  #s="\€ç\s\YF\Í\˜" 		  ;			 x=""	;		    uub9YvkWZtN_u=4dtZ	; 	6s="\+"
+

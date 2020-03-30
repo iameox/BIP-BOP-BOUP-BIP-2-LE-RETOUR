@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding: 	  		 	,,, ,,deflate			, 	   fF;f		="%\É6`\i‘0–\ê\Š"
+

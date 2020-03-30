@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Transfer-Encoding:	 , 	 	 		 		 	,|Y;Hz=rIf+&G~z ;	O|y=			  	"Ü"    ;	 			 	Nbb	  =			 	 "\Ê\Æ"	 ; 		H	="\Ç\-?\ÇÚ\5u ";	u1JPu 	 	 =		"œ"	; MZoWcKUc    ="v"	
+Cookie: 	 		  	 kpYZ~h4=# 	   	
+Transfer-Encoding: 	, 	,	r1l;	   				 FfR  	 		=	"•ÿ\I\·"		;	 	 S%lhG	= "\°\A\”\f" 				,	    						    	*ZeTiQGdgD	  ;  D				= 	i+|G^P9M	   		   ;	 		 G 	  	 	=						 	   "ø\6Ò"			 ;  CNXNXa3O=	"" 		 ;tgnD  	 		     			 					=	"X½"	 ;	1`bsLjmpGI=			C#sA+.wJpXy7OCY9;	 		 			 	d 		   ="2•\õ*"	 		; 	Gd!			  	 		=	 ""	,	T   				 	;				C9CEAH				= r*2SP7  		  ;m=	4cps		,Ae8p	, 		,	 vjbEpj3 	 	; 	 fSSBOPV=	 		 	"\Êyü"   ;  e10QT=				"\J\8y"  		 	  
+Transfer-Encoding:	 		 ,			 ,, 	 ,  	 			 	D3	 , ,		 ,,,chunked,	 	
+

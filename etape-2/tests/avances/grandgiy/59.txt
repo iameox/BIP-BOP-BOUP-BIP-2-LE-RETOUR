@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:		2=t0[Y}m; Prn*$f^RJO6EDt6="`_UmET}Qu!`'"
+Cookie:	    		 i="" 	  	
+

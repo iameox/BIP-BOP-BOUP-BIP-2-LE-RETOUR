@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:BHRB0=; EM3vmZX=; *="T/H0-"; ^=Sz; 4=""  		 					
+

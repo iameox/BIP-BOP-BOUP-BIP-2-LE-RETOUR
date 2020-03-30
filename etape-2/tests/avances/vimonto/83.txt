@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept:   		 
+Accept:X/*;   	 q=1.			   	
+Host: 3.11.250.251:8
+

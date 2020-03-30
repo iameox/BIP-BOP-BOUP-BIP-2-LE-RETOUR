@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:,,^	  ; %h2B		  =  "\‚"    ;     y2 ="" 		  ;	 	 	zYE~In7pHsmOTXf=	"¸\õ\&M\e "	   	 	;  c# = 				  	  			 			"&"; mK="\y"	;	CZ=		O.	 ;	  		0bO2N	  = 	"‡"; D  	=ZZH%kdO	 
+Transfer-Encoding: 	 	 	,		  		,	 ,			,				,	,,,		 	, 	,   	 	,   ,	 ,     		,				    , 					    	,	  	,	 	,83wad*GE5074sb     		 	;6 	  = iOKhvME'$_De~uZP 	 				;		EhO	=	"-\&\Ì\ã•\®Z\° "	  			;  	  $LQ	 	= ""; 		  	 				2uO  		=				 	 	 	 	"" 	  	 ;		yAkC="ËFø£Ù\±" ;#O="\£\V"; 	 	sl 	=   "\.\Ð.~\Ò\V±ƒ\!\Ú\ý"		;			kX		 	  		= 					%S55$^	;.h 	  ="\¥\•A"	;			  |8			="\üÕè" ,,		  	  , 			,	 
+

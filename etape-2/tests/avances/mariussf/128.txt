@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:R%BD%F2%AB,O2:44	
+Host:		125.62.73.149    	  	 	  
+

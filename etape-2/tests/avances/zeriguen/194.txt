@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: DF6_/zlcRv		;    `="\Й\jЭ\e│ц┌\▓O\b\4\iям╒\&\KЕ"   ;		h="╢\9е" 		  		   ;	    rfqQ=""   	;    		GB="\ц" 		 	;A+c#=""
+

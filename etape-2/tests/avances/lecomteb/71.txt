@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: b=""; ~^OEZ.%=""; y2= 	 
+Cookie:Y="jhF"; L2=i	 						
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:   	 	 				Z83.t+u|Dc	(¡\¨\œ\-WdtÌ£)	 	(\û\¶÷)	 	 FXT/ZY	((\‘E^)\¬)			 	  	
+

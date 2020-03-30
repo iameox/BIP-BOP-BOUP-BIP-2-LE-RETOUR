@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:  	 	 	 TgZn5tp2/dWY	  	 	(\x) 	 	(½\š\`ä)	  	 
+

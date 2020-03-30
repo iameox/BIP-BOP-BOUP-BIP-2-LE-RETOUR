@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:			 	+'^x6B7/*;	     			  VP-q`pp8q="_I\C-k\<Ž/\1\{\l\ê"	 					; ^hKYC#BoMd7PHWX=""	 	 					;8MvurV="\x\ä"; g$c4vtSur7="\·Àá\¦"					 ;	QH_A++7="\ \#\šPín"
+Referer:   VFm://%A1SJ//
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 					y.=S; x=]LP3.^LYo; aC`T=; e&sO="W"; d=!CWHaSGC; !T=""		 	  
+User-Agent:     mNw`	 	 	
+

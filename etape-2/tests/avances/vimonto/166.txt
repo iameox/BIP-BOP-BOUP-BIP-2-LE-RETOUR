@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:   	[vC333B9.9]	 
+Host: Ef
+

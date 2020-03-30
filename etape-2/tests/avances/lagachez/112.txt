@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:	   		 O/*	,,	q/*;	 9h-="\ªS\S";	q=1.00  ,			 	 ,	 ,					 f/*; 		 	 	q=1  	 	     ,		CbU/* ,		 	 , dY/*; 	GeO="t\N"	; 	  a="\¼÷Ø•"	;		  	tWc="\å]¹\\é\’K\×žJê¯"	     
+Accept:   		  	
+

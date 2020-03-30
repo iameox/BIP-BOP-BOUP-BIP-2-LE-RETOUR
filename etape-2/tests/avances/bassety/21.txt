@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:ia5f2/R	  ;	XT5F=$	  					  			;	    	 		UO=CZ1tNl			  	 ;jJCUS="z\°\üó\‘ô"  	;R="\ö;è˙\Ü";!="\W\´a\î\‚ö"       ;	 xlGT'Akx="\àò" 						
+

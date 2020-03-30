@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:	 ,	  		  		   ,					 ,   ,			 	,		    	 ,  n-LQ-6-op;	q=0., 
+User-Agent:$Hb`XwnNp*P9%Wt#pL4I|vM 	  	 	
+Accept-Language: 	,pt-O-yz		;  	     	q=0		  	,D-NUP-x-Z 	;q=0. 
+

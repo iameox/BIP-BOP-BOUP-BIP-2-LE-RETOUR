@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent: 	  	  #8 	  	(\í)		 	(=) (\a)  	
+User-Agent:|/q. 	
+

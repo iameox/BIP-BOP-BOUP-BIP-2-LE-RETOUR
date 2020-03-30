@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Transfer-Encoding:, 			 				    	 	 N!`yYkc;	 	 3E		 				= ""  ;		pfc			="\‚\ê"	 		  	  ,	 ,	 , ,-	;  	 		 X5--5I 	  	=  	"ÿ"  	 			
+Accept-Charset: 	 	 ,	, 	  	  	 , ,	,  	 ,	 , 	 		 ,, ,	,,	^0   		; 		q=0.992  
+Accept-Charset:7V#k8LMIQ5		  ;	 	 		 q=1   	 ,,			+~j9b8G;q=1	, 	 	   	 			 			 		 	 	  					 D  
+Transfer-Encoding: , 	 	,	,	, 	 ,,	 		, ,,,gzip	,	,, ,
+

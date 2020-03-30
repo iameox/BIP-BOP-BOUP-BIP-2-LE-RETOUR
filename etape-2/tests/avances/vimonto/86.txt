@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept: Ucwj/*		 		;  	    	 	UD="ÄOÅ"	;			VpNLZ7=""   	 	 				  	  ;  	   f9aVTo="" 				  	 		;r!-uP=SA_   ;     	ssc="œ\Ù\è›\X\w\O4"    ;	J^G2f#="\ÁùB\ß" 	 ; 				R=Faf1;	B="\>\8¿\¢ˆ"
+Host: 	[4413:F:3:F:2F:4:4.15.250.4]				
+

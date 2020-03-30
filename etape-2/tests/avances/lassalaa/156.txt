@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:	SL5g=RBE_@; 1X5lnTlB= 
+Content-Type:	 	zDY/%~;	PKYJQqe="";ul!KK="\þ\~"	  ;		efP=hP  
+Content-Type: 	P/`g	;	 w="Œ\_<§\‘"  
+

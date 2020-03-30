@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:   		    	 			    e=""; 0Rvr=; dm.fs=6OS?Wm`Il; H2=; bw=HD 	 
+

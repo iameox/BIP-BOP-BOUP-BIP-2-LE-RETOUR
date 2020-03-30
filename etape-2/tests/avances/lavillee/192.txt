@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:    	 b`=z 	  
+Cookie: 	Xe#FH'ZXwdH=jz; o=""; #7dK+I^Cr=d[^D<&r2]; H="n3{bH"; foHd=WP#&u4Dv 			 		 		  
+

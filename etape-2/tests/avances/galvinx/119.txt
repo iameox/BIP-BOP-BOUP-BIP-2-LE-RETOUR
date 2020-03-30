@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:	 	 	 		,				, ,	 		  lr-0-3-AIP-1	; 	  q=1.  
+

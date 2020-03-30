@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer://p6RP@9.227.191.213:   
+Referer:u://[v4._c=wk3]/.C%5DqU%80%C6/	 			
+Referer:  			     	   			  //%07/w%7Eo=
+

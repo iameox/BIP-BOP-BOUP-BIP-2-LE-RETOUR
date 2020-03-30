@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset: p7 	 ,  | 	 	 
+Transfer-Encoding: compress 	
+

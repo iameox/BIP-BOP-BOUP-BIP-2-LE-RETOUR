@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:			//K;7%0F@W://1/?Pc		  
+Accept-Charset:			  			  ,,,  ,c-R*I;	q=0.6		,  	 uSa 			 		 		;  		 		q=1				, 			,				 , 	,  
+Referer:vf%B6/@L  		 	  
+

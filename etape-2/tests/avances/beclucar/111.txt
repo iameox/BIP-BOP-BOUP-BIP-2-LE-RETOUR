@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:  S/U05S			  	 	;	!6="H\Z\¦\HÐ\ "
+Content-Type:  #0/1#% 
+

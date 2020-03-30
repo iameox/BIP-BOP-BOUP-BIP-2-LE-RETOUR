@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Host:		0KNuc~P%A7:9   	 
+

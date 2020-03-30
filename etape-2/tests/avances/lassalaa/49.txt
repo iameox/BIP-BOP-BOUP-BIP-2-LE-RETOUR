@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:	  					GwZ+g$="HAe"
+Cookie:PBrQY=e+  	
+Content-Type:	l~V/i&
+

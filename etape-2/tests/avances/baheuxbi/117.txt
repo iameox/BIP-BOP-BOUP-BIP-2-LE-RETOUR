@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+User-Agent: C&y			 	
+User-Agent:	 'C6C/qjG (ô()S)	  	 	 (())	 	E/p  	(·ò)  (€())
+User-Agent:	Y_^dZs4/'LF (()\s)  	 ((ÔÐ))	 	   
+User-Agent: X$K*Lftraez  (¨]\0)	(<\(%<§w)\½¤\¤\ç>)		 	 
+User-Agent:	  	 ono
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:  	 	 	uP=s49=; ox_=y~; kn="["; c$u=""	
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept: 	   I|n~/*  	 ,		QJ/4   	 ;  	  w_="lø"  		; 	 q=0  					,	 	,    			  
+Content-Type:	Z/!c_ 	 ; 	 	 `="\e" 		 ;e="\ùÌ_Óªqæ\åXTÿ\‹\{\Í" ; 	  		 L%B`-.O="}:\È\ﬁ"	;  z~="\≠\b\F\ÿÁØ\é”£\f\#";     	K2Oa="" 	  		 	  	 ; b&l="à\x\ë\¥\xV‚ï"	 	   	 	;	f~="" 					  ;zd=""		 
+Accept:				m/*;.="\ı"   		 	,	
+

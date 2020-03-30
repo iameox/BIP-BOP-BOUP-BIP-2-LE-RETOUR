@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:	,,j-o	  		; 		 	  	 	  	q=0.	,			 Uxk, 	 	  	  	CTi-RND-F-c-y	 ,*		 	  	  	
+User-Agent: 	.7aa	 	 	 (€) (A\]\P(\ë∂òÿ\ê)Ø\§)	 	 	 		() (’) 		((“!\π)\ÿ)			(4(å)¡)	  	  (B*∞(?\8\6\Sye4°\	“)())	  					  (\emÃ…\®(~\|ö\¸\∫\á)\èÁ)	 ()	 		   			 	  
+

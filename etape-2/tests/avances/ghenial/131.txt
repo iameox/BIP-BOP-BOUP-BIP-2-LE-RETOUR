@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:hDqme://[95::3B:01:A:9127:253.6.6.76]:7
+Accept-Charset:	 	 	ry3-; 			   q=0 		  		 			 	, 	  8		;  	 		q=0	  	 ,	 ,	,		AE  ;	 	q=0.7
+Accept-Charset:				 1#q`;  	    q=0		,*			 		 
+

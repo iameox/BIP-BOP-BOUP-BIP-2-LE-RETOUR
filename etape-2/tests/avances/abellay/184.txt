@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Encoding: 				  Q.cq7;		 		   	q=0.2			 , 	,	    	 w ; 	 						 	 	q=0.,
+Referer:		  	   	 bzx6:Omu/B/&/P/1)W%844/%F0%CB//Y_;lw/cC?F
+Referer:/J/n
+

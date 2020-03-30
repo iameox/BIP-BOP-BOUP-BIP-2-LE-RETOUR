@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:  //%C7%24%86oq%5694KK@[43:9:0EA2::27.5.8.228]:/=_%2D4SaH%1AisfJ@/oQ%E0gDF*/-WB/.;/? 
+Accept-Encoding:	 						
+Referer://@[v415380056A7AD0.oEme]//E%2AX,H.I04Fo7%6CDb%702,jm//JK=/~wWb%C6W/vi!LYe
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 	   W#="FX_8)"
+Cookie:   			  	 	XQ=; uTn-d^8LN=<#O'ZKwE		 	 	 
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type: N9cW|A/1vMbx_	    	 		;7="" 				; WCbbt="~\Ì‹ž.'æ" 	;EY="õÇ"	;DH="\b\Ó\Ø\;\¤6\M\=\ð\Ý\¤"		;		F="\ýL\JVY";	qk="" 			 	 		;H=""  
+Accept:	  	 Noo/`	 ,, , , R/^		;q=1.	 ,, 	 	  				  	 	 			 X!/*							;   q=1.000 ,cM/*	;.z_="ˆã\é\½";Bq="J\Ãr"	  	 	;	  !="\îÓ\†"	;  8=$k%f64IS9GHatRlM 			 ;k="\'Š9" 	   	  ,		 		,	oNb'%+/* ;		 SZ#tI9JY56-Z*="\œ\Ý"	 				 
+Accept:	 	 U/*	  	 ;S="\×œ";	iA="\ï"	,	 ,	e/*	  	 	 				;	q=0,, 	  				  ,#/*		 	
+

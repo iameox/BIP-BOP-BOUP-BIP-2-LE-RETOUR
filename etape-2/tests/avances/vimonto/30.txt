@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:			 	    66.99.160.206
+Accept:   	 
+

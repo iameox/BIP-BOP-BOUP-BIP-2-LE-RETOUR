@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: .V=]Ec/; pc=N; 16w#.="."; y7="ox"; 7c%1B=""; lLP79d=@; t="C$r]"	 		 	  
+Cookie: Q="g=&vk~0V" 	
+

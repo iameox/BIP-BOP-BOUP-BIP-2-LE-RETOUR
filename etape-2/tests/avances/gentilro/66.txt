@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:,				 	,				,		 #	;  v'#'V	 	=		 "”\ç)"	  	  ,,e4X_Y9;   	i =   ""			;    q= ">A[\™" 	 ,
+Transfer-Encoding:   		  ,		 		 	^ 	;    			  		  .|lv0l!% 			=		"ˆ\i\'" ,	
+Transfer-Encoding: , -; MF^3.M1%.RmX#  =~V 	 	  ;	  					 	    	  	 	 4qoky+T			="\cŒ¯\h\ì«ñ"  ;	zr =	 		qT3^E$;j  = 		 "";qQvxBk-*d		 	= 	  		 "";	1Cz		  			 =   	"\ÐŸ"		,  	 		 	  						    ,
+

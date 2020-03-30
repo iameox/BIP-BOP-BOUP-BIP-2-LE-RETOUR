@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host: 	  [vE89.mQ2M:o',I!]:9 
+Host:
+Host:				[vB28D391C0.e]	
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent: 	 -Dd/Ov  	   (ïL()(\L\ò\D\ˆœ)\@\z\›\y)	()  	  ()  	()	  	(\Ë\ˆ)	
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host: 			  [vFF88142.Nfx]:
+Host:	  	 [vD73.C]:055009
+Transfer-Encoding:	 	   	   	 			  ,		     	, 	 	    		, 	#TZ_x;		 	 	L		 =	"\æ\!\{\}¹"   	  	   	 ;	 f =	Agy ;dW ="H\)"	 		;  O*zw= 	      "\¼\3Q\c\f\åÊ\=~"	 	;RB_dx 	  	 = 	"€\ã\Iþ"	; -=	iK!t4kL  		, $t;  	p71N   	=	 	   5cWVnar|^  	;		  		   	cKua$%LWCPoA 	= 	"Šn"						  ;A= 	"\µ®8·"	; 	 	 	 	$zV&#*nYN			      	= 	 	"\ƒ_6";#	=		 			Y
+

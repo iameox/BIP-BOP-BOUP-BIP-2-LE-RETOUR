@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding: ,	 	 ,			 		,  	,	,   	 	  				 &tR	 ,,	  ,,	,		,compress 		 	 ,C 	; 			 	8i%C'cew8 ="Ã2î";   'nC 	   	="\³\Ñ\ô"	 			;	 		X'Nv	 	  	 	     	    =	"\•\¸\°(öF\‚\§\°r\¥-\ZÎ"
+

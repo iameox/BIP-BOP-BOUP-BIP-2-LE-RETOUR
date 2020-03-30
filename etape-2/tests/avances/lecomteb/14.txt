@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:J=U`
+Cookie:BYw4aD2="`Hh#"; a=	
+Content-Type: 		~STHq.%U/_5fpBR'k	;		 	 _mQ="" 	 ; 	   	afQ="\Q"	
+

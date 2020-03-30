@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:		 	,, , ZLiw-7H	
+Accept-Language: 				  ,,		 	,	 	 , 	 	,  		 		  ,,,	 		,			,		   	,	,,  		 		,	  	,zZ-j	 ;	 q=0.		 		,			  		 	  			P	 		  	  	,  ,	J-Br, 	    ,  	  J-y-4-k1	 , 		,ts 	,
+

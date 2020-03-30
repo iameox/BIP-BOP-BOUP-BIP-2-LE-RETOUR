@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:,			     	  	  	,	    	 		 ,,,	 ,  ,e 	;				p!hjQ	   	   		= "\#"   			 	 		 ;.|    ="\»\‡s\±$\’6ª"	 ;	Sr  =  	"l˜8\+¨\¼Ì\š\o"	   	   ;2 	 		 =			""  		 	  	  ;		 Kjy 		 =	""			 ;				b`	=  				 			"Ã";C8s-K	=^%qt; 	egVSH8XmK	 	 ="Í\Nñ" 				 	;~D  	=		 "\U\Ê"  			    	 	
+Transfer-Encoding: 		,				,			,, 	gzip, 				, 			deflate,				, ,
+Cookie:	$X9=">u<!M$"; H=$0; lXu6="3J]1$kd"; W1jgdx=M 
+

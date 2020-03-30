@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:,	  	 GCOE	 ;  				  			 	  q=0.
+User-Agent: J/L~Ae|O|aGFDt	
+

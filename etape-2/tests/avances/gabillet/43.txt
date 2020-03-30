@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:	  	,,  		  		  ,L-HEP-O;  q=1.000	 ,
+User-Agent: 	     W  	 		 (á\î) 	((ó+)(\Ã)()\Q(êi)(\’))	  ((\µ‚)) 
+

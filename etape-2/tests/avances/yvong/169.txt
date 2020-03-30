@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Encoding:  			 	  	eA	;q=1.,  , 	  ,RDd 		 ;q=1.	
+

@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Cookie:	 	  xB="~}?Q"	
+Accept-Charset:,		 , 		8C   			 	
+Accept-Charset:			,	 	,	  		4l  ;	q=1.     
+Cookie:	 c-pz=""			   		
+Cookie: 	 		 	   	A#8gc="F"; zk="1jwE((i)*$"; odr=o&* 
+

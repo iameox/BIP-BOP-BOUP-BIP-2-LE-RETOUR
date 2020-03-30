@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:~b11LBbXV$6n={FTk@l&y'/ 	
+Transfer-Encoding:,,,, 	 		 ,	 ,  	chunked    	,	 
+Transfer-Encoding:	 ,,  Zx    ; Kepu$hFbHM%Sx+X-&s 	  =		"ÕJ" 	;  	       	 	4us$34   	  	=	 			  	"\R\(ÒA"   ,
+

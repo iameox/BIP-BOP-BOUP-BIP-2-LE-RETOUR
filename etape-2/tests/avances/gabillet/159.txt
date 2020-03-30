@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:		 , 		 ,	,  nI-J-FB-5e-S495-Y-hvr-y7-C-T,  fd	;q=0  	 , 
+

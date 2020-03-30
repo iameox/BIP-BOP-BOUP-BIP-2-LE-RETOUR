@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: 	  	 		,chunked, 			 	LEs;		'%!A!    		=c			;Fe	     	=  "Ü"; 	Gg8	 		= 		  "«"   	  ;		xl			 = 	 		"",.zLoP	 ;			 OJO^	= *-;	  fV8DVFoV	="";  	 rpRK	 	=	"\Y\†ô"				   ;oatAl			  	="P\s"		;wkk	 	  	   = ">"  	;	Y	 	  	 	 	  		=  hk^ ,     &,,  	
+Transfer-Encoding: 	  	,   		,		 		 ,	  				,, ,	,	,				 				 	#  	;	 				  vpw2&   		   =	 		  	"\F\²\Ê\/=" 
+

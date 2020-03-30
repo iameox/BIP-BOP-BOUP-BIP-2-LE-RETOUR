@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:	 			 
+Content-Type:$&fqkW^xE#/0|8Kz
+

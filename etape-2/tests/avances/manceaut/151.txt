@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:	,  			 		, ,	 		     	,	 ,		  		, ,	 ,,,	,,	   ,,	Zr-8zb-R8-l-fxJ-s6	   ;q=0. 	 	   
+Accept-Language: 			  HtX-s2-D	; 	q=0 
+Expect: 	 			100-continue
+

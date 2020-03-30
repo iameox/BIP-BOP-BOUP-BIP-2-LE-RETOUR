@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:		 	wo-f-h-Xp-53q-R1		,  ,	 	
+Accept-Language:			, 	,		,,			,,			,	   		,			 	 ,,	, , ,   	 		,  	       	 	 	,rI		
+

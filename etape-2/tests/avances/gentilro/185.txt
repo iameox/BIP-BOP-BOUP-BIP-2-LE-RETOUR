@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	  B+p=XX      		  
+Transfer-Encoding:   			 			 ,	 			 ,	,,   	 		  	^F 		;ts	 	 		 			=			      "y\|R";O =	 	  	%O08QK; *ut8	=!deb	   	 	;	  	 1k		  =9	 ;	 .m&6|25fT  	="\’@¸";  d	 =   `0	  ;   	Oz_f7#		  		= "\Ð\'H\¯" 
+

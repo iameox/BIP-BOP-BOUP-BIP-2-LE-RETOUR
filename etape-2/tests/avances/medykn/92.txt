@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:	  	 		 	[::]
+Host:   228.251.47.114
+Host: 	 b 				  		
+

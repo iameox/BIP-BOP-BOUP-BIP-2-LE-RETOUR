@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:	    	 	   gWzlzAFC3p.QXy2/p		;			 	  					 	l="";		 B="\.*\t\#\~P\.»\e¸\B\	9¨ö\¶í\ä\Š"	 
+

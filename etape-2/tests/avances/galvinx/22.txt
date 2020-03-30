@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:	,	g ;	  q=1., , 	nabD-F-UOVM-XA3		  			     	 		  	,,			
+Accept-Language:	   		,   ,,					Qv-U7-op-N-3H 	  		
+Accept-Language: V-DHx8-R-4-1-0D-F-E-N-Tr	 			 ;	q=1	,		r-m8		  ,			,	 		 	  		
+

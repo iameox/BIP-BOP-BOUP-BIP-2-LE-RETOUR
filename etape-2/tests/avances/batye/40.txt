@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:	    `T&/$					(()\»Ë(µ\ )\m«æ\§)			
+User-Agent:			EV/K& 	   	
+

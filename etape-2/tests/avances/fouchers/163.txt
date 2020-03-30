@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:,	,		,	 				 ,  ,,  ,  ,	 	    		   ,, ,	 	 	,,	,,			  , 		 ,			, 	 	,			,			  	 G		  
+Cookie: zG=; qzR=""; !~="Z+B"; 4=""; v`nq=J; B!-8&=""; +=; Qra&f=""; g6-f.II="76%"; dGK#ON=fz8; K="%"; mWn=Eu4
+Accept-Charset:	Hb$	
+

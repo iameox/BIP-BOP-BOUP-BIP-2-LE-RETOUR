@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:8=; D'=ZZ>Y`1{sp8dY; q='k.	
+

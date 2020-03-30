@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: 	 n3/!He328gj 	 	;		     	q="Ñ" ; 		N=""  ;ydG="¸\þ\ï\¢\nŽ\2\gŸ÷";yb=""  ;  	 	CRfZnS="\í§"  	;dio6="\`;Ä\º\o\´"; IL23|j=v7;1=""
+

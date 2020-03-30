@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	 			  	a|=DH@@`    	
+Accept:  +1/%e+CK^	 				; q=0. 
+

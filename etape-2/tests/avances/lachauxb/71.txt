@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:  	C!W/i	(«F\ˆ2\9\s)   ' nIQ5X 	(ê\–\ê\{@\Æí(r,"\3)rJ)		 	
+Accept-Language:	 	,		 	 	 ,, 		  	,	bkDK-N-q0				 ;	q=1. 	 			
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer:	C:/?i!8
+Referer:   //[A:6::8:C:6:253.244.52.189]//b@.Q*	
+Referer: 	UQzH5Acc6QH.://K)Ra%4F@[76:5:E:0:4155:A:71.1.28.7]:5712964/,r$h$@/_///D7?fFd	 	
+Referer://[7:A3C:92::4:D4:2.224.247.209]:7/w%1F2?+M	
+

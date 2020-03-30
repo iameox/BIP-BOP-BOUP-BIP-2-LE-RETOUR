@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:MU~/%r (\‰\¦\iùw\®)	
+User-Agent:	*bA/*		(E\Ñ(*\œò\9±))			  		  
+

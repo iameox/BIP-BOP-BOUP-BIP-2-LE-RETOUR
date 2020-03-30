@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Expect: 100-continue 
+User-Agent:	T7M8#E
+User-Agent:be%dEd	()	    	()				 	()	((N\¨ì\û\¹™q\ˆÎ\à\Œ)\…ö) 	(\Q\Æ) 	(\þw\é(û“\¤	))	COa	 	   	(n\Ì) 	 (\2)	 (\5Í) 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: 	 	,,, ,					 	,	   	 	,,,						   ,	 	,,,  ,, 	, ,  	,,	, ,		 	  gzip  	 ,   ,,	      	,  	  	, compress,		,	chunked			, , V  	;~c$m%Nd_=	 	 	N  ;  		 	T	=  	"\Z"
+Host:%63y-cL8v_$Nw:239 	  
+

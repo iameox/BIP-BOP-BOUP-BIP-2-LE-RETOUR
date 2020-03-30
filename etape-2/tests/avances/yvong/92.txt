@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:		//[::A:C:2E9:9:172:255.3.110.49]:87/%6E3-t/%975ha%7E(tu%8F2?	  		
+Accept-Encoding:	 	  		
+

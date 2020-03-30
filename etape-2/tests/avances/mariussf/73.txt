@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host: 248.232.150.5:376639	 
+Transfer-Encoding: ,	  		  , 	 	,	  	    		,				,  ,		  ,				YjMoK	 	;	 	O%Cbyf9= 	 "\.\„^\Å"	;     			     	tzP =  	 	  r;7w&		= "š}N\Ïsí" ; 	  z  =	""   			  ;	 +=	 	  "\û"	 	 , ,	 , deflate,		zt  ; WCTQb~s6		 ="ÞÙ"   ;v!	=		  	   "Ù_:d–" 		  	  ;	 	U%Y	="\m\q"	;Xs|`UM 	= 	""	  		;a0O 					= "½" ;		Q0O0TL 	 =	"\À"	   			 	 					 		; 0XOlx^BK	 				   =	"áž\±\{\	¬\«"	  	; 	   		 		   	 loc   		 =n; 		   ht6QaX_ 		 	="2 \'\J\©" ;%	= 			  "\ý\°í\["	 	;			$jUd	   =  "Ì^";q		   =	"\<";9 	=""	 ,
+

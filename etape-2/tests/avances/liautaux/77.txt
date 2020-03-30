@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 		 	 'r=""; E="zgx@Fq5"; p=".)" 
+

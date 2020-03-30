@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Encoding:
+Referer:			dhpirEA://:36/%9EU?No	 	   		 	  
+Referer:t49G0ZI0lYwmBL:Rhn/G%3Ey6ZT?%22
+

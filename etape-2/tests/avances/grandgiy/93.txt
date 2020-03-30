@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:l8m="k"; y="EANNu" 
+Content-Type:  	mFnh*/KkAheI			  		;	 	   				      z9!rp="\v"	
+

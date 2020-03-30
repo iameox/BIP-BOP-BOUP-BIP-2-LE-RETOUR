@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:  EvR	; q=0 ,	
+Accept-Language:, ,				 	 	,  	 					 		 		 	  	,		  Qh-G-VQ-S-uU-g-G 		    	 			 		  	    	
+User-Agent:	  CTmJB/eCIb1
+

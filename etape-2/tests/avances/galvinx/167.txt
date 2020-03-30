@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:	     ,	      	 		 		UbdyQ-Ip-2sp-z-li-H-F    		 ,,	 * 	;  			 q=1 	,A		 				  			 , 			, 	 z 	  	 	,			  		 		  a-b 	  ;q=0.			 					
+Accept-Language:					 	A-I2H-X	;    	q=0.9	,,   		,		,,    		Wkm-BPTfkM9-5-q-1  , ,	 	qG-9-II-9;	q=0  , ,		 ,	,	, sXAD	; 	 	q=0. 	,
+Accept-Language:				,	,    		,	,,    		gc-kEVpjB-x-S-O6T-tgj  	 ,  d-h ;			q=0	 	
+

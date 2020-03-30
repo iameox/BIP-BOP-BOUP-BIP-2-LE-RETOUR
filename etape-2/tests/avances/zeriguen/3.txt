@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:	 		AP#/O6			  ; mp9tF&$ao="V";#="Β\ω‹ªιω©"; 537="\Π"
+

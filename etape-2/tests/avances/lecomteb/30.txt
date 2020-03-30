@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: 	 	  		  	 		    KA/1bTI 		
+Cookie:	S=`wz}hp`7M	  
+

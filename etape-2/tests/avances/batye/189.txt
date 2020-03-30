@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:yLhLW="uBsu*s"; hZ=:; &=^2R?J
+Cookie: 	rJ=8%; aT`|hn`M!zaaVCx=Fb%	 		 
+User-Agent: 		~RG/evIp|b0elz~D%9	 	 	() ((2\©R)) 	 ((\H\ü\N\s\N›\Å)Ÿ)	  	 	pIuSL#   	(ó();v)		 		(\n\k( ))  	(\)q(ô)(∏\∫˘]\V\Ø‹ı\A)°§) (N)  () 	
+

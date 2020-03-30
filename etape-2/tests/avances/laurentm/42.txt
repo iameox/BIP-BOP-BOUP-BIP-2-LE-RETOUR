@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:				 		 ,,, ek	;6G0~jQlbHe  		= ga 	; 	 		 		  		 J="\‘ê\r"   ;	 W2 	 = 		 ""  ;	  8t%=	"¸\V˚\·\‰\∂";  mPw=	 		  		 ""	 	; bssihf0st	   = "ê"  		;	SOI	 	 	=		 	"\keW"  ; 	 	 	no	  ="9"	 	     		 	 	 		,			,  	  	 	AG;					  WwBd	= "\ë"			;	 	O						=  mqX5x		     
+Host:[::36.0.21.126]	
+Transfer-Encoding:	  	,	 deflate	,	compress 	,	$;* 		 =  "\¶†î\îe\æ”" 	;yj   	 		 =   		  	"\õC"	  ; 	 	   t = 	  	 "\i\‚\	Ÿ"; 	 $I3YF		=		 	 "\•\˛\$ˆ"	  ;  Os^		="Ó"		;		 	W 	="\õ";	 x			 =	  	 "Ãπ\N\#\/◊{Â’"  ;YI	=   ""
+

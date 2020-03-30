@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:     	d^Y	 	;	v8qYt8LUK!+s	 	  =J ;| 	 	=""
+Accept-Charset:,			 ,	, ,, 			 		 ,	  				 	 	,R  			 			   		  ,	,	 ,,qT; 			  		q=0.65	  	 						 ,,
+

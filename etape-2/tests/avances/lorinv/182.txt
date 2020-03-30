@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:		 
+Content-Type: 	 $q-FqJ35m/C			; 		  t=BtQFDKU6b69g^`ER6&		  	 		 
+

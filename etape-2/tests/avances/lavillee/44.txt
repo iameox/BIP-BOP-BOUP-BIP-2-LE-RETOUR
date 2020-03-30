@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:GrP=4; 3`=; B|="v-"; .v="r{+$zbnRg-DXX"		  	
+Cookie:	AE="f" 
+

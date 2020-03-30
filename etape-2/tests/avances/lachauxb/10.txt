@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language: 			 ,,	,,  ,I-OkN0,,  	   	   		,  
+Accept-Language:	 	  		 				 ,  	Xbe  
+

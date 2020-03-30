@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:		I0c://@[::120.230.7.95]:74//0%C7r 		  		 	 
+Referer://[7:9A:0C:A:A4:016E:255.5.44.254]/SAb//ltO?c 	  
+

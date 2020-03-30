@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:  	, 			1;		5=	  "×\à\×\—1Qé\šÇ\£\Ü"; 				 	 rJ+IVu9&C!0MCPh 		  		= "\å¼ T\#\Qº\a@\Ý";	3|Ccz  =kKbywo2!^	  ;  	 v6R*40pOcm'+E = 	 			 	"\Ä\<±\&óå\J\aFB\Ç\9õ" ; 		u  		 	="\D\5\Ñ\¡"		;	| 	  =		"O\¤\Ô";			  	rHq	=		"" 	 	;kjSlXG=   						""; 			   		X0qN	=			"\Ð"      							 ;	 TJ   =	 	 	""; 	~CK	=	"0\Ÿã>\W\Õ\L"		;		 -sW^|kmJj0oS   	  	 =""	;	 i%		 		  		=		 "";  	Bd=~.x	 			 			 		  
+Host:			[25:1B4:7::B:9:1.229.166.195]:0339 	
+Host:      							   .L%36%11:		 
+

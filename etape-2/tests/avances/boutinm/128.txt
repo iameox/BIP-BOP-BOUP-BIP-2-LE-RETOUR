@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	4QW="/"; GU=":"; d97#h'=c8g; ^7Bj^s.Yk0xTbla7B&=] 	  	 		
+Transfer-Encoding:		 		78|_S3	 	  ,   		,	 ,		*m; 5*h=	"²"	  			;	 T  		 	  ="" 		 	; PY_ 	=   	"\E\ÜÑ\Y\u\æŸ&"    ;       	 	 2Xqa="Ò\zØ\8zî\¹#Y"	;4 	="\j\e\×¡\+ð\ÿ\Ó¿\¹\2>"	 ;	 			I=  			  "b°gÿ"			  		   		  	   	   ;q3p3		 	 		 =  	  "Y.\Í\L\Ù[\s" 	 		;|=		  	"\," 			 		  	 	
+

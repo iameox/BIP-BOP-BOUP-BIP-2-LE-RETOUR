@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:	 ,	wA-8 	      ,	  		aBus		  	;q=0   	   	 			,	 *		 	 ; 	q=1 	,,,		 	  Pv-tu-6,		 	   			  	  	c				 ;   					    	q=0.34,  		     			V	;	q=0.  
+Accept-Language:   	 ,  ,  		, 	  	  	,,,	  	 ,		, 	, ,, 	 	,  e 				 ,
+

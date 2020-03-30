@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Encoding:   	  			 
+Accept-Encoding:  ce	;q=1.000	
+Accept-Encoding:		  		 			 
+Referer: 	  AEI&OB1b?b9'
+

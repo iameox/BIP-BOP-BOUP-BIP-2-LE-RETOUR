@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:	245.0.5.22 	   
+Host: [212:5::83:14E:96.252.9.251]:201	
+Transfer-Encoding:,K_5Yj; N0m_  	   = 	 	 				 		 	"Q\y‹vBÅ\ßﬂ" 			  ;		  YU =			 			 		""  ,	,,	9y7z8	;+a		 =O  ;			 		  S1qF 	   	 			 			 = 		xp 	;	2Z	=			"m˜È©"		 		 ,%T	 , ,						 ,	 		H				 ; 			 $ 		=	A  		 
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:  [::252.239.2.250]
+Transfer-Encoding:		,4	; z  		  				 = LuR 		 	;	*=	"\?"	  ;  		 	 	  			 q||		=  	 	"Ð\†g" 	 		 		;HI-s%svkn 	  =  ""
+Host:  116.91.2.214:6220 	  
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:		  WQX17:%F8?	 
+Accept-Charset:,Q 	   			
+

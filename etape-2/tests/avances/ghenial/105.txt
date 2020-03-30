@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Charset:T;	 		 q=0.  	
+Referer:		QmNIOy://%95l3TD(@[1::8:6.2.47.196]/g9E7F+%1EB3J!9k2?	 	
+Accept-Charset:		   ,,,					r	; 	 	q=0.	 
+Accept-Charset:, C;   		   	q=1.00 		,			 ,	qs%.IM1W	; 	q=1			,		 	 	 		  LE,	o*l  	  	 	 ;q=0. 
+

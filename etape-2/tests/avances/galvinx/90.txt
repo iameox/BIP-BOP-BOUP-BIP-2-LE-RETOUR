@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Language:R-o-JM-w2yi-siA	   	,	szq-P-f-6RdATFY-U-I-RW-yf-8Tt4Pcc-Wpi-F-2B-e-YcGr-m
+Accept-Language:  		,U	 			
+Accept-Language: 	 			 	 						 Yx-n	
+Accept-Language: 	 	 A-Si-6-X2		;  	 	q=0		, 
+

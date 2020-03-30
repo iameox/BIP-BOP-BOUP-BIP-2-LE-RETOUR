@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:  	  	 	
+Host:120.118.94.2	
+

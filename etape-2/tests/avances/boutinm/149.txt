@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	 a=A4)t); C=)PhJc91L2cs; 2=N[L; v3-="s=Y"; HL=|gfB; X^hX=YN1 
+

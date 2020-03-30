@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 	pg'=8W; z|5T4dF=<; b_m="9&#"; dTpCRF=""; U~=~t/; DM|*64NYhp=4ciW/z; C=a1; a=  
+Cookie:!nsN|.=; G*="15L"; C="m(N"; 5L~jHh9G="'<"   				
+

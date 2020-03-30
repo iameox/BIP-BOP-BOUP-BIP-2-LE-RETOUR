@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:  p ;		  q=1.  		
+User-Agent:	 			Eu+e/RDDDKY	  (n(Š\Î7)\µ(\cŽŽ}\¨\'))
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:	 6D    	;		 	BhW		=	"\∑"	 		 	;	 #|4F6			  		  		 			 	="vp";VDiTb  	 	   	="\Ç"  ;	^  		=	"\®\U\¿" 	 ;	lk	 							 			 	=			 				 	"\Q"	,S^		;l  ="\⁄"; 3RCJ 	= 	"A\¸\b"			; |$-= 	"\#ù\=7%\Ó\íH"   	 , chunked
+Transfer-Encoding:			 ,	,Ow%Q;			 		 S	 =	"\óYÓó\€"; 	  		%!~e=				   "\R",qQY					;    	 	_f = 		"" ;	A    	=  				 		  "æ\cø" 	,	   	,					 ,	   ,	l	;		 	  	#Q!L 	 ="\ß\î" 	;	 	  	  						 		Tu    	 	 	="\	\X"	 		;	-J8TlnI					 =  	"";	$RzP	  	 =	 		"\≤\"|¯\√\L"			
+

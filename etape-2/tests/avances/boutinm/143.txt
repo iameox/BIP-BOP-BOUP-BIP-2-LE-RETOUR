@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:, ,						 		  	 		  ,	 'Mi5*r		   ;		aS 	 	 ="·\»\ØŸ",	 xZeEN   		 ;  bmhG	 	="\|\c\ëãj"		; 		 -B1Kw	  	=	 		""   		;		 W7	="nÕ"	 	 						 ; j	=		 	  "\ï\W\Ó§" ,	 		 				chunked, , ,	,	  		 ,,# 	 	; 	 *		 	    	=	"?\Ò";	e= 				"O"		; 	Eb2$xq!~vk	= 5a|#VKgx ;96RfF="cw"	 ;		 lA%O&	=	"\ü£" ;wB	 			=		wdEj	,|d48	 				  ;  	 NyUn=	"",DT5iE-dKv5dmCB|; 		 	 	C'!q5=	 "",    	  dg				;	NInaU6lC  = ""	;Xdqs01=	  	     	 	"\‹" 	 ;	xsC5V=	  ""	;		Ft4 =		"" 	, 	 chunked 	
+Cookie:	  	 pMHDqu=4	
+

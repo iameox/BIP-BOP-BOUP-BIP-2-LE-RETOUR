@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+User-Agent:G-E						L ()				 
+User-Agent:	 o	(\n\‰ı(}\Šiî\’Í\ˆ\ÁÖ\êÉ¯A;î\ß)F()l)   		  	  	 
+User-Agent:y 	  (\“) 	 ()	  		 ((“)\Ik\}\?\a) 	 		 	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:  		[CC:59C:B:2:14:A:53.193.26.220]:
+Host:[v42F.wXg] 
+

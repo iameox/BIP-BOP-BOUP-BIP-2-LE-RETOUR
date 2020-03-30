@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:	 ,     	8	,	  , 		,  	,	 		xi  	; 	 q=0.0,, ,  	, 3QkjKR%`wl	
+Accept-Charset:	X_|o  			      	 		 	 		  ,t, 
+

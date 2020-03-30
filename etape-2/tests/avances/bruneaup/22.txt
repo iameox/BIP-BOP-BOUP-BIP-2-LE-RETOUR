@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Host:		Wsc;%B3wHBS%BBly4%D8&	    
+

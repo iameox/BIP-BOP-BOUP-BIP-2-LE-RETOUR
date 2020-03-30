@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: Uo+-sqR5vB~6#IeM="j@"; #6=$
+

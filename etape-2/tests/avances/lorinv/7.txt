@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: 		S/_6	;  	 						 	  W="\ËO"		;F="\"Ë\r\‹\ª\¶\â"	
+Content-Type:%jOHL'1ng/*Z1 		;	 	 w+=""		  	  ;		pyyp="_"	;^s="" 
+

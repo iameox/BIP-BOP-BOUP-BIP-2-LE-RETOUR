@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		 4BW=w; .=; !=a>5`abn	 	 	
+

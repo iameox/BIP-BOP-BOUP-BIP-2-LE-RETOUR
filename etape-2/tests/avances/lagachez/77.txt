@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	$r="{g]<PoA"; $pgdeq4tB^="af"; bL="2h"; c*bKr0="Ie-"; lZG="_&HAw"; Il*Z6="OUG"; Co8d="h"; Ioi="K9?AG/YAw"		 	 
+

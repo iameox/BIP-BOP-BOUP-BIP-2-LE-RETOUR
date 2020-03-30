@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	    	   	[vEDB6B5C0.6mek8]:609
+Host: [vD.Fh]:0668 		
+

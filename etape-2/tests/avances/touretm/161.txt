@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:+PCy 			 		 ;q=0  					,wUM 		; 		 	   		 q=0	,8*g		  		,	,	
+Referer:				 			sW
+

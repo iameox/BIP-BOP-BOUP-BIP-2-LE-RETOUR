@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Cookie:		'0Aw-s=; _M=""; C=*HGTH~!9x 	       	 
+Content-Type:	MPz%Fp/mGa	 	 	 		; 	   	kw&u9bb#D="[ê%P\´\ß";sS="ï\!"	;LteUyv.Nv="ƒW\H;"	
+Cookie:	  		 -XQ=-8P1I0; ZgZb9="b"; U!I="f5U"  		  		
+Cookie:				 	 		DK9!s52cP=""; &jyt~=; hC="{[F9Z"; e="5"; ln=	
+Cookie:  	Ya="e*="
+

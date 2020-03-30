@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Encoding:	  			  
+Accept-Encoding:OC	 ,	t		;		q=0.7	,4W,
+Referer://[5378:9A1::0EC:3:3:252.0.250.3]:83/k	 
+Referer:	//[616E:1D6::5:E:9.206.196.26]	
+Accept-Encoding: ,	,	 	  ,NE&QFu			
+

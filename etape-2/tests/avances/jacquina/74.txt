@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:   	,	 	 	 	 	 	sk;3=		 	 		   							 	"F"	;d~M_O2wD=  		 g+EEL			;	  AMb= "I\:\©8";kYD1=  	"\|\ro\Ç\¨"	  ;fcl		 ="\çg\!\^\˚d\%\´µ"			  ;	 	 		Y=		 	 "" ; s    	 	=		  		 "\*\2\÷RjÙ" ,,j#q,
+

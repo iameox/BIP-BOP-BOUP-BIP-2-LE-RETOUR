@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host: [DEA::A:EA21:63.209.189.201]:  	   
+Accept: 	 
+Host: 	 	L%F1$e
+

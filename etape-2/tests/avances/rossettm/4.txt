@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	EZmtP=qEnqXf0; 5A+P0H0pcK=JB.6pg08&9iIg 
+Cookie:	 		6="1B!n"; u8JI=Hs-J	 
+

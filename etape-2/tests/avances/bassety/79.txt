@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type:  t*K'e|rmT8/Yti	   	 		;	 		 		n=""		  
+Content-Type:&H#/dWAxo
+Expect:							 100-continue	
+

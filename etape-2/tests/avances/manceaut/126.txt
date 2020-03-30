@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:		,,, A-U-yruri-at-DDg;  	q=1  		
+Accept-Language:, ,	     Z-sU-hbo			 	  	,*	;	q=1., S-4-Q1k-O1A ; 				  	 q=0.  , * 		 ;	  	q=0,nNFUg	 		  ,b	 ;		  			q=0 		,QGT-W	,
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer: 		B://EEQVf@217.6.253.252:0/N&(/'D$/7/Fd/H4%30%B1%18%29/F,D/a%54%783wf~Tcn?yi 	 	
+Accept-Encoding: 		xI;		q=0	 	 
+

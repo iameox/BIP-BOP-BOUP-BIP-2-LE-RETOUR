@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	$~'Fx=e{; OZ="ko?"; R="3^t:/A"; G#hknSjc="=by"; *=0=		    
+

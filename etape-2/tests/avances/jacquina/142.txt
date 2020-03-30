@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:, 	deflate			 	   	,		 	
+Transfer-Encoding:VVp#aIn.*	  		  		     	;-k		      				 	=	"ŒÙ\^\Áz\Ëµ\:" ;NR    		 		= "" 	,	 		 	   		 		 				 c
+Accept-Charset: , 	13d-; q=1	 		,		 ,		,
+Accept-Charset:	,					, 		  	,	 	 , , ,	,8+	 		  	    ,
+Accept-Charset:  	 	Z-	 	 		  
+

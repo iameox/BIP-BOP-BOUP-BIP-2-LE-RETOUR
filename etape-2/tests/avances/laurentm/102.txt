@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding: 		, 		  , 		  	 	  		  ,	,  	 	gzip,	 6K~v 	 ;		  9X7	 		=   	 "©\›Z\ñ1\G\Ý¼\t\MT¿";		 	  			 cV	 =		wN1GYX*3w|gP;Pb		 	 = "ªí"	;		cx =  			 X		
+

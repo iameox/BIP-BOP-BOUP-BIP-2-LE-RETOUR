@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept: 	 		 		 
+Accept:			 7/*  	 ; G="" 		
+Referer: 		//nl'@?&Gw	
+Accept:  	 	
+

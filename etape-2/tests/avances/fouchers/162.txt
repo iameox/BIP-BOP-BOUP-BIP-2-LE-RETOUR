@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	ey="#$N7!6~18"
+

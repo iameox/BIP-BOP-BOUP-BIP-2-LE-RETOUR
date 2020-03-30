@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:		 	 		 [v2E3BF.6]:6554547		 
+Host:6.6.68.231:478		   	
+Host:	K%A1Z				
+

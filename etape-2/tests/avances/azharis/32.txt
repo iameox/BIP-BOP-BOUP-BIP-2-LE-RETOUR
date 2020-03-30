@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:x|MD6Zb0R9/z7Uq+  	  	;	 	 	  %G="Ä";	   		nEZk|="\ä\s";	t^="M£Ñ\P\‚"   	   	; G="\ý\þ" 	 	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:   A3pS&	 	;		 		 	 		 	  S= "ƒ±Ð„"	;	ZS%%nCR~vjJ=	 	""  ,,   2;	+E=  		 	 ""	    	; 	p	= "‡\'"    ;	 e 			   =  		"šØ\>'U\¬\­"	 	 
+Accept-Charset:	  	,	 ,    	 rP			;	q=1.0
+

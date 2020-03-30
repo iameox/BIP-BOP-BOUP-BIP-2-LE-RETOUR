@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Content-Type:		 iM/V6	 	; 		VH+vqn="\v\Á \!qú\F\>\ÇÉHhD"  ;6Ec="";  Ob'vB="qvÊ\”"	
+Content-Type:	uN/k&Bq&jBd   	;	iM'2#4="EÁ"	 ;+gTkwRu="\ð";	 	 	 h="V\3\“Û"; *C1="\ý"	; 	 		   E=6	 	 
+Content-Type:		  A`/|-XbVAy`u_o!	 			  
+Content-Type:  a~*$/^5		 ;	   	dBo7pa.A7.SMufoL5nPW1cX=""; 	 	doagQ|%k9'C3F9m|ckn2~="" ;He~yG#p$="\f"  	 ; gcS=Ok 
+

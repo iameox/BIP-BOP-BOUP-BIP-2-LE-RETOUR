@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:p/l%CE/?~xz=y
+Accept-Charset:    	  	,		,		 	,vu-+wYmLBQ  	;q=1.00 ,n;  	q=0.9		,			H%;q=0 ,,  			'Juy^5  	;q=0.044 	   	,cczHt	
+Accept-Charset: 	    	 ncW%F4-'B&uqx  	,  fm;	  	q=1.	  		    	
+

@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Charset:	,	,	  ,	  	,		,		,oP+SF	 		;	 q=0		
+Accept-Charset:	, 		 ,,u' ;q=0.3	 ,  k,	     
+Referer:  LcVmE://j*g&@228.205.7.11: 	
+Referer:		//u@JnIun:/90/AVy		
+Referer:		 	vKQYeS3:/SC*4/e/&1%2ChgSH/qd/%5C_4Q%4C%11/y
+

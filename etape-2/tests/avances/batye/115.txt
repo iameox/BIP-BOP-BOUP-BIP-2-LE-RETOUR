@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent: wVk/L	  
+Cookie:PH4y.AAw~=d4
+

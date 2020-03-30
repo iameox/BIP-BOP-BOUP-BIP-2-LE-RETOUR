@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer: 	 		 	D0Hs://[::3E84:7:33:AF:E:106.209.25.247]? 
+Referer:		%3B/ar%8EJ!,Q/i(H:b%C9DQD;My/T%B0's4%769/h4%BF/P%79Srw~c%BA%BE//?~OrIb%D8	
+Referer:/?m%61xFgD9 
+

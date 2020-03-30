@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: , , 		chunked   ,	P ; k 		 =	   "\ðb\r\¹"	 				 ;|.=		"å"   		 		 ,  `Z 	;ks  	= 		 "×\É\Ô"	 ;  nc'lo*zuU =F;u!jO		=	 "\@\–$\£\>\“\ó\hk"		,,				 , 
+Accept-Charset:			,		,  		,   	9G 	 ,5 ; 		 	 	  		q=0.				 ,	%Vxg6#		 			
+

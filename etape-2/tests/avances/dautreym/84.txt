@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	 [4088:1B::1:56E:BC:229.13.8.6]:3		   		
+Transfer-Encoding:,,,   	 	9	 ,		 		  	   	 		  ERm	 	    	   ; 	 Tvlc =	"\É";5Q5pe	=		"\·\ž"  ;     	 vE%T#="";C= 	 			 	  		 	  	*	 	 	 	 ;Do= 	  TX|30			 		;4q   =	 "\x÷"	;'38Du9= 	eH;      		&5					 	=  	 "Ž"; 	R=	"\ýò¿";		  cQ-_eK$* =	 	C	,		   	 		  			 	,  			   		 			Z$	 	 ;	 		 	9bj|_Cwdhaa6=	 a$		  ;  		RsBUcqJ=	  	Zz, ,    	  8O6938k		; yM8Bmh%7P ="\€" 	 ,Gdj#OF,	  			  			  	
+

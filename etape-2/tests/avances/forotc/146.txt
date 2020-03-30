@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:  					  	 	n6 	  	;		   q=0.192		   		  , bENngqY  ; q=0				  		 	 			,,fN2dK'QnJ+0			 	 ,		 , ,    	  ,	   		 ,	 	 	J4Pq|0H;q=0.385		,  		XWu  	 	 		 ;q=1.0 	,		     
+Referer: //[4F1::0:018:A]//2q%40%F7,/%74/_UdC./%526pY0be$q$uJ		
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:			 y#6U|UME2od4c/z
+Cookie:		 K2~+=!?  	 	
+

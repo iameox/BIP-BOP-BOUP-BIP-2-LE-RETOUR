@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:	x~aTn=""; *KlpCaG=""; bca="O%md"; .FB|=	  		
+Transfer-Encoding:	,	 , 	  v3gl  	 		;  	 		 	T		=	 "ó"	;  		d!&k2="5\yXÌ\’\N",,				,, 			 		,fkp-_#gHa 		
+Transfer-Encoding:   , 				 		 	 , 		  	,  ,	Dz	;	8zj*582	 		 		   		=    ""  
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:				 	   ,j-Iu;  q=1.00,					 ,r-40Y-Ps1-xP-G		 ;	  				  q=1
+User-Agent:		 	    ^u 	  		() 	   (\ê) 	 	  		(\`bR\‰Ó\ä)  (\#ì) 		(∞(\¿\_Ú\|\3T\÷)\Ñ)	(\$Ç\Så‚t)    			 	  (ò(–))		
+User-Agent:  q	 	()		(\*∑)	(()\ö()(\Â)\+\–Ù1)
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: 	 	J/gL 		    ; |="\n"
+Content-Type:Fw'_/Syp8*		 
+

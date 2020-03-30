@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:	  BOZ'R4%37IJ'/c 		 (1)
+User-Agent:	 	     		 e	 		qnn!	((\Ü\øl)·ø)			()		 		(\„qÖ\$()\ã)			  eFh ()		  ()			 	 	()
+

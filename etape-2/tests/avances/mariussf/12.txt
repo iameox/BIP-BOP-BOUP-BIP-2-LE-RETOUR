@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:[v8A.P]:
+Host:  	  	  	  8.250.3.62: 	  
+Host:  	   	[v14AD.,V]		 
+

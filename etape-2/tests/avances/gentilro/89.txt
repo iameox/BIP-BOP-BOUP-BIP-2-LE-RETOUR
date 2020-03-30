@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		  	   lS=E22Y%Ct; OVWI-&-=!#4s
+

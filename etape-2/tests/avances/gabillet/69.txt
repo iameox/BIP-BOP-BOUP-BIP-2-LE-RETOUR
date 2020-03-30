@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:x-50-uf-e			   		 ,  	  b;q=0		 	 ,	
+Accept-Language:, 	 , , 	 	,,		,  			  ,,FA-tb	 	;	q=1  		,  	,		 		  	  	  	 HILCTP		  ; q=0   		
+

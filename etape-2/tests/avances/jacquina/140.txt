@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Charset:	,			,	 			  j		  	  ;q=1				
+Transfer-Encoding: ,,O	 			 			; 	 s  			= 	 	 "5\≠î‰›\¢"	;  	   	rd	="r\4\|\ê"	  ; 	qtiM	   		= "ì"		 	 ,	, 		 KM;	  2gK=		"µ\]\≈∏\¨" 	 	   ;	    	s   		 ="\‚◊z" 		;	 	  	7L=   	 "≈\÷ë", 	,  
+Transfer-Encoding:,		,,	 	C	 			;		pc+&&RLs  				    		   =   	  			"ç" 	 			  	   ;		 	 FM  	=		 				"Ä)\ïeÇô\r†óÏ#" ; -2= 		    "\|\j"; 			4~18S="\^"		;	o~V= "QÒ";  	 c 	="\)˘"	;  	  			X^=	 ""   	;	uYX#dPi	=		  	 	 	 				"\m\@\è";	3b=	  "À" 			 	   					   ;7p  	 		 ="Q4\˚"								 ;  		 	K~P&e` =	 		 	 	40y;U	="\Ÿ™â\ÿ\/lEò¬" 		;		1q-w!|	= 		 "";  	 		 			x* 		  ="\˚\ ö·\÷\¶™~\˙8\Ìeæ"    	 	,	 			,	, _upBQ^F88  ; syWuKsElT4			= 	M;  		 	R+` =	Iw54QfU$			 	 	; 		twM= 	 	 	""	 			   		 	,		  SN_							  	 	;		+TefI+ 	 =	"\_";  Gf="";	`   	 =  		 		"Ü\:\ "	, 	 	  pl7!OTz8 			;		j`!GPK7M_is	   =	  "0ÁZ\S" 	;	 				  			I	="\&\ˆ"		 , 	d   		 ;	P =				 ohl5%lmeYp;  		W5vL^tKdnkcFM = "¬"	;    3* =	"" 	,vI*+ 	 	;  	 	   	 	 M  			=	"\”\≤\¢ó]\»" 	, 	,		`		 	  		 ,^   ;iDdpwV  =	"≠\z˘\]á\ﬂ";  	 N =	   	"" 	   	 ;L  	 =	  ""	;Xq.	= 			 	"\N\á\µ"		 	 ,		 ,	  		 		upMa	,		     
+Transfer-Encoding:	 ,  	TOuqX
+Transfer-Encoding:  , 		 		   			 		, 	 	,	,,	 ,,	   FHN 	; t  = 	"" ;&1U="Ù\àQ¶" ;    	 UM=""		;			xju			  		  =	  	 		  "\q\Ê";	Y=	"\I\A" 		,X  ;		 	PM =""	;  'HhjO0CNe=		"" 	;#L55A=	  	 ""			   	  		 ; 		 	'A.u = 	5,chunked
+

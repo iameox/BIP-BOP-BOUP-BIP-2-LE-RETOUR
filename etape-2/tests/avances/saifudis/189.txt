@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:  [vACC3F.E;-pB!e0~z]:4 	 		 
+Host:   4.230.6.168:316	 
+Host:[::3:7C:DF:F:210.9.8.239]	
+

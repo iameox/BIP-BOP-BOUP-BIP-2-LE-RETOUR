@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:g.ou="besi^%P"; Q="#~A!"; 3HK="KI8}d"; KCue.xT=; '3V4v^~=; Mxcr=YC83x=~[; AUV=q3 
+

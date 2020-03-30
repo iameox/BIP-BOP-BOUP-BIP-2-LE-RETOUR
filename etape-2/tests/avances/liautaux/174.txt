@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	   	.F$doZ'cG0=q|f[}.; EvTv349W43G!|R8C|`.=
+

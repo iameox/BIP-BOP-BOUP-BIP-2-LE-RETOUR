@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie: 		*`l="s#rDA"; J~~HjC.7eD_yCV="j}"; V=v<2; v="w-"; sz="SF"	
+Transfer-Encoding:,,,,,     jE		;				 	 %l		=	  		"@" ; i2Uy% 		 			=  				  		  	 	  Y3T$6   ; 	 	z 	=	  	"\};\KL˝\Æ\Fd\ß"	       	 ; 		  -		 				   	 =  ">◊"		 ;	 		 	b 	     		 =	 "\è"    	 	    ; 	  		    	 		F  =	"";	$~u  	 =	 	 			C 		 	,		 	 			cvYwUNh#zPUE,  
+Transfer-Encoding:	,	  	,.	 	;	 	 	 	 	M&Oc	="\ﬁ\÷\µ\ï";A		="\lD\D"	 
+

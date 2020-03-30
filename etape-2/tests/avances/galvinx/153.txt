@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:	 Zxlus-u-P-C-SI-Y-e-3-o-w-F-5-C-3Zz	  	
+Accept-Language:   ,,	   , 	 				  vig 		 	 ;  		q=0.  	
+Accept-Language:	 	 			,ZY-t		  ,	   	dH-d8	  ;	 		  q=1.000	, 		,	 		j; q=0.
+

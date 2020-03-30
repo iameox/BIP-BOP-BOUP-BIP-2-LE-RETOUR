@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept:c/*	 		, kl/*  ;  	sI|-Gz="j";sQ.90ED=""   		;6F="\á˜y";C2^="0\t\ô" 		 	 	 		;	t=""	  ,   		 	   				GvnBl/7s2hQm+2 	    		;	   	2+i=dYP 	  	; 		  ~d="y\Œ\ò\P\Î\²" ,	_o/*gfB,,KRgk/Tq7HP   			 	  				 		  				;JF="\¿\#Ö¬\õ" 	 		; 		 2rT="\+n\ÝÔ\=\±\#Ê";qL="º4šl\¦\"" ;Bkv3Dqp="M"	 ;P+io9pj~podt="\Š" 		 ; %eI-="\c\ä\µ\;" 				  , 	,  ,	 !/#m!Tz|aC_Sm 	  ;	 q=0		
+

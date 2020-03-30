@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer://8xz@1.1.253.204/G%00//N%2B/31c/ 
+Referer:  	   			lrP://%589eSiX%26tJ8B:6553/S?e  			
+Referer://248.83.165.6/wM/uK/ 
+Referer:sL3ik//B/f*q    		   	
+Accept-Charset:   	   	  	 	 , 		 	~R		;      					q=0.683   	 ,	H7;q=0		 	 	 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:+="+"		
+Cookie:	      	    7d%&cJ~$H!$-xD$=:kjwV
+

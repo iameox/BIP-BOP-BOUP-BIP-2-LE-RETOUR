@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: FTK/FAXzbS
+Cookie:+4S=e<r; +N#2HHni+dGM=<gi/; n-l=bV`j8u6; Y4=; ^=; Qo^=""  
+

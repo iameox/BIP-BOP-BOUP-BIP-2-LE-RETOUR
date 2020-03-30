@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: 		,  ,	 ,	,compress 	    	
+Transfer-Encoding:,,, 	  ,		   , 		&v , 
+

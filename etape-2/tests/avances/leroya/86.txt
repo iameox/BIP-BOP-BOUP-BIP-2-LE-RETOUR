@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+User-Agent:80/^   		    
+User-Agent:			 ory/s   	  ( ¿\ó)	 	(\¯\©Ü(s\c“\¼))  
+User-Agent: $$^+.E'	  (õ)	  				(t*ï\š)	  	  (Z\³)	 (¼i\ÿ)
+User-Agent:   P 	 				 () ({()(3U\”9c))	(¥\²\3\*ñ)		 
+User-Agent:   	*ajoH/tq	 
+

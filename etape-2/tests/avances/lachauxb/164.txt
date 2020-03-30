@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:,	  	 ,	,  , 				 	  	,	 a-fH-b;q=0.8  	,
+User-Agent:E.B   (Ë_íœ\Y\¶”())			 
+

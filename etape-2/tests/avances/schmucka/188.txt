@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Charset:  		,   	   k2u  		  			 ; 		  	q=0,		 
+Accept-Charset:				 ,      		 ,	,	 						IuHRX5p	
+Cookie:D5uT+Ki="0jN"; f^v=Gv@_(; #I9%5="v"
+Cookie:y=` 	 
+

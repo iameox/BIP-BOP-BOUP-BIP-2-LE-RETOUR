@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:   	, 	evA-xqA-UbDx4yw8		 ,   			
+Content-Type:	E|2/SgSl8G		;	qH="O"  
+

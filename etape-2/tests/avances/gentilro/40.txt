@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:,		 , ,	, 				  ,	,		 ,		,, ,	, 	 		G	 ;Ie5	  		 		=	""		,	 	y  	 		,,1xIz	   	 	 		;	  C!		= "\^\ZZ\ê³"  	; 			 5~ = 	q8' 		; cJ 	=		 	"\Þ\h‹ÏŽ\L"   	  ;    O~h6=3V 		  ;	 K*~a~EYB	 ="ã"								;	  6o8'		 		 = "D>}\ø\l"; -esR 		=  	"";	 		 	  		 		'=	  	"" 		;   		  	6%v5 	  	  	="v" 							 ;  	 			 	 	 G			  ="\<ž\•1\ä3Q6"		,	,		  				, 		  
+

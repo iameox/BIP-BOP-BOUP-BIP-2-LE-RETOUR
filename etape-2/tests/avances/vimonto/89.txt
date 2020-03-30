@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Host:		 [v4F1528..]	
+Host:[vD.;)jB]	
+Host:		 206.40.8.252	 	 		 			
+Host:[::95:BD:3F]:06 	
+

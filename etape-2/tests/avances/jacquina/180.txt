@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:,	deflate    ,	,	
+Transfer-Encoding: 	,  		,,,  			  	 	 		,	,,		,		,_hwx^8R		  ;	  I	= 	    			 teC		 ,	  	 moE2		, 	.p ; 	o	 =qd; 6o3qA#0 	   		=	"\77¯™\•b"  ;  D  			=")\Ä" 			 		 		       ;8$J7J= 			""  ,    ,   ,	e0jumiyS	; &		  =	    	  "¹½Ù\Ø\¯B"		;Uu0^$jh	 = 		_5j	 		 ;zSpN	=	q	 ,i'EeP 	 		 	;		   					x.w      ="" ,
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie: Y=; W=O~c; zB="S"; gBiC=K   			 
+Accept:BD/RZ		;  suG0="CH"	;	  		CX=av  	;Md#=""		,z2/i 	;				 		  				 q=0.41,	
+Accept: 	Ul/A#F	 ;	i.*=""		
+Cookie:u=""
+

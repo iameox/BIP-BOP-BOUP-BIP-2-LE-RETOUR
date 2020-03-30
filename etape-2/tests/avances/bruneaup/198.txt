@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept:	X_/*		 ;	  		0*#6iqC+=""	;	q=0 					 	 			 				 	
+

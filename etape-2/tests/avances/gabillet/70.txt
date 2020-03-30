@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:  		o/S6 (\ã\>ý(\È<\|ª\Œd)\º)   	
+Accept-Language: 		*	 ;	q=0 	,	 
+

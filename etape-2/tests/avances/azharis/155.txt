@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept: JXI1g/* 			 ;	J="\v\‡#Ã-ÿ\bY"	 ; J="\ó\×{Î\ð\ƒ&" ; 				  		 		F6q=""; Rz="\t" 	;6AcX="\a±Í£™”†Y"	  	;  	 .="ñ"	   	  	;  r="\Lx"	 	;h="\‰\È\5ë\¹\®$\%" ;+xV6="";K="\Ð\ù`&\\E\/\Jü"  			,		, 			 		,#piapMSYE/.QSmtQ   ; OzfpAEVj="˜\A\£\0	\;¹"    ;	q=1.  	 
+Accept:	cGe/o	  ,, 	 	 ,			 		 		  4+y^E&Q96/*	  		    ;					CI="\€\–",   	
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:   		 			 	   ,			y  ;q=1	  	,suFi&2;		  	 q=0.			 	   		 	,,	 		 oK	  ;		 q=0.144 ,,q|A  		 	  ,		~ 	; 	  					 q=1.0 
+Referer:			B/eH///,I//Mc?	 			
+Referer:	 uZ:/D%C8s2o%BD:!W~/? 
+

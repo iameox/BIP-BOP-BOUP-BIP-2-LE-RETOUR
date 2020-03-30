@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:								 			  									 ,,	 ,,   	  fAz-NQ			; 					 q=1.,	,	Vx   		;		 q=1  ,  	g-6apKu-R-pnP-go3-BD, B-WEV0H0K-SiVmznj,  	,ib    	 	  
+Accept-Language:   ,	 		 		   		 uq-p-L-b-hU-k5GOu 	;q=1 , xV-lZ-J-U-RX-VLRQ-2;	q=0		,  	  	O-s-u-h,			 	    ,Prt-nW-C-M	   	 	  		  ,	   Gte 
+User-Agent:	zr/ZZ 
+

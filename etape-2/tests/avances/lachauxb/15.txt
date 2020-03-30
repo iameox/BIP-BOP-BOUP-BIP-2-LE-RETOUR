@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language: ,  ,		 ,,		 		,,	    	  			 ,, 	  	 ,,		,,,lj;q=1. 		 ,		 	 
+User-Agent: 	 	2/0GR6# 	  ((_\¿\(‡® »\f)(\ï\ò)\±\8Ê)		
+

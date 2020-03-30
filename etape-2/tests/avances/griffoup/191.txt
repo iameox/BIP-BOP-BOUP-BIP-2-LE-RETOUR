@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: Ty3^J=/fW+U}oLKsY9; l$&w`$SbsVD=^L; A=ooRl; Na=IlP 
+

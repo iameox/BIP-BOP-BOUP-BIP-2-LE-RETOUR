@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:^=; aFYl2j=W; E+b=k; Q=5$; nYVU=v7T[2b4D_; ml+'pY="]_eT:"
+Transfer-Encoding:		 	  ,	 , ,  	 	  B;	 Y3%l   	=	    ">\ñ‘\^…\n\◊\7\["   ; H~i   	="∞:", 	  5 ;| 	="",8			;	 Ozrh = ""; +s=  	 $iE, 4U  		;	  		|q=		 "ê\∏\KÅs"		 		;VQFSdV$LoD^0c	  	=	 	"Ñ’";	 	p		 	  =   	 	"" ;T4Dykm7uRlKclD#g ="\$\™ΩkÇ\Ñ"	 ;	%t`Q	 	  =	 	  	 		 		"4\¬" ,
+

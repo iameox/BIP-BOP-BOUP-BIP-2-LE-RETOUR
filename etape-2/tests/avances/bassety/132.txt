@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:	 Nx/8+-k#	 	    ;	  	  5U="¯”\Ó0s"	 	 
+

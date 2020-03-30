@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept: z9Is$TdP/*;	  	  	 -6w="6\QZ\³"		 		;	 					dB=""   	; 	^v="¢\l—­\G"	
+Host:  [::DD:7:1:5B:3E0E:115.228.225.206] 		 
+

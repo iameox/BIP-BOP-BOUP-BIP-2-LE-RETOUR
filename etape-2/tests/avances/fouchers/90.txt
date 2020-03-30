@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:			  	,,	  	, ,,,	 			 ,		 ,		 		, ,,,  K_ 
+Accept-Charset:Wn!VB.	;q=0.	 ,	,  8TMK		  
+

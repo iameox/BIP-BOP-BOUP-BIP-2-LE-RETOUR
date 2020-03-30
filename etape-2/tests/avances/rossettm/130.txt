@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:JK|y2=; *yBVX=; ljRM*X`s="r"; -=""
+

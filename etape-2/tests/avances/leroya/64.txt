@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:	  		V4V&uhNzL-U/O Vse'J#/~		 	 8 
+User-Agent:G   	(\ù\‰\¿û)
+

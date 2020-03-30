@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:,     ,  		  	    		 		 		  , , ,			 ,				, 	 vwQl-ys			  ,
+Accept-Language: 	  ,	SI-IS-7-o-c-f-Ew9		,		   		,	M-S	 	
+

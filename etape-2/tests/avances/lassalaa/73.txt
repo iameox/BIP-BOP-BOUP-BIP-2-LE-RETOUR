@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:		    ^/B_A.1TFjVR5r.7ORhAL  				 	 ; 2STV=.r6aExb 	
+Content-Type:	i/B;d#Z#|=x;	 	 IH`4o|="\Ð}\Ø<õ\ª³\’\Éo‹Ë"  ;!Y="¢\ï\€;\»6";  	W="œ*Z\->Ñ\ì›js" 	 ; 		PmF="ª'Ø\ô\ùì"    	  	;	 		  4O3v=""	;  s||~sMi=""; 	  H6o#eg%j="I_"  ;6Wf`5G40Er#=""     ;	   |="Õ/\Š\.\Ä\á†y\Ž\$\^"
+

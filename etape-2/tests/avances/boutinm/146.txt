@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:U'=; *=""; |!=JsWOmhU6|@; $=""; 5="h"; wn#jI='?Vlo_
+

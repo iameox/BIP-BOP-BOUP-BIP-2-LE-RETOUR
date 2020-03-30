@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Host:B0*:
+Host:	 	[v7..*itz(f]   
+Host:231.243.57.245     
+Host: 	 	 		  	[::5:EA:D:17EF]:6 		 	 			 
+Host:[::C:650D:F] 
+

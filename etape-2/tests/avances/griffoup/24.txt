@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:  		 	%GjfVZG4G	  ,  ,	cI.2	; 			n =	w6p 	, 	 		gzip,^Ggt&T 			  	; 	  		  	   4PL 	=					*;    	.  ="" 			  ,  					 #jdV	 		; DX0Q^J^g%3OGxWc8bR			= 		"\∆"     ;		e 		   =  	"\9Qü"  ;	  	%	 	="éÎ\[\èWA≠J",,	 j	   ;  	P3	     			  	= "\´\8",
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:X&0=""; N#t=""; 6%SYPDqO="<"
+Transfer-Encoding: 			 			 		,,	,,    	      	 	  	8OP;3j-xzTt 			 =   "·¥Î"   		;	  !i6F&&~1lHKfM`		   	=	"ª\¿"  ;     	 	W0YC'		= 			"" 			 		;  EX|Y 		=	  &zZ;k+h 	 = 	 ""    ;    tzd	  ="\~"			;v=		 		"";	 		c9y	 		= "\@"	 		 ;	&ob = 	""	;	 	   		   	 		42B!  	="\P\»"	 	;	 		Xs&a 	 = 	"\ê’\!3~\µ\°\¾" ;  q=	"";	 			 				 	     	 $q =		    "º?ì"  	 	 ;		ERBaF= "" 	;		 EFhc="\]\{" ;    	 	  1b`	= ha2&XKI$wnDQU_f				      		; 	    		 	 	C= 	"" 		 	 ; 			a	  					=WliP+q ;  		 		 	 	    V8&wp_6	 	=	"ó\=\Ø\vž"	;	op		=""	  	  ;lZ= 		 	|. 	  	;	 	   L8 =P	 			 				  ; 	 	 Q81# =		"Û‹\ä°"; wxmB=*E$&A.IUZqQ9,   u-bdDc2z		 	   	 	  ;nk  	=	 	 		"\-" ;bEt|2TdNCqGR!=	 "\…\7…\ó\wÁ/";	  dPxhBvHm!AwiPGwptU="\Y\v\m\Óþ\³\Y"	 	 		 ;*lI =""	 	 	 ; 	 Qm="Ó\{°\Š"	
+Transfer-Encoding:DU_		,		  compress	
+Cookie: Om=""; |6="8+"; Fq2mfF2r47=ZO37rG
+

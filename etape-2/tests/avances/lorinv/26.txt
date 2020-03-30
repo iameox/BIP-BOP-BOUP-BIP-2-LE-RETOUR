@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept:	  LPWg/*		,			 ,	,,  	ul/uaIqTW.y7WU*QwQGRvnK 	;	A=""	;cBs=">NÓ\kv"	 					 	 ;   $gw-0$FX.="¿"   ;q=1
+

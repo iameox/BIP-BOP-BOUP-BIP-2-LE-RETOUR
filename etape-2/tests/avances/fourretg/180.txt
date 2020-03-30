@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Charset:, y`6i$ci'mi		    	,  ,		 Phv#0o~7   
+Accept-Charset:, 	 ,	, , S 		 	 	,z3	
+Transfer-Encoding:,, 	 	 ,   ,		,		     	 ,	 ,,,					  P%e;			 6x	=		"£"	;			zd4J6.6&p 	  	 ="\Ã"	,,			 	,	x		   ;se& =	 	""	;			ELREnA$-   = "gWC"  	  ; 	i+Gq|X+					="\#\•\ˆ"		 	  		      ;X =	  			ZybKCVZ ,		 			 bR.		
+Transfer-Encoding:  ,	 		 ,  	,5cF$kAR`	,    	chunked	,,SD~&;	  TVJ'uJ     = "©\8\zU\á\ v"		;		1LO	=18v; 	    	  8 = 	   		  				3	 	,	i	; 	  	Vq=	 "e\«"; L 	="î\%\PF\º"	 ;	BhO			="\N"	 	 ;R= ""   	; 			+ld.9		=  	    			p		 		;   	   			5Z$n 	 	  	=T-$!|			  		  ;		3DUH = "Ÿ"; 	P-h5HF		=			 	 "ß\W²hö"	
+

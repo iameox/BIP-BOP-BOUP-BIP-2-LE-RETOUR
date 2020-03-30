@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer:j://b@9.36.42.135:/R?d* 		
+

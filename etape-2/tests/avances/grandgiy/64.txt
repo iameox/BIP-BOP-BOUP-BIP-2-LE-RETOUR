@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:#SA%4Mu^JIZ6UMh&="R"			    	 
+Cookie: 	 2NYgU&q="Qrmu" 	 
+

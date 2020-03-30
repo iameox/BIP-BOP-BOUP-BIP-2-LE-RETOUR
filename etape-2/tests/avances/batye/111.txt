@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	  			 	  		Z1q=-y; k4="HLcM0"; K1j="7S" 
+

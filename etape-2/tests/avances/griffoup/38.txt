@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	 b5="'9"; 3=g 
+Transfer-Encoding:,   ,  	,		  	  ,			, 	, 		,, 		 , 	, 	 				 		 , -R+Nrs			
+

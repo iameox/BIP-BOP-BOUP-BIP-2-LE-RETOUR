@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:  					,			 ,,						  ,,			,,,~tB^JI	
+Host:[EB:727:294:42D:E:D9A:250.96.116.0]	
+Transfer-Encoding: 	 	,	 	,	 ,     		 ,Xt	 
+

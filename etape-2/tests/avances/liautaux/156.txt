@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:  TFMY=""
+Transfer-Encoding: 	  	,  , ,		 	 	 , , 		 	N+9; 			  		uWuNgU1f1Vo2S 		 	="ƒ"	;			 	m="" ;  Yg9J8hsv%W|M9o = 	 	 N ;		   U0'j4CkyIDaE!c		  		=		"s\–K{"			 	 ;zQ  	 = "\E\8A" 	 				  ;-Yq					=		 	"\ú"	   
+

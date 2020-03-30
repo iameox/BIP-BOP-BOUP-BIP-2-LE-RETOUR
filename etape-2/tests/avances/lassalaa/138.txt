@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:   		 wDz3E=(; %&0=; V9ycJxIH5fckQqdVeB="#@1|"; |5^R=""; ^#vO*G&=AJG>eqa)qF?; |iLfO~gj=""		 
+Content-Type:eQ/5;  !="f\…" 
+

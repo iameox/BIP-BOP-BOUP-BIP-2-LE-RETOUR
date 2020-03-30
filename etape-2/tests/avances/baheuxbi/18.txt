@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+User-Agent:  		f2
+User-Agent:	SR   (“()(\Z\J&)\ˆ\J‚jGp¿\\¤£\O÷\{(Öè\·\Å)\…\…?\ûÖ	)		 		  
+User-Agent: n  ((|\<é3[\9\¼))  (\¥\1"5()) (\ñl)		     (®\Úmı)		()	 	  	 		
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:	  	   'eo/w3 			($Š()\¼í\ø) 			   		
+User-Agent:	U/%jAGe^.mB	 ((\ùˆý¦\”\š\i\ý)­uü)
+

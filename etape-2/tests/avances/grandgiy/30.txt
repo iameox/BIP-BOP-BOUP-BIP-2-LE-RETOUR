@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:  	SB#/f		;	kj="" 	  	;   %mq="\Û\Ö\@" 	 			  	  ;		rcJEI`="à"  	;	 h.T="\î…D"	;		p="\´“\ƒ\Á\çq¶ã\ß\a"  	 		;		z1FH="";	  				ZA="\<\õ\g"
+Cookie: 	K~S="S0e"; zmx||9%v_EsQixQC=&^A('j=p'; U3YC=i; YhWLEzh="~"	 
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: aZBvPNw4H/J*^J258
+

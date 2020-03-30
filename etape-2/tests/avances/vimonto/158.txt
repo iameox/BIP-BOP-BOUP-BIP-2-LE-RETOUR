@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:   [v1.wt&] 	
+Host: 	 	 		    	%81
+Host: 		254.8.224.78			
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	bxh9=J; Xb="l"; vXZd-="$"
+Cookie:*SC=""; oscb=p		  	   
+

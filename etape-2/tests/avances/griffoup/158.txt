@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding: ,,		 		 	 , 	 ,	 nLCTY	  			 	 	     	  	  	 ; 	j_Sw	 	= "\Ë\Eì¸"	;			wx=	 "(\‡\-O"; q ="¶"	;	*cQhXv	 = 	 "ò";	x=		"F\éª\¾\«¸=\9£" 
+Transfer-Encoding:  	,	 	 	, 			 	,		 	 	 gzip	   , ,	
+Transfer-Encoding:oWzwnkw0vWJ      , 					,  ,	        U^3N` 	  , 	 
+

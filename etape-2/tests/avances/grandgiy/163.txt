@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:		eGXI1S/4 		;|="\ú"  	 	;	f=0JeL1
+

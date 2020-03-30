@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:PaRvN=	 	   	 
+Transfer-Encoding: 	,	  	,	,,	, ,,	  	    	 		,		   			      	  ,		w8E-;     	 		 *&="Žw" 			;  	Z=  "-Ñ";b  	="\ù"   		
+Transfer-Encoding:	*sTe ,		
+

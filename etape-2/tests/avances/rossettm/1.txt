@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:C6^v`^PRatrD			 (b\h\]w)	
+

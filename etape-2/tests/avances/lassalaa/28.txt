@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:	y/!IGUt4M4$%	
+Cookie: 		  	 	NBWH=; Q=MKn>@~r[x!5; *=GF; W=B}q; gdspxB3.rv`Y="xI" 
+

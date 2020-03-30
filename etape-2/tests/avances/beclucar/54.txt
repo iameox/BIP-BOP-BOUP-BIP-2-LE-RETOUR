@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:		zhLbngMLl/V53qnyfU	; 		 VSY="";mRR="k";		C2$=uaa	 
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Language:  	  ,	 	  ,	, 		,	 ,	 ,   	 ,		 	 yK   
+Accept-Language:, 	   	,,		,	 , 	Zf-B 		   	,			 	  
+Accept-Language:,, 	q 				 
+Accept-Language:	  ,,	EpI ; 	q=0.85 			, *    	 , 
+

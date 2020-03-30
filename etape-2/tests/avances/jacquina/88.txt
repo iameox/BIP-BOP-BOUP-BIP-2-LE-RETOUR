@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding: , 	    	 	  ,  	 , 	 chunked  					,  , e 	 ;r="\jc∂\“\“\m\õ"  	 	;	 $v'rcp 	 	 = 		 "" 		 ;		   _R^H= 			  "" 		 		 	  			 	 	 	 	   	 ;IEea-Y  	 =  "ç"   ;	okV%GdYezV     =	""	;	 %X    =	 "¥\H"	 ,	  	 		   	    ,
+

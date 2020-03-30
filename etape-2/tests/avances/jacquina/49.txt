@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:			 	#C3S-f0#w;mWe2 =   	""; 	B ="\Î\±"		;	 5   = 	 				 	   			 		 28	 			,`^*0e4vvP,		Pc!	 ,	 	  	|~p	    ; 	hJ#X9		 		=	  "yÕ„\Io\ÄÛ\Çc";	0		 ="";   		 	i*gAh    				 			 =	 	 "\˘"
+Accept-Charset:	  	*, 	u$C6,	 ,	 ,	 ,   	mUoQ30FaeRzCX6Q	,+xj		
+Transfer-Encoding:	,,		 					,	  		^	  ,	 	  	 0^m2_lY%9  ; !B~ax-*	="" ;  	NzQj		 	   ="\[1",  		LP#_I1	 	 		;G  =				   "" ;	qQPv	 	="∏\zÁI";+xH#1TqkV=		 "¬\˚Ä\∂\Ï≈"	,,,		 ,,				 	i2	 	 	; j`GVEkV=	"ê\|\Õ\e\€\U\Ùmx\ª\-";   R'=	    			  "\N\q‚Ô\ö"	   	 ;|o=_jsjs		 	;   			t8z= "" 			; 	  	sn` = 	 	"©\å" 		;a	 =Z&	 		  		 , 	 	,			e'6n3ilZ6inW3mv 		;	 		 	 	5bJz				 	 	=  			""		  ,  1tq.TsfC	;J|do`		  ="\`\»N√\‹";	tH ="\–" ,		, 		   , 	  ap;   wr= 	 	 		 "l¿"		 			 		 ,	%18 	;	h`U3X3k7Rc!gLx 		   		= te	 ;				 sO	  	=	 "à\‘\âG\l\Æ_\0Á¬\±h\U\ïŒ\⁄\u";	 			1&="\e" 		;	   FwQ 	 	 = "\Ü\¬\Ω\l"  
+

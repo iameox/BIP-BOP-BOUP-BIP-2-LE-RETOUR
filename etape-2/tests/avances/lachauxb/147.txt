@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent: 		    7LBU|lC		(‹I°\‹) 	  	 	   	(\Ë(Ì\ùJ*)\0)	   ((\8\?\S\ÛR)(“±))		
+

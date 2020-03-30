@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding: JI22; 		q=1, l_m4^FY*9wM_	; q=0	 	 	 		   			  		, 	, *	    	;q=0.2	,	 		 97;q=0,	   	 	5		 ,x   	;	 q=0. ,			U_90eH  ,	  ,
+Accept-Encoding:	F 	 		 ;q=1.					 	 	
+

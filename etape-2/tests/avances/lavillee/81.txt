@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept: 	      	
+Cookie:3un="0S"; ZA8wc.+3%%cV3P=   	
+Cookie:	 	 w1=; m6=Y; Vb=""; 8=""; 4R3=LF.; &g6=""; $=""; O=s; g=""; zuItN=a>~sx4L#c*LP'x>cB; 0xi="x"; PYcR="UJmD5=c"
+

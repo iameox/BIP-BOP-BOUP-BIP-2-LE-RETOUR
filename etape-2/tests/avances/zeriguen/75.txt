@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:T			
+Content-Type:   QW/OwK    		 ;  	  	w="\“\ִ" ;  	 	   J=""	 ;	 3="\ג\\”@y\ÛO"		 	 		  	;	G="" ;		 	z*2lc^&g=b0LM  		 			;G3#="v\"; '="¸\פ\םל\ְ\UK\y\8†\P\+”\ט7P"   			 	  		 	 
+

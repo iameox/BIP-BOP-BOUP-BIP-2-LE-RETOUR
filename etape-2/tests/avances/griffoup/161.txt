@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:			 	 	  	 oIo="-"; $FSxe=; 7="SR1_/dJsDahA"    
+

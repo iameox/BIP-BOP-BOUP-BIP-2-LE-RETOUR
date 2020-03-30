@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie: 	JL="f%"
+Accept:	 	uN/* 		;	 			   PB="Òt\Ï" 	  		 	  	 ;  gO8y=r3	 		
+Cookie:W=")+"; j="k"
+

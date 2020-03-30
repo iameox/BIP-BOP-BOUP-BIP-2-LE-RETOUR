@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:	   	,	,     	,	,  z;-bI'3En9'-GW 		=	6h	 ;  		 T=	 	  "\ы\'"	   ;3ZUE	 	 =			  		 "э" ;!VwmMJ   	 = 		""		  ;	|   =""   			 	 	;  	 	 %U!B8g-!zF   =	Jv	  	,gzip   		
+Transfer-Encoding:	  		 ,g ;	 		 	 	SC1+U=	 	  x;   v=	""	 ; a 		 =	 				 			"l\Ґ\К/"	  	;	 	SY5  		= "\±ри\x\pН\D\G", 
+Transfer-Encoding:	 ,	 	 , ,	H	;   	T	 			=")ъ!^"	 ;  			D50&   		 	 	 ="а­¬tЕ\wp\ \к"			   ;JduBo7XozX%nz-bv3= 	  "\%Z\Љ\О"	 ; h 		= "Ї‰u\+\Е\ЂЖ\Є#\Зэ"		; 91		 		  =				 	 	 				   "	\є\-" 		     			;		'*N+=  	""	    	;Wr= 	 "" 	      ;B%2QhU#SwCkQ		 = 		"\u\g®–ЅyS"   			 		 	; %iQ$cIEo`rcIb0Nk 	=    	"\X\Др…\у\«d"; 	    L	 =  	  ""	 	 ,		chunked,,.k 	   ;Y=Ip00GK!  ;		 	 		 dI7#%s0%	="}‰\С\С\іl";a| 	=				 	"\S·\ђПk\Д"	 	; BE6&rb	  	=		"\а\§\д\И"    ;i="љ"		;S|QU*mB	="Z\nХ"		 	 ,$;It   		 	 	 =  "\QН\Њ±\«&Т}х	a#\л\Д\L\j\vЪР\i\fёn\Ј\нЌ	†ф®"		  	 	;xU8n&				=	""  	 	;	pU#caz 			   		 		= Knl  ;3   =		 ""; 	 -*   =	   $B		   ;	5H%	 	  =		  		"Q" 	  ;	9EBim$8ma	=   	 0F  ;tZzb-!Sn	 =	  "\и\‰з\є\d\О\Ю\¤" 	  	  ; 	 	  	 tW	=  		 "\ґk\` "		;  	  qL=		"";  		 	    	 				 	 		 	 	  	 	Zw`9* 	=""	;%sFJ			=	SNFQwKi 	,~	 ;	%ygx = 	 	 	    	 			 			 "\rФ!\ ў",   	  	      	 2~bD;3    = 	 		 		    "Д\ђ"    	   ;	 	 	 BLB	 	="",gzip
+Accept-Charset: *;	q=0.14 	  		, Z$T	,	!p      	;		q=0	 		
+Transfer-Encoding:  			   ,	  	, 	,	 	,E`		,  ,				 
+

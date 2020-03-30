@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Expect:100-continue  	  		
+User-Agent:	t`BLx0/z~VF-8jzo2			()
+User-Agent:B   	 (3(¾\ð\Q\À\ƒþ\P‘\SŽ\ü\„\•\p\-ª)\ë\Ô\«())	(\¸) 	((\Â)(\¢ÅØ\o\#ö)(¦Ã¯\¯6\|\å$))	(\á¬\ž\×\q(\•\Š\¼\fÔ\>))  					 Y4Y*/`Krfe		(\¾\Þ)		  	 (\×m\¡)	 		(\w) 	
+User-Agent:	Ir~R/cZ 	((ó)\’¥y\¾) 				  ((\3r):[\½)	((\A	†\>7)¨Ü)	  		 			  
+

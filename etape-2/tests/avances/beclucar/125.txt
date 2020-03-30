@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:1*2t/6vj5au+V&3g		 	;      	 	 	 	B=""
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:	 		LpUWAKF7/z4TP 	   	 
+Referer:				   			//ko@[E2::6:B:E:FC:248.225.252.250]/%ABO%BF$q/	  
+

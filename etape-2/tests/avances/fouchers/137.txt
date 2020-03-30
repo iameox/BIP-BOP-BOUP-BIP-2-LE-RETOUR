@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:	  	 	  Y=""; r=<; +iMh=jNls	  
+Accept-Charset: ,			  		   	,	 , 		, ,, 		*8^wW	 	 ,, ,		 %qF;q=0			,,	ga ;  	 q=0.6 	,	  	l_9 	 	;q=1
+Accept-Charset:	 			  	 	 ,		 ,kr0t*;q=0		 	  			   			 	,, 	  K,,	  ^ 		
+

@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Language:,Bov 	  	  	  	, x,PP-aE-H
+Accept-Language:,g ;	q=0	 	 	 	,			,	  	  	  ,		 	 k 	;q=0.45	 
+User-Agent: 		 			  				 JH_		    	c/jkRCHe'	(­\‹(DD{ ))	
+Accept-Language:	 ,,, 	, 	 	  		,,, 	,  			,		, ,		,,	 		   		, 			  ,	,	  	kouJ-OZbkRV-W-pR-d-7-i4-h-A-1-Q-n-eGI-aGEUkF-a-m-s	 
+Accept-Language:,  ,				 	JbY-S	 ,g ;						 q=0. ,A-d-b-E-c-e-8-CN-jV	 		
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:		|AA=[; 02=j 		
+Cookie:	C6r!="v}w$!r6y"; N=Qh; QDNr="++"; j=*g'2; %-34Gy=s|l<Y; !pN90j=""; x=kV; e1gK="j"	
+

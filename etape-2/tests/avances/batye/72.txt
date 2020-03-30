@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:Z="2"; ''V'4z&g=o; 22F=U
+User-Agent:	 YbR8K 
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: 		 		     	   bL$9/d#; 5K$YFK*="\E\À:—"	
+

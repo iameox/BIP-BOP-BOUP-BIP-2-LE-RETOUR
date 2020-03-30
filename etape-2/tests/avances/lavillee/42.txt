@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:		 ZV=""; Z="#u[4"; 0BG="D"; RO=X(aik 			 	 
+Cookie:  		~1.+g=""	  
+

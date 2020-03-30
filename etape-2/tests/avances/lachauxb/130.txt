@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:		, Wf; 		q=0	,			 			pTjaQyvC-v-7-I	   		;q=0    
+

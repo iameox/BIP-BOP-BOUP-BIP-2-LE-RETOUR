@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	 	 pqAt=; 4%Hi="<YVM.rYgeT"			  	 	   						
+Transfer-Encoding:,, 	 cm4t3
+

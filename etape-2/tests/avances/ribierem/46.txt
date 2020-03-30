@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:		//,@[vD.o(GC0-'L+]:0049675973/
+Accept:2/*
+

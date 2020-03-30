@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:		     	 	,V-c-pNO-ne-b5-ZI-0c-i-dI-uEY-Od6-u-m0-lV-oj-nI0  				,	
+Accept-Language:W-QufT-p,j-e-Shl-PsW3BDVb ;		q=1.00 ,    q
+User-Agent:		y4/XbZ  	 	
+

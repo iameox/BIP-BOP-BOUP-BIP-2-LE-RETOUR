@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		d^35*YcBu&=""; U=ap; _%R=URN(K-EZ; j=6:$9; de5Qy=%Ya%; 1=zAYM; db$~3dDvfp=Q0; Y66=r$v  	 	  	 	 
+

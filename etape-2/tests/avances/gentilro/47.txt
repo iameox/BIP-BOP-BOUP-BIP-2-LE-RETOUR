@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	 31~nPdZ="4nD|z"; pvnAB="3"; ^Br="!#" 		 				
+Transfer-Encoding:   , , 		,    	 	,		 		 y!0TyYoC ; 			36ab%^	=	  		 	 "!D"	
+

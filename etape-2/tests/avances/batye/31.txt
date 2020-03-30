@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: x="S)_e="; .uF6=1kp$$lh; 0cmETP+k$Pm=; e=zD; %X=""; SP=<; gxR="<"		  			 		 	    				  
+User-Agent:   		d/%~		(K\c())			  FE/Qov|8N$      		()			(f)	   		  (\ˆ \”š) 		 ()    	   ((\UÏ\ÿ\å\C)€H)	 	 	()
+

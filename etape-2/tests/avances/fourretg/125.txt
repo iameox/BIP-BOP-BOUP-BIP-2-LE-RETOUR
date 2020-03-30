@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:		  	,	&	;	 			  		x 	 	 	 			 =   "\t§\É\xóã"
+Transfer-Encoding: 	 	,	  m*6  ; 1+	 			=	"¡\Âò\/\ï"	   	 	  	  	 		 			;Tp~k=	 "";HeG	 = ""  	;	 b		 		 ="\e\b" 		   		    	 	 , Z0  	;	 	K8'B  	 	=		"" ; n= 	"û®\$\ú"		
+

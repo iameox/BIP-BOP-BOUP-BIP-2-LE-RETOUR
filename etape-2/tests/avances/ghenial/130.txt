@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:		 	  VL://RMl@97.52.6.1:0722/q@%6B6_?%EFVF@$O	
+Accept-Charset:	8  	 	 ;q=0 	,	 					 	 ,  ,, 	  ,npC'JJdO73~r		 	,		,*;		  	 	 	 q=0.0	
+

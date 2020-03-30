@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept: bR/*;	 	'K="2ö5";				 	JL="j"; 	 iK.E!zzFPTU`u="¶"	;  	 	 |UEGP=""		;  			   f="ÎOùú"; q=1.0 		 			
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:	 8Y9c/BoZCX		 	;	 	 k="‰Å}\T\N";  		9nA0=D
+Accept: 	
+

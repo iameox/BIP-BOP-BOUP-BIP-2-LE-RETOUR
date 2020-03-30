@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:		KzOoB=F%o; $4kf="Kp%9E"; lM=	
+Cookie:!="7PN"	
+Cookie:   d="05`ko"; _="4"; M'8-Z^Dkyo^dHnt="reL*"; +-W= 
+Cookie:    		plhTwUf="" 
+

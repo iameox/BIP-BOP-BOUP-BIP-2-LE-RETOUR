@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+User-Agent:	 			 	   bPPH	
+Accept-Language:			 		,,	  ,	,	,vTX			 	
+Accept-Language:      ac-s;	 	 q=0. 	  			 	  	
+

@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Charset:	 			, , ,,  	,		,		cRIIOX`Gy0 				    			 ;q=0	  			 		 		   			,			,
+Accept-Charset:, 		 	  	,		S   ,		 ,_sJ382% ;	  q=0	 	,K	; q=0 	,v7`u  ;  		q=1.  	 , 	   !3J#5	,*,
+Accept-Charset:gvBWS2ZX4See	    						 
+Cookie:	  			  	 p=":D/<k"; !*d.=9XK; Z0o=jRL; QEK$z=r'UyG 
+Accept-Charset:	 	 	c1 ,
+

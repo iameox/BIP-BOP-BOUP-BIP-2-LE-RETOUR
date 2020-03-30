@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	wts^h="n=O"; a$=y; %K="Y2RC"; 0=~; qTO=Hg%$?
+

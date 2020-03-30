@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:  ch		    					
+User-Agent: 			   s8/xTSFi        	   	    	(\-(©\Á)\¶)	( Í\m)  k~a
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Host: 	%76:  	
+Accept:   		  		
+Accept:J*|vb/*;		 q=1.00	
+Host:	[::236.209.255.246]   
+

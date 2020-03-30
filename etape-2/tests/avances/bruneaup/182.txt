@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Host:cq:0065	
+Host:	   							  [7343::623C:0:8:A95:4:B8]:32
+Accept:#sF#HDd/y1InO9A;		SEwZa3="\û\ž" 	;pg="7®"	  		  ;			yX="\Í\“\\‚"	; 		 		b_ic9="\´\4"   	 		; 				 6u=lNntW  ;		 	  	   	 	 ajGv.4aVNVLCK8k=""	 	; &_m6UR="à?¿\Å\Ä½";  	q=1.  			
+Host:   	  [v07.9*] 	 
+

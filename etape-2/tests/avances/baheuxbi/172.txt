@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:	 U1zd  			 		  	
+User-Agent:	  	 	 	DV  		(\	 Ó) (v(‘\Ü\T¨÷`)) 	
+

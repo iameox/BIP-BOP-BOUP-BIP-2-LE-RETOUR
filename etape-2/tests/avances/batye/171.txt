@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+User-Agent:	+AY/GiSf!	
+Cookie: 		   S="X4" 
+Cookie:	 				5N=GT0D'; l1S%Gc=; s="'.[e7"; n2="V<)"; 0^=""; yQ9~E#="C"; 4bXCW=""; h=A%F; k0='Rs_K/z; Eu+FS=N3>iG; d={-X^}iZ  
+

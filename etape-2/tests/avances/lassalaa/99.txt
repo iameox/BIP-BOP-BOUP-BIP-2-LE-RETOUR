@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: ~=paI; OB="u_0HD"; uWw="t"; csTd$l3=""		 
+

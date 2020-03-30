@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:   ,	 ,		  	    	, , , ,,,, 	,!%2i#
+Cookie:		 			 	 ebrnIH-|0U=lh!e; %jg_=
+

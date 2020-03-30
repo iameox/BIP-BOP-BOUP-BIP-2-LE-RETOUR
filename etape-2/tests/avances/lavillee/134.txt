@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:	 		   +^V3y#pwWEyay3R1/5	 	;	  vi=1pG	     
+Cookie:-B*Z=; W=""		 	 	  	   				 	
+

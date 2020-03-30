@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:cug="Xct4*A4o"; jYit= 
+Transfer-Encoding:,  ,		 		  		QD~jIUNpzDZATm- 	 		 ;  		 				  q1m 			  =	 "ô\£\â\“Sæ-" ; 	6	 =		     		 		  "\vP\]\6\W"			;		 		   ~-=	""				;h!pDKWt$cX=		   	"†" 	;%wv ="\‹\2\Pæ"  	 ;  		a~   =8!`y+rkl2arpN4   	 ;l=	 7y ;qh  		 =  "ú\î\N"	 ;w 	 = 	  	"\Ç\I\q "  	    	 ; 	|5M 		  =  "\°"		  	 ; 		 dR="ÅÝ"	,	 ,	   ,VbWC	 ;Gtmq7   =	"tÎNN"   	;  RVx`V ="\¾´"     ,	,,,	,X  		;TA="\O\oR"  		
+Transfer-Encoding: 	 			  ,  	,		  ,			,, 	,d 	;		 	AKYT = 		"\£" 	 		 ;J  	=			 	"œ"		   	  	 ;yEP&=  	  "]"
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	I0="A|Ay`"; VV=Z; `TS=d%_Z`1LXlxa	  			 
+Content-Type:   tXO/1.!			 ;	 %="";$2q&kQ-BzBtObkF="\Ò\¾n"
+

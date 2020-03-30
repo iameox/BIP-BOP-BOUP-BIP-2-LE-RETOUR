@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	  m="k[8HTL3L3"; L=W; TPNO=""; ~v7=!R; !1Ll%q="S"
+Cookie: 	 U`=cVY; dS`mhV="8#8S"; k="V"; AM!aGjcu=; g#Z=})-z>; .~c=; Sm={Q; D=
+

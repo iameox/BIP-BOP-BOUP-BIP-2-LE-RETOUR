@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Content-Type: !#+`l`t/kJH  	
+Cookie:	    	 j=ROz	 			
+Content-Type: 		 H/Y8 	 	
+Cookie:  	 	  			U6N'=9; 61e="=(u"; g2="A"; AgcV*4=e:
+

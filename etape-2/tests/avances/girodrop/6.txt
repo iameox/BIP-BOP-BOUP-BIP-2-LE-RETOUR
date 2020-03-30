@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer: 		  s0MpOMclKe://d@[::]/%D6ft 	
+

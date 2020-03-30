@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:  LuT_$aZbZxO/L4VrrU
+Expect:	 	100-continue		 	 
+

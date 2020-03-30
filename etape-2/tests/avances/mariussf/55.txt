@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:1wF.wm2$&A;	 	1 =	"Òm\4k" 	 ,  	 
+Host:	    [v06C7F.ixdj]			  
+

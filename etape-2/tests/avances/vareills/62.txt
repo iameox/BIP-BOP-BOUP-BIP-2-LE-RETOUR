@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: 	 	     	 	 Aac/D42q	 ;	  	 	V="âbD\bÖx‘»I\í"   					 		 ;	 		   `z=""	
+

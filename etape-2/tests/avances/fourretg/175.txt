@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:  		  ,xCg1T			;		  	!  	=  		"Tù";  	 			 'nvw=	"\ämW"	 ; C	=	"\Ω"	 	;	  	 $N'eU   	  =	 		""	 	  ;  		  	 	    	' =	 				  	"π"     ;	3   	  ="™", 	  Q	 	; 	x6bSI5= "" 	;  	 R$&	= 	"\ß\*ØÄ"	
+Accept-Charset:   ,	   					UV	;				 q=0 ,	   
+Accept-Charset:	,		,   ,, 		,	,,	 ,  	,,,	,	,			 		 			    	 				,, 		  	 	, 	 	 L9Xd	   ,	C	
+

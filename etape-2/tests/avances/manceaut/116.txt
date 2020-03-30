@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:				if-MTgP6	 	  ,,	 		  
+Accept-Language:	 			,	,	,  	p-aav		 	  	,		 		 		, 		Pr;				q=1.0  	     	  ,	NwaeqhvZ-bhp-I		;q=0   			,	,,	 	 ,,t-8-q-d;q=0, G-6aBci-5-J;	q=1.						  	 		  , 	 	 	huC   		;		   	q=0.	,	x    			, ,	 	 ,		    	 	  N-S-kM-H-6-j;	q=0,,    Au-bR-b-w-In-F-q82Ofd	
+

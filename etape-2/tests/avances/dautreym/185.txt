@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host: 		 254.76.69.153	
+Host:1.8.210.113:97	
+Host: 		 [v98A.iS7NXrNv]:2  
+

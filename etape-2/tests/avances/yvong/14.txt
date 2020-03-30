@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:				 	^ 	 		,	  		  HG     	;  	  	  q=1		,		AXbB;q=0
+Referer:	  		  		   		  N5:S/%AC?  	 	
+

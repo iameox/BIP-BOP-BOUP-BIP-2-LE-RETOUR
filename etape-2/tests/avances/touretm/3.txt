@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:	 ,  	h2e%U ,		k7M;	 q=0. 
+Referer:			  		  B://[v856.BPnw2r)C1]:61 
+

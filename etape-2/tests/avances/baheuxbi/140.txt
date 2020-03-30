@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:	Xla6!B-k^p/z  	(\M)
+

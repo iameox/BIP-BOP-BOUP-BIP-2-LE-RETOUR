@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer: 8Y(%AAUK	   	
+Accept-Charset:	 			l;q=1.00
+Referer:eI4EE9zuNADrYg-://@[6B7:D6:D::07:C:243.8.219.215]/A%45Z&Xc$P1A07H7/k&c%C4J/s%5E%DC_/%64%15w%D6@/XN~U?	
+Accept-Charset:  					, 	  	  	, 	 	  	 , 	,rDL2Jo5 		 ; 	 	q=0 	  			,	r7		 	  		 	,,i   ,	,y    ;	q=0,,	T		 	,Vop#but* 	 ,  ,   
+Referer:  	  		  	 	 			  //s@[99:73:4:28D:1:58:2:3A]:/ey8%01&%C8%2D%66PHw$r%A2dTg
+

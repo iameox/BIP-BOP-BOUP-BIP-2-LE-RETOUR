@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:Z-ni7A-C 
+Accept-Language:	 	 bg-M-Ii;   		 	 q=0 
+

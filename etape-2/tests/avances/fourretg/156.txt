@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:	,A2oN	  ;			d= ""		  		 			
+Accept-Charset:Nwv+	;q=1 	,
+Transfer-Encoding:     ,	   , gzip 			,  	 	gzip 	  	 	   	  	 	 			   		 		
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding: 		4			  			 ; 	  q=0,		2k0    	,S!						 	; 	q=0 	
+Referer:  				//@3.3.220.107:1371/_	
+

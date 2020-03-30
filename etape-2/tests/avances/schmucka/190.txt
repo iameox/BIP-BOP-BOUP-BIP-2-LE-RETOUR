@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Charset:   	   Typ7  ;	q=0.2   
+Cookie: 	wmTRwiptB|="*B!{H"	
+Accept-Charset:	,		 		,	 	,		 		 	     ,		u
+Accept-Charset:,   lg	
+Accept-Charset:,		,tew; 	 q=0.		,  
+

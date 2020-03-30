@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:,  		.i , 		 
+Transfer-Encoding: 	 	,   	 	,  , 	, ,, 			 	 ,	,					,c	;		 	 		+   	="!" ; 	 -+e$m#E 	 = 		"ä¿";			 	 m|m=	"¸\C" 	;	   	  #B+	= QQF			 		 , ,, ,	 gzip
+Accept-Charset:  sM8T.vq!lZ	, ,,,,  	 	 	, &L!		
+

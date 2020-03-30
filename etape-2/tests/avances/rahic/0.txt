@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer:  	 a://o@214.234.7.0:6627/GU?%75%5F%5E	
+Accept-Charset:		 		,		    	,	 ,exs			   	 		 					 	 					;q=1, 	 ,	   ,	  
+Referer:		 	 //%44@[::5:59B7:F:B:A:250.57.240.231]:49678/
+Referer:	  Y:~ujzuUu%32%ECQG&V&Nj8PU//L*?%E4+%5A  
+

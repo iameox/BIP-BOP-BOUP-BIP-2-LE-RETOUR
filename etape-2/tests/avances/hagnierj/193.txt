@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept: 	 
+Referer:		//96.26.2.6 
+Referer: 		 yX://[vB.k,XSk]:270746/	
+

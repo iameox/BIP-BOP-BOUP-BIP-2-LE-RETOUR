@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:	 	 	 			,, 		 ,,, l%0 
+Transfer-Encoding:   ,		chunked
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language: 	,				 ,   		  	, , , 			, 		IK-l-a 	 	
+User-Agent:   		_O ()		  		()	   	  
+User-Agent: 	R_f/` 	      			 (ß(\ÿþ’)5)		(\Y()D\ã(Z\|\O\€ÐG\¯\\ò\ì\ê£\ïC–\¼\¶\A)\5¬‰\Ú\'\x¤\©)
+

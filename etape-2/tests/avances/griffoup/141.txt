@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 	 	  	bD="?"; OiFyEG_s="Wh&9!"; z="7qb"; ^3s*NYW=Ar{dP?; LUn$a=""; s6="" 	 	  
+Transfer-Encoding: 			,			,    , 	 l		 ;	   _=	  		   	  	"Â\ã"  	 ;	  	 		N	  		="" ;	 	Ep=  	 ""; 7	  	=#  ; 	 y		=	   	 	 ""	 		
+

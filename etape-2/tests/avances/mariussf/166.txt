@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:		,		, 	,,			 	,, ,gzip	 , 			,	  		 ,	 	VI  ;G` 	=		 C		,	,  zt&_g;O1qGOYd   	=  "\Á\l\n\œ"	,,  	   glNtvi	  ;	!sz=  	 		"\Þ\ò\í",	 
+Transfer-Encoding:,,,	 ,  D%4x		; P   	 	 	 	=	"\a\Åþ­"	    	   		 ,			 	 	 			
+Host:7.56.39.242	 	 	
+

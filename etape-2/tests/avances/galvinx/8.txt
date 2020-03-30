@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:,				,	  		, , 		  		, 		 	  	,   ,		,   	XJ-cIP,kKH,k  	  ,  G-p5bB-l4-5m-i5dYwYNA	
+

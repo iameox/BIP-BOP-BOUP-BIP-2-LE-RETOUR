@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:  X7=R{|Y}; zPiCp1l8K$x=		 		
+Cookie: 		mtA="QDc9"; B6*M=ImwwyVt`  			
+Cookie:T={x2CD; %3!oE=2
+

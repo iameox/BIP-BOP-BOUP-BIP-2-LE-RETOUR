@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:		geH09hXb.Y5LLUkFaW/1ZF 	()  	 	  	 	(T(\ã)\r) 	(\C\q\¹()(\™\ð&)\^) ((\È\nð)	Ê\#8\ß\g\V)   
+

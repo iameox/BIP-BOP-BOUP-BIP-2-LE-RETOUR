@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	   			 	  	  	 	L=]MZ; y&zY=T; |J_w=!Cb; Ig=+8n/; 3m=""; Y5l=""; qfv+=""; 0_o=; iM$="v3R"; f=7`; MTVg8O|="VY2|k-9[5"; sz=""	   
+Accept-Charset: ,		  	 	  ,	  	   ,	 	,		 w13Pk
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: N*49=KZTUqc; K&="ysi`w7L4pw"; %R^W&W=LL			 	 
+

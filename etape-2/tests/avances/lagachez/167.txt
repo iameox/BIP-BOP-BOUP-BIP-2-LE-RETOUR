@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:yO="1"; x^#ceeL8.=l/Zb9o; &W|&=Yg; I$="1h^K"; hnc$8=*:Q; -3=""; F1+ij=""; H1^!w2=I[; ~="E<("; J%="&PA"; Y7=		
+Accept: 	  	
+Accept:		
+

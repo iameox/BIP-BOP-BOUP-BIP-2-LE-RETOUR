@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:9!NC^E$UOZ=""; rskIaGn=""; 4-7="b"	
+Cookie:	 u%=@msr{(5L; A=; 7Pn3SU=G1; W="*XJ"
+

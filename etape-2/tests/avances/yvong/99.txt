@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer://[vD142B.tdt]:9279/!4d
+Referer:		 /	 
+

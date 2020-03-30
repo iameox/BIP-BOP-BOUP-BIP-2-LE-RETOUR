@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset: 			 	i,								  	 					
+Cookie: +4dwb&x%7=Wq|   
+

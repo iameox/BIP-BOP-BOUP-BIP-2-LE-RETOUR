@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:		 		 	, 	,	z	 	;	xO	  	  	=    	 	 		"",  			   	 	 			 ,	.e   		  		;R+	  = 			"\ÿ	\~\£\ \üjó"	 ,	 	     		   ,chunked
+Transfer-Encoding: 		 	  			 	 	,		,	 	  	,,		P ;	 	   	n="\ÝP\1*\~"		,				iS6   ,,	, M		;  E+   ="e\°"	 ;  	 lU  =	d'kvx#h62$z	 	   ;	 	6hK=	 	"" 
+Cookie: Sn4eD3NFDvJ$P=; si="gy"  
+Transfer-Encoding: 	-m 	,o1d	 			
+Cookie:	 		~f="9"; g=Rx%; 5y=4PW>xU2>4; Z=
+

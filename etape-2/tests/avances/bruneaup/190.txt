@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept:		66dv6/*; 	1S|TA=N			;		 TaER="Üú\Û"	 ;  CZbfJf="t"			    	   ;9=""	 	;	 	 			N="¸";A$!ldB9z=""	; 	 M="\Ñgˇ\«4÷é"  ,S.B/* 		 ;	Kf*+GviS="\RÀ" 					;	 !B+6=wU' ;	juy69qbRo6qaMnV`r="";L0byTz|R.A="Ì\Ê«©"	; 	c|~^dC|6t'="&]_≥MS\È\≥"			  	 ;  		|h=&9to		  ; 	 	4zzFUM*y$=At  	 ;d="\‹,";S6=nK   ;	|-Mc4QN0="";	$|`1P=""      ; Ut="›\Ø\m˛Q\qé\˘";			vTtXSuVJZl="\è\ÀÏ9R\q\â"; x="^ë\¶\g"	 	; 			XuN=""	;b`^0="\œ:ŸL∂\‡\4_"	 ;u="\y\ﬂ\?≤\I≈\;"		   	 	 ;	q=1.00
+

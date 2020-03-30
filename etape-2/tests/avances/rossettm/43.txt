@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:0ik="r!59"
+User-Agent:sy/68~Q	 ()		
+

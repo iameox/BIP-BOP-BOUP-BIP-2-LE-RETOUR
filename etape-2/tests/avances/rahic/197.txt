@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:	 ,	 	 	,		1 		,		, 	  yx 	; 	   q=0	 	 	 	,				  					     		 		 				 ,	 ,	uusV*qU	 			;  		 q=0.,	 	 t		 ;		q=0.   ,		   aZ			 ;q=0 	    	    	
+Referer:bn://t@4:/n%C5n%87%8CDiZ%6B%55O//'Ls%C2/,O
+Referer:	K7
+

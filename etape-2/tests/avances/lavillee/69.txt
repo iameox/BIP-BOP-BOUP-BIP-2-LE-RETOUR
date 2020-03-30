@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:    	J8TR="(6"; c="!Avt"; 4+`MztrD6="pJ"; MU=9H; vFL=""; 3=""; a=S0	
+Accept:	 		 
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Encoding:		 		
+Referer://16.254.1.33:762251   	  
+Referer:V:/0%17  		
+Accept-Encoding:	 			 ,  				
+

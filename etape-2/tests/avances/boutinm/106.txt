@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Cookie:	G!R.=|N9-L}'L[s.; kr98Wi62_t=E_; zfZc=; i=; Ttp=]:Eq&; EI=		  
+Transfer-Encoding:	  	 ,^YqQ~A ;	  	 X%u  		=	 qeuHoCt;    $mJcY	= 	 B_	 		 	  ;pPpki$H7$j     	  	= ""   , deflate,
+Transfer-Encoding: , , 	 ,	 				  	,		 , 	  	 	 	 	   	 	  	,,	 	 ,,, ,	   , ,	  		^o+  ; bBXH~+= "\é"	 		 		  ;			fm=			"" ;e  	 ="\¹" 	;   					GR 				 = "" 			;	__Ph="\>@"	  ; 	bqMbgd		 	=  		"áo"			     	;AF  	  = ""		 	;	%i- 	   =							u; %X=	  	  		 "\A"	
+Transfer-Encoding:  	 		 ,	gzip	, 			, 			 		  	chunked
+Cookie:v=V<#; J=""; 3ELWAG=_E3	   					   	
+

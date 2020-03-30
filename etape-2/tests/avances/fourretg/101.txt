@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:,	,  	  	,	, 		 , 	 	, , 	,,,,, 				   , YR  	;	%mC  =   	 "\æ\Ñ\ü"	,,	UGeL5;	m 		 		= 	 	pJ~ 		 			  
+Accept-Charset:,	Op ,   				,
+Accept-Charset:    , ,				aN	 	 	 ; 		    q=0.,7 
+Transfer-Encoding:,,	q;zV		 	= 	"\þ\Ì\c"			 	 		;		FK!= "9";			ggPzx=  		  "µà\Q\#", 
+Transfer-Encoding:,   		 ,		,1 ;		 1	  =    		"\¦\g)" 	; 	 			d 						 	  =Q~!4		  		,
+

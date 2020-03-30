@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding: 	 ,			  	    , ,, 		,		 	  	x8	 ,	 			s#	;+3		   = 	"ê\®\Ú"  ,L 	  	 	 	; 	Q5u%zMl|^-u4.9cN--&i=		 ""
+

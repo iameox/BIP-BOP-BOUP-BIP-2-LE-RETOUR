@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:	 pFSXz-C://n@97.113.218.224:900/V/H/t&%AEb/0//;?S&T		 
+Accept-Encoding:	 
+

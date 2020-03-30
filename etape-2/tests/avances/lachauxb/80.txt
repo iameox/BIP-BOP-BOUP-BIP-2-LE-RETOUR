@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:  NLCr	 ((√#))	 	  (\ﬂ\è&'ƒò5)		 	 (k\lÑ\NØ(\ù\*)\((eE))	b	  	JvthF	  
+Accept-Language:	,, a;	 		 	q=1		,  , 	,			,	 	   	aP-9r-Y-Vl-f-UP-Q	 ,		,   
+

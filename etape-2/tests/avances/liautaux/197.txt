@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	uK="{"; MjO="%sa"; 2t="T"; EqbO$#=Nz 	   	 
+Cookie:mR4rE.G=	
+

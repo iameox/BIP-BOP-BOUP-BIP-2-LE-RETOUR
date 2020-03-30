@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:97.221.6.8	
+Host: 			 		    [v31C9D.W*+]
+

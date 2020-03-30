@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent: 	PyO	
+User-Agent: 		 en8p9%_Re^   		#di	  	(M)			(\¯\ë\OĞ\‘\•M=)	 () (\Úü)   (\Ğ\•) ((’œ„\ V\)\|\%\x\Ÿ\e)\a)		  		  
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+User-Agent:Pcap/sc' 			 	 	    (\Ò({³))
+User-Agent:	pPD/rqV5LV  		5	        			(\ðÓç\s(D))    ((\³tY\Ñ)(Ê\È)2)	 	 			((\Ì)) 
+User-Agent:  		VdcY	    	(þ)	()	  	  	(\§ˆ\¢\‚) 		() 
+User-Agent:	 Y6C/P 
+

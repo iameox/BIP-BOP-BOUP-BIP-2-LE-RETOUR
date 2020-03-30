@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie: Y8MM=?XLG^s; h="Y"; W6=A$<; vy`H_X_=9; 9=qb9; 4N="OHil<}"		
+Cookie:  	qIT="8{w"; oaY="_e]"; ^7xHo2.CCne="?<LN"
+Cookie: 		 	lq=p; -v="DywPy"; 8O=F; 9*f5="j=d"
+Cookie: 1Rbmbt="e-"; +8X4x="5'"	 	 	 
+

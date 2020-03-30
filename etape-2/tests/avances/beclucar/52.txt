@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Encoding:	 	  		 	 	   		    R , 		   	 	identity 	;	 						  	  	q=0,  		 ,	   	  0XVM3.t'+2		 				 			 ,,,  	  	 		  tyn$   		  	 	 ,	  		 *
+Content-Type:						F/wE   ;A="\"ý¯\”º/itH\ƒëð“µ\t´"  	  		  ;	  	 	zB="ç";  	   		 LcVX7o65=""
+Content-Type:	F5/He&		;	JAd="\´\?\Ê\f" 			 				;			 		!55uF=En	;    XvX&M20="Ç";8B~A="/\Œ"   	 ;IH!v1o|P="\m•"  	    	 	;  	 	|="";	p="x‚"
+

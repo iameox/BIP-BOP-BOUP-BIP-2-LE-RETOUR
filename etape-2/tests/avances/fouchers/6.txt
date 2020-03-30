@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:		 	t=E`; i=c?# 
+Cookie:M~="NZ!bou"; L="dpwz?<u^?IhcAl(?"; rAh~NSmJ=/	
+

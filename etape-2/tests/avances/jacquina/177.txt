@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Transfer-Encoding:   ,	,Q0;					 ovCVOom_W 	= ""  		  	  						;		 		zNh =""
+Transfer-Encoding:	,, 	 	, , 	 		 			 		    	 	  	 , 	,	 	  	t	 				 ;`WUwU 	 	  	 =	 ";\#\!др\Ъ\ї",  	 	,	 ,		 	 
+Transfer-Encoding:	gzip	,, 	 	, ,
+Transfer-Encoding:, gzip	 		 
+

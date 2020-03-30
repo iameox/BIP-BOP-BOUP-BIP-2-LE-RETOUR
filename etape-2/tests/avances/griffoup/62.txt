@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	FNN="k"; 5+0Z`=t
+

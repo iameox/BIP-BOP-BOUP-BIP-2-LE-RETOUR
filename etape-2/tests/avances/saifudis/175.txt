@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Host: 					 [v7C391601F.DC.U_5]  
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:   		, 				f-jbt-5-Uh-GN
+

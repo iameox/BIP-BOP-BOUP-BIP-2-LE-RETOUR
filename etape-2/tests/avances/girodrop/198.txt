@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Encoding:				    		 vW7	, 		 Q;q=0	 ,			 		,		identity 	 	 ,	 		 	  	1'PabV!^wt&81Goi`Ca48i*u0;		 q=0		,18oWF, 	fE*6;q=0.		 	,	 			,  !'a	 	;	   		 q=1.0		 	 	,,,,,1Uj  	
+Referer:  	  	 //ncy%DFY_@[E39B:E::111:9.224.250.88]/%D6E@b%A6TtZl9//:4%A8/pP;6o%AA%57@/i@AK/,/	   	 
+Referer: 		//10.6.211.246:565/a//='n'M/ly~T%81/;%F5/%41)yS/,Z7d/%55RP/$I/://b~-H//0%0A%32/zTw;_iwrFph////TM/dE%67?%51~N%B1204
+

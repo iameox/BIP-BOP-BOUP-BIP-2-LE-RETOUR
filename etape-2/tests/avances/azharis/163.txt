@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:    			 	 d/QXWyjz#ErhA4SbuF
+Accept: 	   iyC/UG	;	 b3=""	   	 	; 	 m.="±"  	;		      	4F="¿\¥\Ç"	;tviFhQu="Ø\È®},\9ã" 	
+

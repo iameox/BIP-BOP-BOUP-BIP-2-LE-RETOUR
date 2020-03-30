@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:%4En,W    	    	 		 
+Host:	 106.190.9.232
+

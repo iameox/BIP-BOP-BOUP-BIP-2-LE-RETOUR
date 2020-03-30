@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:  			 X`Xh="j>y$(2qA"; V%Zz=; ATI=Y; xD="N]+A"
+

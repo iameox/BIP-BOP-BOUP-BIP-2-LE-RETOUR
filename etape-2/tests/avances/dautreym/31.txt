@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	    			-i%9BCend:342 	 		  
+Transfer-Encoding:		,		, 		iK ;   	 		 	VO1jr	  	  	= 			"\`\’"		 ,F   ;O			="\K\æ" 	 	 ;	 	  	G=    				   	"\e"	  ; 	 x&		=		"\‚∏";V= "ÿ"	,gzip		 	   ,			 iokW4  ;		 	q 	  =	 	 	"\∂G\ó4\©\xuá"	;	 I=	 "" ;  Ux~^o0xR8=	  	  			"√\ \g„"		 	, 		,	  chunked	,e.  ;#OglU'	 	= "\¡\?»5" 	;  	Ob=		 				"\’\∏∫\Ω"	;d0FR6		=	 	"\å\w"	;			  		  $IO 	  =ce0 			 ;     	J$EV$H		  =	 		 	"\û\£≈\ö\±Ë\÷5∂Û\O" ,aG#j&  ; 	     	zjmg5r1F    ="Ó\∫èÚ\^î\’-O\–Ú" ;  	 	      HYqg	=		   			 	"Í\¥\Ô≈" 	  	     ; 	okJ&AB	 	  =	 "\∑"  	;    w^7D1    				=r 	  ;  	 	 dy.    	=		"" 	, 	   	 compress 	, 	 	 dbF%	
+

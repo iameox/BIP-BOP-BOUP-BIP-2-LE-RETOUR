@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:A/%w	 ; ysMAX=J 	 	; 1IL2gZQ=y|Pj	;P="\8Ð\4\+›\s\‚\¢\u"		 ;		gwO3`y=""		
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:			 			 ~a/* 			 	 	; 	_=OGa	 	;		yaAk="\©\ \Ür\D"   			 	 			;		 45V^-="ï";		 e#$HGzahz1="\I";i8="\´\˜\8"   		;		 So-z=a	 		 	 			   	;			q=1.000
+Referer:fs0://241.201.242.84:////!%6B/+/?
+

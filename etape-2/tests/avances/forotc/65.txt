@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer: 	  	 	 %DFP  				
+Referer:		R://8@[v86027B.MLYc]:29319/E8Ws_/w%570//sF,%64Q/Y%5DCI/qg5%9C/zM%9E/g/;G/0/nI
+Referer:	   xzHDDw://F+@[v68.B]/qb)q  	
+

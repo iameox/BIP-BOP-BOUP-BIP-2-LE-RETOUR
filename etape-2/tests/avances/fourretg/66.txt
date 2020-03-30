@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:,			 ,6	,,15R	 		; 	    +n  	 			=	  "" ; 			rY|  		   	  =    "\:\Ï¡\I\ \ ‹\g\„" ; 	1j~4	=	 "\n\´ƒ\¡"	    ;	 				pK1=			  ""	    	 	;		 #ohS		 		 =	 	 "" 		 	; 		  	p4	="\xç\ı";		 				 			  LK+_	   	 ="\ê" 	 	 	 			, 	qB,	 		,, , 	 	 	,			xz 	  ,	 		,   
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:	-r._2Q+i	    	 	;	 q=0.7
+Content-Type:LaUKC/RknCM		   
+

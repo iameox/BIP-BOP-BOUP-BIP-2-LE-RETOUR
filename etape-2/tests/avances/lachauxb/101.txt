@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:			 	 ,  	  ,		,I-w-M		,	    	I-Ur 					 , ,			 ,	  	 		J-fd   ;	  q=1. 	 	 				 	  	
+User-Agent: 	.S5j+SusR70DsU 		Ef/__E$|T^VCI~#Ki  x/XBS%		
+

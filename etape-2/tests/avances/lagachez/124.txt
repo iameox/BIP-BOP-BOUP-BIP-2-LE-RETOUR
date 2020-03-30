@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:			 ~y$t3q=h; q15f3="c#@/QvC"  		 	 
+Cookie:  	AO1jTxi=7A
+

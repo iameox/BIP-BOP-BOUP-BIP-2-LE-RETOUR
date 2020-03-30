@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+User-Agent: OU&/6	 				  		 	R  	  
+Expect: 100-continue 		 
+User-Agent:	 	  	z/G.! ((é\^)ž2) (,) 
+

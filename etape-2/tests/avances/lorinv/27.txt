@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:   		 Q/ordeyT$i8		;		 D="\ë\i"   ,   	
+Content-Type:R2/eA; 	  	  	  	 m="\„z"
+

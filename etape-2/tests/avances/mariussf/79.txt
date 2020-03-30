@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Host:%EFz3%37WU%C9!bx
+Transfer-Encoding: 			 			 ,	   chunked  	 ,,1`f  		 	 ;		  sd'R 	 		=	"" 		;	.1'0="\¡\ä\ "	;	$W+&mYre28&~  	 	 =     		"\C\á\∂\µˇÃ›è:Él\∏"	   		,    
+Transfer-Encoding: 	   		,	   ,			  	,	 	 			  ,, ,  			 				 	 compress	 			 	,  	 
+Host: 	[4:D::7:3:2:201.4.250.155]:
+Host:		[344C::A6EA:9E:5:5F3:109.250.214.7]	 
+

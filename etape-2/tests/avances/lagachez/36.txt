@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:fX="h"; 7KrcP3BpybB="2cU2W/&$2J"
+Cookie:uL2="/[="; g="!M"; l'i="C8+7U}wE"
+

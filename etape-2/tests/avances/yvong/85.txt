@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Encoding: 	 
+Referer:	Op4RE://Ktv@[::0:3DB:82.5.97.192]/5m8%97Jt5Qym%6E%CDcAI2gB///OH%96:k,%77/8Z/;b)nu%7Fa3%40/S/%0DeLVR~~R4h
+Referer: //%5B!@[::1:3:A:C:9:129.252.254.5]:?R%20(R  
+

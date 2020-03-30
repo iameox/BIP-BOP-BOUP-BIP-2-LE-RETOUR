@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:						 			7=a; .wTACIl^=m; 90bGnk=""; zcoA=; qF0!-+="" 		
+

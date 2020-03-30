@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:			 219.97.252.2			
+Transfer-Encoding:,		 ,qdseg	   		;	0  		=  TPCr'w6&y|3'_pCAf;  xMR="ov\–Š\ìÞ\ãN" 		;~ 	 =	 	   ""			; 						dTzr  		  	 =   "øÊ\Ø|ø"		;6	   =	 	 "Íá\ï\~ò\ˆ\ \o"; 	  d4z  		=			  					  	 			 "\Ú"  ;	V=  "" ;9ZE$w5LP ="U\‡«<v}=\Ì•\y"; bK=  ""		 ;		 		 VE 	  =	  "]\4\j\|ãJ\"%\rƒ";WQNFrM`a5gUN		 =""     ;			 	 	    	!wNmE 			= 		"%"			   ; L4FE				=	  	 		"w\…\½\_\'\(L\8¼\:\ž\TÍ\é\ò\ƒ\1"	;		 'jtI79hpxV  =z 	     	;cpYgKVxbacfpD			  	= 	 	"`\$\a×\à^þ6";	    		X0#  =		 "";R	=	"\'\k"		;ig99=	 		 		"íý\¤\Í" 	  ,  MCa	 	 	  ;  			   	  			qLA%Bfo'mX70d&`	=	 		   "\v_" 		,    
+Transfer-Encoding:,	  			 ,,	 ,,,  ,		 ,				 	,		 , 	,, 	,			, 		   *d 
+

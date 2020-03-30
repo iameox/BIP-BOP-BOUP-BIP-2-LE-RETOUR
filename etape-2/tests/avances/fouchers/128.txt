@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:  	 			    |MDGeS=i; i9="._}&8'0"; .$d=I7(; WW29R="[n@>d"; DlU=A		
+Cookie: 		  bIP*^=""; b9HZ5="rY"; p=~s3FR]|; Pa="N]yM"; mKvu="&o64dy"; P*cS="(^CrolA8@+*}OG"; a+P!="Z1"; $Er$Tw$x|="^" 	 	 
+

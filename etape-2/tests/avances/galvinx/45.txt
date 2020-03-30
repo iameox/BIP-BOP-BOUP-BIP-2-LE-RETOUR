@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:	 	,					L-t2 		,		    ,	 	,		,rpEe			 	 	,	 			XiJ-Z-WCD-bWC-6-SP-e-X-ro3-A-tp	  ,			, , 	 z 		;			q=1,		    *; 				 			 	q=1. 	 		, ,			,X-XLs-0-t3	,O-q-dGM-t-6-3T-Zg5-y3-4;	 q=1	  
+Accept-Language:		,   ,	 			 ,	 		 	 	 ,		, 	 , 	 ,  	 					 ,	 	 ,	R	 ,	  	 	 	 x	 	,		,	 	CrVCX-B-gFd-d-jg
+

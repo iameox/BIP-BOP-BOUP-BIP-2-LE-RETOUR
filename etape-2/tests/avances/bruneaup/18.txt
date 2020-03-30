@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:[::1:680:0:FFB:23.220.24.200]:69
+Accept:			 #/U55U.d    	 ;    		`4T="\Ï\f",G+j/NW;  M=fOKD ; 	   e="\v¢\®á"	,		gaV/*	 	; 	 	 $*6="\®"			 		 		; 		 G|V2.QNdV5*=BWKb			  	  		;  		.pQT`$="\DU"		  ;		q=0,lK/jFo	  		;		 $s#=H00+3$b 	 	  	; &4Z|yVr9xg_~="P„\Å" 			 	;q=1.		 	
+Host:   	  	 IrhL2tP%6B%88	 	 	
+

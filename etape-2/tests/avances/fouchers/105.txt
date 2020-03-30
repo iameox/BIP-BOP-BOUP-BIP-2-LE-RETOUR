@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Charset:o   		 ,   	
+Cookie:cpN=_=?%?I; ~$="{P>X"; v=1; c3l9=CX0.m; Lmg=TC   	 				 
+Accept-Charset:   		 		,	,,	G 	 ;		 	q=0, 	  ,    5EI+6'_	; q=1			  ,   Jx9|h0EP	,,ERL		;		 q=1	 ,
+Cookie: 	APKx=""; p="VE)E][Ba22"; UUEs=VRnt4Hb@	  
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:	 [v6.u]:  
+Host: [::EB0:F4]
+Host:[::1D:DA:0:1C:2:2]:5730  
+

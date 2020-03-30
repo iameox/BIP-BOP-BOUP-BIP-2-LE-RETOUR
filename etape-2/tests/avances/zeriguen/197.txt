@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Content-Type:		Z/$x;		m="Ä\2\.\¨\å\÷\,¾"  			;*Idf4o=E`L$; `N`$C="\Íy"  	 ; U!1P=er6J	;	-|Fo$`b`xK="\É\G\ò" 	;	Y4DW6f="\ê•‰Û\ö\¡²Ç\/\C("   		;   	qFq="†" 		;|o="@\-òl"  	   	 		 	 ;Q="7\ø"
+Content-Type:  	 W%t/*5     			 	
+Content-Type:9AoVa^qL/l 	;		Lh="A" 	;R="4a\Õ\{" ;sp="J\•"	 ;		g0h&5WHJB="\Q"		 ;	d`1o8#P`="ùŠ–¾\*\›\Ÿ\+;#"		 ;			   mS=""	; YF8hP$%n="±\•\Z"	;		 bwH%OHIyRN90=""; hvE~-$03sn_w="Ê\\X\~H" ;zuQimZ=BK;x^XJ="\!iŒ¼" ;	  		 					 u="\Tú\™"   	
+Content-Type:		u$6hTz5/un#1.rz_dh%aV;	Xd+Y="\Æ‹³k?±"	    ;mt95Z'bcMV=1K
+Accept-Encoding:		  		   	
+

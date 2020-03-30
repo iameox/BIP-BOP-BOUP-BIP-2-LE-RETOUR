@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:3=r'; M8=0; BTq^="T"			
+Cookie: 5q=""; qj~u= 			
+

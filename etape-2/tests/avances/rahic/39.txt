@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:   	,,		 , 	 	 	,,			 	 , V;  q=0	 
+Referer:g2i1:F6B/Jokzy/H4/x4	 
+

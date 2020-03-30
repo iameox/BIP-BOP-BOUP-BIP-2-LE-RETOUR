@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:  		,     ,	,,,,  		,,,     		, 			,			 	deflate		 		,	,	,	  at 		 	 ;1.4`= "ä\ \S\{m‰\·è"  		  ,	  		 z; i2Y     	 	= 		 		  "",  	 	    			 ,	 F					   		 ,				,  -C	;   		 -L6		= 	"º\∫\1" ;EC =  	  "" 	;	 	. 	=	 	  "\w\°\ë"	  ,	 	 	`p  	,				  		 compress	
+Transfer-Encoding: 	 ,				,	  ,			, ,	 		CT%S  	    ; 			 	 	  |w   	= 	 "∞\b≈œA\Ñ≠\|“*©—7s,\¶\F\Î\À¯É-◊\÷\ñãZ≥"	 			 	;	'buK  = "e±\˙\6]\{M"
+

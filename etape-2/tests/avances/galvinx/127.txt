@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:  		,, 	 	 ,   	 		 	I-0-axz-Q;	   	  	q=1  	   
+Accept-Language:,,		, 	,		 	  ,		 	 ,	Q-Jjm 	 		 ;		 	 q=1		, 		 H-N-1-xw7	 	 	 ;q=1,
+Expect: 	100-continue 
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:,	 chunked 	 , 	  	 , 	 o0'b 		  		  ,   	 	!    		 ;	  		Heo06	  =	"\ë"	 	 ;f 	   =  "ÌU\S÷"
+

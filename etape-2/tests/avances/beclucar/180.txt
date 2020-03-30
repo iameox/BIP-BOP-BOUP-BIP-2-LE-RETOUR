@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: Q6gz6/D05EFS&X.`vLE1bz+			  	 		  	    	 
+

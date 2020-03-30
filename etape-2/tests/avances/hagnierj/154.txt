@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer:		 s%DD,%A8;%3Bh/5@fSg%BC
+Accept:			
+Referer:     wr-://[vAC.rQi!]/E@Y//~T.5hNh%F3/z%61B/%0F////l%9F/tO%59%79/%64%5Fk:/h/o.q=IHAC/J6?Wjlr 
+Referer:	L://[v3.*F]/M;5?~k4_%31Mx 	
+

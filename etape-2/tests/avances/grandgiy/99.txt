@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: HQ=""  	
+Cookie:jlwU=5>*Z4
+

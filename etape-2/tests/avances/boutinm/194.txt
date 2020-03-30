@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 4=; ^yP.e|="*e6C-PY"
+Cookie:  M5=/r:K; J'-vEG="C(*("; iZ="ag<"; 2fGC=; Av^ZRU=Zy; a2tdE_LrTBHks33=w5; S=J2; KGQb=""; oVLd=""; |M="<O%DTsl"; Z1ovv="N"; u`=""; D4-#syZ%9=7Y 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer: Gv1RC%3B 	
+Referer: /%BD~%57-?    
+

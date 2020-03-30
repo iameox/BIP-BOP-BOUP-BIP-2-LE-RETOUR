@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	|HXMn9e#="aID?{"; -0|YU+E+=; dG'="z~`NMfi"; %b="aGU"; x=; w=""; ~= 		
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Encoding:	 				 +jW1%		;q=0	 , 3.oB, 	  	  		,   'yo	 		  ,1bT , 		  z   		, 	
+Referer:	 dgm1BKb:/?6C%32gws 	
+Accept-Encoding:   	 	 
+Referer:		DluPH4://7F@[D:C::64B:E]/////)ba%66/?:		
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie: 		vL~=4pql; +_oG="VC"		 	  
+Accept:			 `CmHs/*   	  
+Cookie: uy=1~$/(; JJvc=F; m=; jJA="efH"	    	  
+

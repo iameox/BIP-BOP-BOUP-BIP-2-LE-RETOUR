@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:GbO7f://%7CW@z=U9n%07v?-		
+Referer:d://Jwm?%76+R	
+

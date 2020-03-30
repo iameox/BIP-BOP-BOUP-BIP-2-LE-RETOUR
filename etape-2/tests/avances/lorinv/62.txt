@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: FfYDATbPv|D5H'vv/1JF*	;	    Nbm6Z="\["
+

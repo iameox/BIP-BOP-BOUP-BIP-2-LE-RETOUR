@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: ,			   	 compress  		 
+Transfer-Encoding: ,  		   	  ,,,			  	 	 	  	,	c	 	 ,	 	 	   			 	deflate,  	aP086x 			 		,5	;k`= bMf; 	Ul  	=cN` 	 	,	 -QATp		         ;KXTA`*6NR  ="";	 	Xn*1rY^pN'4_-	  	 	 =		 e  		;bh.#P_X		 	="\Ç\’ü°"	;	  pGaz   		=	 	 "¿"			 ,	,  			 		 	    ,  		 	 , 			  
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset: 		,		 		jN8		 	  ,	K 	 ,, 			 	     	  *RP	 	 					,	 UG 	; q=1.000	 		 ,			q18hCXRf; q=0 			
+Referer://7.71.246.6:312245/+_e?	
+

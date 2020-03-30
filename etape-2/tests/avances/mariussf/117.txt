@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: ,,	 gzip	 			,   	  SG-	;tKHeEM$-'l2	   ="\`Za" 	; L	=  "" ;	 		MR%A9Bp  	 =    "\X\z\—Ÿ\8ë" 	 ;Y	  			="" ,	 ,	,2~S 		;		  	YD= "¢ˇ"		 
+Transfer-Encoding: 	chunked, 		  ,   					   			%D; 		Jro1av 	 =""		 	; 7rNNUsmmN~Na|F	="" 			; 	 _4QOF	=   		"√˝Ì\î\±\óò\óç.’" 	, 				 	
+

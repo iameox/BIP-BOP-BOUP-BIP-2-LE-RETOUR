@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:	 .B/A;	qb0a#="\¬\X\FÕ…Ë'BQ}ª"	   	  ;	be=""	   	 	 	 		;C=dPH;  		 jYipW="\ 8" 	; RA="G"		;	   Ob="¦ÚØ}\+û"; 	whixFZlZ="\UÌ\%¢\ª\z\…‡"	;~I~5dBIz="ÏÂÓ\Fjå\Ä\Jk";AC%="e"
+Content-Type: 		  s~FA-J/g|u! 	; 			S="fD" 	   	 	   ;	  	U1="W ÎÛ\˜\	\ıõ\ö" 	;  	ad="\}\ÍI\øİ"  
+

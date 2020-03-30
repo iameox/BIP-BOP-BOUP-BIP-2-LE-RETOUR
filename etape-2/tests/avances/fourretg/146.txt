@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Charset:				,,  	 , 	 ,	Ywq8LlS		 ; q=1.0,  	0  				  	,	  	 2u'Az~auf4Ztv		; q=1 ,, ,,	 g;		 q=0, 	 	  	O+_t	   		   ; q=0
+Transfer-Encoding:  			 	, 	 , 		 ,  L3* 	; 			 	 	 oT%o		 	="ë"			  		;9#	 =	  "\£qa\y"		;     	WA= 	 dC		 		   	  		;	 Kg&^	  =		"ÊY\~mè"	 ;	m="\∑Mw\9≠\√\à";04Pt=  "\˚v‹ºV" ; 	$	 		 =		"≈Ü\Æ\z\]\5Ú"	 		,		AuHwfY; 	 		 69 = "\û]\Õ\Ô3";  	 			 			  	|	=	 "\π\p≤ë3\&’~\=¯"; 		 	Z~TtagQ3YTsT$MAXW#q 	= 		"\!—ã"  ;	  .gpR~L6C="\+÷\)\Ía"  ,,, rU;.|		 =""		 		  , 	  ,  ,	    |BSs; 		  	 .N		=	 				  	 "\û˝}÷"  	;  Xcy 	 	 	 = 	"\≤"	 	; 		q*=	  	 				 		"\ﬂM\ÌÓÆó"	  	 		;  		 		 			L^		 =  	"Ë\z\®"  	, 		B+*+M ;		Kl`IEMsQ9gDAui3'   	 = "b3ª"	;	~xvqz9aUAUO  	 =	   	 "\Û"; 	8		=		"\mh"  ;	2Z`fT5_imeSDa5=	"\◊\Ê"  		  		 ;  r 	=   	""	 	 	; 	 	  		Ybk	 =	 	"",,			, 	RvIGTf ; 	 	 S8hoH		   ="ï∏\~\∑"  	 		; 	1Xxho	= w	  ;  ~Fr+		=	"ö\È\©6";k  	 		 =			" G"; X|+8		  = 			""	 	; 	%n`	=	DEFO,   Yc&e9Hqe^	 ,,			 74tmNS	 	; 		$=	 	 "¥Ñ\3Ö\ñ";		 Yxx=			  "\Ìå\""   		 ;n= "\V\è\\\˜"	;  	 	 o9Mn4N`n			=		 		qak	 			
+Accept-Charset:	., 			 	  		h.c 	  ; 	  		    	    	  q=0.	  ,	 	, ,			,	P  ,	 
+Accept-Charset:  		 ,	,,		  			 	 5D ;			 			q=1,	 		 		 	  	 ,,  -TTf'q; q=0
+Transfer-Encoding:		,,			jBs7#; U|9s5|7y#J!e.tLPS ="ΩZ\ß$\à" 	 	  		, T~D,	 	,   ,, 	  
+

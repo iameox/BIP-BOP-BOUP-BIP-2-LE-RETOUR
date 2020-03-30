@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language: , 	,	   			 	,  	rS,		
+Accept-Language:  	  ,	 		,		 	,  	 UD	 ,	G-n-s		 	 ,	v-J-JiikA-5-7;		 	 	    		 	q=1.	,  	 gevNRhAN	;q=0.03 			 		
+

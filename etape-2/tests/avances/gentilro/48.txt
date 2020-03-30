@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:    	 	c=":/<sJ]n"; TQJG+dpf*=q'|:GD; OxSLc=+jy:gP<; y01="P" 
+

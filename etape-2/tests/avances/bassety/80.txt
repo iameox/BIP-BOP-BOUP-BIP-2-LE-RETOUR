@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:  		 	 	IB/M6Gz3ft	 	 ;fdq$M="\ª_L\¤ \“_ez\$"				  					 
+

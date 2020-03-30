@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:./x			;  ibQWp&2q~h#="\v\U"	
+

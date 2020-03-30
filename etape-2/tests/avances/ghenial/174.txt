@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Charset:,				,		,  LDCx8 	 		  ;q=1	  		   		 		 	, 	 A^fyiO 	   	  		 	;q=0.91	    ,		0WA|  		;q=0. 	  ,gpuEiQZQU%KUO	 		 	  ,,	 	 	  C 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:		L.=; Kq3Y=1AZu	
+Transfer-Encoding:deflate	, 	hzy-9		; m	 			 	=	"\…"; %qy.	       	   	=  		"u;D·7-ƒ"  		 			 			;	n	=  	"¨°'\Å\(M."	,	,	chunked	 	,o+D|;  		D'	 =  	 		 			 "xè=" ,,	 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer: //y%E6@4.222.3.226?/W		
+Accept-Charset:  uZ  				   , 		 				 		,		 		 cx	 	    	,,  				+ ;		q=0	 	
+

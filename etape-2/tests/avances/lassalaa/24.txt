@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type: 	 	6/-TcS0_ZKwGVq	   ;E.2&xdl=""
+Content-Type:	 	9S/_5Cy	;  		 		   		DegU="\r\˚%\¢\Å\k¯‹‰\ë"  	 
+Cookie:    	 			kicrj=""; O=; PH+Tk="A(T"; '#tSjUVJt=wsCFRG[H7yiPiXHWD_g; c={A  		 
+

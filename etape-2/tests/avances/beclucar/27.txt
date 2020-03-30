@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:  			 		  	  A/TU6F		  	;79qfIU="¦\ðã"
+

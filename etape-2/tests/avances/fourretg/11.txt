@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:deflate		 			   
+Accept-Charset:    ,	  wF ,	,  		 ,	 		 ,	-r^D		 	;       		q=0.  					
+Transfer-Encoding:,	  	  	,	,			  		, 			 , ,   		 		  		 RSc ;S6Rd~Mm=			 		 "∫ÿx\7" ;. 	  =			 H; 	  	B=	  	"\–" ; BA.   	 	 	 =  		"\Ú…É\Ó\©\I\†\í";aHm8 			 	 =		 "0Ç"	 	    	   	 ;   r				  	 		=+B	  	,		dJ, 		  , 	 compress	,,		_sn-JC			 			   	  		 	      	;	mK-=					 "\=";	*PN =	  		 	 	  	 	 ""  	 	 	 	 , 	 		 	y 
+

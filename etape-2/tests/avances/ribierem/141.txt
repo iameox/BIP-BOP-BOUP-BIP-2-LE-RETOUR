@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept:  	 	 be4^4/v 	 	 ;q=0		, 		,,	-/*;D="\¶";q=0  	,  r^6sL3/F			 	;	#I="\@ò";	b~qF="\1"	;a-c="\@"	 ,  	 	   z/*	 			 
+Referer: B6v2njI://[v866.oN(]:97?
+Referer:HgZRR3://s@252.72.0.58?$n+LtI/	
+Referer://[B2C2::8.14.5.241]:3881/k/l!$%BA9Z%B5/ZW?		  	   
+

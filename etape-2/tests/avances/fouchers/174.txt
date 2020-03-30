@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: JtdY*=~mrzH	     	
+Cookie:s8="EWA"; F="tu(f"; wG_A3mSbr%#7="E"; U=wsx@(_?; XRx=M%O4~~z4Y9?S9g; %L.OyJ=#u<?<wr	 
+

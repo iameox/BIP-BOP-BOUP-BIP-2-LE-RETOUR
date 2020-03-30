@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:		 		 Br    , 	   			 	 ,	  
+Accept-Language:     ,	  	,zVrU; 			 		 	 	q=1.		,v-sS  	,J-Ra-b-m		, Ic-q-5j-3jAL,,			v , er-Bm-x-9Dk-c-ZLg-ag-j-e	
+Accept-Language: 	,	,   ,			 ,q  	
+

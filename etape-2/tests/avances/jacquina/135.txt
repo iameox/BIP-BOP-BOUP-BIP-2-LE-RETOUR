@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:, , 				 ,	 		  , 	,,	,	,,,, cd	;0-1`i=     	 ""	 	 	  	 , compress 	 
+Transfer-Encoding: 	, 	 	 	,, 	Zi	 		 	 		, 		S4 					 ; 		 Ku=  "\Â\¤Ÿ\'¬" 	 ;i 	 		 = "" ,   
+

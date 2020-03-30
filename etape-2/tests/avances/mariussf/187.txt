@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Host:    	  [::5:E:0:F:E:9A:7]
+Transfer-Encoding: 	,deflate 	 		 		  ,
+Host:			 	 C4XD!%8C)%DFX9c)8=%7Cd%F2
+Host: 	 !q!3f7rBVz(~c:87132	  
+

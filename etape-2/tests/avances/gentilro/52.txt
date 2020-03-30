@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 	8K=kC|&		 	 	 	  	  		
+Cookie:	&S=zm)g 
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:  	U3=IFdskB; J|V~*m=""; d'5#1=Q{f4#+k
+Cookie:	_X="I"; .="QS"	 	  
+Content-Type:	Ks|yQt2EUo/OgH   	 		 	   	  ;	  	p="\º\X\≠"	;X=""	  	;u="¡t\&\lu\ÕÀ\ê\ä*\ú\´\r"
+Content-Type:   		 			 gE1YVm/yCHa 				 
+

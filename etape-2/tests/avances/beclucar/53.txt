@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: 		8^h/nT_  		 	; 	 6="\é\a"     
+

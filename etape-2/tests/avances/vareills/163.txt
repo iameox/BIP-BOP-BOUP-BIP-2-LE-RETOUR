@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Language:au-1-c, 	  		TSz-4oH-u-AucN-cZrr			,		*;	q=0.4		
+Accept-Language:		, 	 cWD-h-kLE 	 	
+Content-Type:	  	 t+T+/X 	  		 	;	 ta|J*mN="" ;	A!OTKte="" ;		^sVvf%u9$="|\˚" 	;	   R7iLs_="\˜\_1∂z√\êã\ü≠\”" 
+Accept-Language: 	,		 tf-zMIZ-dO-dHpjJ-BOuh-LT-lacQdy-d-z4Dkihn-9 		;   q=1. 	   	, 	 X-m-D-i6-cK;  q=0	 	,		 		 	   	 		
+

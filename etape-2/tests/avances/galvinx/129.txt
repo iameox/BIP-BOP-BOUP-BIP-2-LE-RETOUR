@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language: 	 ,ervp-106-Y;   	 q=0.136, ,	 	
+

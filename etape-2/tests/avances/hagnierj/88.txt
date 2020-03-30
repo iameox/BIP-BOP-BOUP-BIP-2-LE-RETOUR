@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept: 7bEWzXjeY&/*			;3'="Ã™UÊ";q=0
+Referer:					//[vD9.vRb=-A]:406/p@~4
+Referer:		/?G.		
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:[::8:2A:7CDA]   
+Accept:  
+

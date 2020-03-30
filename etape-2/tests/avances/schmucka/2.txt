@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:  	fK=F; l|=""; 4vU'OfBn*a=?jd; qB*={R6sY-%; Z=Um^v; Be#2lR=%9|; eFTYS~Yx'n= 
+Accept-Charset: 	    , 		   ,   			 		,,	 ,, 	q; q=1.0  				 		,,   , 	  , 	 	 		  	 axw$+%,  	, *^   		 	;	   		 				q=0.81,	  	 	  ,	 DE~t#N  			,		 jv80		 	   	 		 ;	  q=0			
+

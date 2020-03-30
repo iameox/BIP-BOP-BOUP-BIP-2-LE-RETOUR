@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	'bWv=/; t_.ds=>l; u=@BI; I=; V="" 	 			
+

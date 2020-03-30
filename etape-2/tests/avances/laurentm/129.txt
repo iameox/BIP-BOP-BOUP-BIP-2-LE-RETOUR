@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:4d%HF4  ;		|VvH%=			 	"\Ä\¤" 	  			 	 ;	 	   	H4$.2UU`s ="\G\Ë\z!"; 	  J|lx9H			=		"HUÑ\$\V\G" ;X+Tu= 		"\“\i\½\F" 	;    B'C'				="\®" 					;R  	 		 		 =  	 "ñ" 		 		  	;	 		 	 	  	d&D21  =		"\­L" ; 	N9 ="&¤\Q\B \÷\÷" ,		L.H%tN10vr	 , 	n2 		,
+

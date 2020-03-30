@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	   	 			mIp="t6nP"; Ieh=; $="DH5GnyJ"; |Vljr%P=J; RVV=""; zgF7v="~1j/"; -%J=)j+	 	
+

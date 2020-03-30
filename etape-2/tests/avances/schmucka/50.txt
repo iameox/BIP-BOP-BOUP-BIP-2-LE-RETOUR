@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:   7uxINL	;			 	q=0	,			,    ,	 			 |nOus0yI  		 	 	 		;    	q=0	,n	 	  		;q=0   	  ,	,	 
+Accept-Charset:	,		 	 	   , ,		 		 	  	, 	 CL'cch!|	;	q=0.0,	CL ;q=1, *   ;	q=0	  ,    ,, ,	9	, 7*uA3	 ,   ,,,			,		  	   ,		 13LGEu;q=0.,
+

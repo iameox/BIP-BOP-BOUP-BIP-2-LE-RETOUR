@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host: 66.254.8.252:39				
+Host: 		   			[vA2169.vOEr7.Qu]    		
+

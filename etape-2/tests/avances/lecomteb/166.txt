@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:    	 		   e="|B+#b>9Vwr"; 0~'m!JDw=$cyB%4; IwHGNob`a8=; 9=""; .b=""; 6LFVl*t|^'k=""; 6="wy"; 9Pql="IFTJI"
+Content-Type: 	 	Z4/^	;     		 *-fT="\ç";  	4tm1="›\	"; iUz="" 	   	  ; p%NgaX|*B'V$DFD="" 
+

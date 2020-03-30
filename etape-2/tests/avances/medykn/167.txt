@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Host:	  	   [v8AC.o] 	 
+Host:5)B: 			
+Host: [v0.X)]:			
+Host:	[90:4::9:B:33:41.9.17.4]	 	 
+

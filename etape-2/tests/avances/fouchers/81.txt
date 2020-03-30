@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:    Dt=:; r=S; 'MrIgNyL2=; 5Da=MtE(<Dx
+

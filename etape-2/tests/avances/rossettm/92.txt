@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	X6^=uk*:; e'#+.zmcxDOw="q?WjYFE"   	
+User-Agent: 		qN!'P/80` ((\Š)\‹\è)  	 	(\I) 				(›‚)	
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:	 h="Mc."; dl7=I; oT^V=eY(; qVwwMvl-="7_vTrkSvPPVGfd)s!ij("; O=""; T|e^+*="bb"; PW="-FCV-aw6h/-:L[s"; lI!S5l%=""  	 	
+Cookie:J=Q+				 
+Cookie:R=""	 	
+Accept-Charset:    E0Kf7S 	 	; q=0.0 , 
+

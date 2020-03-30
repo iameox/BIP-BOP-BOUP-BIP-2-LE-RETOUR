@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:!j="f"; 1f&="o><[b^"
+Accept-Charset:	 ,,   		 	 , ,	    cOhw6g*vmYF ;q=0	   ,		`PaJBX-f	 	 	   	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:		  l%8A%07E%5E8:			
+Host:  	 %17zixJ~+%DBY%AE%8BrE%1Al:	
+

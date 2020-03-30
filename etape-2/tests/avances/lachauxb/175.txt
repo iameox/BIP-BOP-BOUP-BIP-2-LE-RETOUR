@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language: 			vSm-B-m-6-E5-Tu-Kq-J5-E5-c		
+

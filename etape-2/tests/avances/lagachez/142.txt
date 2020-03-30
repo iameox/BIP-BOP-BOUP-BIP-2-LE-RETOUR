@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:	  	 2/gKU_uWi4.cp2VUnuCu	;				 rJS&yOmPQ=""			;	q=0	,		  wKq/* 	; 	 			 	 		REF="\1ç\‘" 	    		 	; 	 		 			d&="\µ\`Ü ú8\¬" ;	    			 		t=Ed	 	;		B$FB9=k 	  ; F_Q#Zs4R=uhF;	  	 eFKzDsI="\>£\~\ÄE½Ðæ"	   ; 	Oh3XOCiWc="‹"	  	;	 	 q=0 			 
+Accept:	   &f/|.s	;				4+="\è@\5\†"		;&CQKF!GFA="\ôÛ>\èp\Š" 			  	;							q=1.000 ,,		, gKp/LUdwo5H0nz_+1z2W	  	;		Tb=Lsh ,p$^d4GHHBr+ieQ/* ;	1d!10M="U\Ð\C£\ð\œ"
+

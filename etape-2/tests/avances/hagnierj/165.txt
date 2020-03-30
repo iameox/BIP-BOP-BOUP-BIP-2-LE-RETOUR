@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:	 //%1Crbu7%B3F%2D6BAx:////c~Odt%A9P%2A%3E7%CC%E9	
+Accept:	  	rk5/* 		   	;q=0 				, 30xdw/*	;		  	n="\ÿ½Ž\YÒH2\¤\\\a\ð‘\~\xÇ\údÌ\ÏÖx\ß"			;  dD="\„\r" ;			kE&Rmh+=USE		;Z`="þ\ˆ"; !3pm="&" 				 	  	
+

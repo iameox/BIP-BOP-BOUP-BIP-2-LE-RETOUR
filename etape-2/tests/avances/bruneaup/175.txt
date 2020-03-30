@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:		  	 						  q%E1%77WY%FF.*u4l
+Host: 					15~
+

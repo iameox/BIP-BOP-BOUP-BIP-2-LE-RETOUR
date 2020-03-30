@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:  	c/rFu  	() M		  ((\¼Ž\r³ˆ))	()    
+User-Agent:	Qal/'lHq_NIL_U 		() 	 		  		()  	 	
+

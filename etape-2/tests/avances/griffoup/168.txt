@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		 				 Upj.8=""; $Fn=":"; A2|6k2I=y}8[l; _="kdG:d"; vnO="7fl"; lq=; C=""; C2~T=m; P+=""		
+

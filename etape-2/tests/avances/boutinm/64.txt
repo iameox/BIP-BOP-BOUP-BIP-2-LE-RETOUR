@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:k="1"; 50.=xGKtl; VULX=""; S8="g3T"; YfO="deYdN"	
+

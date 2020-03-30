@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept:5ZDZ_j5Q8X/*,,	
+Host:	 	 [3F36::C:8:6:E6:8.240.5.50]:55	
+Host:[vC.DYsy_]:5 	 
+Host:0.226.11.85:	
+Host:  				   229.251.173.2	
+

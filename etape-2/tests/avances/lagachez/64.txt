@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:WT2b9="h"; Ru7178L%0c="1~"  	
+

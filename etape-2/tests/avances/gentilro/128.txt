@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:  jaY$ENH="KQc"; PU="'T"; or="TO2@UuL"; 3="[''m"	 					   	   
+

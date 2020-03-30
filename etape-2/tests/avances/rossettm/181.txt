@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:mo=""  
+Cookie:	  		 			 	12="J.m"			
+User-Agent:	 l%Fi	(\’)   	(6(во\О\ќ:ћ\ёу);\Ah(\ЊЋ)«Д)				 ((\Щ`)S(D\N)Њ)	
+

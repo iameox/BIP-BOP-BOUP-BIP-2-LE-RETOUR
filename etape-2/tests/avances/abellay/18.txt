@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:B:zg12/qb%C2Lsw~0uR/O+@%CD2rqn%1F,a-/KJ(TJ3*//s9/c%7B%FE:?HR
+Accept-Encoding:x  	;	 	q=0				,	    	3*		 ;	 q=0.	,			jD$Q8gzB; 		 q=1.0,  zxl.NI5Pn%F6Cc.  ;	 					 	 q=1,	   
+

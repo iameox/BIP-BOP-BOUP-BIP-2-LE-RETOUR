@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:   		 [v636.PCfM:$HGP-:d]
+Accept:	 				 		
+

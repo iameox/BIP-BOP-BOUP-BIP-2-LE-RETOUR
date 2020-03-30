@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:3/H+		 	 ;  ku5O=#g~5bI7 	
+

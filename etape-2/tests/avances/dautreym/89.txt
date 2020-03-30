@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:				_:3	   
+Transfer-Encoding:|t-	;   b		 = 	Vliky;	 		 			 		 	 %					=  		 "ÉZ\+\0" 		    	
+

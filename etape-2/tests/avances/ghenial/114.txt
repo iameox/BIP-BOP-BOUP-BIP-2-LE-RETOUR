@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset: 	,	,iHr&s		;q=0.4	   ,			dW	;  q=0.17,,,	,	1Tc%+RCbawi   			   ,	%Z;		 q=0
+Referer: 		 N://251.209.30.1:7
+

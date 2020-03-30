@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	F*a2sOf2="_p/z"; %=xu 
+

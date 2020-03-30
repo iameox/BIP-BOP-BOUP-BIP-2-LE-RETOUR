@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:	  	rft6://*%17B@[v2C636.KS0NNtM-]:/Jw%92w8a/1f/pt3/wa//%6D%64 		
+Accept: 	 2Tk/*;#kB9="…" 	  		; 		 5Os79Axm0VL=8B  	 		 ;	RenS="Ä\≈\ù\â^\ZA\´"		 	;	q=0.4	 	, 	  ,	 ,								   
+

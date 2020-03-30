@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Charset:    		 		 		R* 	 ,	
+Referer:							 				aM://,g@[::DEC:7:6.208.253.7]:6194983?cf	
+Accept-Charset:, 	,	  ,  	,			 ~ ; 	  q=0 	,, 	   	 ,	,		,  	 		 X    ;	q=1		 	,x	  ;	q=0, 	  			
+Accept-Charset:Sb	;			q=0		  ,  ,		 			 	 	 ,  , 	,,jEQj8qBBYN	 	,,    	$s4u	  ; q=0, ,		   	,   			 			 	,	z'	  	 					,,	  -Jt	,F 	   	
+Referer:     		 o/V3C/?%D5%23
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:  	^V="^x"
+Cookie: LVkm%t="Wqq'Oe"; mnv1gEOH="f"; &=S	 	
+

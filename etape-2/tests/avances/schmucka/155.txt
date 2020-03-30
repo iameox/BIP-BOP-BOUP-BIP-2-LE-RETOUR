@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:    	 			  		  rMU=s.K 	   		 
+Accept-Charset:  		,	 ,,, Tt 	  	 	 ;q=0 			,,	  
+Cookie: 			 	  	 	2="/!h|"	
+Cookie:n2=dn
+

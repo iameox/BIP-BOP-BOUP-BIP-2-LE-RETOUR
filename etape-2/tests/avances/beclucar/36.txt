@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Encoding:	 *	  				;	q=1, _q'!;	q=0.26
+

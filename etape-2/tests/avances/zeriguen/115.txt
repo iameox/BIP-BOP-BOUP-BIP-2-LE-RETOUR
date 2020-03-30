@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:  #!-7		;	 	 	q=1.			, 	hCj	; 	 		 	  	q=1		 ,,
+Accept-Encoding:		  			    	 
+

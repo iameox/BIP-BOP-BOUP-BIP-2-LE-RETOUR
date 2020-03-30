@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding: 				  	T!|2W6`Ntt	   ;			1i	=""	 ;	 	 			M&xkE  = 	 	 "J" , 	^	;	Z#8qd5~deA	  =   	 "τ\Nq" 		   ,  		 		,
+Host:	 [::92:9581:ED:FB:1:42:2A8]: 	 
+Host: 	   			  [4129:D:E604:9:FB:287E:137.234.202.60]:2	 
+Transfer-Encoding:,a.5t 	;	  N*d = EQv7AdF	;      #v	=   	"\®" 		;	7sJ9L$LoAu							=  	"φ£"		 		 	;!ja	= 		    "<";	  	  c$3~ 	=   "\,",, 					,	,-!s	   		;		 oQlk'O		=  				"\¨\-i’Dπω";		  	Zgh`QqE =Qq& ;	vbk'$xl--^.0z=""		 		;		4ss8v!			=	 	    ""  	, , |			 ;		  			Nj^_61an%`r 	=	""		,,  tG	;	  i!C=		 			 		"\<\υª\'"		;1M	 	 		= 	 "\2\Ρ\3\Σ\+r\ί\;"	
+Host:	 	 	[::8:5:BC:0:B:9:03]		
+

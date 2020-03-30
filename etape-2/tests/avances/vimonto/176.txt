@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Host:			 	 	[::AA:3B6:3:33ED:C35]				
+

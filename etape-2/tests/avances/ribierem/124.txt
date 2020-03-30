@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept:			A/*		;		 	  		A_c="\ωνα"	 						  ;		q=0.1 , 	 B/*;			6Sz=zA0		;5="\'\2δ";			    	   _6=""    	 		 	 		;		|OGO92=VPY_bXAi	 	   ;	QCP#OD^8=1		 	   		;   q=0  
+Referer:	 	 Z-Y://V*kD3%4C@252.7.228.211:1/J/?%09SU%7A3pH 
+Referer:Fdmf8://h@P-%44c:8/VJ:4%04/SY'~2A//79UmH%FEO%00%9E_y$/O?l%C4Z%82rhjV	 
+

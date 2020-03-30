@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	  	 	 			255.200.7.35:078819
+Accept:	w*/rGL 	  	    	; 	q=0.98			
+

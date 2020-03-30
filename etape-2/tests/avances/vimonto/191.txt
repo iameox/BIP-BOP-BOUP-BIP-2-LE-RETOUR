@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:134.205.246.222:97 	
+Accept:f/mR ;K="ö\X"			  ;   f5Ww="\X" 		 ;	 		 eAb=""		 ;     8TZIq="";d5mSXCD="\ô"  	 	;	  	X`K="¿\¸\¼\ñ­"			; q=0.7 		 
+Host:[::D3F:8:C:2D:A:3.37.20.141]	 	
+

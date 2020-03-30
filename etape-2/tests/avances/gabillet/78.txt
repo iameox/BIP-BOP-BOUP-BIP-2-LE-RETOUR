@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+User-Agent:			    k	 		  		(“)		  (y\‹ë(\à)\•\ô\+Î) 	   	  	  f6	  					 	   (\1\?<\L\MÃ)	(x\ÖË\ë\Œ(\­)\?)	
+Accept-Language: 	 	, 		 	, ,   M-4;	q=0.23  ,	 lo;			   	  		q=0.    			 	
+Accept-Language:	, 		,, ,			,Wtn-rQ-Xe-w-IB;q=0
+

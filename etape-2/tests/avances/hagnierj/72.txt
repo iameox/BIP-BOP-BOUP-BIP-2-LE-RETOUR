@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept: 		  		*/*	;	q=0.0,S0JnuKCvQV/6!*s	;		q=0.
+Referer: 	  	// 
+

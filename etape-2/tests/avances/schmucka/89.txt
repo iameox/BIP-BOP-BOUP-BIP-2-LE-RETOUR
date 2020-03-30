@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	&wf0bn=B; N86=; n3|="@Rjq1{!vM"; pP=a; 7sj*sgbwF=bRLw; Jxgb9.=l; Hy=x; 0="-$[~" 
+

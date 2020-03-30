@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:	  	,	  		  	,compress	  	
+Transfer-Encoding:, ,	  			   aF3  	 ;   	+  		 		= "\×\OÜ"				 	;y5+				="Ù\ò„Ü"	; v	=""		 	   ;2q_l0	="\¿\5" 	;  		Z	 						 	="\ž."	   		 ; 		p  		   =		 "\w\¦" 	 ;sS    		  = 	"­—"	;n-="ÖÐ\#";	kY	= 		 				 7WtuK	 		     ;2mL	=	 	"\L"	 	
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:cK/l	 		 ;b&="Ë\Ü\M\¾"  
+

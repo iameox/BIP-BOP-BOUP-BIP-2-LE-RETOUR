@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Cookie:     G8y==n:M$5mr0L@?lDu; -Y6_=""; b=s; CZ=bmKxy&<+BU; CEsbVInBL=	
+Accept-Charset:	,   		xD6;q=0.9	 	  
+Accept-Charset:,	 , 	 	  wx	 	,	 	 
+Cookie:  		NId=; _9|X=Xt^C]Ly$; LlIH!6JW5xU="" 		 	
+Accept-Charset:				    	J 
+

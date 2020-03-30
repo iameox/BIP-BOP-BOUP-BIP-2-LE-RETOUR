@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Charset:UPUr6*	  			 	 	 		; 	q=0		 	 ,		dhiXw	;	q=0.4   ,   V ;	  	 	q=1.,W ;		 q=0
+Referer:s%9Az%BBZ/H/zRz/X%78,z%55D/IY%1A8vBQM%7C 
+Accept-Charset:  	5+kI 
+Referer:R:@ZZJ/? 	  		   
+Referer: 	//l%844yn3%D9%B9///;J%FCcB/UO/j//%77_k@%43WQ/v/CqwN$:$qlv_%A892!//%2A8Rq3Q$aD/2YI_l(V;Ox//L/0B/GWN~/!T/s,nd//%BBSF/5/4id/t5//Ch			 		 
+

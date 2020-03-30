@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:7=; 8Hu="'"		
+Cookie:	TrXQ=o; qK=; 0o^=; S="%m%pA"; K0=; 3CHKOn="7QYx._8"
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: ,	 	 		,    ,	 ,   		  	deflate,,wb  ;	E_ 		 	  	=  ""  ;	 	  HN	=	   "\¹"	; gHUc^^Oj&O~  	 =			"?";ab  =   "Q";			  		  Ng 		 	   	="\‡\ú\ø_µ\±\×\”\á¾\bf\¥\±" 	;		 *^f6M7~p`MbbFbq~s="\µ";Cr 		=	"\P0\šÕº\ò";0JwSuh		= "\¤";	A3p="nD"	  ;R 	=""		;PosL+ 	   ="\ÎÉ"  	 
+Host:	77.41.226.111:9726303962		
+

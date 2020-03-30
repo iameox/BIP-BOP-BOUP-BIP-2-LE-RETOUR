@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+User-Agent:	AX|cY/v	 	()    ()   (\ü½^?) 	 	   		()	((›ÓìV\ö\E\ö)(“\<\*\P)(^h³? u\Æ)) 		    (\=\Î3\Ý\k\T) 		(\ö\…)		
+Accept-Language:,		  		 	 ,    	 , ,   		X,	 		 ga-X-y-E2-b-9
+User-Agent:		uN+/9A 	 	 ()	 		     
+

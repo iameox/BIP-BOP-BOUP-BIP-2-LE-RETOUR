@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		-.$="(YX[X"; .ns=""; 2S%56eb="lSmP5y"	
+

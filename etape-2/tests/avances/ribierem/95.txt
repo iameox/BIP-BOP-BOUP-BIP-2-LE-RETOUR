@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:     	 	  4L 
+Accept: B/6-M`5Ctrp#a40+Dr ;		p|=X 				  ;	rq|="\¸\Šù\û\¾Ssq\Ó"	; q=0.6	
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:~9WG4UNr~B34w	()   		   			 	(\0\ÿb\{\ç\Ö) 		 	 			 			() 					
+

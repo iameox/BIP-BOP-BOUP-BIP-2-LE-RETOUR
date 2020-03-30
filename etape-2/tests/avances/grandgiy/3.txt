@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:  c3/E 	   	;		  	  	iUcp^W-="\µ"	 		 
+

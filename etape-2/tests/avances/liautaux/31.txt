@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:3W	 		 ;		 	g|eofO&=	 "";	Eqgr9g				  		 =	  "z"
+Transfer-Encoding: ,	  ,			,	 	,	    	q 	 	,		compress	,,  v ,  		 	 z		;YrnZZY%9I.r%	=	 		"\à"	 	,  	
+Transfer-Encoding:   	  		   lyZ5,, %ePRMv		 ;		lRF    				= y`x 		 		 	;9Yzy~  = "\ˆS\„\,"   	 	; f$+ 	 =		"n\Ã"    		,	
+

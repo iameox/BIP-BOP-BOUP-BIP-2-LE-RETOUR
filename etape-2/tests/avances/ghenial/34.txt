@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:  ,	,, 	,			 	,,			 				      ,		,, 	.!c  	 		  ;   				q=0.0		 
+Referer: P:/?9p?9?q%91+ 
+

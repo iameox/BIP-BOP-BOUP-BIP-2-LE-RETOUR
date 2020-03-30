@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	 			Ghn=$6XVe; xv^&="K"; RBM4RLTZ5="1mq"; x=""; y%bgbuiRS8=VIY7 
+

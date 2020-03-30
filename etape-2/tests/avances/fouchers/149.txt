@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	K6UM=kL; 7j=; 7X="Si7Lb+O("; N="R3wjz"; MnG="AyHzi"; y=; 4rJf`6=jPl; $luQ=IK>R!.; t=); ZDETj=bh 	 	  
+

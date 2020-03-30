@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	 	 	 [::02:6:A1:7A:63.194.251.173]:522 
+Transfer-Encoding:, , 		, 		 ,,,sep^ ;	 				 	 		e 	= 	 		"þ"		;P	=	 	  	   	"" ;nvEq-zQ|sH  ="á\*"			  ;	 &WpFGL= 	   			  "¦³‘"	
+

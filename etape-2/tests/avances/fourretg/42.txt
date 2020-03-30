@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Charset:	 ,  ,	   		   	  ,,		,|4uRV3X ;q=0.65,58k_uo	 	;q=0
+Transfer-Encoding:  			 	,  	Vo_uAo82`OMY;	  		 	 	 	n|oc|4bRym2w^Jf2^5Cv8s0t3	=			 	"ύ";	   	 	 QV=	  X3H 
+Transfer-Encoding:		 	 , 	3f#ur; 		U.j= 	"" 	 
+Accept-Charset:				  		  	,    ,,			,#ubarXuQH 	 ,,		 ,,	.6l 	      	  		
+Transfer-Encoding:  			 ,	     cO ,, j,eE`*Df;	 	mZF		 		 						=	 "\χ\j4\Ω\W"	 ,  	Qy, 	 	 				   'JW4uXqJq   ; 	 		 	 	 	  JRcry4|5p					=		 "\Ι"	 			;  			^	= 	 "\\•Αρ\ρ" 		 	 		 			 ;		 d59N  ="O"	 	,		 		 ,RA-1ck0c^Rf ;eM%7d+	 	=		*bGK%isf;h		="\V\Θ\Υ"    
+

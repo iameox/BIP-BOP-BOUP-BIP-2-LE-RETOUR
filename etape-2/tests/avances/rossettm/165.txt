@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:		a%=kV
+Cookie:				 %cYREO1Lz1tNf1="FG#"; Rn="U"; lrSO*_yoFxCny=")|"  			 			 			
+User-Agent:^gf  ()	    		 		()	
+

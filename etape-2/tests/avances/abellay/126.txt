@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer:   Z:/&.@!I!Y2ej%32/uU%04%E1$z		
+

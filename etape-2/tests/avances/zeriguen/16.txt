@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: 	AjtD/YH7g; 		JvEi="оя\ЦD\|"	 	 	 	; Ch4aI=8;		Bdv=""	  	;   RSV=.P	  ;  	z="\н#"  ;		8^~8=""	  		;w0="\щ" 				  ;			      	rGIIR#NJ4^5gw'5us'RgA="\г("; B6gDB'="ц"		;	 ^D="\F\Q\V"	
+Accept-Encoding:   #%k$hchFQ	  	 
+

@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer: Wh4:/B2;/*%BD/%B0tjiX/	    
+Referer:	 %0A/:Fgx%835Fp+t*;K/i%81usi~%D9XzY%798v%E7,./t/S  
+Accept-Encoding: 	A%#bWP			 	  			 		  	
+Referer: p://[::98:6:A:E:200.178.253.124]/b%A7/%7B/B@g%9E/g//v/'%8Cj%DB	
+Referer:  	 		//SWq@[v4E268BEB12.YO]//VWhR 
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie: 	  	 	 ^=""; d="}"
+Cookie:		 		dq49`T0oF39Jpl`="F"; L$+0uPEEJ=M; DqB7=; IE="y"; `i=]fPN; D="V"; v=U|v5; QlmfxG="~"; O^3_UNaTL$t="B"; by4=E; Z=CtT; J=""; R9#R.3KW=""; 2Quf="!Jt$5U04]B"; F=; YcOGG~5`gD6V=>$; TS0aU=; 3jG-U="t'k"; aPQ=ahWz&@mo; 44a9&=[_		
+Cookie: 		 .=
+User-Agent: 	 	 	    	 	 G38	  (á(\Æãh\xŽ\\’7)(\Ú\ž)\¥\Y)	 		  QUOgTYN		  	 |P* 
+

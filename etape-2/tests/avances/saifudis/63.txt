@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host::2772		 
+Host: ;%3C%D2-6Z%BD	   
+

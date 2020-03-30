@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:	KC#a.|GBYF90/yH 	  
+User-Agent:	 fBmUE74tKPlXa/w7|xc*rN3NFQja!	   	  	 	((\_\¸\lM\½S–\–)u\"\Ñ\;Î\7°œ(Æ\¯))		
+

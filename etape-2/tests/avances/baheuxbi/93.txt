@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:	 rm1yB_MPsR3YCJ~mFuD/#	 (Q(“"§\½)¨\«) 	 			*xSE8Nq	(\ª\ã9\@U\/(\(0)(.\F’)()2\ª(I\W\Ü\ŽU¶\Q)ñ{\¾)	        ((¬)\o\w()NS\»)	 ()
+

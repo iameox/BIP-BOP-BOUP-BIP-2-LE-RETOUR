@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset: 	    	    	,,, 	,,, 	 	,, 			5	 ;	q=0.			   
+Referer:	 NSYWS://%7F@[5::8:5:4.117.129.240]:/Z=%30/F/F:%53@i?M  
+Accept-Charset: 	 	w    		 ;   	q=0	, 	* , 'IPan	 		 	 	
+

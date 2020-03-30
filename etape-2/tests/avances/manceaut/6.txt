@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:,, , 			  	sk-H-2-wH-r,Y-ye  	,				 ,x-Z-7  , , V-lG-T-ww		 	  	
+

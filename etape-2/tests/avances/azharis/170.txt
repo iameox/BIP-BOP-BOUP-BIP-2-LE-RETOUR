@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type:M/9  	 				; 	nv="";  	 8="º˘º\92¸n\Åc\ºõê\Ó" ;  3.r4%Ehl="ı\Â\íf"	 ;	 X="\=" 	 		  	     ; 31d="ÿœ\D\_";	 	    				k_w`AM$c=A'		;	F`%lep="\…\6\""	  
+Accept:sAX3RgcMk&06*Rr61ol/HIoXm  	; eS=a	 	  	 	 	; 		  +R="\s"; 				 0A="";bI9Xaaw="\˛"					 					 	;  	 				 		 me=""   ;_c="@ò¡";WzwE="\Hös˚"	,					  	,  
+Content-Type:		%-+X/X` 	 	  			 	
+

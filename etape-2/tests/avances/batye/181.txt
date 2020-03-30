@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:d=		 
+User-Agent:      			 1#CHr2Nq`a8	  		
+

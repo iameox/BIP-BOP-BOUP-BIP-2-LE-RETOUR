@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	251.237.83.9
+Transfer-Encoding:			 		,						 			   ,	   		   k'6~hB;r_UMkpp	  =	"\!\ΒO \\\λÿ2\s"		 ;		 	TF|`YlTy		="Τ\ώ\wª";*&!	 =	""; w="τ\­‡m\O\ Μz\D\g1/"		;		PFWx		= 	  "h\―\Η\λ\μαE³@" ;  	 |25 =  "";puxN$T		 		  =   " C/ι	Ξ*\!³\U\Π" ; 	j2'^xI  		=	  	 "\µπ„" 	;	  		  	 			  E_-N	=	 "\ÿ•\(cο" 	 						  	 ;	3*8A`B5=		 p5+.4;	   	 -y	 				  ="t\@", ,    gzip  ,
+

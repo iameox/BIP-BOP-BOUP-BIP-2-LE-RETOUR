@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 		   	 	 	 C5O=""; 1dr=&
+Content-Type:	  		 	 KUg$.4Mlbp/oy  	
+

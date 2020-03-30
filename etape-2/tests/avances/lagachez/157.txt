@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:				DW`K=M+U%	    
+Cookie: X*G7ax=bFMv; F=Xp; LP4!=1		     	   
+

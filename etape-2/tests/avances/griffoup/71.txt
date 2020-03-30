@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	W=Aopmrn(; tOJ8d.r=<3(m			
+Cookie:ZY7=I}E#3; PGXf~l_="A#JvvCa"
+

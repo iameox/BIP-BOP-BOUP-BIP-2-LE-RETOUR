@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	  	[v50E04.HO]:4 
+Host:	[v89E.y]					 	 	 			   		
+

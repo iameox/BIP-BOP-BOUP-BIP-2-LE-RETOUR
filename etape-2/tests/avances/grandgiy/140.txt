@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	f8=fLI; |="V."; -7~5a5G="=U"; yYy="/h"; h=Brd50_; &pr=Y7jh:; H=EQ4h#; F+7=""
+

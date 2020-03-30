@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:		 B=!7q; g5^=""; VrnC=""; 8'X=; _.ZNXV="LQ.V58o$:!S?"; fU=!+ 
+Transfer-Encoding:			,	 ,		WbK   		  	; 						  9.i=	""; 				He 			  	 =		"õ"	     	;W!~	  		=	  "" 	 	  ;	 WiDf%	     							   	  		 	   	    	 	  ="ú"			 ;  Dlo =	"\Ù"	 	
+Cookie: OE#JvD="]66"; #=
+

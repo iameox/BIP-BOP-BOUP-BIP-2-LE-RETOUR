@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent: 2*c/Rl4    	(”Q(_)(Ä½*á)Š–\$ü(H))
+

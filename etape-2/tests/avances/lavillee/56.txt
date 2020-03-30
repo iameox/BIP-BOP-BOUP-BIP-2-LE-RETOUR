@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept:				   		#Y/7WQ'RV~	;  	  	r="Ð";			 5="‘\,%9"	;	GA=""			,  		
+

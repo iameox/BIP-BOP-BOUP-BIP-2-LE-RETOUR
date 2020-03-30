@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:	 	5t.IG 		; 		q=0.066		 	,
+Content-Type:		 		   	  .Me/D	    		       ;PdSFx5TXl="\Ъќ\И\Х\s-" 		; 3o~="\E"		 ; 	o="\к\)pо"	;  !x="";  2="\d"		;M5=x*; 1d="\„\љ\e"			;		zp$geM7e|d="\ТЫ­"		  	 ;  		U=qn|IjFu		;	*O="м"  	 			 ;ox^="Хв\МU\з‹"	 ; 	3x="<" 	  	;_D="\¬"			;		 W="Й" ; 	N`=5_b 
+

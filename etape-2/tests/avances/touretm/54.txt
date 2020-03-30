@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer: 	 	 					l:d!yk%F68%E0U%11/ruV/LeRW2K/%CB/zW%8AE 	  	 
+Referer: 	HXO:*R/			
+Accept-Charset: ,		 m0	   ; 	q=1	   , 	  	d9#E	  		 	 		  		    		,	,,	,		 	  			  		
+Accept-Charset:  XV;	 q=0.09  ,  ^3;          q=0.873		 		 	  
+Accept-Charset:	 	,,  ,   		  		 ,  	 'aE 		 ;   			 	 q=0.4	, mD;q=0.2	, 	7JLA3	 ;q=0 		,	 ,LOesY%!M ;	  	  	   q=0	,			 	%; 	    	q=0.344	 	,,	,	,			   	1I,,				  				9I9   		; 		  	 q=1.000			 	
+

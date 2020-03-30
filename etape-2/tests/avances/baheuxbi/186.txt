@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:    		DnM/UZ  							  	  (\ูก\ึ\ป) 	
+User-Agent:x   
+

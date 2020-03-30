@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 		  o6*="Rkv"; b8Zyi|It9_zE=; H#="Nw.M"	 	  	    		 			
+

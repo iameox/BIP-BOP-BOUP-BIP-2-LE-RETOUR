@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:		 	 	 	 	NFQD 	 	,	
+Referer:		 			//@[EB:9011::6:210.56.100.8]/U(%D2/B
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: P9zDu/Vy$D#4g   		;  	`B="~›\œøÊ\{ÿ\Þ\ò"	;	x="\¦'"		 		
+

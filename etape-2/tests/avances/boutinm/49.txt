@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:rk27R=am?2; Za=""; U72=}-:P
+

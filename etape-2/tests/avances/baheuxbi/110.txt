@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:		 wMHuu/3wQ2tbS*bG		 	 (h)		  		E  (\=)	(())	(\[\ì)
+

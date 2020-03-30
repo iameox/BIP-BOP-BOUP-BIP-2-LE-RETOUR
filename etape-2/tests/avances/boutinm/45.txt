@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:			 	  	 w-21f&T="uDv"; U=:El  		  
+Cookie:ORIh=+)6W; eB#'!A="oB"
+Transfer-Encoding:	 ,,, ,,  compress 	,, 
+

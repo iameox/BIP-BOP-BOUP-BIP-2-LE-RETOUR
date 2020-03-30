@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Cookie:  lJCP=; O+Bzqu=Q; *$Lj=; LdIl`="dj[N:/dd?"; S=TB~]Gw7; N=g; 5Pc=""; x=1; j=a2; MF="Q9yALe+u`L"; G="_u<7{'2j4W+fdb"; Kk%c.q#f7=:; P|= 
+Cookie:!9XWdFcYG="E-S"; nVjbi=""; Ow=; UdU=b; 7HFF="uk3c[t_e"; t^J="^0"   		 		
+Cookie:			 	 DruwwU="" 
+Cookie:	 Kke3hH="CGk=0YDL[gQ"; x'YbQ="N9}"; Mb=n	 			
+Cookie: 	  			mJvD7tcZ^K4U=")CPB)"
+

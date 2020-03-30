@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept:  #q2/*	;		    wcoU="" 	;	hR-6z=""	  	; 4=iud		   	 ,	A/*	 ;  M!h="\ÒÛ6\K§\±";	 		 	fH*y="ò\Â\Ÿ"   
+

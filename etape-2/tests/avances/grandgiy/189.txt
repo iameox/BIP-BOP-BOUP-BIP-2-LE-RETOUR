@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type:  	 5W8d3K/wWZ 		  ;5|z&.aK="›"
+Cookie:   		wr=v; 7="VU"
+Content-Type:vJa/x
+

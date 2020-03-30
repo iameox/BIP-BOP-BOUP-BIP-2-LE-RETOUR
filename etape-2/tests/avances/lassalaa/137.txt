@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:	    	  	  	 	   	 		$F="Q"		
+Content-Type: T/_	; 		 	&X="\€\¡\€Î"	  		  	 	  
+Cookie:27=; s*cmC&%="8Wx"; b_|Af9Za="5k"; +=}p; Iu=		 	 	
+

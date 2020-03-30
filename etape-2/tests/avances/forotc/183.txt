@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:  //252.7.0.13/%AAjJ%9Fs?C
+Accept-Encoding: 	 	  $	;q=0.    
+Referer:g://[::1:65:89.252.241.211]/*Oc/
+

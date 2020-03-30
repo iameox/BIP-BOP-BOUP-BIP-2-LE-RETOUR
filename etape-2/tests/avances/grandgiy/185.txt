@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: k8uya_/KW  
+Cookie:		m="I$"; ^="72L$!P" 	 		  	 
+

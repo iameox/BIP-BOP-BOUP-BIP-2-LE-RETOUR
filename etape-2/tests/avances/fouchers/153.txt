@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	   D`Cf0="N"; f="8"; IWk=""; _.0=""; nduS=/hvB{8 	
+

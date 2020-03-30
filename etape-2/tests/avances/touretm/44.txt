@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer:				   	/?%E7S%3D 
+Accept-Charset: ,     		,		  	 	, .k6th~ ; q=0,	s    
+Referer:  	      	 iSfa:/4FXI,4/6W  
+Referer:/G9PnXUJ%82-*
+

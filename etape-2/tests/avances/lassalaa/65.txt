@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:		rC=y; NH=; R1o="h!`"; 7&If&1="b"
+Cookie:N6ZfT_t=; %-%Es=; *!="w" 
+Content-Type: 	&zG~X/upK*    ;	n_2eE=">"	   ; PK+'="R\»\‡"      
+Content-Type: bD'BEG/'
+

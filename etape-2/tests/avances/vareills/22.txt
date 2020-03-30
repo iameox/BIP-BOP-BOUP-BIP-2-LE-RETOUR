@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type: 	 		 vJw/C	   	
+Accept-Language:, ,,	 	 	,,   ,	  , 		,		 		,,	 	 f-9-jTU ,uTA-8-n-nW-Hk		 ; q=0
+Accept-Language:		 		  	  	,    ,		,  			,	R-TL-Zc-RlS-XJ-qw-a39b-DFj-I1Y-Az		,BI-2-L  ,k  	 		
+

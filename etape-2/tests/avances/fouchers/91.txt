@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:  YB=Pz(5; ..b=""; _*mMY8=>19fvww|DN*7; b=""				 			    
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:  Y=F[; 2^oNXj="c(xV"; h="x`tU"; G="-UrNl" 			 
+

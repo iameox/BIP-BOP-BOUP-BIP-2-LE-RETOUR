@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host: 					 	 	  	  	%92q:03	 	  	
+Host:			 	7.9.0.2
+

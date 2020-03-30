@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding: mQM|-~'B.; 	z5|aXe=""		 	  ;3="" 		
+Accept-Charset:,   	  ,		    		 	,,,	 		  ,		cSqa 	,,
+Accept-Charset:				  		 			*    ; q=1.00 
+

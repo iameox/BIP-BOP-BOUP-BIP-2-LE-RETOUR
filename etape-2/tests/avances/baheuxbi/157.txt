@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:l'/ojA7fT	 (\ƒ\6>Υλ)   (\ήμ\r\<c\φƒµ())	 	 
+User-Agent:  			  	sQxC/r ((\#)\5\ΰ(Ο:A \…Φc)(S))
+

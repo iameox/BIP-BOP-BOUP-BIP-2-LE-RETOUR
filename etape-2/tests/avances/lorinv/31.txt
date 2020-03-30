@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:		m/5VzypwW	;	 2I1L="Ù\WÀ\`" 		 ; 		 	 KVC=""
+

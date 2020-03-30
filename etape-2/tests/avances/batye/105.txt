@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:w="1u5"	  		  	 	
+Cookie: 	rC+*QY4=
+User-Agent:	   	  45'qYx/RV+FSE9YbeMPsC (\k) 		
+

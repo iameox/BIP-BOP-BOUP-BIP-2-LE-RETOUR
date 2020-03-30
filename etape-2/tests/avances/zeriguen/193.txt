@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding: 			 
+Content-Type: z/V$9R7C3Ygw~`g`zEM0e6qeWFl$~ 				 
+

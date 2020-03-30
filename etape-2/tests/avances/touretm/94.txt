@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:	 			 tpEw%E7mAkEb%53A!/v,MUd/@/ASX//3/C/+n%BD$%78:G/%27%5C'Eb/-o2SX/y	
+Accept-Charset: 		,	 		, 		  	, 6ZQ%$B  	 		 	;	q=0	 ,Od0b	; 	q=0		   	 		   	,, gzqh	;q=0.		  ,	 	z		 	 ,	  	 		  		&Zvd		;q=0	,vbW;	 	 	  	q=0. 	,	  *		;q=0		 ,  cNwR			  ;		q=1.000		 	 ,	  
+Accept-Charset:	,  ,	,  ,  ,,	,	  	  	  			 	 ,	  ,Q^; q=0,			 ,,,
+

@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:  ,   		, 		 	 4cFIt_|	;	 y  =  	 ""	, ,				 		u	 ;	T=   "S\∆"	; 	u 			 		  	 	=  	 	 "\ñ", 	 	
+Transfer-Encoding: 	   deflate ,4M   ; 	f	   ="ê\1Iz\~"	 ,, 		-NlD	;	  		  SG0QXE#HCM-x= 					   v8JNAJ*	 	   ;y=   	 "\e¢l\Ω";WwDGL	="\*\ZÌÜ" ,
+Transfer-Encoding:	 	5	;      vYs~`WL =V ;    		G			="\t\9\Ô"	;	PdVu$Ye.="" 	  	;	  	 Kz&EP  =			  	    	 							"" ;	m9xbQ=")",	,  		 q+2F 	, 	,&sni
+Host:   		84.68.214.17:9 
+Host:[::6B:A:0E:2E8:8:11C:CD]:6
+

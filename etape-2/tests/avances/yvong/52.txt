@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer:  	 //[::2900:252.8.250.255]:4?		       		
+Referer: 		 LU.5Ks:Fh%E3/,'n/Pw%8FGL/m/?m%2D_G%3C*
+Referer: 1/o%A2tPj
+Referer:	V://4%81-ICJq@[vC.(Ov(R]/'W 
+

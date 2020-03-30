@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	w=0LU:GlUjW%; 18=QVezmy8w@WmXnd7; a=Dq+; qM=">"; RLY="bH%F=q"; 4=; h=MH_'		
+Content-Type: p~4/drLS1W`gD5XN
+

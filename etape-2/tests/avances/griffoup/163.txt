@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 	   rZ=":"			 		 
+Transfer-Encoding:		|7A  	  ;  	  			%*po! ="\¿"	 	        		 			;			 `E2	=	  ""  	;    Uw-s#U58=		"\XÒŒIö`"	;nY3|B6-.=La6EUh#Lk7; 	.ScL*Q'	  = 		 "£Ü"; 	 gsY-    =hZUY3|th   	  ;	  	 P="\ù", 	  ,		 	  ,   ,
+

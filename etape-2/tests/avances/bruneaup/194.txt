@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host: 	    	 	aQ7	 
+Host: [::9:F]:6524 			 
+

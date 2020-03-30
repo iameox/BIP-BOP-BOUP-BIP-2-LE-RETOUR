@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept:	 8Cf/A;  !hu%1mlikg="vÃÞ\(\Æ" 		;	 !G'-1g="M"		;				 aH=ngAO ;	*="­";  z="\s-$/\_\0š\T\ƒ"	;						   Xqv="\	\2î\Ô„8þ\ñ"; e=8~QrJS ;PxvU=""			 	 ;		Kh="\ë©\ù\'"	  	 ;q=0.37 	   	
+Cookie:	YD=*KY]; J=J_; N="~R4[^"; #iG=FB; N*="B"; NzlPxR=k`3_mM>kR; ppMPA=""	
+Accept:    	 	 	 	 
+

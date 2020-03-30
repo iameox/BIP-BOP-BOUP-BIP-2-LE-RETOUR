@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	#S4Y="W" 	 
+User-Agent:Hd& (\Z(k\k{\์น\/S;ต\—\ห฿)ัý_\มหอ\Þ)					(ง)  () 	  		 
+

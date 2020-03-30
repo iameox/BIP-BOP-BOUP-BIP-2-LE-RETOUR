@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	Ar=; EZy%8w="~"; -.QU=g`1; X=; E^=; |Ag=""; 2or9="H<"; M!Q=Aluoqa					
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Language:qt-l-c-j-8-q  		  				   ;			 q=0.	,*,	lA		 	   	   	 ; q=0.385
+Accept-Language:,  sb 	;			q=0
+Content-Type: op-2/tNeGL9p&&AKlc
+Accept-Language:  			,kPbt-Y-fR-bsus-0CH-4-T7-2t 		 		 		;q=1	, 
+

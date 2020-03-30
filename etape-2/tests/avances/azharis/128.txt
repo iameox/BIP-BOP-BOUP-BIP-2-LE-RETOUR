@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:  _W%+VVq/9	;   	 	2=l;    m'URP_%xY="\o)"	
+

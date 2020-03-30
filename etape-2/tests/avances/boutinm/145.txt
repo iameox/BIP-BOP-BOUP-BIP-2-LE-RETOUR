@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	t="J"; K!$XwC^F+epS4="9"; xe="pHthGS<9!"	      	
+

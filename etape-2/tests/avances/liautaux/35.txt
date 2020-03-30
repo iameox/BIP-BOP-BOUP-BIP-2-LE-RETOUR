@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:	1S.uN 	  ;	d		     =""	;		  MoBAEY1BvHa$  				=			  	 	 		"",   					  V. 	 	 	  	, 	 chunked	 
+Transfer-Encoding:,	 		,		 	   T5	 			 	 	;8		 	 =  	 "\Å\ï" 	 	 	; n$J0'd`^vyU9xJ 	=		  	"É7Ø\(Æ" 	,Nb!n#Ve5;  		EeR41 =	 	   	""		 	 			,,		  	i	    	  			     , 	   GAM3Ja	;	 	FjZXiRUc|Lc			=  		 	"\L"	, 	, 		  e	 	;qy		 	 =    	 	 $TIC;	.		 =		  		    	""		, XXv1Hh ;		 			  	   					   	    z="\r"
+Cookie: bP="-q"; ~B="@JJ"; f+=F  		  
+

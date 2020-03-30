@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	  3q=qp698; JuM=je]t{.; 17="t="; 6rPVfks=.m*ub1Kk/'pjC  			 
+

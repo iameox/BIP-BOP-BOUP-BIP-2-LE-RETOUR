@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:2/bv.;		q|Cv="\²\”\ˆ"  ;			lR="G\'Œ\“"			  ;  	  		  			.="©"	 ;	  	 	-MsuEkn=UjT	 	 	 ;  	$w="\xM" ;	Z%x-KSH="›"		 	;	 	   	 				 		gS="ßb\GÇ˜\Ê" ; S="\Ï";   	+^hDkiB="\'" 	;`mzHy="\½¢÷ô>\;\5:\æ" 	;	  				 t="\ò_\¿ \6j\OV\½\p\±\Kß*i" 	   	
+Accept-Encoding:  	G  
+

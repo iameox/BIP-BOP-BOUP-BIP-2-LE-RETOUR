@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:sg+:7    		  	
+Referer: 		   	YN1%D1*?c$+UD%49 
+

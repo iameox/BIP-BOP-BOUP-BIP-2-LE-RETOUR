@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept:      		 ZT/*		;				5n="E"	  ,
+

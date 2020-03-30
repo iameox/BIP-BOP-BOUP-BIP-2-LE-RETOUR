@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		e1|H_K="E"; 6r=; 7v*vp_80=""; wAr^y=""		 	
+

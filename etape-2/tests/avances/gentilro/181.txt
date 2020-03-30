@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	%=""	 	
+Cookie:o!=; $x*=(g; zkWB#8="@"; G=J; '="e3M"; x6=+uGMz^Up			 		
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:	MwjQyt 	(\щ(Вс1\ь#\Я>)\Г(U\g\S):°\C:)	 (\Ч\'\a) 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:hAfMd#t+ZZ/*	   		; b="˝\óﬂ®\R÷\¨\·\Tú¢\÷\•\Âz"	 	 		 ;   	 		 r'%%="\Ênl\ Ñâe\eó" ;	4hfww=""  	  ;  q=0.	 	,  ,		 , 		 b0/*;	 V+xq="\û"  		;     	#="\º" 		    	 ;  	 q=0.	,	W*kXM/*		 	;j="";  anY="Ô"	 ; 	nu9="\∂¯" 	 									  		   	 	 ,	 	,			  2qsHN/G	 			   ;	 	P=""; P~3a="ò\–" 	;	 			H="º=§Êª"  ;   De_-C9M2!=pj	 	  	;q=0 , ,O1/TL 		 		 ;q=0.	 	 ,		
+Accept:  U/V+-i*			 	  	 ;					 vV=%k&s  ,w/I_` 	;D8=9i0;	 	 		 		q=1. 		    	,	dc/Ix		  		 	 ;EhbC=""	   		; 		q=1.			,	 		 	   	 	V/*  ; 	 	    q=0	, FTI'xK/#0n'	  ;		2gd0#.79|HS0K7x="\ı\i˘≠\j" ,,	  	 HA|h/* 	 	 		;	 WPH="N"  	  		 		,,  zJ/*;		 Jx^="" ;	zG$#iPWm="\µ\·\Ö" 		;	 q=0.428	    	   	 , 	 	 	 			zrJa/*	;q=1. 			,  	JbrHW6iZ3pY/* ;3.f="≠Ê\◊"    	;		   	  		't="\ãŒ¢"     	  		   		; q=0,~pgPB/G*% 	;	I%oU|y=ayHF ;Jv2qv=NIS*a2u9; B*="µ\Ë\E≤\ÎÍ\6\?\]\ê"		;q=0	 		 ,	wmGgN7Z|l/*	 	 	 				 	 ;   l=IrVr$p23WzfQD;ph*P="\¥"
+

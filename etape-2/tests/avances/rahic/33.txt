@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer:s:/&/%A5yLV?fmQhpL%98$w 	  	
+Referer:no~%8Dw%A4e/cu//XL%D07NVIm//f:/%94/zjdf6!E/Qt%8A%E7		 
+Referer: 		%5D;XQ4NO?@x%8A  
+Accept-Charset:		,R;			 	 q=0.				,			  `1F.U~;q=0 ,  xr+ 	; 	  	q=0.			  	,				3iuk 		   ;	q=0	 	, fegHgq		;	q=0.25
+

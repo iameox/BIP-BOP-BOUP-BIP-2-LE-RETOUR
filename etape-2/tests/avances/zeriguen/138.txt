@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:      			QK12/XBMM 		;	c'-="8Ìu"  ; 		7oAiTIlf=G
+

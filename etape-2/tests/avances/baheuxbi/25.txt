@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:  	NK1~XY	  	(\K\|(ÌFK)õ\<\±\.(\÷\|\á\è)) 
+

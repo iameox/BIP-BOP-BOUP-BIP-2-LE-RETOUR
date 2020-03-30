@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer:%2D5%3AQj%889NmwOE//q%BF/%AA6T_%BFVKC//(////?%CE	
+Referer: 	 DkFQ:%34:?wie9%D05%DB 	
+Accept-Charset:	 	, 	 		,	  	 ,	,,   		  ,  	mpI			;	 	 q=0.1
+Accept-Charset:,,,,			,,j`Dl,	  	 , 	 #   	;q=1.    	
+Accept-Charset:	 ,	, 	o|. 	  		 ;	q=0  	  				 	 	 ,* 							
+

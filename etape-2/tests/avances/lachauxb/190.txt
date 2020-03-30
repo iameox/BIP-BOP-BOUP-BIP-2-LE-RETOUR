@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:,		, 	 	  ,	,		 	  		 	 	  	,	,,  ,, , 		,  		,	,  		 		  	d-e-a	  ;		q=0,		    	TP-gUT 	 				 					  	 ;q=0.1,		 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	 	r0*!6$5="O"; .-O=; %xM$=k[w; d="Eg`rsp^]" 		 	
+Cookie: yE=Pn60PjSEJ
+

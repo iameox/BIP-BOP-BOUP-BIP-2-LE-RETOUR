@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:		 			h|C_5P$F~DzYu`W/L	; *="\b"  	  	   ; WO="\õ\K\¤\ã‚÷"  		 	   
+Content-Type:remWznIJ`Kb/~ 
+

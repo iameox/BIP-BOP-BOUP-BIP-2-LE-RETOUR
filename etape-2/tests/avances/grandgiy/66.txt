@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Cookie:`&=)rD5(|; %="Z" 	  
+Cookie:	 CX=[n|7:; TVNvT=; NRz=L./; 3="-Oj"; d="T"
+Cookie: 	   	  	 U="<"  						
+Content-Type:	 	 	GA/L
+Cookie: 	 	  	 c4v=0Mg9G|; A7_boSjZ=jq6$; ~="QP"; P=""	   
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:,,chunked  			 	, 			 	  	   		 		 	 ,,   	 		 	 O		  ;&rU0I	  =		 ln 						  		; 	r.		="\Q", ,4r1 	,	VN%2QR#;	7poCz6! 		 ="\	\C\Ú,\å" ;. 		   		= "\›"; 	zH ="¦" 		 	   	, 	 
+Transfer-Encoding: 			5*raViaEk81-Mj6	  , 		S;k	 	  ="M";   	UR7j~VW=   	"\¹";	y%iL=		"07=\T\p\ÃÊ!\·\¬7\Ó\÷\Oü"	;wB			  	=""		   				  	,   ,
+

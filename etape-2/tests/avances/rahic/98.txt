@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Charset:, 	,	  YX 	  	 		   						 ; 	q=0.999 
+Accept-Charset:,,,    	,	e'F$ou67		 	 	;	 q=0.3					, 		  1
+Referer: MFKnB://[v9.)FcFzMSslH]:91/b5Lx%0F/R//wP0t3/Kl/Ec,%79%103PpDXLrW 
+Referer: 				  	 			 	Oa-://[::52:E:F:9]:69/ 			  		
+Accept-Charset:     ,			,			V1Ub  	 ,,	  	  	
+

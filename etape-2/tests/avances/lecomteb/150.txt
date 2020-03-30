@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie: N9Qez.!=&[F; 2aT$k=""	 
+Cookie: 	   	z0'I="Hl?b"	 		
+Cookie: 	O+="4cuD:"	 	 
+

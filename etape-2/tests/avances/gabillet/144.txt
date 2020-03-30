@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:		, 		, ,  	, 		  , tit-b,    b 	;  				 	 	q=1.000 
+Accept-Language:	 	,  , 	, 	, L-my-GIL-bv-cN-wH-tf3x-Yz-plA-ICu0-3Y-0L-8 ; q=0  	 
+User-Agent: 	 	  M/SXXmp  
+

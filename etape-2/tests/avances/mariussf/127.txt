@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Host:	[9BE9:9::92A:204.68.255.152] 	
+Host:		 	  [2:C96:4B:2:DA:0F:130.2.0.208] 	 
+Host:233.213.255.29:3	
+Host:   206.233.5.6:1163  					
+Transfer-Encoding: ,  	 	 	 				, ,  	 		, |	 ;  	  3S =		"‹ß\*\oº\Ó\]c\–\J"	,	deflate	  	 		 ,										 		 , , 	  ,, 	Xudjt	, 	,eu ,		 	   	3P 		 		 ,			^ 	  ;  		    	 O		=	"\Ÿ\o"  		 ;RqIA1	 = "i"		 	 ;	  FfDh 	  		 ="" ;  		  	  n% =	""			 ,,EM&H	 	   	,	  ,	  Bh	    		; 	s	 			 = "Ç"	; 	  					*cDZxDH~u=	 	 "\Í\-„" 		,	  	 ,	 deflate,	Cni_UVl; 	6JNj_X		 	 ="í"	    
+

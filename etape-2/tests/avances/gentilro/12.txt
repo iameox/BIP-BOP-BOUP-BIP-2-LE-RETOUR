@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:       7p+fvs0pl="b?V!u" 
+Cookie:'i="-"
+

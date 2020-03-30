@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:,	 		  	,  	,svjK  	 		,			ogRa-Vp-NL-n-r-k    ,   ,pF-emn-T-qp2 	; q=0.3  	,   	 ko-d,	 		  		 	 	,	,	   	, 	,   	
+Expect:100-continue	
+Accept-Language: I-Nt-HNG-c 	, 	t-V-d-a-r-up0-s-q;  q=0.	,,	,nQ-zf-YGRh-d67-g4zR	 		 , ,  	  sM-6-c-A-o-u0x;		q=1, 		,    	 		 	GLCV-qLUTf-U  	,	 
+

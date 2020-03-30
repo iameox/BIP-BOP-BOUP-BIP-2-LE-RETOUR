@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Language:		 ,			 ,  	,, 				  		,, ,, 	  ,  	 	 ,,,  	   ,,  ,,				   	 ,  				 	 		,  ,	 ,, ,,	 , 		 R	,		KT-FD5
+Accept-Language:  	 	 	VrE-IP-o-l-w-HU	   			    		 ;		 q=0.	 		 	 		  		 		,K-2i4wg-c-z-X-Srd-q
+Accept-Language:	e-u-eKI-R ; 		q=0.7	 ,l ;	 	 		 	 		 	  	 	 	q=1	,  Z-9 ,  ,	 		 	,  ,	, 	 	BivWM-g-u-J; 	   q=1.000,   	 	, J-AP-D-tiP-7e-8OE-3ej-ht-Eg-6dwG-T-0-O-L	  ; 		 q=0.	 	 			,,	
+Accept-Language:			,	   		,, ,	 s ;q=1.	 			, ,A-N-N	 	  	  ;    	q=0. 
+Accept-Language:	 		  	 	 	,	 ,	 ,,	,,  	ne-dPg	;	 	  	   				 			  q=0.					   ,,		 l-a-eU-f-G-MJ-7D-Ws;	 	 	 	 		q=1  			 ,   JslkknH-F-2lP-Od4		 , 		  kP-Q1-Prq9tMn ;q=0. ,  			Q-w 	 
+

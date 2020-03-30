@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type:	X80/n`						   	 	 	 ;		K="" ; 			 		      v="\&–p\ä\Å" 	; 	!="›"
+Cookie:tr=C[Fs~; w=:k2J_#j; f60n#$k8=; q=; pI="=.rN5txrPhY1kGr*y"; Fg="Koi[Z|0Hv~"	 
+Content-Type:		     	&R/`bw7uO	;  si|j="\Š\Œ•"  	 ;3BOe="\v¹I" ;	 5IK="";		ni="\Ó"
+

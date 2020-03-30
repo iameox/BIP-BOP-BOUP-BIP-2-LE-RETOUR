@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 			 Cnc7vwAu%uWgxXEOm="("; h=<:D
+

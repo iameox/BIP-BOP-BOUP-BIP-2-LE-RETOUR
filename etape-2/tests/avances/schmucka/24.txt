@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Charset:	 	  ,		 	,	 	,	xWY 	  	   	  	,	 		 	,   4 ;q=0.9	  , ,	  			 	 		   % 		  		 , 	 	 		_;	 	q=0.9	,Dqq*I
+

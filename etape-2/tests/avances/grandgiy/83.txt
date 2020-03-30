@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:  	  A=xVvLJBdgkv1l9'; yR*EGy3uiWeY=!	 
+Content-Type:	*/#   
+Content-Type: aD/zR4 	 
+

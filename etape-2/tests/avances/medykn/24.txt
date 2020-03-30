@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Host:	[vC79E5.w:Ty]:23 	     
+

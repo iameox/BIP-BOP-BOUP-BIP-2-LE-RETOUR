@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:		 	 	 		  ,	,,	 						 chunked 			  	, &v$	 ;!pA!_haBX 		= "ü⁄\Q\h"		  ;  oCnR6Wl				    =	    "\çù\t\=\Ô\B" 	   ;  fAtp		= 	 "Û" 	 	;  	   	xN0		 	= "Ω\›z\T◊MÌQ÷ í∂"		,deflate    	
+

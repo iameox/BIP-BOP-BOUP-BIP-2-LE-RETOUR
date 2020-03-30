@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:		 	 	         0H1zNxel=; r="YC%[%"				  						  
+Transfer-Encoding:	 ,,, 	,		 ,T&   		 ;	  &I`	  ="",,  	  ,	!uPG&909AyjYt		;	 u'		   ="\["	  	; HvG~*H ="";D=   		-aM6 	
+

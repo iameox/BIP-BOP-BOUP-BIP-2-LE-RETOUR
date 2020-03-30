@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:		  	 $1X	  (¸)     	 	(\,ð£) 	 
+Accept-Language:	,	,	,		 	, 	Seen,  , ,			 	  S-m  	; 		 		    	  	q=1.00 
+

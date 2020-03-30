@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset: 	   	$	 		 		,,	,  3T-c_i|e 	 
+Accept-Charset: 	l-JpM`%wq    	  ;    	 	q=1.,  	 -AU_%86$d0^TGEdUD8u6&*5aX87hH72ZHa8Y;  		 q=0 
+

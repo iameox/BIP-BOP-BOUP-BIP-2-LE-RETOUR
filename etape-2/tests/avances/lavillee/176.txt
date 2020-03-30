@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 	f7$$=LZY8h^6	
+Cookie: 	ac="{^<u"; &W=%DIO5; B6=n?~T8ISUw
+

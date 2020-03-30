@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: 						FIt/3o 	  	;		by*0N="A("	; 	 	 	 		 +RnJ="\§7"	    
+Accept-Encoding:    F|$, 				 $ 		
+

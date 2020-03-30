@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:					, ,,     	 			  				 	 ,			,_	   	 	   	   ;		MX  =	"" 		 ; 			 			 	 UW		=  	   		"\Ь"  			 ;		  KK= 		  	 	  "\y/{\╛\Й\Ф\Ж";	   %CG!fuCG8A#Fg	= "\е\О"		  		 ;   &tO~*=  	    			  	">"  	  ;	   _'d	= "\)@\╢" ,	5C;	 |		 	= 		 "▒\Б"	 	 	 
+Transfer-Encoding: ,			*GD-; 	  		 			 	w=	  	 		  				""   				 	  ;	 				b=		"" 		 		 	  	; 	 	 	     x   	=		"\4▄Ц\зи"
+

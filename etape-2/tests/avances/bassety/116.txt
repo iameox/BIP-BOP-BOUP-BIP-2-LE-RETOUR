@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: 	V/D;  4g="\t‹\(\(";	Pz="\º\Âu\Û%"		 	 	 ; hy=""		 ; 	Y`n="¨"		 	 	 
+

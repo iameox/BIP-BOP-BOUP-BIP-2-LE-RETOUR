@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Encoding:  identity			 	 	   	 	 ; 	    		q=0 		, 	 			 .bwKM_EEx6				 	;q=0 					   , 	, , 		  ,	, ,Ix5D	 
+Content-Type:k!/8G	;|uy="\§"			 
+Accept-Encoding:	  			 		
+

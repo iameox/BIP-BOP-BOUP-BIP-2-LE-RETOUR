@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:	 `/X
+Cookie:	  	   		m`D28=""; gQin="nM&_"; vhwc2GD=s; #!jA=BB`$h		 	 	  		  	
+

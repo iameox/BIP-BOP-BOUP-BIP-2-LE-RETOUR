@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer:	 		 		     JcBXF1S.C+ws://@[::18:D4:8E:8.211.9.203]:63377/gIOB7%37/__p/%2A;Fk+fN3//
+Referer: 	mt0iPso://%BA@:11056561///H2%071D  
+Referer:RQ-Do-e://U%582JZ(%DCw@[v773.m]:850212/;Fp%CA/%E3%8B@P%7F1d_%52G0Ww%D7P//%B1jXO/%C1?UL4
+Referer:		//DXJtc@[0:912A:4A:D1:2:F7:213.36.5.240]:81925/(		  	
+

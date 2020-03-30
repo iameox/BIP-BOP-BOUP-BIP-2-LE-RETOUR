@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:    	  z  		 			
+Host:	 ;ib&I  		 
+Host:	  			 	[::E:139:E:76EB:B:0.244.130.53]	 
+

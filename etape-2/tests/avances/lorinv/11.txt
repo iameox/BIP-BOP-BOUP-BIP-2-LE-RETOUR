@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:  	pIQ/JT			; 	lI&bd`cG7DAI5DV2B7="\ÿ4!" 	 		;	v="£M\Z\5	\ªÖ\u,È\´\n\N\î\ì\?\Ò\WŸ\í"	 			  		 	 	;ay.1u=""; ~="\ò"		   	 ; 	 	j1Wa5="v\J\ïö";s4="þ×"	 	
+

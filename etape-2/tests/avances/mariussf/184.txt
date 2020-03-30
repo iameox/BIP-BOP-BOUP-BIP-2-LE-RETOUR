@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:	 	R0q ;  z		=h	; 	 	 a= "\&Ë³u–ìV\¿\Ê\y\?";	 		 e  	="œ\ì—>Ð»\×"	   	  
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:	 	//[5:8::252.234.227.102]/S/oSF5:x;  
+Referer:c/x/:%48!(Jh%7CB//D////K?)VNA5r%6B%48%9A	
+

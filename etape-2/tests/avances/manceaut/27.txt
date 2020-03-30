@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Language:   			,     	     	Tzf; 	  q=1.000
+Accept-Language: 	  		 FHI-n-Rw,  						 	,   	 	 					
+Accept-Language:O-rM	 	 ; 	 	 q=0.2   
+Accept-Language:  , 	,			 ,	 O 	 	    		   	  
+Accept-Language:  	 	 ,	 	 A ;	q=1.		,			R-O-UL-f			
+

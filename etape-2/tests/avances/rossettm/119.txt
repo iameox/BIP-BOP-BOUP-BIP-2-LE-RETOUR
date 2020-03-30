@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:~yRe=-6; 8p=34; LQ!R="!v)3"; ^=""  
+User-Agent:	 	34qM1_aXibwuT/cGS 	
+

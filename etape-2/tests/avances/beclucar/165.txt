@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:5h&g6*/.n7sh				
+

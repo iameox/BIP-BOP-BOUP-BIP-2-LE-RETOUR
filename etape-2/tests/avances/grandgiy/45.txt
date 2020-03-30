@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:  1a/BqL0$%S2YY		;Fj&="\º4Ú\P"
+

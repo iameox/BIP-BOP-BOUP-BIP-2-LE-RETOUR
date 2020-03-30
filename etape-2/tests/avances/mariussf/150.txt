@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: ,	   	,		 	    	,	,	 HBZ6Z 				; 5YP=		"ά"  				;aZX= 		 			"\ιά"   					 ; k   	 =JsmvYaOMu|K1ne+b		 	;	|m =	  	 				 8~C  	;  JK 	  = 		  	"\²Έ Ξ\Κ"	 	; 		_ =	   "" 		  	 	 
+Host:  [::9:84.12.3.0]	 	 		 
+

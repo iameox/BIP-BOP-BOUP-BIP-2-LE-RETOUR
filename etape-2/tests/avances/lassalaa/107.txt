@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	  AqfG.4kV$=$_R1c~t; nGiJO#`X'1="U"
+

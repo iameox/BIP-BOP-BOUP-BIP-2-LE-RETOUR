@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:247.254.7.253  			 	 	    	  	
+Transfer-Encoding:	 		,`Dpz*9zx 		 		;X-UG!zpe = 						  "0G`"			  ;	      	   u4e			=	 "\ï\q\›"
+

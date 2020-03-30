@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:GP=; 19X=""; d!=; ZMS=4		
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host: 		 	[::4.241.244.0] 		
+Host:+:3817	 
+Transfer-Encoding:	  			, 	3xT			,	   u			 ;	rZ1= 			  		   ""		   	  ;	     6Dj9  ="Ä"	;AV="ùﬁ>\±Å∞á:P"   	; 			IJR= "\ü" ,
+

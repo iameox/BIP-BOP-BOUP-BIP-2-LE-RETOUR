@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	  id'fytX="|@$w"; MAiL!4="B"  
+Accept-Charset:	 	 		, 	3x 	 				;q=0.92 	,  ,	  VsN,,	  	 				~s~g ;q=0  ,	HeLF#							 		 ,      q	,  	FT;q=0.	,		 	 ,		,  	U0	 	 	 	
+

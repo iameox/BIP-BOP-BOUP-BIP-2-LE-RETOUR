@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	ncr=""; 8-="n71"; kNU=""	  
+

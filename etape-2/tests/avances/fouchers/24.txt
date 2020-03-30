@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Charset:, 	,, , 		  ,		 	  	,	  	  C_8L&fFgl+% ;		q=1     
+

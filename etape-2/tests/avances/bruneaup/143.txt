@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Host:	[vD.qLVhdBOKFvK]:87 
+Accept:	1bZWAz/|Uj		 ; 	9OH84bXb="\DÑ^Zµ∫N›\.¡\Û«˚‡\Å›"		;!02="" 	;	 		 		 		 	FE="\H\≠\A\3‚W"	;Qq.I="" 	 ; 	m|gfC3.x=1+.		;7wv1k8|h="";q=0	  	 	
+Host: 70.247.210.50 				  
+Accept:		  
+Host:0.253.14.5:9			   	 
+

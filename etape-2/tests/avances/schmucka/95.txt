@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:	  	 	    L1=FM; F="Y={" 
+Accept-Charset: 	 			 , 				   	,,	,,	  	 ,	,  	  		 	  ,  	,	,  , , , 	  	,	 	 ,	 	,,				,	eXCP  ,		,	1,,  Fx.;	  q=0.4     	 	    , 	 	 				,IGL,   		 	 A%	,, 		 	 hBp;	 q=1
+Accept-Charset:   	   ,	,  ,, 		   	,	 		 	 , Lp		  ,
+Accept-Charset:,	 		  	      	k	, 	,	 	 	* ;q=0     ,			  	PM 	   	 	  		  	,	 	
+

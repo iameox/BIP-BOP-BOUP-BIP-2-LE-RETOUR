@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:  	 , 	   , 	 		 		CKG-nu8-Cm2-V-uXmI-2-A-u-ZR-S-rwx-z-evKx-1 		   		   ;q=0.56		, 	 		  IjAf-L-Vyel-Z-fr-GvGMgw-z-S-8	 	
+Expect:	100-continue	  	
+

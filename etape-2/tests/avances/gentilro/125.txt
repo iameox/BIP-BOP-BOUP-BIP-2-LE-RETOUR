@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding: 	 ,		 deflate 	, , Vgj 	;  	   	 o_Pwk	 = 		 		  	"u"; 	J5=		     ""  		 ;	 			  		MN 	=	    ""		 			,compress	,
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:p54'=; i%viBDc=
+Cookie:   	 E0=xW&yMT; $="T39j"; wFFJ3="|"	   
+Cookie:1x=[+	 
+Content-Type:&/Vs+d|PohEnPg
+

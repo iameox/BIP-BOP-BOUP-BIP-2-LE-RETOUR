@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:	9/|Fa9+|	;	    	 				p!+B5YsOHd="É"   				
+

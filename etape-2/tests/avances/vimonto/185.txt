@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Host:	  	 	[v1F1A77FD.=]:253 	
+Host:	8.1.6.254:69		 
+Host:[::C8B:C817:255.227.230.1]	
+Accept:  	        	 	
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:CT7=; qsr=V; Q8="oB"; baT="@<254'b2r$>>VH}Ess/"; geuc=2	
+

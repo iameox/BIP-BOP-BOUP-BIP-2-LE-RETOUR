@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:	  	   ZwdBl;  		P_iw+m  =	   	 Sz&;			meXP    =s 		  	 	 		;	 8A	 		  	= _$	    	 	 	,	, %4TR	,			 ,					
+Transfer-Encoding:a		 ;		udrPM`8l$uBFphx!kE3rI		=		 	F    ,	,	 	chunked 		 
+Transfer-Encoding: 	  ,rq;	  	JX3H|g`v  	= 		 				szFVt5y6C#ATqJ 	;	$   				=~Jx 				  ,		, 	 	  bC6u	 		    						,CSanlua8	 		;m^EjB="\èΩ\ò\∑";	q8%ylb =	 	  			 	JK$2%k*En  		
+Accept-Charset: 	  		 		  , FXvKp~xR	;	q=1. 	,  	 S 	  ,	  6$#  		 ,	 		,			,			 
+Accept-Charset:			,  	 							 , 		,		 	BYvxp	 		      	 	 ; 	 q=1.0,				V	 	   		  	
+

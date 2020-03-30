@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type: I/DE#c ; 	DRb="Å"	;  		 gjS1="\C"   ; -OS|=W;#1T="\ﬁ"; 	 					v="";W_="Fb"			;  	 		DlHn*=Yc4vlM_Rn	 ; 		 #I="\	E"	;	E`=IM	 ; HK0zB3qtn5r=",\Æ" 	  ;	 42yS="\@"	
+Content-Type:	 H/_  		;$G5'T="\Ç\Ú\§t\*\tqÓ\Ñ\|€\Aø\2˜ã"; EM+a=""   	   ;	 					  		  ch*="\¯"  	 	 	 	;B="\'\Ø" 	 ;^='V6TMI 	;		7rwJtH6XE="q\¸"		
+Content-Type:   	toN/Z2W
+

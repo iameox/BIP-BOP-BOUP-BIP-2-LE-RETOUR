@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:  	a=""  			  
+Cookie:			  	 	FcpL=~a^; 0="T"; qqIoh=R; VWgxIGq="={a?$G/z"; 2="#msT/"	 
+

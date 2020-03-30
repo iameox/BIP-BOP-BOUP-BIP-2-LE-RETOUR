@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept:    	 	 	   						
+Host:oheZZ:50		  		  	
+Host:   	[v479.,4CFrIV,5l]:7364	
+

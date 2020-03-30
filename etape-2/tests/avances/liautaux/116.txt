@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:		  	  	 	  	chunked 	 	 	,		, i%s;a~  	  =			"lšÂ"	 	;	 IV 		      		     =	"\9"		  	 	; A  	=  		"¦\¾j"	 	 ;					 `Vv=  		 "\Ù¡§‚\w\I\‘\H\Æ";	 	        G~V+3wkQ	=""	,	 chunked	,   
+

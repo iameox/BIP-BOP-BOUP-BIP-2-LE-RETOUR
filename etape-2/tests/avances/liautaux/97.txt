@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:	,IXh~v; y~XP=	"\Š"	;T%pR	 	 		 = 	""	; $t3.C|A	 	=			  		   "X\ý"		 		
+Transfer-Encoding:	 ,	     			  	 deflate		 , 	P,,	-B   	 	 			;	6=""   	 	;	 		G1=	"¤6E"  
+Transfer-Encoding:, ,   	, 			 		 					   Y|Ov;XCTr 	  = 	 	""	, 		 		  	 ,	,			eH	  
+

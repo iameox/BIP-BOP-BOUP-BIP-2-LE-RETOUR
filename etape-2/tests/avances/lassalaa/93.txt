@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:  0G=; fE=Z=X?O!fO; G8uIT=acn2&$
+

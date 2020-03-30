@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	 			  lUL|N="-<U"; H=w*?Pdx!<!#3	
+

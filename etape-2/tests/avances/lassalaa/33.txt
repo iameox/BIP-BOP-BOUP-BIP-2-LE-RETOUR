@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:jP/%k!n	 	 
+Cookie:qQ7Ee=>_@?; `H~Pj=-T}nka; 8$26TK=t
+

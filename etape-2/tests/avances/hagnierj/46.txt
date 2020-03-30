@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer: //K%50@0.2.88.140:45//CC9/4%92%1Em%5Ch$%9Fu/A%B1!h)%B4.U%95,fd2N/%33/oWp-Z,;/%B3/ 
+Accept:, , 	 		  atqu$~bm/|	  	 ;	  	 		  	 Q9="\‹\"	 	     	;	  		 		 Zu.^_w="1\·\À\Õ¶û\¨\Ò"  	;BC0ku="\Ìf\ì\°\³á'\Ş\N\b\Î"   	 ; 	oblf^KkzOl5&="{\=Ä",	   	 B$/* 	; 	Eb.&g3=wd	 ;6=CRh	;		 	  cOz="_\‡\*"	; 				f'e="í"	 ;	 BS="÷eX\ö à\ñhqV"; -y12_Rnr="Û\C!+\L\å";xIs0N7O=""    	 	;R="" 	;  	 Bz="\µÜ\§\\w\RÇ"		 	 	 ;q=0.40			   , 	
+Accept: 	fsG/*	 			;3=""; 	i$0="Ó¢\\·>.s" ;K!_srAK="\b" 	;GKa="\È"	 	  ;-#`EDG="\ûR" 	 	; -p="’\×\U\‘\Ã5dô" ;	 	  	W2~S'06="ö\*¨Í"; 				 gwaZ="«"
+Referer: QHnOmPn://I:127 		   		
+Referer: 						  	j://$@2.226.8.253:4/%6B/V%08e2/U/t	  	
+

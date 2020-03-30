@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:	 	 La28SZ/h ;			%8b!x="\B\Ì\@\º\†»:\Te" 		 
+

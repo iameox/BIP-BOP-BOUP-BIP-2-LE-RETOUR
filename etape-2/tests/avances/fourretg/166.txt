@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:				, , ,	  		, , 	,  ,	  	 		$; a	="\n"	 ;				  			B-ul9.$|*6r2EC-	 	= 	1	    ;  	 	 	7 ="",	 f; 	   	  	 	 	  	fxs ="\ы\И";  H%m68kk	="бbЈAО" 	  	   	;		 	 	Mx&= "\Љоjё"		  ; 	 Y="г\‡\zЎ\ІlД\;Ћ\Kх\~"		 	; o	    			 ="" 	 ;  		 u="±\)\C\Ћ3"  ;Y =   	 "\v\B\l\„\'mw\dЧ\)" 	 		  ;		 				 nD="°"		  ;U5  	  			 	=	"\С›\_"	 	 	;	bdm.Y14u26%|!hXS1i  =	 ""	  		   	,,,Q|8q 	  ;	   y|="\c\лт\j\Н\J\a€\R\Ю”"			  ;UgNv*ir-zN9 				=  	  	     d		    		; H^0N~4DHO+		=	 	"ѓ"		  	   		;		 		 C	=			""	 	 ;Oy+kNtJWZN		   							   		 		=	"\m®";Mcg= 	 	 "Ѓ\ъ";    		 !~B+`aK 	 ="\1 \Я\Ъ" 	, _NV		  	    ; 	  	 			 t6	  	 =				  "\"\н\ђ\[У\&rъ"  ;	 	UT=	 "";		B$=	  	 "	\ \Е$" 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: ,	, 				 	  	 		,	K	;					 G= 		"\í" 
+Transfer-Encoding:  	 ,i|jk8-;  40  =	 		 	 		 "" 	, 	 W  ,GN$    ; 	 					c 	= 	 	 	"=";	1   =		    	"\∂L\õ¿\¶c"  	 		; 		  		eC4h	 = 		i;	 	  	  	  M+^=	"\rèÀb^";I98pRw!d'sBm8z	=  	""	, 	1 	 ;v!= 0   ;h$`zb 		 		   	 ="\ŒÏ"	 	;A#SJ%Q=   ""	;LaQbNJ^			  =i;p	 			 	    			  	=	   						"R\Z\∂·"  		 						; 	$2LeHhSK&J	=		 "\ÅW \À\í\°\MÙ\h"  		;Ul2b&&`  	 	 					=  P9 ;	Xi0Bx = 	 		 "µ⁄D"  	 	;N_	  =		"\ä\Gk◊üE"	 ;%Y&thyS		 	 ="Ñ\Õ\pÆ≈" ;	3 	= 	 ""		   ;	PqAxx=  	"\ë\À"		 ; a-nNKrTYq= "E„¸\Ç";	 1  	=		   "\è\ˇ\M\}\Zm" ;    			  	LTuVk%F~v	 		 = "" 	;	  	wsgR3X|=				  "\=\¡" 
+

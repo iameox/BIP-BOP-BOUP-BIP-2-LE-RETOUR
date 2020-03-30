@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:	,		,	1XB#ut.dP;	q=0, ,    ~BXGC4k	,	   X  
+Accept-Charset:,, 			 j 	 ,	 		  			Wt.  ; 		 	   	 	q=1.0	, 	,  rKe  		; 	q=0.8	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:  & 
+Accept:  	_QPW1w/*;   q=1		 	,	  	  	    pH#OU1u/rJ3a% 	 ;  	%I=f' ;Y_x="\MÒ^"   	 	   ;Ublp="" 		;	ERne="\‰\R\À×\ï"  				 ;		~F!YaTbrn`XI="\v\E¯"    		;  	 		Ww=""	,Jv.R/*;+="Ô\¾"
+

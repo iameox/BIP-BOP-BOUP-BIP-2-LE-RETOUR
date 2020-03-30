@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	  	  2q=nrKR<Y56:; f=""; `1FVG=e; ka=".(m"	
+Cookie:			 	 h="n"		
+

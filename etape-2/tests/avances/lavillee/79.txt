@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:		N0S%y=T:%MD; hcUd="s'fz'9v"
+Cookie:gEL=
+

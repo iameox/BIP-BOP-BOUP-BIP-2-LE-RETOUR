@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Content-Type: 		stE|+/t46~x1u		 	 ;  	mGF&=+_#b'  	;n=ysWT	 	 
+Accept-Language:		 		yKTjzXA-6-4-4-rx-CBlXAFbl   ;q=0		 	 	 ,	 	   N-idyG-g-V-tvGf-m-m3vy			 	  	  
+Accept-Language:	  		 	h	 	 		 		 ;		q=1.0	   	   	,, 	 	   	   u-E-j-iJ-ER-UX-c	 		;	 			q=0.3  		
+Accept-Language: 		 	,	 ,	,,	 	 , ySl-uPvqpb   	 ,	  m-r-h-RV-Vv;	 		q=0
+

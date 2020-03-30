@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: 		vDt-3/H  		  ;	 		WkIKwg="ñ\ê\."	
+Accept-Encoding:qpWao&_ 	;		q=1. 			 	 , ,	f8 		,						  
+

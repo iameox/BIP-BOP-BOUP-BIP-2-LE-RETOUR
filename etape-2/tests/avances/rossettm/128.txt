@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: `28$_J!=Y(~7
+User-Agent:				 		fA 	(\ÿ)				    (ªå\)  
+

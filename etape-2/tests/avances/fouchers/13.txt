@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:  	   ,	 ,	  ,	 	 	kVhS4L#2OPDPD-K  
+Accept-Charset:, 4%, 8R6O	;q=0.6	 	 		 ,			       ,#GD			;q=1.0,	 		 	&B+xYi		,    	   	,wkMUR 	
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:		F-H ;	q=0.,Hx-3-O  	    			; 	q=0  	 		   		,,,  		  	,D-J;				q=1		,  R-P6	 						 ; q=0,Rk-E-K-mf;	q=0.  ,				J   ;  q=0  
+

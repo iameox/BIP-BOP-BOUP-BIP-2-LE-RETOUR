@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	  5|L="!P"; q`XV.L9'.Cp*wPAWJ3=(%; E.*n=LBcY7fw&*W'Ie6E?<p8
+Transfer-Encoding:	 	%U|dJ#G7N|m4f 	 	;Pu=	  "\	ƒ"
+

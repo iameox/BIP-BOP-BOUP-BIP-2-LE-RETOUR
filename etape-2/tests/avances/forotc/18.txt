@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer:   			 	iuDpG://@[A:39:A1:F:848A:E575:0:E5]:06068882/9~,FC%4A?p%6Dw 		 	 	
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:,, 	Vc&.YRD ; nHFh& = 			 	 	  	"\5\·ð\®Z"  			  	 	 	; iGtt =	 ""		 		;	 $!= "\¾\ç\¦\‘µ\î"    ;	n9k.*D%u3C			 =	 			 	"å"   ;   		 $L7	 =	 	 "\.\Lb\=\6";  -	 = "™\v-",		'		,		 	    e;^%E_h	 	 ="" 
+Transfer-Encoding:				,		 	  	,	 ,	 ,  , deflate	 	
+Accept-Charset:,  		,, 	   , 			 	, 	 ,  , 	 	 	 		F+ , 	  	2ZD|QNJBS; q=0.9,		,	 	 		, 	      	 ,,	 ,  			,    	 	   %7Et89	;	 q=1	,  ,	FHm5`	  ;	q=0 			
+

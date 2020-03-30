@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie: 		  D&j=}hAEn; c=""; Tegb=T; 2IZX#k3={h^; 1cFGSM="g<"; F=5}		   			 	
+Cookie:  91Da=Xp~; g$="[[iB"; O7Fb_djFDH.=9qFE; xGlwlAR=B'			 	
+Accept-Charset: , 3^n ;q=0.,  
+

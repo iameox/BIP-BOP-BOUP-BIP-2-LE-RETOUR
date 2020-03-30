@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:xN1k="A"; R1lWI=""; '1=P0c  			
+Accept-Charset:,			!,	  ,  	 			   ,		
+Cookie:v*IZkpN_iYZf="h1'lstWos!"
+

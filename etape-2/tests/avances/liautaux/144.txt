@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	&=JL
+Cookie:  &a==_B+; 3="K^5cM/Y#"; *3="erH&o"; .=""; j=Gdw; nW="SGIdo-OW}{"								
+

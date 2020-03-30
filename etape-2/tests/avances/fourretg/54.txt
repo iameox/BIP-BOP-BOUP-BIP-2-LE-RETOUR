@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding: , 		 		 	  	,   ,			   	 		 QINI_c  ;	`5  			 ="i\ù"	 ;C 			= 					""	 	
+

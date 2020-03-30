@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:0IBQ7X/FsdFB0ny5Q*.u-		
+

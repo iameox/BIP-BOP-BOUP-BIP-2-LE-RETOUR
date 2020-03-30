@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: wcf=Dwkc/![M2TgMrJL; l=>QX; Q8E=""; 5Yk0m="n"; F=bG; JK=r; pyP!FBwg=""; &!="a"; ^=""; $="" 		
+

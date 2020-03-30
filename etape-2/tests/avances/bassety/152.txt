@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Content-Type: ^n/e
+Expect: 			    			 	100-continue    
+Content-Type:Vl5GJg1fjJ/.ouWCW!-0q0_s4Or&Z 		 	 		;9D.9="\ËïN¢\Ô¬\½"		  	 	 	 					 	;	 	 	  	d=mh;  	 	.^="\©\Wø" 		 		 	 			;.="j"  	   			 ;	 		  +#dhv$QNn="" ;I="ö"   		
+Content-Type: 6/8Q;'^="" 	  	;	 Oy.TS=""; 	22Z="\]\}Ú\˜\GY" ;  	   	 f09y&.N="" 	        
+

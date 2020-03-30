@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Charset:    w 								   	 	   ;				 q=0,  	  *  ;	 q=1   
+Referer:	RJKB:/5'/Y/%68rf%67%30CU/rTeh//)PICE%CCAtvn/3Kp/N%FBCwE					
+Referer:	  Mfk://[v67.e]:369////aF//MmY7a 	 			  
+Referer:xJZGD4cnNH+O0E://[1::2B:250.255.1.98]/%E7P%CA/*s%52/yD%DAW=yB.LS%CB/r)%D8///%9Dx/
+Referer:  	//P:?Ge
+

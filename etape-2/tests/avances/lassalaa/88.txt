@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: 		MW5S/wG4	; 			TK3="Ë’$\81ªs\ñ\¤\Õ"   
+Content-Type:	N/2nz	  ; d="ûÀ\ö+`/Ê¥Õ\À"		
+

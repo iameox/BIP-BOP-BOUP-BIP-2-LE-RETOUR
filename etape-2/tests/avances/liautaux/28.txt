@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:	 	chunked	 	,		~l	
+Transfer-Encoding:,  g 			 	 		 	 	 ; 	B	  	=	"\Á‰ÊÄ|\√\2" ;  	40I 	 =	 		  SkL-	  		;    A^xXt 			 	=		 		 	""			 	 ;  	F! =  		"\bê"		; 		 fatDl  = "" 	 ;a*7Es=      "⁄\Ú\§ö"		   				 		  	; 	 		 +yar#p 	 =  		"\ã\)ÌΩ≠" 	 	 	;		 !&		= 		"!\◊i" ;    VSr		 		 = 3#V	 ,   	 pD5 		; 					M&MD= 	   	   	"í";  			 ' 	=	 ""; Y| = #78$Px		
+Transfer-Encoding:,			  		   ,				   ,	 			,	 					 ,	   		 	 		  	,	 			deflate  , deflate
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:  		* ,		     ock,		,	    	 ,K;	 q=0.418
+Accept-Language:	,,   	,		   ,		,   	,	 	,	 					EC-AO  ;	 	 	q=1.00   ,			 q-m-Kf-H ;			q=1.0 
+

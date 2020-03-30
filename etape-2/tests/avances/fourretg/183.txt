@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:	   			 	,+_X5D-2#+		 ,   	,	, , 	 				59; 	q=1, , 	 g  ;	q=1.  	    		 				  ,	, 		5D`Iin8`	  	;  q=0.63	,, 		P , ,5CDS
+Transfer-Encoding:,Tq; 	Z0c =  	 "Ã∑"		 	,		deflate	,	 e*   		;We 	=  		"8è\ì"	 	;	Om1'FIVD="\v\Ï\f\¢◊"			 ,	,			    	 0	 		;   	 		   		 H`n=	"z\!\æ"		 
+

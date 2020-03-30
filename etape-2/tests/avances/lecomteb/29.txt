@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:KA/TRz#z+iDmu		;  			 i="\Œ"; _#7vD`="R" ;	f="\†"   	 
+

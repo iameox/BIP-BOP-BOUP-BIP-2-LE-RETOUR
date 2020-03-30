@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Host: [v068A9.nkL~I5g-AZLC]:390812 	  
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset: , ,	 		 		, ,  , 	 9|5VU 	 	 	 
+Referer: 	 wjs-1j-ol1://D:/c)38~IX/=KA?7%D7SNk 		  		  
+

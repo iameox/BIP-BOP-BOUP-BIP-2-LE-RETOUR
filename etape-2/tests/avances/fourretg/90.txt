@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:,	  	,,	 	 h;	 U'	= 	"(Ÿ\Ê\f"	; 6$a!-'		=	"" 	 	
+Transfer-Encoding:		   ,		,  	 	,B5ii~e1rC;	 0F^vnz=				 	*w2xDA   ; 	lo= 	"" 			  		 ;+kK 	 = 	 "\1"	 	  	; 		    h_YCg6adG=		 	  	 		"";7 			  = 	 					w 	 , 			  X 	  	   	 ;	KwP="HI";	 	 		  	 	_zLk   		 			 ="\3\u\Š\ç-";	B^=				&Re 	 	;    ^WG8		 =	 		""	 ; 		&G-c-!L=  				 	"\Ä\›"		; 	 G6SkX				 = 	 	 "Í\š";oapZ =  	"\u\ï\”\ÕÁ\Ð¤Ûñ\(\è\é\Ô\Ã" ; 		Fu	= "\x" 	,	 ,  ,	
+

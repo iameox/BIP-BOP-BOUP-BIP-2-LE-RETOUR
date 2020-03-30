@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:			 R.%2g#z~=|^tP*k; J="" 
+Content-Type:	x/yDrl									;  		 	 		oDYGd=uZB   	  	
+

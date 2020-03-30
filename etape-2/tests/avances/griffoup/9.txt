@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Cookie:`f="^"; p&=`a1v; Sb`1VN="s8"; bC=vb_$l; t=|5'c1Y; uue="lxjC#"	 
+Transfer-Encoding:	,		 	,,			,,T ; 4~J= "";		0m   =   "N"		;k|4iwDXNc'				 	  	 		  	=3MOkKDFNwVj5W61X-Z;_73  		   		=	 "™t"; 	o=6oF ; +5P*  	 			=   		"" ;	 5y	  	 		 	 = "\ò\Ö" ;	 		v7 		= 	 "\ "   ; 	_= ""          ; 5  	   		=	 ""  		;	m	  	   		  		="\Ñ\‚";Hwnf		   =	"\B)≈\t\†9Ù⁄>\Ú•[\Ÿ\√", 	   		 		  				   	,	 	8	;	  		As		 = 	 "\Bõ\	"		   ; Av`Ozr+Z= G 	 ;			 8Ct    	 ="\g"		;	D2	=  		  	   	 	 	"Ø"  ;	 ELk		 	  ="\çk\?" 	   ; f	  	 					=		  "", 	   	+cu		  				 	 			; 	U	 		 =	 XMz;|LNz		 	     			 		="" 	;	 		 b="\úä3\<÷"	   					;%yK-  	=	 	"\¡\„"		 			; 	0|pbR& 	 	=		"" ;		 			Ctr2	   =   		  ""		  	    	 ,	 	 chunked ,	  		,	     
+Transfer-Encoding: , gK 		 	 	  		 	 	 ;  	  			 	 	0t%fuP=		   	"abö\Ç\ P"		 		;			$9Eq~k=	 "∞" ;|^!5ka$=   	 	 7q	;	 		  P=		 	    	  "\À"		;					   T		=    	""   ,    			,	1	;	 			I	 ="g\;"
+Transfer-Encoding: ,, 		 	  	  	 	    	, %pw  ;    5 	="XÔ\Íï“"; 	 	 	 &GfI=  			 "Æ"	  	 		;	 #	 	= 		 			  	 ")";	nzG*D7`U 	=						  "4Í\ñ˝";	p  	=	 	 	 	"Í" 	;    		  3	 			="æ\s" 	  	    	 ; 	  			   	 SOl	   	   	="\†$";	 	UNZ&0Ya=			 "\®\¬"	;  YEa3+EN~W				=   "\|\·\Ò\û11\ı\/\åÙ\¨˚\ˆ";	 3lEM=   	"õ";    C 	="/~€\Q"   	 ,   ,	 	,		    ,	 	 		D4l	;qv	  	 	= 		""		;L3.79#Di& 	 	 	=  "zO"	, 	 		 	qQW ;	v^CD	 	 		 ="\Ê"  	 ,	,	  r   
+Cookie:		   					 	uK1KOrXrG=b; J6=`; $V5=0#BU	
+

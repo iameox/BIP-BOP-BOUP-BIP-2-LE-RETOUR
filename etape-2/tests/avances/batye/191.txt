@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:THJv=$Bo; 9~7=U; ST="2iw"; bN="~OdMSl"; d*JuXyY&d= 
+User-Agent:				8BoR-TIuW!XXkUz	 
+Cookie:o=4; OA0YH%="F*d2"; *Ckw#lWC="p>"		
+

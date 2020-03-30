@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Charset:	,,	,	 				,, 3TMOz 	;   q=1  		 ,,	Ynd 		  ; q=1.00    
+Accept-Charset:		 , 		  	    	 ,, ,,Oj&o
+Accept-Charset:	 	  	,	 7a-	;q=0.  			 	,Unm		;		  	  q=0,	  			    	,  	      ,	  t			;		 	q=1.00	 
+Transfer-Encoding:		,	 		,c; 	_y	 	 	 ="6"  	 ,NW;    		8v		 	= 			"\*\m"	  ,	 L 	   	
+Transfer-Encoding:		 ,		 	 			17	 ;	W5a   	="1FK\`9",
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie: 	 	  MgnZ=EhgmV?RI61s:SL; gc="yjZHR"; ~BSdc=""; |B=f; q=o}k; H.'7l=M6[w; IV= 	
+Accept-Charset: ,py7|	 	  	;   	   	  	 	 q=0. ,	  	 	  
+Accept-Charset:  ,,    		  , 	 		  ,,,	  		 	  ,  			,	 					 	 ,	 		, , 		 	 		x	     		; q=0.,	 	z	   ;     q=0,,yWl8	 ;q=0.,e	;  q=0		 	,	 	 	,  			 ,	  		$4 	 ;  		q=0.958	,  					   ,g+F 
+

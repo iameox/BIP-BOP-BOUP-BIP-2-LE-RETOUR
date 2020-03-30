@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:oyjqXJk="`w"; `_.0|Q=""; YfZ1^A.BddaOR=/sqrp; x="<~"		
+

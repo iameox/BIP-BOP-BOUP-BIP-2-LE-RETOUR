@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer: 	 		  		   Asx://%9D%72'0Pd%54%AA*e@[::5F:4:D:9:2:1.0.215.3]:/K///%D4://,?sMT,U& 	 		  	
+Accept-Charset: 	67buDP-Nvgg2fz  			;		 	q=0
+Referer:		 	ZA.Uo.9aZM://161.31.255.51/d%52/g%3Fn/H
+Referer:Ix.:w=6B%43pX	  
+

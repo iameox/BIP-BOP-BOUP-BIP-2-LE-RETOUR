@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:x=; ZoEn`kjA0`J`!Ud0l+3cN3trjoj=XL; d=""; NLv-=""; |*5="VQ"; PH="i"; 7g%=v:; +="b9z[6BE`&"; u3_TLE+zRi.YiGW+Wndk&U="[]"	
+Accept-Charset:		,	 	ds-RF%!5i 	   		 	  ;		  	q=0.2	  	 					 , 	  		,	       		, 	 Ue&I ; q=0.8 ,	 rS.T;q=1 ,iX8oItNs
+Cookie:  24="^"; fS=""  			   	
+

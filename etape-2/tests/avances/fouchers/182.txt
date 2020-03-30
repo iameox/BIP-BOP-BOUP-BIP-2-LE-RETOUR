@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Charset:, 			, #g!KN~a	  ;     	  	 q=0
+Accept-Charset:, 		,	 		,   I~*v+;q=1.000 ,|9	,			, 	 
+Cookie:	D+N!UnFy8="03^"
+Accept-Charset: 	  ,	    		 , *Y		;		q=1.0 ,		,	 ,	 	  S
+

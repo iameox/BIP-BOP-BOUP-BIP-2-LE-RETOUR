@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:,	 	 	 	 ,		,	, 	 	   	,		  ,	j  	;q=1.				     ,1  			 	;      q=0.     		 			  ,  ,JHa 		 	, 	 ,		 , 	 	   ,		, 
+Cookie:4=!uBt 	 	 
+

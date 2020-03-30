@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept:	 			 
+Cookie:		  	^fv5z^5g19="<x"; G*6=C
+Cookie:			 k=z; Z="h>"; 9FuwJe="///pXj^*$x"  
+

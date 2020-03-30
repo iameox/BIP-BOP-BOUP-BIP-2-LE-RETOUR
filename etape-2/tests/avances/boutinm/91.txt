@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Cookie:		02m="$j11"; w3U="7"; U="4"  
+Transfer-Encoding: ,,,,,,  	, 			   	,	 	 			, 	  ,, 		qb;	 		 Q		 	=   "ê\¿ˇ"	  			   		    
+Cookie:			  	L="@J" 	  		 
+Transfer-Encoding:    		,,			 , 	,,     		, 			 			,	,, 	  , 	,	p%F5_,	,lEd;			  	  	 a			="π\ä\≥∂V>\∞" 	 	  ;		Qv		   = 		 "\!\K\^\H"  	; 	fD`+   	=""  	;  7^o.	=    ""  	;					!=   "t∞\F\Ù\°\!" 	      			;	    	03KeU  	  	 		 	=		    "" ;  kIN	 	=		tj 	  ;eR7e	= "‰\î"   				  ;		 	0*8.o4bnp0vvt^p 		  	=V; Zuw2&9IU=   		   	  "\Õ\©\Ê\v\œ\˙*9";v*3+*=+woqfr						  		  	  ; 		  			75Q	=  	"\◊"		  ;lR  =		   	  	"\{\ƒs«";.o~in		 	     	 	=	 		 "p"				 ; 	 		  kp!vJ=	"z\F\Îø,Y" 					 	;		SK				 =		"";	  w17ZPugK6PE=eG-CZ;	vM0+aigXDS83qq			=	 			  ""        ,	n%U	  ; &=	  	 	2LXdty|y   	    		;		   Uoa  		  		  =	"\@\˘\Æ" 	
+Transfer-Encoding:  	,n!p;PH8w	  	= 		 "Ÿf"; 	  	 		  	Gqwi	 		 		=	IlY'$r3	;	  	Q ="è"		 ,	compress	
+

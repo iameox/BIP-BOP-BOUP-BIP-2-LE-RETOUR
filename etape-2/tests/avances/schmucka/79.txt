@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 	  	  			|Ra1=""   
+Accept-Charset:				 ,, ,,	 		 		a		 			;q=0.		 		  			
+

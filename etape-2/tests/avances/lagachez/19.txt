@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:						`=""; y.Sgr="e"; j&d2XoFC="]{1D4"	  	 	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	 [vCE.h&]					
+Transfer-Encoding:	,,	, 	,,    ,t 			 	;   		 s8~S	 						 			="\Gu\{\Wâ\¹\-"  ;			R7y=  			 		  		   	 "Ž¹0\;"		 		,	-s.+uW*gT$     		   ; Fjp7bkFCB#L  = 	"œ";				 				 | 		 			 = 	"\Ä\Ù\Î\tçk\o\ä\E\³è£"; 	p_& 	= 		"q|"	  	, 	,	 		,3M6W5  		;zWu1ZbV*W="Ú"	; 	 	E!4k~	 		=  "\æ\ay" 	,,	 	  	t ,f 	  ; I*="µ\Æ\l\Ñ"		  			   	  	;SOv	=  		"8y\%\q§Š" ;	0	=  				"e" 		
+

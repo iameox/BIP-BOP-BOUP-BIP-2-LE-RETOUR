@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer: 		 	   ,/W%C7/i%F1  	 
+Accept-Charset: ,,,   	 		  		 ,			,		  		,	  	 	 	 	 RG#xqM 		 ,	 5	  	  	  			   ;q=0.300 
+Accept-Charset: 	 #NmO 	,LCA7t ;q=0 			 
+

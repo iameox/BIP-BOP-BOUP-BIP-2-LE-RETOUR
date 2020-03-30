@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept:	r|ARN/*; 		 1-wX=bA2+u 
+Accept:  	 
+Accept:
+

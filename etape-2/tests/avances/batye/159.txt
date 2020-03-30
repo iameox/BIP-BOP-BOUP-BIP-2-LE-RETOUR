@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 	PXWv5LS=Y 	 					
+Cookie: 	7cCs=+5g[4; V="V"	 	 	 	  		
+

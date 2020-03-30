@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: 	,WCc	  ; +bd			 =  	"e"     ;		 !_			="Æq"	,	 ,		T		 		  	; S	 	=	  &FL7+UK+ 	 		;I0gO  =  		 "R\C\Õ’"			 			,	 	s  
+Transfer-Encoding:	p%9OySM ;	  	 	NNk3qZkTz	 	 	= 	 	  		 	N 		;				 `Zvt	  	= "\ÀÊ7\÷\á"	
+

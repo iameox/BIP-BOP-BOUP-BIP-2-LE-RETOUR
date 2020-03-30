@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer: 	 zT8://@6.252.3.17//,'K%ADVa.(/k%2Aa		
+Referer:		 fq65:%58/:C/t//xQ%E53		  
+Referer:	 	 		//L(hu%7C@250.204.76.65:/x/oKGX%9EdZgvpd%FE/5di%EA//S1!/GHiN%3E5/?z5 
+

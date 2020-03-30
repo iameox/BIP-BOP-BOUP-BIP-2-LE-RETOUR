@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:  		i-ZjA8=BLJk*]6?o 	  	
+

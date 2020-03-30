@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:	 Ir-Fh	 	; 		  q=0  ,		Eh-h-MLGx-Bn-I  		,,			,iSlbCYjB 		  	 		  	;	 q=0.
+

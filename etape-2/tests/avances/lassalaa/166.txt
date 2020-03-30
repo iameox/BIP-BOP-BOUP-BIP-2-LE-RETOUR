@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 				^'=U)C; Iy="Ma"; o="<%C.qgHar:"; k=MWDq6
+Content-Type:  			$b/K0^
+

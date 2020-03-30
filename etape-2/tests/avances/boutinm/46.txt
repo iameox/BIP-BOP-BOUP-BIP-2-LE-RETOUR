@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:U=+; l$iQ4x="Ibz<!5zPi"; !T="|9rP3pL}"
+Cookie:5TiA=MU%fL		
+

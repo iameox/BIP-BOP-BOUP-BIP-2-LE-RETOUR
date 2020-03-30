@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:  Rg7-=y; Pd2X'*5E="2"; k={RH; 9Q=3`; i="dME#/v2}v"; |-BLJ1%37T!Jco_=".8"; H=o; SzKxH="$"; 7="kY&[7:u~"; P2L="!R/"; c'YnZwU="e"
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:				 	,	 	 	A!			;7DCf!e^	  		 	= "H"		 ;`	=  	 "ม\๕"	  ; RithQ ="2ฯ\o0"			,S1k7		  ,5;	l 		=""	  ;F-tTcC =	  "=\ิก\่\ฉ\\>\"		  	; 		  oVBw =  C`X  	  ; 	52b	=		"\ü"	 			 				 		 	;  aXoNFnuyB9-oDN 	    	  	  =		 		 	  "\ฉ๊\รg";QgwR  	=		 		 "\ิ\"   							  				, 	   	xZ#D; u    =""	   		 	 		 ,			`Ln&	  		 ;	  	.t	= 	   	  "7ü" ,wY&;*$FD ="ิ•"  ;0ZUYvI 	 	= 	"p"	;R5%			 			 		  ="" ; 	 	 +Z1mH^u4Y3&M!y		=  			    	 		    	"þ\l2"	;	 	  qOG	 		=-	   	  ;		3'|	 		  		 	 		  =	"ไ•\9";1=	  	 B
+Host:0.51.6.10	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: 	,K8V 	,	, 	 I_  	  		;2o 	=IN'6ATZKy	  ; 	  C   	  		="\h"	 	 	 
+Transfer-Encoding:	 , 	  ,		,		    		  ,		 ,, 	Tl	;	Fm		= 	FF*7;     W-'Ex|oWBCAK	=			 		"ò\u" 			 	;			   B 			=P#G; +5m	     =	o	,			chunked			 	,J4;JkdJhs1W2ypj					   =			""  	 ;	  		  BF 	 =	  "Ó";	     '66o  	= 	j6l	,, 	
+

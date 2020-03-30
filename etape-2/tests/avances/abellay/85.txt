@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:	   	 		 
+Referer: //lE%E7@[v6.NYgG]/ld4%62%7Es*/9z//R&%A57v:/6@-c//$/hqp'm/pv'h%84/1?%A26
+

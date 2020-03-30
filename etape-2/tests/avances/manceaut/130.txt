@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:  nt-u-K;	q=0			  	, 	 		g-PtrF	,			,		 		 	   			  		,	 Y	 ; 	q=1.		
+

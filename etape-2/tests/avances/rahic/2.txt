@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer:dir://[::C:219.6.222.94]?V(%1FiHI
+

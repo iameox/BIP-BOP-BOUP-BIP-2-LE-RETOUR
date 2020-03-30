@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:	,	 		 	   	 	 , ,  ,, N-nASP-DD6N-0-1-ooR-D-6k-4T-X-7ZS-E-la8BhIX	;			  		      		q=0
+

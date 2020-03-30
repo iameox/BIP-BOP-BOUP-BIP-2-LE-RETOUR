@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:		 	//%40KW@255.33.0.222:	
+Referer: //6.254.253.108?%EF+ 	 
+Accept-Charset:	  	 ,	  	, ,  , ,  			 		,		,  	,      ,		,		 	,,   	, 	 ,,Y.GAiHd   					 		,	*	;		    q=0.0		 
+

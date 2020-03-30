@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:qdSr://[vC8.1]:/oC:A3/%00%AC/f7/%26/L/%45/c',2Ff/U6/,-!sRR8asKVbVpe2/ya/An-%6Cwo-/j/ 	  	  
+Referer:		w/%8FSC/		
+

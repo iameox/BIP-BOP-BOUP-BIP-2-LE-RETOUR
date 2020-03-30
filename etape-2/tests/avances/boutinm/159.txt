@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	s="YRYn%RdGM"; GjD*Sx#K6#0GH4PqTlc="0u'^om>43S"; K0-n~EP="VH&p2"; $ur*peF="v?>QLnt"			    
+Transfer-Encoding:	 		,		 	, 	    	,,,		  up6amHr0Fr67W3%5B ; 	 		 Y&G 	 		 = "\;\­\="	   			 ;	U	   				 	= 	"\q";N = 	"\Â" 		, 					 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:,	,	, 	, 	 ,,	,	 		 			, 	 	      		, ,FG	 
+Accept-Charset: ,,	 	,,,	 ,	 , 	 		SQD# 	 ;	 	q=0.648	   	,75 ,  ,hD	 	 ,H;		    	 q=0	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:		,	   	  		  	HJ-a6e-zo-bh7ja-U-H-9s-d-sb,	
+Accept-Language:    ,  	, 	 ,		  		 	,,	 ,	VrxF 			 	 ; 	 q=0 	 ,  	  
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:	P://:76164//;G/8%42%C86NmD8mHf2%1E%17//%08L/qm+	
+Referer:h+xOT://A/;%210%F8oE:p8Yp/,2=$C/%10Sm&IrG@G%FE%164f1JD%E4%17/	 		 
+Accept-Charset:	 			,	,    			, ,,,		   		,		3tenJoRhEyQ; q=1.0 	 , 		,	, 	 
+

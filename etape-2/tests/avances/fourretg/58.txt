@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:	4eS		;	 		+O		=	"\<"	 		; qBid	   			 = " ó";b=		    		"\æ&"		; 4Of0	 ="\B"  ;-kTpq=	""	 	 	;	aD=		 			0	   ;	  	 	 		bK&	 	 	 =		   "";	 		n&	 	= "\Ì€"	  ;		!eeIl 	 ="¢Ï"      	;		 	  o+Z+CH	=	"g"  		;+3|Axe!-D` 	=	 		 "\è\Öu",, 		KkK+I; 	i  = 			"";		 	P  =   "" , , 	 	We ,-b-ac;~+ww`*0="»Ðü»"	  ;3W		   		=			     				  	    	 		 "\¬\H\ü\þ\'\K#&š\ü\R"			   ; bGAGR% 	   ="\}\„­\Þ\û" ;	 		 	&Bt`&	    	=   ""  		,
+

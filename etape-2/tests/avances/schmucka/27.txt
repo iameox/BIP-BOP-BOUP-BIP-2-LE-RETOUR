@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Charset: 	   .zmV*ao!G#w 	 ,    	    ,*,h;		  q=0.12
+

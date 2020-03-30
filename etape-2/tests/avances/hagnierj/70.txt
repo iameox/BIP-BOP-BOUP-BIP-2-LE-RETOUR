@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:		  		  	 		'B   
+Accept: 		 1/r 		,,	,	 5^/q4X;	 q=0  	,	 ,	  		 	 	  	  3t+/*;	  	   q=1,  ,  yz1fci/h;				W2="\S\m|" ;0t^_MsD*="{\<\V\‡uY\Ò\»" ;  		r="½"	 ;			I~+coj="" ;	*$1tKo!V6r=LY 	 ;bZgAO="\ü\-Üã";		^I="\ a\Ž"  ,		 	,	
+

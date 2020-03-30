@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		 		   	 WYN=auwm%#b<BV:f8; U=#Q; -o#="3+}^DjVS"; d=^LaX8F; 7j6!r="DBpY"; T="#f!"; rU=; X=w; |=""; T.m="$#g$M"; 4&=""
+

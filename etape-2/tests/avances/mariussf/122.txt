@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:	 	 	2oX$v 	  	;		!1i				 	 		 =   "´\çÄ"					 	 	; 	    kQu 			=  	 "" 	 		 	 ;SC=	"˝"
+Host: 	[::83:0A:F:5580:CF7:68.76.72.253]
+Transfer-Encoding:	 	 					,,, 	 	   			 		 		 AYHL
+Host:  		 199.224.8.222	
+Host:187.254.39.253:748			 	
+

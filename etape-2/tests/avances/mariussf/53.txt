@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Transfer-Encoding: 	,,, K2q1C5e	 		
+Host:250.181.254.252			
+Host: [::8:61FF:F27:11:27.6.5.245]
+Host:[vE6.Pmwk7fW]:0460596 	 
+

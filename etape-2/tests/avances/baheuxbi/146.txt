@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:	V	  		 	b'P/zh-tU7q		 	 	 	(\≥çV?())		 		 			 		 (\HÊS(\†V\Ä∏0\dZ)\ö\í\3)		()			
+Expect: 100-continue	  	 
+

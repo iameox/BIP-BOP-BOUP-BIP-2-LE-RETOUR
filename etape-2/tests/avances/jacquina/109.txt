@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:	,	 ,,,  h 	;U =   				   	 ""  ;UrQ	 				 =		a 					 ;W   		    =""				 			  	 	;	`    = 	""	 	;	 J	    	 =	 	 	 "\n" ,4_'TY ;		 |  	 	 	 	 =	 	 "\†\ß\h\r\$";			X#%j=  	 	  ""  ,	z3d7h0NO
+

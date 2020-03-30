@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:	   G/Ez-Tx				;	X="\à`¤„"	;N#=flvc;	  NBL=""	   		 ;	  	   cr="\o\Z\Z" 				  	     
+

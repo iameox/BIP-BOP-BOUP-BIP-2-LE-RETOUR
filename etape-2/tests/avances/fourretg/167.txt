@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:	,  ,,					, 	,		   		,  			, 		,,		,,+l  ,	
+Accept-Charset:  	  	,    1Q ,  		 C,_ 	 , T.    ;  	 	  	  q=0 	 				
+Transfer-Encoding: 	  		 	 , 	 	 L1u;Jm	= 				"ÍÑ\þ\A\[" 	     ; $		=	  "\ô\­\<Õ"	  ;*  =	!&vqi7 ;		S	   					=		  "¼S" 		 	 	;		1*zj7zVJ%I-6s3		=   "\UÉ"		   	,
+

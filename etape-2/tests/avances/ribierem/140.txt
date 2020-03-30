@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer:   	 		   	YkiF%E2$(%FFWxV'IR8&	 	
+Referer://k(i4Sk@2.252.211.6:28?g
+Referer:j://9A@[::9D5A:E:4B:9:93:87.1.112.72]/%66,3/%A9%37N1w/Tt@//p///S/pl 			
+Referer:'/	 	
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		VU="8"; fo=L<; kb&hz7y="3i1<m"; !R="oa3d"; Cq=XNg'; h="h'z"			 				
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	 			NOh|LiCeNU="k"; jF=""; Ly="q"; CaniMq=:S$x; 5B5_8=a; lm8="&"	
+

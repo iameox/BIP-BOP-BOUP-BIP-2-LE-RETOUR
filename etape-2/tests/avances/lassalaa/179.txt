@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 		fN=""; 8OOe=; 1!xRoeIUnzk=$WV; *`=89y 
+

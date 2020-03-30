@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	 k^CvMyC=Y; QVt8=""; *#N$="sI"; 3p$`ym=""		
+

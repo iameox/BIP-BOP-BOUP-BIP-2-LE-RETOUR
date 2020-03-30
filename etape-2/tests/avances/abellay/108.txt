@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:			e.Np://:604?		   	   	
+Referer:	 	  		/'(UgK*/)1k%E8/)?(
+

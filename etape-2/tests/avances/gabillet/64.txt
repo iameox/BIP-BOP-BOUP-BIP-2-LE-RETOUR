@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Language:    	 	  	 , 					, 		,		 	 	 		 	 		 q-38J 	 ;q=0.	   	,i-xjF-Rx-S-Y ;   	 		 q=0   , 	N			
+User-Agent:'^			 	  ()  
+Accept-Language:,	 		, ,,,*	  
+User-Agent:DiPU/CVe 		    	     	   ((¦\X\6\¶)Ž\’è\ (L))  (¡)		
+

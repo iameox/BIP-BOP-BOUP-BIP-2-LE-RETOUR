@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept:  |SxNSpk7Ec+~d/* ;e.="r"  ;q=0	    , 	 	gSw-O~x7VR/*,	  				  Z/*; 	6XELo="\UÄ"	       	    	 		     ;q=0	 
+Content-Type: ax1DMWVF/`d  	   
+Content-Type:		6iIIz/c; 	F=""    					; !6="€\·\Úúé\Õ"	 ;	I7yE="" ;			  NBQhCn%fau+=""    ; 		  	  	 mGKF4&JZbb%n="" ;	 	 	9OY="<\3"			  ;VOD5rF-J_=V4e|k	 		;  		 8mE=X	;  				   Um!T="";	 44="3"	
+

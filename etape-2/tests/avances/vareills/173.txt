@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:  	   	 	, 				   	  ,			    						, U-P	 	 		      ;q=1.0,	wz-1t-q8Tb5-tt-q	,  X-H-Q-Z,m-Z4sA-Z-i-J-Y-EOq; q=0	 		
+Content-Type: _9/Hdwzs+85;	_M="\q\˝w";	  		  2^D~="¿Ñ\¯";			n.|="";MLP="Æô" 	 	 				 	 	;v.saf="›\â"		 ;  			 	 	4Z-aLnJ="ﬁ" 			;  	i~4="\ÅãÎ\∞Ãó®"		   	;    	  K^b5=""	  	  ;	aVFJ0'OpdocR="Â";	 	FExlMW="∂v" 				     	 ; 5&.Q=|h&.q      ;	2="~\¸[\Û\€\º\⁄"  ;7zp*Ns7u="<\5“\B\^\#"	;		7="\Äá\4\X›Z";a'="";t=""    ;	 6rmB=~fB#d~8		 ;		9AS!`="\?" ;   C="ª"
+

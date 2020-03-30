@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:			, ,compress  		 	  	  ,		,	Y 					  	; 		 		 				  S0n^bBo =		 			"\:"	 	,  	,	PA7s2xQt			 	;  	H	 ="\›r\h\/" 	  	     ;0'|- =	  "Åo$íÙ" 			, ,    					  T	 ;					s=	  "\Jqp" 	;	 	lTt	  		 = ""	 		;rB_e^'= 	 "k\o\Ì;\¸\ãîÒ" 	;c6Umx= 	"\7\:¨ã\¹\ì"		 	;			    	 j05  	    =  	    	 	  	""	  ;  zL  	 ="R"	;		^dd="ï\[\›\#"		 			  	    	;R		 = "";hGL 	 =	"\=\#¡Õ";		NJ="\u\Ôœ"		 	    	 	 	;		7D60f    	 ="¥\¦";	 zQLS		   =			""	;   	_O		="‹\Ÿ\Õs\Î\ê" ; ^	 	 =	    	"‘"	;Vm= 		"\ÊS\4\¼3ğ>*\˜\½JïŠ", 	 		,	  	 	 ,       deflate 			,	SAp		 				
+

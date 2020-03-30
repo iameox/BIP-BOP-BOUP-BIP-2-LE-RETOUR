@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 4S="o~d("; FrZ^k*Zc=I(0; N6Op4$zDak=m8m; ^WL$6=0>?iPu89; `S=""			   
+Accept-Charset:, ,	,   *  ;q=0.		  ,tXYXFw`v						 		;  q=0 ,  	 	
+

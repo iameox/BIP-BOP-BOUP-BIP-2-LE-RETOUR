@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept:	 		  	   k/*  ;		    		 				 U0Y="\_@§#\×\%è­´¸±"    	  ;q=1 	 	 , ,		,,, 
+Cookie:	8=]9; 32=W*sB	 	 
+Accept:	  	QRv/*	;k=V3      ;	1N="o" 		 	 	;		*'o="\Í"	;RDC*+="\&\þ\€" ; 		 G="\²¤\é½µ\Ñ\šN\ËÌ"			;		 sk="Ü"	;q=0	
+Accept:  			   		
+

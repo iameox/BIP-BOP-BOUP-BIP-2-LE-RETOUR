@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:		 	 	 232.253.0.254
+Host:   a  
+Host: 	    	:7  			
+

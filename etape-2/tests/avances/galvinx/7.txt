@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:   				 P-DBB8Q		 ;	q=0,eij-mHE-lxrkvb-s-pKs-3-mn-E-leo6-6	    	
+

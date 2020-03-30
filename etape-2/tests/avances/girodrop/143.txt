@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:			 ooG://%E9o8%FCppT@250.180.253.252/yC1=U//			 
+Referer:   //[::8:D:26A:7CE:6:C4:AD20]/3X?s   
+

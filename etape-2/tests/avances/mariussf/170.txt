@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:	 	, ,P~I; 			 	M+ 		= 	"\≥"		 ; P#J	="\Á\Å" 	;		kDQ	 	=			 	""  		 	   	 ;AJ6$= 		   sF	
+Host:	 5.31.224.214 		
+

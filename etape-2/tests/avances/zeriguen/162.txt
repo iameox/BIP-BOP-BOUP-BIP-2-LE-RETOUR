@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type:   		 U/6H		  	
+Content-Type: 	p~/#ZBaYS0Z;D="\h\4\ð,\ÕþP\*";   *A%ORvB="\¦†£\'\ó"	  	  
+Content-Type:	   	DH1EWnB/4!7jemLsuPz	 		
+

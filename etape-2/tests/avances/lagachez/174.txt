@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie: RH8i=d@XVhEAq`jeNP&xz; 0nf05G1aY="T"; k%=Y?XiJ4p!C<
+Accept:  		*/*	   ;	6="$\Ø\Þ#"						;					JO`="";  d1="\Ì\ð\b" 		 	;4="ØTZÆŒÔ\&\Š"	 
+Cookie:	Ue="lGJ"; 1T="=<g8?$w2#"; mGOGS5=*0R 				 	  
+

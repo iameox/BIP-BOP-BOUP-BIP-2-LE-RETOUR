@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer://@[::234.242.254.252]//7b%87=L!3DJ/y/
+Accept-Charset:  	 ,, ,	 ,	,! 
+

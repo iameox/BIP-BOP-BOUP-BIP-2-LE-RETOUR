@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:, 		,	,P%N	 ;				  	  		  q=0.9,  ,				
+Accept-Charset: , ,,, 	l^ ;    			  	q=1.
+Cookie:    6N=@z; CM="" 
+

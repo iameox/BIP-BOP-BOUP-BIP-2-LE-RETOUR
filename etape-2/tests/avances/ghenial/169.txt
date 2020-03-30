@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:    	//@189.164.11.95?ki!B 				
+Accept-Charset:  	, 			 	, , 		 , 	, ,	  	 	lqePUa;			  			q=0 			 ,, CtV$  , ,	 	   		g|U_qU6!|W    				  	;  q=1., 		,	8N#;q=0.5 ,						 	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:,,				,	 		,	XOy-Fw 	  		 	, 	  		,, 	  			 ,x-5D-29-r 	 	 	 ,	 	 	 XS-Bu-T-DznJi-U-D3MAc-r-M-m7i	
+User-Agent:^9'wK	 (,\U(£\·ó)‚Þ(ÄR2£\»)\=\_\}’)  		 	 ((\2ëÌ\cüB)Tú\ð()\À(\9)(\Ê)\¾a)	(\W\—)	
+

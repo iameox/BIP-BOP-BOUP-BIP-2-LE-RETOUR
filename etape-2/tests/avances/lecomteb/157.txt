@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		 	SR=; z4=""; i3x=""; 9N="4"; f4l="Mu{"
+

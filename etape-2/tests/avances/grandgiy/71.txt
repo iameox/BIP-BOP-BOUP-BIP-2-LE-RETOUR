@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:				A=; +t=S-eONL; .="3"; AF4=&qF		
+

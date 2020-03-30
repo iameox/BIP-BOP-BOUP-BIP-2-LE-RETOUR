@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:	 	 		 	    TxOULNU.RB;		 				 		  	  	S= 	"Â\:\w"; 	 	 	+eSo4teG= "" 	  				  	;	VR=		"Û\iÕ\tZa!Ç-", 		deflate 
+Transfer-Encoding:  ,	,	 , , 	,	 	, ,   ,	,			 	,	'%	 ; 		  	 	 vb1-OB 		="\Œe",yk_iK     ;	 pBKit=		"\y" 	 			;	hX| =		"" 	;rIXR  	= 	 		 -qXT3A			   ;		 	 EJ5BM!&+0w|'LQsvw	 	=""	,		 			   	 	WCtq*Q 	;7 	=		 "ù"		;|bMcJyYs=	"\µ\ì"  ;  	 Y	=	 	 		 "2Y" ;7t =	 		"+´)\Ô\Z"
+

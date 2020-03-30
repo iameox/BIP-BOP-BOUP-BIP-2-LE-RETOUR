@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	 	   			 [257:4:0E96:0:8:F:6.15.84.241]		 
+Transfer-Encoding:  ,		LYD ,
+

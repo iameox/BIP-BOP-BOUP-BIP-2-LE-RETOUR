@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	144V='(; 28=; wU=?NvA]1-FM9qU
+

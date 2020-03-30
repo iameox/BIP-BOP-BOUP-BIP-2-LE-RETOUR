@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:		 					 vQh/n_w|&IXJG
+Accept:	  		 		  			    
+

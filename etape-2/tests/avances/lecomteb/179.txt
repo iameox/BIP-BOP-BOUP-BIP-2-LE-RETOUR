@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:  	 		   	 w=3$; o="-Or.c2wwD"; Q5$="S'#`"	 
+Cookie:	 	O=ar; bkURN.U="zs"; nYW=p; PS="R"    		
+

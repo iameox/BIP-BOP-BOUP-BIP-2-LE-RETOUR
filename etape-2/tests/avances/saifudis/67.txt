@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:	[vB.iLm=8UR7AU]:
+Host: 226.8.9.234		 
+Host:					[v3F4.+M]:6566		 
+

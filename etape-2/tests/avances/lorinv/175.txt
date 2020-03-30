@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:Ab/PD.V_t	 ;	   				cKJN="Ž\ç\I"
+

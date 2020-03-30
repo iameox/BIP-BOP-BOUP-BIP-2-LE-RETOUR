@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:	 9=; lJ="p/H!eYREckyt"; .VL="]wb#"; O="k"; l=p 
+Cookie: OM="w<"
+Cookie:		  	   	 	  	 	Dn="2F4"; E_="IY~Jdm"	
+Accept-Charset: 	,	  		   ,  ih , IoI 	;q=1.0,	 ~7 ;  	 q=1.
+

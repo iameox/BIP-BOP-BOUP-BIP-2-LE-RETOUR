@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Transfer-Encoding:	,,	v!s!3; 		 		'x   =	"\œ\Üñ\µ\|"	 
+Transfer-Encoding:,H	 	 
+Cookie: uZ~B&g!3Oo=7q}U)[3  			  	   		 	 		 		 	
+Transfer-Encoding:,	  v 	   ; &!x$=				 			 	 "\#\Ÿ\³\²" ; 		  35	=	"\{\5\ê\V©",	,	 S#-M 		;		  	 1=			 		 	"\m"			  					   , 	  MhTYr	  ;		 So =	  	 		 ""; 	.-PeIf`h9YQ= "\ª\È\îÅ\Ê"  		;			4zo|`R 	 						  = "",A~	 					 ,chunked,,
+

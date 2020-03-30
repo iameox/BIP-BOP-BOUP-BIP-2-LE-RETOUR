@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer://156.213.252.254:179//W?A%0F 	 			   
+Referer: q/%48T%34/9H%EA=)/y//g/yu	 
+

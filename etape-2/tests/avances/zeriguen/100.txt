@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: 	+oF+3hdGJp/e; bg7cy=""	 		  			
+

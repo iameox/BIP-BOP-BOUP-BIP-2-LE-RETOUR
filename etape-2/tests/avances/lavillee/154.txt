@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 		 	-vPJd4="B%DAVl"; 4=""; cb="Q?q|0[" 
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:	 	,	,  ,  	,			, , ,	 , 	 xm	 		;q=0. , 	 		0		;    		  q=1.0	 
+Referer: /			
+Referer:	 //249.208.9.28:/)?9	 	
+

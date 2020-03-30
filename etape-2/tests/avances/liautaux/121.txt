@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: uk=a0fj; +PX=V^P@:>`6	 
+

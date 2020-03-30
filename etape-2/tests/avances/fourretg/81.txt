@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:,    	 ,   	 h
+Transfer-Encoding:		 ,	  W  	  	     	   			 	; 	 		%r  		 = 	m	 	   ,  	 	9!6		 		    		  	;	#Lu$F&~Fp	 =	 ""	;%UabT=	""	 	,  	sMmIl   	      	  		;	 	Hw2I	     	 	=			  		",>"	   	   , 	 	ws+;	Z 	 		 =		 	 								""		;		 	8 = "\A" 	 ; 		Xr	    =   	 		  		'OZe  	;OT = 		  		  		"\s"		 ;		XMWIP#j~XCX	=			 "\±\ü";	n ="yz›"  	,
+

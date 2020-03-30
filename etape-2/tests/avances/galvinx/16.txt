@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Language:		       ,	   	,	CDpr-Txm6-M-rZyz-or-j-by		;q=0.,       v-34-gk 		; 	 				q=0.511,	
+Accept-Language:   		  	 	 EQkk-ZK-U-a 
+Accept-Language:,	 				,	P-gP 	   ,	,  		,	 oJ-EX-Q 	,	, S;   q=0.
+Accept-Language:,R-U		;		q=0				  		,K-F-XEh	  	;q=1	  ,	*,					  	,JPKES   ;q=1		  
+Accept-Language: crGqN ;q=1
+

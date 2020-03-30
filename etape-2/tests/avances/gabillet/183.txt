@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:  	, Inu-q-w-as-VQI-8t-X-x		    ; q=0.   
+User-Agent:		   	    !		(‰)			 
+

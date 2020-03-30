@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:,	 ,  , 	,	 	,  	, 	,,  ,		  ,		  		  	,  	,	   				 ,  		 		   ,,			 		,			,			 	  	 	  		 , ,   	,	D'^8  		  ,   rsJ9+^4b  ;  h="\LÙ\ü\Ùa\T^:ä"			 ;   		f 		= 	"\¹\­“"	 ;	 QhD$a		   	="\ş\mdB\¥\FT\ù	\'z*\¿M\§^İ"  	; ~$L=	   "" 	;	 			r'W      	 				  = 	 "íU" 
+

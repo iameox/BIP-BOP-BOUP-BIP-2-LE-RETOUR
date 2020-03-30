@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:	   	  
+Referer:	 f://GVi%463@_:/)/f//%66;/%CB/f'i,J
+

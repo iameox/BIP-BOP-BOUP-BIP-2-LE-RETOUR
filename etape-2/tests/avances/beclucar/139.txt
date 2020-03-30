@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:			Xj610acO/U8_N3BM  			;	Gs%ehc="\∂\‚U\o"	 
+

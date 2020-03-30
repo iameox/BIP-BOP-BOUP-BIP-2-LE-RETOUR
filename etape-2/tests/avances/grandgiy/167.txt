@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:		  _6fP="@"; F="uR"; -o2="7@Ed"; YRz~="G+OMN"   
+Cookie: +Oz=""; Cui=Osc^iy~		  
+

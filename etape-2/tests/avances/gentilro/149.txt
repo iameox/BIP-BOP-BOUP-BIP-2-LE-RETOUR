@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: , 		 	, ,   					,						A2cJ$A ;BKE.w&Bq=		 "" 	 	; 	 Ew			 		 	 			=	  	 	"U"  ,	, compress ,			 
+Transfer-Encoding:		 		 		 			,`EC2				 ;	Qkkk%l	   =  	 	 		 		"\P£©\Ã\ ìÇùì\˘÷t\+\;∑!«\◊§\2";		X	  				= 			Wl_P#DDQU  	  	;Q	 = 	y	 		 ; 	R			 	 	      ="ÿ\+7«\,\í\◊\ø`"	;	     	oZ			=		 "\ó" 	   ; tR	 =	  "l"	;  		  	 	 	YHT 	= 		"{"	;			 	I=  	 	"ﬂ\â";		5LJ		 	= "" ;-YfN67uk0hxnEmJ="",  ,  			w.Y	;				  a    ="";2tuz 		 		 	 	="\Â\á√÷\:\ó\<x\˝á"	 	,$loF6A**j ;	 QE="\X",    	oQXvFE	;5		  		  =  	    "\ò\√\!}O" 	;		   	Ao`= "\èÂ", 		,	 		chunked,, Wna5;  	AZp	=   		"„¿\9]ª\ñå\ ü\w\E\ü\Õ[0≥\¿\Ö" 		;y	 ="\ñ\Ò∏\Õı˜\Ò4\Ô"	;pO   =	"\*¸" 			   ;	|fj4TRZtSN1h^jFP41	= "◊¨ﬁÀY\ñ",		jt2N 	   ; 	    	 l'UZ8			    	 	=		"\{"; 	 w  	=	"\Ú⁄"		;l  	=	"\2";		*1'5=	   "\È"	,,compress,
+

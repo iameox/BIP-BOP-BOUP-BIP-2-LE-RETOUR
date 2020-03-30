@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:		 	, 			 X 	 	;			      	 U	 		 ="ö"   	 		  ,Kg*U~8_	    ;QR9g$0n#!&OxnDs2wj 				  		="Ð" 	; 	#		  	  	 	  	 =x	 ;e	 =	 "",	    	 	
+

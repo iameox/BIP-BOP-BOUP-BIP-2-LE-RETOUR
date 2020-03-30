@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:	   SkIY-S3-E7a68n ;q=0.,	
+Accept-Language: 	 		  		en-Z2-Zt0q	;	 					   	   	 	q=1.00  , 					K-fIU-x-k-M,		,	
+

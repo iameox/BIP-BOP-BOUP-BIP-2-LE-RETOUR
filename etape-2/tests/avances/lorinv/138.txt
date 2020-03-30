@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept:	  		
+Accept:	 				
+Content-Type:^e7o0/IR6|'BLk 	
+

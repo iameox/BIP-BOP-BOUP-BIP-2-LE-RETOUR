@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:	 X|=; ~Mz2'^Ba$3X!BE="^Z[X9"		
+Cookie:	 			 W="ALG"; tEmU=o; `sB2=; B$=u*; 4=un!v]P&B7{s_Xs; i4P9fJqqZkGvtI#9X=|bgS; *2$#UKf=; A4=L0u; S9ARe=+H?; k'*-^vF="3s>Aru"; !159oO~&QeZ1s="Q8Q'%0_0?B"; +3=A; 61="{aFF/"; %="vS("	 			 	 
+Cookie:		 	  ^JUY~O*="Ax"; $=""; `=; $P=q:h 
+Cookie:			  			W=; x=""; `v^Ps_.y=; T|y="']W^|"; Q=c}>J; 9_="P5i"; vc=""; DLZ9kL0="V#RwJsop"; t="B<M1"; Yh="rb2!|@"; ^$Ws=tQ[R`_; %=; Qk=Aq			
+

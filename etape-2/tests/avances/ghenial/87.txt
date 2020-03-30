@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Charset:	 	 		  , 				, 		  , ,	 	 ,,h6		    ;   q=1.0	,  o	  		 	 ;q=0 		,,!sI;  q=1		,	
+

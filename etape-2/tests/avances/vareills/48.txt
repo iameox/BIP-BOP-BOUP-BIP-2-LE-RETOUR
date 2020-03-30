@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: 	  ng/3Ue ; R="\זק\ֵ"	 ;	   	K|Bv="f";	  jDhPK="z\ֻ"		 ;aq!="|תK\q\…ֳX\p" 	
+

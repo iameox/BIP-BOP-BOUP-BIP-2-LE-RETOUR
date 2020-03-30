@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:Lt5^ (z\P(О\џfЪ\o}\Q\aT\Са)њ) (\5\ц)	
+Accept-Language:* 	  		 ,		t,,	 Rdkc	; 		 	  q=0.5   	
+

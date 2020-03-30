@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:g://:@kn:8//-y/j//%C18%2D//+3P12%59 
+Referer:JDG:/?0)5:j 	
+Referer:	wCt1://1.205.6.3:4792/rs/o*/X/@KK//cr//kc%41r~d%E9%2Fb;yW?JhMFkszSf
+

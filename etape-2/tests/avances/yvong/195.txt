@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer://[013:1C::206.47.0.206]:982512/!GDf/VB=,T%70?
+Referer: ?q	
+Referer: //%B0gy@?  		 				
+Referer: 	HU:Gw%02%8C		
+Accept-Encoding:	  							  
+

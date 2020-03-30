@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer:		a4Y://[::DC:BCFC:22.234.222.229]:897/Uwl/F/I(IN/	
+Accept:	 	   	
+Referer: 	NNiZP://N@[::604F:5:185.5.3.215]/RbI/~(/D		  		
+Accept:			  		    
+

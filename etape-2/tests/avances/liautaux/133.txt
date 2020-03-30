@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:, 	, , 			,	,, 		  	,	  	,	 ,	 ,,  	  , 		 		  		,,,, 		,		,V2	;+T#Z=  ""	  	
+Transfer-Encoding:,	   , 	 ,	 	  EpCswW,  	h   	   ;f5Wk 	  ="½\X\m\;\nA×\4"		 ; 		 	gR 	   	  	  	 		 			=		"Â;\F\•3¡A\uÕ\ox" 				,	tx%JH&7PwELn1_   
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:  Zfqi.2=xy6Dtp; iEA=""; _="xij$22$F%$&z2"; wrB%O-vJ="se"
+Cookie:				 c%="UW0"; n-|x7LZ=:{; *^==8bG  	   
+Accept: 			    		 	 		 	  	 		 
+

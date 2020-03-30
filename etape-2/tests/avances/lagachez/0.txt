@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept:   		 		
+Accept:			  	
+Cookie:	3nr*QzqF37_+|tD=%m		 	 	
+

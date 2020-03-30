@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:b1_`1!3=M)y7; 8P="6%<KiA[qzPI$|"  
+

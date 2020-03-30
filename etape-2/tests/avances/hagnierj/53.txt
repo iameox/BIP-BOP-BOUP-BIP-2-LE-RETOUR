@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer: 	 B+://i@[v7.']/H_g?M 	 		
+

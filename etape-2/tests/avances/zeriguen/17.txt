@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: vBH/8&		 ; xA8="\"	;(½/›n\€"	 
+

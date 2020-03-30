@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	I5|="R.=nl+-"; a="_?K.lYV"		  
+

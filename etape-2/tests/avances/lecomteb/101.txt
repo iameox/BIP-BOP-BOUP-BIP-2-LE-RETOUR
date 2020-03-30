@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:  	sF=Mj	
+Content-Type:	    	 1jK/7b^8bJ0MG  	;			 AuBgHfrhqg__F=8 
+

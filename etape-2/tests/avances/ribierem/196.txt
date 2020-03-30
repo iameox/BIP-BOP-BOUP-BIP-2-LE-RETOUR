@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer: 			//202.43.18.9/L//%78uq~*/4U?Tfzp%76xu	
+Referer:		//129.127.6.231:779	 	 
+Accept:     		 	      
+

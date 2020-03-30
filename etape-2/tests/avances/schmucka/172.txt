@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 						 Xn%wvV|Ch_="1Y>=ok^JZ):"; u~=".'E<I"; huN6=<o.z
+Accept-Charset: ,, 	 ,  ,		  		 	,,	2uh				 	 		; 	 		  	  	q=1.0		  	 		 	 	  ,ELZ
+

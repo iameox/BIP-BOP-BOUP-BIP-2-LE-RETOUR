@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:  ck/3azMT.Lt	 				;				  bFC="\¾´\ûÜ\l" 	 
+

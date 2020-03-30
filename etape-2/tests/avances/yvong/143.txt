@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer: 	 BfIrx:/F,%A4uLH%1F/Yy/j%6C&/w%2F		
+Referer: L9d9a://L%ADcV@[::84:6A:8]/?		 
+Accept-Encoding:			   v , ,		,, 	R; 	  q=0.969 ,		n.G3iP#4,
+Referer:	  		/
+

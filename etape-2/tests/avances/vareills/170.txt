@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language: 	,		  	 		  	  	  		,   	 ,	 hA-W;  q=1
+Content-Type:!/uhLD;		zj="‰e\è\Ú"				  ; 	  y9="8\0"
+

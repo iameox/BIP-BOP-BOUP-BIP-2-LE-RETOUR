@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:  	 	pOmTTNip4c/K+'W&PI	;Do="î\%{¢…\î\`"  ;	  	F!gKf="\+Š”öø·¹\›(" ; OnUU="";	.LQ=""	
+Accept-Encoding:		    	
+

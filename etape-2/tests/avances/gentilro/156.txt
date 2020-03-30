@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:,, 	,	,		,		 deflate,,
+Cookie:	   		J'^GZPI8Wi.H91FaLhUH1Zu`=":Q|~"; |eMm=)  
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:K6gYJ`3saE="4fBg+i>=GZ"; &D18on="hh4p-|+R3-'a<S4aE&%pSw"	 
+Cookie: 	 Mnd0psY.MZ#=]H?; m=	 
+

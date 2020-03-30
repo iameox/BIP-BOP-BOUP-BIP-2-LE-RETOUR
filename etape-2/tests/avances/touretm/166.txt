@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer: //@8.146.255.242:42	 
+Accept-Charset: ,	,Y   , 7z	;q=0	,	   , 	 	
+Referer:	//[F::E:C4E:CC91:E:35.218.253.250]
+

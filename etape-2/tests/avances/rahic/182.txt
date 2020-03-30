@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer:&p7!%E8jtsf/Y%D8/Pi	
+

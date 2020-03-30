@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language: 	,			  		,	,, ,p-NSL3cu-W-ReS-YH-S, 		,	   XNey-C-X7H-9-7u 		,,    			  	QD-5-v-SV-BgG-Lg-X;q=0. 	,	r-J-Ql-H-qvhY-O-n			 ,vU-s-PR-uE-G-z4-u-LL5-9  ;	 q=0.0 			  	 	  		 
+User-Agent:Mx	 					(è\Q\>)	(\T()\(_è\ò\EV\sï\ıõúş\=))	(\©\œ\ÿÇ(”\š)ô\5û\ã)	(š\¿)
+User-Agent:			yQS27/Zz  ()	  	(¼\V)
+

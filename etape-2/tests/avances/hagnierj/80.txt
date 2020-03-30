@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept:  		 	 	  uL8b/*;q=0. 	, 				 qa!/~nu%Vbb , 	7/RnDN ;			 	 	1yCMd6CWEaGf!I`=""; 		DRz&Ek="" 	  	  ;			 		pDQb="\¿" 	;l="\=\û" ; p="S\Ö\¹" 	;	GlCG8%FuDQ="(\YÏ" 	;     -SEmcAs="\Ä"	   	     ;		Ih|="\	Õ"	   ;PA="†©"	    		;			jJU="º5"	 		;5x7nih=*-PexJfh.;q=0,	 	 	
+Accept:		 	
+Referer:	 	//[vF.Q~)]/pio1?'M	 
+

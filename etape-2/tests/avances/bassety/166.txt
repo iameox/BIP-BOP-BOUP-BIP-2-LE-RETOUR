@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: y/X!+		;I="\åeù½"		
+Content-Type:			uAPW/~|U 			;  	BzXO5="×\x\ò\²8\Š\ø8"	;   	 	 					 	 	7wFpr="¹"		
+

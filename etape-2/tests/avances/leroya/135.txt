@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Expect:  	100-continue 		
+User-Agent:		 			_XY'K%w`Xi/a	 	 		 (M)	
+

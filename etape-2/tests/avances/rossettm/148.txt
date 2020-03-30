@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	   	 n=""; 3c=; b|yX=EW; pv="4"; +3k=e8p  
+Cookie: 	e="T-"
+

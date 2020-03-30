@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:   	   	 Y3A*2q%    	 		() (\e) (÷‰‹\ó(¿)(à¨å\p[))	 	
+Accept-Language:,g-GCDQmA-7Kc	,  			 	 ,,  	 	, FG-7Kg 			 	 	 	,	*		  	
+

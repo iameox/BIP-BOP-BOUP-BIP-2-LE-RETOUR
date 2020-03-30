@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:,&se8#;1 	   =	""   ;	 	 	cd1			 	= 	"\Uù§\D\€\g";e=				  	  	"ª"			 	 ,    				,  		 N 		  	
+

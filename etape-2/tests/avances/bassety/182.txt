@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:   P/PM ;5U=""   	   
+Content-Type:  ZA7m$/Y			; 	ZjH=""		 
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:Xe.i1="w"; 2`=""; 9U`AP$="nU" 	 	 
+

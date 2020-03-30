@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	 &757#2&="sI"; Y6zOh=">l0.MoO"		 				
+

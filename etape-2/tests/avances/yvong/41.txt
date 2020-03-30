@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Referer:	D%F5FAE@'/  			
+Accept-Encoding:			 	  			
+Referer:					//8.255.21.245/%071H.e@6g314L:yJ?weHW 
+Accept-Encoding: *  	,identity	;			 	q=0.400	 					, 		 ,	  	 	  ,			 j		 ;	q=1.000		  			 					
+

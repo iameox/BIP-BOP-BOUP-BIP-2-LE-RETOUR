@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Encoding: 	
+Referer:				FqSnrpjtQ://[7:A:B:F:B:1:9.213.250.15]/IJOj%7C:GY/@%BCn14uz/rFe!xmmje/M%D0/2/ic@/:5%D8x?%12%4Dh8%E00Q  	 		 	
+Referer:  	 /fpy%5DY9cb_/,n/%16/T8/I%23%8Eq%1Bw%B6l/ 	 		
+Referer://242.253.233.6/	
+Referer:	   		  	     dYZcBh//?e&0O?bM?ytEgT,w
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer: 	  	j-53HY+akVp:IT/gU&/X	 	  				  
+Referer:qmauy9gpKy://250.250.238.130:7	  
+Accept-Charset:&'qv#.NCDT    		 	
+

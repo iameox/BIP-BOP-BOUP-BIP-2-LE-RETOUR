@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:   	    1Vn-e3iVmxf5/zzQ						;7j%*="¤\\¯\å\¿" 	 			 
+

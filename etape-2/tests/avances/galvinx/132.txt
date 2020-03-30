@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:   DB  ,	TbO-g-5u-OI	;				 q=0.3 				 ,	 	,Tx	,	  	 	  	 ,  				, 	 	 	P-7Cz-1;q=0.8,   		 P			    	 		
+Accept-Language: ,, 	 			    qBS-q-MH-I-5-K-6-T-a; 	   q=0.3 	 ,	  	F-0w-T0Q-0-d-j ; q=0.	 	,m ;q=0.0    	       	
+Accept-Language:	 	   S; 			q=1 ,    		y-x-Naw-kc-TxD-cE-J				,, n-61sAQ-hU-j-GB-R-RS	 	, 	 		 		    b-D9-s-V	 		  				  	 ;	 q=1.	  	,     ,
+

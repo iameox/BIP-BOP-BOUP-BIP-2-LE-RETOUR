@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language: n-6-u0-uLE-p-dL-CaRDac-O-NW-Js-1, 			 x,	      		 ,    	,	  iU-n-N-RRix-rF-21h-b;	q=1	
+

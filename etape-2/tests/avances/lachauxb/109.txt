@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+User-Agent:  	C 			(V\T\ê(¢\²\B\CBÚH%\5©~)\-()L\î3) 	 a  	(\h\Ä)	  	 (\˜)  		 H	  ((á\¤)®(Ð))		(\©\5\z)  	(ž)   (=(\Û)ºž\H)	 	 	   			  ()		r/ZA 		()
+Accept-Language:					K-8O-8-C ;	q=0		 	,		oGk-B-KN-A-l	;	 q=0.,PU ;	 				q=0. 	,
+User-Agent:|/jr#		 		 	  	 		(\>O\n(Ó)È) g_s&XWx6/#vA
+Accept-Language:,,,			h-5-b	  		 ;  		  q=1.00 	  ,	b-qhF ;q=1.000	  				 		,  	S-6d-D-k  	
+

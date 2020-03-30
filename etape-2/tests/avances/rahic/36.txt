@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:	  	//6H&Q:7817957/?8uL%96XJ%47/    
+Accept-Charset:	,		  			     	PX''ChqoaeP;q=1.,   , 		,	 	,	  				 	,,	,	 	 ,	d%KcW		 	;q=0 	 	,  , 		,,		 
+

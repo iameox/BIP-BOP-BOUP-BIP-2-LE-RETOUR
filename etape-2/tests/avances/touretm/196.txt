@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:  	  	 kyaR://z@[::245.72.81.2]://$%B3f@%F2i:%BFk~x//UpvJS/il/%28_V//Al22&/%14U6jK/f=/%8B%CF0
+Accept-Charset: 	,,	 ,	 , ';q=0  , 	 				385Sewi+9; 		 	q=1.000	,  					   		 	5G-|WhAj	 		 			  ;   		q=0 	
+Referer:  KAqZNoJ://Lr%BDIJ9B/a/U;W%58 			 
+

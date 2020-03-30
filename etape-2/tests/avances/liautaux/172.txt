@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: , ,  ,	 		,  ,,  	,	 	,			,				aI	 	 		;					%*g			=""		  
+Transfer-Encoding:chunked	 	 	 , 	 ,		, deflate	   	 	,	Otjir 	,				 	 		,	 P	  		 	 		;	 *r	=	 "\­«\Æ\W",, 	 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	 	k*v-URd0!f=t*; Zq%kwtTf="{z?V_O:<e"; u*b=<COAGAq; &yp_D=l)N; KrI=8l; oo73_l=v; 6%Np={zUn7%; PH-#jJrNfPy=:; sG3FrL~tq= 			  
+Transfer-Encoding:,					 , 	 	sA  	 ;	 	0W9w+3C	 =iWQ				  		 		 	; 		jw7gy-O7.s="\é\>y\â®\ˆ";lfM~M#'PYRA	=zpC		;~OxP 	= "Ç\è\¢º\™SÖ"		 ,
+

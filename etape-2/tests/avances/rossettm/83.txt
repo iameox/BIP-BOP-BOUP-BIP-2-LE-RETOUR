@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent: 	 	   	 		  	p (\Ä)	bFV 	  	 	 		E*D/%#ic				 (\'\áÎ\s)  (D)	(Õ()kêz(Ù)\²\¯())
+

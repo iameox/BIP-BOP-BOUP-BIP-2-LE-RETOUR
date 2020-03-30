@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: D*YA=2wCb
+Cookie:	DVy7O`e_%="4"; vdBm=S; qTw1JSz9= 
+

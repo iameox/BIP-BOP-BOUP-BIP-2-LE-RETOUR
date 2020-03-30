@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:		  gHSdt2/Wqbc ; 	KSE="\Ò";  	  				ySo="ü\ˆ"	    			 		   	 	;4="\a\¢"		 ;  	 		 		 		k="ÝZ"		 ;E=""		 	 ;	 			lhnM&=""
+Content-Type:	U8/j 	    	 ;rY0wPBq="%"
+

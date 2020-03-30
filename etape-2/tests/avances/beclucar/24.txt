@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:hHj~WOD  ,	Hg  		  ; q=1	  		,		 rT`i;	  q=0				 ,  	 ycB	  	,	,,qKK8Ltb			 	 ;   	 q=1.0 			,		 ~v$Vw 		; 		 q=0.  	,	    	,			 2wg7Mk  	
+Content-Type:		  	 		 p/E37y6 	 	 
+

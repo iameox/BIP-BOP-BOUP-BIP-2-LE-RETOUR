@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:		v://254.201.9.72:247
+Accept:	 	 	  				 
+Referer:JgE:*v6!td%DD/H/D
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer: 	/,E%3Dh/E%9E6%F2%E7u=
+Accept-Charset: ,	 ,,	 ,, 	 ,  , aa		 ;	 q=1.   ,	R ,  				Al	;q=0.	   	   , 	 , 	 		 	 				 
+

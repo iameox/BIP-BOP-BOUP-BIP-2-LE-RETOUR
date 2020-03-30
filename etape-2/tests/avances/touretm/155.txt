@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:	 		oXl9el://,%70J&%F5AsUVD;)%9B@252.204.14.37?8	  
+Accept-Charset:,0t	     				
+Referer:		 		   //[::24:6:56:C20:21:200.7.38.1]/%B6hZo?Dx%B8%A2 
+

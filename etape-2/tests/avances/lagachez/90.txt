@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:	    	  			
+Cookie: 	  	g*=; #b0#E=adG; um8n=; B$=""	  			   
+

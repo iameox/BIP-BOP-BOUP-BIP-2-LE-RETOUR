@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer:				Kxr-pCN.R68b://62.26.236.97:68
+Accept-Encoding: 	, ,   			 	,	+	 ; 	  			  	 		 q=0    		 ,						 	,	 	*  	,		 		 				 ,Yl#L 	 ;  	 q=0 ,  	 Sx^K1ng4W  			
+Referer: VI://@95.252.128.213////B? 			 
+Referer:x:/W7? 
+Referer:%36  
+

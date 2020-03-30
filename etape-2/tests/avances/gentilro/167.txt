@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:			 	 ,  	,, 		,chunked	  , 
+Transfer-Encoding:,	   	 			,	,,,,, 		  ,	 				   	    	,	,Yk0e	 ;  C3y&W2`YHR0 ="\·_\l*“";sZD 	= "~/"			; 	G!z	 	=	"\1"	  ;nZN4pK =			"\ë"  			 	  		  		  			  		       ;  	 		   					 	-y=  x;	          5	   ="\â\l\_\ï" ,, ,  
+

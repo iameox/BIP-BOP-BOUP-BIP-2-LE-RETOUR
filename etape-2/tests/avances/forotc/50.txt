@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:	 	 		 	%54LaC%FFs_!$//BH/q/u%2D/O%68E%DB%03th
+Referer:		C://%D0%9Dj%98%A83nbyyF@67.156.124.5:/X////vi?s%F9 
+Accept-Encoding: 		
+

@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer:   w+.://$KOO%B4%EF)%373FO@[::220.165.88.254]/Ci6%05;$OZp/HDv+D-/L~D/n
+Accept-Charset:	 ,, ,`	
+Referer:Jm://@166.6.92.9/K%9EOR6%AFJNg)F/xd2cH8p%91mB///5u0/gU
+Referer:	 X://@[::88F:593:D64:49:C:89.5.3.69]:9660?vr(%4C%B9?%E6*%C3
+Referer:   		 	OU://[::A0:D]//G,SWH?
+

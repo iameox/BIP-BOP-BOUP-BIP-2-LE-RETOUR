@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer:TC2://@[vE4F.b]:6
+

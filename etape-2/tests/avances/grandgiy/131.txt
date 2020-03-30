@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:   wpr/P; 8cA!6R="ß\ "	 				 		;QB="" 	 
+

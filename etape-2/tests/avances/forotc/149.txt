@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Encoding:	  		 		 		
+Referer:	 		 Bab://%FE@215.220.38.66 
+Referer:	 wF:;/9/D%86 
+Referer: 	//&U%D4v;I3=:4?LQwH	
+Referer:I
+

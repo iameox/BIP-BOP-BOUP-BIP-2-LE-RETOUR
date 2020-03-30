@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: 		 PVjPBqB.4/.EBp;    		l="f"   	 	;		0Tsl="Á\!\5\¥\Fø³\G\%";E4^~2Me="\…áÿ\œ-\b\XÜÌ¢"	  	    ;	sK7~Y^MM="œ h/"	 
+

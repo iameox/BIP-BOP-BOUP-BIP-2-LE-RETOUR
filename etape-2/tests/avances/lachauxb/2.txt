@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:	  f-q-iyk-l-KN 	;		   		 	  q=0, gFRI	 	, 	 		 	Rzi-EcW	 ,	, 		  		c-te-Or  				; q=0.	
+User-Agent: 	  		UTZ  		 	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 9W7~5Vi=6?@e; s="ShFV/q_H<yEb1"; S&K=; *=
+Cookie:	|k=H`$; b=67E9:S; S=1; UqDB.xZ+uiK=	 	   
+

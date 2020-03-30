@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:			  				   	E/* ;			q=0		  ,
+Cookie:`Ds=; fY0-C=N; toJpbp=9Y; Y45=Q[A5%g+JL; H'b7W.="vs"; .="#"; lwJKpYV$Z$8'="" 		 
+

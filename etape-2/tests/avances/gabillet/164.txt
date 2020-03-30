@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:	NP
+Accept-Language:		  ,  , 		 	z-X-Y-uyic-fTM-W  ;q=1 ,	, o	
+

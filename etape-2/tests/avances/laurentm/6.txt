@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host: 		T%18J		  
+Host:101.252.79.212 	
+Host:	:8713	 	   
+

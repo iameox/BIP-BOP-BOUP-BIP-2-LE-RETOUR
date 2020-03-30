@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:		 	j=""; VVd="1C$-bi)" 			
+Cookie:   	 9^=; T5&u="Hd"; 0nlIb*a4o="5"	 
+Accept-Charset:						* 		 		 		 		;	q=1.000		 		,   			 	 
+

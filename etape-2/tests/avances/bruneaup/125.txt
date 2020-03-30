@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Host:  %4Bgvz%53%F4t9		
+

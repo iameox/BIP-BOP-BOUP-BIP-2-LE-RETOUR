@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:H="rtyTt"; x="</ixz"  	 
+Content-Type:a/_7*b9	
+Cookie: C6SSg.="tF`"; !=
+

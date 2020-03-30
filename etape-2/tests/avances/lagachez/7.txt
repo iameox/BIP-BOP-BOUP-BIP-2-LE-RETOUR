@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	 	~jFEaHJ&-`#d="*"; f=y:; ApxJb=LS]
+

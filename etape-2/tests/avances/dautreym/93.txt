@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:  		 			  ,		  	 			 			3EpIMBFu_$wl_9mF		 	;$*^!t    =  "ı≈"	,  	 , 	  , 	 		 		^nKrE 	 	 	;8				=				  "O\é\¨\"\T\R" 	    	  	 	;$xkPFWgMR7b-4=   "\™¿\8s"  	 ;  V#0fJ`7gq-	= 	"Â";   L   =		 	"¡";C	   	= 			"\q\Í—\È \K\å"	 ;    N9zJK|FME	=   	"\ä\Ç\$\_0\¿" ;A^  =		   "\ñ"  	;  	A8d%=	"≥„\}\G"	;  i		    = 		 ""			 ;  	 		8gdq-3Oa|e#=		 	"\Å∫\‡\”°\í"		,	,			, 	  ,     			  ^J0k25L!A0 	;U="\Rí"	,   		chunked,	EUm`Svw-# ;	 8MQXF 	   =	u	  		  ;			 *h^i	   	=	 ""    ;g	 =	 "ªg\∫'M\Ë4\H\úVÆ\·"	;|o 				   =		 			a, _`ZTM 	 ;  0   =`iYQA	 ;Fc	=		En;    $z6		="≤"	 ; 	 	V2VT.				= ""	 	  ;		 NWU	= "_r∞\°\+" 		;!gTlX 	= 		  	  	"hJ\ \—\!" , ,	RiTn6		  			 
+Host:	[ED:F:D:5244:C:C652:60.216.5.205]:06546			
+

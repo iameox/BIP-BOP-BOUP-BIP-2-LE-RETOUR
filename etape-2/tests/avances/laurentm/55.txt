@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Transfer-Encoding:,5E 		 	; 		A 		  		 	 =  		 	"î…\î\†\◊\›"	,	 		 		      		, 	, 		  	 	, 			t%,					x%_+		 	  	 	;		Sz ="\7≥Q=";I  	    		 ="]" , 	gzip   	
+Transfer-Encoding:, 	  	 		 	,,	   	,	   	   ,	 	,,			,		, 		7HO78 		 			  ;		 	 	   		JE5_MmG9T=	"\,m\º"	  	  , 		 ,   ,	b	 ;+z&sG~6'c'r	 	 ="–"		 	 	 ;$p_X	=	 	  	"\L"	 ; 4		  = "∆A\D\£Ú"	 			   ;		  		  .	=			        "\Ì\®U\„\J2"	; 		FQ`2   		   	  = "";RBr	 	 =			  				 		 "" ;J= 	 	   "≠\?";  	urtkjxOpH%5.127K =""; 	juToLmU  		 ="¡\Áﬂã€á\{\Œ\6˚\c;€Ÿ\Õ\w\£\ù\Æ\Ã\;z\Û" 	;Ej5 =	  "ó\¶\§°"  				 	; -	 	=	 "\X ä\Y" 	 ;	 			drrTB&c 	=   "˚\ƒ\>\R\µ"	;	4=   n2!;  Qt=   	  "";5F+=  	 		"-\R" 		;  		 G						 		 	    	="f" ;	c	 ="\	R" ;W	 	=		    ""		  	, 		chunked,		  	 	 #	,	 gzip			,Z 			
+Host:78.207.226.1
+Transfer-Encoding:	,	deflate 		,fh&VoNmOn5 	;XI	 			 =   	   	 	""; Is   =	 	"à\Î¯\ê",		   	b		    ; 	  	 zd7%Wtzvyf*%=    "]Kq\∏" 		    	;~1j 	="\÷";I_=		 	 	"’¯‡" ;1S+8^Xg=	"ÎtÕÀ9í\ﬂ"	;*7 		  =		 			 	"âì"			  				 ,	 	
+

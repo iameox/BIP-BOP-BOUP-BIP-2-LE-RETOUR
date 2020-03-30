@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:w=&; l=""; Ir="(="; z="" 	 	
+Content-Type:3d/L'htA
+Content-Type:i`$2/%A    			 			   
+

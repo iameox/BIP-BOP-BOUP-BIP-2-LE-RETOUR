@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:    		6OP_'B=QQA	 
+

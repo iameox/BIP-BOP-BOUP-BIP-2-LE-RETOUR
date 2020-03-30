@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:	,zIK61hQ|G.YZ*2E%KDFzC   	;  	  `j="â" 	 	 ;s= "\^zm",	Kr;  		 	 		UV*EBHyr%8	 = "a"   	;  	 		 C	= 		   	"õ\hZ\Í\~±Õ÷\·\í"	
+Transfer-Encoding:			,Uf.; 		$	= 	 	"â",	,	        	AXA	; 		  	  	v 		 			 = 		"Q­\ ÿ\q\[ô—N)"		;cb="ëI'"      		;      	Oz9m 	   	 ="\Å"		   	;nK				  	 =""		,	 		  
+

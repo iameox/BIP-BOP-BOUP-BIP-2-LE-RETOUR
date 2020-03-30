@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:c/Fh1`Fh1pt3y0-ch9 	 	
+Cookie:				g=zrOY5^L6io		 	
+

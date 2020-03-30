@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:, ,,	  $ 		  	  	  	 		  ;	  KKqGDgz   			 	 	  		 =		"\F\ð\¸\E" 		 	
+Accept-Charset:,	,		c03!f  		;    	 						 	q=0  	,	  	.w 
+Transfer-Encoding: 	,		#R2jqKU	 , 	    	  			 		 ,	gzip 	,,	 ,	    	 		
+Accept-Charset:	 	 		,, 	 ,		   nE-hs 	;		  q=0	   			,  		  	 	 		 	
+Transfer-Encoding:		z%				;   		  h7z1i	=	"\Æ…­",	 				 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:, 	 ,,,   	      , ,	, XuP
+User-Agent:DbN~z/vIY7YYoqm*uJfw		(@§)	 ((‰\˝)\Æ)	(∏(ú\&,)\¿Tè(X\F—ÿ\çª)(ãX\≥Ig[)\ä)  
+

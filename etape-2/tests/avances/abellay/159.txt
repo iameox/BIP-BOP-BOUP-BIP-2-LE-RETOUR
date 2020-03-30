@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer://hy1Jk7@[vEC.g]?%29	
+Referer:xN6QsJDKTF+://@82.0.26.2:?cm 
+Accept-Encoding:	 				
+

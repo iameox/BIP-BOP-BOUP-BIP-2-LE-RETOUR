@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset: 	Zvzy, 		,	o$9,, 	  ,X 		 	 	,  ,  ,							 	  
+Accept-Charset:	,	 	,,	, B#  		      	  	 	
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:  W*T  ; VS=	"" 			 	,		 	 	 		`bK2E.c4		;  	pe18-J   =   "ô\’s\!ù22·CÉ¦\F"    		;	 	 	 T		   	= 		"=äÀœø\½z"		
+

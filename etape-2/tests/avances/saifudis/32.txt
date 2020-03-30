@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Host:						 	 [vB34277608BEC1.~]
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:klR&*gVj75=""; $=tBoP; h="?p" 
+Transfer-Encoding: 		,   	#lEmOz7 ;yA							  ="\¯Ó{\O n"		; 							 			 			 	 eX 			 = "\Œ^ÿ"
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:a*=f; d=""; z=d+NZ+a2fb; E=FitA
+Accept:DQ6/*;#k="Lê{×\¡¢\ß ?½x\o"	 ;	1=|zkk; 	  2="Q\I\&p\µQ\9"; Rb!C=A4UE  		 ;	 		 	lJCg+Kog*AKL#XUW="à" 	 	;							 	Cw9-e12="\s"   ;HR="}\Ôï"  ;	 	 				     N+=""			;  			 	8LaEb8lTu=">—"		  ;SvbI=3			 			;	  e^1j="&Í";  p*d=""	 ;			   	  -="¿"  				  	  ;q=0.3    					,	, 	   
+

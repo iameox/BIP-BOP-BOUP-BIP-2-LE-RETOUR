@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer: 3RUXv/%A7   
+Accept-Charset:,, 	     				,,  	 ,		,				c%rVAE1aVP7+HrPq*`VS
+

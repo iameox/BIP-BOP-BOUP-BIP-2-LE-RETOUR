@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:				, 	 	 compress  
+Accept-Charset:		,	 ,			, 				,    			 ,,	 ,,	 , MKn%		 ;q=0.9	   	,	,		'Z4O1k		  ,,I    ;q=1. 	 ,	  	,|
+

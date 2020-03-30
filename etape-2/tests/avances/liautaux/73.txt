@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:		, ,	,			     , ,  	,	, 	   ,	, 	,  		 		 	 zGUk, 	compress	  	
+Cookie:	 F=qep; O=2fAO9Ddu'&; eICj2=N9 	 	
+

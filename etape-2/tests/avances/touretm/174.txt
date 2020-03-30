@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset: 			 , 	  		 			,	RT	 
+Referer:  //[67A::B:A:7B:74:12.114.216.254]:38/2/-*NArt%EE9Hm=6A/x=)zv/vu_=CNg/u/wR*r%EB	 
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	7M^H2m="z-`|&%w("; kEdVTx^0*="1" 
+

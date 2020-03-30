@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Host: 		[2F:3::5:DB:89.4.248.15]:7463	  		
+Host:	 	236.9.236.54:
+Host: 	[v3F.RZ]:49		 		 
+Host:	  [vC7CD5.m]
+

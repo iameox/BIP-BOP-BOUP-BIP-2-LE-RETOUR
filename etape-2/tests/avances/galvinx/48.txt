@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:,	   ,		,,		 ,		,			   	 		 	   		 	 	Sm-XWt,  B 	    	  ,  	   , 	,		cT-S-3D-Zq  	;		  q=0	, Zwm	;  q=0.	 ,
+

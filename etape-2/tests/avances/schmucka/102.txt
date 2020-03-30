@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:  Q="fm3^d+"; K=I&; $4.="E" 
+Accept-Charset: 				   		 0JA 	;q=0		,				
+Cookie:	TgsWAs=FcCiBv2A; IHjn~TWd$V=""  
+

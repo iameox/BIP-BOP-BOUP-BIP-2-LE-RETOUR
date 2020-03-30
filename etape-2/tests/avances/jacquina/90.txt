@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:	 ,,  	 		     ,		 c;	 J	  	=  ECq; 					E	 	=	 	"q\∫"		;  	c!				 	="\˜Å\ñ="			 	     ;  	xJwklo = 	     V  ;	UGA`yxQbc=IO  	  	 ;	cNBG%~%h6 		  	="\⁄\4\À\´\ÇÅ~\a\|\Ÿ" ;	 lj0~Y.#6 	 	  		 	="«π+"; qt#="\Z" 	   , HQ	,	  	'*l4K0V3itWf ;B ="\&\Û–"   	;   		 v =   	 14l#YO#!s  			 ;arD=	"\‰";	 			5251=  "\∂©"			 ;	 B	=			  	""
+

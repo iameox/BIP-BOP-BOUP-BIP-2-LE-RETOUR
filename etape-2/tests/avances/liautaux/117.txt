@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:		 ,			  		, 	,	,	 ,	,	    	3SQW; 	U=    		 	 							 	 "\ë\("   	; kCZ5= 		  	 	 	"\¹\™8\*M\Ï" ; |nU	 =	 "¹F†\‡ò\B"   	 	;iM    		 =	  	   		 "J"	   ;	 	w'R			 =	"";  		 ^BeV	=^'*, 	, ,
+

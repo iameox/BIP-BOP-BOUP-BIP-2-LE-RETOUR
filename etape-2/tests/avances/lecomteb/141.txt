@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:  	  ytW="pLe"; q'V6="'pNt"	  	
+Cookie:		LvO=2.?c)tBku; ZY=; Ya=; BadcRK%LIc'v%%yVe=""; ~ga=""; z7="*@"; c="6"   
+

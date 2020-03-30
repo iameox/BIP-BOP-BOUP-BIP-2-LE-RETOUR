@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer: 			//[::7:4E:4559:8.218.197.245]:88/=+/%68No%34C?7!g2gp	
+Accept-Charset:tC_mY&Tbjvco   ,	  	 	   		,	 	 k!	 	 ,    	 		 	 p 	 	  	,		 	
+

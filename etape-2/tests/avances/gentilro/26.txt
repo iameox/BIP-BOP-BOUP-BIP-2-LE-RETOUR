@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: compress 		,	  |^^2xoL,  	 	 , 
+Transfer-Encoding:K 	     	,,	 _h$31a 		 ;2	 	=  !	    ;	9ZT0z="\5\s\â"  	;iGd= 		    	""		
+

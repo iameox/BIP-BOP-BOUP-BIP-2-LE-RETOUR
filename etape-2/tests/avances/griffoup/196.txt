@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:odB=
+Cookie:		 		6="A"; aL'Ch="CF7"
+

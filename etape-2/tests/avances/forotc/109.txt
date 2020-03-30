@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:				 			 //[v8A.rm]?
+Accept-Encoding:	 NGh7i		 	, 		 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset: 				 	 		4um;   		  	  q=0.	,	CdHztT	;	 	q=1  	 	 		  		
+Referer: //rbE@5.163.70.67:/3SsU0B$/%D4wxE/*Oa/zfbN/:$Js. 	
+

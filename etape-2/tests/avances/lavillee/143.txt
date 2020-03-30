@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:	 	  	
+Accept:b-/_4;q=0.		,	  
+

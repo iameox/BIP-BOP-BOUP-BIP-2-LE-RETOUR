@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:	   m&PR/P&l'XX6-
+User-Agent:`4/7 	  	((m)\’\øŒ) 6oy7/*eX7a	((\V)o\Ò()W)				$E+'~9	  		 	 
+

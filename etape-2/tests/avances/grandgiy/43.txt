@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:	 8X/I	   		;	 j=";\Bф$\Q"  		 ;	  o="ю\M-"		 			  	;N="Ф"	 				 		;*="\ѕ"  ; 6YLl2K9w5="\“9"		; 		 	  l="\що" 
+

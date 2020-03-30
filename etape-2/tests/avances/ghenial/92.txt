@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset: ,	 	 		 		, 	,		 ,   	 '8_		;q=0.1	,E,		 ,	P		 ,	 		   ^2IVn;	 q=0.
+Referer: 			KuEy://[::6:10:F:2798:254.251.205.95]/8R./%3Eu*/%63%77O-:5//*f_$y/,%FBI//IgyRu//r 
+

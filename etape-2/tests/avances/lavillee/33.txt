@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	2BfoIjA.Lc_bX="LRw"; a=P	 				
+Cookie:ilYo="di91o" 	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:[vBBC9BDAF6EBBC1DC8B4D.yO]	   
+Host: 
+

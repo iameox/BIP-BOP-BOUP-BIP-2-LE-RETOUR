@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:	,	 	 ,	^-			; 		S=""	;			FLhT33hOHDlpEGgezCWV	  ="\Ви"	  	; 	uok=	  ""	
+Cookie: 		 	 	_=3c; pQEY="~"; !R="/tIpa"; b-r9S=W
+

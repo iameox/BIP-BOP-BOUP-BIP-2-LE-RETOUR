@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: GOd/NMBpMnZ		 
+Cookie:								     	 xRk=""; *FRScJuSv-ZmQ="f"; s=">%K*f2R"; 6w7G_yh6~a="+"; _B2`o=t; yd=K5S<; iXS="U$"; k='%u{.0fkK; B+Om7=""	
+

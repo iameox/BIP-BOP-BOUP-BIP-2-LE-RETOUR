@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:E^4P ,	~;q=1.0	 	
+Accept-Charset:, 	,		SEY; 		q=1			 ,			   X#8oT	  	;q=0 ,		 	J	;	q=0.3 				
+

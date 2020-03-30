@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:   8=Y=; 2D="" 
+Cookie: 	    			 	^XUa="rA+o"; 5tBd'A3=4q+q	   	  
+

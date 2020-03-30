@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type: i*q/f
+Accept:	 7S/`I5	 ;	 	_BSB="?\ª"	;	q=0.2			 
+

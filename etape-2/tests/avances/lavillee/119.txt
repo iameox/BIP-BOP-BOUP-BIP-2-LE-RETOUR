@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:	'M&kW#!nJ&fhcB~=; AQ=	  
+Cookie:o=GA; ^=; WF7XP=hh; bo=""; p=; `=; +G=; 7EBGbC="H*"; r.PPr='; K=""	
+Cookie:mEpX-F="&@"; Mf="7rd%"	  
+

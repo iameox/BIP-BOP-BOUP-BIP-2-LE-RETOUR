@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:	 	  	 ,	,	  		 		,,	 			 		   	X-c-k-m-qB-R-G,y-iK5-G-z4W-CW-Gx 	;	  	q=0.392	 		 
+Content-Type:	  3J/y
+

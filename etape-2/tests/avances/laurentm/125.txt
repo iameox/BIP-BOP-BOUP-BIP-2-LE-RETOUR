@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Host:	   R1sv:24778203992		
+Host:[::61:54:97:2638:2.4.9.161]	 
+Transfer-Encoding:,, 	 					    	 ^  	;	 	 		  x	=	   "\I\°"   			 ;	    v' 	=			"\Àÿtù\á˜\f\È¹"	
+Transfer-Encoding:  ,Qw		;	 			 	 	  	c3Czv+N-jB|SF3L4' 		 								    =		  					 	  	  	"à"
+

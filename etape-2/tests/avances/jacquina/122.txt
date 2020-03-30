@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:	O!		 		;			 		  	u  	  =  	"•Ў\иЪ\ц\ыu\°\ё\W"	 	 		    	 			;						  k= 	 			 "љ\WpЌ\в" ; 		  			   					  	 h=  "M";Py		= "И"	;	 	 p="љф"		;		x'LG	=   	  	"ж\’\фX\&\@"			;	 	 V =""			  	 ; oo="\е\™"
+

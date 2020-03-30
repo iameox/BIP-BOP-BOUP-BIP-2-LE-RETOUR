@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	'=cD/; g4s="Zu"; 4F|j="tVKZ_Pd}GI2" 	
+

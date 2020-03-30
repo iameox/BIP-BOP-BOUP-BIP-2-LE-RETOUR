@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:	#/oKu ; 			KPGD$Mn3$B="\˜Î"   ;	~0Oblwf="¬"      
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	 	 D:3042		
+Host:[v4.YYCbn]:708140853919
+

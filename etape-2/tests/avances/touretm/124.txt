@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer: 		//[7::6B:CA:A8]/%70N%93hFO7/!fX//4t8%B3  					 		  				 	 
+

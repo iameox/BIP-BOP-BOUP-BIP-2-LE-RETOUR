@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:		c=U~_; #a7$=s
+Accept:DN/RKmq					;	Ik#W5Kao="§|\N" ; 	 BuD|Md7z="›Í\Ç"	 			;X#3mg="\q\∞!"; 	 			 F^I="⁄g@”ù"	   ;  	 		9*0ZRbUyDt="Ø{¬K\1å4“"	,    
+Cookie:	 TgiOp56zw&N=; GK-Qs=; 6-g=9O; P="I%}hqWxDyKz7S"; sl="{]~"; Oo="t9k1%.sLh"; 2PI1`Scvs`=T; ZFu=""; U-1%h*WyTaoiu3=*; U!l=; CHrQI=":-ihfu"; K=(KOh  			
+Accept:	 	 		 
+

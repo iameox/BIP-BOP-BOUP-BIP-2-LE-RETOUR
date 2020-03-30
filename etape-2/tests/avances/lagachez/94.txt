@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept:		H/TU ; e!MJ7="\ÿ\ùq";d="ªC\ñ∂"	; 	  	w2="\çâ¬"	;    ^nQIAj2dPin=6GxPJxNPAc.Vw8to  		; 		 	  				aBG="";q=0 	 ,		 ,  ,	   
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent: 	kqg8CMQVb#/HJX3.5  	  		 	  	 
+

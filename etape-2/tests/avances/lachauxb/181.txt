@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language: 		  			  , n-y-O 	 		 		   	  	;q=0.9	  	,A-nxG-pF-K-VIHBPd7		;		 q=1.0 	 			  , 		
+User-Agent:  	'm7OK/FroO  ()	.5/rXwOHX9 (\à()Õ\ç\∞F\ﬁ)	 		&/#l		 	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	  b="/h"
+Cookie:			  		4TIm-4=    		 
+

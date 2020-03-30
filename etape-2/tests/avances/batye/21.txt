@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+User-Agent:	c#/2vV^9F%			
+Cookie: a0!N'ev="!N~&T"; ~SsnIx="WY"; Fg2R="sg"; i="["; Z4W7L="."; gZdit=y; Y="LV:"; LiGb'u="_]IF"; 6E=; xm=""; WBmCll="|e"; m=
+Cookie:az#h8LT`hJ.Z="T}nvy&2V+EH-yJ'77"; L&YCzz="):xVze"; HN-BV+SDGWm=@; &Dix=[
+

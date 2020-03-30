@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:K/lG5  	;		q+7O="\Ã\µ\–\àç"		 
+

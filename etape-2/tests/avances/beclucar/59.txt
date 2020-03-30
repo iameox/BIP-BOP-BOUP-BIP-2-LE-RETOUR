@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Content-Type:  %Md6m/hVjVQ
+Content-Type: 	 mf/hZoN		 		 ; z+p="\ò\‚\æ"		
+Content-Type:Dn4hlNPXnc*/XlHuu 		     ;N="\u\„Ú\b.ü\‘\Y\Ã\#Ø"   	
+Accept-Encoding:			 	P_;q=0 		 	,5N	 ,		  	 ,	 QqSDs	, 	 	 	  ,	,A	; 	 	 	q=1 				 , 	,  		h ,rCb	;  			   q=1, 		  		 5dw8!A0,^2FsW, 
+

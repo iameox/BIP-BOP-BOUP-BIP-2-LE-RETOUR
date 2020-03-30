@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:_usE#/SxMIg		
+Cookie:    	  		 	L=aJoD|; 'sS9l_I4="^4"; ~=; &4O="V0RN<"; ~o3="~^9X"; 4%^hHaO_I3p=(H%T%; MGYV7Q8&#M=~    
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:			o`UN/7tbaNW..YI$1m	  ;	7=%N
+

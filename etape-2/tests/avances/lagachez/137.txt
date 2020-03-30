@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	 o= 
+Cookie: 			8_~6GLCh="L["; 8$=	 
+

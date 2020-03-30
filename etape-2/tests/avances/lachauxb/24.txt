@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:	r-22oiS-I-v-LLw 	  	,	Hd-V-m
+

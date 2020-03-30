@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:|~V ;	F=$; 			~  	="" 	 
+Accept-Charset:, *		;q=1 			    	 	 	 				    	 	  ,  b ,,	  ,	  		 	
+Transfer-Encoding:  	  			  qDq     ,	|d6_ 	; -Se'z	 		=		"" ;	Ap=	&SK1	;D1`mhepE			 =	    		`L$z*  ;&	  			 	=""	 	 	
+

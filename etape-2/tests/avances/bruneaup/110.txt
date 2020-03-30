@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:			[v6.8bnlF-XKOdA=] 
+Accept: ,      	 	  	,  Z/* 	,		
+Host:  [::8:C41:93.3.198.47]:655882
+

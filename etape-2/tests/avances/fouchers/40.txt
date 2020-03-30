@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Cookie:oKS+dBi$="eTnR"; Y^K= 
+Accept-Charset:		, 		 	,		  		 qiyTn9u9
+Accept-Charset:  	 Z67ZfI!P	
+Cookie:wb^Dx=; $= 		 
+Accept-Charset:,c+	  	,	fCHNS4%* 	,	  ,   		 
+

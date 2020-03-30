@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer://y%2C?7%9CF	
+Referer:	//79.152.252.241:/  	
+

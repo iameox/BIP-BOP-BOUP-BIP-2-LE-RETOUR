@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:		 		 	  	bjgk+krO/`TFZ2	   ((\ß\^\Õº\¨l\sN\8)é)
+

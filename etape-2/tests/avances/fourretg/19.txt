@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:	 ,  	 	q ;	   	 GQ_w9		=  "V " 	 ;	18rni$x|A^c	=		"\l\‘"   ;   	BB&  = "\Å"		;D$  	  		=	"\w"  	  ;l'U=  "\É\e" 	,		 			 			   		 
+Accept-Charset:,	  ,	 	    2meN4d#;   	q=1 	 	,	 		 			, xh.		,	 	  ,n	,   		,		 	 		*^	 	;q=1. 	   	  
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:%40DsBf 
+Host:	 	   	 136.250.108.10
+

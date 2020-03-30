@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:    	   Rh_=; YfkHJVtCXi=*c&I8	
+

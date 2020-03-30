@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	    	 z0&F=			 
+User-Agent: 	 	    	HT1	 (r\ä\7f\:)		 	  (^\Ú(è)(\œ\Ø\*\Ÿ\P6)(œ)\|E ) tnQE6/qzI	 	(\b)  () 	(\F\÷\()Øi)  	
+

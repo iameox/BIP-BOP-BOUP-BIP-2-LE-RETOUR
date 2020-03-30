@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:,	,	      		  	 	,			r			,-ISe ; 	 			 q=1	 ,   				  				,  |E2IM6 	 ,c1 	 ,	  ,				
+Accept-Charset:		,   , ,	 			  				 						 	 , 	|qz
+

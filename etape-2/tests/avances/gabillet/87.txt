@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:  				2b 	  		   
+Accept-Language:	,,    *;  	 q=0, TI, ,  	  J-4w		; q=0.				 	  ,	
+

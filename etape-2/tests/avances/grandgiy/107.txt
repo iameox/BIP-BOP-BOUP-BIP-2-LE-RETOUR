@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type: Ov7/xOs'J 
+Cookie:		   F="q"; aLTK!ow="_"; 8A|FwEB&w="" 
+Cookie:	'="" 
+

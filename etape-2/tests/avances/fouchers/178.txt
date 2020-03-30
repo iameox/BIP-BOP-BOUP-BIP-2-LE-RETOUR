@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:		$cU=""; B~=; 8=%S=]D; Gtsd=5n; 8SQUW=N=4w; .DVRWl=n9oQt	 
+Cookie:oFV97m&y=HAS   
+Accept-Charset:	a6 		  		 	  	,		bVdVjEg'Y&M							 		
+

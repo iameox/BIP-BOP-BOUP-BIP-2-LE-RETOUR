@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	 	  	Kl1zmzdGd$4^##I`!o="W!"  		    		     
+Cookie: 				4eq*iYKFh=dWh; V!&.=""; kjH=4sKL@; 7jF="S"; i`YF3z^ZqY="hI^mWkhyJ%&"		 	 	  			   	
+

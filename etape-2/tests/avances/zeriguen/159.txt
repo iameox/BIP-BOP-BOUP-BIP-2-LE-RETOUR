@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:		EBvT/YQg;  +o2vwd="";		g="\ннЕ";   		  a="";$=W			
+Accept-Encoding:			
+

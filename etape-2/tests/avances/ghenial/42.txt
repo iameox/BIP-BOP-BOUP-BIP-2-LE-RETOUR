@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Charset:,    ,	 	,			 ,,, 	 	 		  ,	R   	   , + ;q=0,  ,,     
+Referer: 	    
+Referer:			P:RXV=%6F.&5%EE%40n/!W/tb%63/TX;!D%4C%01)/VLf/%55Q%6BM/Jd//Ro1IT/B/		 	   
+Referer:		DJ8/bI5sh_!o/!JXdl 
+Accept-Charset:  	 	, 	  , X;q=0.		 ,  	  503oHw  		 ;		q=0.,				rQN8GJv ,q0_ 		;	 	 	 q=0 	
+

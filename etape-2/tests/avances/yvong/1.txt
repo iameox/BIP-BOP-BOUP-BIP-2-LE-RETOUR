@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:	 			 	mXk/-///op$x/&f9/L=TJ.WzWs
+Accept-Encoding: 	JAw;   			q=0.4	 
+

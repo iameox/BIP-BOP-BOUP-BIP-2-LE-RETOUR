@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:Is1f~QNKoJ51=a$YO]Pu; EDB=; xRZ=R/[gj]~; 5^=; 1=8Pv
+

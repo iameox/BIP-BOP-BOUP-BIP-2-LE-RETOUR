@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer://[::5:9237:51B4:21:245.22.1.28]://C/R/WeO%F9sn/
+Referer:   	/*//?Y 	
+Referer:				P6/?UV		  			
+

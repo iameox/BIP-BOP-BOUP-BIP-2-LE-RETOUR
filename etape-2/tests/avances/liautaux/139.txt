@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:		 	C="2D"; dktS4AOvMfU8NK="I=y"; 8nT="sx7AK/G>.^`"; G`X^TP="("; |W=""; AME=""; NAA="nb7P"; aDaR0="X]"; Q4_=XjJ.7#GSCzL; CL^feN="TnEqmK"	  			 	
+Transfer-Encoding: 		 			  		     				   	,	   	,		 ,		 		 ,,	  , 	 		   , , , 		, 	  		 ,RF~2h		;	iAz2o.c	= 	-.k, gzip			
+

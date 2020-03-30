@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Language:			 	,	,,  ,  ,		  	 , 	 , ,, 	  	 K-LN-5-zes-W 	 	 		,   	  bsijDMGP;  					q=1		,  , ,
+User-Agent: 	 	   			cFx~k/D!kql-Az&.d+KKiF 	  	V	   	
+Accept-Language: 		    ,,  		   	   ,			 D-V     ;q=1. 	,   l-x62-W-RT  		 ; 		q=0.	
+Accept-Language: av-K-Uh3a-U-yf8Jw 	,FvD	; q=1 				
+Accept-Language: 	 		 	HO-P-IM-VL-L-bXtOk-uDs-t1-v-Uoq-V3q-5;q=0.174 		,,	 		 	 CM-fVKMI	     	 , ,	dD-Ei-DSEd-4W-x , UO-T   	 ,	
+

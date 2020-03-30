@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:  		.m/P				 ;q=""	  			;L1="\ã\B"	;					I=6	 			  		 ;	OHmh'=""	 	  
+Content-Type: 			  dS/5  	 ;		&qT32uxC6="dùñKÏ\#W…"	;					odJL&="\U®b¨\ä "	;  	6="õõ\w\Œ|\&\u\˘\ö\‡"	;L21t-'m2.Sy*Ez="\@\â" 	 ;	 u=""
+

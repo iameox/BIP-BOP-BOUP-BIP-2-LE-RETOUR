@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset: 	, 		 			,	 	  	, ,			ej*Wf%r	,	    	 ALVBuUTv
+Cookie:'=T!8G@8s?; !C="YRP"; !="%SY" 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:	,,,, E,		 	 		  
+Accept-Language:	 		 	   			 	     		,BM;  	    	 		 		q=1.	,  		 a-2-TFVGLC-NRn-J
+

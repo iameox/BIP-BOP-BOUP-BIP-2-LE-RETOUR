@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:253.255.17.4:794			     
+Transfer-Encoding:		 		 	  		  	,  		    			,  	 ,,  	 , ,	, ,  			,		  		,	, 	 deflate	  		,	 FH   				 		;		 	q=&7VBRmIS  	  ;	    rmg|G^'2=		 		 		"" ,, compress
+

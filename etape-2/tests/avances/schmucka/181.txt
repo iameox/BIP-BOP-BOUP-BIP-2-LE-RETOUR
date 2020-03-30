@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:	  	,	        		 	,   z&RZK-u 	 ;  q=0.886 	 	       , 			 d|n9H;q=0.	   
+Cookie:	   	6Vgk-_%gCMR`Sme="=]f"   	 
+

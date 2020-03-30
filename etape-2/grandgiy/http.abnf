@@ -1,3 +1,4 @@
+; Regles relatives a la syntaxe HTTP
 URI = scheme ":" hier-part [ "?" query ] [ "#" fragment ]
 hier-part = "//" authority path-abempty / path-absolute / path-rootless / path-empty
 URI-reference = URI / relative-ref
@@ -7,7 +8,7 @@ relative-part = "//" authority path-abempty / path-absolute / path-noscheme / pa
 scheme = ALPHA *( ALPHA / DIGIT / "+" / "-" / "." )
 authority = [ userinfo "@" ] host2 [ ":" port ]
 userinfo = *( unreserved / pct-encoded / sub-delims / ":" )
-host2 = IP-literal / IPv4address / reg-name
+host2 = IP-literal / IPv4address / reg-name ; regle host renommee en host2 pour que le fichier soit syntaxiquement correct (il y avait conflit avec la regle Host)
 port = *DIGIT
 IP-literal = "[" ( IPv6address / IPvFuture ) "]"
 IPvFuture = "v" 1*HEXDIG "." 1*( unreserved / sub-delims / ":" )
@@ -264,6 +265,8 @@ cookie-octet = %x21 / %x23-2B / %x2D-3A / %x3C-5B / %x5D-7E
 Cookie-header = "Cookie:" OWS cookie-string OWS
 cookie-string = cookie-pair *( ";" SP cookie-pair )
 header-field = Connection-header / Content-Length-header / Content-Type-header / Cookie-header / Transfer-Encoding-header / Expect-header / Host-header / Accept-header / Accept-Charset-header / Accept-Encoding-header / Accept-Language-header / Referer-header / User-Agent-header / ( field-name ":" OWS field-value OWS )
+
+; Regles de base de l'ABNF
 ALPHA = %x41-5A / %x61-7A
 BIT = "0" / "1"
 CHAR = %x01-7F

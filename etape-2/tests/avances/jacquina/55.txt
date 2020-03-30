@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept-Charset: 	 uOhT; q=1
+Accept-Charset:4   		  , 		 		 , 			lK6PCWA~gWuH3GM ;		 q=0.7,
+Transfer-Encoding:    	  		    		 	  612c9LL								 	  	  			 	,		 	,		h*mlqs;    		Kp		 		  	 =Q;~Rb=	  	 	 	 	  ""   ;  |f9geE$D		=j~WVk*p	 	,	SfGqM#_QI; 	 ! 	  =    "\	ª" 			 	,   		6&!	 ;	  	  `SlUL%xsWzP$4P|~6G`TM  = 		  	 	"õwÊ\Z";			 	 	  bV	=	  		"ü\y" ;   7-iTQ=	"\7"	 ;	i=	""			  ,      , 	  #G  	 ;6n=  			"";BHOu| = 	""		;	aW-5*					 =  "Õ©\m"		;	F`n	=""	 	 		  ;	   	 j8T$k 			  		 		 				   ="š"  ;V 		=  	"QbX" 	; 			 		`JPszk    = "\°"				, 	'L				 ;			a	  	="\êG\å" ,	 		$O ;.D	   =	 "\ñ\û(" 		 				    ;		~fOa1!` 	= 	 	 ""	 	 ;	 -3= 		""  		; 		   $WDAa'^W%GAr ="\""  ;	HV'0wKt2=		"\,"
+Transfer-Encoding:,  ,	,, ! 			 	 	,   	!						;		 		VfnzH	 =	 "\ð\U\Ï	÷ƒ\ƒ\\û";B		    	  = 	     "\¦\†\í"		  ;	 CHEfjDd1_zfZb  		  	=	  	"Ã"			 	 , 		  			,Mxs
+Transfer-Encoding:	    	,  	,			 		 ,	,			 ,		 ,, compress  , 		iy 	  ,	 h!Lz+ 	 	  ;	 		  	8h =">—"			 ; 		 			|5.=	 "\‡" 	,yeKq ; 	gGkYM	  			 = 	 	"\×á\ý";	  hD			="ù\J\–\½ "		 	  	 ;						    	xS			=		 &rV.nRKTS&
+

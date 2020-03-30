@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer: 	!~13%AE//c/&G/o/?%0E%0Cd6%92guTj@U%A4gx0  	 	 	 
+Accept-Charset:	,,,,,  ,	 	 		 , 	,,X0dsiEV, 	  NTQ0,	 	 	l  	,	 			  	   
+

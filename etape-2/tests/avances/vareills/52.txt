@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:!F.TD0/2		  
+Accept-Language:Q-Oy-lQvMN-vQv-e; 	q=1.00,			Gy-a-dsL;		q=0.3 	, Pqd-L	 
+

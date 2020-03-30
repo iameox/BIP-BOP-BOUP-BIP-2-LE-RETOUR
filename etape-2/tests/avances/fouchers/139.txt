@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:jed1Dq;		 	    	q=1.0		 			  		   		  	  	  	
+Cookie:  	 		   		it=`.)-; ZHf0*cYD=; q=  		 	 	 
+

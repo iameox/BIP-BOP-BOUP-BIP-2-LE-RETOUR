@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:  		 	 	  	
+Referer: 	//[::E5C:9:33]:/2w//%E9%3C%A2/%B5)/Kn%BA%4D 		   					 	
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:u5K	,XG1!;Le7="¯Æ\E"	 	  	 	    			;   	  D9Ns	=  "0’"   		  		,		,AR6z0 ;  	 3Wmkg 	=		"\{"		;ab4DR 	 	 =				 iH	 ;	cdU=	Aw|7
+Host: 	[C:E::1:7:E5]:0  
+Host:	  		[::072:9:7A:2:8865:7.79.155.8] 
+

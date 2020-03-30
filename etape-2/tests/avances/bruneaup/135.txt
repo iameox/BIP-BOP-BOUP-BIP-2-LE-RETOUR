@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Host:	   	[v5BF693A737.Z] 
+

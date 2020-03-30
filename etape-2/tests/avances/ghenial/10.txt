@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:	 			//@L?gx@X			  			
+Accept-Charset:  	, 		,C9,				 ,0; 	q=0.,tX	,	 %m3jr`Um; q=0.	 ,	kp		  			      	;	q=1.,	  	
+

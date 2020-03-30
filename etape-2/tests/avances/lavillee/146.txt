@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:		uG=GWf; wkk=; qWCr5="e"; Q&dH=; Rgm5q="B" 
+

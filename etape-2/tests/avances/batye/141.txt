@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:  c*Y/5dW2uYt	()	 (ò\Q)	%4/txFg0		 ((_·Ù\¶\2);º\xëÖ\R\Ž\Ó) 5					
+Cookie:  	  	 HBq07G'1fu!'=lP; JuOfGV~X="/hQJJ?+"
+

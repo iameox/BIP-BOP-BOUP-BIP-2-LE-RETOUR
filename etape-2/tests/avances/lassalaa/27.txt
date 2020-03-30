@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	 jaUG=>a>nC/VNc; `'Vz&Uk=i/fN_Hd; sm=t; R%P="G]xq"; Y="2@e#N%xB"; N=""; s^=""; L~729%="ON_T"; iyrg=MKf{; L2Z=; JyfiqNup=47Oq; uf'Nz1="i"; U=; !!V$GCy~o=i; U=""; j6SL+=N  	        
+Cookie: 9n=YG_>?9->{)ebU`O; 9="t("; w="'f"    
+

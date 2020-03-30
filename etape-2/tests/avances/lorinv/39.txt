@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Content-Type:						c/VFB_ZA	;6="\É÷ç³\·\Å€" 		 
+Content-Type:	  sYGIo/s8 ;		 	tWcAK=""	 	;  HXg=fU		   
+Accept: 			 	  dohC'z/*		   	;		  q=0	
+Content-Type:	'y`fosxE*u/d   		  
+

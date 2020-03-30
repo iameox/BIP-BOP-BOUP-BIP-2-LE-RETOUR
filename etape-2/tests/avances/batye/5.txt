@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Cookie:	x="FnX*u=(i[tn`]U"; m="}h@EGquB)"; sbbz=HaE; UUyEp4q="58tqfY31"			  			 	 
+Cookie:	 		29%="d"	 	 	
+User-Agent: 	8 	 
+

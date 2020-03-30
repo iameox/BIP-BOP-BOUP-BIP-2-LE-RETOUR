@@ -1,3 +1,5 @@
+// ADD SUPPORT FOR COMMENTS AND PROSE-VAL
+
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
@@ -204,7 +206,7 @@ int is_digit(char c, int base) {
 }
 
 int is_vchar(char c) {
-    return 32 <= c && c <= 126;
+    return 0x21 <= c && c <= 0xFE;
 }
 
 int char_to_int(char c) {
@@ -694,11 +696,31 @@ int get_alternation(concatenation **head, char *abnf, int *index) {
     return return_value;
 }
 
+int get_comment(char *abnf, int *index) {
+    int previous_index = *index,
+        return_value = 0;
+
+    if (*(abnf + *index) != ';') return_value = -1;
+    else {
+        (*index)++;
+
+        while (is_wsp(*(abnf + *index)) || is_vchar(*(abnf + *index))) (*index)++;
+        
+        if (!is_crlf(abnf + *index)) return_value = -1;
+        else (*index) += 2;
+    }
+
+    if (return_value == -1) *index = previous_index;
+    return return_value;
+}
+
 int get_c_nl(char *abnf, int *index) {
     int return_value = 0;
 
-    if (!is_crlf(abnf + *index)) return_value = -1; // No support for comments
-    else (*index) += 2;
+    if (get_comment(abnf, index) == -1) {
+        if (!is_crlf(abnf + *index)) return_value = -1;
+        else (*index) += 2;
+    }
 
     return return_value;
 }

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:	   	  		Pri	 	PxUF/NN0UVAU ()    ((\“)\Eý)	   ()  	  (XÏ)	 (Ó)				  		    	 	(\Ó\_)		(\9¢\Ø.v)   	((ü)\"\{\Û())	 (\t) F0XA/4oI  (\T) 	
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: l="vm7"; H.F=h			  			
+

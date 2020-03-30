@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+User-Agent:   1aOO-   (()(Ô\#\~\s∂)ì7\]\…()ê\æì) 	(4\Y•¯\Y(ã)∞∞≠\3(ö\•¡\Ö\ﬂ\ù\XÙ\´))  	 	 (Í\ò\;)				cFp 	
+Accept-Language:	 				  		D-Wx-8-8XdT		    		  	 		 ,	 		 I-UctE4-X-w-x; 		q=1. ,,,  	* 	 	 			
+Accept-Language:					R   	
+Accept-Language:		   	, 		 			, y-Xp0-l-wg-v9-UOpW-G-tHw-v-F7ed-GZ-Y-MR 	,  	 d-x-oG8			    ;q=0. 	, 	   		U-t-f-U2		;			 	 	 	q=0.8		 ,    h-U-A-c-Q-M-N8-r-pK-j-t-m2-86s-6-A-XU-hH					   	,,	,,,	N ;	q=1,		*   		 			,  ,X-g-S	 		 	, 		 		 	
+Accept-Language:			,, 				 	 ,		 	 		 Tbxi-l-OXv-yc			  , , 	 	 IYSD-D7L	 	 	   ,,	,z-0-CX-umH-SU;	 	 			q=1
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Cookie:   			   	   	 49="L"; N={/>G17~Il; !H="s[d" 		 
+User-Agent:		 Y0GI/KLBY_		 (J\ê)
+Cookie:	  	lV.X=(1; uh!=""; pw%hDBI="W"   	
+Cookie: 	5~Z39I7="(Q-l|l?" 	
+

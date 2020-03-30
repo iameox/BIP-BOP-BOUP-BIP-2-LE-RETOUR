@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Language:	  ,  	,	   	 ,FCLp-eq-H-ibk-i-o-eSa1-4-ynz-1	,	 	LIQD;		 q=0, nYe	;q=1.
+

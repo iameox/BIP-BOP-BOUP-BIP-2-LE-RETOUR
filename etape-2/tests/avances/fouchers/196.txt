@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Charset: 	 		 	  i7|v+V;	  q=1 	
+

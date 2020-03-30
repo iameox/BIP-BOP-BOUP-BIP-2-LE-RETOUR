@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type:	 	x-/uyhzLtMCl	 	 ;     	   		Wflv5="ú\Þ©Ë"  	; 		  m="\Â\V\[";  		 F="P"   
+Accept: 					 
+Content-Type:	DKZr'/pX  
+

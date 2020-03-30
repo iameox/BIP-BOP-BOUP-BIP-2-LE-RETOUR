@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:		   	 	,,	 	 ,*^k72m			;		    	 	2=			 ""
+Accept-Charset: , ,  , 	 ,,,	,   ,		I 	 			;  	     		 	 	 	q=1. 	  	
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type:		$Q/cu 	;D="\·\ˆæ\Ö"			; 		 	 lhLZT64w="\¥\Ó\l"		; 	rWMV`="è\&\Ú\`Ÿ\Â\À2\	\{\;"	 
+Content-Type:  		  	 	xhV/8e%r    		 		 	   		;				   G7Ej!="Ù\ò";	8="";		 	m="\A\Í\„ƒ\]\±" 
+Content-Type: 			 	 4/u7~CjmlE;_D="\%\c\c(\7X" ; 			 	  K=""		   ; %fysL="⁄"	; JQ8=""    ;r|`%qYC%mYiv="£éÓ"	   	 		;s="H\Ê";	 2PeHZeMEaNGfgQRFgjF=lK ;1^="ñ";				3JH="\—"   	 		;  !9zV$5="Ñ\r\º\Ω\MÖ"  	 ;   	K~ky="î\–";W2-DgxA=ntk*&pCfx; h="¶{\Åf?["	
+

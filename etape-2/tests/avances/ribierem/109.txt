@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept: 	 	  A51/*	  	 		 						 ;  	X8V'KG1$6="[";q=0.	,
+Referer:	 	 /?
+Referer:	 pRjI:'18/D%EC/X%40e/m%70!%C2X%90 
+

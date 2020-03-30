@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Cookie:%A~v!w^!PuE="Ur"; p=`
+Cookie:	 		M$f*jMvw=0}s; ~cOz="="; nxR8!7=VJ; ^POe$C6BL1=; *gFNw=zr'[rzl; p="o>_8?"	 	  	
+Cookie:BrEgD=aOqWU2SX$; kNI=""; 2kW*FNx7z="T"; a=s'F:5?   
+Cookie: 1+K-zU'%=		
+Cookie:	 	  				 		jpd=7B 
+

@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Host:				    [::6:9:E6D5:4:B]	 
+Host:  	  H.:1	  		 
+Host: 	[v7.B9a]:49 
+Host:[::42:D6ED:251.140.81.4]:  	 	
+Host:	T%73c-:30 
+

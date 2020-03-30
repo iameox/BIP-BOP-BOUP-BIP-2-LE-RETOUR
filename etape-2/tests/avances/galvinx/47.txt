@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:,	,  , 	 	 ,, SGi-c-S-4-sI-g,	 N	 	,  				 	 	  		 	
+Accept-Language:  	   ,    ,		 		   	* 
+

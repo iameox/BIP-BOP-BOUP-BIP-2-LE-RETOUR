@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:	 ,,  	,  		   			 	lzr,I8%VJ   			  		  		  		  ;i 	 	="T",  	,
+Transfer-Encoding: 	 		,	  	 ,  	,		,  ,   		   ,,,x  ;		   kz-  		=		  B.	 	;	 	  		ysWc			=	"\«9" 	   ,	
+Accept-Charset:  ,	, 		,	  , 		 	 		  	, ,3I^Rf   , 	
+

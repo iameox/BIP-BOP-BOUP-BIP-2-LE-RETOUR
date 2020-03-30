@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:,	,  ,			t9uw 			 ,	Bi	;	 2`U  	= 	 	 "";  	 	     	Clt8=	 "Ú‹" ,	 gzip
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Language:	     	 ,,  W-daT-e7tb-u4C-bheb-SfV		   ;		q=0.  		,	  		 lc   	,  	  ,				 if	; q=0				  ,	 	   		
+Expect: 	 	      	 100-continue 		  	 		
+Accept-Language:		 	, , 	, 				,	  		 		 		,  	 	 , 		 ,		 	,	 ,,GY-D3-NrJ28sH-8u-dbPc-J9J-m-4-tW-AS-k-U	 	  ; q=0,, 			 ,			B-l-OB7-C-R-c-E-35E 
+

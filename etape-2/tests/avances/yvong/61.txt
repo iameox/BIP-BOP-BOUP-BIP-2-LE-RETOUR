@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Referer://v%AC@245.232.240.13?
+Referer:		 	//I%CD%2A@[4::6AD:227.100.93.76]
+Referer: //4%14)6@[4::0.255.9.3]/   
+Referer://~@4.3.36.4:?   	   	   		   
+Referer: 		 	Uze8E:Z?	
+

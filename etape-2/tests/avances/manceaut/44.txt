@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language: 	,V
+Accept-Language:		 	 	,	 	,    ,	   ,	 , 	 	,	 	  				,x-Kh 	; 		q=0.073,py 	 	;  		q=0.  	  ,	 
+

@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Charset: ,,  ,, 	 	  w+c'4  	 	, 	QYXqS'  			 	;	 q=0	 ,	, 		 		 	aLG ,		
+Accept-Charset:	 		,	 ,  	 ,  			%$3gqCZo8, 
+Cookie:zY|Nb!j8l="Z^>6~"; bX=; D8i#7!9a$$zCcnz="u"; .U1tcw=q{cF3R=W*y  		     	  
+Cookie:n1!+=""	 
+

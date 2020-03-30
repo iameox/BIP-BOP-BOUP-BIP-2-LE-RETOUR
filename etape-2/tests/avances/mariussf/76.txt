@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:		, ,	   , 	*c	 	 ;H=""		;	 		o		=  "ó\ç\¯¼\T\Í\o5\U"	;Ii+wAov=	  	 	"\’\éG\+\!";k=		"ø"	 	 	 ; 	     	6	 		 	  	    			 	=		 		9 	; 		tCd="&\³ˆ\è!Ó"	 ; 	G				  		  		= "\~"			;8 	 	 			=      G		 	;ey  		   = ""; 	9bXJ   =	   oBj.;R&++Xl	  	=			 	HN`vF	;		 	*.  ="²ñ_t\‰\&\î\?\Q";	'=Y 		,	, 				      	,,		 8;tRlKj`p$dtwtzLu!_by    =	 "·\9\]\ú", 			I , 
+Host:  	[08A::F5:8:DD:2:43.5.116.228]
+Transfer-Encoding:	,	 ,,	,  	 	 		 deflate, ,	,  iMe;	7EHX=  		"eÒƒ\j\ã2"	;	 %KRn		 	 ="" 	 	;		 	b#OW		=	 	    ""			 ;NQdKGsa	=g_xBDB1YYa;   	  qFz5Mxs` 	 =oA#a**X; 0QZy=		""  	 				 ;  ^=		 p4PG$C0;  	   	s.a!u 				 ="a\·Ñ\§\Ÿ\Œ\ú" 	;	   O	 		 =	  	"\>" 	 	 ,	  	wm   		  ; 4	 =	 	  	 	 	"©‚ñ\Vy"	   	   	 		;0~S 	=""  	  	;		 	 q%7SV!DGeO2Zt'QR#= ""		 			  	 ;iya 	   	 	="\Û" ,	 		,		     
+

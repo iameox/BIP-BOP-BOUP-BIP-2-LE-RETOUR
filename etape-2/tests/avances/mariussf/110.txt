@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding: ,	  	 ,	compress,n5vTP_bV	 ,,		 				 		  
+

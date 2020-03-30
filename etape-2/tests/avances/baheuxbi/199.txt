@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+User-Agent:		 	OK^AT 	
+User-Agent:    	 	  Nx~X90/b5  (Вец)   
+User-Agent:  	 		J`J	  
+

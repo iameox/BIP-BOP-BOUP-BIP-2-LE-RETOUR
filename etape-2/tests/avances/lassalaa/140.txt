@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	 %e$=2; w!=T!vRSG!?; 6C4i=s4}(; cL=N-; rpwXl="5xM"; SW=JqX	
+

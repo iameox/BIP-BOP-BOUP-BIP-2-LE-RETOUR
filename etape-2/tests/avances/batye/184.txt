@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+User-Agent:	  0/$Qh (\º\ƒ\ë(ç,©O))	  	 
+Cookie:	sZ=O; Oo*_`Lg=u:i5; `R="P"; 'l~D=:; m1+#lJM="Vi7nKRe+K`n=:8F"	 	 		   					
+

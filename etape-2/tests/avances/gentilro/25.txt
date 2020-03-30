@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:9g=	
+Cookie:	Bg5=P}6{=; f=""				
+

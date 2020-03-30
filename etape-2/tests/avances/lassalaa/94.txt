@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Content-Type:	Q+C&jA/AM	      	;	 	 sO'="\‰Í"
+Content-Type: 	m/0R1 ;4h="\1"
+Cookie:   		 	 v3mP`="c+0`2:"; ufn=|9z			
+

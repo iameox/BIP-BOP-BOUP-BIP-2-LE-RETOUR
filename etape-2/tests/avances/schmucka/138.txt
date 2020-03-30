@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	~Fb=""; A8Z%9JcRM=NXJ%; g8="_/M]"; OO=u1_Hy?i; '="/7dzi"; OtPMP=
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host: 	 	 ~%47-&0:9269811304 
+Host:210.0.232.239:717	   	  
+Host: 	 			[vB001AF6AFCD54C1.NGAR]	
+

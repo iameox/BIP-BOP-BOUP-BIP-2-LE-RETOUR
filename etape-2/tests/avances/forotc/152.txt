@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer: 	  	 yF:n/gwX/%74VD-/4/%58hUz/pq%79_HuT%9E%ABf5f!/%90rA?a%71CQ		  
+Accept-Encoding:   	
+Referer:jjjAe://:429//  		
+

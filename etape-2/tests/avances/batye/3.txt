@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:	 1t%2sCX="rj"	 		
+User-Agent:	 	&L6FtZ/bVW 	 	() (()›\À) iJygn/sD0rcPc  (()(\Ò€\ﬂ))	   	  
+

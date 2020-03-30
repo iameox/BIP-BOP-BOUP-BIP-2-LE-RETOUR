@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:&a/*;				q=0.40	 ,	  ,	./* 	 ;	GlqPK="\E‰L"	 	 	 	 	; 		   	  			   r`q7U`=PjZB	  	;	h="";	`D="\≠2)ä\/" ; 	 											  	B="N";			  	 	 _f='3Z6bA2#qS5nJ.		
+Cookie: tGpcvHcbUrZQ7|dz=?o; T-NrL1vI=	  
+

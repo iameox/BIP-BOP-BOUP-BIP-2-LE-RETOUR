@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:,		 	 , 			  		 	 		 	 		,	 	 , gzip 	 	,, ,		 	
+Host: 243.115.215.252	
+

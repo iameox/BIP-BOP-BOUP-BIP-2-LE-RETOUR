@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Encoding: 		
+Accept-Encoding: m			 	, 			 ,5l~0; 	q=0			  	,  
+Accept-Encoding:J!n9,  ZH%~K^d;   	q=0	, 	 	  	
+

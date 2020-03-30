@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:	 		  y=Lo*}hj&r+U; u=h?; f8O="r"; a`xGh$="B"; 1#="8"; IkCeI=""; mrh#t3+S=1(>; a^-826!h'Bu="N!dB"; z="hV).g"; J=+I
+

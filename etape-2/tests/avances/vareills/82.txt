@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:		,  	q-D-l ;q=0 			 ,				 F-ozeA-o-03DPBy5W-K	 ;   	  q=1	 	  	 , 
+Content-Type: 	 wBRY.1AI438Dmo/Tl+!EF	  	  			   	
+

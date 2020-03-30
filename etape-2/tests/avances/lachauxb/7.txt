@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+User-Agent:	  	 		  I~A~+hxC|||Q/m 			(\©ƒ()) 		(\2”(\‘)Ô)			()		 
+Accept-Language:		  		     		 	 OYL-4Z-x-9M-mF;		q=0, 		,
+Accept-Language:  		 ,	 			   		qp-fMT-C	   	 	; 	 q=0  	,M-7-qyS-QFq-Kkh8-Q	 	  
+User-Agent: !6i  	 					  	 		ie/e$n			  (\\(‚\”)(\Y²Å\‡))   (÷\°h±)		(<)   	 	(\L&(Û)v\k\Ä›\Ö­\£) (µÎ())	 		 	
+User-Agent:		 Go 	()				 	(()(\šÖ)\Ñ+(\Ç\J‡Gg-\¥"\f\=è\ö\Ññ)\x()\f)	()  	(\J\Ý(j\ÓVpþ\`)6\‘\w)	 	  			 
+

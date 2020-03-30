@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:					  	 	,		 GU4&	 			  ; 	 	 qBJ=		 "k\k–\V"	;    	 	 		   	   pj 		 	  		=			  	-id ;	$#w		=	 										  	"Û›\‘aºä"			,		 				 
+Host:					4.3.7.15:56144918346	
+

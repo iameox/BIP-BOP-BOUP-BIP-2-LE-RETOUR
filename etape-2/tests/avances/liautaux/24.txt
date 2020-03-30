@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Transfer-Encoding: 	  	9RST5 		 	    	,	,    	,
+Cookie:	xdW=i=; JJ=1'!; u`!=; vv=|; 6="}H!`-B{vT'5'4T"; JCiruKn`=oVpU:|kV5qT@; mk-=""; c!V="w'"; n8="7"
+Transfer-Encoding: ,			 	 0;i|4q 		 =	"èÄ" 	,  	   ,chunked				 	, 	 
+Cookie:  7'E5k=OwL)	
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:	 ,	,			,#b, 2cCi&RaSkRb 	 ; q=0 	 	 							 	 	 	  	 	 ,	,  	,KhD		 ,	 INSW^z`^g6BZiHBUZV`;  q=1 		 	 	,	 ,  ,  	  7e	,IiDf+Cka^*uct  			  	,	 ,  	8_   ; 	    		q=0, 			 
+Referer: 			  		 	 yILRP2Nhc9C+://[0B::1E60:02:83:4:97.3.206.40]:80 
+

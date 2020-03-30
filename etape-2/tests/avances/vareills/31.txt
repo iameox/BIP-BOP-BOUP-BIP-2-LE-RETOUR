@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:	HPh-I			;	q=1 	 	
+Accept-Language:	 	 		 		m-7-R-l-f-rhzzlC-HP-r-d-F-3	  	  	  		 ;	 		q=0.	 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:  	 			 	    	 		 
+Referer:	//[::E:9D:B:253.199.27.219]/%1B/4t/o1c%60?T%66XCbR%3Fw)%E1&8 		 
+

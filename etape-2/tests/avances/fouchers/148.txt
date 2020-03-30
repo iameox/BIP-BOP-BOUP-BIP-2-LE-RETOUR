@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:+,	fs8ryYOC.w5 	,			,	B   		;q=1, ,     C,		 	      	,  q
+Accept-Charset:	 	,	,	 ,	  	   l9a4LS8,    	9TKu 	 	,$v_	 			,,HePMr+AAa|Q      , 	    	  		  			   ,
+

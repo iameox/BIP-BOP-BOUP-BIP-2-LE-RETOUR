@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Encoding:rla      	;	q=1,	    	,
+Content-Type:	   	  	 	4-E&mq/R8*WMQd	 	;  				7="";		  	 	k'*5K="\£"; ^'fk="\µ\½ŠTá\½"	
+

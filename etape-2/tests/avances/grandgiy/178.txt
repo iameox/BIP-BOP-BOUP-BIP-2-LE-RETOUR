@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:8=2(FHMi; R="6#"; I22=	  
+

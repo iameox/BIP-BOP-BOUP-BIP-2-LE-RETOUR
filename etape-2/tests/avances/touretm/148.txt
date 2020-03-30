@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:	,, 		 ,  	 CgxQc,		p42JAT|T2t&FyIMx!&FHOV%Nz$91; 	 q=0.20 	    , Q9A 	,	%zDgK;   q=1		,  HMG6nR
+Referer:	//:0///ul%86y/r%AEk/$_f%BAe%09Kaf/l$%0F%87?J		 	
+

@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Accept-Charset:	 					 	 jSh$| ;q=0.  	 		 			 ,	 	   ,	  		 *;   q=1.000 	 ,l&9,	, 	 	c	;q=0  
+

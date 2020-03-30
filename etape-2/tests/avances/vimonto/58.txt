@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Accept:  				p/MCn; 0&oec="e"	;  	 	q=1.	 		,	 		  			  */*	 ; 		_="Í\Åô\Mk"; 5z="∞Õ¶" ;		q=0
+Host:   	[C:8:E::8:7:905A:9]	
+Host:[vF.+;'sTu]
+Host:[::0:163.207.216.1]	
+Accept: 	
+

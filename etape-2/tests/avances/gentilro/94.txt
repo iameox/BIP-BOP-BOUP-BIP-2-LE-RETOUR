@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:						  ,	   ,	,		 	,, , 		  ,,		  		,	  				,,	,,, ,  gzip 			   ,	  , 	  		  k;e6FnV 		=   "X∆" 					 	; 		z=   	""; 	        jf#*M%	 		 		 	  		  		=  ")\∞\˝'G\èµ" ; 	 5ql= 	 G5MM+V~5;De8N		="\`_r" 	  ;    		  Dff=	"\⁄\Å\≈§\íÁP" 	  ; 	  	   	i5=      	"Í7"	; 	 	m		   	 	= 		 "\ı" ;	ZR		="o"	 		;	Bb*D  = 	  	 "\*\èÉ\ï\9∆\˚\±\Æ\π\ì\TﬁK",	%D&!1O	;Wt&dD=  %4|&l;*rGeA 	  	 	= 	*5 	 	  
+

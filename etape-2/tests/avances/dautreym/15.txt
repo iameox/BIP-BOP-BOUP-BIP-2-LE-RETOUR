@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:		,,,	 compress	, 				 	    h|#			 	  		 		; yp_1=	"\™";  Ix		 		  		="\Õ\‹®\º"	 	 			;	 	 	 $=	  	  4o21	   ;Nk2P 		="§\#\C";    TUYf$ik	  ="≠\≠\/ÆÆ\>",  			,	    	  Wfy 		 	  ;E=Jrl ;c	  	="’\Ï0\ˆ\Ù\T®\ã"	;	   	 	 Msu0		 =		  	"\ˇÃ\t"			
+Host: [D3:1:1::E:D:32.95.12.254]:425
+Transfer-Encoding:,	  ,,	  			 ,  ,	,  		 ,		 	 J	 	;		 `SnMICN	 	=	~ABgYL|Hy!^o' ;	ql 	 		="˘\ˆ\•á\∏";c=		"\S‚«Ìœ"		,   	 				+!	; 	J9kO~u	 	 	 = "í\Ó0\Ú\ÿ\»"	 ; Cigl`MrMWr	 =	  "" ;LY3pN#$  =  	 	"¿o" 	 	; 			  Wn 	  	=		"\ñi"  				; 		%	=   	~T4R    	; 			  		 			`O =	   		r ;`E 	=		"ù›"  	 	 ;  	U=  			  	""   ;0pRKdG	   = 	     		 "ë ›\Õ"	;	  Tqvy	=		 "5¡\,)"; Ka44!`sleHI.FD#	   	=""	;	 	6bZVf 	 	    	="‰" 	; uq  		=		X 		  	 ,I9Rl..	  	 	 		 ,	r;    $ 	   =	 	 1				       	;9A    		 =	"\á’\FŸ"		 	; J_K	 =Kc.^R2				; vG1` 		 	 =	""		 	; 			I0% =  	 	  ""				;					&^PF		 			 	="\9"	 
+Transfer-Encoding:   Y'ghm*0  		
+Transfer-Encoding:,		  	,		 ,,J5;L'C  		=	"\ö\‚ \«ì^\s" 	 ;	    Y		 = "K\l\&∏h";  			  	 6		= 				"\p±Ú[o";    		 oDP 	 = ""	 	 ;	 rY8    		 =""  	;	 t=		"\f\ı\G";	7DwD`5  	 	="\õ{‡±\w}\…\ê"	 	;S	 	 	=	"®<5]" 	 	 	;		 	 	    	M 	=	""  			,2V&l215		    ; 	 	#26mnV		    =  "\∑Î\¿";c	  	  =		 "\]";		  V=		"\L\N"; 2W1Xhh	 =		 9hAY  	;     		SZ*			 	= 		 AHfG6tc	  ; Kw-8w	=  	 		 "\Œ"
+

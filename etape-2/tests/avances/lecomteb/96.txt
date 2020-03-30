@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:  		z_/6F	  	;Gi0="\ñ"    
+Content-Type: 	    	   	*V/l     	;t&-j6m="æ¿\ÞÇ" ;		    -="o\u\ç"	    
+

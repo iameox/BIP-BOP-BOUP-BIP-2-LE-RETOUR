@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept: 	*'/*;	  q=1
+Content-Type:P/|YZ 	;		f#4="\b\Ÿ\Ò&\å\‡\c¡"	 
+

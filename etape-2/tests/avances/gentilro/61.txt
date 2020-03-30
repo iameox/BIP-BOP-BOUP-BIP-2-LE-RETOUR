@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:	 	  ,			  	, 0;		    #nP4b	= 		 	"Ú\ı"   ;		C	     =	"ïO"  ;		TsmBQ&1h8	 			= A'v      	 ;				  	S2vy$     			 =					  ""	
+Transfer-Encoding:	 ,, ,,e	  	;	  		S=	"ì"; 		 	   r	=	 	 ""	;tgetS  	=WL  ;  #		   	  ="∏\K"				 ; $A=  	 		  "\»bÇä˙\ç", 		,		 , 		, *	 ;  W	=	"8";	8gB		 	=		"\P \ü"	    	,,
+

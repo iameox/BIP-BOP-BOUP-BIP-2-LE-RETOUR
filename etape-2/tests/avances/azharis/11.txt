@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept:					  	  	 	
+Content-Type:._0/z
+Content-Type:+zzjA14!Sy6BBlI5KG*5/R-^60FaPWb~sIb7y 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:=(B:40  	
+Host:	~%E5D 
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:	%Dyh/eao	 ;so="^¼Š\o÷uïj\¤\ \n"	; 	M="";T=""; 8NF="\Ë'";	  	 AK=""
+Accept-Encoding: 	  		  
+

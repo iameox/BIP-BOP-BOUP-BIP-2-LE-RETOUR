@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Referer://[vD.Y]/a!Z 	 	
+

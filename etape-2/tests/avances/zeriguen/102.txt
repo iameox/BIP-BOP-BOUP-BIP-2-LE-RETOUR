@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type: 8NC~eC9oM/$eT-C#x	;		#3=!mc 	  ;	i="\("
+

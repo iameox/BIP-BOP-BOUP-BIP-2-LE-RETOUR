@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: 	 		,   	 	 			, ,,	 ,				, PZh&N|X!&
+Transfer-Encoding:,   	  			 	 , 	 ,  		 	,   	   		 	chunked ,		   	+V;		 	qc	 =   		1ra	;q	 			=		"1\^“Ž\Ó" ;- ="\í"	,	   	 	  ,,		 			 		 	 L ;   		 		 			 			s0|nhQd 	  		=	 	"µ\Ÿw"		;   		Q~	="Œ"	 ,^&6EHuR;vq	="\ŠQ\‡" 
+

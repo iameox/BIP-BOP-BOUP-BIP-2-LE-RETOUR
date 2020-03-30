@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Referer:    	TzI5dS56://[6::94:234.83.155.255] 
+Accept:	 ygEaFveZXfE/*;			    q=0,	 	X/*  ;	 	rJ+a="\½\û\j\‚Ö"   	   			    	;X="" ;ve_IiCybYKo="Ä"			;j="!\Ì\ÛwÈ\J"  ;	   aiP4#%2^PK="Çæ\"\K" 		 	 	;  X+Ke^=""		;	 		  	 					S="\r\¯c";L=""	 		;  z="\çv´\ý" 	 ;-*_Zkz="\Ÿ"		; UAY="\¡\?;\Ù"; 	 	%^~a$="Ü‹" ;   IPfP="–\˜Ò\Ë" 	
+

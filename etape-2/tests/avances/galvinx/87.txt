@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:   ,   	 ,			  	 	 	   	, ,					   	,  ODI-SQ-u-X-UGH0L	 , , KK-dI-A;    	 	 		   q=1	 					,	 	
+Expect:   100-continue		
+

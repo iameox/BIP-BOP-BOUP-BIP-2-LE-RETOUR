@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Host:    		  [vF91A689AF6FA.CA4S_]:19  		
+

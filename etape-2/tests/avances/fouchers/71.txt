@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset: 	 		,	   |B#eDDZ ;q=1	 	
+Cookie: +p1=y{u&; P0*#CI&="KCDb>iBs"; GJd-+sowZDxUqyE="*"; yko=; V*&4P="w]5y_mTA:%F"; -7="%WK"; J^TBKH#="vJ"; |SzngHXZkl+MO!4-=L+G[R	     		 	
+Accept-Charset: 		 ,	 	, 					|j5C+		  ;   		  q=0  		,, 		,	  		 	,		,	MR&L	,	
+

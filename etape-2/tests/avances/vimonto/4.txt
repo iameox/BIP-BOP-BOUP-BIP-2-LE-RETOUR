@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept:		 Q/*, a/B9fg	; oi=""	  	 ;		  	  	  q=0.55	,   		,		 ,, 
+Host:  	 [3:8:47:9::A2]			 		 
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:	,  	 , 	chunked,qX		 	 ;  		kS			  =""; 	lBO	  		=		 ""	  	 		;   	b="\ò"		, m  
+Cookie:	 I=1( 		  	 	
+Transfer-Encoding:	     ,,6fD^	;oC'=""	   	 , ,  
+

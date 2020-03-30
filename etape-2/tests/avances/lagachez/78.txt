@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:HxB="+g0?j^7B'"; 0=; R^T_f="$466!I3I"; -wEi=&bUCfa1UaI6	  
+

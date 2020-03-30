@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Content-Type:     C5T/qJtC_ 	 		 	  			
+Accept:	
+

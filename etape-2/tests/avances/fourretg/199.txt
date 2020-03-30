@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Transfer-Encoding:compress   ,  	gzip		
+Accept-Charset: 		 ,, ,	,	 		  	*~U;q=0	  , qR_;	q=0		  		 	,	F 				 	;  q=1.0	,  ,sGg'X&G	   , 		 		 , 			 		
+Accept-Charset:	  	, 		H!l*oF0h1li#M9OG;   				q=1.	, 	 	
+Transfer-Encoding:			 							 , ,	u 			 	   	 	 	;		 		vo =	"\V¥"	   	     			; $!tf = 		"\þF";	hI+z+=		"9"	,, 
+

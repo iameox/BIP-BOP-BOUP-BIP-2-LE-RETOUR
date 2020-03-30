@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:j=""	
+Content-Type:			 '/*0#*dWcBBdB$TJ6			 	 		;!="\g\öðn"			
+

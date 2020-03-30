@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:		 	    	,,,	,	  ,  		,		 oS~ 	 ;  	   		q=0.6,	W0 	
+Referer: v:_V3/q/%1Cd/.6T=/!a 
+

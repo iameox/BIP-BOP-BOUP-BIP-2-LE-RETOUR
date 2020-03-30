@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Host:	[F::1]
+Accept:  		$*gm/*	 	 	 ; 	0S'v="Q\C0\«\O¦]\:\Øw",	      			*/*   ,a+^s/*  	 	;	JB="\A9#y\q7"	 		;-="\ð©"	;     H|VuH9="‚"  		; 	 	ISzTmsO="¨qÊ\iðQ"    	  	  	 ; WZs38`="\àrM]»" 	; 7="" 		 ; '3X="¸\Ñ" 	;q=1.000			 	, 	 ,,qRov*jkY/c'b*  	   		;h7TCER%WMtE`HSA="\Ó\:\°\G\9Ó\æ\˜"	 ;		H%0.3="\~\¸"		 
+Host:[C3:E665:E:E::86:54]
+Host:	 [v94C._6]:51
+Host:	   		253.223.254.150:530000 		
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:  		 	, n5*nZ	;	E		 	 	 		    =	 NhH 	;8ff5e=  "\Ë" 		;xgxi	=""
+Host:			  	 	  		  	  	 [::7:CD:A:F:83.218.255.205]:639	     	  			 		   
+Host:   243.15.6.251
+

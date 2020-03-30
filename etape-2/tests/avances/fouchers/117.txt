@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Cookie:   	 	JmsBJ=""; b="Q"
+Cookie:	p0epaPr!="Ej"
+Cookie:^!`tHa~R0ZyXj$QbjZNefH="2dMUv=s$|]"	 
+Cookie:+oRrT="${V"
+Accept-Charset:	 Mo	 	 		   		;q=0.76		  ,G  ; 		q=0.635			  ,	 	  	,   	 	, *		   
+

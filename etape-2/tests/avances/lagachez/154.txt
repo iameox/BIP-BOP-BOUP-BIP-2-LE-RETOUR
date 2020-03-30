@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	 		 G="+2v<!6=g/@"; AKO=""; lS="8j"; FK=v 					
+

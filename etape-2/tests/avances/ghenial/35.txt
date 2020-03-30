@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Accept-Charset:	     			 w	 	 ; 	 	q=0.,	  		   -TN2k4Y
+Referer://hO@[::627]:0532/@;=e%A4L%3B/M/i$/'%4DE//p.5%BB'7%3C%70LKk/ 
+Referer:	 	'%A8%3A%46%7BJg/B/Q8D&k%4A/5n_AyEN/L%37O/a
+

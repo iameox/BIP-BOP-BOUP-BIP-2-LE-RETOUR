@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:	  [vF5.Is']	 
+Host:[4::B:8:14.250.255.227] 				
+Host:		 		[v9.:s]		 
+

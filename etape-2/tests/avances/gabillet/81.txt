@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:	  ,, Gb		,  	Q-a-C; 		 	q=0.,GFu-l-E  		;  	   q=0.				
+User-Agent:							 uG_`/DRLtNvx|Y|  ()
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:  	 aV0=nP; w="e"; c=""; hc="*~W/aVQK2"; v9|="`"; 2#'w$O=""; |UopeK=""; UL5o1="l"; H=
+User-Agent: 	  		  	 G	     	((¥\a\ç\Õ)\™) 		 	 	
+

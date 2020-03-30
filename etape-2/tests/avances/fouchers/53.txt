@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie:n="d"; 3+LOW=yVis7; 1T&z1Tuw=""; -="APBw"
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+User-Agent: 		    	79D5FI/i_	 (\#()÷Û)   		(2\"\n\Z()) 	   	  		(MÉ\n)		
+Accept-Language:MPFb-RKVW-Hc,
+Accept-Language:P 	  ; 		 		  	 	q=0.		
+

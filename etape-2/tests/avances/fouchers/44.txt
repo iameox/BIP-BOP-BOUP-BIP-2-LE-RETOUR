@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset: ,,	,z3vB1			 ,	XMCp   	;   q=0	 	  ,U1%K0L2	  ,	ee8		;		q=1.,kD ,	 	, 	bU1	   	 	 
+Accept-Charset:q_k;q=0	    ,, , 			 	  , 
+

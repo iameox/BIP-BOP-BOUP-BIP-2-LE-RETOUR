@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer: 	  s://[::8771:4:D84:390E]:56125513?O$;%F5Z1p
+Referer:	 	 en0Wu:/t%BE)S4rD7%E9v%53!//AVfsjh~U0+%9A/  	
+Accept:					
+

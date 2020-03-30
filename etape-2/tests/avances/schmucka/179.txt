@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Charset:	 	zP-StNDwf*V22Pv  				,xn_2B$Wc7U 	 	 ;	 		q=1., 	rM4y	 ;q=1
+Accept-Charset:    ,,	 	 ,	  	 	 	 	 	,  , 	q    , 	 ,	      		 	 JvG$  		
+

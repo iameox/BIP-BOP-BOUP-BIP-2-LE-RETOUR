@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Accept-Language:   	t-C;	    	q=1.0 , 			      			 					 AGfN-Iu-rK	 	 ,	,, UAxyL-w		 ,	, mCa-SSNL-K	;   q=1 		
+Accept-Language:, 			 			 ys 	;  q=0,	EGwz 	   	;	  q=0. 	  		 	
+

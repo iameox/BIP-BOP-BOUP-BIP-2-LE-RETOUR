@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:	 ,	, 	T!2AV_Ok`O 		;			   		#IoVKyA=	 "",chunked	  ,		 `f; 	wz-urR    		="zº"				 	; vWxr	 	     ="" 	 ;	 			 ki!Lx  =    					 				"\ã\q’€"					, 			,	 				 ,	 	 , 	 	 			
+Accept-Charset:  		 	 	   	   	s	; 				 q=0 	 	,	  	   		7wJy$	 ,	,
+Accept-Charset: ,,	  ,*  	  	 
+Transfer-Encoding:		 		,,		,,	,,,		 		 	   ,  	 , 	  	, 		 			 		 	,	J	;  G0W=			 		 			 	  	"=\_\>\S\‰w1­\ÏÏ\y_"
+Transfer-Encoding: 				, 					   		,			  	,,, 	  _	  ,,'5zCrWzVR3TF7 ,				  	 chunked		
+

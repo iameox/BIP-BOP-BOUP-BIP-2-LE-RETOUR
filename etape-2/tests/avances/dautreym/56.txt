@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Host:	[::CD:EAC9:B1DF:A:D:7]:2144483	
+

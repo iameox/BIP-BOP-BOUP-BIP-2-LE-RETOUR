@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+User-Agent:	  2aEg_vcz!micN/1  	 	  ()  (\šc\L)		
+

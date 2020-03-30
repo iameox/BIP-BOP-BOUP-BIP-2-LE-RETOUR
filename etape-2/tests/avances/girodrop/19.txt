@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Referer:   	//t:7//%D7x/%8Dcck:n/GG%CE*d7,%F1tZ%D1gc;/SZ
+Referer:kd:/	  							     	   	
+Referer:	H:/7%36	  		
+

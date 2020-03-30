@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	 		 			125.0.1.253	
+Host:	[vA.eKD(u4]: 	   
+

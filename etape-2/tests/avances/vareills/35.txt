@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:zbld/0YR	 	  				 ; b=#	;oH5%6v1N0Rot="\0"	
+

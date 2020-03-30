@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Charset:   ,,, ,, ,,	,   		, 	 , 		,  %rt   ;  	  	   q=0. 		
+Transfer-Encoding:,	,  	,			 		BviP'qdQ   ;	1 	 	   	 =	"\£\Æ" ; 		R="\ M€…" ; 	 			 Z			 	= "" 	    ; ac="l\q\O\5"	 	     	  	 	  	;.qWLtFi  	= 	"\V\’" 	  		 		;EVsne=		*lfM|r.MA3 ;	 Gd+ =  "\½\Æ\>ì£\S"		 , 	   	 	  , 			
+Transfer-Encoding:		 	 	,D   	 	; 8_bTv 	 	="\á" 	 	   						;Q	=	R&Oio~
+Accept-Charset:		     ,  	 L  ,	LF;  		   	   q=0   	,   , 		,pg$_vJb;q=1 	,Fk	 		     ,_q1$6,	,	 		 	2;q=1,		 ,	  
+

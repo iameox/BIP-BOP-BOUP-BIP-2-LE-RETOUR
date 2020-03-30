@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:		 	M	 	   		 	;	P5se="$\-\3\“ù\∆\v\xﬂ\8\≤\‘" 			  ;rScnO'e	 	 ="Ì" 	 	;l+UuA 	 	 		="Å\ÿ\Ñ"	 		 	
+Accept-Charset:TRH  			; 	q=0,^C~tBW 	;   q=0 	 			 ,	    W		 				   	 , p,		 	h;		 		q=1.0		 	  	 	, ,	u,	 				 ,		 					
+Transfer-Encoding:    					 	D63#taF		 ;    		 	 oiud^FA9KM=	"ºß‘\f\î\0\|\:\PΩ\¶\ﬂ\^\óú£"   ;V_9zc= 	"\á"; 			 	 ltmoa =    	   "R\m˙Á" 	 ;		            	4= 				 "\zQ\Â"		;B7			 	 =X#';7rQO%UBfQ =	  "" 			  ,		n 	  	   ;.	 	=	 		"Nî";ge$c=			""	;	gYI=	   		  	"" 	  ;ECEdwp=  	"º\∑" 		 ;_MOi =St7N'cPaD		 ;		7			    			=  		   	  "∑˛\ﬁ\S\Ë"      ;			p|VVED+pfI	 		= Y^X 	 ;z 	  =	 	"‰Æ\l" 	   		    	 	 ;L#bRjEgX  			=		 ""				 	  	;		 	  	  Cu9.="ø"  ;    	  is =	".ˇ\„\¥÷¬∏";z			  	 		=  "" 				 	;				 	b^agEdS=  	"%\t\ë\˚\¸X\á\_\‘"; E 		   	 	  =	 "p\9"	, , ,	  ,
+Transfer-Encoding:	   	,				 |N5HX	;		5   	 		=	   "\û\¢ƒ"		;		'%ST						 =	 "\Äù0\Fg"	; 	 YqdDm	 =""	  	 ;		K%cyqwJbzGHO#' 	 =	"z#ôÿ" 					  	;		 VuX`tuR="5†ˇQ"				 ; 	*sYx 	= 	 "\Œ\¬\I Á\ê\ç \^\∫\V\”\ç∂" 		;3tIBqv2zj'oyiXVr=				 "–" ,	 		 	, $6  ;r+2`	 	 = W5 ; 4 =		  ""	,  , 	 	,					yf	;$&$= c!5	  	 	 		;G	  	  						 	   	  		   			=	 ""				 				 ;   		 	 R1z9#HlO&FPkc`g		     =	"\Ï"	;   	  	wbwYW'N~99!Yz|!= 	 "\¢\3\+”\ºø7µ";%	   	 	="\y\-";	!    	 	 	=  	"" 	,	   ,	 	
+Accept-Charset:    gydy3L6soU%u7	    		
+

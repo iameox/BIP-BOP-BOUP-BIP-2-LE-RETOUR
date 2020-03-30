@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	6.144.249.246
+Transfer-Encoding:		, tC&lC_o_`	;	 	O%=		"\ç\∆\–";'RNbdH=	35930LPXl	  	;ofUv		=		 	 "Ç";Fur	=     "\˙\≈\‘\≥."  ;	  		 	   t="t\“\’"   ;H#n		=	  "\+jÖ;è*" 	  			,  		S9SMY  	 ;6    =	"Vú\B\n\~\‹\”\◊"			,deflate	 	  		  ,X-aXT_; 	$ey 		="Ú\G";	.s-u=			    			 "\4\é\‘\à"	 				;.N1^1S		="Â\i["	;    	   jB	=		"\8" 	;  	  	    			 	 	   u$f   = 	 			 	 "Ë"   ; 	8~6	=  "\¬ÏZ´zvX" 						 	;			~FahgK$  	 =   "\<Ë—" 	 	  ,     M		  			,	 			,   QfT.9o4					,  ao,		 		gzip   	 			,,	 	 		  		  b		;ar$IDs	=	  					 "(" 		;QqYsaW29		 =		 				 	 "\(\GC\j\â"	 		  ;		V="°" ; L7=  "\ÉÍ," 		  				 		 		;		 6 =	 A		   	;lW! =""			 , 		,  	    	 	
+

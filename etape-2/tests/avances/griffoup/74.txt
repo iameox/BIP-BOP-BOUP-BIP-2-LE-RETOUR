@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Cookie: 	  PRgj4="oKDt9is"; ~^=Jw   	  		 	
+

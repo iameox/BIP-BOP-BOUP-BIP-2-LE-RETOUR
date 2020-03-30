@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Host:  			[v28.Xr0]:	 
+Host:	    		[::7:2:B:5:F:94.201.205.231]:   
+Transfer-Encoding:, 		 ,  ,	 	,   	 	 	,		 			,	,r~gzDfv;	  qXx*v1$	 		= 	  H;   		OG="\i"  ;$c=	 "" 	      ;		 VcIO= "\ò÷\;\‚\úŒ\’\‰@\?\¶¡"	;eyAD650=   	"\n\A»\†t\ˆ\È"	 		 
+Host: 	214.237.249.0
+

@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	 	  					r%F6Nku:	
+Host:	 [v5.PLRUs$*nE]:3
+

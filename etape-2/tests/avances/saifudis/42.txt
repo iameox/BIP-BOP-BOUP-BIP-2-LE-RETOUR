@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Host:  [v98EDD.,I]:16	  
+Host: 	 	  [v619.TCWEbqT] 	  			 				
+Host: 	  	[901F::66DD:1:2:16:233.9.143.238]	 	
+Host:[v00D.F&jAeRhM'_+d_A]:5	 	
+Host:	[v7C.ST]	
+

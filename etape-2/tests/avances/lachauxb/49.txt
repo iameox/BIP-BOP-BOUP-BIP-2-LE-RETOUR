@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+User-Agent:Ri.r/1vHy-~ 	 	(f¥2)	()	
+Accept-Language:LbS-j-gtdz-g-5-3JdbM	;	q=0, X,,ayY-v-L-Ce-0-4Vqc-2-3-e  		 ;q=0.6	 	 ,zd-p9-XbMK-vW-ZNy-D  ;	q=0.	 ,	,,BsYi-kn9M-WiZ52C0-8-o-HK-Hlkl-j-a  	  	  ;q=1.0    			  , 	    	,    			   		j-e ; q=0  ,	   	  	,	g-w-2-17  	
+Accept-Language:	, ,				   				 W-T	   ;q=1.  , 
+Accept-Language: 	       	 ,	t-9Z-WL-rVu-J-yjZZ-la 	;q=0		   
+Accept-Language:,, 	,	 	 LI-E
+

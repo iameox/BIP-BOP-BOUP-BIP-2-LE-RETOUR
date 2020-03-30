@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Content-Type:		  Ns1/k7iJ	;G="æ‚"	 ;  L=$lj9 	 ;%aDv="è\×SG" ;   Z.rhZ=7E04-			;				 	 y="\³Œ„\l";   U="Ýé"	 		;  	D="" 		; 		l~="—"    ;	YM="\“\_"	 		
+

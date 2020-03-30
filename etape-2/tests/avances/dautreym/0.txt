@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	 p:3097	   			    	 			 
+Transfer-Encoding:		   ,,	 ,		  	 			 	,			  R5aiE		 	; 	SgTUWvQ9F		 		 		 =  "\F"				 	   ; 	 	x		 		 		 =		 "˜BÂ\Á"  				 ;r5	 		="<\\:\E" 	  	;	 EpE	=""		  ;		vH	= 	  ""	  		 	;  	mFy     		  =  "\U\Á•c=\S\a"	  	
+

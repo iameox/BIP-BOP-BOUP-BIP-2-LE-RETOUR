@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie: 	 	SgiA="i4"; Xcp4="^"; SL="9*b"; F-IF+9U="E"; w#RLq1=f; _="h"; RJE="Ig6St"; #=ms}xC&TU; !k="=@Q"; %TH=""; y.'=g3H; VDqp=wq; 0nDCX~qr`S=|lP[=8@w'; !kP="&}K"; $bDAyaIUK=gb<*?w7; `TwN8h0fielf~%I="{3"; 4-B0nhw="Iro["; _a=; lZ=VH?JMb-(0X	 
+Accept:				
+

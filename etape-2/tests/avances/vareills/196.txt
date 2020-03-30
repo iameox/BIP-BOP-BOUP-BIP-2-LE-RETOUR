@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Accept-Language:J-kj-S-njUK1-E     ,		, 	 	    	 		 ,	 		 y-W-6	 		 ,		 w ,	 ,  ,	  vn-lZb-Jf-q-ec6V-sn  ; 	 	q=1.000   	 ,	 			,	 	 	 , 	
+Accept-Language:	,	    ,	 ,	 ,	 ,, 	,	 	 			 			,  	 F;		q=0.	 
+Accept-Language: 	 	 	  	, 	 		  ,				 			  				,M-KK2-7bM,	 sl-R-Xm-mqM9pV		  		 ;		  	 	 q=1.00		  ,,	   	 	 Ujih 	,	KJN-CGw-p-Aq-a , 	 		,  		 	,LyVT-wO7-HIc-0TW0,	
+Content-Type:				   rm/QK
+

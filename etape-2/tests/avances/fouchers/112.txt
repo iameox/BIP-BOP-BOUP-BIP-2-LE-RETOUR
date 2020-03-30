@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Cookie:    x_7mE=9ox; ^I=3Q
+Cookie: rqI6=->  	
+
