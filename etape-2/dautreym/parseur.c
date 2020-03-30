@@ -87,8 +87,9 @@ int parseur_ligne_1(char *ligne, int taille_ligne, char *mots[], int tailles_des
 	int to_return_request;
 	if(taille_ligne >= 11)
 	{
-		printf("\n Début de la comparaison... \n\n");
+		printf("\n Début de la comparaison de status_line... \n\n");
 		to_return_status = (is_status_line(ligne,mots,tailles_des_mots));
+		printf("\n Début de la comparaison de request_line... \n\n");
 		to_return_request = (is_request_line(ligne,mots,tailles_des_mots));
 		to_return = (to_return_status || to_return_request);
 		if (to_return_request) printf("\n C'est une request_line !!\n\n");
@@ -182,9 +183,12 @@ int parseur_ligne_2(char *ligne, int taille_ligne, char *mots[], int tailles_des
 int main(void)
 {
 	//char requete[500] = "GET / HTTP/1.1\nUser-Agent: Wget/1.16 (linux-gnu)\nAccept: */*\nHost: www.google.com\nConnection: Keep-Alive\0";
-	char requete[500] = "POST /abc?language=fr HTTP/1.1\nHost: www.google.com\n";
+	//char requete[500] = "POST /abc?language=fr HTTP/1.1\nHost: www.google.com\n";
 	// "POST /abc/def?language=fr HTTP/1.1\n"
 	//char requete[500] = "HTTP/1.1 / HTTP/1.1\n";
+
+	//char requete[500] = "GET / HTTP/1.0\nHost:221.7.122.6\n";
+	char requete[500] = "GET / HTTP/1.0\nHost: [6:1:E4BA:3:2:E4:222.155.17.250]\n";
 
 	int nombre_de_lignes = compter_nombre_de_lignes(requete);
 	int nombre_de_mots;
@@ -219,7 +223,12 @@ int main(void)
 	int resultat = parseur_ligne_1(lignes[0], tailles_des_lignes[0], mots[0], tailles_des_mots[0]);
 	int resultat_2 = parseur_ligne_2(lignes[1], tailles_des_lignes[1], mots[1], tailles_des_mots[1]);
 
-	printf("\n\n\n\n\n\n\n\n\n\n FIN DU CHARGEMENT . AFFICHAGE ... %d %d \n\n\n\n\n\n",resultat,resultat_2);
+	printf("\n\n\n\n\n\n\n\n\n\n FIN DU CHARGEMENT . AFFICHAGE ... \n\n\n\n\n\n");
+	printf(" Start line valide : %d \n\n",resultat);
+	printf(" Host Header valide : %d \n\n",resultat_2);
+
+	if (resultat && resultat_2) printf("\n\n Message HTTP valide. \n\n\n\n\n\n");
+	else printf("\n\n Message HTTP invalide. \n\n\n\n\n\n");
 
 	int index_mots;
 	for (index = 0; index < nombre_de_lignes; index++)
@@ -236,7 +245,8 @@ int main(void)
 	}
 
 
-	printf("\n\n It works !! \n\n");
+	printf("\n\n It works !! ET %d %d \n\n", 0x61 == 0X61, 0x3A == 0x3a);
+	printf("\n\n ATTENTION !!!!!!!!!!!!! \n\n DOUBLER LE NOMBRE DE COMPARAISONS POUR RENDRE LE CODE CASE-INSENSITIVE !!!!!!!! \n (cf messages épinglés) \n RAJOUTER AUSSI L'OPTION PORT POUR LE HOST HEADER !!!!! \n\n");
 	//printf("\n\n %d %d %d %d \n\n", ((int) -2 < (int) -3), ((int) -2 < (int) -1), ((int) (-2) < (int) 1), ((int) -2 < (int) 257));
 /*
 	char test[3]; char test_advanced[4];

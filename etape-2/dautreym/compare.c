@@ -82,7 +82,10 @@ int is_absolute_path(char *characters)
         {
             //printf("\n\n Comparaison dans le if du segment %s7\n\n",segment);
             /* Si le absolute-path n'est qu'un / ou se termina par un /, il est valide */
-            if (segment[0] == '\0') to_return = 1;
+            if (segment[0] == '\0')
+            {
+                to_return = 1;
+            }
             /* Sinon on regarde si le segment entre les / est valide */
             else
             {
@@ -125,11 +128,13 @@ int is_absolute_path(char *characters)
         }
         index_last_slash = index_slash;
         index_slash = index_slash + index - 1;
+        /* Si le segment n'est que /, on sort volontairement de la boucle infinie */
+        if (index == 1) index_slash++;
         //printf("\n Index last slash : %d \n Index slash : %d \n Index : %d \n\n",index_last_slash,index_slash,index);
     }
 
-    if (to_return == 0) printf("\n Fin de la comparaison. Ce n'est pas un absolute-path valide. \n\n");
-    //else printf("\n Fin de la comparaison. C'est un absolute path valide!! \n\n");
+    if (to_return == 0) printf("\n %s n'est pas un absolute-path valide. \n\n",characters);
+    //else printf("\n %s est un absolute path valide!! \n\n",characters);
     return to_return;
 }
 
@@ -200,7 +205,8 @@ int is_dquote(char character)
 
 int is_hexdig(char character)
 {
-    return ((is_digit(character)) || (0x61 <= character && character <= 0x66));
+    /* 0x41 à 0x46 pour majuscules (un hexdig peut être une lettre de A à F inclues), 0x61 à 0x66 sinon */
+    return ((is_digit(character)) || (0x41 <= character && character <= 0x46));
 }
 
 
@@ -210,7 +216,51 @@ int is_hexdig(char character)
 /*      MAIS il y a une différence entre un Host et un host car on peut avoir Host = host : port */
 int is_host(char *characters)
 {
-    return ((is_ip_literal(characters)) || (is_ipvquatre_adress(characters)) || (is_reg_name(characters)));
+    int to_return = 0;
+
+    int is_ip_literal_ok;
+    int is_ipvquatre_adress_ok;
+    int is_reg_name_ok;
+
+    int index = 0;
+    int index_last_deux_points = 0;
+
+    char tmp[strlen(characters) + 1];
+    tmp[strlen(characters)] = '\0';
+
+    is_ip_literal_ok = is_ip_literal(characters);
+    //printf("\n Is_IP_literal_adress ok : %d \n\n",is_ip_literal_ok);
+    if (!is_ip_literal_ok) is_ipvquatre_adress_ok = is_ipvquatre_adress(characters);
+    //printf("\n Is_IPv4_adress ok : %d \n\n",is_ipvquatre_adress_ok);
+    if (!is_ip_literal_ok && !is_ipvquatre_adress_ok) is_reg_name_ok = is_reg_name(characters);
+    //printf("\n Is_reg_name ok : %d \n\n",is_reg_name_ok);
+
+    to_return = (is_ip_literal_ok || is_ipvquatre_adress_ok || is_reg_name_ok);
+
+    if(to_return == 0)
+    {
+        while (characters[index] != '\0')
+        {
+            while(characters[index] != '\0' && characters[index] != 0x3A) index++;
+            if (characters[index] == 0x3A)
+            {
+                index_last_deux_points = index;
+                index++;
+            }
+        }
+
+        for (index = 0; index < index_last_deux_points; index++) tmp[index] = characters[index];
+        is_ip_literal_ok = is_ip_literal(tmp);
+        //printf("\n Is_IP_literal_adress ok : %d \n\n",is_ip_literal_ok);
+        if (!is_ip_literal_ok) is_ipvquatre_adress_ok = is_ipvquatre_adress(tmp);
+        //printf("\n Is_IPv4_adress ok : %d \n\n",is_ipvquatre_adress_ok);
+        if (!is_ip_literal_ok && !is_ipvquatre_adress_ok) is_reg_name_ok = is_reg_name(tmp);
+        //printf("\n Is_reg_name ok : %d \n\n",is_reg_name_ok);
+    
+        to_return = ((is_ip_literal_ok || is_ipvquatre_adress_ok || is_reg_name_ok) && is_port(characters + index_last_deux_points + 1));
+    }
+
+    return to_return;
 }
 
 /* Dans cette implémentation, on ne se sert pas de la fonction is_ows(char *characters)  -_-'  */
@@ -224,7 +274,7 @@ int is_host_header(char *characters)
     int index_host_beginning = 6;
     int index_host_ending = 6;
 
-    //printf("\n %s de taille %lu \n\n",characters,strlen(characters));
+    //printf("\n Regardons si %s de taille %lu est un Host Header valide. \n\n",characters,strlen(characters));
 
     /* Il faut que le host header commence au minimum par Host: */
     if (strlen(characters) >= 5 && characters[0] == 0x48 && characters[1] == 0x6F && characters[2] == 0x73 && characters[3] == 0x74 && characters[4] == 0x3A)
@@ -249,11 +299,11 @@ int is_host_header(char *characters)
         /* index peut aller jusqu'à index_host_ending - index_host_opening - 1 */
         for (index = index_host_beginning; index < index_host_ending; index++) tmp[index - index_host_beginning] = characters[index];
 
-        //printf("\n Appel à is_host... \n\n");
+        //printf("\n Appel à is_host avec la chaine %s. \n\n",tmp);
         is_host_ok = is_host(tmp);
         to_return = (is_host_ok && is_end_ok);
         if (is_host_ok == 0) printf("\n %s n'est pas un Host valide. \n\n",tmp);
-        else if (is_end_ok == 0) printf("\n Fin invalide. \n\n");
+        //else if (is_end_ok == 0) printf("\n Fin invalide. \n\n");
     }
     //else printf("\n %d %d %d %d %d %d \n\n\n\n", strlen(characters) >= 5, characters[0] == 0x48, characters[1] == 0x6F, characters[2] == 0x73, characters[3] == 0x74, characters[4] == 0x3A);
 
@@ -272,10 +322,12 @@ int is_hseize(char *characters)
         for (index = 0; index < strlen(characters); index++)
         {
             to_return_tmp *= is_hexdig(characters[index]);
+            //if (! is_hexdig(characters[index])) printf("\n %c n'est pas un hexdig valide.\n\n",characters[index]);
         }
         to_return = to_return_tmp;
     }
 
+    if (to_return == 0) printf("\n %s n'est pas un hseize valide. \n\n",characters);
     return to_return;
 }
 
@@ -300,7 +352,7 @@ int is_http_version(char *characters)
         to_return = (characters[0] == 'H' && characters[1] == 'T' && characters[2] == 'T' && characters[3] == 'P' && characters[4] == '/' && is_digit(characters[5]) && characters[6] == '.' && is_digit(characters[7]));
     }
 
-    if(to_return == 0) printf("\n Fin de la comparaison. Ce n'est pas une http-version valide. \n\n");
+    if(to_return == 0) printf("\n %s n'est pas une http-version valide. \n\n",characters);
     return to_return;
 }
 
@@ -309,21 +361,34 @@ int is_http_version(char *characters)
 int is_ip_literal(char *characters)
 {
     int to_return = 0;
+    int is_ipvsix_adress_ok;
+    int is_ipv_future_adress_ok;
+
     int index = 0;
     int index_tmp;
-    char tmp[strlen(characters) - 1];
+    char tmp[strlen(characters) -2 +1];
+
+    //printf("\n Evaluons si %s est une adresse IP littérale valide. \n\n",characters);
 
     /* la première condition certifie que strlen(characters) >= 1 pour pouvoir effectuer la 2eme comparaison */
     /* la deuxième condition certifie que strlen(characters) >= 2 pour pouvoir effectuer la boucle for*/
+    /* Si le premier caractère est un [ et le dernier caractère est un ] */
     if (characters[index] == 0x5B && characters[strlen(characters)-1] == 0x5D)
     {
-        for (index_tmp = 1; index_tmp < strlen(characters)-2 ; index_tmp++) tmp[index_tmp-1] = characters[index_tmp];
+        for (index_tmp = 1; index_tmp < strlen(characters)-1 ; index_tmp++) tmp[index_tmp-1] = characters[index_tmp];
+        tmp[strlen(characters) - 2] = '\0';
 
+        //printf("\n Evaluons si %s est une adresse IPv6 ou une adresse IPvFuture valide. \n\n",tmp);
         /* Si tmp continet un nombre de char strictment inférieur à 2, to_return = 0 instantanément */
-        to_return = (is_ipvsix_adress(tmp) || is_ipv_future_adress(tmp));
+        is_ipvsix_adress_ok = is_ipvsix_adress(tmp);
+        //printf("\n Is_IPv6 adress valide : %d \n\n",is_ipvsix_adress_ok);
+        is_ipv_future_adress_ok = is_ipv_future_adress(tmp);
+        //printf("\n Is_IPvFuture adress valide : %d \n\n",is_ipv_future_adress_ok);
+        to_return = (is_ipvsix_adress_ok || is_ipv_future_adress_ok);
     }
 
     if (to_return == 0) printf("\n %s n'est pas une adresse IP littérale valide. \n\n",characters);
+    //else printf("\n %s est une adresse IP littérale valide. \n\n",characters);
     return to_return;
 }
 
@@ -335,6 +400,8 @@ int is_ipv_future_adress(char *characters)
     int to_return_tmp = 1;
     int index = 1;
     
+    //printf("\n Vérifions si %s est une adresse IP futuriste valide. \n\n",characters);
+
     /* certifie que l'on a bien au moins un hexdig et au moins un ( unreserved / sub-delims / ":" ) */
     /* certifie également que la chaine n'est pas juste '\0' */
     if(strlen(characters) >= 4 && characters[0] == 'v')
@@ -356,6 +423,7 @@ int is_ipv_future_adress(char *characters)
         to_return = to_return_tmp;
     }
 
+    if (to_return == 0) printf("\n %s n'est pas une adresse IPvFuture valide. \n\n",characters);
     return to_return;
 }
 
@@ -375,7 +443,7 @@ int is_ipvquatre_adress(char *characters)
 
     //printf("\n Testons si %s est une adresse IPv4 valide. \n\n",characters);
 
-    if (7 <= strlen(characters) && strlen(characters) <= 15)
+    if (characters[0] != '\0' && 7 <= strlen(characters) && strlen(characters) <= 15)
     {
         for (index_dev_octet = 0; index_dev_octet < 4; index_dev_octet++)
         {
@@ -448,13 +516,29 @@ int is_ipvsix_adress_first_case(char *characters, int nb_deux_points_expected, i
     char lstrentedeux_tmp[16];
     for (index_reset = 0; index_reset <= 15; index_reset++) lstrentedeux_tmp[index_reset] = '\0';
 
+    //if (option == 0) printf("\n Vérifions que %s est une adresse IPv6 valide avec %d : expected et se termine par un ls_trentedeux \n\n",characters,nb_deux_points_expected);
+    //else if (option == 1) printf("\n Vérifions que %s est une adresse IPv6 valide avec %d : expected et se termine par un : de plus que expected. \n\n",characters,nb_deux_points_expected);
+    //else printf("\n Ne vérifions rien ! \n\n");
+
     while (characters[index] != '\0' && nb_deux_points <= nb_deux_points_expected)
     {
-        while (characters[index] != '\0' && characters[index] != 0x3A)
+        if (nb_deux_points < nb_deux_points_expected)
         {
-            hseize_tmp[index_tmp] = characters[index];
-            index++;
-            index_tmp++;
+            while (characters[index] != '\0' && characters[index] != 0x3A)
+            {
+                hseize_tmp[index_tmp] = characters[index];
+                index++;
+                index_tmp++;
+            }
+        }
+        else
+        {
+            while (characters[index] != '\0' && characters[index] != 0x3A)
+            {
+                lstrentedeux_tmp[index_tmp] = characters[index];
+                index++;
+                index_tmp++;
+            }
         }
         /* Quatre possibilités :
             - La boucle s'arrête parce que '\0' est attteint et nb_deux_points != nb_deux_points_expected :
@@ -473,12 +557,20 @@ int is_ipvsix_adress_first_case(char *characters, int nb_deux_points_expected, i
         if (characters[index] == '\0' && nb_deux_points != nb_deux_points_expected) to_return_tmp = 0;
         else if (characters[index] == '\0' && nb_deux_points == nb_deux_points_expected)
         {
-            if (option == 0) to_return_tmp *= is_lstrentedeux(lstrentedeux_tmp);
-            else to_return_tmp *= (lstrentedeux_tmp[0] == ':' && lstrentedeux_tmp[1] == '\0');
+            //printf("\n La fin de la chaine a été atteinte et %d == %d et option = %d et to_return_tmp = %d \n\n",nb_deux_points,nb_deux_points_expected,option,to_return_tmp);
+            if (option == 0)
+            {
+                //printf("\n Vérifions si %s (%s) est un ls_trentedeux valide. \n\n",lstrentedeux_tmp,characters + index - index_tmp);
+                to_return_tmp *= is_lstrentedeux(lstrentedeux_tmp);
+                //if(to_return_tmp != 0) printf("\n C'était un ls_trentedeux valide !! Il faut sortir de la boucle !! \n\n");
+            }
+            else to_return_tmp *= (lstrentedeux_tmp[0] == 0x3A && lstrentedeux_tmp[1] == '\0');
+            nb_deux_points++; /* Pour sortir de la boucle */
         }
-        else if (characters[index] == ':' && nb_deux_points != nb_deux_points_expected)
+        else if (characters[index] == 0x3A && nb_deux_points != nb_deux_points_expected)
         {
             nb_deux_points++;
+            //printf("\n On a désormais trouvé %d : \n\n",nb_deux_points);
             to_return_tmp *= is_hseize(hseize_tmp);
             for (index_reset = 0; index_reset < 4; index_reset++) hseize_tmp[index_reset] = '\0';
             index++;
@@ -486,11 +578,15 @@ int is_ipvsix_adress_first_case(char *characters, int nb_deux_points_expected, i
         }
         else /* Si characters[index] == ':' && nb_deux_points == nb_deux_points_expected */
         {
+            //printf("\n On a trouvé un : et on en avait déjà trouvé %d. \n\n",nb_deux_points);
+            nb_deux_points++;
             for (index_tmp = 0; index_tmp < strlen(characters) - index; index_tmp++) lstrentedeux_tmp[index_tmp] = characters[index + index_tmp];
             if (option == 0) to_return_tmp *= is_lstrentedeux(lstrentedeux_tmp);
             else to_return_tmp *= (lstrentedeux_tmp[0] == 0x3A && lstrentedeux_tmp[1] == '\0');
-            to_return = to_return_tmp;
         }
+
+        /* Dans tous les cas */
+        to_return = to_return_tmp;
     }
 
     return to_return;
@@ -518,21 +614,34 @@ int is_ipvsix_adress_second_case(char *characters)
 int is_ipvsix_adress_third_case(char *characters)
 {
     int to_return = 0;
-    int index;
+    int index = 0;
+    int is_hseize_ok;
+    int is_ipvsix_adress_first_case_ok;
 
     char hseize_tmp[5];
     hseize_tmp[4] = '\0';
+
+    //printf("\n Vérifions que %s est une adresse IPv6 de troisième format valide. \n\n",characters);
 
     while(characters[index] != '\0' && characters[index] != 0x3A && index < 4)
     {
         hseize_tmp[index] = characters[index];
         index++;
     }
+    //printf("\n Fin de la boucle dans le troisième cas de la comparaison is_IPv6_adress valide. H_seize_tmp : %s et Index : %d \n\n",hseize_tmp,index);
+
     if(characters[index] != '\0' && characters[index] == 0x3A)
     {
-        if(characters[index+1] != '\0' && characters[index+1] == 0x3A) to_return = (is_hseize(hseize_tmp)) && (is_ipvsix_adress_first_case((characters + index + 2), 4, 0));
+        if(characters[index+1] != '\0' && characters[index+1] == 0x3A)
+        {
+            //printf("\n Vérifions si %s est un hseize valide et si %s est une adresse IPv6 valide pour le premier cas. \n\n",hseize_tmp,characters+index+2);
+            is_hseize_ok = is_hseize(hseize_tmp);
+            is_ipvsix_adress_first_case_ok = is_ipvsix_adress_first_case((characters+index+2), 4, 0);
+            to_return = (is_hseize_ok && is_ipvsix_adress_first_case_ok);
+        }
     }
 
+    //if(to_return == 0) printf("\n %s n'est pas une adresse IPv6 de troisième format valide. \n\n",characters);
     return to_return;
 }
 
@@ -547,6 +656,8 @@ int is_ipvsix_adress_fourth_case(char *characters)
     int is_hseize_option_correct = 0;
     int index_hseize_option_correct = -1;
 
+    //printf("\n Vérifions que %s est une adresse IPv6 de quatrième format valide. \n\n",characters);
+
     for (index_hseize_option = 1; index_hseize_option <= 6; index_hseize_option++)
     {
         is_hseize_option_correct = (is_hseize_option_correct || is_ipvsix_adress_first_case(characters, index_hseize_option+1, 1));
@@ -555,6 +666,7 @@ int is_ipvsix_adress_fourth_case(char *characters)
 
     if (is_hseize_option_correct) /* certifie qu'il y ait deux ':' successifs quelque part */
     {
+        //printf("\n Is hseize option correct : %d \n\n",is_hseize_option_correct);
         while (characters[index] != 0x3A || characters[index+1] != 0x3A) index++;
         index++; /* à ce stade, characters[index] est le deuxième : des deux : successifs */
         
@@ -575,6 +687,7 @@ int is_ipvsix_adress_fourth_case(char *characters)
     }
     else if (strlen(characters) >= 2) /* Traiter les cas où il n'y a pas d'option !!!! */
     {
+        //printf("\n Il n'y a pas d'option, l'adresse %s commence donc par :: \n\n",characters);
         if(characters[0] == 0x3A && characters[1] == 0x3A)
         {
             /*
@@ -607,11 +720,34 @@ int is_ipvsix_adress_fourth_case(char *characters)
 int is_ipvsix_adress(char *characters)
 {
     int to_return = 0;
+    int is_ipvsix_adress_first_case_ok;
+    int is_ipvsix_adress_second_case_ok;
+    int is_ipvsix_adress_third_case_ok;
+    int is_ipvsix_adress_fourth_case_ok;
+
+
+    //printf("\n Vérifions si %s est une adresse IPv6 valide. \n\n",characters);
 
     /* La plus petite adresse IPv6 acceptée selon les règles abnf est (cas 6) "::" */
-    if(strlen(characters) >= 2) to_return = (is_ipvsix_adress_first_case(characters, 6, 0) || is_ipvsix_adress_second_case(characters) || is_ipvsix_adress_third_case(characters) || is_ipvsix_adress_fourth_case(characters));
+    if(strlen(characters) >= 2)
+    {
+        is_ipvsix_adress_first_case_ok = is_ipvsix_adress_first_case(characters, 6, 0);
+        //if (is_ipvsix_adress_first_case_ok == 0) printf("\n %s n'est pas une adresse IPv6 du premier format. \n\n",characters);
 
+        is_ipvsix_adress_second_case_ok = is_ipvsix_adress_second_case(characters);
+        //if (is_ipvsix_adress_second_case_ok == 0) printf("\n %s n'est pas une adresse IPv6 du second format. \n\n",characters);
+
+        is_ipvsix_adress_third_case_ok = is_ipvsix_adress_third_case(characters);
+        //if (is_ipvsix_adress_third_case_ok == 0) printf("\n %s n'est pas une adresse IPv6 du troisième format. \n\n",characters);
+
+        is_ipvsix_adress_fourth_case_ok = is_ipvsix_adress_fourth_case(characters);
+        //if (is_ipvsix_adress_fourth_case_ok == 0) printf("\n %s n'est pas une adresse IPv6 du quatrième format. \n\n",characters);
+
+        to_return = (is_ipvsix_adress_first_case_ok || is_ipvsix_adress_second_case_ok || is_ipvsix_adress_third_case_ok || is_ipvsix_adress_fourth_case_ok);
+        //to_return = (is_ipvsix_adress_first_case(characters, 6, 0) || is_ipvsix_adress_second_case(characters) || is_ipvsix_adress_third_case(characters) || is_ipvsix_adress_fourth_case(characters));
+    }
     if (to_return == 0) printf("\n %s n'est pas une adresse IPv6 valide. \n\n",characters);
+    //else printf("\n %s est une adresse IPv6 valide. \n\n",characters);
     return to_return;
 }
 
@@ -656,6 +792,7 @@ int is_lstrentedeux(char *characters)
     }
     else to_return = is_ipvquatre_adress(characters);
 
+    if (to_return == 0) printf("\n %s n'est pas un ls_trentedeux valide. \n\n",characters);
     return to_return;
 }
 
@@ -697,7 +834,22 @@ int is_lwsp(char *characters)
     }
     //else printf("\nTaille Invalide (taille attendue > 0, taille réelle : %lu)\n",strlen(characters));
 
-    if(to_return == 0) printf("\n Fin de la comparaison. Ce n'est pas un LWSP valide. \n\n");
+    if(to_return == 0) printf("\n %s n'est pas un LWSP valide. \n\n",characters);
+    return to_return;
+}
+
+
+int is_message_body(char *characters)
+{
+    int to_return = 1;
+    int index = 0;
+
+    while(characters[index] != '\0')
+    {
+        to_return *= is_octet(characters[index]);
+        index++;
+    }
+
     return to_return;
 }
 
@@ -741,10 +893,10 @@ int is_pchar(char *characters)
     }
     else if(strlen(characters) == 1)
     {
-        to_return = (is_unreserved(characters[0]) || is_sub_delims(characters[0]) || characters[0] == ':' || characters[0] == '@');
+        to_return = (is_unreserved(characters[0]) || is_sub_delims(characters[0]) || characters[0] == 0x3A || characters[0] == 0x40);
     }
 
-    //if(to_return == 0) printf("\n Fin de la comparaison. Ce n'est pas un pchar valide. \n\n");
+    //if(to_return == 0) printf("\n %s n'est pas un pchar valide. \n\n", characters);
     return to_return;
 }
 
@@ -754,7 +906,7 @@ int is_pct_encoded(char *characters)
     int to_return = 0;
     if(strlen(characters) == 3)
     {
-        to_return = (characters[0] == '%' && is_hexdig(characters[1]) && is_hexdig(characters[2]));
+        to_return = (characters[0] == 0x25 && is_hexdig(characters[1]) && is_hexdig(characters[2]));
     }
 
     return to_return;
@@ -775,6 +927,11 @@ int is_port(char *characters)
     return to_return;
 }
 
+
+int is_qdtext(char character)
+{
+    return (is_htab(character) || is_sp(character) || is_obs_text(character) || character == 0x21 || (0x23 <= character && character <= 0x5B) || (0x5D <= character && character <= 0x7E));
+}
 
 
 /* Une query est une combinaison de ( pchar / "/" / "?" )  */
@@ -809,13 +966,13 @@ int is_query(char *characters)
                     test[0] = characters[index + index_tmp];
                     //printf("\n Test : %s de taille %lu\n\n",test,strlen(test));
                     to_return *= (is_pchar(test) || test[0] == '/' || test[0] == '?');
-                    //if(to_return == 0) printf("\n Fin de la comparaison. %s n'est pas un pchar valide. \n\n",test);
+                    //if(to_return == 0) printf("\n %s n'est pas un pchar valide. \n\n",test);
                 }
                 /*
                 to_return *= is_pchar(tmp[1]);
-                if(to_return == 0) printf("\n Fin de la comparaison. %c n'est pas un pchar valide. \n\n",characters[index+1]);
+                if(to_return == 0) printf("\n %s n'est pas un pchar valide. \n\n",tmp);
                 to_return *= is_pchar(&characters[index + 2]);
-                if(to_return == 0) printf("\n Fin de la comparaison. %c n'est pas un pchar valide. \n\n",characters[index+2]);
+                if(to_return == 0) printf("\n %c n'est pas un pchar valide. \n\n",characters[index+2]);
                 */
             }
             index = index + 3;
@@ -834,13 +991,55 @@ int is_query(char *characters)
     }
     if (characters[0] != '\0' && characters[1] == '\0')
     {
-        to_return = (is_pchar(characters) || characters[0] == '?' || characters[0] == '/');
+        to_return = (is_pchar(characters) || characters[0] == 0x3F || characters[0] == 0x2F);
     }
 
-    if(to_return == 0) printf("\n Fin de la comparaison. Ce n'est pas une query valide. \n\n");
+    if(to_return == 0) printf("\n %s n'est pas une query valide. \n\n",characters);
     return to_return;
 }
 
+
+int is_quoted_pair(char *characters)
+{
+    /* La première condition assure qu'il y a au moins un caractère pour faire la deuxième. */
+    return (characters[0] == 0x5C && (is_sp(characters[1]) || is_htab(characters[1]) || is_vchar(characters[1]) || is_obs_text(characters[1])));
+}
+
+int is_quoted_string(char *characters)
+{
+    int to_return = 0;
+    int to_return_tmp = 1;
+    int index = 1;
+    int index_tmp;
+    char quoted_pair_tmp[3];
+    quoted_pair_tmp[2] = '\0';
+
+    if (strlen(characters) >= 2 && characters[0] == 0x5B)
+    {
+        while (characters[index] != '\0' && characters[index] != 0x5D) index++;
+        if (characters[index] == 0x5D)
+        {
+            char tmp[index - 1];
+            for (index_tmp = 0; index_tmp < index-1; index_tmp++) tmp[index_tmp] = characters[index_tmp + 1];
+            tmp[index_tmp] = '\0';
+
+            for (index = 0; index < index_tmp; index++)
+            {
+                if (tmp[index+1] != '\0')
+                {
+                    quoted_pair_tmp[0] = tmp[index];
+                    quoted_pair_tmp[1] = tmp[index + 1];
+                    to_return_tmp *= (is_qdtext(tmp[index]) || is_quoted_pair(quoted_pair_tmp));
+                }
+                else to_return_tmp *= is_qdtext(tmp[index]);
+            }
+
+            to_return = to_return_tmp;
+        }
+    }
+
+    return to_return;
+}
 
 
 // Une reason-phrase doit être une combinaison de HTAB, d'espaces, de VCHAR ou d'obs-text (=?? %x80-FF)
@@ -870,11 +1069,11 @@ int is_reg_name(char *characters)
     for(index = 0; index < strlen(characters); index++)
     {
         test[0] = characters[index];
-        to_return *= (test[0] != ':' && test[0] != '@' && is_pchar(test));
+        to_return *= (test[0] != 0x3A && test[0] != 0x40 && is_pchar(test));
     }
 
     if (to_return == 0) printf("\n %s n'est pas un reg name valide. \n\n",characters);
-    else printf("\n %s est un reg name valide !! \n\n",characters);
+    //else printf("\n %s est un reg name valide !! \n\n",characters);
     return to_return;
 }
 
@@ -912,13 +1111,13 @@ int is_segment(char *characters)
                     test[0] = characters[index + index_tmp];
                     //printf("\n Test : %s de taille %lu : %d\n\n",test,strlen(test),is_pchar(test));
                     to_return *= is_pchar(test);
-                    //if(to_return == 0) printf("\n Fin de la comparaison. %s n'est pas un pchar valide. \n\n",test);
+                    //if(to_return == 0) printf("\n %s n'est pas un pchar valide. \n\n",test);
                 }
                 /*
                 to_return *= is_pchar(tmp[1]);
-                if(to_return == 0) printf("\n Fin de la comparaison. %c n'est pas un pchar valide. \n\n",characters[index+1]);
+                if(to_return == 0) printf("\n %s n'est pas un pchar valide. \n\n",tmp);
                 to_return *= is_pchar(&characters[index + 2]);
-                if(to_return == 0) printf("\n Fin de la comparaison. %c n'est pas un pchar valide. \n\n",characters[index+2]);
+                if(to_return == 0) printf("\n %c n'est pas un pchar valide. \n\n",characters[index+2]);
                 */
             }
             index = index + 3;
@@ -941,7 +1140,7 @@ int is_segment(char *characters)
     }
     
 
-    if(to_return == 0) printf("\n Fin de la comparaison. %s n'est pas un segment valide. \n\n",characters);
+    if(to_return == 0) printf("\n %s n'est pas un segment valide. \n\n",characters);
     return to_return;
 }
 
@@ -968,13 +1167,13 @@ int is_status_code(char *characters)
 // sub-delims = "!" / "$" / "&" / "'" / "(" / ")" / "*" / "+" / "," / ";" / "="
 int is_sub_delims(char character)
 {
-    return (character == '!' || character == '$' || character == '&' || character == '\'' || character == '(' || character == ')' || character == '*' || character == '+' || character == ',' || character == ';' || character == '=');
+    return (character == 0x21 || character == 0x24 || character == 0x26 || character == 0x27 || character == 0x28 || character == 0x29 || character == 0x2A || character == 0x2B || character == 0x2C || character == 0x3B || character == 0x3D);
 }
 
 // TCHAR = "!" / "#" / "$" / "%" / "&" / "'" / "*" / "+" / "-" / "." / "^" / "_" / "`" / "|" / "~" / DIGIT / ALPHA 
 int is_tchar(char character)
 {
-    return(is_digit(character) || is_alpha(character) || character == '!' || character == '#' || character == '$' || character == '%' || character == '&' || character == '\'' || character == '*' || character == '+' || character == '-' || character == '.' || character == '^' || character == '_' || character == '`' || character == '|' || character == '~');
+    return(is_digit(character) || is_alpha(character) || character == 0x21 || character == 0x23 || character == 0x24 || character == 0x25 || character == 0x26 || character == 0x27 || character == 0x2A || character == 0x2B || character == 0x2D || character == 0x2E || character == 0x5E || character == 0x5F || character == 0x60 || character == 0x7C || character == 0x7E);
 }
 
 // Un token est composé d'au moins un caractère ET tous ses caractères sont des TCHAR
@@ -995,14 +1194,185 @@ int is_token(char *characters)
         to_return = is_tchar_okay;
     }
 
-    if(to_return == 0) printf("\n Fin de la comparaison. Ce n'est pas un token valide. \n\n");
+    if(to_return == 0) printf("\n %s n'est pas un token valide. \n\n",characters);
     return to_return;
 }
+
+
+int is_transfer_coding(char *characters)
+{
+    /* Pour toute chaine de char valide, on a characters[strlen(characters)] = '\0' */
+    return ((strcmp(characters, "chunked") == 0) || (strcmp(characters,"compress") == 0) || (strcmp(characters,"deflate") == 0) || (strcmp(characters,"gzip") == 0) || is_transfer_extension(characters));
+}
+
+
+int is_transfer_encoding(char *characters)
+{
+    int to_return = 0;
+    int to_return_tmp = 1;
+
+    int index = 0;
+    int index_transfer_coding = 0;
+    int index_reset;
+
+    char transfer_coding[strlen(characters) + 1];
+    transfer_coding[strlen(characters)] = '\0';
+
+
+    /* La virgule n'est pas dans les tchar !!!! Quelle chance */
+    /* Si on rencontre une virgule, on avance jusqu'à rencontrer un tchar ; break si ni sp ni htab ni tchar */
+    /* Si pas de virgule, directement un tchar sinon exit */
+    while(characters[index] != '\0')
+    {
+        while(characters[index] == 0x2C || is_sp(characters[index]) || is_htab(characters[index])) index++;
+        if (is_tchar(characters[index]))
+        {
+            while(is_tchar(characters[index]))
+            {
+                transfer_coding[index_transfer_coding] = characters[index];
+                index_transfer_coding++;
+                index++;
+            }
+            transfer_coding[index_transfer_coding] = '\0';
+
+            to_return_tmp *= is_transfer_coding(transfer_coding);
+            to_return = to_return_tmp;
+            for (index_reset = 0; index_reset < index_transfer_coding; index_reset++) transfer_coding[index_reset] = '\0';
+            index_transfer_coding = 0;
+        }
+    }
+
+    return to_return;
+}
+
+
+
+int is_transfer_encoding_header(char *characters)
+{
+    int to_return = 0;
+    int index = 18;
+    int index_transfer_encoding = 0;
+
+    /* A rendre case-insensitive -_-' */
+    if (strlen(characters) >= 18 && characters[0] == 0x54 && characters[1] == 0x72 && characters[2] == 0x61 && characters[3] == 0x6E && characters[4] == 0x73 && characters[5] == 0x66 && characters[6] == 0x65 && characters[7] == 0x72 && characters[8] == 0x2D && characters[9] == 0x45 && characters[10] == 0x6E && characters[11] == 0x63 && characters[12] == 0x6F && characters[13] == 0x64 && characters[14] == 0x69 && characters[15] == 0x6E && characters[16] == 0x67 && characters[17] == 0x3A)
+    {
+        char transfer_encoding[strlen(characters) - 17];
+        while (is_sp(characters[index]) || is_htab(characters[index])) index++;
+        while (characters[index] != '\0' && !is_sp(characters[index]) && !is_htab(characters[index]))
+        {
+            transfer_encoding[index_transfer_encoding] = characters[index];
+            index_transfer_encoding++;
+            index++;
+        }
+        
+        to_return = is_transfer_encoding(transfer_encoding);
+        if (characters[index] != '\0')
+        {
+            while(is_sp(characters[index]) || is_htab(characters[index])) index++;
+            if(characters[index] != '\0') to_return = 0;
+        }
+    }
+
+    return to_return;
+}
+
+
+
+int is_transfer_extension(char *characters)
+{
+    int to_return = 0;
+    int to_return_tmp = 1;
+    int index = 0;
+    int index_transfer_parameter = 0;
+    char token[strlen(characters) + 1];
+    char transfer_parameter[strlen(characters)];
+
+    while(characters[index] && !is_sp(characters[index]) && !is_htab(characters[index]))
+    {
+        token[index] = characters[index];
+        index++;
+    }
+    token[index] = '\0';
+
+    to_return = is_token(token);
+
+    /* A ce stade, soit to_return = 0 et on quitte, soit to_return != 0 et on continue */
+    while (characters[index] != '\0')
+    {
+        /* assure que characters[index] != '\0' && characters[index] != ';' (0x3B) */
+        while(is_sp(characters[index]) || is_htab(characters[index])) index++;
+        if (characters[index] == 0x3B)
+        {
+            index++;
+            while(is_sp(characters[index]) || is_htab(characters[index])) index++; /* idem */
+            while (characters[index] != '\0' && !is_sp(characters[index]) && ! is_htab(characters[index]))
+            {
+                transfer_parameter[index_transfer_parameter] = characters[index];
+                index_transfer_parameter++;
+                index++;
+            }
+            to_return_tmp *= is_transfer_parameter(transfer_parameter);
+
+            for (index_transfer_parameter = 0; index_transfer_parameter < strlen(characters); index_transfer_parameter++) transfer_parameter[index_transfer_parameter] = '\0';
+            index_transfer_parameter = 0;
+        }
+        else /* option invalide. on sort de la boucle */
+        {
+            to_return_tmp = 0;
+            to_return = 0;
+            /* Pour toute chaine de char valide, on a characters[strlen(characters)] = '\0' */
+            index = strlen(characters);
+        }
+    }
+
+    if(to_return != 0) to_return = to_return_tmp;
+
+    return to_return;
+}
+
+
+
+int is_transfer_parameter(char *characters)
+{
+    int to_return = 0;
+    int index = 0;
+    int index_token = 0;
+    char token[strlen(characters)]; /* Pas + 1 car doit comporter un '=' qui ne fait pas partie du token */
+
+    while (characters[index] != '\0' && !is_sp(characters[index]) && !is_htab(characters[index]))
+    {
+        token[index] = characters[index];
+        index++;
+    }
+    token[index] = '\0';
+
+    if (characters[index] != '\0' && is_token(token))
+    {
+        while(is_sp(characters[index]) || is_htab(characters[index])) index++;
+        if (characters[index] == 0x3D)
+        {
+            index++;
+            while(is_sp(characters[index]) || is_htab(characters[index])) index++;
+
+            while(characters[index] != '\0')
+            {
+                token[index_token] = characters[index];
+                index_token++;
+                index++;
+            }
+
+            to_return = (is_token(token) || is_quoted_string(token));
+        }
+    }
+
+    return to_return;
+}
+
 
 // unreserved = ALPHA / DIGIT / "-" / "." / "_" / "~" 
 int is_unreserved(char character)
 {
-    return (is_alpha(character) || is_digit(character) || character == '-' || character == '.' || character == '_' || character == '~');
+    return (is_alpha(character) || is_digit(character) || character == 0x2D || character == 0x2E || character == 0x5F || character == 0x7E);
 }
 
 int is_vchar(char character)
@@ -1147,6 +1517,10 @@ int is_request_line(char *characters, char *mots[], int tailles_des_mots[])
 
         nb_espaces_2_correct = (is_sp(characters[tailles_des_mots[0] + 1 + tailles_des_mots[1]]) && !(is_sp(characters[tailles_des_mots[0] + 1 + tailles_des_mots[1] + 1])));
 
+        //printf("\n\n %d %d %lu \n\n",tailles_des_mots[0], tailles_des_mots[1], strlen(characters));
+        //printf(" %d \n\n",nb_espaces_2_correct);
+        //printf(" %s \n\n\n\n",mots[1]);
+
         if(is_absolute_path(mots[1]) && nb_espaces_2_correct)
         {
             //printf("\n Absolute path correct + nb_espaces_2 correct \n\n");
@@ -1160,8 +1534,8 @@ int is_request_line(char *characters, char *mots[], int tailles_des_mots[])
         }
     }
 
-    if (to_return == 0) printf("\n Fin de la comparaison. Ce n'est pas une request line. \n\n");
-    //else printf("\n Fin de la comparaison. C'est une request line!! \n\n");
+    if (to_return == 0) printf("\n %s n'est pas une request line. \n\n",characters);
+    //else printf("\n %s est une request line!! \n\n",characters);
     return to_return;
 }
 
@@ -1213,7 +1587,7 @@ int is_status_line(char *characters, char *mots[], int tailles_des_mots[])
         if(is_status_code(status_code) && nb_espaces_2_correct) to_return = is_reason_phrase((characters+13));
     }
 
-    if (to_return == 0) printf("\n Fin de la comparaison. Ce n'est pas une status line. \n\n");
-    //else printf("\n Fin de la comparaison. C'est une status line!! \n\n");
+    if (to_return == 0) printf("\n %s n'est pas une status line. \n\n",characters);
+    //else printf("\n %s est une status line!! \n\n",characters);
     return to_return;
 }

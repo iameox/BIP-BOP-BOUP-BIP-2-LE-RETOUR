@@ -60,6 +60,8 @@ int is_lstrentedeux(char *characters);
 
 int is_lwsp(char *characters);
 
+int is_message_body(char *characters);
+
 int is_obs_text(char character);
 
 int is_octet(char character);
@@ -72,7 +74,13 @@ int is_pct_encoded(char *characters);
 
 int is_port(char *characters);
 
+int is_qdtext(char character);
+
 int is_query(char *characters);
+
+int is_quoted_pair(char *characters);
+
+int is_quoted_string(char *characters);
 
 int is_reason_phrase(char *characters);
 
@@ -89,6 +97,16 @@ int is_sub_delims(char character);
 int is_tchar(char character);
 
 int is_token(char *characters);
+
+int is_transfer_coding(char *characters);
+
+int is_transfer_encoding(char *characters);
+
+int is_transfer_encoding_header(char *characters);
+
+int is_transfer_extension(char *characters);
+
+int is_transfer_parameter(char *characters);
 
 int is_unreserved(char character);
 
