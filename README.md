@@ -1,7 +1,7 @@
 # BIP-BOP-BOUP-BIP-2-LE-RETOUR
-Projet de serveur HTTP pour la cours de NE302.  
+Projet de serveur HTTP pour le cours de NE302.  
   
-## Groupe
+### Groupe
 * [dautreym](https://github.com/dautreym)
 * [iameox](https://github.com/iameox)
 * [Rigos07](https://github.com/Rigos07)
