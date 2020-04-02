@@ -260,7 +260,6 @@ int compare_strings(string *s1, string *s2) {
 
 void delete_string(string **head) {
     free(*head);
-    *head = NULL;
 }
 
 string *create_string(char *base, int length) {
@@ -765,26 +764,7 @@ int get_defined_as(char *abnf, int *index) {
     return return_value;
 }
 
-int get_rulename(string **rulename, char *abnf, int *index) {
-    int has_rulename = 1;
-    int length = 0;
-
-    *rulename = create_string(abnf + *index, 0);
-
-    if (!is_alpha(*(abnf + *index))) has_rulename = 0;
-    else {
-        do {
-            (*index)++;
-            (*rulename)->length++;
-
-        } while (is_alpha(*(abnf + *index)) || is_digit(*(abnf + *index), 10) || *(abnf + *index) == '-');
-    }
-
-    if (!has_rulename) delete_string(rulename);
-    return has_rulename - 1;
-}
-
-/*int get_rulename(string **rulename, char *abnf, int *index) { // No support for redefinition of rules
+int get_rulename(string **rulename, char *abnf, int *index) { // No support for redefinition of rules
     char *base = abnf + *index;
     int length = 0,
         return_value = 0;
@@ -802,7 +782,7 @@ int get_rulename(string **rulename, char *abnf, int *index) {
     }
 
     return return_value;
-}*/
+}
 
 int get_rule(rule **head, char *abnf, int *index) {
     rule *r = create_rule(head, NULL);
@@ -975,25 +955,7 @@ int parse_concatenation(node **tree, concatenation *c, unsigned char *input, int
     return return_value;
 }
 
-int parse_repetition(node **tree, repetition *r, unsigned char *input, int *index, int length, rule *rulelist) {
-    repetition_type type = r->type;
-    int has_repetition = 1,
-        is_valid = 1,
-        i = 0;
-
-    while (i != r->max && is_valid) {
-        if (type == RULENAME && parse_rule(tree, r->content.rulename, input, index, length, rulelist) == -1) is_valid = 0;
-        else if ((type == GROUP || type == OPTION) && parse_concatenations(tree, r->content.concatenations, input, index, length, rulelist) == -1) is_valid = 0;
-        else if (type == CHAR_VAL && parse_char_val(tree, r->content.char_val, input, index, length, rulelist) == -1) is_valid = 0;
-        else if (type == NUM_VAL && parse_num_val(tree, r->content.num_val, input, index, length, rulelist) == -1) is_valid = 0;
-        else i++;
-    }
-
-    if (i < r->min) has_repetition = 0;
-    return has_repetition - 1;
-}
-
-/*int parse_repetition(node **tree, repetition *r, unsigned char *input, int *index, int length, rule *head) {
+int parse_repetition(node **tree, repetition *r, unsigned char *input, int *index, int length, rule *head) {
     repetition_type type = r->type;
     int previous_index = *index,
         return_value = 0,
@@ -1014,7 +976,7 @@ int parse_repetition(node **tree, repetition *r, unsigned char *input, int *inde
     }
 
     return return_value;
-}*/
+}
 
 int parse_char_val(node **tree, string *s, unsigned char *input, int *index, int length, rule *head) {
     int content_length = min(length - *index, s->length),
@@ -1077,16 +1039,16 @@ int main () {
     node *tree = NULL;
     unsigned char *input = (unsigned char *) "GET / HTTP/1.0\r\ntRAnSfEr-eNcoDiNG:              ,gzip,             ,qB                                    ;Yh4w=                        \"†\\à\";u     =\"\" ;r7GqcU     =   \",\"         ;           nH0|jHyqH~OBp     =                                           K8    ;            j= \"w\\ô\"           ,     m2FMM     ; SM8 = \"\";     vh           =          \"g\\©Ïå\\ø\"    ;          9c   =      \"\\×\";                   GA =          '$'                                           ;   Xe*                   = \"\";.bo   = \"ÿ\\i7\\U\\n\\fÚ­6\"  ;!           =  \"8\\ØˆG\\{\";       _^n1Oi5k   =^wzdaNfk  ,  , 3Ew-+ro  ;          2   =   \"\\©\\B\\&\"       ,,      ,dp-x*;  %l                   =                 7              ,    wAJh04;DqQ7f    =%1     , 4e+L      ;B4 =                           \"õ\"\r\nTransfer-Encoding:      cwz     ,eVs;   h6  =   \"Ð\"    ;             lL`             =  \"7œ\\V\\°'\\Â÷n\\±\\6\"           ;  t|-prcv-mTV              =Nzj;           R       =    \"\"     \r\n\r\n";
     printf("Parsing de L'ABNF...\n");
-    if (get_rulelist(&rulelist, "syntax.abnf") == -1) printf("ABNF incorrect ou syntaxe non supportée.\n");
+    if (get_rulelist(&rulelist, "http.abnf") == -1) printf("ABNF incorrect ou syntaxe non supportée.\n");
     else {
-        /*printf("ABNF parsé avec succès.\nParsing de la requête :\n%s\n################################################################################################################################################################################\n\n", input);
+        printf("ABNF parsé avec succès.\nParsing de la requête :\n%s\n################################################################################################################################################################################\n\n", input);
         if (parse_http_request(&tree, input, strlen((char *)input)) == -1) printf("Requête invalide.\n");
         else {
             printf("Requête parsée avec succès. Affichage du contenu :\n");
             print_nodes(tree, 0);
-        }*/
+        }
 
         //printf("\nAffichage des règles :\n");
-        print_rules(rulelist);
+        //print_rules(rulelist);
     }
 }
