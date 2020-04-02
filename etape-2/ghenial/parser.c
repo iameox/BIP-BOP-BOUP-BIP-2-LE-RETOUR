@@ -53,6 +53,10 @@ int is_sp(char c) {
 	return(c == 0x20);
 }
 
+int is_htab(char c) {
+	return(c == 0x09);
+}
+
 //Retourne 1 si la chaine sub est présente dans str à partir de start
 /*int is_subchain(string sub, string str, int start) {
 	int i = start, j = 0, valid = 1;
@@ -362,6 +366,9 @@ int parse(abnf_rule * rule, string str) {
 		} else if(!strcmp(rule->rule_name.str,"SP")) {
 			if(str.size != 0 && is_sp(str.str[0])) valid = 1;
 			else valid = -1;
+		}  else if(!strcmp(rule->rule_name.str,"HTAB")) {
+			if(str.size != 0 && is_htab(str.str[0])) valid = 1;
+			else valid = -1;
 		} else if(!strcmp(rule->rule_name.str,"CRLF")) {
 			if(str.size > 1 && is_crlf(str.str[0], str.str[1])) valid = 2;
 			else valid = -1;
@@ -393,9 +400,18 @@ int main(int argc, char * argv[]) {
 	abnf_rule *DIGIT = create_rule("DIGIT", 5, "", 0, 1, NULL);
 	abnf_rule *SP = create_rule("SP", 2, "", 0, 1, NULL);
 	abnf_rule *CRLF = create_rule("CRLF", 4, "", 0, 1, NULL);
+	abnf_rule *HTAB = create_rule("HTAB", 4, "", 0, 1, NULL);
 	//abnf_rule *QUOTE = create_rule("QUOTE", 5, "", 0, 1, NULL);
 
+	//OWS = *( SP / HTAB )
+	char * OWS_name = "OWS";
+	char * OWS_exp = "*( SP / HTAB )";
+	rule_list *OWS_list = NULL;
+	insert_rule(&OWS_list, SP);
+	insert_rule(&OWS_list, HTAB);
+	abnf_rule *OWS = create_rule(OWS_name, strlen(OWS_name), OWS_exp, strlen(OWS_exp), 0, OWS_list);
 
+	//tchar = "!" / "#" / "$" / "%" / "&" / "'" / "*" / "+" / "-" / "." / "^" / "_" / "`" / "|" / "~" / DIGIT / ALPHA
 	char * tchar_name = "tchar";
 	char * tchar_exp = "\"!\" / \"#\" / \"$\" / \"%\" / \"&\" / \"'\" / \"*\" / \"+\" / \"-\" / \".\" / \"^\" / \"_\" / \"`\" / \"|\" / \"~\" / DIGIT / ALPHA";
 	rule_list *liste_tchar = NULL;
@@ -403,7 +419,7 @@ int main(int argc, char * argv[]) {
 	insert_rule(&liste_tchar, DIGIT);
 	abnf_rule *tchar = create_rule(tchar_name, strlen(tchar_name), tchar_exp, strlen(tchar_exp), 0, liste_tchar);
 
-
+	//token = 1*tchar
 	char * token_name = "token";
 	char * token_expr = "1*tchar";
 	rule_list *liste_token = NULL;
@@ -525,13 +541,111 @@ int main(int argc, char * argv[]) {
 	insert_rule(&start_line_list, request_line);
 	abnf_rule *start_line = create_rule(start_line_name, strlen(start_line_name), start_line_expr, strlen(start_line_expr), 0, start_line_list);
 
+	//charset = token
+	char * charset_name = "charset";
+	char * charset_expr = "token";
+	rule_list *charset_list = NULL;
+	insert_rule(&charset_list, token);
+	abnf_rule *charset = create_rule(charset_name, strlen(charset_name), charset_expr, strlen(charset_expr), 0, charset_list);
 
 
-	//Accept-Charset-header
+	//qvalue = ( "0" [ "." *3DIGIT ] ) / ( "1" [ "." *3"0" ] )
+	char * qvalue_name = "charset";
+	char * qvalue_expr = "( \"0\" [ \".\" *3DIGIT ] ) / ( \"1\" [ \".\" *3\"0\" ] )";
+	rule_list *qvalue_list = NULL;
+	insert_rule(&qvalue_list, DIGIT);
+	abnf_rule *qvalue = create_rule(qvalue_name, strlen(qvalue_name), qvalue_expr, strlen(qvalue_expr), 0, qvalue_list);
+	
+	//weight = OWS ";" OWS "q=" qvalue
+	char * weight_name = "weight";
+	char * weight_expr = "OWS \";\" OWS \"q=\" qvalue";
+	rule_list *weight_list = NULL;
+	insert_rule(&weight_list, OWS);
+	insert_rule(&weight_list, qvalue);
+	abnf_rule *weight = create_rule(weight_name, strlen(weight_name), weight_expr, strlen(weight_expr), 0, weight_list);
 
-	//Referer-header
+	//Accept-Charset = *( "," OWS ) ( ( charset / "*" ) [ weight ] ) *( OWS "," [ OWS ( ( charset / "*" ) [ weight ] ) ] )
+	char * Accept_Charset_name = "Accept-Charset";
+	char * Accept_Charset_expr = "*( \",\" OWS ) ( ( charset / \"*\" ) [ weight ] ) *( OWS \",\" [ OWS ( ( charset / \"*\" ) [ weight ] ) ] )";
+	rule_list *Accept_Charset_list = NULL;
+	insert_rule(&Accept_Charset_list, OWS);
+	insert_rule(&Accept_Charset_list, charset);
+	insert_rule(&Accept_Charset_list, weight);
+	abnf_rule *Accept_Charset = create_rule(Accept_Charset_name, strlen(Accept_Charset_name), Accept_Charset_expr, strlen(Accept_Charset_expr), 0, Accept_Charset_list);
+
+	//Accept-Charset-header = "Accept-Charset" ":" OWS Accept-Charset OWS
+	char * Accept_Charset_header_name = "Accept-Charset-header";
+	char * Accept_Charset_header_expr = "\"Accept-Charset\" \":\" OWS Accept-Charset OWS";
+	rule_list *Accept_Charset_header_list = NULL;
+	insert_rule(&Accept_Charset_header_list, OWS);
+	insert_rule(&Accept_Charset_header_list, Accept_Charset);
+	abnf_rule *Accept_Charset_header = create_rule(Accept_Charset_header_name, strlen(Accept_Charset_header_name), Accept_Charset_header_expr, strlen(Accept_Charset_header_expr), 0, Accept_Charset_header_list);
+
+	//scheme = ALPHA *( ALPHA / DIGIT / "+" / "-" / "." )
+
+	//userinfo = *( unreserved / pct-encoded / sub-delims / ":" )
+
+	//IPvFuture = "v" 1*HEXDIG "." 1*( unreserved / sub-delims / ":" )
+
+	//dec-octet = "25" %x30-35 / "2" %x30-34 DIGIT / "1" 2DIGIT / %x31-39 DIGIT / DIGIT
+
+	//IPv4address = dec-octet "." dec-octet "." dec-octet "." dec-octet
+	
+	//h16 = 1*4HEXDIG
+
+	//ls32 = ( h16 ":" h16 ) / IPv4address
+
+	//IPv6address = 6( h16 ":" ) ls32 / "::" 5( h16 ":" ) ls32 / [ h16 ] "::" 4( h16 ":" ) ls32 / [ h16 *1( ":" h16 ) ] "::" 3( h16 ":" ) ls32 / [ h16 *2( ":" h16 ) ] "::" 2( h16 ":" ) ls32 / [ h16 *3( ":" h16 ) ] "::" h16 ":" ls32 / [ h16 *4( ":" h16 ) ] "::" ls32 / [ h16 *5( ":" h16 ) ] "::" h16 / [ h16 *6( ":" h16 ) ] "::"
+	
+	//segment-nz = 1*pchar
+
+	//segment-nz-nc = 1*( unreserved / pct-encoded / sub-delims / "@" )
+
+	//path-abempty = *( "/" segment )
+
+	//path-absolute = "/" [ segment-nz *( "/" segment ) ]
+
+	//path-noscheme = segment-nz-nc *( "/" segment )
+
+	//path-rootless = segment-nz *( "/" segment )
+
+	//path-empty = ""
+
+	//IP-literal = "[" ( IPv6address / IPvFuture ) "]"
+
+	//reg-name = *( unreserved / pct-encoded / sub-delims )
+
+	//host = IP-literal / IPv4address / reg-name ;
+
+	//authority = [ userinfo "@" ] host [ ":" port ]
+
+	//hier-part = "//" authority path-abempty / path-absolute / path-rootless / path-empty
+
+	//absolute-URI = scheme ":" hier-part [ "?" query ]
+
+	//relative-part = "//" authority path-abempty / path-absolute / path-noscheme / path-empty
+
+	//partial-URI = relative-part [ "?" query ]
+
+	//Referer = absolute-URI / partial-URI
+
+	//Referer-header = "Referer" ":" OWS Referer OWS
+
 
 	//header-field = Accept-Charset-header / Referer-header
+	char * header_field_name = "header-field";
+	char * header_field_expr = "Accept-Charset-header / Referer-header";
+	rule_list *header_field_list = NULL;
+	insert_rule(&header_field_list, Accept_Charset_header);
+	//insert_rule(&header_field_list, Referer_header);
+	abnf_rule *header_field = create_rule(header_field_name, strlen(header_field_name), header_field_expr, strlen(header_field_expr), 0, header_field_list);
+
+	//message-body = ""
+	char * message_body_name = "message-body";
+	char * message_body_expr = "";
+	rule_list *message_body_list = NULL;
+	insert_rule(&message_body_list, token);
+	abnf_rule *message_body = create_rule(message_body_name, strlen(message_body_name), message_body_expr, strlen(message_body_expr), 0, message_body_list);
 
 	//HTTP-message = start-line *( header-field CRLF ) CRLF [ message-body ]
 	char * HTTP_message_name = "HTTP-message";
@@ -572,7 +686,7 @@ int main(int argc, char * argv[]) {
 	char * my_rule = "ALPHA [ DIGIT ] ALPHA";
 	abnf_rule *rtest = create_rule("test", 5, my_rule, strlen(my_rule), 0, liste_tchar);
 
-	char * requete = "GET / HTTP/1.1\r\n";
+	char * requete = "POST /cgi-bin/process.cgi HTTP/1.1\r\n";
 	test(start_line, requete, strlen(requete));
 
 	return 1;
