@@ -1,20 +1,24 @@
+#include <stdlib.h>
 #include "functions.h"
 #include "structures.h"
 #include "abnf.h"
 
-void compile_abnf(Rule **head, char *file_name) {
-    char *abnf = NULL;
+void compile_abnf(Rule **head, char **abnf_buffer, char *file_name) {
     int index = 0;
 
-    insert_rule(head, NUM_VAL_RULE, NUM_VAL_RULE_LENGTH);
-    insert_rule(head, CHAR_VAL_RULE, CHAR_VAL_RULE_LENGTH);
+    insert_rule(head, create_string(NUM_VAL_RULE, NUM_VAL_RULE_LENGTH));
+    insert_rule(head, create_string(CHAR_VAL_RULE, CHAR_VAL_RULE_LENGTH));
 
-    read_file(file_name, &abnf, get_file_size(file_name));
-    if (!compile_rulelist(head, abnf, &index)) exit_on_error("ABNF incorrect ou syntaxe non supportée.");
+    read_file(file_name, abnf_buffer, get_file_size(file_name));
+    if (!compile_rulelist(head, *abnf_buffer, &index)) {
+        free(*abnf_buffer);
+        exit_on_error("ABNF incorrect ou syntaxe non supportée.");
+    }
 }
 
 int compile_rulelist(Rule **head, char *abnf, int *index) {
-    int is_valid = true,
+    int has_rulelist = true,
+        is_valid = true,
         i = 0;
 
     while (is_valid) {
@@ -25,11 +29,16 @@ int compile_rulelist(Rule **head, char *abnf, int *index) {
         } else i++;
     }
 
-    return i >= 1;
+    if (i < 1) {
+        delete_rulelist(head);
+        has_rulelist = false;
+    }
+
+    return has_rulelist;
 }
 
 int compile_rule(Rule **head, char *abnf, int *index) {
-    Rule *r = insert_rule(head, NULL, 0),
+    Rule *r = insert_rule(head, NULL),
          *r2;
     int previous_index = *index,
         is_redefinition = false,
@@ -37,7 +46,7 @@ int compile_rule(Rule **head, char *abnf, int *index) {
 
     if (!compile_rulename(abnf, index, &(r->rulename))) has_rule = false;
     else {
-        r2 = find_rule(*head, r->rulename->base, r->rulename->length);
+        r2 = find_rule(*head, r->rulename);
         is_redefinition = r != r2;
 
         if (is_redefinition) {

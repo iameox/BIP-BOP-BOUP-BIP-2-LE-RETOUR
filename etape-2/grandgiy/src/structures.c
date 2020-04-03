@@ -2,11 +2,11 @@
 #include "functions.h"
 #include "structures.h"
 
-Rule *insert_rule(Rule **head, char *rulename_base, int rulename_length) {
+Rule *insert_rule(Rule **head, String *rulename) {
     Rule *new = create_element(sizeof(Rule)),
          *element = *head;
 
-    new->rulename = create_string(rulename_base, rulename_length);
+    new->rulename = rulename;
     new->concatenations = NULL;
     new->next = NULL;
 
@@ -19,18 +19,17 @@ Rule *insert_rule(Rule **head, char *rulename_base, int rulename_length) {
     return new;
 }
 
-Rule *find_rule(Rule *head, char *rulename_base, int rulename_length) {
-    String rulename = { rulename_base, rulename_length };
+Rule *find_rule(Rule *head, String *rulename) {
     Rule *element = head,
          *value = NULL;
 
-    while (element != NULL && !compare_strings(element->rulename, &rulename)) element = element->next;
+    while (element != NULL && !compare_strings(element->rulename, rulename)) element = element->next;
     if (element != NULL) value = element;
     
     return value;
 }
 
-void delete_last_rule(Rule **head) { 
+void delete_last_rule(Rule **head) {
     Rule *element = *head,
          *previous = *head;
 
@@ -136,7 +135,9 @@ void delete_last_repetition(Repetition **head) {
 }
 
 void delete_repetitions(Repetition **head) {
-    while (*head != NULL) delete_last_repetition(head);
+    while (*head != NULL) {
+        delete_last_repetition(head);
+    }
 }
 
 Num_val *create_num_val() {

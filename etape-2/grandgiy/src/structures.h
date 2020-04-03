@@ -88,8 +88,8 @@
         int length;
     };
 
-    Rule *insert_rule(Rule **head, char *rulename_base, int rulename_length);
-    Rule *find_rule(Rule *head, char *rulename_base, int rulename_length);
+    Rule *insert_rule(Rule **head, String *rulename);
+    Rule *find_rule(Rule *head, String *rulename);
     void delete_last_rule(Rule **head);
     void delete_rulelist(Rule **head);
 

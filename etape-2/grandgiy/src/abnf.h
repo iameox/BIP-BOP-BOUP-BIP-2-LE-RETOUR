@@ -8,7 +8,7 @@
 #define NUM_VAL_RULE "_NUM_VAL"
 #define NUM_VAL_RULE_LENGTH get_length(NUM_VAL_RULE)
 
-void compile_abnf(Rule **head, char *file_name);
+void compile_abnf(Rule **head, char **abnf_buffer, char *file_name);
 
 int compile_rulelist(Rule **head, char *abnf, int *index);
 int compile_rule(Rule **head, char *abnf, int *index);

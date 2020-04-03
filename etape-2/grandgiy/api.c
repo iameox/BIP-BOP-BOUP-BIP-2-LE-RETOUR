@@ -4,7 +4,6 @@
 #include "src/http.h"
 #include "api.h"
 
-Rule *rulelist = NULL;
 Node *tree = NULL;
 
 void *getRootTree() {
@@ -66,6 +65,7 @@ void purgeElement(_Token **r) {
 void purgeTree(void *root) {
     delete_nodes((Node **) &root);
     delete_rulelist(&rulelist);
+    free(abnf_buffer);
 }
  
 #include <stdio.h>
@@ -80,7 +80,5 @@ void print_string(String *s) {
 }
 
 int parseur(char *req, int len) {
-    //String s = {req, len};
-    printf("%c\n", *req);
-    return 0;//parse_http(&tree, &rulelist, req, len);
+    return parse_http(&tree, req, len);
 }

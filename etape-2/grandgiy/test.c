@@ -1,9 +1,9 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "src/functions.h"
-#include "src/abnf.h"
 #include "src/http.h"
 
-void print_rules(Rule *r);
+/*void print_rules(Rule *r);
 void print_concatenations(Concatenation *c);
 void print_repetitions(Repetition *r);
 void print_num_val(Num_val *n);
@@ -70,22 +70,23 @@ void print_nodes(Node *n, int i) {
         if (n->children != NULL) { for (j = 0; j < i; j++) { printf(" "); } printf("children:\n"); print_nodes(n->children, i + 2); }
         n = n->next;
     }
-}
+}*/
 
 int main (int argc, char *argv[]) {
     if (argc <= 1) exit_on_error("Pas assez d'arguments");
 
     int size = get_file_size(argv[1]);
     char *input = NULL;
-    Rule *rulelist = NULL;
     Node *tree = NULL;
 
     read_file(argv[1], &input, size);
-    if (!parse_http(&tree, &rulelist, input, size)) ;//printf("Requête invalide.\n");
+    if (!parse_http(&tree, input, size)) ;//printf("Requête invalide.\n");
     //else print_nodes(tree, 0);
-    print_rules(rulelist);
+    //print_rules(rulelist);
     //printf("\n");
 
     delete_nodes(&tree);
     delete_rulelist(&rulelist);
+    free(input);
+    free(abnf_buffer);
 }
