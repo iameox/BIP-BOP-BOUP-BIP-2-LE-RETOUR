@@ -2,8 +2,8 @@
 #include "functions.h"
 #include "structures.h"
 
-rule *insert_rule(rule **head, char *rulename_base, int rulename_length) {
-    rule *new = create_element(sizeof(rule)),
+Rule *insert_rule(Rule **head, char *rulename_base, int rulename_length) {
+    Rule *new = create_element(sizeof(Rule)),
          *element = *head;
 
     new->rulename = create_string(rulename_base, rulename_length);
@@ -19,9 +19,9 @@ rule *insert_rule(rule **head, char *rulename_base, int rulename_length) {
     return new;
 }
 
-rule *find_rule(rule *head, char *rulename_base, int rulename_length) {
-    string rulename = { rulename_base, rulename_length };
-    rule *element = head,
+Rule *find_rule(Rule *head, char *rulename_base, int rulename_length) {
+    String rulename = { rulename_base, rulename_length };
+    Rule *element = head,
          *value = NULL;
 
     while (element != NULL && !compare_strings(element->rulename, &rulename)) element = element->next;
@@ -30,8 +30,8 @@ rule *find_rule(rule *head, char *rulename_base, int rulename_length) {
     return value;
 }
 
-void delete_last_rule(rule **head) { 
-    rule *element = *head,
+void delete_last_rule(Rule **head) { 
+    Rule *element = *head,
          *previous = *head;
 
     if (element != NULL) {
@@ -51,14 +51,13 @@ void delete_last_rule(rule **head) {
     }
 }
 
-void delete_rulelist(rule **head) {
+void delete_rulelist(Rule **head) {
     while (*head != NULL) delete_last_rule(head);
 }
 
-concatenation *insert_concatenation(concatenation **head) {
-    concatenation *new = create_element(sizeof(concatenation)),
+Concatenation *insert_concatenation(Concatenation **head) {
+    Concatenation *new = create_element(sizeof(Concatenation)),
                   *element = *head;
-
 
     new->repetitions = NULL;
     new->next = NULL;
@@ -72,8 +71,8 @@ concatenation *insert_concatenation(concatenation **head) {
     return new;
 }
 
-void delete_last_concatenation(concatenation **head) {
-    concatenation *element = *head,
+void delete_last_concatenation(Concatenation **head) {
+    Concatenation *element = *head,
                   *previous = *head;
 
     if (element != NULL) {
@@ -92,12 +91,12 @@ void delete_last_concatenation(concatenation **head) {
     }
 }
 
-void delete_concatenations(concatenation **head) {
+void delete_concatenations(Concatenation **head) {
     while (*head != NULL) delete_last_concatenation(head);
 }
 
-repetition *insert_repetition(repetition **head) {
-    repetition *new = create_element(sizeof(repetition)),
+Repetition *insert_repetition(Repetition **head) {
+    Repetition *new = create_element(sizeof(Repetition)),
                *element = *head;
 
     new->type = NO_REPETITION_TYPE;
@@ -113,8 +112,8 @@ repetition *insert_repetition(repetition **head) {
     return new;
 }
 
-void delete_last_repetition(repetition **head) {
-    repetition *element = *head,
+void delete_last_repetition(Repetition **head) {
+    Repetition *element = *head,
                *previous = *head;
 
     if (element != NULL) {
@@ -136,20 +135,20 @@ void delete_last_repetition(repetition **head) {
     }
 }
 
-void delete_repetitions(repetition **head) {
+void delete_repetitions(Repetition **head) {
     while (*head != NULL) delete_last_repetition(head);
 }
 
-num_val *create_num_val() {
-    num_val *new = create_element(sizeof(num_val));
+Num_val *create_num_val() {
+    Num_val *new = create_element(sizeof(Num_val));
     new->type = NO_NUM_VAL_TYPE;
     new->value.set = NULL;
 
     return new;
 }
 
-void delete_num_val(num_val **head) {
-    num_val *element = *head;
+void delete_num_val(Num_val **head) {
+    Num_val *element = *head;
 
     if (element != NULL) {
         if (element->type == SET) delete_set(&(element->value.set));
@@ -159,8 +158,8 @@ void delete_num_val(num_val **head) {
     }
 }
 
-num_val_set *insert_set_value(num_val_set **head, int value) {
-    num_val_set *new = create_element(sizeof(num_val_set)),
+Num_val_set *insert_set_value(Num_val_set **head, int value) {
+    Num_val_set *new = create_element(sizeof(Num_val_set)),
                 *element = *head;
 
     new->value = value;
@@ -175,8 +174,8 @@ num_val_set *insert_set_value(num_val_set **head, int value) {
     return new;
 }
 
-void delete_last_set_value(num_val_set **head) {
-    num_val_set *element = *head,
+void delete_last_set_value(Num_val_set **head) {
+    Num_val_set *element = *head,
                 *previous = *head;
 
     if (element != NULL) {
@@ -194,12 +193,12 @@ void delete_last_set_value(num_val_set **head) {
     }
 }
 
-void delete_set(num_val_set **head) {
+void delete_set(Num_val_set **head) {
     while (*head != NULL) delete_last_set_value(head);
 }
 
-node *insert_node(node **head, string *rulename, string *content) {
-    node *new = create_element(sizeof(node)),
+Node *insert_node(Node **head, String *rulename, String *content) {
+    Node *new = create_element(sizeof(Node)),
          *element = *head;
 
     new->rulename = rulename;
@@ -216,8 +215,25 @@ node *insert_node(node **head, string *rulename, string *content) {
     return new;
 }
 
-void delete_last_node(node **head) {
-    node *element = *head,
+Node *find_node(Node *head, String *rulename, int *index) {
+    Node *element = head,
+         *value = NULL;
+
+    while (element != NULL && value == NULL) {
+        if (!compare_strings(element->rulename, rulename)) {
+            if (index == 0) value = element;
+            else (*index)--;
+        }
+
+        value = find_node(element->children, rulename, index);
+        element = element->next;
+    }
+
+    return value;
+}
+
+void delete_last_node(Node **head) {
+    Node *element = *head,
          *previous = *head;
 
     if (element != NULL) {
@@ -237,19 +253,19 @@ void delete_last_node(node **head) {
     }
 }
 
-void delete_nodes(node **head) {
+void delete_nodes(Node **head) {
     while (*head != NULL) delete_last_node(head);
 }
 
-string *create_string(char *base, int length) {
-    string *new = create_element(sizeof(string));
+String *create_string(char *base, int length) {
+    String *new = create_element(sizeof(String));
     new->base = base;
     new->length = length;
 
     return new;
 }
 
-int compare_strings(string *s1, string *s2) {
+int compare_strings(String *s1, String *s2) {
     int i = 0;
 
     if (s1->length == s2->length) {
@@ -259,8 +275,8 @@ int compare_strings(string *s1, string *s2) {
     return i == s1->length;
 }
 
-void delete_string(string **head) {
-    string *element = *head;
+void delete_string(String **head) {
+    String *element = *head;
 
     *head = NULL;
     free(element);

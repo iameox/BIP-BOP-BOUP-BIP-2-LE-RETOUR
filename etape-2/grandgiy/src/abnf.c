@@ -2,19 +2,19 @@
 #include "structures.h"
 #include "abnf.h"
 
-void compile_abnf(rule **head, char *file_name) {
+void compile_abnf(Rule **head, char *file_name) {
     char *abnf = NULL;
     int index = 0;
 
-    read_file(file_name, &abnf, get_file_size(file_name));
-    if (!compile_rulelist(head, abnf, &index)) exit_on_error("ABNF incorrect ou syntaxe non supportée.");
-
     insert_rule(head, NUM_VAL_RULE, NUM_VAL_RULE_LENGTH);
     insert_rule(head, CHAR_VAL_RULE, CHAR_VAL_RULE_LENGTH);
+
+    read_file(file_name, &abnf, get_file_size(file_name));
+    if (!compile_rulelist(head, abnf, &index)) exit_on_error("ABNF incorrect ou syntaxe non supportée.");
 }
 
-int compile_rulelist(rule **head, char *abnf, int *index) {
-    int is_valid = 1,
+int compile_rulelist(Rule **head, char *abnf, int *index) {
+    int is_valid = true,
         i = 0;
 
     while (is_valid) {
@@ -28,14 +28,14 @@ int compile_rulelist(rule **head, char *abnf, int *index) {
     return i >= 1;
 }
 
-int compile_rule(rule **head, char *abnf, int *index) {
-    rule *r = insert_rule(head, NULL, 0),
+int compile_rule(Rule **head, char *abnf, int *index) {
+    Rule *r = insert_rule(head, NULL, 0),
          *r2;
     int previous_index = *index,
-        is_redefinition = 0,
-        has_rule = 1;
+        is_redefinition = false,
+        has_rule = true;
 
-    if (!compile_rulename(abnf, index, &(r->rulename))) has_rule = 0;
+    if (!compile_rulename(abnf, index, &(r->rulename))) has_rule = false;
     else {
         r2 = find_rule(*head, r->rulename->base, r->rulename->length);
         is_redefinition = r != r2;
@@ -45,9 +45,9 @@ int compile_rule(rule **head, char *abnf, int *index) {
             r = r2;
         }
 
-        if (!compile_defined_as(abnf, index, is_redefinition)) has_rule = 0;
-        else if (!compile_elements(&(r->concatenations), abnf, index)) has_rule = 0;
-        else if (!compile_c_nl(abnf, index)) has_rule = 0;
+        if (!compile_defined_as(abnf, index, is_redefinition)) has_rule = false;
+        else if (!compile_elements(&(r->concatenations), abnf, index)) has_rule = false;
+        else if (!compile_c_nl(abnf, index)) has_rule = false;
     }
     
     if (!has_rule) {
@@ -58,14 +58,14 @@ int compile_rule(rule **head, char *abnf, int *index) {
     return has_rule;
 }
 
-int compile_rulename(char *abnf, int *index, string **rulename) {
-    int has_rulename = 1;
+int compile_rulename(char *abnf, int *index, String **rulename) {
+    int has_rulename = true;
 
     *rulename = create_string(abnf + *index, 0);
 
     if (!is_alpha(*(abnf + *index))) {
         delete_string(rulename);
-        has_rulename = 0;
+        has_rulename = false;
 
     } else {
         do {
@@ -80,18 +80,18 @@ int compile_rulename(char *abnf, int *index, string **rulename) {
 
 int compile_defined_as(char *abnf, int *index, int is_redefinition) {
     int previous_index = *index,
-        has_defined_as = 1;
+        has_defined_as = true;
 
     consume_c_wsps(abnf, index, 0);
-    if (*(abnf + *index) != '=') has_defined_as = 0;
+    if (*(abnf + *index) != '=') has_defined_as = false;
     else {
         (*index)++;
 
         if (*(abnf + *index) == '/') {
             if (is_redefinition) (*index)++;
-            else has_defined_as = 0;
+            else has_defined_as = false;
         
-        } else if (is_redefinition) has_defined_as = 0;
+        } else if (is_redefinition) has_defined_as = false;
     }
 
     if (has_defined_as) consume_c_wsps(abnf, index, 0);
@@ -100,7 +100,7 @@ int compile_defined_as(char *abnf, int *index, int is_redefinition) {
     return has_defined_as;
 }
 
-int compile_elements(concatenation **head, char *abnf, int *index) {
+int compile_elements(Concatenation **head, char *abnf, int *index) {
     int has_elements = compile_alternation(head, abnf, index);
 
     if (has_elements) consume_c_wsps(abnf, index, 0);
@@ -109,11 +109,11 @@ int compile_elements(concatenation **head, char *abnf, int *index) {
 
 int compile_c_wsp(char *abnf, int *index) {
     int previous_index = *index,
-        has_c_wsp = 1;
+        has_c_wsp = true;
 
     if (!is_wsp(*(abnf + *index))) {
-        if (!compile_c_nl(abnf, index)) has_c_wsp = 0;
-        else if (!is_wsp(*(abnf + *index))) has_c_wsp = 0;
+        if (!compile_c_nl(abnf, index)) has_c_wsp = false;
+        else if (!is_wsp(*(abnf + *index))) has_c_wsp = false;
     }
 
     if (has_c_wsp) (*index)++;
@@ -123,7 +123,7 @@ int compile_c_wsp(char *abnf, int *index) {
 }
 
 int compile_c_nl(char *abnf, int *index) {
-    int has_c_nl = 1;
+    int has_c_nl = true;
 
     if (!compile_comment(abnf, index)) has_c_nl = consume_crlf(abnf, index);
     return has_c_nl;
@@ -131,9 +131,9 @@ int compile_c_nl(char *abnf, int *index) {
 
 int compile_comment(char *abnf, int *index) {
     int previous_index = *index,
-        has_comment = 1;
+        has_comment = true;
 
-    if (*(abnf + *index) != ';') has_comment = 0;
+    if (*(abnf + *index) != ';') has_comment = false;
     else {
         do (*index)++;
         while (is_wsp(*(abnf + *index)) || is_vchar(*(abnf + *index)));
@@ -145,18 +145,18 @@ int compile_comment(char *abnf, int *index) {
     return has_comment;
 }
 
-int compile_alternation(concatenation **head, char *abnf, int *index) {
-    int has_alternation = 1,
-        is_valid = 1,
+int compile_alternation(Concatenation **head, char *abnf, int *index) {
+    int has_alternation = true,
+        is_valid = true,
         loop_index;
 
-    if (!compile_concatenation(head, abnf, index)) has_alternation = 0;
+    if (!compile_concatenation(head, abnf, index)) has_alternation = false;
     else {
         while (is_valid) {
             loop_index = *index;
             
             consume_c_wsps(abnf, index, 0);
-            if (*(abnf + *index) != '/') is_valid = 0;
+            if (*(abnf + *index) != '/') is_valid = false;
             else {
                 (*index)++;
                 consume_c_wsps(abnf, index, 0);
@@ -170,22 +170,22 @@ int compile_alternation(concatenation **head, char *abnf, int *index) {
     return has_alternation;
 }
 
-int compile_concatenation(concatenation **head, char *abnf, int *index) {
-    concatenation *c = insert_concatenation(head);
-    int has_concatenation = 1,
-        is_valid = 1,
+int compile_concatenation(Concatenation **head, char *abnf, int *index) {
+    Concatenation *c = insert_concatenation(head);
+    int has_concatenation = true,
+        is_valid = true,
         loop_index;
 
     if (!compile_repetition(&(c->repetitions), abnf, index))  {
         delete_last_concatenation(head);
-        has_concatenation = 0;
+        has_concatenation = false;
 
     } else {
         while (is_valid) {
             loop_index = *index;
 
-            if (!consume_c_wsps(abnf, index, 1)) is_valid = 0;
-            else if (!compile_repetition(&(c->repetitions), abnf, index)) is_valid = 0;
+            if (!consume_c_wsps(abnf, index, 1)) is_valid = false;
+            else if (!compile_repetition(&(c->repetitions), abnf, index)) is_valid = false;
 
             if (!is_valid) *index = loop_index;
         }
@@ -194,26 +194,26 @@ int compile_concatenation(concatenation **head, char *abnf, int *index) {
     return has_concatenation;
 }
 
-int compile_repetition(repetition **head, char *abnf, int *index) {
-    repetition *r = insert_repetition(head);
-    int has_repetition = 1;
+int compile_repetition(Repetition **head, char *abnf, int *index) {
+    Repetition *r = insert_repetition(head);
+    int has_repetition = true;
 
     compile_repeat(abnf, index, &(r->min), &(r->max));
     if (!compile_element(abnf, index, r)) {
         delete_last_repetition(head);
-        has_repetition = 0;
+        has_repetition = false;
     }
 
     return has_repetition;
 }
 
 int compile_repeat(char *abnf, int *index, int *min, int *max) {
-    int has_repeat = 1,
+    int has_repeat = true,
         is_consumed = consume_number(abnf, index, 10, min, 1);
 
     if (*(abnf + *index) != '*') {
         if (!is_consumed) {
-            has_repeat = 0;
+            has_repeat = false;
             *min = 1;
         }
 
@@ -227,8 +227,8 @@ int compile_repeat(char *abnf, int *index, int *min, int *max) {
     return has_repeat;
 }
 
-int compile_element(char *abnf, int *index, repetition *r) {
-    int has_element = 1;
+int compile_element(char *abnf, int *index, Repetition *r) {
+    int has_element = true;
 
     if (compile_rulename(abnf, index, &(r->content.rulename))) r->type = RULENAME;
     else if (compile_group_or_option(&(r->content.concatenations), abnf, index, HAS_GROUP)) r->type = GROUP;
@@ -239,26 +239,26 @@ int compile_element(char *abnf, int *index, repetition *r) {
 
     } else if (compile_char_val(abnf, index, &(r->content.char_val))) r->type = CHAR_VAL;
     else if (compile_num_val(abnf, index, &(r->content.num_val))) r->type = NUM_VAL;
-    else has_element = 0; // No support for prose-val
+    else has_element = false; // No support for prose-val
 
     return has_element;
 }
 
-int compile_group_or_option(concatenation **head, char *abnf, int *index, has_group_or_option_type type) {
+int compile_group_or_option(Concatenation **head, char *abnf, int *index, Has_group_or_option_type type) {
     char opening_char = type == HAS_GROUP ? '(' : '[',
          closing_char = type == HAS_GROUP ? ')' : ']';
     int previous_index = *index,
-        has_group_or_option = 1;
+        has_group_or_option = true;
 
-    if (*(abnf + *index) != opening_char) has_group_or_option = 0;
+    if (*(abnf + *index) != opening_char) has_group_or_option = false;
     else {
         (*index)++;
 
         consume_c_wsps(abnf, index, 0);
-        if (!compile_alternation(head, abnf, index)) has_group_or_option = 0;
+        if (!compile_alternation(head, abnf, index)) has_group_or_option = false;
         else {
             consume_c_wsps(abnf, index, 0);
-            if (*(abnf + *index) != closing_char) has_group_or_option = 0;
+            if (*(abnf + *index) != closing_char) has_group_or_option = false;
             else (*index)++;
         }
     }
@@ -267,13 +267,13 @@ int compile_group_or_option(concatenation **head, char *abnf, int *index, has_gr
     return has_group_or_option;
 }
 
-int compile_char_val(char *abnf, int *index, string **char_val) {
+int compile_char_val(char *abnf, int *index, String **char_val) {
     int previous_index = *index,
-        has_char_val = 1;
+        has_char_val = true;
 
     *char_val = create_string(abnf + *index + 1, 0);
 
-    if (*(abnf + *index) != '"') has_char_val = 0;
+    if (*(abnf + *index) != '"') has_char_val = false;
     else {
         (*index)++;
 
@@ -282,7 +282,7 @@ int compile_char_val(char *abnf, int *index, string **char_val) {
             (*char_val)->length++;
         }
 
-        if (*(abnf + *index) != '"') has_char_val = 0;
+        if (*(abnf + *index) != '"') has_char_val = false;
         else (*index)++;
     }
 
@@ -294,17 +294,17 @@ int compile_char_val(char *abnf, int *index, string **char_val) {
     return has_char_val;
 }
 
-int compile_num_val(char *abnf, int *index, num_val **num_val) {
-    int has_num_val = 1;
+int compile_num_val(char *abnf, int *index, Num_val **num_val) {
+    int has_num_val = true;
     *num_val = create_num_val();
 
-    if (*(abnf + *index) != '%') has_num_val = 0;
+    if (*(abnf + *index) != '%') has_num_val = false;
     else {
         (*index)++;
 
         if (!compile_bin_or_dec_or_hex_val(abnf, index, *num_val, 2)) {
             if (!compile_bin_or_dec_or_hex_val(abnf, index, *num_val, 10)) {
-                if (!compile_bin_or_dec_or_hex_val(abnf, index, *num_val, 16)) has_num_val = 0;
+                if (!compile_bin_or_dec_or_hex_val(abnf, index, *num_val, 16)) has_num_val = false;
             }
         }
     }
@@ -313,21 +313,21 @@ int compile_num_val(char *abnf, int *index, num_val **num_val) {
     return has_num_val;
 }
 
-int compile_bin_or_dec_or_hex_val(char *abnf, int *index, num_val *num_val, int base) {
+int compile_bin_or_dec_or_hex_val(char *abnf, int *index, Num_val *num_val, int base) {
     char base_indicator;
     int previous_index = *index,
-        has_bin_or_dec_or_hex_val = 1,
+        has_bin_or_dec_or_hex_val = true,
         value;
 
     if (base == 2) base_indicator = 'b';
     else if (base == 10) base_indicator = 'd';
     else if (base == 16) base_indicator = 'x';
 
-    if (!compare_insensitive(*(abnf + *index), base_indicator)) has_bin_or_dec_or_hex_val = 0;
+    if (!compare_insensitive(*(abnf + *index), base_indicator)) has_bin_or_dec_or_hex_val = false;
     else {
         (*index)++;
 
-        if (!consume_number(abnf, index, base, &value, 1)) has_bin_or_dec_or_hex_val = 0;
+        if (!consume_number(abnf, index, base, &value, 1)) has_bin_or_dec_or_hex_val = false;
         else if (*(abnf + *index) == '-') {
             num_val->value.min_max[0] = value;
             num_val->type = MIN_MAX;

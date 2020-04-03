@@ -6,7 +6,7 @@
 FILE *open_file(char *file_name) {
     FILE *file = fopen(file_name, "r");
     
-    if (file == NULL) exit_on_error("Impossible d'ouvrir le fichier.");
+    if (file == NULL) exit_on_error("Impossible d'ouvrir le fichier en lecture.");
     return file;
 }
 
@@ -22,6 +22,7 @@ void read_file(char *file_name, char **buffer, int size) {
 
     *buffer = create_element(size + 1);
     if (fread(*buffer, 1, size, file) != size) exit_on_error("Impossible de lire le contenu du fichier.");
+    *(*buffer + size) = '\0';
 
     close_file(file);
 }
@@ -36,6 +37,18 @@ void *create_element(int size) {
 
     return new;
 }
+
+int get_length(char *s) {
+    int length = 0;
+
+    while (*s != '\0') {
+        length++;
+        s++;
+    }
+
+    return length;
+}
+
 
 int is_between(unsigned char c, unsigned char c1, unsigned char c2) {
     return c1 <= c && c <= c2;
@@ -75,7 +88,7 @@ int is_digit(char c, int base) {
 }
 
 int is_wsp(char c) {
-    return c == ' ' || c == '\t';
+    return (c == ' ' || c == '\t');
 }
 
 int is_crlf(char *s) {

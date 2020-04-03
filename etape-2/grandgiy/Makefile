@@ -1,20 +1,30 @@
-all: test.o abnf.o http.o structures.o functions.o
+all: main.o api.o abnf.o http.o structures.o functions.o
+	gcc -o main main.o api.o abnf.o http.o structures.o functions.o
+
+test: test.o abnf.o http.o structures.o functions.o
 	gcc -o test test.o abnf.o http.o structures.o functions.o
-
-test.o: test.c http.h
-	gcc -c test.c -Wall
-
-abnf.o: abnf.c abnf.h structures.h functions.h
-	gcc -c abnf.c -Wall
-
-http.o: http.c http.h abnf.h structures.h functions.h
-	gcc -c http.c -Wall
-
-structures.o: structures.c functions.h
-	gcc -c structures.c -Wall
-
-functions.o: functions.c functions.h
-	gcc -c functions.c -Wall
 
 clean:
 	rm -rf *.o
+
+
+main.o: main.c api.h
+	gcc -c main.c -Wall
+
+api.o: api.c api.h src/*.h
+	gcc -c api.c -Wall
+
+test.o: test.c src/*.h
+	gcc -c test.c -Wall
+
+abnf.o: src/abnf.c src/*.h
+	gcc -c src/abnf.c -Wall
+
+http.o: src/http.c src/*.h
+	gcc -c src/http.c -Wall
+
+structures.o: src/structures.c src/*.h
+	gcc -c src/structures.c -Wall
+
+functions.o: src/functions.c src/*.h
+	gcc -c src/functions.c -Wall
