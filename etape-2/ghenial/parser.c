@@ -1,14 +1,30 @@
+/*
+* GHENIA Lucas
+* P2022 IRC
+*/
+
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 
-#define TERMINAL_RULES {"DIGIT","ALPHA"}
-
+/*
+* Structure utilisée pour traiter les chaines sans sentinelles
+* Permet de récupérer un pointeur vers le début de cette chaine et sa taille
+*/
 typedef struct string {
 	char * str;
 	int size;
 } string;
 
+/*
+* Structure décrivant une règle abnf
+* rule_name : nom de la règle (case sentitive pour le moment) 
+* AFAIRE : case insentive
+* expression : le contenu de cette règle
+* is_terminal : explicite
+* elements : pointeur vers liste de règle contenant toutes les sous règles apparaissant dans expression
+*/
 typedef struct abnf_rule {
 	string rule_name;
 	string expression;
@@ -17,72 +33,65 @@ typedef struct abnf_rule {
 	struct rule_list * elements;
 } abnf_rule;
 
+/*
+* Liste chainée de règles abnf
+*/
 typedef struct rule_list {
 	abnf_rule * rule;
 	struct rule_list * next;
 } rule_list;
 
 
+typedef struct node{
+	abnf_rule * rule;
+	string tag;
+	struct node ** children;
+};
+
 int is_upper_alpha(char c) {
-	return(c >= 0x41 && c <= 0x5a);
+	return (c >= 0x41 && c <= 0x5a);
 }
 
 int is_lower_alpha(char c) {
-	return(c >= 0x61 && c <= 0x7a);
+	return (c >= 0x61 && c <= 0x7a);
 }
 
 int is_alpha(char c) {
-	return is_upper_alpha(c) || is_lower_alpha(c);
+	return (is_upper_alpha(c) || is_lower_alpha(c));
 }
 
 int is_digit(char c) {
-	return(c >= 0x30 && c <= 0x39);
+	return (c >= 0x30 && c <= 0x39);
 }
 
 int is_char(char c, string s) {
-	if(s.size == 0) return 0;
-	if(c == s.str[0]) return 1;
+	if (s.size == 0) return 0;
+	if (c == s.str[0]) return 1;
 	else return -1;
 }
 
 int is_crlf(char c1, char c2) {
-	return(c1 == 0x0D && c2 == 0x0A);
+	return (c1 == 0x0D && c2 == 0x0A);
 }
 
 int is_sp(char c) {
-	return(c == 0x20);
+	return (c == 0x20);
 }
 
 int is_htab(char c) {
-	return(c == 0x09);
+	return (c == 0x09);
 }
 
-//Retourne 1 si la chaine sub est présente dans str à partir de start
-/*int is_subchain(string sub, string str, int start) {
-	int i = start, j = 0, valid = 1;
-
-
-	if(sub.size > (str.size-start) || start > str.size) valid = 0;
-
-	while(valid && j < sub.size && i < str.size) {
-		if(sub.str[j] != str.str[i]) {
-			valid = 0;
-		}
-		i++;
-		j++;
-	}
-
-	return valid;
-}*/
-
-//Retourne 1 si la chaine sub est présente dans str
+/*
+* Retourne 1 si la chaine sub est présente dans str, 0 sinon
+*/
 int is_subchain(string sub, string str) {
 	int i = 0, valid = 1;
 
-	if(sub.size > str.size) valid = 0;
+	if (sub.size > str.size) valid = 0;
 
-	while(valid && i < sub.size) {
-		if(sub.str[i] != str.str[i]) {
+	while (valid && i < sub.size) {
+		if (sub.str[i] != str.str[i]) {
 			valid = 0;
 		}
 		i++;
@@ -91,17 +100,20 @@ int is_subchain(string sub, string str) {
 	return valid;
 }
 
+/*
+* Insertion en tête d'une règle dans une liste de règles
+*/
 void insert_rule(rule_list ** head, abnf_rule * new_rule) {
 	//rule_list * r = head;
 	rule_list * new = malloc(sizeof(rule_list));
 	new->rule = new_rule;
 
-	if(new == NULL) {
+	if (new == NULL) {
 		perror("Erreur de malloc\n");
 		exit(EXIT_FAILURE);
 	}
 
-	if(*head == NULL) {
+	if (*head == NULL) {
 		*head = new;
 		new->next = NULL;
 	} else {
@@ -111,6 +123,9 @@ void insert_rule(rule_list ** head, abnf_rule * new_rule) {
 
 }
 
+/*
+* Crée une nouvelle règle à partir des paramètres
+*/
 abnf_rule * create_rule(char * str_name, int name_size, char* str_expression, int expression_size, int is_terminal, rule_list * elements) {
 	abnf_rule *new = malloc(sizeof(abnf_rule));
 	string rule_name = {str_name, name_size};
@@ -125,21 +140,26 @@ abnf_rule * create_rule(char * str_name, int name_size, char* str_expression, in
 	return new;
 }
 
+/* DEBUG ASUPPR
+* Fonction d'affichage de liste chainée
+*/
 void printList(rule_list * head) {
 	rule_list * r = head;
-	while(r != NULL) {
+	while (r != NULL) {
 		printf("Règle : %s\n", r->rule->rule_name.str);
 		r = r->next;
 	}
 }
 
-
+/*
+* Récupère la sous règle sous forme de structure abnf, en cherchant à l'indice start de l'expression de la règle principale
+*/
 abnf_rule * get_subrule(abnf_rule * rule, int start) {
 	int found = 0;
 	rule_list * r = rule->elements;
 	string tmp = {rule->expression.str + start, rule->expression.size};
-	while(!found && r != NULL) {
-		if(is_subchain(r->rule->rule_name, tmp)) {
+	while (!found && r != NULL) {
+		if (is_subchain(r->rule->rule_name, tmp)) {
 			found = 1;
 		} else {
 			r = r->next;
@@ -150,6 +170,9 @@ abnf_rule * get_subrule(abnf_rule * rule, int start) {
 	else return NULL;
 }
 
+/* DEBUG ASUPPR
+* Fonction d'affichage personnalisée (pour ne pas dépendre des sentinelles)
+*/
 void printntruc(char* str, int size) {
 	int i;
 	printf("\"");
@@ -157,10 +180,18 @@ void printntruc(char* str, int size) {
 	printf("\"\n");
 }
 
+//ASUPPR
+//Juste pour indenter
 int bite = 0;
+
+
 //valid > 0 : ok et c'est la taille qu'il faut avancer
-//valid = 0 : 
+//valid = 0 : ok 
 //valid < 0 : règle fausse
+
+/*
+* La big fonction de parsing
+*/
 int parse(abnf_rule * rule, string str) {
 	int i = 0, j, groups, done, start,
 	    k, a, b,
@@ -218,7 +249,7 @@ int parse(abnf_rule * rule, string str) {
 					tmp_rule.str++;
 					tmp_rule.size--;
 					break;
-				case '*': //récup les digits avant et après, et répéter la règle
+				case '*': //récup les éventuels digits avant et après, et répéter la règle
 					//printf("REPETITION\n");
 					if(i == 0) {
 						a = 0;
@@ -265,7 +296,6 @@ int parse(abnf_rule * rule, string str) {
 					}
 					if(subrule != NULL) {
 						match = 1;
-						if(valid == -1) printf("NO\n");
 						while(match > 0 && valid != -1) {
 							match = parse(subrule, tmp_str);
 							if(match > 0) { //si règle vérifiée, on avance
@@ -285,6 +315,7 @@ int parse(abnf_rule * rule, string str) {
 							i += subrule->expression.size;
 							tmp_rule.str += subrule->expression.size;
 							tmp_rule.size -= subrule->expression.size;
+							free(subrule);
 						} else {
 							i += subrule->rule_name.size;
 							tmp_rule.str += subrule->rule_name.size;
@@ -331,6 +362,7 @@ int parse(abnf_rule * rule, string str) {
 						i += subrule->expression.size;
 						tmp_rule.str += subrule->expression.size;
 						tmp_rule.size -= subrule->expression.size;
+						free(subrule);
 					} else {
 						i++;
 						tmp_rule.str++;
@@ -355,6 +387,7 @@ int parse(abnf_rule * rule, string str) {
 						i += subrule->expression.size;
 						tmp_rule.str += subrule->expression.size;
 						tmp_rule.size -= subrule->expression.size;
+						free(subrule);
 					} else {
 						i++;
 						tmp_rule.str++;
@@ -450,8 +483,6 @@ void test(abnf_rule *rule, char * str, int size) {
 	if(a == size) printf("*** OK : \"%s\" (%d) match la règle %s = \"%s\"\n\n", test.str, test.size, rule->rule_name.str, rule->expression.str);
 	else printf("*** KO : \"%s\" (%d) ne match PAS la règle %s = \"%s\"\n\n", test.str, test.size, rule->rule_name.str, rule->expression.str);
 }
-
-abnf_rule * EXISTING_RULES = NULL;
 
 int main(int argc, char * argv[]) {
 	abnf_rule *ALPHA = create_rule("ALPHA", 5, "", 0, 1, NULL);
@@ -898,7 +929,7 @@ int main(int argc, char * argv[]) {
 
 	test(start_line, "POST /cgi-bin/process.cgi HTTP/1.1\r\n", strlen("POST /cgi-bin/process.cgi HTTP/1.1\r\n"));
 
-	//test(start_line, "GET / HTTP/1.1\r\n", strlen("GET / HTTP/1.1\r\n"));
+	test(start_line, "GET / HTTP/1.1\r\n", strlen("GET / HTTP/1.1\r\n"));
 
 	test(HTTP_message, "GET / HTTP/1.0\r\nAccept-Charset: iso-8859-5, unicode-1-1; q=0.8 \r\n\r\n", strlen("GET / HTTP/1.0\r\nAccept-Charset: iso-8859-5, unicode-1-1; q=0.8 \r\n\r\n"));
 
@@ -917,4 +948,13 @@ int main(int argc, char * argv[]) {
 	return 1;
 }
 
-//"GET / HTTP/1.0\r\nReferer: http://www.tutorialspoint.org/http/index.htm \r\n\r\n"
+/*
+Notes :
+
+Les règles de l'abnf ont été "simplifiées" : 
+Les rulename sont case sensitive, ainsi que les multiples caractères entre guillemets ("AbA" est case sensitive)
+DIGIT(rulename) n'est pas implémenté, il faut donc écrire les règles sous la forme DIGIT*DIGIT(rulename)
+%x n'est pas implémenté non plus, il faut préciser les valeurs une par une via la notation "A" / "B"
+La manière dont l'implémentation a été réalisée fait aussi que des ' ' sont nécessaires entre une parenthèse et son contenu (en particulier si elle contient des caractères entre guillemets)
+En dehors de ces points, toutes les règles abnf peuvent être ajoutées au parseur.
+*/
