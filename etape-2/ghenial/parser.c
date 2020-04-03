@@ -138,11 +138,9 @@ abnf_rule * get_subrule(abnf_rule * rule, int start) {
 	int found = 0;
 	rule_list * r = rule->elements;
 	string tmp = {rule->expression.str + start, rule->expression.size};
-	//printf("je cherche une sous règle de %s a partir de %d\n", rule->rule_name.str, start);
 	while(!found && r != NULL) {
 		if(is_subchain(r->rule->rule_name, tmp)) {
 			found = 1;
-			//printf("trouvé, %s est sous chaine de %s à partir de %d\n", r->rule->rule_name.str, rule->expression.str, start);
 		} else {
 			r = r->next;
 		}
@@ -164,7 +162,7 @@ int bite = 0;
 //valid = 0 : 
 //valid < 0 : règle fausse
 int parse(abnf_rule * rule, string str) {
-	int i = 0, j,
+	int i = 0, j, groups, done, start,
 	    k, a, b,
 	    valid = 0,
 	    match = 0;
@@ -176,25 +174,49 @@ int parse(abnf_rule * rule, string str) {
 	//printf(">>>ON ENTRE DANS %s ET STR = \"%s\"\n", rule->rule_name.str, str.str);
 	bite++;
 
-	if(!(rule->is_terminal)) {
-		while(i < rule->expression.size) {
-			switch(rule->expression.str[i]) {
-				case '"':
+	if (!(rule->is_terminal)) {
+		while (i < rule->expression.size) {
+			switch (rule->expression.str[i]) {
+				case '"': //AFAIRE FONCTION POUR LE CASE INSENTIVE !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 					i++;
-					match = is_char(rule->expression.str[i],tmp_str);
-					//printf("%c == \"%c\" ?\n", rule->expression.str[i], tmp_str.str[0]);
-					if(match > 0) { //si règle vérifiée, on avance
-						//printf("\"%c\" match un caractère entre guillemets\n", rule->expression.str[i]);
-						valid += match;
-						tmp_str.str += match;
-						tmp_str.size -= match;
-					} else {
-						valid = -1;
-						//return valid;
+					tmp_rule.str++;
+					tmp_rule.size--;
+					done = 0;
+					match = 1;
+					start = i; 
+					while(!done && match > 0) {
+						if(rule->expression.str[i] == '"') {
+							done = 1;
+						} else {
+							match = is_char(rule->expression.str[i],tmp_str);
+							if (match > 0) { //si règle vérifiée, on avance
+								valid += match;
+								tmp_str.str += match;
+								tmp_str.size -= match;
+							} else {
+								valid = -1;
+							}
+						}
+						i++;
+						tmp_rule.str++;
+						tmp_rule.size--;
 					}
-					i += 2;
-					tmp_rule.str+= 3;
-					tmp_rule.size-=3;
+					if(match <= 0) {
+						//On reset notre avancement dans tmp_str:
+						if(i-start > 1) {
+							tmp_str.str -= i - start - 1;
+							tmp_str.size += i - start - 1;
+						}
+						while(rule->expression.str[i] != '"') { //on finit quand même la chaine
+							i++;
+							tmp_rule.str++;
+							tmp_rule.size--;
+						}
+
+					}
+					i++;
+					tmp_rule.str++;
+					tmp_rule.size--;
 					break;
 				case '*': //récup les digits avant et après, et répéter la règle
 					//printf("REPETITION\n");
@@ -215,43 +237,50 @@ int parse(abnf_rule * rule, string str) {
 					} else {
 						b = b - '0';
 						i++;
+						tmp_rule.str++;
+						tmp_rule.size--;
 					}
 					i++;
 					tmp_rule.str++;
 					tmp_rule.size--;
-					k = a;
+					k = 0;
 					if(rule->expression.str[i] == '(') {
-						//FAUT GERER LES CAS TYPE (C (A/B) D)
-						j = 1;
-						while (rule->expression.str[j] != ')' || rule->expression.str[(j-1)] == '"') j++;
-						subrule = create_rule("GROUPE", strlen("GROUPE"), tmp_rule.str + 1, j-1, 0, rule->elements);
+						j = i+1;
+						groups = 1;
+						done = 0;
+						while (!done) {
+							if(rule->expression.str[j] == '(' && rule->expression.str[(j-1)] != '"') groups++;
+							else if(rule->expression.str[j] == ')' && rule->expression.str[(j-1)] != '"') {
+								if(groups == 1) done = 1;
+								else groups--;
+							}
+							j++;
+						}
+						subrule = create_rule("GROUPE*", strlen("GROUPE*"), tmp_rule.str + 1, j - i - 1, 0, rule->elements);
+						//printf("GROUPE + * = ");
+						//printntruc(tmp_rule.str, j - i);
+
 					} else {
 						subrule = get_subrule(rule, i);
 					}
 					if(subrule != NULL) {
-						//printf("On va appliquer %s = \"%s\" de %d à %d sur la chaine \"%s\"\n", subrule->rule_name.str, subrule->expression.str,a,b, tmp_str.str);
 						match = 1;
-						while(k != b && match > 0) {
+						if(valid == -1) printf("NO\n");
+						while(match > 0 && valid != -1) {
 							match = parse(subrule, tmp_str);
-							//printf("match = %d, k = %d\n", match,k);
 							if(match > 0) { //si règle vérifiée, on avance
 								tmp_str.str += match;
 								tmp_str.size -= match;
-								valid += match;
+								if(valid != -1) valid += match;
 							}
 							k++;
+							//printf("k = %d\n", k);
 						}
-						if(match < 0 && k <= a+1 && a != 0) {
+						if ((a != b && match < 0 && k < a+1 && a != 0) || (a == b && match < 0 && k != a+1) || (a != b && match < 0 && k > b+1 && b != -1)) {
+							//printf("a = %d b = %d k = %d \n", a,b,k);
 							valid = -1;
-						} else if (k == b && match > 0) {
-							match = parse(subrule, tmp_str);
-							if(match > 0) { //si règle vérifiée, on avance
-								tmp_str.str += match;
-								tmp_str.size -= match;
-								valid += match;
-							}
 						}
-						//On incrémente les index, selon si on a utilisé une sous règle personnalisée ou pas
+						//On incrémente les index, selon si on a utilisé une sous règle groupée ou pas
 						if(rule->expression.str[i] == '(') {
 							i += subrule->expression.size;
 							tmp_rule.str += subrule->expression.size;
@@ -261,6 +290,9 @@ int parse(abnf_rule * rule, string str) {
 							tmp_rule.str += subrule->rule_name.size;
 							tmp_rule.size -= subrule->rule_name.size;
 						}
+						i++;
+						tmp_rule.str++;
+						tmp_rule.size--;
 					} else {
 						i++;
 						tmp_rule.str++;
@@ -268,8 +300,42 @@ int parse(abnf_rule * rule, string str) {
 					}
 					break;
 				case '(': // système de stack pour les expressions parenthèsées? 
-					// OWS A GERER
+					if(i > 0 && rule->expression.str[i-1] == '*') {
+						printf("\nHONO, %s\n\n", rule->rule_name.str);
+						printntruc(tmp_rule.str -1, tmp_rule.size);
+					}
 					//printf("parenthèses\n");
+					j = i+1;
+					groups = 1;
+					done = 0;
+					while (!done) {
+						if(rule->expression.str[j] == '(' && rule->expression.str[(j-1)] != '"') groups++;
+						else if(rule->expression.str[j] == ')' && rule->expression.str[(j-1)] != '"') {
+							if(groups == 1) done = 1;
+							else groups--;
+						}
+						j++;
+					}
+					subrule = create_rule("GROUPE", strlen("GROUPE"), tmp_rule.str + 1, j - i - 1, 0, rule->elements);
+					//printf("GROUPE = ");
+					//printntruc(tmp_rule.str, j - i);
+					if(subrule != NULL) {
+						match = parse(subrule, tmp_str);
+						if(match > 0 && valid != -1) { //si règle vérifiée, on avance
+							tmp_str.str += match;
+							tmp_str.size -= match;
+							valid += match;
+						} else {
+							valid = -1;
+						}
+						i += subrule->expression.size;
+						tmp_rule.str += subrule->expression.size;
+						tmp_rule.size -= subrule->expression.size;
+					} else {
+						i++;
+						tmp_rule.str++;
+						tmp_rule.size--;
+					}
 					i++;
 					tmp_rule.str++;
 					tmp_rule.size--;
@@ -280,9 +346,8 @@ int parse(abnf_rule * rule, string str) {
 					
 					subrule = create_rule("OPTIONNEL", strlen("OPTIONNEL"), tmp_rule.str + 1, j-1, 0, rule->elements);
 					if(subrule != NULL) {
-						//printf("On va appliquer %s = \"%s\" de %d à %d sur la chaine \"%s\"\n", subrule->rule_name.str, subrule->expression.str,a,b, tmp_str.str);
 						match = parse(subrule, tmp_str);
-						if(match > 0) { //si règle vérifiée, on avance
+						if(match > 0 && valid != -1) { //si règle vérifiée, on avance
 							tmp_str.str += match;
 							tmp_str.size -= match;
 							valid += match;
@@ -303,15 +368,9 @@ int parse(abnf_rule * rule, string str) {
 					tmp_rule.size--;
 					if(valid == -1) { //on remet valid a 0 car il y a une autre possibilité
 						valid = 0;
-					} else if (valid > 0){
-						bite--;
-						//for(int f = 0 ; f < bite ; f++) printf("\t");
-						//printf("<<< MDR ON SORT DE %s, valid = %d\n", rule->rule_name.str, valid);
-						if(valid > 0) {
-							printf("LA CHAINE QUI PARSE LA REGLE %s = ", rule->rule_name.str);
-							printntruc(str.str, valid);
-						}
-					 	return valid;
+					} else if (valid > 0){ // Si la première possibilité est valide, on sort, pas la peine de checker le reste
+						i = rule->expression.size;
+					 	//return valid;
 					}
 					break;
 				case ' ': //concaténation on avance juste
@@ -322,11 +381,11 @@ int parse(abnf_rule * rule, string str) {
 					break;
 				default:
 					subrule = get_subrule(rule, i);
-					if( subrule != NULL) {
-						//printf("On applique la sous regle %s = \"%s\"\n", subrule->rule_name.str, subrule->expression.str);
+					if (subrule != NULL) {
 						match = parse(subrule, tmp_str);
-						if(match >= 0) { //si règle vérifiée, on avance
+						if (match >= 0 && valid != -1) { //si règle vérifiée, on avance
 							valid += match;
+
 							tmp_str.str += match;
 							tmp_str.size -= match;
 
@@ -344,14 +403,12 @@ int parse(abnf_rule * rule, string str) {
 					
 					break;
 			}
-			//printf("checkup, char = \"%c\" = \"%c\", i= %d \n",rule->expression.str[i], tmp_rule.str[0],i);
 			//printf("TMP_RULE = ");
 			//printntruc(tmp_rule.str, tmp_rule.size);
 			//printf("TMP_STR = ");
 			//printntruc(tmp_str.str, tmp_str.size);
 			//printf("RULE     = ");
 			//printntruc(rule->expression.str + i, rule->expression.size-i);
-			
 		}
 	} else { //Règles terminales
 		if(!strcmp(rule->rule_name.str,"ALPHA")) {
@@ -375,7 +432,8 @@ int parse(abnf_rule * rule, string str) {
 		}
 	}
 
-	if(valid > 0) {
+	if(valid >= 0) {
+		for(int f = 0 ; f < bite ; f++) printf("\t");
 		printf("LA CHAINE QUI PARSE LA REGLE %s = ", rule->rule_name.str);
 		printntruc(str.str, valid);
 	}
@@ -388,9 +446,9 @@ int parse(abnf_rule * rule, string str) {
 void test(abnf_rule *rule, char * str, int size) {
 	string test = {str, size};
 	int a = parse(rule, test);
-	printf("*** RESULTAT = %d\n", a);
-	if(a == size) printf("*** OK : \"%s\" (%d) match la règle %s = \"%s\"\n", test.str, test.size, rule->rule_name.str, rule->expression.str);
-	else printf("*** KO : \"%s\" (%d) ne match PAS la règle %s = \"%s\"\n", test.str, test.size, rule->rule_name.str, rule->expression.str);
+	printf("\n*** RESULTAT = %d\n", a);
+	if(a == size) printf("*** OK : \"%s\" (%d) match la règle %s = \"%s\"\n\n", test.str, test.size, rule->rule_name.str, rule->expression.str);
+	else printf("*** KO : \"%s\" (%d) ne match PAS la règle %s = \"%s\"\n\n", test.str, test.size, rule->rule_name.str, rule->expression.str);
 }
 
 abnf_rule * EXISTING_RULES = NULL;
@@ -550,7 +608,7 @@ int main(int argc, char * argv[]) {
 
 
 	//qvalue = ( "0" [ "." *3DIGIT ] ) / ( "1" [ "." *3"0" ] )
-	char * qvalue_name = "charset";
+	char * qvalue_name = "qvalue";
 	char * qvalue_expr = "( \"0\" [ \".\" *3DIGIT ] ) / ( \"1\" [ \".\" *3\"0\" ] )";
 	rule_list *qvalue_list = NULL;
 	insert_rule(&qvalue_list, DIGIT);
@@ -582,54 +640,217 @@ int main(int argc, char * argv[]) {
 	abnf_rule *Accept_Charset_header = create_rule(Accept_Charset_header_name, strlen(Accept_Charset_header_name), Accept_Charset_header_expr, strlen(Accept_Charset_header_expr), 0, Accept_Charset_header_list);
 
 	//scheme = ALPHA *( ALPHA / DIGIT / "+" / "-" / "." )
+	char * scheme_name = "scheme";
+	char * scheme_expr = "ALPHA *( ALPHA / DIGIT / \"+\" / \"-\" / \".\" )";
+	rule_list *scheme_list = NULL;
+	insert_rule(&scheme_list, ALPHA);
+	insert_rule(&scheme_list, DIGIT);
+	abnf_rule *scheme = create_rule(scheme_name, strlen(scheme_name), scheme_expr, strlen(scheme_expr), 0, scheme_list);
 
 	//userinfo = *( unreserved / pct-encoded / sub-delims / ":" )
+	char * userinfo_name = "userinfo";
+	char * userinfo_expr = "*( unreserved / pct-encoded / sub-delims / \":\" )";
+	rule_list *userinfo_list = NULL;
+	insert_rule(&userinfo_list, unreserved);
+	insert_rule(&userinfo_list, pct_encoded);
+	insert_rule(&userinfo_list, sub_delims);
+	abnf_rule *userinfo = create_rule(userinfo_name, strlen(userinfo_name), userinfo_expr, strlen(userinfo_expr), 0, userinfo_list);
 
 	//IPvFuture = "v" 1*HEXDIG "." 1*( unreserved / sub-delims / ":" )
+	char * IPvFuture_name = "IPvFuture";
+	char * IPvFuture_expr = "\"v\" 1*HEXDIG \".\" 1*( unreserved / sub-delims / \":\" )";
+	rule_list *IPvFuture_list = NULL;
+	insert_rule(&IPvFuture_list, HEXDIG);
+	insert_rule(&IPvFuture_list, unreserved);
+	insert_rule(&IPvFuture_list, sub_delims);
+	abnf_rule *IPvFuture = create_rule(IPvFuture_name, strlen(IPvFuture_name), IPvFuture_expr, strlen(IPvFuture_expr), 0, IPvFuture_list);
 
 	//dec-octet = "25" %x30-35 / "2" %x30-34 DIGIT / "1" 2DIGIT / %x31-39 DIGIT / DIGIT
+	char * dec_octet_name = "dec-octet";
+	char * dec_octet_expr = "\"25\" ( \"0\" / \"1\" / \"2\" / \"3\" / \"4\" / \"5\" ) / \"2\" ( \"0\" / \"1\" / \"2\" / \"3\" / \"4\" ) DIGIT / \"1\" 2*2(DIGIT) / ( \"1\" / \"2\" / \"3\" / \"4\" / \"5\" / \"6\" / \"7\" / \"8\" / \"9\" ) DIGIT / DIGIT";
+	rule_list *dec_octet_list = NULL;
+	insert_rule(&dec_octet_list, DIGIT);
+	abnf_rule *dec_octet = create_rule(dec_octet_name, strlen(dec_octet_name), dec_octet_expr, strlen(dec_octet_expr), 0, dec_octet_list);
 
 	//IPv4address = dec-octet "." dec-octet "." dec-octet "." dec-octet
+	char * IPv4address_name = "IPv4address";
+	char * IPv4address_expr = "dec-octet \".\" dec-octet \".\" dec-octet \".\" dec-octet";
+	rule_list *IPv4address_list = NULL;
+	insert_rule(&IPv4address_list, dec_octet);
+	abnf_rule *IPv4address = create_rule(IPv4address_name, strlen(IPv4address_name), IPv4address_expr, strlen(IPv4address_expr), 0, IPv4address_list);
 	
 	//h16 = 1*4HEXDIG
+	char * h16_name = "h16";
+	char * h16_expr = "1*4HEXDIG";
+	rule_list *h16_list = NULL;
+	insert_rule(&h16_list, HEXDIG);
+	abnf_rule *h16 = create_rule(h16_name, strlen(h16_name), h16_expr, strlen(h16_expr), 0, h16_list);
 
 	//ls32 = ( h16 ":" h16 ) / IPv4address
+	char * ls32_name = "ls32";
+	char * ls32_expr = "( h16 \":\" h16 ) / IPv4address";
+	rule_list *ls32_list = NULL;
+	insert_rule(&ls32_list, h16);
+	insert_rule(&ls32_list, IPv4address);
+	abnf_rule *ls32 = create_rule(ls32_name, strlen(ls32_name), ls32_expr, strlen(ls32_expr), 0, ls32_list);
 
 	//IPv6address = 6( h16 ":" ) ls32 / "::" 5( h16 ":" ) ls32 / [ h16 ] "::" 4( h16 ":" ) ls32 / [ h16 *1( ":" h16 ) ] "::" 3( h16 ":" ) ls32 / [ h16 *2( ":" h16 ) ] "::" 2( h16 ":" ) ls32 / [ h16 *3( ":" h16 ) ] "::" h16 ":" ls32 / [ h16 *4( ":" h16 ) ] "::" ls32 / [ h16 *5( ":" h16 ) ] "::" h16 / [ h16 *6( ":" h16 ) ] "::"
-	
+	char * IPv6address_name = "IPv6address";
+	char * IPv6address_expr = "6*6( h16 \":\" ) ls32 / \"::\" 5*5( h16 \":\" ) ls32 / [ h16 ] \"::\" 4*4( h16 \":\" ) ls32 / [ h16 *1( \":\" h16 ) ] \"::\" 3*3( h16 \":\" ) ls32 / [ h16 *2( \":\" h16 ) ] \"::\" 2*2( h16 \":\" ) ls32 / [ h16 *3( \":\" h16 ) ] \"::\" h16 \":\" ls32 / [ h16 *4( \":\" h16 ) ] \"::\" ls32 / [ h16 *5( \":\" h16 ) ] \"::\" h16 / [ h16 *6( \":\" h16 ) ] \"::\"";
+	rule_list *IPv6address_list = NULL;
+	insert_rule(&IPv6address_list, h16);
+	insert_rule(&IPv6address_list, ls32);
+	abnf_rule *IPv6address = create_rule(IPv6address_name, strlen(IPv6address_name), IPv6address_expr, strlen(IPv6address_expr), 0, IPv6address_list);
+
 	//segment-nz = 1*pchar
+	char * segment_nz_name = "segment-nz";
+	char * segment_nz_expr = "1*pchar";
+	rule_list *segment_nz_list = NULL;
+	insert_rule(&segment_nz_list, HEXDIG);
+	abnf_rule *segment_nz = create_rule(segment_nz_name, strlen(segment_nz_name), segment_nz_expr, strlen(segment_nz_expr), 0, segment_nz_list);
 
 	//segment-nz-nc = 1*( unreserved / pct-encoded / sub-delims / "@" )
+	char * segment_nz_nc_name = "segment-nz-nc";
+	char * segment_nz_nc_expr = "1*( unreserved / pct-encoded / sub-delims / \"@\" )";
+	rule_list *segment_nz_nc_list = NULL;
+	insert_rule(&segment_nz_nc_list, unreserved);
+	insert_rule(&segment_nz_nc_list, pct_encoded);
+	insert_rule(&segment_nz_nc_list, sub_delims);
+	abnf_rule *segment_nz_nc = create_rule(segment_nz_nc_name, strlen(segment_nz_nc_name), segment_nz_nc_expr, strlen(segment_nz_nc_expr), 0, segment_nz_nc_list);
 
 	//path-abempty = *( "/" segment )
+	char * path_abempty_name = "path-abempty";
+	char * path_abempty_expr = "*( \"/\" segment )";
+	rule_list *path_abempty_list = NULL;
+	insert_rule(&path_abempty_list, segment);
+	abnf_rule *path_abempty = create_rule(path_abempty_name, strlen(path_abempty_name), path_abempty_expr, strlen(path_abempty_expr), 0, path_abempty_list);
 
 	//path-absolute = "/" [ segment-nz *( "/" segment ) ]
+	char * path_absolute_name = "path-absolute";
+	char * path_absolute_expr = "\"/\" [ segment-nz *( \"/\" segment ) ]";
+	rule_list *path_absolute_list = NULL;
+	insert_rule(&path_absolute_list, segment_nz);
+	insert_rule(&path_absolute_list, segment);
+	abnf_rule *path_absolute = create_rule(path_absolute_name, strlen(path_absolute_name), path_absolute_expr, strlen(path_absolute_expr), 0, path_absolute_list);
 
 	//path-noscheme = segment-nz-nc *( "/" segment )
+	char * path_noscheme_name = "path-noscheme";
+	char * path_noscheme_expr = "segment-nz-nc *( \"/\" segment )";
+	rule_list *path_noscheme_list = NULL;
+	insert_rule(&path_noscheme_list, segment_nz_nc);
+	insert_rule(&path_noscheme_list, segment);
+	abnf_rule *path_noscheme = create_rule(path_noscheme_name, strlen(path_noscheme_name), path_noscheme_expr, strlen(path_noscheme_expr), 0, path_noscheme_list);
 
 	//path-rootless = segment-nz *( "/" segment )
+	char * path_rootless_name = "path-rootless";
+	char * path_rootless_expr = "segment-nz *( \"/\" segment )";
+	rule_list *path_rootless_list = NULL;
+	insert_rule(&path_rootless_list, segment_nz);
+	insert_rule(&path_rootless_list, segment);
+	abnf_rule *path_rootless = create_rule(path_rootless_name, strlen(path_rootless_name), path_rootless_expr, strlen(path_rootless_expr), 0, path_rootless_list);
 
 	//path-empty = ""
+	char * path_empty_name = "path_empty";
+	char * path_empty_expr = "";
+	rule_list *path_empty_list = NULL;
+	abnf_rule *path_empty = create_rule(path_empty_name, strlen(path_empty_name), path_empty_expr, strlen(path_empty_expr), 0, path_empty_list);
 
 	//IP-literal = "[" ( IPv6address / IPvFuture ) "]"
+	char * IP_literal_name = "IP-literal";
+	char * IP_literal_expr = "\"[\" ( IPvFuture ) \"]\"";
+	rule_list *IP_literal_list = NULL;
+	insert_rule(&IP_literal_list, IPv6address);
+	insert_rule(&IP_literal_list, IPvFuture);
+	abnf_rule *IP_literal = create_rule(IP_literal_name, strlen(IP_literal_name), IP_literal_expr, strlen(IP_literal_expr), 0, IP_literal_list);
 
 	//reg-name = *( unreserved / pct-encoded / sub-delims )
+	char * reg_name_name = "reg-name";
+	char * reg_name_expr = "*( unreserved / pct-encoded / sub-delims )";
+	rule_list *reg_name_list = NULL;
+	insert_rule(&reg_name_list, unreserved);
+	insert_rule(&reg_name_list, pct_encoded);
+	insert_rule(&reg_name_list, sub_delims);
+	abnf_rule *reg_name = create_rule(reg_name_name, strlen(reg_name_name), reg_name_expr, strlen(reg_name_expr), 0, reg_name_list);
 
-	//host = IP-literal / IPv4address / reg-name ;
+	//host = IP-literal / IPv4address / reg-name
+	char * host_name = "host";
+	char * host_expr = "IP-literal / IPv4address / reg-name";
+	rule_list *host_list = NULL;
+	insert_rule(&host_list, IP_literal);
+	insert_rule(&host_list, IPv4address);
+	insert_rule(&host_list, reg_name);
+	abnf_rule *host = create_rule(host_name, strlen(host_name), host_expr, strlen(host_expr), 0, host_list);
+
+	//port = *DIGIT
+	char * port_name = "port";
+	char * port_expr = "*DIGIT";
+	rule_list *port_list = NULL;
+	insert_rule(&port_list, IP_literal);
+	abnf_rule *port = create_rule(port_name, strlen(port_name), port_expr, strlen(port_expr), 0, port_list);
 
 	//authority = [ userinfo "@" ] host [ ":" port ]
+	char * authority_name = "authority";
+	char * authority_expr = "[ userinfo \"@\" ] host [ \":\" port ]";
+	rule_list *authority_list = NULL;
+	insert_rule(&authority_list, userinfo);
+	insert_rule(&authority_list, host);
+	insert_rule(&authority_list, port);
+	abnf_rule *authority = create_rule(authority_name, strlen(authority_name), authority_expr, strlen(authority_expr), 0, authority_list);
 
 	//hier-part = "//" authority path-abempty / path-absolute / path-rootless / path-empty
+	char * hier_part_name = "hier-part";
+	char * hier_part_expr = "\"//\" authority path-abempty / path-absolute / path-rootless / path-empty";
+	rule_list *hier_part_list = NULL;
+	insert_rule(&hier_part_list, authority);
+	insert_rule(&hier_part_list, path_abempty);
+	insert_rule(&hier_part_list, path_absolute);
+	insert_rule(&hier_part_list, path_rootless);
+	insert_rule(&hier_part_list, path_empty);
+	abnf_rule *hier_part = create_rule(hier_part_name, strlen(hier_part_name), hier_part_expr, strlen(hier_part_expr), 0, hier_part_list);
 
 	//absolute-URI = scheme ":" hier-part [ "?" query ]
+	char * absolute_URI_name = "absolute-URI";
+	char * absolute_URI_expr = "scheme \":\" hier-part [ \"?\" query ]";
+	rule_list *absolute_URI_list = NULL;
+	insert_rule(&absolute_URI_list, scheme);
+	insert_rule(&absolute_URI_list, hier_part);
+	insert_rule(&absolute_URI_list, query);
+	abnf_rule *absolute_URI = create_rule(absolute_URI_name, strlen(absolute_URI_name), absolute_URI_expr, strlen(absolute_URI_expr), 0, absolute_URI_list);
 
 	//relative-part = "//" authority path-abempty / path-absolute / path-noscheme / path-empty
+	char * relative_part_name = "relative_part";
+	char * relative_part_expr = "\"//\" authority path-abempty / path-absolute / path-noscheme / path-empty";
+	rule_list *relative_part_list = NULL;
+	insert_rule(&relative_part_list, authority);
+	insert_rule(&relative_part_list, path_abempty);
+	insert_rule(&relative_part_list, path_absolute);
+	insert_rule(&relative_part_list, path_noscheme);
+	insert_rule(&relative_part_list, path_empty);
+	abnf_rule *relative_part = create_rule(relative_part_name, strlen(relative_part_name), relative_part_expr, strlen(relative_part_expr), 0, relative_part_list);
 
 	//partial-URI = relative-part [ "?" query ]
+	char * partial_URI_name = "partial_URI";
+	char * partial_URI_expr = "relative-part [ \"?\" query ]";
+	rule_list *partial_URI_list = NULL;
+	insert_rule(&partial_URI_list, relative_part);
+	insert_rule(&partial_URI_list, query);
+	abnf_rule *partial_URI = create_rule(partial_URI_name, strlen(partial_URI_name), partial_URI_expr, strlen(partial_URI_expr), 0, partial_URI_list);
 
 	//Referer = absolute-URI / partial-URI
+	char * Referer_name = "Referer";
+	char * Referer_expr = "absolute-URI / partial-URI";
+	rule_list *Referer_list = NULL;
+	insert_rule(&Referer_list, absolute_URI);
+	insert_rule(&Referer_list, partial_URI);
+	abnf_rule *Referer = create_rule(Referer_name, strlen(Referer_name), Referer_expr, strlen(Referer_expr), 0, Referer_list);
 
 	//Referer-header = "Referer" ":" OWS Referer OWS
+	char * Referer_header_name = "Referer-header";
+	char * Referer_header_expr = "\"Referer\" \":\" OWS Referer OWS";
+	rule_list *Referer_header_list = NULL;
+	insert_rule(&Referer_header_list, OWS);
+	insert_rule(&Referer_header_list, Referer);
+	abnf_rule *Referer_header = create_rule(Referer_header_name, strlen(Referer_header_name), Referer_header_expr, strlen(Referer_header_expr), 0, Referer_header_list);
 
 
 	//header-field = Accept-Charset-header / Referer-header
@@ -637,14 +858,13 @@ int main(int argc, char * argv[]) {
 	char * header_field_expr = "Accept-Charset-header / Referer-header";
 	rule_list *header_field_list = NULL;
 	insert_rule(&header_field_list, Accept_Charset_header);
-	//insert_rule(&header_field_list, Referer_header);
+	insert_rule(&header_field_list, Referer_header);
 	abnf_rule *header_field = create_rule(header_field_name, strlen(header_field_name), header_field_expr, strlen(header_field_expr), 0, header_field_list);
 
 	//message-body = ""
 	char * message_body_name = "message-body";
-	char * message_body_expr = "";
+	char * message_body_expr = "ALPHA";
 	rule_list *message_body_list = NULL;
-	insert_rule(&message_body_list, token);
 	abnf_rule *message_body = create_rule(message_body_name, strlen(message_body_name), message_body_expr, strlen(message_body_expr), 0, message_body_list);
 
 	//HTTP-message = start-line *( header-field CRLF ) CRLF [ message-body ]
@@ -652,9 +872,9 @@ int main(int argc, char * argv[]) {
 	char * HTTP_message_expr = "start-line *( header-field CRLF ) CRLF [ message-body ]";
 	rule_list *HTTP_message_list = NULL;
 	insert_rule(&HTTP_message_list, start_line);
-	//insert_rule(&HTTP_message_list, header_field);
+	insert_rule(&HTTP_message_list, header_field);
 	insert_rule(&HTTP_message_list, CRLF);
-	//insert_rule(&HTTP_message_list, message_body);
+	insert_rule(&HTTP_message_list, message_body);
 	abnf_rule *HTTP_message = create_rule(HTTP_message_name, strlen(HTTP_message_name), HTTP_message_expr, strlen(HTTP_message_expr), 0, HTTP_message_list);
 
 	
@@ -662,7 +882,7 @@ int main(int argc, char * argv[]) {
 	
 
 //tests unitaires, enfin vite fait
-	/*test(token, "", 0);
+	test(token, "", 0);
 	test(token2, "", 0);
 	test(token13, "", 0);
 
@@ -676,18 +896,25 @@ int main(int argc, char * argv[]) {
 
 	test(pct_encoded, "%AF", strlen("%AF"));
 
-	test(start_line, "POST /cgi-bin/process.cgi HTTP/1.1\r\n", strlen("POST /cgi-bin/process.cgi HTTP/1.1\r\n"));*/
+	test(start_line, "POST /cgi-bin/process.cgi HTTP/1.1\r\n", strlen("POST /cgi-bin/process.cgi HTTP/1.1\r\n"));
 
+	//test(start_line, "GET / HTTP/1.1\r\n", strlen("GET / HTTP/1.1\r\n"));
+
+	test(HTTP_message, "GET / HTTP/1.0\r\nAccept-Charset: iso-8859-5, unicode-1-1; q=0.8 \r\n\r\n", strlen("GET / HTTP/1.0\r\nAccept-Charset: iso-8859-5, unicode-1-1; q=0.8 \r\n\r\n"));
+
+	test(HTTP_message, "GET / HTTP/1.0\r\nReferer: http://www.tutorialspoint.org/http/index.htm \r\n\r\n", strlen("GET / HTTP/1.0\r\nReferer: http://www.tutorialspoint.org/http/index.htm \r\n\r\n"));
 	
 
 	printf("============================================================================================\n");
 	//ZONE DE TEST
 	
-	char * my_rule = "ALPHA [ DIGIT ] ALPHA";
-	abnf_rule *rtest = create_rule("test", 5, my_rule, strlen(my_rule), 0, liste_tchar);
+	//char * my_rule = "\"Algerie\" / *ALPHA";
+	//abnf_rule *rtest = create_rule("test", 5, my_rule, strlen(my_rule), 0, liste_tchar);
 
-	char * requete = "POST /cgi-bin/process.cgi HTTP/1.1\r\n";
-	test(start_line, requete, strlen(requete));
+	//char * requete = "Algeroz";
+	//test(rtest, requete, strlen(requete));
 
 	return 1;
 }
+
+//"GET / HTTP/1.0\r\nReferer: http://www.tutorialspoint.org/http/index.htm \r\n\r\n"
