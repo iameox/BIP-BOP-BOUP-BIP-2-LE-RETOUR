@@ -1,16 +1,12 @@
-#include <stdio.h>
 #include "functions.h"
 #include "structures.h"
 #include "abnf.h"
 
 void compile_abnf(rule **head, char *file_name) {
-    FILE *file = open_file(file_name);
     char *abnf = NULL;
     int index = 0;
 
-    read_file(file, &abnf, get_file_size(file));
-    close_file(file);
-
+    read_file(file_name, &abnf, get_file_size(file_name));
     if (!compile_rulelist(head, abnf, &index)) exit_on_error("ABNF incorrect ou syntaxe non supportée.");
 
     insert_rule(head, NUM_VAL_RULE, NUM_VAL_RULE_LENGTH);

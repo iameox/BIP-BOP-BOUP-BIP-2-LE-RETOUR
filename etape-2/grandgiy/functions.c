@@ -1,31 +1,33 @@
 #include <stdlib.h>
 #include <stdio.h>
+#include <sys/stat.h>
 #include "functions.h"
 
 FILE *open_file(char *file_name) {
     FILE *file = fopen(file_name, "r");
-    if (file == NULL) exit_on_error("Ouverture du fichier impossible.");
-
+    
+    if (file == NULL) exit_on_error("Impossible d'ouvrir le fichier.");
     return file;
 }
 
-int get_file_size(FILE *file) {
-    int size;
-
-    fseek(file, 0, SEEK_END);
-    size = ftell(file);
-    rewind(file);
-
-    return size;
+int get_file_size(char *file_name) {
+    struct stat st;
+    
+    if (stat(file_name, &st) == -1) exit_on_error("Impossible de récupérer la taille du fichier.");
+    return st.st_size;
 }
 
-void read_file(FILE *file, char **buffer, int size) {
+void read_file(char *file_name, char **buffer, int size) {
+    FILE *file = open_file(file_name);
+
     *buffer = create_element(size + 1);
     if (fread(*buffer, 1, size, file) != size) exit_on_error("Impossible de lire le contenu du fichier.");
+
+    close_file(file);
 }
 
 void close_file(FILE *file) {
-    if (fclose(file) == EOF) exit_on_error("Fermeture du fichier impossible.");
+    if (fclose(file) == EOF) exit_on_error("Impossible de fermer le fichier.");
 }
 
 void *create_element(int size) {

@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 FILE *open_file(char *file_name);
-int get_file_size(FILE *file);
-void read_file(FILE *file, char **buffer, int size);
+int get_file_size(char *file_name);
+void read_file(char *file_name, char **buffer, int size);
 void close_file(FILE *file);
 
 void *create_element(int size);

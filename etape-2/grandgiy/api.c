@@ -1,16 +1,31 @@
-#include "http_parser.h"
+#include "http.h"
 #include "api.h"
 
-void *getRootTree(); 
+void *getRootTree() {
 
-_Token *searchTree(void *start,char *name); 
+}
 
-char *getElementTag(void *node,int *len); 
+_Token *searchTree(void *start,char *name) {
 
-char *getElementValue(void *node,int *len); 
+}
 
-void purgeElement(_Token **r); 
+char *getElementTag(void *node,int *len) {
 
-void purgeTree(void *root); 
+}
+
+char *getElementValue(void *node,int *len) {
+
+}
+
+void purgeElement(_Token **r) {
+
+}
+
+void purgeTree(void *root) {
+    delete_nodes(&tree);
+    delete_rulelist(&rulelist);
+}
  
-int parseur(char *req, int len); 
+int parseur(char *req, int len) {
+
+}

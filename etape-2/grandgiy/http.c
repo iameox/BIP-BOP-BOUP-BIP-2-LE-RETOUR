@@ -46,6 +46,7 @@ int parse_concatenation(node **tree, rule *rulelist, char *input, int *index, in
     if (!has_concatenation) *index = previous_index;
     return has_concatenation;
 }
+
 int parse_repetition(node **tree, rule *rulelist, char *input, int *index, int length, repetition *r) {
     repetition_type type = r->type;
     int previous_index = *index,

@@ -75,16 +75,12 @@ void print_nodes(node *n, int i) {
 int main (int argc, char *argv[]) {
     if (argc <= 1) exit_on_error("Pas assez d'arguments");
 
-    FILE *file = open_file(argv[1]);
-    int size = get_file_size(file);
-
+    int size = get_file_size(argv[1]);
     char *input = NULL;
     rule *rulelist = NULL;
     node *tree = NULL;
 
-    read_file(file, &input, size);
-    close_file(file);
-
+    read_file(argv[1], &input, size);
     if (!parse_http(&tree, &rulelist, input, size)) printf("Requête invalide.\n");
     else print_nodes(tree, 0);
     printf("\n");
