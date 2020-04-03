@@ -92,9 +92,10 @@ int parseur_ligne_1(char *ligne, int taille_ligne, char *mots[], int tailles_des
 		printf("\n Début de la comparaison de request_line... \n\n");
 		to_return_request = (is_request_line(ligne,mots,tailles_des_mots));
 		to_return = (to_return_status || to_return_request);
-		if (to_return_request) printf("\n C'est une request_line !!\n\n");
-		else if (to_return_status) printf("\n C'est une status line !!\n\n");
-		else printf("\n Ce n'est ni une request line ni une status line... \n\n");
+
+		if (to_return_request) printf("\n %s est une request_line !!\n\n",ligne);
+		else if (to_return_status) printf("\n %s est une status line !!\n\n",ligne);
+		else printf("\n %s n'est ni une request line ni une status line... \n\n",ligne);
 	}
 	return to_return;
 	// La ligne donnée en paramètre est la start_line d'un message HTTP
@@ -169,14 +170,34 @@ int parseur_ligne_2(char *ligne, int taille_ligne, char *mots[], int tailles_des
 	int to_return = 0;
 	if (taille_ligne > 0) to_return = is_host_header(ligne);
 	if (to_return == 0) printf("\n %s n'est pas un Host Header valide. \n\n",ligne);
-	else printf("\n C'est un Host Header valide !!!! \n\n");
+	else printf("\n %s est un Host Header valide !!!! \n\n",ligne);
 
     return to_return;
 }
 
 
+int parseur_ligne_3(char *ligne, int taille_ligne, char *mots[], int tailles_des_mots[])
+{
+	/* On assume que la ligne donnée en paramètre est soit un Host Header, soit un Transfer-Encoding-Header */
+	int to_return = 0;
+	if (taille_ligne > 0) to_return = is_transfer_encoding_header(ligne);
+	if (to_return == 0) printf("\n %s n'est pas un Transfer Encoding Header valide. \n\n",ligne);
+	else printf("\n %s est un Transfer Encoding Header valide !!!! \n\n",ligne);
+
+    return to_return;
+}
 
 
+int parseur_ligne_4(char *ligne, int taille_ligne, char *mots[], int tailles_des_mots[])
+{
+	/* On assume que la ligne donnée en paramètre est un Message Body */
+	int to_return = 0;
+	if (taille_ligne > 0) to_return = is_message_body(ligne);
+	if (to_return == 0) printf("\n %s n'est pas un Message Body valide. \n\n",ligne);
+	else printf("\n %s est un Message Body valide !!!! \n\n",ligne);
+
+    return to_return;
+}
 
 
 
@@ -188,7 +209,8 @@ int main(void)
 	//char requete[500] = "HTTP/1.1 / HTTP/1.1\n";
 
 	//char requete[500] = "GET / HTTP/1.0\nHost:221.7.122.6\n";
-	char requete[500] = "GET / HTTP/1.0\nHost: [6:1:E4BA:3:2:E4:222.155.17.250]\n";
+	char requete[500] = "GET / HTTP/1.0\nHost: [6:1:E4BA:3:2:E4:222.155.17.250]\nTransfer-encoding: ,          ,       										,    chunked	,																	,\n\n";
+
 
 	int nombre_de_lignes = compter_nombre_de_lignes(requete);
 	int nombre_de_mots;
@@ -222,12 +244,18 @@ int main(void)
 	tailles_mots(lignes, nombre_de_lignes, tailles_des_mots, mots);
 	int resultat = parseur_ligne_1(lignes[0], tailles_des_lignes[0], mots[0], tailles_des_mots[0]);
 	int resultat_2 = parseur_ligne_2(lignes[1], tailles_des_lignes[1], mots[1], tailles_des_mots[1]);
+	int resultat_2_2 = parseur_ligne_3(lignes[1], tailles_des_lignes[1], mots[1], tailles_des_mots[1]);
+	int resultat_3 = parseur_ligne_2(lignes[2], tailles_des_lignes[2], mots[2], tailles_des_mots[2]);
+	int resultat_3_2 = parseur_ligne_3(lignes[2], tailles_des_lignes[2], mots[2], tailles_des_mots[2]);
+	int resultat_4 = parseur_ligne_4(lignes[3], tailles_des_lignes[3], mots[3], tailles_des_mots[3]);
 
 	printf("\n\n\n\n\n\n\n\n\n\n FIN DU CHARGEMENT . AFFICHAGE ... \n\n\n\n\n\n");
 	printf(" Start line valide : %d \n\n",resultat);
-	printf(" Host Header valide : %d \n\n",resultat_2);
+	printf(" Host Header valide : %d \n\n",(resultat_2 || resultat_3));
+	printf(" Transfer_encoding valide : %d \n\n", (resultat_2_2 || resultat_3_2));
+	printf(" Message Body valide : %d \n\n", resultat_4);
 
-	if (resultat && resultat_2) printf("\n\n Message HTTP valide. \n\n\n\n\n\n");
+	if (resultat && (resultat_2 || resultat_3) && (resultat_2_2 || resultat_3_2) && resultat_4) printf("\n\n Message HTTP valide. \n\n\n\n\n\n");
 	else printf("\n\n Message HTTP invalide. \n\n\n\n\n\n");
 
 	int index_mots;

@@ -206,7 +206,7 @@ int is_dquote(char character)
 int is_hexdig(char character)
 {
     /* 0x41 à 0x46 pour majuscules (un hexdig peut être une lettre de A à F inclues), 0x61 à 0x66 sinon */
-    return ((is_digit(character)) || (0x41 <= character && character <= 0x46));
+    return ((is_digit(character)) || (0x41 <= character && character <= 0x46) || (0x61 <= character && character <= 0x66));
 }
 
 
@@ -237,6 +237,7 @@ int is_host(char *characters)
 
     to_return = (is_ip_literal_ok || is_ipvquatre_adress_ok || is_reg_name_ok);
 
+    /* Si l'on n'a pas reconnu le host, il se peut que se soit dû à l'option port */
     if(to_return == 0)
     {
         while (characters[index] != '\0')
@@ -277,7 +278,7 @@ int is_host_header(char *characters)
     //printf("\n Regardons si %s de taille %lu est un Host Header valide. \n\n",characters,strlen(characters));
 
     /* Il faut que le host header commence au minimum par Host: */
-    if (strlen(characters) >= 5 && characters[0] == 0x48 && characters[1] == 0x6F && characters[2] == 0x73 && characters[3] == 0x74 && characters[4] == 0x3A)
+    if (strlen(characters) >= 5 && (characters[0] == 0x48 || characters[0] == 0x68) && (characters[1] == 0x6F || characters[1] == 0x4F) && (characters[2] == 0x73 || characters[2] == 0x53) && (characters[3] == 0x74 || characters[3] == 0x54) && characters[4] == 0x3A)
     {
         //printf("\n Début d'en-tête correcte. \n\n");
         while (is_sp(characters[index_host_beginning]) || is_htab(characters[index_host_beginning]))
@@ -1218,6 +1219,7 @@ int is_transfer_encoding(char *characters)
     char transfer_coding[strlen(characters) + 1];
     transfer_coding[strlen(characters)] = '\0';
 
+    printf("\n Vérifions si %s est un transfer_encoding. \n\n",characters);
 
     /* La virgule n'est pas dans les tchar !!!! Quelle chance */
     /* Si on rencontre une virgule, on avance jusqu'à rencontrer un tchar ; break si ni sp ni htab ni tchar */
@@ -1236,12 +1238,15 @@ int is_transfer_encoding(char *characters)
             transfer_coding[index_transfer_coding] = '\0';
 
             to_return_tmp *= is_transfer_coding(transfer_coding);
+            if (to_return_tmp == 0) printf("\n\n\n\n\n %s n'est pas un transfer_coding valide. \n\n",transfer_coding);
             to_return = to_return_tmp;
+
             for (index_reset = 0; index_reset < index_transfer_coding; index_reset++) transfer_coding[index_reset] = '\0';
             index_transfer_coding = 0;
         }
     }
 
+    printf("\n\n\n %s n'est pas un transfer_encoding. \n\n",characters);
     return to_return;
 }
 
@@ -1253,25 +1258,32 @@ int is_transfer_encoding_header(char *characters)
     int index = 18;
     int index_transfer_encoding = 0;
 
+    printf("\n Entrée dans le if imminente avec %s comme chaine \n\n",characters);
+
     /* A rendre case-insensitive -_-' */
-    if (strlen(characters) >= 18 && characters[0] == 0x54 && characters[1] == 0x72 && characters[2] == 0x61 && characters[3] == 0x6E && characters[4] == 0x73 && characters[5] == 0x66 && characters[6] == 0x65 && characters[7] == 0x72 && characters[8] == 0x2D && characters[9] == 0x45 && characters[10] == 0x6E && characters[11] == 0x63 && characters[12] == 0x6F && characters[13] == 0x64 && characters[14] == 0x69 && characters[15] == 0x6E && characters[16] == 0x67 && characters[17] == 0x3A)
+    if (strlen(characters) >= 18 && (characters[0] == 0x54 || characters[0] == 0x74) && (characters[1] == 0x72 || characters[1] == 0x52) && (characters[2] == 0x61 || characters[2] == 0x41) && (characters[3] == 0x6E || characters[3] == 0x4E) && (characters[4] == 0x73 || characters[4] == 0x53) && (characters[5] == 0x66 || characters[5] == 0x46) && (characters[6] == 0x65 || characters[6] == 0x45) && (characters[7] == 0x72 || characters[7] == 0x52) && characters[8] == 0x2D && (characters[9] == 0x45 || characters[9] == 0x65) && (characters[10] == 0x6E || characters[10] == 0x4E) && (characters[11] == 0x63 || characters[11] == 0x43) && (characters[12] == 0x6F || characters[12] == 0x4F) && (characters[13] == 0x64 || characters[13] == 0x44) && (characters[14] == 0x69 || characters[14] == 0x49) && (characters[15] == 0x6E || characters[15] == 0x4E) && (characters[16] == 0x67 || characters[16] == 0x47) && characters[17] == 0x3A)
     {
+        printf("\n Vérifions si %s est un transfer encoding header. \n\n",characters);
         char transfer_encoding[strlen(characters) - 17];
-        while (is_sp(characters[index]) || is_htab(characters[index])) index++;
-        while (characters[index] != '\0' && !is_sp(characters[index]) && !is_htab(characters[index]))
+        while (is_sp(characters[index]) || is_htab(characters[index]) || characters[index] == 0x2C) index++;
+        while (characters[index] != '\0' && !is_sp(characters[index]) && !is_htab(characters[index]) && (characters[index] != 0x2C))
         {
             transfer_encoding[index_transfer_encoding] = characters[index];
             index_transfer_encoding++;
             index++;
         }
+        transfer_encoding[index_transfer_encoding] = '\0';
+        printf("\n\n\n\n Transfer encoding : %s. \n\n",transfer_encoding);
         
         to_return = is_transfer_encoding(transfer_encoding);
+        if (to_return == 0) printf("\n\n\n %s n'est pas un transfer_encoding_header valide. \n\n",characters);
         if (characters[index] != '\0')
         {
-            while(is_sp(characters[index]) || is_htab(characters[index])) index++;
+            while(is_sp(characters[index]) || is_htab(characters[index]) || (characters[index] == 0x2C)) index++;
             if(characters[index] != '\0') to_return = 0;
         }
     }
+    else printf("\n %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d %d \n\n", strlen(characters) >= 18, (characters[0] == 0x54 || characters[0] == 0x74), (characters[1] == 0x72 || characters[1] == 0x52), (characters[2] == 0x61 || characters[2] == 0x41), (characters[3] == 0x6E || characters[3] == 0x4E), (characters[4] == 0x73 || characters[4] == 0x53), (characters[5] == 0x66 || characters[5] == 0x46), (characters[6] == 0x65 || characters[6] == 0x45), (characters[7] == 0x72 || characters[7] == 0x52), characters[8] == 0x2D, (characters[9] == 0x45 || characters[9] == 0x65), (characters[10] == 0x6E || characters[10] == 0x4E), (characters[11] == 0x63 || characters[11] == 0x43), (characters[12] == 0x6F || characters[12] == 0x4F), (characters[13] == 0x64 || characters[13] == 0x44), (characters[14] == 0x69 || characters[14] == 0x49), (characters[15] == 0x6E || characters[15] == 0x4E), (characters[16] == 0x67 || characters[16] == 0x47), characters[17] == 0x3A);
 
     return to_return;
 }
@@ -1326,7 +1338,9 @@ int is_transfer_extension(char *characters)
     }
 
     if(to_return != 0) to_return = to_return_tmp;
+    else printf("\n %s n'est pas un token valide. \n\n",token);
 
+    if (to_return == 0) printf("\n %s n'est pas une transfer-extension valide. \n\n",characters);
     return to_return;
 }
 
@@ -1365,6 +1379,7 @@ int is_transfer_parameter(char *characters)
         }
     }
 
+    if (to_return == 0) printf("\n %s n'est pas un transfer parameter valide. \n\n",characters);
     return to_return;
 }
 
