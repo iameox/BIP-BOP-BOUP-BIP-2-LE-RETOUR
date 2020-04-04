@@ -5,16 +5,16 @@
 
 FILE *open_file(char *file_name) {
     FILE *file = fopen(file_name, "r");
-    
+
     if (file == NULL) exit_on_error("Impossible d'ouvrir le fichier en lecture.");
     return file;
 }
 
 int get_file_size(char *file_name) {
-    struct stat st;
-    
-    if (stat(file_name, &st) == -1) exit_on_error("Impossible de récupérer la taille du fichier.");
-    return st.st_size;
+    struct stat stats;
+
+    if (stat(file_name, &stats) == -1) exit_on_error("Impossible de récupérer la taille du fichier.");
+    return stats.st_size;
 }
 
 void read_file(char *file_name, char **buffer, int size) {
@@ -48,7 +48,6 @@ int get_length(char *s) {
 
     return length;
 }
-
 
 int is_between(unsigned char c, unsigned char c1, unsigned char c2) {
     return c1 <= c && c <= c2;

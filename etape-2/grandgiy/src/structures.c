@@ -25,7 +25,7 @@ Rule *find_rule(Rule *head, String *rulename) {
 
     while (element != NULL && !compare_strings(element->rulename, rulename)) element = element->next;
     if (element != NULL) value = element;
-    
+
     return value;
 }
 
@@ -216,17 +216,17 @@ Node *insert_node(Node **head, String *rulename, String *content) {
     return new;
 }
 
-Node *find_node(Node *head, String *rulename, int *index) {
+Node *find_node(Node *head, String *rulename, int *i, int index) {
     Node *element = head,
          *value = NULL;
 
     while (element != NULL && value == NULL) {
-        if (!compare_strings(element->rulename, rulename)) {
-            if (index == 0) value = element;
-            else (*index)--;
-        }
+        if (compare_strings(element->rulename, rulename)) {
+            if (*i == index) value = element;
+            else (*i)++;
 
-        value = find_node(element->children, rulename, index);
+        } else value = find_node(element->children, rulename, i, index);
+
         element = element->next;
     }
 

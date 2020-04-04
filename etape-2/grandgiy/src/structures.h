@@ -109,7 +109,7 @@
     void delete_set(Num_val_set **head);
 
     Node *insert_node(Node **head, String *rulename, String *content);
-    Node *find_node(Node *head, String *rulename, int *index);
+    Node *find_node(Node *head, String *rulename, int *i, int index);
     void delete_last_node(Node **head);
     void delete_nodes(Node **head);
 

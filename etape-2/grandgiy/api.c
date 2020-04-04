@@ -13,13 +13,15 @@ void *getRootTree() {
 _Token *searchTree(void *start, char *name) {
     String rulename = { name, get_length(name) };
     int stop = false,
-        i = 0;
+        index = 0,
+        i;
     _Token *head = NULL,
            **tail = &head;
     Node *n;
 
     while (!stop) {
-        n = find_node(start, &rulename, &i);
+        i = 0;
+        n = find_node(start, &rulename, &i, index);
 
         if (n == NULL) stop = true;
         else {
@@ -30,7 +32,7 @@ _Token *searchTree(void *start, char *name) {
             tail = &((*tail)->next);
         }
 
-        i++;
+        index++;
     }
 
     return head;
@@ -52,13 +54,13 @@ char *getElementValue(void *node, int *len) {
 
 void purgeElement(_Token **r) {
     _Token *element = *r,
-           *next = element->next;
+           *next;
 
     while (element != NULL) {
+        next = element->next;
         free(element);
 
         element = next;
-        next = element->next;
     }
 }
 
@@ -66,17 +68,6 @@ void purgeTree(void *root) {
     delete_nodes((Node **) &root);
     delete_rulelist(&rulelist);
     free(abnf_buffer);
-}
- 
-#include <stdio.h>
-void print_string(String *s) {
-    int i;
-    for (i = 0; i < s->length; i++) {
-        if (is_vchar(*(s->base+i)) || *(s->base+i) == ' ') printf("%c", *(s->base+i));
-        else printf("<0x%02X>", (unsigned char) *(s->base+i));
-    }
-
-    printf("\n");
 }
 
 int parseur(char *req, int len) {

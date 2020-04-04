@@ -2,10 +2,10 @@
 
 #define min(a, b) (a <= b ? a : b)
 
-#define CHAR_VAL_RULE "_CHAR_VAL"
+#define CHAR_VAL_RULE "_CHAR-VAL"
 #define CHAR_VAL_RULE_LENGTH get_length(CHAR_VAL_RULE)
 
-#define NUM_VAL_RULE "_NUM_VAL"
+#define NUM_VAL_RULE "_NUM-VAL"
 #define NUM_VAL_RULE_LENGTH get_length(NUM_VAL_RULE)
 
 void compile_abnf(Rule **head, char **abnf_buffer, char *file_name);
