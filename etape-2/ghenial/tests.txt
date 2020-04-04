@@ -1,0 +1,21 @@
+test(token, "", 0);
+test(token2, "", 0);
+test(token13, "", 0);
+
+test(token, "bwa", 3);
+test(token2, "bwa", 3);
+test(token13, "bwa", 3);
+
+test(token, "!#$%&!b!", strlen("!#$%&!b!"));
+
+test(method, "GET", strlen("GET"));
+
+test(pct_encoded, "%AF", strlen("%AF"));
+
+test(start_line, "POST /cgi-bin/process.cgi HTTP/1.1\r\n", strlen("POST /cgi-bin/process.cgi HTTP/1.1\r\n"));
+
+test(start_line, "GET / HTTP/1.1\r\n", strlen("GET / HTTP/1.1\r\n"));
+
+test(HTTP_message, "GET / HTTP/1.0\r\nAccept-Charset: iso-8859-5, unicode-1-1; q=0.8 \r\n\r\n", strlen("GET / HTTP/1.0\r\nAccept-Charset: iso-8859-5, unicode-1-1; q=0.8 \r\n\r\n"));
+
+test(HTTP_message, "GET / HTTP/1.0\r\nReferer: http://www.tutorialspoint.org/http/index.htm \r\n\r\n", strlen("GET / HTTP/1.0\r\nReferer: http://www.tutorialspoint.org/http/index.htm \r\n\r\n"));
