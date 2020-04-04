@@ -25,8 +25,9 @@ int compile_rulelist(Rule **head, char *abnf, int *index) {
         if (!compile_rule(head, abnf, index)) {
             consume_c_wsps(abnf, index, 0);
             is_valid = compile_c_nl(abnf, index);
+        }
         
-        } else i++;
+        if (is_valid) i++;
     }
 
     if (i < 1) {
