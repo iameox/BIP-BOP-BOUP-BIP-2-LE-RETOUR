@@ -82,6 +82,8 @@ abnf_rule * get_subrule(abnf_rule * rule, int start);
 
 tree_node * create_node(abnf_rule * rule, string value);
 
+void printntruc(char* str, int size);
+
 void print_tree(tree_node ** tree);
 
 void add_node(tree_node ** tree, tree_node * self_node);

@@ -32,9 +32,6 @@ abnf_rule * init_rules() {
 	insert_rule(&liste_token, tchar);
 	abnf_rule *token = create_rule(token_name, strlen(token_name), token_expr,strlen(token_expr), 0, liste_token);
 
-	abnf_rule *token2 = create_rule("[token]", 7, "*tchar", 6, 0, liste_token);
-	abnf_rule *token13 = create_rule("tokenmaisjfaiscquejveux", strlen("tokenmaisjfaiscquejveux"), "1*3tchar", 8, 0, liste_token);
-
 	//method = token
 	char * method_name = "method";
 	char * method_expr = "token";

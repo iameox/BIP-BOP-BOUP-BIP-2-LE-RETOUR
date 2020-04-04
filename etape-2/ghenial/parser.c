@@ -8,17 +8,6 @@
 #include <string.h>
 #include "abnf.h"
 
-
-/* DEBUG ASUPPR
-* Fonction d'affichage personnalisée (pour ne pas dépendre des sentinelles)
-*/
-void printntruc(char* str, int size) {
-	int i;
-	printf("\"");
-	for(i = 0 ; i < size ; i ++) printf("%c", str[i]);
-	printf("\"\n");
-}
-
 //ASUPPR
 //Juste pour indenter
 int indent = 0;
@@ -42,13 +31,13 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 
 	//for(int f = 0 ; f < indent ; f++) printf("\t");
 	//printf(">>>ON ENTRE DANS %s ET STR = \"%s\"\n", rule->rulename.str, str.str);
-	printf(">>>ON ENTRE DANS %s\n", rule->rulename.str);
+	//printf(">>>ON ENTRE DANS %s\n", rule->rulename.str);
 	indent++;
-	print_tree(tree);
+	//print_tree(tree);
 	//Création et ajout dans l'arbre
 	tree_node * self_node = create_node(rule, str);
 	add_node(tree, self_node);
-	print_tree(tree);
+	//print_tree(tree);
 	if (!(rule->is_terminal)) {
 		while (i < rule->expression.size) {
 			switch (rule->expression.str[i]) {
@@ -159,7 +148,6 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 							i += subrule->expression.size;
 							tmp_rule.str += subrule->expression.size;
 							tmp_rule.size -= subrule->expression.size;
-							free(subrule);
 						} else {
 							i += subrule->rulename.size;
 							tmp_rule.str += subrule->rulename.size;
@@ -206,7 +194,6 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 						i += subrule->expression.size;
 						tmp_rule.str += subrule->expression.size;
 						tmp_rule.size -= subrule->expression.size;
-						free(subrule);
 					} else {
 						i++;
 						tmp_rule.str++;
@@ -231,7 +218,6 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 						i += subrule->expression.size;
 						tmp_rule.str += subrule->expression.size;
 						tmp_rule.size -= subrule->expression.size;
-						free(subrule);
 					} else {
 						i++;
 						tmp_rule.str++;
@@ -307,9 +293,9 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 	}
 
 	if(valid >= 0) {
-		for(int f = 0 ; f < indent ; f++) printf("\t");
-		printf("LA CHAINE QUI PARSE LA REGLE %s = ", rule->rulename.str);
-		printntruc(str.str, valid);
+		//for(int f = 0 ; f < indent ; f++) printf("\t");
+		//printf("LA CHAINE QUI PARSE LA REGLE %s = ", rule->rulename.str);
+		//printntruc(str.str, valid);
 		//On met à jour le noeud pour qu'il ne comprenne que la chaine qui marche
 		self_node->value.size = valid;
 	} else {
@@ -337,7 +323,7 @@ int main(){
 	abnf_rule* bite = init_rules();
 
 	test(&tree, bite, "GET / HTTP/1.0\r\nAccept-Charset: iso-8859-5, unicode-1-1; q=0.8 \r\n\r\n", strlen("GET / HTTP/1.0\r\nAccept-Charset: iso-8859-5, unicode-1-1; q=0.8 \r\n\r\n"));
-
+	print_tree(&tree);
 	return 1;
 }
 

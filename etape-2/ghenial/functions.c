@@ -148,6 +148,16 @@ tree_node * create_node(abnf_rule * rule, string value) {
 	return new;
 }
 
+/* DEBUG ASUPPR
+* Fonction d'affichage personnalisée (pour ne pas dépendre des sentinelles)
+*/
+void printntruc(char* str, int size) {
+	int i;
+	printf("\"");
+	for(i = 0 ; i < size ; i ++) printf("%c", str[i]);
+	printf("\"\n");
+}
+
 void print_tree(tree_node ** tree) {
 	tree_node * n;
 	if(*tree == NULL) printf("VIDE\n");
@@ -155,12 +165,12 @@ void print_tree(tree_node ** tree) {
 		n = *tree;
 		if(n->children != NULL) print_tree(&(n->children));
 		if(n->next != NULL) print_tree(&(n->next));
-		printf("Noeud : rulename = %s value = %s\n", n->rule->rulename.str, n->value.str);
+		printf("Noeud : rulename = %s value =", n->rule->rulename.str);
+		printntruc(n->value.str, n->value.size);
 	}
 }
 
 void add_node(tree_node ** tree, tree_node * self_node) {
-	printf("ADD\n");
 	if(*tree == NULL) {
 		*tree = self_node;
 		self_node->next = NULL;
@@ -168,30 +178,18 @@ void add_node(tree_node ** tree, tree_node * self_node) {
 	} else if(*tree == self_node) {
 		printf("c ça?\n");
 	} else {
-		printf("%s\n", (*tree)->rule->rulename.str);
-		printf("%s\n", self_node->rule->rulename.str);
 		self_node->next = (*tree)->children;
 		(*tree)->children = self_node;
 	}
 }
 
 void delete_node(tree_node ** tree, tree_node * self_node) {
-	printf("DELETE\n");
 	tree_node * n = *tree;
-	printf("%s\n", n->rule->rulename.str);
-	printf("%s\n", self_node->rule->rulename.str);
 	if(*tree == self_node) {
-		if(self_node->children != NULL) {
-			printf("RIP LES ENFANTS\n");
-			delete_node(&self_node, self_node->children);
-		}
 		*tree = NULL;
-		free(self_node);
 	} else if((*tree)->children == self_node) { //Si on est le 1er fils
-		printf("on est le premier fils\n");
 		(*tree)->children = self_node->next;
 	} else {
-		printf("ah\n");
 		n = (*tree)->children;
 		while(n->next != self_node) {
 			n = n->next;
@@ -199,8 +197,10 @@ void delete_node(tree_node ** tree, tree_node * self_node) {
 
 		n->next = self_node->next;
 	}
+	if(!strncmp(self_node->rule->rulename.str, "GROUPE", self_node->rule->rulename.size) || !strncmp(self_node->rule->rulename.str, "GROUPE*", self_node->rule->rulename.size) || !strncmp(self_node->rule->rulename.str, "OPTIONNEL", self_node->rule->rulename.size)) {
+		free(self_node->rule);
+	}
 	if(self_node->children != NULL) {
-		printf("RIP LES ENFANTS\n");
 		delete_node(&self_node, self_node->children);
 	}
 	free(self_node);
