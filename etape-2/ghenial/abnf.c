@@ -54,7 +54,7 @@ abnf_rule *init_rules() {
 
 	//HTTP-version = HTTP-name "/" DIGIT "." DIGIT 
 	char *HTTP_version_name = "HTTP-version";
-	char *HTTP_version_expr = "HTTP-name \"/\" DIGIT \".\" DIGIT ";
+	char *HTTP_version_expr = "HTTP-name \"/\" DIGIT \".\" DIGIT";
 	rule_list *liste_HTTP_version = NULL;
 	insert_rule(&liste_HTTP_version, HTTP_name);
 	insert_rule(&liste_HTTP_version, DIGIT);
@@ -161,7 +161,7 @@ abnf_rule *init_rules() {
 
 	//qvalue = ( "0" [ "." *3DIGIT ] ) / ( "1" [ "." *3"0" ] )
 	char *qvalue_name = "qvalue";
-	char *qvalue_expr = "( \"0\" [ \".\" *3DIGIT ] ) / ( \"1\" [ \".\" *3\"0\" ] )";
+	char *qvalue_expr = "( \"0\" [ \".\" *3DIGIT ] ) / ( \"1\" [ \".\" *3( \"0\" ) ] )";
 	rule_list *qvalue_list = NULL;
 	insert_rule(&qvalue_list, DIGIT);
 	abnf_rule *qvalue = create_rule(qvalue_name, strlen(qvalue_name), qvalue_expr, strlen(qvalue_expr), 0, qvalue_list);
@@ -219,7 +219,7 @@ abnf_rule *init_rules() {
 
 	//dec-octet = "25" %x30-35 / "2" %x30-34 DIGIT / "1" 2DIGIT / %x31-39 DIGIT / DIGIT
 	char *dec_octet_name = "dec-octet";
-	char *dec_octet_expr = "\"25\" ( \"0\" / \"1\" / \"2\" / \"3\" / \"4\" / \"5\" ) / \"2\" ( \"0\" / \"1\" / \"2\" / \"3\" / \"4\" ) DIGIT / \"1\" 2*2(DIGIT) / ( \"1\" / \"2\" / \"3\" / \"4\" / \"5\" / \"6\" / \"7\" / \"8\" / \"9\" ) DIGIT / DIGIT";
+	char *dec_octet_expr = "\"25\" ( \"0\" / \"1\" / \"2\" / \"3\" / \"4\" / \"5\" ) / \"2\" ( \"0\" / \"1\" / \"2\" / \"3\" / \"4\" ) DIGIT / \"1\" 2*2( DIGIT ) / ( \"1\" / \"2\" / \"3\" / \"4\" / \"5\" / \"6\" / \"7\" / \"8\" / \"9\" ) DIGIT / DIGIT";
 	rule_list *dec_octet_list = NULL;
 	insert_rule(&dec_octet_list, DIGIT);
 	abnf_rule *dec_octet = create_rule(dec_octet_name, strlen(dec_octet_name), dec_octet_expr, strlen(dec_octet_expr), 0, dec_octet_list);
