@@ -171,11 +171,11 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 						i++;
 						tmp_rule.str++;
 						tmp_rule.size--;
-					}// else {
-						//i++;
-						//tmp_rule.str++;
-						//tmp_rule.size--;
-					//}
+					} else {
+						i++;
+						tmp_rule.str++;
+						tmp_rule.size--;
+					}
 					break;
 
 // Dans le cas d'une parenthèse, récupère la règle (ou le groupe de règles) entre parenthèses 
@@ -195,11 +195,11 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 						i += subrule->expression.size;
 						tmp_rule.str += subrule->expression.size;
 						tmp_rule.size -= subrule->expression.size;
-					}// else {
-						//i++;
-						//tmp_rule.str++;
-						//tmp_rule.size--;
-					//}
+					} else {
+						i++;
+						tmp_rule.str++;
+						tmp_rule.size--;
+					}
 					i++;
 					tmp_rule.str++;
 					tmp_rule.size--;
@@ -309,7 +309,7 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 /*int main(){
 	tree_node *tree = NULL;
 	abnf_rule *start = init_rules();
-	//Vous pouvez mettre des requetes ici
+	//La requete à parser : (attention à échapper les caractères spéciaux)
 	char *request = "GET / HTTP/1.0\r\nAccept-Charset: iso-8859-5, unicode-1-1; q=0.8 \r\n\r\n";
 	int size = strlen(request);
 	string test = {request, size};
@@ -318,5 +318,7 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 	if (a == size) printf("*** OK : \"%s\" (%d) match la règle %s\n", test.str, test.size, start->rulename.str);
 	else printf("*** KO : \"%s\" (%d) ne match PAS la règle %s\n", test.str, test.size, start->rulename.str);
 	print_tree(&tree);
+	delete_all_node(&tree);
+	delete_all_rules(&start);
 	return 1;
 }*/

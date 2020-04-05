@@ -437,24 +437,25 @@ abnf_rule *init_rules() {
 * Fonction qui libère toutes les règles créées
 * Paramètre : la règle principale (i.e. la règle qui n'est sous-règle d'aucune autre)
 */
-void delete_all_rules(abnf_rule *main_rule) {
+void delete_all_rules(abnf_rule **main_rule) {
 	abnf_rule *r;
 	rule_list *l;
 
-	if(main_rule != NULL) {
-		l = main_rule->elements;
+	if(*main_rule != NULL) {
+		l = (*main_rule)->elements;
 
 		//Suppression des sous-règles
 		if(l != NULL) {
-			delete_all_rules(l->rule);
+			delete_all_rules(&(l->rule));
 		}
 
 		if(l != NULL && l->next != NULL) {
-			delete_all_rules(l->next->rule);
+			delete_all_rules(&(l->next->rule));
 		}
 
-		r = main_rule;
-		main_rule = NULL;
+		r = *main_rule;
+		*main_rule = NULL;
+		if(r->elements != NULL) free(r->elements);
 		free(r);
 	}
 }

@@ -4,7 +4,7 @@
 
 abnf_rule *init_rules();
 
-void delete_all_rules(abnf_rule *main_rule);
+void delete_all_rules(abnf_rule **main_rule);
 
 /*
 Notes :

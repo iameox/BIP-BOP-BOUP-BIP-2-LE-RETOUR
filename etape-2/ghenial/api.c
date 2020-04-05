@@ -38,6 +38,7 @@ void addToken(_Token **list, _Token *element) {
 _Token *searchTree(void *start,char *name) {
 	_Token *result = NULL, *token = NULL;
 	tree_node *root;
+	int size;
 
 	if (start == NULL) {
 		root = getRootTree();
@@ -58,7 +59,7 @@ _Token *searchTree(void *start,char *name) {
 		}
 	}
 
-	if (!strcmp(root->rule->rulename.str, name)) {
+	if (!strncmp(getElementTag(root, &size), name, size)) {
 		token = malloc(sizeof(_Token));
 		if (token == NULL) {
 			perror("Erreur d'allocation mémoire\n");
@@ -125,7 +126,7 @@ void purgeElement(_Token **r) {
 */
 void purgeTree(void *root) {
 	tree_node *tree_root = (tree_node *) root;
-	delete_all_rules(tree_root->rule);
+	delete_all_rules(&(tree_root->rule));
 	delete_all_node(&root); //On fait ici appel à une autre fonction définie dans functions.h
 }
 

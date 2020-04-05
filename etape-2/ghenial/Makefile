@@ -16,8 +16,8 @@ abnf.o: abnf.c abnf.h
 structure.o: structure.c structure.h
 	gcc -c structure.c -Wall
 
-parseur: parser.o abnf.o structure.o
-	gcc -o agaga parser.o abnf.o structure.o
+test: parser.o abnf.o structure.o
+	gcc -o parseur_test parser.o abnf.o structure.o
 
 clean:
 	rm -rf *.o
