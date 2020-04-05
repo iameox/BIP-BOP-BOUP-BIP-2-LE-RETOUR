@@ -137,10 +137,8 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 								if(valid != -1) valid += match;
 							}
 							k++;
-							//printf("k = %d\n", k);
 						}
 						if ((a != b && match < 0 && k < a+1 && a != 0) || (a == b && match < 0 && k != a+1) || (a != b && match < 0 && k > b+1 && b != -1)) {
-							//printf("a = %d b = %d k = %d \n", a,b,k);
 							valid = -1;
 						}
 						//On incrémente les index, selon si on a utilisé une sous règle groupée ou pas
@@ -317,7 +315,7 @@ void test(tree_node ** tree, abnf_rule *rule, char * str, int size) {
 }
 
 
-
+/*
 int main(){
 	tree_node * tree = NULL;
 	abnf_rule* bite = init_rules();
@@ -326,7 +324,7 @@ int main(){
 	print_tree(&tree);
 	return 1;
 }
-
+*/
 
 /*
 Notes :

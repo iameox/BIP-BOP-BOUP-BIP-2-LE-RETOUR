@@ -64,7 +64,7 @@ void insert_rule(rule_list ** head, abnf_rule * new_rule) {
 	new->rule = new_rule;
 
 	if (new == NULL) {
-		perror("Erreur de malloc\n");
+		perror("Erreur d'allocation mémoire\n");
 		exit(EXIT_FAILURE);
 	}
 
@@ -85,7 +85,7 @@ abnf_rule * create_rule(char * str_name, int name_size, char* str_expression, in
 	abnf_rule *new = malloc(sizeof(abnf_rule));
 
 	if (new == NULL) {
-		perror("Erreur de malloc\n");
+		perror("Erreur d'allocation mémoire\n");
 		exit(EXIT_FAILURE);
 	}
 
@@ -136,7 +136,7 @@ tree_node * create_node(abnf_rule * rule, string value) {
 	tree_node * new = malloc(sizeof(tree_node));
 
 	if (new == NULL) {
-		perror("Erreur de malloc\n");
+		perror("Erreur d'allocation mémoire\n");
 		exit(EXIT_FAILURE);
 	}
 
@@ -204,4 +204,16 @@ void delete_node(tree_node ** tree, tree_node * self_node) {
 		delete_node(&self_node, self_node->children);
 	}
 	free(self_node);
+}
+
+void delete_all_node(tree_node ** tree) {
+	if((*tree)->children != NULL) {
+		delete_all_node(&(*tree)->children);
+	}
+	if((*tree)->next != NULL) {
+		delete_all_node(&(*tree)->next);
+	}
+
+	free((*tree)->rule);
+	free((*tree));
 }

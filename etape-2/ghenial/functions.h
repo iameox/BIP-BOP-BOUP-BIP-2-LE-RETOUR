@@ -89,3 +89,5 @@ void print_tree(tree_node ** tree);
 void add_node(tree_node ** tree, tree_node * self_node);
 
 void delete_node(tree_node ** tree, tree_node * self_node);
+
+void delete_all_node(tree_node ** tree);
