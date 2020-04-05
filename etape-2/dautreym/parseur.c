@@ -31,6 +31,12 @@ void tailles_lignes(char *s, char *lignes[], int nombre_de_lignes, int *taille_d
 
 		taille_des_lignes[index] = taille_ligne_n;
 	}
+
+	taille_des_lignes[nombre_de_lignes] = 0;
+    taille_des_lignes[nombre_de_lignes + 1] = 0;
+
+	for (index = 0; index < nombre_de_lignes + 2; index++) printf("\n Taille de la ligne %d : %d \n\n",index,taille_des_lignes[index]);
+	printf("\n\n\n\n\n\n");
 }
 
 

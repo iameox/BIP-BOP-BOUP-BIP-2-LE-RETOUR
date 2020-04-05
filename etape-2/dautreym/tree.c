@@ -85,6 +85,9 @@ void purgeNode(tree_node *node)
 
 void delete_all_nodes(tree_node **tree)
 {
+    //if ((*tree) != NULL) printf("\n Node %s set free. \n\n",(*tree)->name);
+    //else printf("\n Arbre null \n");
+
 	tree_node *node = *tree;
 	if((*tree)->children != NULL) delete_all_nodes(&(*tree)->children);
 	if((*tree)->next_node != NULL) delete_all_nodes(&(*tree)->next_node);

@@ -3,6 +3,7 @@
 #include <string.h>
 
 #include "utils.h"
+#include "compare.h"
 
 
 /* Fonction prenant en entrée une chaine de caractères, et un caractère.
@@ -34,13 +35,15 @@ int compter_nombre_de_lignes(char *s)
 int taille_ligne(char *s)
 {
 	int indice = 0;
+	int taille = 0;
 
-	while(s[indice] != '\0' && s[indice] != '\n')
+	while(s[indice] != '\0' && s[indice] != '\n' && s[indice] != '\r')
 	{
+		if (s[indice] != '\r') taille++;
 		indice++;
 	}
 
-	return indice;
+	return taille;
 }
 
 
@@ -54,9 +57,10 @@ void recopier(char *src, char *dest, int nb_recopies)
 
 	while(index < nb_recopies)
 	{
-		dest[index] = src[index];
+		if (src[index] != '\r') dest[index] = src[index];
 		index++;
 	}
+	dest[index] = '\0';
 }
 
 
@@ -73,7 +77,7 @@ char* trouver_ligne_n(char *s, int n, int taille_ligne_n)
 
 	while (s[indice]!='\0')
 	{
-		if (s[indice]=='\n')
+		if (s[indice]=='\n' || s[indice] == '\r')
 		{
 			compteur++;
 			if(compteur == n)
@@ -97,15 +101,16 @@ int compter_mots(char *s)
 	int nombre_de_mots = 0;
 	int index = 0;
 
-	if(s[0] == '\0' || s[0] == '\n') index++;
+	//if(s[0] == '\0' || s[0] == '\n') index++;
 
-	while(s[index] != '\0' && s[index] != '\n')
+	while(s[index] != '\0' && s[index] != '\n' && s[index] != '\r')
 	{
 		while(s[index] == ' ') index++;
 
-		if(s[index] != '\0' && s[index] != '\n') nombre_de_mots++;
+		if(s[index] != '\0' && s[index] != '\n' && s[index] != '\r') nombre_de_mots++;
 
-		while(s[index] != ' ' && s[index] != '\n' && s[index] != '\0') index++;
+		while(s[index] != '\0' && s[index] != ' ') index++;
+		//while(s[index] != '\0' && s[index] != '\n' && s[index] != '\r') index++;
 	}
 
 	return nombre_de_mots;
@@ -113,13 +118,13 @@ int compter_mots(char *s)
 
 
 /* Fonction prenant en entrée une chaine de caractères */
-/* Retourne le nombre de caractères jusqu'à ' ', '\n' ou '\0' */
+/* Retourne le nombre de caractères jusqu'à ' ', '\n' ou '\0' ou '\r' */
 
 int taille_mot(char *mot)
 {
 	int size = 0;
 
-	while(mot[size] != ' ' && mot[size] != '\n' && mot[size] != '\0') size++;
+	while(mot[size] != '\0' && mot[size] != '\n' && mot[size] != ' ' && mot[size] != '\r') size++;
 
 	return size;
 }
@@ -132,7 +137,7 @@ int nombre_espaces_apres_chaine(char *ligne)
 	int index = 0;
 	int nb_espaces = 0;
 
-	while(ligne[index] != ' ' && ligne[index] != '\n' && ligne[index] != '\0')  index++;
+	while(ligne[index] != ' ' && ligne[index] != '\n' && ligne[index] != '\0' && ligne[index] != '\r')  index++;
 	while(ligne[index] == ' ')
 	{
 		nb_espaces++;
@@ -143,58 +148,3 @@ int nombre_espaces_apres_chaine(char *ligne)
 }
 
 
-char* trouver_mot_n(char *s, int n, int taille_mot_n)
-{
-	supprimer_espace(s);
-
-        int indice=0;
-        int compteur=0;
-        char *pointeur = malloc(1 + taille_mot_n*sizeof(char));
-        recopier(s, pointeur, taille_mot_n);
-
-        while (s[indice]!='\0')
-        {
-                if (s[indice]==' ')
-                {
-                        compteur++;
-                        if(compteur == n)
-			{
-                                recopier(s+indice+1,pointeur,taille_mot_n);
-                        }
-                }
-                indice++;
-        }
-
-        return pointeur;
-
-}
-
-/* Fonction supprimer_espace, prenant en entrée une chaine de caractères
-cette fonction remplace dans la chaine de caractères en paramètre
-toutes les successions de plusieurs espaces consécutifs par un seul espace
-Cette fonction retourne le nombre de suppression */
-int supprimer_espace(char *s)
-{
-	int indice_s=0,indice_tmp=0;
-	int suppression=0;
-
-	int taille_s=strlen(s);
-	char tmp[taille_s];
-
-	while (s[indice_s]!='\0' && s[indice_s+1]!='\0')
-	{
-		while (s[indice_s]==' ' && s[indice_s+1]==' ')
-		{
-			indice_s++;
-			suppression++;
-		}
-		tmp[indice_tmp]=s[indice_s];
-		indice_tmp++;
-		indice_s++;
-	}
-	tmp[indice_tmp]='\0';
-
-	strcpy(s,tmp);
-
-	return suppression;
-}

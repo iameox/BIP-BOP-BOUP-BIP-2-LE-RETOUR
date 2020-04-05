@@ -139,6 +139,8 @@ int is_alpha(char character, tree_node *tree)
 {
     int to_return = ((0x41 <= character && character <= 0x5A) || (0x61 <= character && character <= 0x7A));
 
+    if (tree != NULL)
+    {
     if (to_return)
     {
         tree->content = &character;
@@ -148,6 +150,7 @@ int is_alpha(char character, tree_node *tree)
     {  
         tree->content = NULL;
         purgeNode(tree);
+    }
     }
     return to_return;
 }
@@ -508,17 +511,22 @@ int is_host(char *characters, tree_node *tree)
                 index_last_deux_points = index;
                 index++;
             }
+            //printf("\n On a trouvé 0x3A à l'index %d \n\n",index_last_deux_points);
         }
 
         for (index = 0; index < index_last_deux_points; index++) tmp[index] = characters[index];
+        tmp[index] = '\0';
         is_ip_literal_ok = is_ip_literal(tmp,tree->children);
         //printf("\n Is_IP_literal_adress ok : %d \n\n",is_ip_literal_ok);
         if (!is_ip_literal_ok) is_ipvquatre_adress_ok = is_ipvquatre_adress(tmp,tree->children);
         //printf("\n Is_IPv4_adress ok : %d \n\n",is_ipvquatre_adress_ok);
         if (!is_ip_literal_ok && !is_ipvquatre_adress_ok) is_reg_name_ok = is_reg_name(tmp,tree->children);
         //printf("\n Is_reg_name ok : %d \n\n",is_reg_name_ok);
-    
-        to_return = ((is_ip_literal_ok || is_ipvquatre_adress_ok || is_reg_name_ok) && is_port(characters + index_last_deux_points + 1,tree->children->next_node));
+
+        //printf("\n Let's try again ? %d !! \n\n",(is_ip_literal_ok || is_ipvquatre_adress_ok || is_reg_name_ok));
+
+        characters[strlen(characters)-1] = '\0';
+        to_return = ((is_ip_literal_ok || is_ipvquatre_adress_ok || is_reg_name_ok) && is_port((characters + index_last_deux_points + 1),tree->children->next_node));
     }
 
     if (to_return)
@@ -533,6 +541,7 @@ int is_host(char *characters, tree_node *tree)
     }
 
     if (to_return == 0) printf("\n %s n'est pas un host valide. \n\n",characters);
+    else printf("\n %s est un host valide. \n\n",characters);
     return to_return;
 }
 
@@ -735,8 +744,10 @@ int is_http_message_preparsage(char *req, tree_node *tree)
 
     int to_return = is_http_message(req,tree);
 
-    if (tree != NULL) print(tree);
+    //if (tree != NULL) print(tree);
     printf("\n Fichier correctement parsé : %d \n\n",to_return);
+
+    //purgeTree(&tree);
 
     return to_return;
 }
@@ -802,9 +813,10 @@ int is_http_message(char *requete, tree_node *tree)
     int to_return = 1;
 
     int nombre_de_lignes = compter_nombre_de_lignes(requete);
+    int index_ligne = 1;
 
 	int *tailles_des_lignes;
-	tailles_des_lignes = malloc(nombre_de_lignes*sizeof(int));
+	tailles_des_lignes = malloc(2 + nombre_de_lignes*sizeof(int));
 
 	char *lignes[nombre_de_lignes];
 
@@ -821,34 +833,35 @@ int is_http_message(char *requete, tree_node *tree)
 
 	tailles_mots(lignes, nombre_de_lignes, tailles_des_mots, mots);
 
-    printf("\n Ligne 0 : %s.\n\n",lignes[0]);
-
+    printf("\n Ligne 0 : %s de taille %d (%lu)\n\n",lignes[0],tailles_des_lignes[0],strlen(lignes[0]));
     to_return *= is_start_line(lignes[0], tailles_des_lignes[0], mots[0], tailles_des_mots[0],tree->children);
-    
-    if (to_return != 0) to_return *= is_header(lignes[1], tailles_des_lignes[1],tree->children->next_node);
-	if (to_return != 0) to_return *= is_header(lignes[2], tailles_des_lignes[2],tree->children->next_node->next_node);
-	if(to_return != 0) to_return *= is_message_body(lignes[3],tree->children->next_node->next_node->next_node);
+ 
+    if (tailles_des_lignes[index_ligne] == 0 && tailles_des_lignes[index_ligne+1] != 0)
+    {
+        index_ligne++;
+        printf("\n Ligne 1 : %s de taille %d (%lu) \n\n",lignes[index_ligne],tailles_des_lignes[index_ligne],strlen(lignes[index_ligne]));
+        if (to_return != 0) to_return *= is_header(lignes[index_ligne], tailles_des_lignes[index_ligne],tree->children->next_node);
+        index_ligne++;
+    }
+
+    if (tailles_des_lignes[index_ligne] == 0 && tailles_des_lignes[index_ligne+1] != 0)
+    {
+        index_ligne++;
+        printf("\n Ligne 2 : %s de taille %d (%lu) \n\n",lignes[index_ligne],tailles_des_lignes[index_ligne],strlen(lignes[index_ligne]));
+        if (to_return != 0) to_return *= is_header(lignes[index_ligne], tailles_des_lignes[index_ligne],tree->children->next_node->next_node);
+        index_ligne++;
+    }
+
+	if(to_return != 0 && tailles_des_lignes[index_ligne] == 0 && tailles_des_lignes[index_ligne+1] != 0) to_return *= is_message_body(lignes[index_ligne],tree->children->next_node->next_node->next_node);
     
 
-    /*
+    
     free(tailles_des_lignes);
     for(index = 0; index < nombre_de_lignes; index++)
 	{
 	    free(lignes[index]);
 	}
-    */
-
-    /*
-    typedef struct tree_node
-    {
-        char *name;
-        void *adress;
-        char *content;
-        int is_correct;
-        struct tree_node *next_node;
-        struct tree_node *children;
-    } tree_node;
-    */
+    
     if (to_return)
     {
         tree->content = requete;
@@ -884,6 +897,8 @@ int is_http_message(char *requete, tree_node *tree)
 */
 int is_http_version(char *characters, tree_node *tree)
 {
+    //printf("\n Regardons si %s est une HTTP-version valide ou non. \n\n",characters);
+
     tree_node *children;
     children = malloc(sizeof(tree_node));
     children->name = malloc(50*sizeof(char));
@@ -915,7 +930,8 @@ int is_http_version(char *characters, tree_node *tree)
         to_return = ((characters[0] == 0x48 || characters[0] == 0x68) && (characters[1] == 0x54 || characters[1] == 0x74) && (characters[2] == 0x54 || characters[2] == 0x74) && (characters[3] == 0x50 || characters[3] == 0x70) && characters[4] == 0x2F && is_digit(characters[5],tree->children) && characters[6] == 0x2E && is_digit(characters[7],tree->children->next_node));
     }
 
-    //if(to_return == 0) printf("\n %s n'est pas une http-version valide. \n\n",characters);
+    if(to_return == 0) printf("\n %s n'est pas une http-version valide. \n\n",characters);
+    //else printf("\n %s est une http-version valide. \n\n",characters);
     if (to_return)
     {
         tree->content = characters;
@@ -1646,7 +1662,7 @@ int is_message_body(char *characters, tree_node *tree)
     tree->adress = &is_message_body;
     tree->children = children;
 
-    while(characters[index] != '\0')
+    while(characters[index] != '\0' || characters[index] != '\n' || characters[index] != '\r')
     {
         to_return *= is_octet(characters[index],tree->children);
         index++;
@@ -1828,6 +1844,8 @@ int is_port(char *characters, tree_node *tree)
     int to_return = 1;
     int index = 0;
 
+    //printf("\n Is port : %s. \n\n",characters);
+
     while(characters[index] != '\0')
     {
         to_return *= (is_digit(characters[index],tree->children));
@@ -1844,6 +1862,7 @@ int is_port(char *characters, tree_node *tree)
         tree->content = NULL;
         purgeNode(tree);
     }
+    if (to_return == 0) printf("\n %s n'est pas un port valide. \n\n",characters);
     return to_return;
 }
 
@@ -2261,12 +2280,13 @@ int is_start_line(char *ligne, int taille_ligne, char *mots[], int tailles_des_m
 
     int to_return = (taille_ligne >= 11);
     
-    printf("\n Ligne start line : %s.\n\n",ligne);
+    //printf("\n Ligne start line : %s de taille %d\n\n",ligne,taille_ligne);
 
     int to_return_status = (is_status_line(ligne,mots,tailles_des_mots,tree->children));
     int to_return_request = 0;
     if (to_return_status == 0) to_return_request = (is_request_line(ligne,mots,tailles_des_mots,tree->children));
-    
+
+    //printf("\n TO RETURN REQUEST : %d \n\n \n\n",to_return_request);
 
     if (to_return != 0) to_return = (to_return_status || to_return_request);
 
@@ -2281,7 +2301,7 @@ int is_start_line(char *ligne, int taille_ligne, char *mots[], int tailles_des_m
         purgeNode(tree);
     }
 
-    printf("\n %s n'est pas une start line valide. \n\n",ligne);
+    if (to_return == 0) printf("\n %s n'est pas une start line valide. \n\n",ligne);
     return to_return;
 }
 
@@ -2958,8 +2978,10 @@ int is_request_line(char *characters, char *mots[], int tailles_des_mots[], tree
 
     /* On suppose ici que la chaine est correcte (comporte au moins 11 caractères (token = '\0' et segment = '/')) */
     int to_return = 0;
+    int index;
+    char http_version[9];
 
-    printf("\n Request line : %s \n\n",characters);
+    //printf("\n Request line : %s \n\n",characters);
 
     /* Le token est le premier mot */
     int nb_espaces_1_correct;
@@ -2968,7 +2990,7 @@ int is_request_line(char *characters, char *mots[], int tailles_des_mots[], tree
 
     nb_espaces_1_correct = (is_sp(characters[tailles_des_mots[0]],tree) && !(is_sp(characters[tailles_des_mots[0] + 1],tree)));
 
-    printf("\n Request line : %s \n\n",characters);
+    //printf("\n Request line : %s. \n\n",characters);
 
     if(is_token(mots[0],tree->children) && nb_espaces_1_correct) /* is_token(token) assure que token_size est non nul ; tout calculé :) */
     {
@@ -2976,7 +2998,7 @@ int is_request_line(char *characters, char *mots[], int tailles_des_mots[], tree
 
         nb_espaces_2_correct = (is_sp(characters[tailles_des_mots[0] + 1 + tailles_des_mots[1]],tree) && !(is_sp(characters[tailles_des_mots[0] + 1 + tailles_des_mots[1] + 1],tree)));
 
-        printf("\n Request line : %s \n\n",characters);
+        //printf("\n Request line : %s. \n\n",characters);
 
         //printf("\n\n %d %d %lu \n\n",tailles_des_mots[0], tailles_des_mots[1], strlen(characters));
         //printf(" %d \n\n",nb_espaces_2_correct);
@@ -2985,19 +3007,18 @@ int is_request_line(char *characters, char *mots[], int tailles_des_mots[], tree
         if(is_absolute_path(mots[1],tree->children->next_node) && nb_espaces_2_correct)
         {
             //printf("\n Absolute path correct + nb_espaces_2 correct \n\n");
-            /*
+
             for(index = 0; index < 8; index++) http_version[index] = mots[2][index];
             http_version[index] = '\0';
     
-            to_return = is_http_version(http_version);
-            */
-            printf("\n Request line : %s \n\n",characters);
-            to_return = is_http_version(mots[2],tree->children->next_node->next_node);
-            printf("\n Request line ultime : %s \n\n",characters);
+            //printf("\n Request line : %s ; HTTP-version : %s. \n\n",characters,http_version);
+            to_return = is_http_version(http_version,tree->children->next_node->next_node);
+            //to_return = is_http_version(mots[2],tree->children->next_node->next_node);
+            //printf("\n Request line ultime : %s ; to_return : %d \n\n",characters,to_return);
         }
-        printf("\n Request line ultime 2 : %s \n\n",characters);
+        //printf("\n Request line ultime 2 : %s \n\n",characters);
     }
-    printf("\n %s n'a toujours pas été modifié. \n\n",characters);
+    //printf("\n\n\n\n %s n'a toujours pas été modifié. \n\n",characters);
 
     if (to_return == 0) printf("\n %s n'est pas une request line. \n\n",characters);
     //else printf("\n %s est une request line!! \n\n",characters);

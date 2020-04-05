@@ -9,9 +9,8 @@
 #include "utils.h"
 #include "compare.h"
 #include "parseur.h"
-#include "tree.h"
 #include "api.h"
-
+#include "tree.h"
 
 void addToken(_Token **token_list, _Token *node_to_add);
 
