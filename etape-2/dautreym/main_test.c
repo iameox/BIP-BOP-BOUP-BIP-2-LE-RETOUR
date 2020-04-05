@@ -8,9 +8,37 @@
 #include <fcntl.h>
 #include <errno.h>
 
-#include "api.h" 
+#include "api.h"
+/* A ENLEVER */
+#include "utils.h"
+#include "parseur.h"
+#include "compare.h"
+#include "tree.h"
 
 #define false 0 
+
+
+/*
+typedef struct tree_node
+{
+    char *name;
+    void *adress;
+    char *content;
+    int is_correct;
+    struct tree_node *next_node;
+    struct tree_node *children;
+} tree_node;
+
+
+int main(void)
+{
+	char requete[500] = "GET / HTTP/1.0\nHost: [6:1:E4BA:3:2:E4:222.155.17.250]\nTransfer-encoding: ,          ,       										,    chunked	,																	,\n\n";
+
+	int result = parseur(requete, 500);
+
+	return 0;
+}
+*/
 
 
 int main(int argc,char *argv[])
@@ -27,7 +55,8 @@ int main(int argc,char *argv[])
                 perror("open");
                 return false;
         }
-        if (fstat(fi, &st) == -1)           /* To obtain file size */
+		/* To obtain file size */
+        if (fstat(fi, &st) == -1)
                 return false;
         if ((addr=mmap(NULL,st.st_size,PROT_WRITE,MAP_PRIVATE, fi, 0)) == NULL )
                 return false;
@@ -63,3 +92,4 @@ int main(int argc,char *argv[])
 	close(fi);
 	return(res); 
 }
+
