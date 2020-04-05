@@ -444,14 +444,16 @@ void delete_all_rules(abnf_rule **main_rule) {
 	if(*main_rule != NULL) {
 		l = (*main_rule)->elements;
 
+		if(l != NULL && l->next != NULL) {
+			delete_all_rules(&(l->next->rule));
+		}
+
 		//Suppression des sous-règles
 		if(l != NULL) {
 			delete_all_rules(&(l->rule));
 		}
 
-		if(l != NULL && l->next != NULL) {
-			delete_all_rules(&(l->next->rule));
-		}
+		
 
 		r = *main_rule;
 		*main_rule = NULL;
