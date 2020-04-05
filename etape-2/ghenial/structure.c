@@ -252,7 +252,6 @@ void delete_node(tree_node **tree, tree_node *self_node) {
 * tree_node **tree : la racine de l'arbre passée par adresse
 */
 void delete_all_node(tree_node ** tree) {
-	abnf_rule *test;
 	if(*tree != NULL) {
 		tree_node * self_node = *tree;
 		if((*tree)->children != NULL) { //On supprime récursivement tous les noeuds fils

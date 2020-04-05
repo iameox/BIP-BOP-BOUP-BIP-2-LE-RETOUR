@@ -38,7 +38,6 @@ void addToken(_Token **list, _Token *element) {
 _Token *searchTree(void *start,char *name) {
 	_Token *result = NULL, *token = NULL;
 	tree_node *root;
-	int size;
 
 	if (start == NULL) {
 		root = getRootTree();
@@ -59,7 +58,7 @@ _Token *searchTree(void *start,char *name) {
 		}
 	}
 
-	if (!strncmp(getElementTag(root, &size), name, size)) {
+	if (!strcmp(root->rule->rulename.str, name)) {
 		token = malloc(sizeof(_Token));
 		if (token == NULL) {
 			perror("Erreur d'allocation mémoire\n");
