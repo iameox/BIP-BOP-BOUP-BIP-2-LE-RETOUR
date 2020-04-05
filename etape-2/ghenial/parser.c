@@ -236,6 +236,8 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 					tmp_rule.size--;
 					if(valid == -1) { //on remet valid a 0 car il y a une autre possibilité
 						valid = 0;
+						tmp_str.str = str.str;
+						tmp_str.size = str.size;
 					} else if (valid > 0){ // Si la première possibilité est valide, on sort, pas la peine de regarder le reste
 						i = rule->expression.size;
 					}
