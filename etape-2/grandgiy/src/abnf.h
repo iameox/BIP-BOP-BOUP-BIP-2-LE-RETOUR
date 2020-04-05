@@ -8,6 +8,11 @@
 #define NUM_VAL_RULE "_NUM-VAL"
 #define NUM_VAL_RULE_LENGTH get_length(NUM_VAL_RULE)
 
+typedef enum has_group_or_option_type {
+    HAS_GROUP,
+    HAS_OPTION
+} Has_group_or_option_type;
+
 void compile_abnf(Rule **head, char **abnf_buffer, char *file_name);
 
 int compile_rulelist(Rule **head, char *abnf, int *index);

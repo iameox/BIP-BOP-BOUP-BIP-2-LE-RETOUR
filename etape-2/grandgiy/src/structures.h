@@ -3,7 +3,6 @@
 
     typedef enum repetition_type Repetition_type;
     typedef enum num_val_type Num_val_type;
-    typedef enum has_group_or_option_type Has_group_or_option_type;
 
     typedef struct rule Rule;
     typedef struct concatenation Concatenation;
@@ -28,11 +27,6 @@
         SET,
         MIN_MAX,
         NO_NUM_VAL_TYPE
-    };
-
-    enum has_group_or_option_type {
-        HAS_GROUP,
-        HAS_OPTION
     };
 
     struct rule {
