@@ -20,6 +20,6 @@ Dans parser.h et abnf.h se trouvent des commentaires sur les règles ABNF, notam
 
 Je suis conscient que la fonction parse() est excessivement longue et indigeste, mais du à un manque d'organisation de ma part j'ai manqué de temps pour le projet (bien que ce soit entièrement ma faute), ainsi je n'ai pas eu le temps de la simplifier d'avantage. De nombreux bouts de cette fonctions peuvent être simplifiés, la plupart n'est très probablement pas optimisé et il est même possible que certains cas de la grammaire ABNF autres que ceux précisés dans les commentaires soient mal parsés.
 
-Après avoir personnellement testé le parseur sur les tests avancés, seulement 1/4 ont été parsés correctement (56/200 pour être exact...), je ne doute pas que ce ne sera pas mieux de votre côté.
+Après avoir personnellement testé le parseur sur les tests avancés, seulement 1/4 ont été parsés correctement (58/200 pour être exact...), je ne doute pas que ce ne sera pas mieux de votre côté.
 
 Je suis aussi conscient que toute la mémoire n'est pas libérée. Après analyse par Valgrind, je trouve qu'environ 60% de la mémoire est libérée en moyenne. C'est un bilan plutôt catastrophique, mais encore une fois je n'ai pas eu le temps de me pencher dessus...

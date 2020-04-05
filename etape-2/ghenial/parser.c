@@ -171,11 +171,7 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 						i++;
 						tmp_rule.str++;
 						tmp_rule.size--;
-					} //else {
-						//i++;
-					//	tmp_rule.str++;
-					//	tmp_rule.size--;
-					//}
+					}
 					break;
 
 // Dans le cas d'une parenthèse, récupère la règle (ou le groupe de règles) entre parenthèses 
@@ -195,11 +191,7 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 						i += subrule->expression.size;
 						tmp_rule.str += subrule->expression.size;
 						tmp_rule.size -= subrule->expression.size;
-					} //else {
-					//	i++;
-					//	tmp_rule.str++;
-					//	tmp_rule.size--;
-					//}
+					}
 					i++;
 					tmp_rule.str++;
 					tmp_rule.size--;
@@ -220,11 +212,7 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 						i += subrule->expression.size;
 						tmp_rule.str += subrule->expression.size;
 						tmp_rule.size -= subrule->expression.size;
-					} //else {
-					//	i++;
-					//	tmp_rule.str++;
-					//	tmp_rule.size--;
-					//}
+					}
 					break;
 
 // Cas de l'alternation
