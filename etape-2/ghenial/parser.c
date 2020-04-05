@@ -1,24 +1,22 @@
-/*
-* GHENIA Lucas
-* P2022 IRC
-*/
-
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
 #include "abnf.h"
 
-//ASUPPR
-//Juste pour indenter
-int indent = 0;
 
-
-//valid > 0 : ok et c'est la taille qu'il faut avancer
-//valid = 0 : ok
-//valid < 0 : règle fausse
 
 /*
-* La big fonction de parsing
+* Le parseur ABNF, indique si une chaine donnée match une certaine règle ABNF
+* Paramètres : 
+* tree_node ** tree : un pointeur vers la tête de l'arbre (ou du sous arbre), passé par adresse
+* Il pointe toujours vers la règle parent de celle qui est actuellement parsée (ou NULL pour la règle principale)
+* abnf_rule * rule : La règle ABNF que l'on veut vérifier
+* string str : La chaine à parser
+* Retourne un entier :
+* - Positif si la chaine match la règle ABNF, dans ce cas il indique la longueur de la chaine qui match 
+* (donc si cet entier n'est pas égal à la longueur de la chaine donnée en entrée, ça veut dire qu'il y a des caractères en trop
+* qui ne matchent pas)
+* - égal à -1 si la chaine ne respecte pas la règle ABNF.
 */
 int parse(tree_node ** tree, abnf_rule * rule, string str) {
 	int i = 0, j, groups, done, start,
@@ -29,30 +27,33 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 	string tmp_rule = {rule->expression.str, rule->expression.size},
 		   tmp_str = {str.str, str.size};
 
-	//for(int f = 0 ; f < indent ; f++) printf("\t");
-	//printf(">>>ON ENTRE DANS %s ET STR = \"%s\"\n", rule->rulename.str, str.str);
-	//printf(">>>ON ENTRE DANS %s\n", rule->rulename.str);
-	indent++;
-	//print_tree(tree);
 	//Création et ajout dans l'arbre
 	tree_node * self_node = create_node(rule, str);
 	add_node(tree, self_node);
-	//print_tree(tree);
+
 	if (!(rule->is_terminal)) {
 		while (i < rule->expression.size) {
 			switch (rule->expression.str[i]) {
-				case '"': //Case sensitive
+
+// Ce cas permet de vérifier si une règle match une expression entre guillemets
+// Ici la vérification est case-sensitive, malgré le fais qu'officiellement la grammaire ABNF stipule que
+// la règle "abc" match "aBc", "AbC" etc...
+// C'est une simplification que j'ai faite par manque de temps. 
+				case '"': 
 					i++;
 					tmp_rule.str++;
 					tmp_rule.size--;
+
 					done = 0;
 					match = 1;
 					start = i;
+					//On compare caractère par caractère, jusqu'à rencontrer le 2e " ou 
+					// jusqu'a ce qu'un caractère ne match pas
 					while(!done && match > 0) {
 						if(rule->expression.str[i] == '"') {
 							done = 1;
 						} else {
-							match = is_char(rule->expression.str[i],tmp_str);
+							match = is_char(rule->expression.str[i], tmp_str);
 							if (match > 0) { //si règle vérifiée, on avance
 								valid += match;
 								tmp_str.str += match;
@@ -66,12 +67,12 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 						tmp_rule.size--;
 					}
 					if(match <= 0) {
-						//On reset notre avancement dans tmp_str:
+						//Si un caractère n'a pas matché, on reset notre avancement dans la chaine:
 						if(i-start > 1) {
 							tmp_str.str -= i - start - 1;
 							tmp_str.size += i - start - 1;
 						}
-						while(rule->expression.str[i] != '"') { //on finit quand même la chaine
+						while(rule->expression.str[i] != '"') { //on finit quand même la chaine, pour passer à la règle suivante
 							i++;
 							tmp_rule.str++;
 							tmp_rule.size--;
@@ -82,14 +83,17 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 					tmp_rule.str++;
 					tmp_rule.size--;
 					break;
-				case '*': //récup les éventuels digits avant et après, et répéter la règle
-					//printf("REPETITION\n");
+
+// Ce cas permet de gérer les répétition ABNF. Ici la fonctionnalité 4rulename n'est pas implémentée, il faut
+// forcément que le caractère '*' soit présent pour qu'une répétition soit détéctée.
+				case '*':
 					if(i == 0) {
 						a = 0;
 					} else {
 						a = rule->expression.str[i-1];
 					}
 					b = rule->expression.str[i+1];
+					//On récupère les 2 caractères entourant le '*', qui, si ils existent, seront les bornes à respecter
 					if(!is_digit(a)) {
 						a = 0;
 					} else {
@@ -107,12 +111,12 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 					i++;
 					tmp_rule.str++;
 					tmp_rule.size--;
-					k = 0;
+					k = 0; //k représente le nombre de fois que la règle match
 					if(rule->expression.str[i] == '(') {
 						j = i+1;
 						groups = 1;
 						done = 0;
-						while (!done) {
+						while (!done) { //Pour détecter les parenthèses imbriquées
 							if(rule->expression.str[j] == '(' && rule->expression.str[(j-1)] != '"') groups++;
 							else if(rule->expression.str[j] == ')' && rule->expression.str[(j-1)] != '"') {
 								if(groups == 1) done = 1;
@@ -120,10 +124,7 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 							}
 							j++;
 						}
-						subrule = create_rule("GROUPE*", strlen("GROUPE*"), tmp_rule.str + 1, j - i - 1, 0, rule->elements);
-						//printf("GROUPE + * = ");
-						//printntruc(tmp_rule.str, j - i);
-
+						subrule = create_rule("REPETITION", strlen("REPETITION"), tmp_rule.str + 1, j - i - 1, 0, rule->elements);
 					} else {
 						subrule = get_subrule(rule, i);
 					}
@@ -131,13 +132,14 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 						match = 1;
 						while(match > 0 && valid != -1) {
 							match = parse(&(self_node->children), subrule, tmp_str);
-							if(match > 0) { //si règle vérifiée, on avance
+							if(match > 0) {
 								tmp_str.str += match;
 								tmp_str.size -= match;
 								if(valid != -1) valid += match;
 							}
 							k++;
 						}
+						//Respectivement : si la règle a matché moins de a fois, pas exactement a fois (lorsque a = b), ou plus de b fois
 						if ((a != b && match < 0 && k < a+1 && a != 0) || (a == b && match < 0 && k != a+1) || (a != b && match < 0 && k > b+1 && b != -1)) {
 							valid = -1;
 						}
@@ -154,18 +156,16 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 						i++;
 						tmp_rule.str++;
 						tmp_rule.size--;
-					} else {
-						i++;
-						tmp_rule.str++;
-						tmp_rule.size--;
-					}
+					}// else {
+						//i++;
+						//tmp_rule.str++;
+						//tmp_rule.size--;
+					//}
 					break;
-				case '(': // système de stack pour les expressions parenthèsées?
-					if(i > 0 && rule->expression.str[i-1] == '*') {
-						printf("\nHONO, %s\n\n", rule->rulename.str);
-						printntruc(tmp_rule.str -1, tmp_rule.size);
-					}
-					//printf("parenthèses\n");
+
+// Dans le cas d'une parenthèse, récupère la règle (ou le groupe de règles) entre parenthèses 
+// et on s'appelle récursivement dessus
+				case '(':
 					j = i+1;
 					groups = 1;
 					done = 0;
@@ -177,9 +177,7 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 						}
 						j++;
 					}
-					subrule = create_rule("GROUPE", strlen("GROUPE"), tmp_rule.str + 1, j - i - 1, 0, rule->elements);
-					//printf("GROUPE = ");
-					//printntruc(tmp_rule.str, j - i);
+					subrule = create_rule("GROUP", strlen("GROUP"), tmp_rule.str + 1, j - i - 1, 0, rule->elements);
 					if(subrule != NULL) {
 						match = parse(&(self_node->children), subrule, tmp_str);
 						if(match > 0 && valid != -1) { //si règle vérifiée, on avance
@@ -192,20 +190,22 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 						i += subrule->expression.size;
 						tmp_rule.str += subrule->expression.size;
 						tmp_rule.size -= subrule->expression.size;
-					} else {
-						i++;
-						tmp_rule.str++;
-						tmp_rule.size--;
-					}
+					}// else {
+						//i++;
+						//tmp_rule.str++;
+						//tmp_rule.size--;
+					//}
 					i++;
 					tmp_rule.str++;
 					tmp_rule.size--;
 					break;
-				case '[': // optionnel, on cherche si il y est
-					j = 1;
-					while (tmp_rule.str[j] != ']' || tmp_rule.str[(j-1)] == '"') j++;
 
-					subrule = create_rule("OPTIONNEL", strlen("OPTIONNEL"), tmp_rule.str + 1, j-1, 0, rule->elements);
+// Cas des options
+// Comme les groupes de règles, on récupère toute l'expression entre crochets et on s'appelle récursivement dessus
+				case '[':
+					j = 1;
+					while (tmp_rule.str[j] != ']' || tmp_rule.str[(j-1)] == '"') j++; // On ne gère pas le cas des options imbriquées
+					subrule = create_rule("OPTION", strlen("OPTION"), tmp_rule.str + 1, j-1, 0, rule->elements);
 					if(subrule != NULL) {
 						match = parse(&(self_node->children), subrule, tmp_str);
 						if(match > 0 && valid != -1) { //si règle vérifiée, on avance
@@ -222,34 +222,37 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 						tmp_rule.size--;
 					}
 					break;
+
+// Cas de l'alternation
+// Cela signifie que l'on viens de tester une possibilité seulement
+// Il faut donc soit recommencer de 0 avec la règle qui suit le '/', soit sortir si la règle avant le '/' est vérifiée
 				case '/': //OU
-					//printf("OU\n");
 					i++;
 					tmp_rule.str++;
 					tmp_rule.size--;
 					if(valid == -1) { //on remet valid a 0 car il y a une autre possibilité
 						valid = 0;
-					} else if (valid > 0){ // Si la première possibilité est valide, on sort, pas la peine de checker le reste
+					} else if (valid > 0){ // Si la première possibilité est valide, on sort, pas la peine de regarder le reste
 						i = rule->expression.size;
-					 	//return valid;
 					}
 					break;
-				case ' ': //concaténation on avance juste
-					//printf("CONCATENATION\n");
+
+// Les espaces en ABNF sont optionnels, on les ignore juste
+				case ' ': 
 					i++;
 					tmp_rule.str++;
 					tmp_rule.size--;
 					break;
+
+// Le cas par défaut est de regarder si le carctère que l'on regarde est le début d'une rulename
 				default:
 					subrule = get_subrule(rule, i);
 					if (subrule != NULL) {
 						match = parse(&(self_node->children), subrule, tmp_str);
 						if (match >= 0 && valid != -1) { //si règle vérifiée, on avance
 							valid += match;
-
 							tmp_str.str += match;
 							tmp_str.size -= match;
-
 						} else {
 							valid = -1;
 						}
@@ -265,7 +268,9 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 					break;
 			}
 		}
-	} else { //Règles terminales, codées en brute
+	} else { 
+// Cas des règles terminales, elles sont codées en brute, chaque nouvelle règle terminale devra être ajoutée ici
+// Je sais qu'il est possible d'automatiser ce processus avec des pointeurs de fonctions, mais je n'ai pas eu le temps d'y mettre en oeuvre...
 		if(!strcmp(rule->rulename.str,"ALPHA")) {
 			if(str.size != 0 && is_alpha(str.str[0])) valid = 1;
 			else valid = -1;
@@ -279,55 +284,32 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 			if(str.size != 0 && is_htab(str.str[0])) valid = 1;
 			else valid = -1;
 		} else if(!strcmp(rule->rulename.str,"CRLF")) {
-			if(str.size > 1 && is_crlf(str.str[0], str.str[1])) valid = 2;
+//CRLF fait exception, plutot que de coder CR et LF en brut j'ai directement codé la fonction CRLF, ce qui fait
+// qu'elle retourne 2 et non 1 puisqu'il faut avancer de 2 caractères...
+			if(str.size > 1 && is_crlf(str.str[0], str.str[1])) valid = 2; 
 			else valid = -1;
 		}
 	}
 
+//A la fin du parsing et des appels récursif, il faut simplement vérifier la valeur de valid
 	if(valid >= 0) {
-		//for(int f = 0 ; f < indent ; f++) printf("\t");
-		//printf("LA CHAINE QUI PARSE LA REGLE %s = ", rule->rulename.str);
-		//printntruc(str.str, valid);
-		//On met à jour le noeud pour qu'il ne comprenne que la chaine qui marche
-		self_node->value.size = valid;
+		self_node->value.size = valid; // On met à jour la taille de la chaine qui parse
 	} else {
-		//printf("CA PARSE PAS LA REGLE %s\n", rule->rulename.str);
-		//Sinon on supprime le noeud
-		delete_node(tree, self_node);
+		delete_node(tree, self_node); //Sinon on supprime le noeud (ainsi que ses éventuels fils)
 	}
-	indent--;
-	//for(int f = 0 ; f < indent ; f++) printf("\t");
-	//printf("<<<ON SORT DE %s, valid = %d\n", rule->rulename.str, valid);
 	return valid;
-}
-
-void test(tree_node ** tree, abnf_rule *rule, char * str, int size) {
-	string test = {str, size};
-	int a = parse(tree, rule, test);
-	printf("\n*** RESULTAT = %d\n", a);
-	if(a == size) printf("*** OK : \"%s\" (%d) match la règle %s = \"%s\"\n\n", test.str, test.size, rule->rulename.str, rule->expression.str);
-	else printf("*** KO : \"%s\" (%d) ne match PAS la règle %s = \"%s\"\n\n", test.str, test.size, rule->rulename.str, rule->expression.str);
 }
 
 
 
 /*int main(){
 	tree_node * tree = NULL;
-	abnf_rule* bite = init_rules();
-
-	test(&tree, bite, "GET / HTTP/1.0\r\nAccept-Charset: iso-8859-5, unicode-1-1; q=0.8 \r\n\r\n", strlen("GET / HTTP/1.0\r\nAccept-Charset: iso-8859-5, unicode-1-1; q=0.8 \r\n\r\n"));
+	abnf_rule* start = init_rules();
+	string test = {"GET / HTTP/1.0\r\nAccept-Charset: iso-8859-5, unicode-1-1; q=0.8 \r\n\r\n",strlen("GET / HTTP/1.0\r\nAccept-Charset: iso-8859-5, unicode-1-1; q=0.8 \r\n\r\n")};
+	int a = parse(start, test);
+	printf("*** RESULTAT = %d\n", a);
+	if(a == size) printf("*** OK : \"%s\" (%d) match la règle %s\n", test.str, test.size, start->rule_name.str);
+	else printf("*** KO : \"%s\" (%d) ne match PAS la règle %s\n", test.str, test.size, start->rule_name.str);
 	print_tree(&tree);
 	return 1;
 }*/
-
-
-/*
-Notes :
-
-Les règles de l'abnf ont été "simplifiées" :
-Les rulename sont case sensitive, ainsi que les multiples caractères entre guillemets ("AbA" est case sensitive)
-DIGIT(rulename) n'est pas implémenté, il faut donc écrire les règles sous la forme DIGIT*DIGIT(rulename)
-%x n'est pas implémenté non plus, il faut préciser les valeurs une par une via la notation "A" / "B"
-La manière dont l'implémentation a été réalisée fait aussi que des ' ' sont nécessaires entre une parenthèse et son contenu (en particulier si elle contient des caractères entre guillemets)
-En dehors de ces points, toutes les règles abnf peuvent être ajoutées au parseur.
-*/

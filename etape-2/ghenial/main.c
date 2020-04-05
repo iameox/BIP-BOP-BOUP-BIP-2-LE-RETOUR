@@ -37,10 +37,11 @@ int main(int argc,char *argv[])
 	if (argc == 3 ) {
 		p=argv[2];
 		printf("searching for %s\n",p);
-		while (*p) {
+		//J'ai retiré la conversion des - en _ car mon code se base sur les noms de règles officiels et n'utilise pas de fonctions
+		/*while (*p) {
 			if (*p=='-') { *p='_'; }
 			p++;
-		}
+		}*/
 		p=argv[2];
 	}
 	// call parser and get results.
