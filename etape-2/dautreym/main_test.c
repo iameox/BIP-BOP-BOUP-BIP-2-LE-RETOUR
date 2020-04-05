@@ -76,13 +76,15 @@ int main(int argc,char *argv[])
 	if (res=parseur(addr,st.st_size)) {
 		_Token *r,*tok; 
 		void *root=NULL;
+		//printf("\n\n OH MY ZANTETSUKEN WE ARE INSIDE !!!!!!!!!!! \n\n\n");
 		root=getRootTree(); 
-		r=searchTree(root,p); 
+		r=searchTree(root,p);
+		//printf("\n\n OH MY ZANTETSUKEN WE ARE INSIDE 2 !!!!!!!!!!! \n\n\n");
 		tok=r; 
 		while (tok) {
 			int l; 
 			char *s; 
-			s=getElementValue(tok->node,&l); 
+			s=getElementValue(tok->node,&l);
 			printf("FOUND [%.*s]\n",l,s);
 			tok=tok->next; 
 		}

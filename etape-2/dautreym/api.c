@@ -54,24 +54,40 @@ _Token *searchTree(void *start,char *name)
     if (start == NULL) node = getRootTree();
     else node = start;
 
+    //printf("\n\n OH MY ZANTETSUKEN WE ARE INSIDE 1.5 !!!!!!!!!!! \n\n\n");
+    if(node != NULL)
+    {
+
     if (node->children != NULL)
     {
+        //printf("\n\n OH MY ZANTETSUKEN WE ARE INSIDE 1.51 !!!!!!!!!!! \n\n\n");
         token = searchTree(node->children,name);
-        if (token != NULL) addToken(&to_return, token);
+        //printf("\n\n OH MY ZANTETSUKEN WE ARE INSIDE 1.52 !!!!!!!!!!! \n\n\n");
+        if (token != NULL)
+        {
+            //printf("\n\n OH MY ZANTETSUKEN WE ARE INSIDE 1.55 !!!!!!!!!!! \n\n\n");
+            addToken(&to_return, token);
+        }
     }
 
+    //printf("\n\n OH MY ZANTETSUKEN WE ARE INSIDE 1.6 !!!!!!!!!!! \n\n\n");
     if (node->next_node != NULL)
     {
         token = searchTree(node->next_node,name);
         if (token != NULL) addToken(&to_return, token);
     }
 
+    //printf("\n\n OH MY ZANTETSUKEN WE ARE INSIDE 1.7 !!!!!!!!!!! \n\n\n");
     if(strcmp(node->name,name)==0)
     {
         token = malloc(sizeof(_Token));
         token->node = node;
         token->next = NULL;
+        //printf("\n\n OH MY ZANTETSUKEN WE ARE INSIDE 1.8 !!!!!!!!!!! \n\n\n");
         addToken(&to_return,token);
+    }
+
+
     }
 
     return to_return;
@@ -126,7 +142,7 @@ void purgeElement(_Token **r)
 // Fonction qui supprime et libere toute la mémoire associée à l'arbre . 
 void purgeTree(void *root)
 {
-    printf("\n Entrée dans purgeTree. \n\n");
+    //printf("\n Entrée dans purgeTree. \n\n");
     delete_all_nodes(&root);
 }
 

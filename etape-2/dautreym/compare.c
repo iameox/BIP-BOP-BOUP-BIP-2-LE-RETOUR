@@ -746,6 +746,7 @@ int is_http_message_preparsage(char *req, tree_node *tree)
 
     //if (tree != NULL) print(tree);
     printf("\n Fichier correctement parsé : %d \n\n",to_return);
+    if (to_return != 0) printf("\n FOUND \n\n");
 
     //purgeTree(&tree);
 
@@ -833,13 +834,13 @@ int is_http_message(char *requete, tree_node *tree)
 
 	tailles_mots(lignes, nombre_de_lignes, tailles_des_mots, mots);
 
-    printf("\n Ligne 0 : %s de taille %d (%lu)\n\n",lignes[0],tailles_des_lignes[0],strlen(lignes[0]));
+    //printf("\n Ligne 0 : %s de taille %d (%lu)\n\n",lignes[0],tailles_des_lignes[0],strlen(lignes[0]));
     to_return *= is_start_line(lignes[0], tailles_des_lignes[0], mots[0], tailles_des_mots[0],tree->children);
  
     if (tailles_des_lignes[index_ligne] == 0 && tailles_des_lignes[index_ligne+1] != 0)
     {
         index_ligne++;
-        printf("\n Ligne 1 : %s de taille %d (%lu) \n\n",lignes[index_ligne],tailles_des_lignes[index_ligne],strlen(lignes[index_ligne]));
+        //printf("\n Ligne 1 : %s de taille %d (%lu) \n\n",lignes[index_ligne],tailles_des_lignes[index_ligne],strlen(lignes[index_ligne]));
         if (to_return != 0) to_return *= is_header(lignes[index_ligne], tailles_des_lignes[index_ligne],tree->children->next_node);
         index_ligne++;
     }
@@ -847,7 +848,7 @@ int is_http_message(char *requete, tree_node *tree)
     if (tailles_des_lignes[index_ligne] == 0 && tailles_des_lignes[index_ligne+1] != 0)
     {
         index_ligne++;
-        printf("\n Ligne 2 : %s de taille %d (%lu) \n\n",lignes[index_ligne],tailles_des_lignes[index_ligne],strlen(lignes[index_ligne]));
+        //printf("\n Ligne 2 : %s de taille %d (%lu) \n\n",lignes[index_ligne],tailles_des_lignes[index_ligne],strlen(lignes[index_ligne]));
         if (to_return != 0) to_return *= is_header(lignes[index_ligne], tailles_des_lignes[index_ligne],tree->children->next_node->next_node);
         index_ligne++;
     }
@@ -855,12 +856,13 @@ int is_http_message(char *requete, tree_node *tree)
 	if(to_return != 0 && tailles_des_lignes[index_ligne] == 0 && tailles_des_lignes[index_ligne+1] != 0) to_return *= is_message_body(lignes[index_ligne],tree->children->next_node->next_node->next_node);
     
 
-    
+    /*
     free(tailles_des_lignes);
     for(index = 0; index < nombre_de_lignes; index++)
 	{
 	    free(lignes[index]);
 	}
+    */
     
     if (to_return)
     {
