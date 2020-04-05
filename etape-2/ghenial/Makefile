@@ -1,5 +1,5 @@
-all: main.o api.o parser.o abnf.o functions.o
-	gcc -o main main.o api.o parser.o abnf.o functions.o
+all: main.o api.o parser.o abnf.o structures.o
+	gcc -o main main.o api.o parser.o abnf.o structures.o
 
 main.o: main.c api.h
 	gcc -c main.c -Wall
@@ -13,11 +13,11 @@ parser.o: parser.c *.h
 abnf.o: abnf.c abnf.h
 	gcc -c abnf.c -Wall
 
-functions.o: functions.c functions.h
-	gcc -c functions.c -Wall
+structures.o: structures.c structures.h
+	gcc -c structures.c -Wall
 
-parseur: parser.o abnf.o functions.o
-	gcc -o agaga parser.o abnf.o functions.o
+parseur: parser.o abnf.o structures.o
+	gcc -o agaga parser.o abnf.o structures.o
 
 clean:
 	rm -rf *.o
