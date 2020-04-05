@@ -211,8 +211,6 @@ void print_tree(tree_node **tree) {
 void add_node(tree_node **tree, tree_node *self_node) {
 	if(*tree == NULL) {
 		*tree = self_node;
-		//self_node->next = NULL;
-		//self_node->children = NULL;
 	} else {
 		self_node->next = (*tree)->children;
 		(*tree)->children = self_node;

@@ -124,7 +124,6 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 					} else {
 						a = a - '0';
 					}
-
 					if(!is_digit(b)) {
 						b = -1;
 					} else {
@@ -285,6 +284,7 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 
 //A la fin du parsing et des appels récursif, il faut simplement vérifier la valeur de valid
 	if(valid >= 0) {
+		self_node->value.str = tmp_str.str;
 		self_node->value.size = valid; // On met à jour la taille de la chaine qui parse
 	} else {
 		delete_node(tree, self_node); //Sinon on supprime le noeud (ainsi que ses éventuels fils)
