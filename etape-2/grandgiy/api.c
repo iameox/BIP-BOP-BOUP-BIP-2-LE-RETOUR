@@ -12,12 +12,16 @@ void *getRootTree() {
 
 _Token *searchTree(void *start, char *name) {
     String rulename = { name, get_length(name) };
+    _Token **tail = NULL;
     int stop = false,
         index = 0,
         i;
-    _Token *head = NULL,
-           **tail = &head;
     Node *n;
+
+    while (*name != '\0') { 
+        name++;
+        if (*name == '_') *name = '-';
+    }
 
     while (!stop) {
         i = 0;
