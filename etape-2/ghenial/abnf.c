@@ -351,7 +351,7 @@ abnf_rule *init_rules() {
 
 	//hier-part = "//" authority path-abempty / path-absolute / path-rootless / path-empty
 	char *hier_part_name = "hier-part";
-	char *hier_part_expr = "\"//\" authority path-abempty / path-absolute / path-rootless / path-empty";
+	char *hier_part_expr = "\"//\" authority path-abempty / path-absolute / path-rootless";
 	rule_list *hier_part_list = NULL;
 	insert_rule(&hier_part_list, authority);
 	insert_rule(&hier_part_list, path_abempty);
@@ -371,7 +371,7 @@ abnf_rule *init_rules() {
 
 	//relative-part = "//" authority path-abempty / path-absolute / path-noscheme / path-empty
 	char *relative_part_name = "relative_part";
-	char *relative_part_expr = "\"//\" authority path-abempty / path-absolute / path-noscheme / path-empty";
+	char *relative_part_expr = "\"//\" authority path-abempty / path-absolute / path-noscheme";
 	rule_list *relative_part_list = NULL;
 	insert_rule(&relative_part_list, authority);
 	insert_rule(&relative_part_list, path_abempty);
