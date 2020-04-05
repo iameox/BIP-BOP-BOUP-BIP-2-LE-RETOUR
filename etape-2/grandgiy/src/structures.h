@@ -29,6 +29,10 @@
         NO_NUM_VAL_TYPE
     };
 
+    // Les structures suivantes représentent une version allégée de la structure strictement engendrée par le paragraphe 4 de la RFC 5234
+    // Par emplexe : il n'y a aucune structure représentant la règle "alternation", celle-ci est directement remplacée par une liste chaînée de concaténations
+    // Cela permet d'économiser de la mémoire en ne surchargeant pas inutilement la liste de règles
+
     struct rule {
         String *rulename;
         Concatenation *concatenations;
