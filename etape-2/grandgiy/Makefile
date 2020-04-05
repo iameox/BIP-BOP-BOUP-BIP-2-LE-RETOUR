@@ -1,5 +1,5 @@
 all: main.o api.o abnf.o http.o structures.o functions.o
-	gcc -o main main.o api.o abnf.o http.o structures.o functions.o
+	gcc -o parser main.o api.o abnf.o http.o structures.o functions.o
 
 clean:
 	rm -rf *.o
