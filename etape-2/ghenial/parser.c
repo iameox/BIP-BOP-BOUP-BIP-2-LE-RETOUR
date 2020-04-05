@@ -14,7 +14,7 @@ int indent = 0;
 
 
 //valid > 0 : ok et c'est la taille qu'il faut avancer
-//valid = 0 : ok 
+//valid = 0 : ok
 //valid < 0 : règle fausse
 
 /*
@@ -47,7 +47,7 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 					tmp_rule.size--;
 					done = 0;
 					match = 1;
-					start = i; 
+					start = i;
 					while(!done && match > 0) {
 						if(rule->expression.str[i] == '"') {
 							done = 1;
@@ -160,7 +160,7 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 						tmp_rule.size--;
 					}
 					break;
-				case '(': // système de stack pour les expressions parenthèsées? 
+				case '(': // système de stack pour les expressions parenthèsées?
 					if(i > 0 && rule->expression.str[i-1] == '*') {
 						printf("\nHONO, %s\n\n", rule->rulename.str);
 						printntruc(tmp_rule.str -1, tmp_rule.size);
@@ -201,10 +201,10 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 					tmp_rule.str++;
 					tmp_rule.size--;
 					break;
-				case '[': // optionnel, on cherche si il y est 
+				case '[': // optionnel, on cherche si il y est
 					j = 1;
 					while (tmp_rule.str[j] != ']' || tmp_rule.str[(j-1)] == '"') j++;
-					
+
 					subrule = create_rule("OPTIONNEL", strlen("OPTIONNEL"), tmp_rule.str + 1, j-1, 0, rule->elements);
 					if(subrule != NULL) {
 						match = parse(&(self_node->children), subrule, tmp_str);
@@ -261,7 +261,7 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 						tmp_rule.str++;
 						tmp_rule.size--;
 					}
-					
+
 					break;
 			}
 		}
@@ -291,6 +291,7 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 		//On met à jour le noeud pour qu'il ne comprenne que la chaine qui marche
 		self_node->value.size = valid;
 	} else {
+		//printf("CA PARSE PAS LA REGLE %s\n", rule->rulename.str);
 		//Sinon on supprime le noeud
 		delete_node(tree, self_node);
 	}
@@ -323,7 +324,7 @@ void test(tree_node ** tree, abnf_rule *rule, char * str, int size) {
 /*
 Notes :
 
-Les règles de l'abnf ont été "simplifiées" : 
+Les règles de l'abnf ont été "simplifiées" :
 Les rulename sont case sensitive, ainsi que les multiples caractères entre guillemets ("AbA" est case sensitive)
 DIGIT(rulename) n'est pas implémenté, il faut donc écrire les règles sous la forme DIGIT*DIGIT(rulename)
 %x n'est pas implémenté non plus, il faut préciser les valeurs une par une via la notation "A" / "B"

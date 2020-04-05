@@ -207,6 +207,7 @@ void delete_node(tree_node ** tree, tree_node * self_node) {
 }
 
 void delete_all_node(tree_node ** tree) {
+	tree_node * self_node = *tree;
 	if((*tree)->children != NULL) {
 		delete_all_node(&(*tree)->children);
 	}
@@ -214,6 +215,6 @@ void delete_all_node(tree_node ** tree) {
 		delete_all_node(&(*tree)->next);
 	}
 
-	free((*tree)->rule);
-	free((*tree));
+	(*tree) = NULL;
+	free(self_node);
 }

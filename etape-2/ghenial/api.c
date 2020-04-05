@@ -19,14 +19,12 @@ void addToken(_Token ** list, _Token * element) {
 	}
 }
 
-// Fonction qui recherche dans l'arbre tous les noeuds dont l'etiquette est egale à la chaine de caractères en argument.   
-// Par convention si start == NULL alors on commence à la racine 
-// sinon on effectue une recherche dans le sous-arbre à partir du noeud start 
+// Fonction qui recherche dans l'arbre tous les noeuds dont l'etiquette est egale à la chaine de caractères en argument.
+// Par convention si start == NULL alors on commence à la racine
+// sinon on effectue une recherche dans le sous-arbre à partir du noeud start
 _Token *searchTree(void *start,char *name) {
-	_Token * result = NULL, *token;
+	_Token * result = NULL, *token = NULL;
 	tree_node * root;
-
-	
 
 	if(start == NULL) {
 		root = getRootTree();
@@ -61,9 +59,9 @@ _Token *searchTree(void *start,char *name) {
 
 
 	return result;
-} 
+}
 
-// fonction qui renvoie un pointeur vers char indiquant l'etiquette du noeud. (le nom de la rulename, intermediaire ou terminal) 
+// fonction qui renvoie un pointeur vers char indiquant l'etiquette du noeud. (le nom de la rulename, intermediaire ou terminal)
 // et indique (si len!=NULL) dans *len la longueur de cette chaine.
 char *getElementTag(void *node,int *len) {
 	tree_node * element = node;
@@ -71,7 +69,7 @@ char *getElementTag(void *node,int *len) {
 	return element->rule->rulename.str;
 }
 
-// fonction qui renvoie un pointeur vers char indiquant la valeur du noeud. (la partie correspondnant à la rulename dans la requete HTTP ) 
+// fonction qui renvoie un pointeur vers char indiquant la valeur du noeud. (la partie correspondnant à la rulename dans la requete HTTP )
 // et indique (si len!=NULL) dans *len la longueur de cette chaine.
 char *getElementValue(void *node,int *len) {
 	tree_node * element = node;
@@ -79,7 +77,7 @@ char *getElementValue(void *node,int *len) {
 	return element->value.str;
 }
 
-// Fonction qui supprime et libere la liste chainée de reponse. 
+// Fonction qui supprime et libere la liste chainée de reponse.
 void purgeElement(_Token **r) {
 	_Token * t1, *t2;
 	if(*r != NULL) {
@@ -92,12 +90,12 @@ void purgeElement(_Token **r) {
 	}
 }
 
-// Fonction qui supprime et libere toute la mémoire associée à l'arbre . 
+// Fonction qui supprime et libere toute la mémoire associée à l'arbre .
 void purgeTree(void *root) {
-	delete_all_node(root);
+	delete_all_node(&root);
 }
 
-// L'appel à votre parser un char* et une longueur à parser.  
+// L'appel à votre parser un char* et une longueur à parser.
 int parseur(char *req, int len) {
 	abnf_rule* main_rule = init_rules();
 	string request = {req, len};
