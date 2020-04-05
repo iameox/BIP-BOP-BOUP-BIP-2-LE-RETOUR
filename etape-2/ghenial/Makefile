@@ -16,5 +16,8 @@ abnf.o: abnf.c abnf.h
 functions.o: functions.c functions.h
 	gcc -c functions.c -Wall
 
+parseur: parser.o abnf.o functions.o
+	gcc -o agaga parser.o abnf.o functions.o
+
 clean:
 	rm -rf *.o

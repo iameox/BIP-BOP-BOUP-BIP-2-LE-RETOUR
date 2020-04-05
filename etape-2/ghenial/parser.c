@@ -264,12 +264,6 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 					
 					break;
 			}
-			//printf("TMP_RULE = ");
-			//printntruc(tmp_rule.str, tmp_rule.size);
-			//printf("TMP_STR = ");
-			//printntruc(tmp_str.str, tmp_str.size);
-			//printf("RULE     = ");
-			//printntruc(rule->expression.str + i, rule->expression.size-i);
 		}
 	} else { //Règles terminales, codées en brute
 		if(!strcmp(rule->rulename.str,"ALPHA")) {
@@ -315,16 +309,16 @@ void test(tree_node ** tree, abnf_rule *rule, char * str, int size) {
 }
 
 
-/*
-int main(){
+
+/*int main(){
 	tree_node * tree = NULL;
 	abnf_rule* bite = init_rules();
 
 	test(&tree, bite, "GET / HTTP/1.0\r\nAccept-Charset: iso-8859-5, unicode-1-1; q=0.8 \r\n\r\n", strlen("GET / HTTP/1.0\r\nAccept-Charset: iso-8859-5, unicode-1-1; q=0.8 \r\n\r\n"));
 	print_tree(&tree);
 	return 1;
-}
-*/
+}*/
+
 
 /*
 Notes :

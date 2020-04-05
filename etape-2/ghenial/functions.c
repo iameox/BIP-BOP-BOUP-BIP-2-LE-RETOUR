@@ -197,9 +197,9 @@ void delete_node(tree_node ** tree, tree_node * self_node) {
 
 		n->next = self_node->next;
 	}
-	if(!strncmp(self_node->rule->rulename.str, "GROUPE", self_node->rule->rulename.size) || !strncmp(self_node->rule->rulename.str, "GROUPE*", self_node->rule->rulename.size) || !strncmp(self_node->rule->rulename.str, "OPTIONNEL", self_node->rule->rulename.size)) {
-		free(self_node->rule);
-	}
+	//if(!strncmp(self_node->rule->rulename.str, "GROUPE", self_node->rule->rulename.size) || !strncmp(self_node->rule->rulename.str, "GROUPE*", self_node->rule->rulename.size) || !strncmp(self_node->rule->rulename.str, "OPTIONNEL", self_node->rule->rulename.size)) {
+	//	free(self_node->rule);
+	//}
 	if(self_node->children != NULL) {
 		delete_node(&self_node, self_node->children);
 	}
