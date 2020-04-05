@@ -351,7 +351,7 @@ abnf_rule *init_rules() {
 
 	//hier-part = "//" authority path-abempty / path-absolute / path-rootless / path-empty
 	char *hier_part_name = "hier-part";
-	char *hier_part_expr = "\"//\" authority path-abempty / path-absolute / path-rootless";
+	char *hier_part_expr = "\"//\" authority path-abempty / path-absolute / path-rootless / path-empty";
 	rule_list *hier_part_list = NULL;
 	insert_rule(&hier_part_list, authority);
 	insert_rule(&hier_part_list, path_abempty);
@@ -371,7 +371,7 @@ abnf_rule *init_rules() {
 
 	//relative-part = "//" authority path-abempty / path-absolute / path-noscheme / path-empty
 	char *relative_part_name = "relative_part";
-	char *relative_part_expr = "\"//\" authority path-abempty / path-absolute / path-noscheme";
+	char *relative_part_expr = "\"//\" authority path-abempty / path-absolute / path-noscheme / path-empty";
 	rule_list *relative_part_list = NULL;
 	insert_rule(&relative_part_list, authority);
 	insert_rule(&relative_part_list, path_abempty);
@@ -415,7 +415,7 @@ abnf_rule *init_rules() {
 
 	//message-body = ""
 	char *message_body_name = "message-body";
-	char *message_body_expr = "ALPHA";
+	char *message_body_expr = "";
 	rule_list *message_body_list = NULL;
 	abnf_rule *message_body = create_rule(message_body_name, strlen(message_body_name), message_body_expr, strlen(message_body_expr), 0, message_body_list);
 
