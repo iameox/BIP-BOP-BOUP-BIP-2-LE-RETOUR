@@ -124,6 +124,7 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 					} else {
 						a = a - '0';
 					}
+
 					if(!is_digit(b)) {
 						b = -1;
 					} else {
@@ -170,6 +171,10 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 						i++;
 						tmp_rule.str++;
 						tmp_rule.size--;
+					} else {
+						i++;
+						tmp_rule.str++;
+						tmp_rule.size--;
 					}
 					break;
 
@@ -190,6 +195,10 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 						i += subrule->expression.size;
 						tmp_rule.str += subrule->expression.size;
 						tmp_rule.size -= subrule->expression.size;
+					} else {
+						i++;
+						tmp_rule.str++;
+						tmp_rule.size--;
 					}
 					i++;
 					tmp_rule.str++;
@@ -211,6 +220,10 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 						i += subrule->expression.size;
 						tmp_rule.str += subrule->expression.size;
 						tmp_rule.size -= subrule->expression.size;
+					} else {
+						i++;
+						tmp_rule.str++;
+						tmp_rule.size--;
 					}
 					break;
 
