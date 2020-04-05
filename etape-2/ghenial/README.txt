@@ -22,4 +22,4 @@ Je suis conscient que la fonction parse() est excessivement longue et indigeste,
 
 Après avoir personnellement testé le parseur sur les tests avancés, seulement 1/4 ont été parsés correctement (56/200 pour être exact...), je ne doute pas que ce ne sera pas mieux de votre côté.
 
-Je suis aussi conscient que toute la mémoire n'est pas libérée. Après analyse par Valgrind, je trouve qu'environ 60% de la mémoire est libérée en moyenne. C'est un bilan plutôt catastrophique, mais encore une fois je n'ai pas eu le temps de 
+Je suis aussi conscient que toute la mémoire n'est pas libérée. Après analyse par Valgrind, je trouve qu'environ 60% de la mémoire est libérée en moyenne. C'est un bilan plutôt catastrophique, mais encore une fois je n'ai pas eu le temps de me pencher dessus...

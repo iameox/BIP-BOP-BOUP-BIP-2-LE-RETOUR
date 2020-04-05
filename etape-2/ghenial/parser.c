@@ -263,11 +263,11 @@ int parse(tree_node ** tree, abnf_rule * rule, string str) {
 						i += subrule->rulename.size;
 						tmp_rule.str+= subrule->rulename.size;
 						tmp_rule.size-= subrule->rulename.size;
-					} //else {
-						//i++;
-						//tmp_rule.str++;
-						//tmp_rule.size--;
-					//}
+					} else {
+						i++;
+						tmp_rule.str++;
+						tmp_rule.size--;
+					}
 
 					break;
 			}
