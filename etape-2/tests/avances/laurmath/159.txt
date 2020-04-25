@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:[v06.X]:	 
+Host: 	 	
+Host:	 					 	 	 112.231.31.3:66
+

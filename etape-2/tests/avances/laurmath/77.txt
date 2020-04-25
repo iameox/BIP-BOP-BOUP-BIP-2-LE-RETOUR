@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:	,,,  ,	 	 	 	 	 			,				,  iRnBO`	  	 	 				 	 	   	;	xha= 	 ""  ;05=	 "\p"  	;	P7duqzt 	 = 	    		"\@\¬\|";			  	  t= 	 	"\\"
+

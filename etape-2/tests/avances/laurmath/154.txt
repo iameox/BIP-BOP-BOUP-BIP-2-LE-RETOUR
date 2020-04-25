@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:86.81.171.130 	 
+Transfer-Encoding:,  		d`&	;		 	  			 g8  				    	=		  "\3ü\Ç\¸" ;	   gP  	   	=!2O`	 ; Y	=   	  "\È";		   			  X~ac 	 =	   	5A 	; 		 		 1U		  =G,  	,7I4zBp  		;		   	 9	=   "º"  ;	  	  W1aD			 	= "7\êˆ" ;6= 		""   ;KgjmC7qZD1cXP&f=   "*ø\n\	ﬂ“	q\	"
+

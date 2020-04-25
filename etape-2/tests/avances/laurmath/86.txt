@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Host:	 		[CDC2::E:B6C:232.205.9.237]
+Host: [3C::75:C:E:4:3.76.88.234]
+Transfer-Encoding:  			  		  		 		 	 		    ,   		,			  UI 
+Transfer-Encoding:	  	fW.5T				  		 	 		;  	   	 %'eb	    		  	=  	  "\L\◊DÍ«\™\ù\√";dc'08	  	  =  ""	 
+

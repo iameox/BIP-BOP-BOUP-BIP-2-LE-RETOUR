@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Transfer-Encoding:	   		,	  	, 	 ,	 2,,  WHZ+				  ,	,		XqBO	;eedx 		= "‡Ö"	   	 	 	 			,w2V	,	  	     	  			,  NxS4
+Host:[5C::F:216.7.225.208]:6			
+Host:    	 			 		  	[9376::DF3D:F:2920:5:A005:8]:2031168	
+Host:		[::8:B:D7:BE9]: 	  	   
+

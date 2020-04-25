@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:	  222.1.252.204:4101 
+Transfer-Encoding:		,, Zti&4B				 ;KMwY4DpwYH="" 	 		; Ge4  	  	=  	  		""  ; 				 	l^Y	 =	""	, ptXSOPVyB    ;	   hek.s 	 	  ="\G\ë\∞ñ\3\©e÷\ñ"		 ;			P	= 	  	&`7    			  	  	;lV = 		  	-|g	;   	  		5Jl!R2="\:",,,BDi.R~VNk*aq,		 		 			K!SJL-PY	 			
+

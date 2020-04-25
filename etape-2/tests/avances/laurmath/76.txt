@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Host:  	 [3::6:7]:667780348650  
+Transfer-Encoding: ,  ,  mU4 ; 		b  	="\¸\']-\Lµ\·\A«¸g\‘"	   ;	   	n	=  				   		"";	D  		 										= "Œ"; 			 	^bj$U	="ˆ\Ó";  	  e	   	  	=""	;d	=	"\C\s\ﬁ"	;	ArRy = 	""	  ;	9q=  	"\≈\î\—"	  	    	 			 	 	 ;				   A  ="\;"		 ;KY	=	 ""		 		  ;a$ ="\ˆh\£O\(" 	 ,		&.8jw 	;%Qz-   =		"Ÿ"		  	 	;	   		  	4_3Q9 	 = "\óNdZcX¡Ì" ,	  X3;  		 jlkm&m~39="" 	;4nc	 =  	 	 ""				 	;TV=		 	""	 ; 		 *Vi  	=	 "\Ë\DÃ"		  	  ;	X	=  "" ; Ie =	 "\¡\å“"   			    ;	   	 	 		 pb|8	   	=  "" 	 	 		 			,		,YeH       			 		; 	 			 		W		=		 "\ê" ; 	Ijja$1	 =	"\ "	;	   	 	      		 		X#Z`O		=	 "\Í\`v"	;		    k8nH 	= 2HeE$BAZ^W_R.l 		 ,#d		;  			`I^		 	=   "\5"	  ;	G		 	= 	 "\≤"	;	 6 	=	"\‚<…H"		  	 	    ;  a`Zxb= 	 w-a*$J;	  				 	go~fB`D= 	"◊\H>" ;	H0SI%=		"˚\˜,"  	 	   ,gzip 
+Host: 	        [::DD2:143.204.190.0]
+Transfer-Encoding:	 	,kf 	 , .Q  ,			ffr			 	 	 		 ,r;    gx		 =	"=Òç" ;		  	 	*= 	  		.d1*; 	  	    	  	F1|U=  		"\Í\˝+¡\–\Ø\(\/"			, ,	 URf 		;		 3_z	  	 =""	;	 		  %^= "\R\‚=\Ì\gN\û:à©\""	  , 				M6SdqTOu-JV`	 				 			; #cTd = 	 FL23%X  ; W%_U8		="-\y◊ib"	  		; 	CP		=	 	"ã÷¸"
+Transfer-Encoding:  	,	 				  chunked				 		,			IpvW~uiKUqD	
+

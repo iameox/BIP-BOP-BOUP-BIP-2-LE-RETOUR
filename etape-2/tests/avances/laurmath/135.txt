@@ -1,0 +1,3 @@
+GET / HTTP/1.0
+Transfer-Encoding:  			, 	 , ,   	  	 		      	C ;		 		 	J=  a	 				  			 ,	 	  		P_'A 	 ,	 , 		B_Qzy	 	   ;%^kCct 	=   "\'\¸h\›"  ;o   	=	85vH;!Ew5="I" ;  				F  ="-\yá\°Ö\å\æ\$‘"  ;		 			8H7Ds= 			WaLJ,	   					 			,gzip 		 	,	  ,	deflate
+

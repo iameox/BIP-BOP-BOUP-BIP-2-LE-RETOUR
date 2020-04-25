@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host:		  		 	  	
+Transfer-Encoding: 	  , 	 				,	 , ,		,    	   	 ,X	;  	-krvSd#X	=	"";		 	 	 		Lr 	=		"\Ä\∞ƒ"	 ;	  		Hwu%	  =	"\ï"		; 			x="\êπ";    bBir 	 = "\Z\¸"	 	   		  ;		 			K 			  		 =""	 ;LlM=		 "ß"	 ; C9		=	 "\å"		  	,    	 uDrq;  		%4LXHEHO'0SiB8^	="°\)\‡\§\«>\[\b‚\9"   	;				JuaNOG	 =		"¥\7"   	; 			 Z'	="\∏©\¥A\[ÅI#D\x\,";6-. ="\Û";M_ 	=   	  "\ﬂ\’_\û\ì\w\(\Ω\‹\Ã\0\≥íü"   ; O-wUE    =  			"E\Ä\l"		
+

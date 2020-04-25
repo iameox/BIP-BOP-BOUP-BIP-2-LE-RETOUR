@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Transfer-Encoding:	    h  ;			 		 	% =	"A"  ; 	   _8NEr	=	"\‡Z\s" ;	 	 	   		8jgNklCCqw+		=	hE.b ;	 	 c= 	 "º", ,	 	hJ'cMl		,  &-g_	 ;				  		 	-6	 ="Fº\²"   
+Transfer-Encoding:,	 , ,,        	,   	,   	    		    , 	 			  	  	, 	       t		, 	  	#Oq	 	  	;  	5			   		  	    = 	"]\Ø"		 ; 		 o!!2 = 	 	"Ô "		   ;		 SB8D		 	  		=	"Ž\$\¡";`5MylO= 	  	 	"" 	,	 PSs;   s	 =	"Žà";R		  	=  		 		 "ûs\ú¸²\ñ\/å\“wû"  ,,   	 		 	    
+Host:	[03:0:E:7::C:254.9.248.254]	    		
+Host: [C:2D:696::24:9:236.180.254.21]	 	    	
+Host:251.5.2.202    	 		 		
+

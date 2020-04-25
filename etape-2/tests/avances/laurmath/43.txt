@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:		 		[vBA0CA1.jbGab]:91	
+Transfer-Encoding:,  	 		 b;  i9Vpt 	      	 				="l\uº";	   oJdbC	="\’ë"		   	  	;		   	  	u="\`\¨ÄV\Ãy"; 	GnkJ		 =  				 		  	"" 	; 			   N0g&7 					  = 		 		 	"\r¡",	 	  	N`Q.!~fV*'7~;  	  z&KSa8^. =	 	 "Ω_\´5\Äk≈WÏ"  	    	    ;t	  		 	 	 =	"\Ps\å"		 	   		;  	    			   Z`QIE|a#1	=	"∫¥";S 		 	= 	"\–\(" 
+Transfer-Encoding:		,	 	 ,  , , 				, 			  	 ,, , !bQ^VgUE	;PQ^FEi3	 	 	 =	"\v\≈";   	    		  			D="" 	 		   	  	;		 	  B= 		 "\å „\á7\¡"		;A  		="\X#Ì"  	;	  Dn 	 =	 			 		"¶0" ;	      0o	 	 		 =	     		""	;	lLPYW&H	 	="" ,  
+

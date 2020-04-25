@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Host:	 		255.192.7.254	 
+Host: 	 			  	 	 	   [5B::4]:2514225
+Host:  
+Transfer-Encoding: 		1`w`$zh 	; PN|!`*u= 	 	 ""		; O2s 			=	 "";	h0Gk   ="\.m\ÇŠ\2"; 	 		UP%iVd88Yg =  "¶"	;	Uy 	 ="\b";U!t=" 9\ù\‘¢Ã\ä\¬"      			 ;	  LFo=	"" 	;gO	 =			  				"" 	,	   		 , 			 		`1p*~R 				 ;		F		 ="á\Ý\ê\þ\!";uX	 	 	 	= 	 		"\J"
+Host: 	  $		 
+

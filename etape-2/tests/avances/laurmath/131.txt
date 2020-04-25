@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding:,		'
+Host: 0.91.225.96:  		
+

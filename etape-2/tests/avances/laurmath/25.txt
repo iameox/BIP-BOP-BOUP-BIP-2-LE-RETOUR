@@ -1,0 +1,6 @@
+GET / HTTP/1.0
+Host:[v173A4BE08D0AC77.i]
+Transfer-Encoding:l	,	 	 			  , 	 	 ,		 	 	XKgOc3 			 		;		u=	  	 ""; 	kP#m0x 					= "öÆ" 
+Transfer-Encoding:   	  		,, ,	 		,	  	,		,		, 	 	,			   	 	 	   	    	   		, 	 ,,				,,		  , 		 ,		  deflate	  	,,	,  
+Transfer-Encoding:		 	   	 , ,	 &^RR ,		,  ,			 ,		 
+

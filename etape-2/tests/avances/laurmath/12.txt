@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Transfer-Encoding: 		,	    , 	  deflate , 	,				   	y1al	 ,
+Host: 	 [C::1:F:251.1.251.9]:223181 
+

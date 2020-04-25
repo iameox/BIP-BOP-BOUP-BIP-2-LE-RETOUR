@@ -1,0 +1,7 @@
+GET / HTTP/1.0
+Host:	 [D::DBF:0.241.31.46]		   	  	
+Host:   	[42:5::0:218.252.8.254]
+Host:	[v7.u=] 	 		 
+Transfer-Encoding:			 	 chunked	
+Host:  [613D::A:BC:9:AE:B14:6]:70689	   
+

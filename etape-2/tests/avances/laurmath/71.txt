@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Transfer-Encoding:c	 		 	, 	 				
+Host:	 	[v2D67076EB.A]: 
+Host:246.61.34.71	
+

@@ -1,0 +1,5 @@
+GET / HTTP/1.0
+Host:	[vF.1hhw,]:6 	
+Transfer-Encoding: 	 				 						, 		 	 	  , 	   , 			,		 	 ,  	    ,MD			;			 QNAD="\ë\√˜",,X_vvfd;	 -3MK3AIWVSB 	 ="Ç∂\ß\∏‰\Wê\$" ;_i 			 	="c"		;		  			R9^3v'xH		  	=	""   	 		;X 		  =	 "\6\	\Ñ\RB\ç\'\õ&Á\Í"	;	   			Gm	   =	 "—\¡õ" 
+Transfer-Encoding:	,			, 	  	 wp#w   		 ;	iyAzRM		 	= 	"" , , 	  	
+

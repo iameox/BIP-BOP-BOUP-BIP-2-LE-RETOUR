@@ -1,0 +1,4 @@
+GET / HTTP/1.0
+Host: 				 [vE07.(jl]  
+Host:7.229.164.9:4
+
