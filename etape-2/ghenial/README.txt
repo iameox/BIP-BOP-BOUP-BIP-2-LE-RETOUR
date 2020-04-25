@@ -1,4 +1,4 @@
-Autheur : GHENIA Lucas
+Auteur : GHENIA Lucas
 P2022 IR&C
 
 
