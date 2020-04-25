@@ -1,7 +1,0 @@
-GET / HTTP/1.0
-Host:[vD7D.EFx]: 	
-Host:	[::4AA:5:F:64:F688:248.7.226.0]
-Host:  			  	 
-Host:  	  		[::D4B:1AAB:E9E:4969:7:7.0.228.62]
-Transfer-Encoding:		,	  ,	 ,,	 	,  		 	 deflate,					 	 	9~R77pE4&H	 	  
-

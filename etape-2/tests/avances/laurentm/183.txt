@@ -1,5 +1,0 @@
-GET / HTTP/1.0
-Transfer-Encoding:		,	 		 		  D.X 	 	 	  	;		  	  	CEyF&|xP=		      		  "\P]" ;	    	 	 	 	    		  		+CM  	 		=	""	;		 			T1be*74+Dl    	 =  	 "!"			  ;i =wy1n  ;	 &Dp  =		 	  "î\)"; 	 *EO= 	 "•\o\€\ºÕL" ;  wRGX` = t	,
-Transfer-Encoding:z	, 	gzip 	,,				,				  	,,	 		_r^+1b;F=	 				 "",	 compress,  
-Host:[D::D:ABD6:194.218.86.60]:
-

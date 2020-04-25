@@ -1,7 +1,0 @@
-GET / HTTP/1.0
-Host: 	    [CD1C::] 			
-Host: 1.84.61.4:886
-Host:		 	 [D::209.1.244.129]		 
-Host:		 	[::F:43.248.99.65]
-Transfer-Encoding:	 aQb+     	  	 		  ;		^t=""				 	;		   K =	"\tÔ\∞\¡"	;A 	=		 ""	 		    	 ;		*3#SL#7Sjwg-	="L\∆\w‚vj\«",		,		,  			,	 ,  ,d2	;4_1Zju= 	 "F";		 		p42Gf	=   			 "ÕZ"	    ;		 		J+Km3|4D&ghK	 =nF;	  AF=		"D\W\Å\,o.ë"   	 		;   3=			"Ë\Ë\˝\Ÿ" ;Ykc^		= "\Ê" ;		 	 	 	 	 			  	 	dyZ  	 =""		,  		 	 		 		  	 GGnP
-

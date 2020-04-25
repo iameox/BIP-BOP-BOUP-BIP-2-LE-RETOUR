@@ -1,5 +1,0 @@
-GET / HTTP/1.0
-Transfer-Encoding: 			  	 Y-E	  
-Host:	[::4:A:0:D:AE]	 
-Host:  	eBaOYdG:65 			 	 					 			 	
-

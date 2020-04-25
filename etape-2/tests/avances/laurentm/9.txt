@@ -1,5 +1,0 @@
-GET / HTTP/1.0
-Host:[vD9FCD.*SN&(U]:8303
-Transfer-Encoding:%4		;R=EGq-a.		 	  ; EV   =			"\?" 	;i="§]\Ã"	 			 ;  	 	  	g=	""	  ,compress	    		 
-Host: [9::E:9:226.1.0.228]
-

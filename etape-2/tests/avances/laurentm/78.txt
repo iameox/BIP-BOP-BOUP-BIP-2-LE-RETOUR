@@ -1,4 +1,0 @@
-GET / HTTP/1.0
-Host:   [::9.9.245.11]:3		
-Transfer-Encoding:	, ,B^Oi%- ;  	 iQd	  = "" 		  ; 		.!|= eNCXM! 	 	 ,	 ,				   YnX ;    -t~|+B  		=		"a!Ë"  	; 		M4y$$|c    	=			  "T\DY¢Î\r\9°"; 	b!J2  			= 		 "" ;	    	-			  	 =""; 	 				 %	= 	  "\‘Ö" ;L%9'KA6%= 		"\"\N"   ,	 ,			  	  
-

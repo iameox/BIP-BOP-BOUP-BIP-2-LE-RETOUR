@@ -1,4 +1,0 @@
-GET / HTTP/1.0
-Transfer-Encoding:,	 	 	c  	 	 	 ,	  	yuBG.ec
-Host:   			  [v65E.f*ZDe]:82 
-

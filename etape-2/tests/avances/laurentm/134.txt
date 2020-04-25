@@ -1,3 +1,0 @@
-GET / HTTP/1.0
-Transfer-Encoding: ,	 			 				,   	 	,  	 	 	 , 			,  ,0v~zQy	;	JK 	  ="\<F"  , 	C		;cLo	  =	i ;  h="\Ð",	  ,			
-

@@ -1,3 +1,0 @@
-GET / HTTP/1.0
-Transfer-Encoding:,  				,     7o	 	 	;    	  	 		02Z		= 	"" 		;#= 		""		;			 Dd  					=	 			 "" ;	z      	 =""			 	 	;	SjX7H	=    		"»\£\µ‰"	  	
-

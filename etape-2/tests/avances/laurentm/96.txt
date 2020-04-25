@@ -1,4 +1,0 @@
-GET / HTTP/1.0
-Host:[::0:1:98:98.27.74.105]: 	 
-Transfer-Encoding:,,	veq 	 ,	,					$x7|l^8k'; 		 R		 = Ze'6AQhm-uzlbUMEIE'Tc	;|yl=	 "i";Ddx%	 		=  w;	 		B 	="" 		 ;		~ 	  	=	"╗\e\Z&\аж" 	 ,chunked	 		 	 	,	2rsB	;	8P0 = 	 	   "" 	, 	 	 		fG_pE^bo		;	Nud 			= 	p ;	 im   	 =""	  ;   9Cnl	 	   	  =   				      "\B\W" 		 	;    5#%FYap5	=	"м"	;t=   VL	 	 			 	;	  			 ^ = 	 "\ъ"  		;		  5p	   = "^&\▀\А\*"	  	  	 
-

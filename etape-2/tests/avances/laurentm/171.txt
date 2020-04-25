@@ -1,6 +1,0 @@
-GET / HTTP/1.0
-Host: 141.230.62.5		
-Transfer-Encoding: #$tTq.;  t 	  	   = 	  `o	,Skr& 
-Host:[3:2:8:5:B9:A684:204.252.216.238]:4411					
-Host:	[::7:0.200.55.253]			 			
-

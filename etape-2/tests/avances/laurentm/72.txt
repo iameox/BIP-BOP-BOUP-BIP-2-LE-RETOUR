@@ -1,3 +1,0 @@
-GET / HTTP/1.0
-Host:	 		    			bB%806cHRMw%495%EE(%EAy%BBkS6~'Q;				 		  			 
-

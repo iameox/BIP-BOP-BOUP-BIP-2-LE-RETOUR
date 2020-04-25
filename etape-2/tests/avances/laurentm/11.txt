@@ -1,6 +1,0 @@
-GET / HTTP/1.0
-Host: 	252.4.28.4:419 	 
-Host: [v63C427F91.0Si]:80 	
-Host:	   [2:9:FD:96:2:4331:2.218.230.241] 	
-Transfer-Encoding:	 		 			, 	 ,  chunked 	 	 	 , 		chunked
-

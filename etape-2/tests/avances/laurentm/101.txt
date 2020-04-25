@@ -1,3 +1,0 @@
-GET / HTTP/1.0
-Host:[v8CB21FB3..]:09 	 
-

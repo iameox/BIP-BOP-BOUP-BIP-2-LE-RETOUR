@@ -1,5 +1,0 @@
-GET / HTTP/1.0
-Host: 	 88.4.2.246
-Transfer-Encoding:		 	 	  ,,,  				,	+B   	 	,     	   ,    
-Host:  	    	 	 219.254.250.42:71 
-

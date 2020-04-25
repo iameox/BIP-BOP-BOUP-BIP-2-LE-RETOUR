@@ -1,4 +1,0 @@
-GET / HTTP/1.0
-Transfer-Encoding:	 ,	 	, 	   q  ;   	 	 Sk="",		   g,	
-Transfer-Encoding:  j.^D					 	 ;		 AY&UgU- 	=Z	   ;  	 	  	 	 n9iB&Ba=	 "\9" ;	bO~cCxiV =		 *	;	Y=C; 		3	= o#     	;  	QJ		 	= P9+j4  
-

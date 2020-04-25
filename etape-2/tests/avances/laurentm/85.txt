@@ -1,7 +1,0 @@
-GET / HTTP/1.0
-Host:	 [vC8.Zu~c]:30  
-Host:[::63:D6:7:255.247.228.208]					
-Host:  				  	 [v1162.C] 	 	 
-Transfer-Encoding:	 #FTv
-Host:[D::A37:4:A:F0A:7.151.221.201]:5	 
-

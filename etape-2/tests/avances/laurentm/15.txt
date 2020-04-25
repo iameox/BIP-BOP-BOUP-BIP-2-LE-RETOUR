@@ -1,7 +1,0 @@
-GET / HTTP/1.0
-Host:   [C4:3A::216.217.253.12]:672276	  
-Host: [::3D6:65B:8:C9:0:254.6.230.251]	 	
-Transfer-Encoding:					 		 , 	, ,	  	  ,	   		 , ,,  ,,	,, 		   ,	,	 		,	,		,				     		  	,chunked	   	   	,
-Host:	[vB1C.B+] 	  
-Host:		46.6.253.230:1	 	  		  		 		
-

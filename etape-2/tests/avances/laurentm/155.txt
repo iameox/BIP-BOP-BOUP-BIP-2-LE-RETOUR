@@ -1,5 +1,0 @@
-GET / HTTP/1.0
-Transfer-Encoding:				 		,	, ,,    		, 	  	,		 	,  			 	,,			 	,  gzip , 	 				 Lt		;    				 *     	= "\JN¶"	   			 			,, l	,~-.	, R ;	 	 4Z 	 		=	"";w= "\˜¥.\H\¡¯\Ã\²\¢\Õ"	,T 	 	 	; -6x	=		  "Õ\@h¡ƒ\–" 	 		     ;  	 J 	 		=	 	    		  "\ó\*"		;6XiX	 =  	  "\ñ"	 		,		9be_N.w0	  	 	    	 		 	  ;  &	 = "&" ,`eCw	 	 ;				 	   	  	T$sDdX`$S	    			   		  	 	 	   	 	= 		 			   ' 		   ;	DHp$*AF=	 "¤\f\\\j\ Œ\ö\ " 	   			 ;      			   			 		 b6.	 		=			  ""	  ,  	 		,	 			 , 
-Host: 	[v05A.T9uL$]:72 						 	 
-Transfer-Encoding: 	a6P;    	PTxgevHh=	"\)"		 	 ; P 				   =C;  	  VL="\!\r}\´s\+N¨§";  ^QW =l,  	 	 	  , y~	;4gTSD  =	e#-m ;	  3!		 ="qÏ\Î\3"		   	   		;	GA$oa~-GKGSuc82I 		 	=V_; H="\p#‡\L%\Ë\Â"; 		9Mp 		     	=	"?",			  ,
-

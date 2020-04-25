@@ -1,3 +1,0 @@
-GET / HTTP/1.0
-Host:E2mOv!&7:154	
-

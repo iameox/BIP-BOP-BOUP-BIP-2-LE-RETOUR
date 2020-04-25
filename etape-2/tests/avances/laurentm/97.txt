@@ -1,5 +1,0 @@
-GET / HTTP/1.0
-Transfer-Encoding:,	,,			,,, j&K9FqSTt    		 ;   ^_=		  	  	 ""    	;  	.sy= 		 "%¦\ð\Ø"		   ;		  	  *F			="¸{"		 ,	 	 	 	,	  pA;NyF 		 	="\¼\‰™\f>È"			  		 	;  m					= 	"\n\£Ù",  	gzip 	,	 	   I	,	  $zI' ; 		-G'	 	 	=	"", 
-Host:			
-Host:[v9FF3.YZm]:  	 
-

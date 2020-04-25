@@ -1,5 +1,0 @@
-GET / HTTP/1.0
-Host: [v7E.d;Mi]
-Host:  	  	 [::3E2:6.6.1.20]:4432520
-Host:0 			  
-

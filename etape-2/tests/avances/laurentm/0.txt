@@ -1,4 +1,0 @@
-GET / HTTP/1.0
-Transfer-Encoding: 			 	10Qe%X 	 			 	  	;  				q!O3l9iZYiUM			= "l\\";	 e 				 	= "¹\ôw\e\K\0\†" 	 ;			 GhwN   =	 			 	  	 	 	"" 	   ;	RLB=  X$QY;	 	6b-#	= "˜"   ;!KLhuV	=  		  		"\¡'!^\æ\¼\o\8W"   ,p	;	#u1u9	 =		"";	 		ITYD|GBkY.	 = 			     "\ê"   			 	;G_wC	=  		"\N\0\Þ"; 	  L50	="\²\Œ\îR¦\Ú;n\_\i‹‰›";' =			 		 			  	 "v"	 	   	 ;	  F 	 		="\×\´>Ë‘\5Cð\ý";	 			 QTx_H		 =	"\	\I:" ,		 			 			 d ;n =	"\½\^Á"	  	 		 	, 		,  	 , 		 	 chunked  	
-Host:[vEA.=+]
-

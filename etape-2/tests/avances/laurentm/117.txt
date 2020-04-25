@@ -1,6 +1,0 @@
-GET / HTTP/1.0
-Host:	  [v6.R]: 	  	
-Transfer-Encoding:  ,		wQQeB9.ZY+  	;	 Piu6o	  		 =	 	   "Æ"	
-Host:  48.252.214.40:55413 	     	
-Host: 			[::76F4:173.133.254.9]:96  
-

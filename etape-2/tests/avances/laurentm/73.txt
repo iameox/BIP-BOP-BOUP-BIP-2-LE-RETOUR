@@ -1,4 +1,0 @@
-GET / HTTP/1.0
-Transfer-Encoding:	,	 , 		kaw	;		   W&XA  	="" ; 	 	  eFc	 	= 			 "\Ñ"	 	, 
-Host:	[::3.243.32.222]
-

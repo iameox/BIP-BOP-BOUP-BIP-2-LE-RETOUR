@@ -1,3 +1,0 @@
-GET / HTTP/1.0
-Host: 		  		[v6.2G]:
-

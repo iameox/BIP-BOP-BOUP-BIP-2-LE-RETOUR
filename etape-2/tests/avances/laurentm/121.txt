@@ -1,7 +1,0 @@
-GET / HTTP/1.0
-Host:	 	 	  		[vF5.rvwN]:9009
-Host:			  	243.244.255.79:13	
-Transfer-Encoding:     ,  ,  ,,					 	%;  -= "\$\Ü\²"	; 	 		v$cOAU  	   		= "\Ð–" ;	#&N=				 	 "3D\Ê\ˆ\=ŒŽã",3  ;	  	^aE="\.9"	   		,t|#|	 		 	 ;vM3pAUn*=		 	"\QI\½‡‰a±\À‰"	 ;GtZd =	"?Î½"			 		;	0bK  =  	"\¸\z	Ù"; Y= 			 	"\Hõ¬" 	 	  			  		   		,
-Host: 	 		38.81.214.223:90	 	
-Transfer-Encoding:	,, ,, 	,	,,		  	 	  	 ,   		4Y ; `rXfj3 	=							 			3'o1		  	;				# 		= 		 	 "\¯¬¡"		; 	  		  f=	 "\O" ;  	 OTO8^Q.E=U		;	-   =	""  	;  gU 	=	  		"\Ÿ"		;--E 	= "\íÚ"			;	^7!="#",	 	 ,
-

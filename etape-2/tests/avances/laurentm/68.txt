@@ -1,4 +1,0 @@
-GET / HTTP/1.0
-Transfer-Encoding:	 		 			  			 G 		;Z0S# 		=	 "²\Ð\©Â.\À";  	i=	Z~ ;6yWse-z=		"\ÈÓþl:Ù\QÃS\™i"		
-Host:	  	 	[v91E.P] 	
-

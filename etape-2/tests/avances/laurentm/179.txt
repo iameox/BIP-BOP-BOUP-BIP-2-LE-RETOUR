@@ -1,5 +1,0 @@
-GET / HTTP/1.0
-Host:	    	 	 		  	 204.8.8.140 		   	 		
-Host:   	0aNM%AB 	   		
-Transfer-Encoding:	, ,,	   		   	   ,  	 Us 	  ; nA^!E =  				   	"ì\g+b~\ú\ìˆÚ"	 	 ,	,*		 	 	 		; r% 	=x+J   			;c+Vz	 ="\^";Y= 		  	  	""						;6    		 =     "{\ò\–";  ^F	   =~K5McRPore~cvN5s,	, ,, 		,Y*_M	,  					 		|*g;  	8HN		 = 	  			 "" ;	   	U#	 	 	=   f#_a	  		   	 , 		
-

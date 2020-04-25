@@ -1,5 +1,0 @@
-GET / HTTP/1.0
-Host:[v894.VsW'~0g]	  
-Host:		 		   		[9A3F:F237:41F4:14::8F:6] 	
-Host:[FF5F::D695:3:8:37:D8]:939			
-

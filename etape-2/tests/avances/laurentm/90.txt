@@ -1,3 +1,0 @@
-GET / HTTP/1.0
-Host:			 	[::CF:9F9:A:EF42:E61D:3:91]	
-

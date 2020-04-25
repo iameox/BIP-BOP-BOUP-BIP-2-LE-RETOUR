@@ -1,5 +1,0 @@
-GET / HTTP/1.0
-Host:		  [A::0:C558:E:8:30.158.141.69]:397 	
-Host:TgGdc: 
-Transfer-Encoding:    	 		Qgy*     ;	Oa	       =	 "\è¨µ\ñ\„\:\Ω"	; L= 	 	"" 		  ,				  	 	   	 					#4 ;6SK     	=   		 "\∫\r"	  		;	.6C+5h =		 	   	"\< \," 	 ,	  	w_fWXC!J%^fF0-5    ;  		 	  	 		 	mcx=	   	 		 		"\6" 	 
-

@@ -1,3 +1,0 @@
-GET / HTTP/1.0
-Host:  		  		[v54.qw]:874  
-

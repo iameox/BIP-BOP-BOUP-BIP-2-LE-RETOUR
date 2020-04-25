@@ -1,4 +1,0 @@
-GET / HTTP/1.0
-Host:	
-Transfer-Encoding:, 		 		 , 			 	 	 ,     	 		,,  Zo%fY; 	   r+=	 	 		""	 ;62M			  	 =	"\z" ; VW^	 		  	=	"\ç\x)\6\‰×"  			 , 
-

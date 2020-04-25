@@ -1,6 +1,0 @@
-GET / HTTP/1.0
-Host:  		27.7.131.204
-Transfer-Encoding:	,	 		 	,,	  	EI  ;	WjXHwJ7`'af3o  					  =	 ""; 	gvG  						= "¢\>¥"			  ;				   8p& 		="" ;	 		24V	 		=""	  ; s	 ="\¶\é["
-Transfer-Encoding:      	 					  Rukd&
-Transfer-Encoding:			,	  , ,  ,G`		 ,			 	     	1# 		 		;	  t-W=		    "0s\•O"  				;  		 OSeQ7o`~yt	 	 = gU61n9  	 ; F7		 		  	=    	    	  	"¬\£"   	 ;  		 	 		 	 E&	= "\≈\N\ƒ\ù◊"	;	&v= "\·"		; .=  "!"		 	; 	 RzQsd			=   ""	; 	J		 = 		 	 	 	""  ;Aai.t7	   		  =		"∂tE"	 	 	 			;	    			| 	="Pƒ\ƒ"	 	;  EySpT	= ""	 ;	K.kbTc  	=		"\¢\äb\E\«"	; 9v$FYzWTP.Efo3g 	 		=		"\Å\ "   , 	 ,	9A,,  	AZ 	 ,
-

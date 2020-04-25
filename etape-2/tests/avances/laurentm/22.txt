@@ -1,5 +1,0 @@
-GET / HTTP/1.0
-Transfer-Encoding:		,  	  		 , 	FA;	 	   	 	 	wcB$-	 	   		  		 ="\µ÷\îç"	   	 ;MrRurzc	 =	"", 		,	 	 			chunked	,  	 	,			 E;	    	 	 	4!yLqNSI`~hp'931WM0Otj 	="\kÒ"
-Host:		225.90.115.21 
-Transfer-Encoding: 	 		,,	   	  	 ,,,,	 ,  		 ,		,, ,,	 	,	,				  		 			 	 	,,,	  ,		 , 	 		 	, ,		,		 			,     	 	, C; 7r+f'=	 			 "÷w"	,	  
-

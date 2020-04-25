@@ -1,7 +1,0 @@
-GET / HTTP/1.0
-Host:191.252.50.5:792750 	 
-Transfer-Encoding:  		 					gzip  			 	,,, 		  ,LM	;			 			f 	 	= 							 		 "£",     		    					   					,	chunked  	,z	; 		 &6L.K="\Ø’\r\–&\†½ƒ"	;	 	UzNC	 ="\Ú\€É\ø›û"		 ;t27H	  =  ""; 	6. 	 			  		  		="\R\®ãaÈ\‘4¢";	 	  		Tj  =RBS` 	,	 		8   			      ;	 	 	%=	Z.U ;  |T7ft8H=		  			"†\GG\ˆ";		oM^1I   =    "*¸\¬›\\·\‹\©\Ýq\Õ\Ä˜" 	;	  z	  =			 "\¾„"	,  		,,, 			 8%  	;		  	ChW+|TIg!1	=		 "\ª\á";	y~tIX =  	"4\­\Â\Bƒ\8"   		 	  ; 	 	 uN+uj  	=				"\DÒ";	J1G4Qwu9a%	 		="" ;D	 =		 					   		"\ô"				,		 			
-Transfer-Encoding:,				  		 w 		;		S%v!fse	 	 		 =QjKoxmbS	;	  	 	  	4DV6| 	    	=	 	""; 	 8  	 	 			=		 	"Ð\¥\øÚ\Uýí";sMz~uGI =""	  			    	 
-Transfer-Encoding:,	,			,,	  ,,,		  	,		      	   ,, ,			 ,,	 				  	   					   		  			, 	  ,		  ,,,	,v	;Lu2S	= c*4	  		 ;  	     	x   ="\C\[\üŸ\å\¸æ";  &5B  =				 	 "yú\Ø"  	 ;  	  		 i  	="‹ì'\m"  	;		 nOuIQdHr   	   = 			   		"®5";  		  W 		 	="ÿ	" ;	mnjnBzB*Aw	 	 	 		   		    	  	=	"\Æy\®\+";	aQ  		  	="¬i~\ƒ" 	;	 o	="" 	 		 	 			 ;			 7nPoH`v'|PhA$DU#hy =	  	    	"ÿÖ";		 	  	 	 	p!^myg!!			=fLF%k  ,	 						La	 	          	   ,, 		 	  deflate			 
-Host:		7.248.2.58			
-

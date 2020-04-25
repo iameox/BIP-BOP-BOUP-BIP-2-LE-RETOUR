@@ -1,7 +1,0 @@
-GET / HTTP/1.0
-Transfer-Encoding: ,,  ,j'M		;			 	 3= "\v"	 ;	k2  	="";	kwr	 = 		 "\T\J" 			 				, deflate	 	   	, c-  ;	   ^	  	=	 	   ""	  		  			 ;			 	 *5'B2Nf =		  "\8";zqB     			 	=	"\á“\Âò\¹T" 					 ;		  	 DL9~y	 	    	 =""; 0FGfB	 	       	 =	"\]"			 ;	  	tE$YK~U!r7T|BuHn#  	  ="m\…\x\Š\Ö" ; 	  		 'DJS9tW	 = 	  	"\©"	,		 			
-Host:	   1.231.246.223:22 
-Host:	5.42.255.252
-Host:		212.38.2.231:820880   
-Host:	[::A:2:9.1.206.7]
-

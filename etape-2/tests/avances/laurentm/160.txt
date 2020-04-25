@@ -1,4 +1,0 @@
-GET / HTTP/1.0
-Transfer-Encoding:, ,	   				  		  gnA`B-Eh ;   			DD	  		 	=		"\÷Ñ]~"	   		,		 c	;  B	=			  ""		;	+|C	 	 	= "\ÿ" ; 	P9	 	=		"" 					;_UxD^`My^!QV^OxFj 		 =				  	"·æ¸\™<" 	;	Q0o	 ="O",Y%D   	 	 			  ,	
-Transfer-Encoding:	,  , 	, 	  	, ,		,	 	 	, ,  ,	  i	;  DAW~	= 	   		 "_\Ø"	 	;	InOreXxp     ="\‘â" ; 				N$fG 		 	= "\ø:\Ý"			 ; D3X =Ii  ;			 		v		 		  = "Óª\ß%\‡\Ê\%\½\âî\U\­\Qû" 	     ;GLX!GM9=  	 s	, 	 	I00	 		 ;		O		=Kb$~wpOUB	,	 ,  	 _Eo 		   ;	  G'RL="5¿\!" 	;	o#		=  "\;ø"		 	;E8Ha*v	  	=	 	"\|\«";	     	 		 G	  			 	 ="\Ê" 	,gzip 		  , 	  	
-

@@ -1,3 +1,0 @@
-GET / HTTP/1.0
-Transfer-Encoding:5	, 	Z|Jn.l6#`$|jnumI	 ; iNi5 	 =			   R; o7	 = 	"\ñ"  , 5h, *		  	  ;	v-VR*d^=						""; * 	=	   "\Î[t\9^";c& 	=	""		  ;l#3GujkW 	="",	 	tfjGRf.'q   	, +.sf5a~MO87C+  	,
-

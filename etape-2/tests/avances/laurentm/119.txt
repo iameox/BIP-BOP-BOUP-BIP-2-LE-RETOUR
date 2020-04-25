@@ -1,4 +1,0 @@
-GET / HTTP/1.0
-Transfer-Encoding: ,		 ,  			  	  ,W'LOEL7	 		 	 					  	;u= 	!		
-Host:[::3:F:5:A8:3:68.96.200.88]:6  
-

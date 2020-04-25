@@ -1,3 +1,0 @@
-GET / HTTP/1.0
-Transfer-Encoding:   	, 	 		 		  ,		  		,	 deflate 	,	,  &	  					;   		 		fU 		="",,, 	  		  t.1`m	 	  			     		 						;	   		  		  K   	 	= 	 		  	y7v'DPg$N	
-
