@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 #include "fonctions_lucas.h"
-#include "constants.h"
+#include "utils.h"
 
 int validMethod(char * method, int len) {
 	int valid = false;
