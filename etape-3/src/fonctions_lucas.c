@@ -3,13 +3,15 @@
 #include <stdlib.h>
 
 #include "fonctions_lucas.h"
+#include "normalization.h"
 
 int validMethod(char * method, int len) {
 	int valid = false;
+	string s = {method, len};
 	char *methodes[] = KNOWN_METHODS;
 	int i = 0;
 	while(!valid && i < METHODS_NUMBER) {
-		if(!strncmp(method, methodes[i], min(len, strlen(methodes[i])))) {
+		if(compare_strings(&s, methodes[i])) {
 			printf("la méthode c'est un %s\n", methodes[i]);
 			valid = true;
 		}
@@ -35,6 +37,9 @@ int isAvailable(string *request_target, string *host) {
 	char *hosts_lists[] = KNOWN_HOSTS_LIST;
 	char *hosts_paths[] = KNOWN_HOSTS_PATHS;
 	char *website_path = NULL;
+
+	//Normalize according to ABNF
+	normalize_request_target(request_target);
 
 	while(i < KNOWN_HOSTS_COUNT && website_path == NULL) {
 		if(compare_strings(host, hosts_lists[i])) website_path = hosts_paths[i];
