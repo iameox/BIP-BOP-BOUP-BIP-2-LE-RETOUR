@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 		printf("Client [%d] [%s:%d]\n",requete->clientId,inet_ntoa(requete->clientAddress->sin_addr),htons(requete->clientAddress->sin_port));
 		printf("Contenu de la demande %.*s\n\n",requete->len,requete->buf);
 		if (res=parseur(requete->buf,requete->len)) {
-			_Token *r,*tok,*root, *test;
+			_Token *r,*tok,*root, *test, *test2;
 
 			writeDirectClient(requete->clientId,REPONSE,strlen(REPONSE));
 			root=getRootTree();
@@ -41,12 +41,26 @@ int main(int argc, char *argv[])
 
 				//========================= ZONE DE TEST =============================
 				test = searchTree(root,"method");
-				int laine;
-				char *chene = getElementValue(test->node, &laine);
+				int laine, laine2;
+				char *chene = getElementValue(test->node, &laine), *chene2;
 
 				if (chene != NULL) printf("Est ce que la méthode est valide ? %d\n", validMethod(chene, laine));
 				else printf("méthode kc\n");
 
+				test = searchTree(root,"request_target");
+				test2 = searchTree(root,"Host");
+
+				if(test != NULL && test2 != NULL) {
+					chene = getElementValue(test->node, &laine);
+					chene2 = getElementValue(test2->node, &laine2);
+
+					if (chene != NULL && chene2 != NULL) {
+						string target = {chene, laine};
+						string host = {chene2, laine2};
+
+						printf("Est ce que la ressource est disponible? %d\n", isAvailable(&target, &host));
+					}
+				}
 
 				//=====================================================================
 

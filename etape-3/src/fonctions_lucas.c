@@ -30,7 +30,7 @@ int validMethod(char * method, int len) {
 */
 int isAvailable(string *request_target, string *host) {
 	int available = true;
-	int i = 0;
+	int i = 0, j;
 
 	char *hosts_lists[] = KNOWN_HOSTS_LIST;
 	char *hosts_paths[] = KNOWN_HOSTS_PATHS;
@@ -42,18 +42,28 @@ int isAvailable(string *request_target, string *host) {
 	}
 
 	if(website_path != NULL) {
-		char *path = malloc((strlen(ROOT_PATH) + request_target->length + host->length)*sizeof(char));
+		char *path = malloc((strlen(ROOT_PATH) + strlen(website_path) + request_target->length)*sizeof(char));
 
 		//On recopie le début de l'arborescence (propre au serveur)
 		for(i = 0 ; i < strlen(ROOT_PATH) ; i++) path[i] = ROOT_PATH[i];
 		//host
-		for( ; i < strlen(website_path) ; i++) path[i] = website_path[i];
+		j = 0;
+		while(j < strlen(website_path)) {
+			path[i] = website_path[j];
+			i++;
+			j++;
+		}
 		//request-target
-		for( ; i < request_target->length ; i++) path[i] = request_target->base[i];
+		j = 0;
+		while(j < request_target->length) {
+			path[i] = request_target->base[j];
+			i++;
+			j++;
+		}
 
-
-		for(i = 0 ; i < strlen(ROOT_PATH) + request_target->length + host->length ; i++) printf("%c", path[i]);
-		printf("\n");
+		printf("on cherche la ressource avec le path = \"");
+		for(i = 0 ; i < strlen(ROOT_PATH) + strlen(website_path) + request_target->length ; i++) printf("%c", path[i]);
+		printf("\"\n");
 
 		FILE * ressource = fopen(path, "r");
 
