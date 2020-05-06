@@ -3,13 +3,13 @@
 #include "normalization.h"
 
 // A WOOSH + .H
-void normalize_request_target(char *request_target, int *length) {
-    normalize_percent(request_target, length);
-    remove_dot_segments(request_target, length);
+void normalize_request_target(string *request_target) {
+    normalize_percent(request_target);
+    remove_dot_segments(request_target);
 }
 
 // A WOOSH
-void normalize_percent(char *string, int *length) {
+void normalize_percent(string *str) {
     // real_index représente l'index de parcourt de la chaîne d'entrée
     // virtual_index représente l'index de parcourt de la chaîne finale, c'est la position du prochain caractère à écrire
     int real_index = 0,
@@ -17,8 +17,8 @@ void normalize_percent(char *string, int *length) {
         nb_to_write, value, digit, i;
     char *s, c;
 
-    while (real_index < *length) {
-        s = string + real_index;
+    while (real_index < str->length) {
+        s = str->base + real_index;
         nb_to_write = 1;
         value = 0;
 
@@ -33,7 +33,7 @@ void normalize_percent(char *string, int *length) {
             }
 
             if (is_between(value, 'A', 'Z') || is_between(value, 'a', 'z') || is_between(value, '0', '9') || value == '-' || value == '.' || value == '_' || value == '~') {
-                string[virtual_index] = value;
+                str->base[virtual_index] = value;
                 real_index += 3;
                 virtual_index++;
 
@@ -43,47 +43,50 @@ void normalize_percent(char *string, int *length) {
         }
 
         for (i = 0; i < nb_to_write; i++) {
-            string[virtual_index] = string[real_index];
+            str->base[virtual_index] = str->base[real_index];
             real_index++;
             virtual_index++;
         }
     }
 
     // Positionne la nouvelle fin de la chaîne
-    string[virtual_index] = '\0';
-    *length = virtual_index;
+    str->base[virtual_index] = '\0';
+    str->length = virtual_index;
 }
 
 // A WOOSH
 // Normalise une URI du point de vue des "dot segments"
 // Applique l'algorithme de la partie 5.2.4 de la RFC 3986
-void remove_dot_segments(char *string, int *length) {
+void remove_dot_segments(string *str) {
     int_stack *index_stack = NULL;
     // real_index représente l'index de parcourt de la chaîne d'entrée
     // virtual_index représente l'index de parcourt de la chaîne finale, c'est la position du prochain caractère à écrire
     int real_index = 0,
         virtual_index = 0,
         p_len;
-    char *s;
+    string s;
 
-    while (real_index < *length) {
-        s = string + real_index;
-        p_len = *length - real_index;
+    while (real_index < str->length) {
+        s.base = str->base + real_index;
+        s.length = str->length - real_index;
 
-        if (match_prefix(s, "../", &p_len) || match_prefix(s, "./", &p_len) || ((match_prefix(s, "..", &p_len) || match_prefix(s, ".", &p_len)) && *length == p_len)) real_index += p_len;
-        else if ((match_prefix(s, "/./", NULL) || compare_strings(s, "/.", p_len))) {
+        match_prefix(&s, "../", &p_len);
+        printf("%s %d %d %d\n", s.base, real_index, virtual_index, match_prefix(&s, "../", &p_len));
+
+        if (match_prefix(&s, "../", &p_len) || match_prefix(&s, "./", &p_len) || ((match_prefix(&s, "..", &p_len) || match_prefix(&s, ".", &p_len)) && str->length == p_len)) real_index += p_len;
+        else if ((match_prefix(&s, "/./", NULL) || compare_strings(&s, "/."))) {
             // Le motif doit être remplacé par "/"
             real_index += 2;
-            string[real_index] = '/';
+            str->base[real_index] = '/';
 
         // Il faut revenir un pas en arrière dans l'arborescence du répertoire
-        } else if ((match_prefix(s, "/../", NULL) || compare_strings(s, "/..", p_len))) {
+        } else if ((match_prefix(&s, "/../", NULL) || compare_strings(&s, "/.."))) {
             // Retrouve l'index du "/" précédent (ignore tout ce qui a été réécrit ensuite)
             virtual_index = pop_stack(&index_stack);
 
             // Le motif doit être remplacé par "/"
             real_index += 3;
-            string[real_index] = '/';
+            str->base[real_index] = '/';
 
         } else {
             // Empile la position actuelle du dernier "/" rencontré, au cas où il y ait un motif "/../" ou "/.." dans la suite de la chaîne
@@ -91,17 +94,17 @@ void remove_dot_segments(char *string, int *length) {
             
             // Décale tous les caractères jusqu'au prochain "/" exclus à leur position dans la chaîne finale
             do {
-                string[virtual_index] = string[real_index];
+                str->base[virtual_index] = str->base[real_index];
                 real_index++;
                 virtual_index++;
 
-            } while (real_index < *length && *(string + real_index) != '/');
+            } while (real_index < str->length && str->base[real_index] != '/');
         }
     }
 
     // Positionne la nouvelle fin de la chaîne
-    string[virtual_index] = '\0';
-    *length = virtual_index;
+    str->base[virtual_index] = '\0';
+    str->length = virtual_index;
 
     // Libère la mémoire associée à la pile
     clear_stack(&index_stack);
