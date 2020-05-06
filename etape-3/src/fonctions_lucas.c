@@ -2,6 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+#include "fonctions_lucas.h"
 #include "constants.h"
 
 int validMethod(char * method, int len) {
