@@ -38,9 +38,9 @@ int isAvailable(char * request_target, int request_target_length, char * host, i
 	//On recopie le début de l'arborescence (propre au serveur)
 	for(i = 0 ; i < strlen(ROOT) ; i++) name[i] = ROOT[i];
 	//host
-	for( ; i < request_target_length ; i++) name[i] = request_target[i];
-	//request-target
 	for( ; i < host_size ; i++) name[i] = host[i];
+	//request-target
+	for( ; i < request_target_length ; i++) name[i] = request_target[i];
 
 	//On considère que c'est du origin-form
 	FILE * ressource = fopen(name, "r");
