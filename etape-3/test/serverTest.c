@@ -40,12 +40,9 @@ int main(int argc, char *argv[])
 			r=searchTree(root,"HTTP_message"); 
 			tok=r; 
 			while (tok) {
-				int l; 
-				char *s; 
-				// node is no longer opaque 
-				Lnode *node;
-				node=(Lnode *)tok->node; 
-				writeDirectClient(requete->clientId,node->value,node->len);
+				int l, laine; 
+				char *s = getElementValue(tok->node, &laine);; 
+				if (s != NULL) writeDirectClient(requete->clientId,node->value,node->len);
 				tok=tok->next; 
 			}
 			purgeElement(&r); 
