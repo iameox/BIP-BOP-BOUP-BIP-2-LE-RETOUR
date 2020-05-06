@@ -1,0 +1,89 @@
+﻿cool 
+{
+    color: Green; /* Une nouvelle balise qui met en vert*/
+    font-style: italic;
+}
+
+body
+{
+    background-image:url(./ImageFond.jpg); /*On insère une image en fond*/
+    background-repeat:no-repeat; /*on enlève la répétition du background pour ne pas faire de mosaique*/
+}
+@keyframes titre_qui_vole 
+{
+    0% {top: -300px} /*On définit la hauteur du titre au début de l'animation*/
+    25%{top: 200px} /*On la fait augmenter, puis diminuer*/
+    50%{top: -100px}
+    100%{top: 0px} /*Au final on la remet à son origine*/
+}
+h1 /*mise en forme du titre h1*/
+{
+    text-align: center;
+    font-family: Arial;
+    text-decoration: underline;
+    position: relative; /*Pour ne pas géner pour l'animation*/
+    animation-name: titre_qui_vole;/*titre de l'animation assignée*/
+    animation-duration: 3s/*durée de l'animation*/
+}
+table
+{
+    border: 1px solid black;
+    border-collapse: collapse; /* mise en forme du tableau : des bordures noires d'un pixel et collées */
+}
+td, th
+{
+    text-align: center;
+    padding: 10px;
+    border: 1px solid black; /* Pour tous les type de cases (td et th), on aligne au centre avec un espacement de 10 pixels du bord et on met une bordure de 1px */
+}
+table /* pour que le tableau prenne toute la page et ait un fond gris */
+{
+    opacity: 0.8; /*On réduit aussi un peu l'opacité pour voir le fond */
+    width: 100%;
+    background-color: #D8D8D8
+}
+/* mise en forme du menu*/
+#menu ul /* on supprime les propriétés des listes*/
+{
+    padding:0;
+    margin:0;
+    list-style-type:none;
+}
+#menu li /* on met une marge et on fait en sorte que les éléments de la liste soit horizontaux*/
+{
+    margin-left:2px;
+    float:left;
+}
+#menu ul li a /* mise en forme des "boutons" du menu, cad des éléments de la liste*/
+{
+    display:block;
+    float:left;
+    width:300px; /* la largeur du bouton */
+    background-color:#0489B1; /* la couleur de fond du bouton */
+    text-decoration:none; /* on enlève la mise en forme des liens html */
+    text-align:center; /* le texte au centre */
+    padding:5px; /* l'espacement avec la bordure */
+    border:2px solid; /* la bordure */
+    border-color:#0B3861;/* la couleur de la bordure */
+}
+#menu ul li a:hover /* mise en forme du texte des boutons*/
+{
+    color:white;
+    background-color:#0B4C5F;
+}
+#menu ul li ul /* on cache le sous-menu, soit les sous-listes*/
+{
+    display:none;
+}
+#menu ul li:hover ul /* on les fait réapparaitre si on met la souris sur le menu principal*/
+{
+    display:block;
+}
+#menu li:hover ul li /* on les met verticalement*/
+{
+    float:none;
+}
+#menu li ul /* on leur donne une position absolue pour ne pas décaler le texte*/
+{
+    position: absolute;
+}

@@ -3,7 +3,6 @@
 #include <stdlib.h>
 
 #include "fonctions_lucas.h"
-#include "utils.h"
 
 int validMethod(char * method, int len) {
 	int valid = false;
@@ -29,26 +28,46 @@ int validMethod(char * method, int len) {
 * On considère que la request_target est de type origin-form
 * Retourne 1 si la ressource est disponible, 0 sinon
 */
-int isAvailable(char * request_target, int request_target_length, char * host, int host_size) {
+int isAvailable(string *request_target, string *host) {
 	int available = true;
 	int i = 0;
 
-	char *name = malloc((strlen(ROOT) + request_target_length + host_size)*sizeof(char));
+	char *hosts_lists[] = KNOWN_HOSTS_LIST;
+	char *hosts_paths[] = KNOWN_HOSTS_PATHS;
+	char *website_path = NULL;
 
-	//On recopie le début de l'arborescence (propre au serveur)
-	for(i = 0 ; i < strlen(ROOT) ; i++) name[i] = ROOT[i];
-	//host
-	for( ; i < host_size ; i++) name[i] = host[i];
-	//request-target
-	for( ; i < request_target_length ; i++) name[i] = request_target[i];
+	while(i < KNOWN_HOSTS_COUNT && website_path == NULL) {
+		if(compare_strings(host, hosts_lists[i])) website_path = hosts_paths[i];
+		i++;
+	}
 
-	//On considère que c'est du origin-form
-	FILE * ressource = fopen(name, "r");
-	
-	if(ressource == NULL) {
+	if(website_path != NULL) {
+		char *path = malloc((strlen(ROOT_PATH) + request_target->length + host->length)*sizeof(char));
+
+		//On recopie le début de l'arborescence (propre au serveur)
+		for(i = 0 ; i < strlen(ROOT_PATH) ; i++) path[i] = ROOT_PATH[i];
+		//host
+		for( ; i < strlen(website_path) ; i++) path[i] = website_path[i];
+		//request-target
+		for( ; i < request_target->length ; i++) path[i] = request_target->base[i];
+
+
+		for(i = 0 ; i < strlen(ROOT_PATH) + request_target->length + host->length ; i++) printf("%c", path[i]);
+		printf("\n");
+
+		FILE * ressource = fopen(path, "r");
+		
+		if(ressource == NULL) {
+			printf("Ressource pas accessible\n");
+			available = false;
+		}
+
+		free(path);
+	} else {
+		printf("Site pas trouvé\n");
 		available = false;
 	}
 
-	free(name);
+	
 	return available;
 }
