@@ -18,6 +18,43 @@
 #define ERROR "HTTP/1.0 400 SUCKA\r\n\r\n"
 #define REPONSE "HTTP/1.0 200 OK\r\nContent-type: text/plain\r\n\r\nHey Bro why did you send me this:\r\n"
 
+
+/*
+BOUT DE CODE POUR VERIFIER LA CONFORMITE DE LA METHODE + APPEL POUR VERIFIER L'ACCESSIBILITE DE LA RESSOURCE
+
+_Token *test, *test2, *body_token;
+				test = searchTree(root,"method");
+				int laine, laine2;
+				char *chene = getElementValue(test->node, &laine), *chene2;
+
+				if (chene != NULL) printf("Est ce que la méthode est valide ? %d\n", validMethod(chene, laine));
+				else printf("méthode kc\n");
+
+				test = searchTree(root,"request_target");
+				test2 = searchTree(root,"Host");
+				body_token = searchTree(root,"message_body");
+
+
+				chene = (test != NULL)?getElementValue(test->node, &laine):NULL;
+				chene2 = (test2 != NULL)?getElementValue(test2->node, &laine2):NULL;
+				body = (body_token != NULL)?getElementValue(body_token->node, &laine2):NULL;
+
+				if(body == NULL) {
+					printf("y'a pas de body, faut checker la méthode et envoyer la réponse en fonction\n");
+				}
+
+				
+				if (chene != NULL && chene2 != NULL) {
+					string target = {chene, laine};
+					string host = {chene2, laine2};
+
+					printf("Est ce que la ressource est disponible? %d\n", isAvailable(&target, &host));
+				}
+
+
+*/
+
+
 int main(int argc, char *argv[])
 {
 	message *requete;
@@ -31,7 +68,7 @@ int main(int argc, char *argv[])
 		printf("Client [%d] [%s:%d]\n",requete->clientId,inet_ntoa(requete->clientAddress->sin_addr),htons(requete->clientAddress->sin_port));
 		printf("Contenu de la demande %.*s\n\n",requete->len,requete->buf);
 		if (res=parseur(requete->buf,requete->len)) {
-			_Token *r,*tok,*root, *test, *test2;
+			_Token *r,*tok,*root;
 
 			writeDirectClient(requete->clientId,REPONSE,strlen(REPONSE));
 			root=getRootTree();
@@ -40,6 +77,7 @@ int main(int argc, char *argv[])
 			while (tok) {
 
 				//========================= ZONE DE TEST =============================
+				_Token *test, *test2, *body_token;
 				test = searchTree(root,"method");
 				int laine, laine2;
 				char *chene = getElementValue(test->node, &laine), *chene2;
@@ -49,17 +87,23 @@ int main(int argc, char *argv[])
 
 				test = searchTree(root,"request_target");
 				test2 = searchTree(root,"Host");
+				body_token = searchTree(root,"message_body");
 
-				if(test != NULL && test2 != NULL) {
-					chene = getElementValue(test->node, &laine);
-					chene2 = getElementValue(test2->node, &laine2);
 
-					if (chene != NULL && chene2 != NULL) {
-						string target = {chene, laine};
-						string host = {chene2, laine2};
+				chene = (test != NULL)?getElementValue(test->node, &laine):NULL;
+				chene2 = (test2 != NULL)?getElementValue(test2->node, &laine2):NULL;
+				body = (body_token != NULL)?getElementValue(body_token->node, &laine2):NULL;
 
-						printf("Est ce que la ressource est disponible? %d\n", isAvailable(&target, &host));
-					}
+				if(body == NULL) {
+					printf("y'a pas de body, faut checker la méthode et envoyer la réponse en fonction\n");
+				}
+
+
+				if (chene != NULL && chene2 != NULL) {
+					string target = {chene, laine};
+					string host = {chene2, laine2};
+
+					printf("Est ce que la ressource est disponible? %d\n", isAvailable(&target, &host));
 				}
 
 				//=====================================================================
