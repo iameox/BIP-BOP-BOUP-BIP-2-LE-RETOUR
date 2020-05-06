@@ -70,9 +70,6 @@ void remove_dot_segments(string *str) {
         s.base = str->base + real_index;
         s.length = str->length - real_index;
 
-        match_prefix(&s, "../", &p_len);
-        printf("%s %d %d %d\n", s.base, real_index, virtual_index, match_prefix(&s, "../", &p_len));
-
         if (match_prefix(&s, "../", &p_len) || match_prefix(&s, "./", &p_len) || ((match_prefix(&s, "..", &p_len) || match_prefix(&s, ".", &p_len)) && str->length == p_len)) real_index += p_len;
         else if ((match_prefix(&s, "/./", NULL) || compare_strings(&s, "/."))) {
             // Le motif doit être remplacé par "/"
