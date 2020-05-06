@@ -42,7 +42,7 @@ int main(int argc, char *argv[])
 			while (tok) {
 				int l, laine; 
 				char *s = getElementValue(tok->node, &laine);; 
-				if (s != NULL) writeDirectClient(requete->clientId,node->value,node->len);
+				if (s != NULL) writeDirectClient(requete->clientId,s,laine);
 				tok=tok->next; 
 			}
 			purgeElement(&r); 
