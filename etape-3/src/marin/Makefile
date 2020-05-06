@@ -1,8 +1,10 @@
-httpparser: main.o libparser.so 
-	gcc -c test.c
+httpparser: main.o test.o libparser.so 
 	gcc $(CCFLAGS) -o $@ $< -L. -lparser 
 
 main.o: main.c test.h
+	gcc $(CCFLAGS) -c $< -o $@
+	
+test.o: test.c test.h
 	gcc $(CCFLAGS) -c $< -o $@
 
 .PRECIOUS: %.c %.h
