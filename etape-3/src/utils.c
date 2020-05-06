@@ -13,6 +13,12 @@ char to_lowercase(char c) {
     return is_between(c, 'A', 'Z') ? c - 'A' + 'a' : c;
 }
 
+// Convertit une chaîne contenant un chiffre en nombre
+// Si le caractère n'est pas un chiffre, ne fait rien
+int char_to_int(char c) {
+    return is_between(c, '0', '9') ? c - '0' : c;
+}
+
 // Retourne true si s1 et s2 contiennent les mêmes caractères, false sinon
 int compare_strings(string *s1, char *s2) {
     int p_len;

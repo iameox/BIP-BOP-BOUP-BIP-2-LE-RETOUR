@@ -1,8 +1,6 @@
 #define true 1
 #define false 0
 
-#define min(a,b) a<b?a:b
-
 //A changer probablement en /var/www/html/
 #define ROOT "./"
 
@@ -17,6 +15,10 @@ typedef struct {
 // Renvoie true si c est compris entre c1 et c2 (inclus), false sinon
 // La comparaison est non-signée pour pouvoir traiter toutes les valeurs possibles
 int is_between(unsigned char c, unsigned char c1, unsigned char c2);
+
+// Convertit une chaîne contenant un chiffre en nombre
+// Si le caractère n'est pas un chiffre, ne fait rien
+int char_to_int(char c);
 
 // Convertit une lettre majuscule en lettre minuscule
 // Si le caractère n'est pas une lettre majuscule, ne fait rien
