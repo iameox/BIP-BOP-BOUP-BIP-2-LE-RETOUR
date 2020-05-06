@@ -56,7 +56,7 @@ int isAvailable(string *request_target, string *host) {
 		printf("\n");
 
 		FILE * ressource = fopen(path, "r");
-		
+
 		if(ressource == NULL) {
 			printf("Ressource pas accessible\n");
 			available = false;
@@ -68,6 +68,6 @@ int isAvailable(string *request_target, string *host) {
 		available = false;
 	}
 
-	
+
 	return available;
 }
