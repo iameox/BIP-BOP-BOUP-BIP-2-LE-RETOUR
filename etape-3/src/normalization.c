@@ -4,8 +4,13 @@
 #include "constants.h"
 #include "normalization.h"
 
+void normalize_request_target(char *string, int *length) {
+    normalize_percent(string, length);
+    remove_dot_segments(string, length);
+}
+
 // A WOOSH
-void percent_decode(char *string, int *length) {
+void normalize_percent(char *string, int *length) {
     // real_index représente l'index de parcourt de la chaîne d'entrée
     // virtual_index représente l'index de parcourt de la chaîne finale, c'est la position du prochain caractère à écrire
     int real_index = 0,
@@ -20,6 +25,7 @@ void percent_decode(char *string, int *length) {
 
         if (s[0] == '%') {
             for (i = 1; i < 3; i++) {
+                if (is_between(s[i], 'a', 'f')) s[i] += 'A' - 'a';
                 c = s[i];
 
                 // Toutes les vérifications ont déjà été faites au parsing, il est inutile d'en faire davantage pour cette conversion
@@ -108,6 +114,12 @@ int is_between(unsigned char c, unsigned char c1, unsigned char c2) {
     return c1 <= c && c <= c2;
 }
 
+// Convertit une lettre majuscule en lettre minuscule
+// Si le caractère n'est pas une lettre majuscule, ne fait rien
+char to_lowercase(char c) {
+    return is_between(c, 'A', 'Z') ? c - 'A' + 'a' : c;
+}
+
 // Empile top au sommet de stack
 int push_stack(int_stack **stack, int top) {
     int_stack *new = malloc(sizeof(int_stack));
@@ -164,13 +176,11 @@ int match_prefix(char *s, char *p, int *len) {
 }
 
 int main() {
-    char s[] = "/ma/su%49%59per/url/./../voiture/../../../mon/su%2Eper/sac/a/d%2F%94os/./././../main/haha/je/te/hack/../../../../../../";
+    char s[] = "/ma/su%49%59per/url/./../voiture/../../../mon/su%2eper/sac/a/d%2f%94os/./././../main/haha/je/te/hack/../../../../../../";
     int length = strlen(s);
     
     printf("Chaîne : %s\nLongueur : %d\n", s, length);
-    percent_decode(s, &length);
-    printf("Preque nouvelle chaîne : %s\nPresque nouvelle longueur : %d\n", s, length);
-    remove_dot_segments(s, &length);
+    normalize_request_target(s, &length);
     printf("Nouvelle chaîne : %s\nNouvelle longueur : %d\n", s, length);
 
     return EXIT_SUCCESS;
