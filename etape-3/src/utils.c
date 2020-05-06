@@ -14,24 +14,23 @@ char to_lowercase(char c) {
 }
 
 // Retourne true si s1 et s2 contiennent les mêmes caractères, false sinon
-int compare_strings(char *s1, char *s2, int len) {
+int compare_strings(string *s1, char *s2) {
     int p_len;
-    return match_prefix(s1, s2, &p_len) && len == p_len;
+    return match_prefix(s1, s2, &p_len) && p_len == s1->length;
 }
 
 // Retourne true si p est un préfixe de s, false sinon
 // Si len != NULL, sa valeur devient la longueur de p, si c'est un préfixe de s
-int match_prefix(char *s, char *p, int *len) {
-    int matched = true,
+int match_prefix(string *s, char *p, int *len) {
+    int stop = false,
         i = 0;
 
-    // Comparaison caractère par caractère, tant que le préfixe n'a pas été consumé
-    while (p[i] != '\0' && matched) {
-        if (s[i] != p[i]) matched = false;
-
+    // Comparaison caractère par caractère, tant que la chaîne ou le préfixe n'a pas été consumé
+    while (i < s->length && p[i] != '\0' && !stop) {
+        if (s->base[i] != p[i]) stop = false;
         i++;
     }
 
-    if (matched && len != NULL) *len = i;
-    return matched;
+    if (p[i] == '\0' && len != NULL) *len = i;
+    return p[i] == '\0';
 }
