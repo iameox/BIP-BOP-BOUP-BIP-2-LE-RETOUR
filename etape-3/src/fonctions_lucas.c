@@ -13,6 +13,7 @@ int validMethod(char * method, int len) {
 			printf("la méthode c'est un %s\n", methodes[i]);
 			valid = true;
 		}
+		i++;
 	}
 
 	if(!valid) {
@@ -49,9 +50,4 @@ int isAvailable(char * request_target, int request_target_length, char * host, i
 
 	free(name);
 	return available;
-}
-
-
-int main() {
-	return 1;
 }
