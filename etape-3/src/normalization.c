@@ -1,12 +1,11 @@
-#include <string.h>
 #include <stdlib.h>
-#include <stdio.h>
-#include "constants.h"
+#include "utils.h"
 #include "normalization.h"
 
-void normalize_request_target(char *string, int *length) {
-    normalize_percent(string, length);
-    remove_dot_segments(string, length);
+// A WOOSH + .H
+void normalize_request_target(char *request_target, int *length) {
+    normalize_percent(request_target, length);
+    remove_dot_segments(request_target, length);
 }
 
 // A WOOSH
@@ -108,20 +107,8 @@ void remove_dot_segments(char *string, int *length) {
     clear_stack(&index_stack);
 }
 
-// Renvoie true si c est compris entre c1 et c2 (inclus), false sinon
-// La comparaison est non-signée pour pouvoir traiter toutes les valeurs possibles
-int is_between(unsigned char c, unsigned char c1, unsigned char c2) {
-    return c1 <= c && c <= c2;
-}
-
-// Convertit une lettre majuscule en lettre minuscule
-// Si le caractère n'est pas une lettre majuscule, ne fait rien
-char to_lowercase(char c) {
-    return is_between(c, 'A', 'Z') ? c - 'A' + 'a' : c;
-}
-
 // Empile top au sommet de stack
-int push_stack(int_stack **stack, int top) {
+void push_stack(int_stack **stack, int top) {
     int_stack *new = malloc(sizeof(int_stack));
     if (new == NULL) exit(EXIT_FAILURE);
 
@@ -150,38 +137,4 @@ int pop_stack(int_stack **stack) {
 // Libère la mémoire associée à la totalité de stack
 void clear_stack(int_stack **stack) {
     while (*stack != NULL) pop_stack(stack);
-}
-
-// Retourne true si s1 et s2 contiennent les mêmes caractères, false sinon
-int compare_strings(char *s1, char *s2, int len) {
-    int p_len;
-    return match_prefix(s1, s2, &p_len) && len == p_len;
-}
-
-// Retourne true si p est un préfixe de s, false sinon
-// Si len != NULL, sa valeur devient la longueur de p, si c'est un préfixe de s
-int match_prefix(char *s, char *p, int *len) {
-    int matched = true,
-        i = 0;
-
-    // Comparaison caractère par caractère, tant que le préfixe n'a pas été consumé
-    while (p[i] != '\0' && matched) {
-        if (s[i] != p[i]) matched = false;
-
-        i++;
-    }
-
-    if (matched && len != NULL) *len = i;
-    return matched;
-}
-
-int main() {
-    char s[] = "/ma/su%49%59per/url/./../voiture/../../../mon/su%2eper/sac/a/d%2f%94os/./././../main/haha/je/te/hack/../../../../../../";
-    int length = strlen(s);
-    
-    printf("Chaîne : %s\nLongueur : %d\n", s, length);
-    normalize_request_target(s, &length);
-    printf("Nouvelle chaîne : %s\nNouvelle longueur : %d\n", s, length);
-
-    return EXIT_SUCCESS;
 }
