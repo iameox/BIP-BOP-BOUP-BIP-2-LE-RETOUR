@@ -6,11 +6,11 @@
 
 int validMethod(char * method, int len) {
 	int valid = false;
-
+	char *methodes[] = KNOWN_METHODS;
 	int i = 0;
 	while(!valid && i < METHODS_NUMBER) {
-		if(!strncmp(method, KNOWN_METHODS[i], min(len, strlen(KNOWN_METHODS[i])))) {
-			printf("la méthode c'est un %s\n", KNOWN_METHODS[i]);
+		if(!strncmp(method, methodes[i], min(len, strlen(methodes[i])))) {
+			printf("la méthode c'est un %s\n", methodes[i]);
 			valid = true;
 		}
 	}
