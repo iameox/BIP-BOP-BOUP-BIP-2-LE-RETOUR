@@ -27,8 +27,8 @@ int match_prefix(string *s, char *p, int *len) {
 
     // Comparaison caractère par caractère, tant que la chaîne ou le préfixe n'a pas été consumé
     while (i < s->length && p[i] != '\0' && !stop) {
-        if (s->base[i] != p[i]) stop = false;
-        i++;
+        if (s->base[i] != p[i]) stop = true;
+        else i++;
     }
 
     if (p[i] == '\0' && len != NULL) *len = i;
