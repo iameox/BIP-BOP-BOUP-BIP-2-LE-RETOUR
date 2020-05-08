@@ -5,13 +5,39 @@
 #include "fonctions_lucas.h"
 #include "normalization.h"
 
-int validMethod(char * method, int len) {
+
+
+/*
+* Convertit une chaine de caractères en entier.
+* Si un caractère qui n'est pas un chiffre est rencontré, la fonction retourne -1
+* Sinon Si il y a plus de MAX_DIGITS chiffres, le nombre est tronqué.
+* Sinon, retourne la valeur de la chaine associée
+*/
+int string_to_int(string s) {
+	int i = 0, value = 0, idigit;
+
+	while(i < s.length && i < MAX_DIGITS && value != -1) {
+		if (is_between(s.base[i], '0', '9')) {
+			idigit = char_to_int(s.base[i]);
+			value = value*10 + idigit;
+		} else value = -1;
+		i++;
+	}
+
+	return value;
+}
+
+
+/*
+* Vérifie qu'une méthode fait bien parties de celles implémentées par le serveur.
+* Retourne 1 si la méthode est connue, 0 sinon.
+*/
+int validMethod(string *method) {
 	int valid = false;
-	string s = {method, len};
 	char *methodes[] = KNOWN_METHODS;
 	int i = 0;
 	while(!valid && i < METHODS_NUMBER) {
-		if(compare_strings(&s, methodes[i])) {
+		if(compare_strings(method, methodes[i])) {
 			printf("la méthode c'est un %s\n", methodes[i]);
 			valid = true;
 		}
@@ -19,7 +45,7 @@ int validMethod(char * method, int len) {
 	}
 
 	if(!valid) {
-		printf("pas de méthode trouvée\n");
+		printf("Pas de méthode trouvée\n");
 	}
 
 	return valid;
@@ -30,6 +56,9 @@ int validMethod(char * method, int len) {
 * On considère que la request_target est de type origin-form
 * Retourne 1 si la ressource est disponible, 0 sinon
 */
+
+// A changer le return, autant return le fichier
+// ATTENTION je close rien, il faudra close quand on a fini
 int isAvailable(string *request_target, string *host) {
 	int available = true;
 	int i = 0, j;

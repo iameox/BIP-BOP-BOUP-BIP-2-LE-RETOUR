@@ -19,40 +19,6 @@
 #define REPONSE "HTTP/1.0 200 OK\r\nContent-type: text/plain\r\n\r\nHey Bro why did you send me this:\r\n"
 
 
-/*
-BOUT DE CODE POUR VERIFIER LA CONFORMITE DE LA METHODE + APPEL POUR VERIFIER L'ACCESSIBILITE DE LA RESSOURCE
-
-_Token *test, *test2, *body_token;
-				test = searchTree(root,"method");
-				int laine, laine2;
-				char *chene = getElementValue(test->node, &laine), *chene2;
-
-				if (chene != NULL) printf("Est ce que la méthode est valide ? %d\n", validMethod(chene, laine));
-				else printf("méthode kc\n");
-
-				test = searchTree(root,"request_target");
-				test2 = searchTree(root,"Host");
-				body_token = searchTree(root,"message_body");
-
-
-				chene = (test != NULL)?getElementValue(test->node, &laine):NULL;
-				chene2 = (test2 != NULL)?getElementValue(test2->node, &laine2):NULL;
-				body = (body_token != NULL)?getElementValue(body_token->node, &laine2):NULL;
-
-				if(body == NULL) {
-					printf("y'a pas de body, faut checker la méthode et envoyer la réponse en fonction\n");
-				}
-
-				
-				if (chene != NULL && chene2 != NULL) {
-					string target = {chene, laine};
-					string host = {chene2, laine2};
-
-					printf("Est ce que la ressource est disponible? %d\n", isAvailable(&target, &host));
-				}
-
-
-*/
 
 
 int main(int argc, char *argv[])
@@ -78,26 +44,55 @@ int main(int argc, char *argv[])
 
 				//========================= ZONE DE TEST =============================
 				_Token *test, *test2, *body_token;
-				test = searchTree(root,"method");
-				int laine, laine2;
-				char *chene = getElementValue(test->node, &laine), *chene2;
+				int laine, laine2, body_len;
+				char *chene, *chene2, body_str;
 
-				if (chene != NULL) printf("Est ce que la méthode est valide ? %d\n", validMethod(chene, laine));
-				else printf("méthode kc\n");
-
-				test = searchTree(root,"request_target");
-				test2 = searchTree(root,"Host");
+				// Vérification de la présence du body
 				body_token = searchTree(root,"message_body");
+				body_str = (body_token != NULL)?getElementValue(body_token->node, &body_len):NULL;
 
-
-				chene = (test != NULL)?getElementValue(test->node, &laine):NULL;
-				chene2 = (test2 != NULL)?getElementValue(test2->node, &laine2):NULL;
-				body = (body_token != NULL)?getElementValue(body_token->node, &laine2):NULL;
-
-				if(body == NULL) {
+				if(body_str == NULL) {
 					printf("y'a pas de body, faut checker la méthode et envoyer la réponse en fonction\n");
 				}
 
+				//Vérification de la conformité de la méthode
+				int content_length = -1;
+				test = searchTree(root,"method");
+				chene = (test != NULL)?getElementValue(test->node, &laine):NULL;
+
+				string method = {chene, laine};
+				if (chene != NULL) printf("Est ce que la méthode est valide ? %d\n", validMethod(method));
+				else printf("Méthode inconnue, faut répondre avec le code associé\n");
+
+				if(compare_strings(method, "POST")) {
+					printf("Il faut vérifier Content-Length et sa conformité\n");
+					test2 = searchTree(root,"Content_Length");
+					chene2 = (test2 != NULL)?getElementValue(test2->node, &laine2):NULL;
+					if(chene2 != NULL) {
+						printf("Le Content-Length = ");
+						for(int i = 0 ; i < laine2 ; i++) printf("%c\n", chene2[i]);
+						printf("\n");
+						string content_length_string = {chene2, laine2};
+
+						content_length = string_to_int(content_length_string);
+
+						printf("le content_length après passage en int : %d\n", content_length);
+
+						if(body_str != NULL) {
+							printf("Longueur du body = %d\n", body_len);
+							if (body_len == content_length) {
+								printf("Le Content-Length est pas égal à la taille du body, la méthode est conforme.\n");
+							} else printf("Le Content-Length n'est pas égal à la taille du body, faut répondre en conséquence\n");
+						}
+					} else printf("Content-Length est pas présent, il faut rejeter la requete\n");
+				}
+				
+				// Disponibilité de la ressource
+				test = searchTree(root,"request_target");
+				test2 = searchTree(root,"Host");
+				chene = (test != NULL)?getElementValue(test->node, &laine):NULL;
+				chene2 = (test2 != NULL)?getElementValue(test2->node, &laine2):NULL;
+				
 
 				if (chene != NULL && chene2 != NULL) {
 					string target = {chene, laine};
