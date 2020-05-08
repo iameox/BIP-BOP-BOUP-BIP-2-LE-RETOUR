@@ -70,7 +70,7 @@ int main(int argc, char *argv[])
 					chene2 = (test2 != NULL)?getElementValue(test2->node, &laine2):NULL;
 					if(chene2 != NULL) {
 						printf("Le Content-Length = ");
-						for(int i = 0 ; i < laine2 ; i++) printf("%c\n", chene2[i]);
+						for(int i = 0 ; i < laine2 ; i++) printf("%c", chene2[i]);
 						printf("\n");
 						string content_length_string = {chene2, laine2};
 
@@ -81,18 +81,18 @@ int main(int argc, char *argv[])
 						if(body_str != NULL) {
 							printf("Longueur du body = %d\n", body_len);
 							if (body_len == content_length) {
-								printf("Le Content-Length est pas égal à la taille du body, la méthode est conforme.\n");
+								printf("Le Content-Length est égal à la taille du body, la méthode est conforme.\n");
 							} else printf("Le Content-Length n'est pas égal à la taille du body, faut répondre en conséquence\n");
 						}
 					} else printf("Content-Length est pas présent, il faut rejeter la requete\n");
 				}
-				
+
 				// Disponibilité de la ressource
 				test = searchTree(root,"request_target");
 				test2 = searchTree(root,"Host");
 				chene = (test != NULL)?getElementValue(test->node, &laine):NULL;
 				chene2 = (test2 != NULL)?getElementValue(test2->node, &laine2):NULL;
-				
+
 
 				if (chene != NULL && chene2 != NULL) {
 					string target = {chene, laine};
