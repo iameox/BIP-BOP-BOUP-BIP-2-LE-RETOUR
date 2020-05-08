@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
 				//========================= ZONE DE TEST =============================
 				_Token *test, *test2, *body_token;
 				int laine, laine2, body_len;
-				char *chene, *chene2, body_str;
+				char *chene, *chene2, *body_str;
 
 				// Vérification de la présence du body
 				body_token = searchTree(root,"message_body");
@@ -61,10 +61,10 @@ int main(int argc, char *argv[])
 				chene = (test != NULL)?getElementValue(test->node, &laine):NULL;
 
 				string method = {chene, laine};
-				if (chene != NULL) printf("Est ce que la méthode est valide ? %d\n", validMethod(method));
+				if (chene != NULL) printf("Est ce que la méthode est valide ? %d\n", validMethod(&method));
 				else printf("Méthode inconnue, faut répondre avec le code associé\n");
 
-				if(compare_strings(method, "POST")) {
+				if(compare_strings(&method, "POST")) {
 					printf("Il faut vérifier Content-Length et sa conformité\n");
 					test2 = searchTree(root,"Content_Length");
 					chene2 = (test2 != NULL)?getElementValue(test2->node, &laine2):NULL;
