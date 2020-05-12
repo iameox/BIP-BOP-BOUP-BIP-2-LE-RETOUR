@@ -1,3 +1,4 @@
+#define NULL 0
 #include "utils.h"
 
 // Renvoie true si c est compris entre c1 et c2 (inclus), false sinon

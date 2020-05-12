@@ -14,6 +14,7 @@
 #include "api.h"
 
 #include "../src/fonctions_lucas.h"
+#include "../src/normalization.h"
 
 #define ERROR "HTTP/1.0 400 SUCKA\r\n\r\n"
 #define REPONSE "HTTP/1.0 200 OK\r\nContent-type: text/plain\r\n\r\nHey Bro why did you send me this:\r\n"
@@ -43,20 +44,21 @@ int main(int argc, char *argv[])
 			while (tok) {
 
 				//========================= ZONE DE TEST =============================
-				_Token *test, *test2, *body_token;
-				int laine, laine2, body_len;
-				char *chene, *chene2, *body_str;
+				printf("\n\n===================================== DÉBUT DE LA ZONE DE TEST =====================================\n\n");
+				_Token *test, *test2, *body_token, *request_target_token;
+				int laine, laine2, body_len, request_target_len;
+				char *chene, *chene2, *body_str, *request_target;
 
 				// Vérification de la présence du body
-				body_token = searchTree(root,"message_body");
+				/*body_token = searchTree(root,"message_body");
 				body_str = (body_token != NULL)?getElementValue(body_token->node, &body_len):NULL;
 
 				if(body_str == NULL) {
 					printf("y'a pas de body, faut checker la méthode et envoyer la réponse en fonction\n");
-				}
+				}*/
 
 				//Vérification de la conformité de la méthode
-				int content_length = -1;
+				/*int content_length = -1;
 				test = searchTree(root,"method");
 				chene = (test != NULL)?getElementValue(test->node, &laine):NULL;
 
@@ -85,10 +87,10 @@ int main(int argc, char *argv[])
 							} else printf("Le Content-Length n'est pas égal à la taille du body, faut répondre en conséquence\n");
 						}
 					} else printf("Content-Length est pas présent, il faut rejeter la requete\n");
-				}
+				}*/
 
 				// Disponibilité de la ressource
-				test = searchTree(root,"request_target");
+				/*test = searchTree(root,"request_target");
 				test2 = searchTree(root,"Host");
 				chene = (test != NULL)?getElementValue(test->node, &laine):NULL;
 				chene2 = (test2 != NULL)?getElementValue(test2->node, &laine2):NULL;
@@ -99,8 +101,19 @@ int main(int argc, char *argv[])
 					string host = {chene2, laine2};
 
 					printf("Est ce que la ressource est disponible? %d\n", isAvailable(&target, &host));
-				}
+				}*/
 
+				// Normalisation d'URI
+				/*request_target_token = searchTree(root, "request_target");
+				request_target = request_target_token != NULL ? getElementValue(request_target_token->node, &request_target_len) : NULL;
+				if (request_target != NULL) {
+					string s = { request_target, request_target_len };
+
+    				normalize_request_target(&s);
+    				printf("URI après normalisation : %s\nLongueur après normalisation : %d\n", request_target, request_target_len );
+				}*/
+
+				printf("\n\n===================================== FIN DE LA ZONE DE TEST =====================================\n\n");
 				//=====================================================================
 
 				int l;
