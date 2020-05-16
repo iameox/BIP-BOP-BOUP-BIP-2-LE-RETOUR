@@ -8,7 +8,7 @@
 #define METHODS_NUMBER 3
 
 //Constante pour prévenir l'overflow des entiers
-#define MAX_DIGITS 9
+#define MAX_DIGITS 18
 
 typedef struct {
     char *base;

@@ -32,6 +32,7 @@ int char_to_int(char c) {
 */
 int string_to_int(string *s) {
     int i = 0, value = 0, idigit;
+    long int value;
 
     while(i < s->length && i < MAX_DIGITS && value != -1) {
         if (is_between(s->base[i], '0', '9')) {
