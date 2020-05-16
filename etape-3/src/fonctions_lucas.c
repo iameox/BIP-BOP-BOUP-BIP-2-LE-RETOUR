@@ -16,14 +16,10 @@ int validMethod(string *method) {
 	int i = 0;
 	while(!valid && i < METHODS_NUMBER) {
 		if(compare_strings(method, methodes[i])) {
-			printf("la méthode c'est un %s\n", methodes[i]);
+			printf("lLa méthode c'est un %s\n", methodes[i]);
 			valid = true;
 		}
 		i++;
-	}
-
-	if(!valid) {
-		printf("Pas de méthode trouvée\n");
 	}
 
 	return valid;
@@ -107,22 +103,21 @@ int methodCompliance(string *method, string *body, string *content_length) {
 		printf("Champ méthode non présent.\n");
 		printf("RENVOYER 400 Bad Request\n");
 		code = 400;
-	} else if (!validMethod(&method)) {
+	} else if (!validMethod(method)) {
 		printf("Méthode inconnue.\n");
 		printf("RENVOYER 501 Not implemented\n");
-		code = 500;
-	} else if(body->base != NULL) { // Vérification de la présence et conformité du body
-		printf("Body présent, vérification de la conformité avec Content-Length...\n");
-		if(content_length_str->base != NULL) {
+		code = 501;
+	} else if(body->length == 0 || body->base != NULL) { // Vérification de la présence et conformité du body
+		printf("Body de longueur %d présent, vérification de la conformité avec Content-Length...\n", body->length));
+		if(content_length->base != NULL) {
 			//printf("Le Content-Length = ");
 			//for(int i = 0 ; i < laine2 ; i++) printf("%c", chene2[i]);
 			//printf("\n");
 
-			content_length_int = string_to_int(&content_length_string);
+			content_length_int = string_to_int(content_length);
 			//printf("le Content-Length après passage en int : %d\n", content_length_int);
-			//printf("Longueur du body = %d\n", body->len);
-			
-			if (body->len == content_length_int) {
+
+			if (body->length == content_length_int) {
 				printf("Le Content-Length est égal à la taille du body, la méthode est valide.\n");
 				code = 0;
 			} else {
@@ -133,10 +128,11 @@ int methodCompliance(string *method, string *body, string *content_length) {
 		} else {
 			printf("Content-Length est pas présent alors qu'il y a un body.\n");
 			printf("RENVOYER 400 Bad Request\n");
+			code = 400;
 		}
 	} else {
 		printf("Body non présent\n");
-		if(compare_strings(&method, "POST")) {
+		if(compare_strings(method, "POST")) {
 			printf("La requête est un POST sans body.\n");
 			printf("RENVOYER 400 Bad Request\n");
 			code = 400;

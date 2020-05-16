@@ -20,13 +20,13 @@
 #define REPONSE "HTTP/1.0 200 OK\r\nContent-type: text/plain\r\n\r\nHey Bro why did you send me this:\r\n"
 
 
-void getElement(_Token *root, char * name, string *s) {
-	_Token t = searchTree(root,"method");
+void getElement(_Token *root, char *name, string *s) {
+	_Token *t = searchTree(root, name);
 	int size;
-	char * str = (t != NULL)?getElementValue(t->node, &size):NULL;
+	char *str = (t != NULL)?getElementValue(t->node, &size):NULL;
 	if(s != NULL) {
 		s->base = str;
-		s->size = size;
+		s->length = size;
 	}
 }
 
@@ -62,15 +62,15 @@ int main(int argc, char *argv[])
 
 
 				int code;
-				string method, body, content_length_str;
+				string method, body, content_length;
 
 				getElement(root, "method", &method);
 				getElement(root, "message_body", &body);
-				getElement(root, "Content_Length", &content_length_str);
+				getElement(root, "Content_Length", &content_length);
 
-				code = methodCompliance(string *method, string *body, string *content_length);
+				code = methodCompliance(&method, &body, &content_length);
 
-				printf("Code à répondre = %s (0 = on continue)\n", code);
+				printf("Code à répondre = %d (0 = on continue)\n", code);
 
 				/*if(code == 0) {
 					//on fé d'autres trucs
