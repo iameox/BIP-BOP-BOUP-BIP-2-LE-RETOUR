@@ -76,7 +76,7 @@ char *isAvailable(string *request_target, string *host, int *len) {
 	}
 
 	if(website_path != NULL) {
-		size = strlen(ROOT_PATH) + strlen(website_path) + request_target->length;
+		size = strlen(ROOT_PATH) + strlen(website_path) + request_target->length + 1;
 		ressource_path = malloc(size*sizeof(char));
 
 		//On recopie le début de l'arborescence (propre au serveur)
@@ -96,6 +96,8 @@ char *isAvailable(string *request_target, string *host, int *len) {
 			j++;
 		}
 
+		ressource_path[i] = '\0';
+
 		printf("on cherche la ressource avec le path = \"");
 		for(i = 0 ; i < strlen(ROOT_PATH) + strlen(website_path) + request_target->length ; i++) printf("%c", ressource_path[i]);
 		printf("\"\n");
@@ -110,7 +112,7 @@ char *isAvailable(string *request_target, string *host, int *len) {
 			free(ressource_path);
 			ressource_path = NULL;
 		}
-		
+
 	} else {
 		printf("Site pas trouvé\n");
 	}

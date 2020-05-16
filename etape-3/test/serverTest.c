@@ -21,18 +21,6 @@
 
 
 
-
-int main() {
-	char * astr = "/index.html";
-	string a = {astr, strlen(astr)};
-	//char * bstr = "www.example.com";
-	//string b = {bstr, 15};
-	int c;
-	normalize_request_target(&a);
-	//printf("\"%s\"\n", isAvailable(&a, &b, &c));
-	return 1;
-}
-/*
 int main(int argc, char *argv[])
 {
 	message *requete;
@@ -70,7 +58,7 @@ int main(int argc, char *argv[])
 					printf("RENVOYER 400 Bad Request\n");
 				} else {
 					string method = {method_str, method_len};
-					
+
 					if (!validMethod(&method)) {
 						printf("Méthode inconnue.\n");
 						printf("RENVOYER 501 Not implemented\n");
@@ -138,7 +126,7 @@ int main(int argc, char *argv[])
     				printf("URI après normalisation : %s\nLongueur après normalisation : %d\n", request_target, request_target_len );
 				}*/
 
-/*				printf("\n\n===================================== FIN DE LA ZONE DE TEST =====================================\n\n");
+				printf("\n\n===================================== FIN DE LA ZONE DE TEST =====================================\n\n");
 				//=====================================================================
 
 				int l;
@@ -159,4 +147,3 @@ int main(int argc, char *argv[])
 	}
 	return (1);
 }
-*/
