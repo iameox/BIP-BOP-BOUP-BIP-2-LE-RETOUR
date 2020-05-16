@@ -20,6 +20,15 @@
 #define REPONSE "HTTP/1.0 200 OK\r\nContent-type: text/plain\r\n\r\nHey Bro why did you send me this:\r\n"
 
 
+void getElement(_Token *root, char * name, string *s) {
+	_Token t = searchTree(root,"method");
+	int size;
+	char * str = (t != NULL)?getElementValue(t->node, &size):NULL;
+	if(s != NULL) {
+		s->base = str;
+		s->size = size;
+	}
+}
 
 int main(int argc, char *argv[])
 {
@@ -49,58 +58,27 @@ int main(int argc, char *argv[])
 				char *chene, *chene2, *method_str, *body_str, *request_target;
 
 
-				int content_length = -1;
-				method_token = searchTree(root,"method");
-				method_str = (method_token != NULL)?getElementValue(method_token->node, &method_len):NULL;
+				//UNICITE DES HEADERS A VERIFIER
 
-				if(method_str == NULL) {
-					printf("Champ méthode non présent.\n");
-					printf("RENVOYER 400 Bad Request\n");
+
+				int code;
+				string method, body, content_length_str;
+
+				getElement(root, "method", &method);
+				getElement(root, "message_body", &body);
+				getElement(root, "Content_Length", &content_length_str);
+
+				code = methodCompliance(string *method, string *body, string *content_length);
+
+				printf("Code à répondre = %s (0 = on continue)\n", code);
+
+				/*if(code == 0) {
+					//on fé d'autres trucs
 				} else {
-					string method = {method_str, method_len};
+					//on répond direct
+				}*/
 
-					if (!validMethod(&method)) {
-						printf("Méthode inconnue.\n");
-						printf("RENVOYER 501 Not implemented\n");
-					} else {
-						// Vérification de la présence et conformité du body
-						body_token = searchTree(root,"message_body");
-						body_str = (body_token != NULL)?getElementValue(body_token->node, &body_len):NULL;
-
-						if(body_str != NULL) {
-							printf("Body présent, vérification de la conformité...\n");
-						} else {
-							printf("Body non présent\n");
-							if(compare_strings(&method, "POST")) {
-								printf("La requête est un POST sans body.\n");
-								printf("RENVOYER 400 Bad Request\n");
-							}
-						}
-					}
-				}
-
-				if(compare_strings(&method, "POST")) {
-					printf("Il faut vérifier Content-Length et sa conformité\n");
-					test2 = searchTree(root,"Content_Length");
-					chene2 = (test2 != NULL)?getElementValue(test2->node, &laine2):NULL;
-					if(chene2 != NULL) {
-						printf("Le Content-Length = ");
-						for(int i = 0 ; i < laine2 ; i++) printf("%c", chene2[i]);
-						printf("\n");
-						string content_length_string = {chene2, laine2};
-
-						content_length = string_to_int(content_length_string);
-
-						printf("le content_length après passage en int : %d\n", content_length);
-
-						if(body_str != NULL) {
-							printf("Longueur du body = %d\n", body_len);
-							if (body_len == content_length) {
-								printf("Le Content-Length est égal à la taille du body, la méthode est conforme.\n");
-							} else printf("Le Content-Length n'est pas égal à la taille du body, faut répondre en conséquence\n");
-						}
-					} else printf("Content-Length est pas présent, il faut rejeter la requete\n");
-				}
+				// VERIFICATION DE LA VERSION
 
 				// Disponibilité de la ressource
 				/*test = searchTree(root,"request_target");

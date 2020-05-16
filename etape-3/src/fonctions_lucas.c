@@ -6,28 +6,6 @@
 #include "normalization.h"
 
 
-
-/*
-* Convertit une chaine de caractères en entier.
-* Si un caractère qui n'est pas un chiffre est rencontré, la fonction retourne -1
-* Sinon Si il y a plus de MAX_DIGITS chiffres, le nombre est tronqué.
-* Sinon, retourne la valeur de la chaine associée
-*/
-int string_to_int(string s) {
-	int i = 0, value = 0, idigit;
-
-	while(i < s.length && i < MAX_DIGITS && value != -1) {
-		if (is_between(s.base[i], '0', '9')) {
-			idigit = char_to_int(s.base[i]);
-			value = value*10 + idigit;
-		} else value = -1;
-		i++;
-	}
-
-	return value;
-}
-
-
 /*
 * Vérifie qu'une méthode fait bien parties de celles implémentées par le serveur.
 * Retourne 1 si la méthode est connue, 0 sinon.
@@ -119,4 +97,54 @@ char *isAvailable(string *request_target, string *host, int *len) {
 
 
 	return ressource_path;
+}
+
+
+int methodCompliance(string *method, string *body, string *content_length) {
+	int content_length_int, code;
+
+	if(method->base == NULL) {
+		printf("Champ méthode non présent.\n");
+		printf("RENVOYER 400 Bad Request\n");
+		code = 400;
+	} else if (!validMethod(&method)) {
+		printf("Méthode inconnue.\n");
+		printf("RENVOYER 501 Not implemented\n");
+		code = 500;
+	} else if(body->base != NULL) { // Vérification de la présence et conformité du body
+		printf("Body présent, vérification de la conformité avec Content-Length...\n");
+		if(content_length_str->base != NULL) {
+			//printf("Le Content-Length = ");
+			//for(int i = 0 ; i < laine2 ; i++) printf("%c", chene2[i]);
+			//printf("\n");
+
+			content_length_int = string_to_int(&content_length_string);
+			//printf("le Content-Length après passage en int : %d\n", content_length_int);
+			//printf("Longueur du body = %d\n", body->len);
+			
+			if (body->len == content_length_int) {
+				printf("Le Content-Length est égal à la taille du body, la méthode est valide.\n");
+				code = 0;
+			} else {
+				printf("Le Content-Length n'est pas égal à la taille du body.\n");
+				printf("RENVOYER 400 Bad Request\n");
+				code = 400;
+			}
+		} else {
+			printf("Content-Length est pas présent alors qu'il y a un body.\n");
+			printf("RENVOYER 400 Bad Request\n");
+		}
+	} else {
+		printf("Body non présent\n");
+		if(compare_strings(&method, "POST")) {
+			printf("La requête est un POST sans body.\n");
+			printf("RENVOYER 400 Bad Request\n");
+			code = 400;
+		} else {
+			printf("Méthode valide.\n");
+			code = 0;
+		}
+	}
+
+	return code;
 }

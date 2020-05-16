@@ -9,6 +9,6 @@
 #define KNOWN_HOSTS_PATHS {"example", "supersitedu47"}
 #define KNOWN_HOSTS_COUNT 2
 
-int string_to_int(string s);
 int validMethod(string *method);
 char *isAvailable(string *request_target, string *host, int *len);
+int methodCompliance(string *method, string *body, string *content_length);
