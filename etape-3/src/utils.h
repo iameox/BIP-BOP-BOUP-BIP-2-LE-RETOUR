@@ -7,6 +7,9 @@
 #define KNOWN_METHODS {"GET", "HEAD", "POST"}
 #define METHODS_NUMBER 3
 
+//Constante pour prévenir l'overflow des entiers
+#define MAX_DIGITS 9
+
 typedef struct {
     char *base;
     int length;
@@ -29,7 +32,7 @@ int char_to_int(char c);
 * Sinon Si il y a plus de MAX_DIGITS chiffres, le nombre est tronqué.
 * Sinon, retourne la valeur de la chaine associée
 */
-int string_to_int(string *s)
+int string_to_int(string *s);
 
 // Convertit une lettre majuscule en lettre minuscule
 // Si le caractère n'est pas une lettre majuscule, ne fait rien

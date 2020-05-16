@@ -1,8 +1,5 @@
 #include "utils.h"
 
-//Constante pour prévenir l'overflow des entiers
-#define MAX_DIGITS 9
-
 // Gestion du multi-site et de l'arborescence
 #define ROOT_PATH "./../www/"
 #define KNOWN_HOSTS_LIST {"www.example.com", "www.supersitedu47.wow"}
