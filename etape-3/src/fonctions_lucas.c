@@ -57,15 +57,15 @@ int validMethod(string *method) {
 * Retourne 1 si la ressource est disponible, 0 sinon
 */
 
-// A changer le return, autant return le fichier
-// ATTENTION je close rien, il faudra close quand on a fini
-int isAvailable(string *request_target, string *host) {
-	int available = true;
-	int i = 0, j;
+// ATTENTION il faut free le char * retourné après utilisations (si non NULL)
+char *isAvailable(string *request_target, string *host, int *len) {
+	int i = 0, j, size;
 
 	char *hosts_lists[] = KNOWN_HOSTS_LIST;
 	char *hosts_paths[] = KNOWN_HOSTS_PATHS;
 	char *website_path = NULL;
+
+	char *ressource_path = NULL;
 
 	//Normalize according to ABNF
 	normalize_request_target(request_target);
@@ -76,42 +76,45 @@ int isAvailable(string *request_target, string *host) {
 	}
 
 	if(website_path != NULL) {
-		char *path = malloc((strlen(ROOT_PATH) + strlen(website_path) + request_target->length)*sizeof(char));
+		size = strlen(ROOT_PATH) + strlen(website_path) + request_target->length;
+		ressource_path = malloc(size*sizeof(char));
 
 		//On recopie le début de l'arborescence (propre au serveur)
-		for(i = 0 ; i < strlen(ROOT_PATH) ; i++) path[i] = ROOT_PATH[i];
+		for(i = 0 ; i < strlen(ROOT_PATH) ; i++) ressource_path[i] = ROOT_PATH[i];
 		//host
 		j = 0;
 		while(j < strlen(website_path)) {
-			path[i] = website_path[j];
+			ressource_path[i] = website_path[j];
 			i++;
 			j++;
 		}
 		//request-target
 		j = 0;
 		while(j < request_target->length) {
-			path[i] = request_target->base[j];
+			ressource_path[i] = request_target->base[j];
 			i++;
 			j++;
 		}
 
 		printf("on cherche la ressource avec le path = \"");
-		for(i = 0 ; i < strlen(ROOT_PATH) + strlen(website_path) + request_target->length ; i++) printf("%c", path[i]);
+		for(i = 0 ; i < strlen(ROOT_PATH) + strlen(website_path) + request_target->length ; i++) printf("%c", ressource_path[i]);
 		printf("\"\n");
 
-		FILE * ressource = fopen(path, "r");
+		FILE * ressource = fopen(ressource_path, "r");
 
-		if(ressource == NULL) {
+		if(ressource != NULL) {
+			if(fclose(ressource) != 0) printf("Erreur lors de la fermeture de la ressource.\n");
+			if(len != NULL) *len = size;
+		} else {
 			printf("Ressource pas accessible\n");
-			available = false;
+			free(ressource_path);
+			ressource_path = NULL;
 		}
-
-		free(path);
+		
 	} else {
 		printf("Site pas trouvé\n");
-		available = false;
 	}
 
 
-	return available;
+	return ressource_path;
 }

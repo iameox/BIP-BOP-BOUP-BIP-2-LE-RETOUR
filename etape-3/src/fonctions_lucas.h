@@ -11,4 +11,4 @@
 
 int string_to_int(string s);
 int validMethod(string *method);
-int isAvailable(string *request_target, string *host);
+char *isAvailable(string *request_target, string *host, int *len);

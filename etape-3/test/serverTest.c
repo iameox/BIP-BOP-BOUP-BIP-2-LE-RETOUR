@@ -22,6 +22,17 @@
 
 
 
+int main() {
+	char * astr = "/index.html";
+	string a = {astr, strlen(astr)};
+	//char * bstr = "www.example.com";
+	//string b = {bstr, 15};
+	int c;
+	normalize_request_target(&a);
+	//printf("\"%s\"\n", isAvailable(&a, &b, &c));
+	return 1;
+}
+/*
 int main(int argc, char *argv[])
 {
 	message *requete;
@@ -45,26 +56,40 @@ int main(int argc, char *argv[])
 
 				//========================= ZONE DE TEST =============================
 				printf("\n\n===================================== DÉBUT DE LA ZONE DE TEST =====================================\n\n");
-				_Token *test, *test2, *body_token, *request_target_token;
-				int laine, laine2, body_len, request_target_len;
-				char *chene, *chene2, *body_str, *request_target;
+				_Token *test, *test2, *method_token, *body_token, *request_target_token;
+				int laine, laine2, method_len, body_len, request_target_len;
+				char *chene, *chene2, *method_str, *body_str, *request_target;
 
-				// Vérification de la présence du body
-				/*body_token = searchTree(root,"message_body");
-				body_str = (body_token != NULL)?getElementValue(body_token->node, &body_len):NULL;
 
-				if(body_str == NULL) {
-					printf("y'a pas de body, faut checker la méthode et envoyer la réponse en fonction\n");
-				}*/
+				int content_length = -1;
+				method_token = searchTree(root,"method");
+				method_str = (method_token != NULL)?getElementValue(method_token->node, &method_len):NULL;
 
-				//Vérification de la conformité de la méthode
-				/*int content_length = -1;
-				test = searchTree(root,"method");
-				chene = (test != NULL)?getElementValue(test->node, &laine):NULL;
+				if(method_str == NULL) {
+					printf("Champ méthode non présent.\n");
+					printf("RENVOYER 400 Bad Request\n");
+				} else {
+					string method = {method_str, method_len};
+					
+					if (!validMethod(&method)) {
+						printf("Méthode inconnue.\n");
+						printf("RENVOYER 501 Not implemented\n");
+					} else {
+						// Vérification de la présence et conformité du body
+						body_token = searchTree(root,"message_body");
+						body_str = (body_token != NULL)?getElementValue(body_token->node, &body_len):NULL;
 
-				string method = {chene, laine};
-				if (chene != NULL) printf("Est ce que la méthode est valide ? %d\n", validMethod(&method));
-				else printf("Méthode inconnue, faut répondre avec le code associé\n");
+						if(body_str != NULL) {
+							printf("Body présent, vérification de la conformité...\n");
+						} else {
+							printf("Body non présent\n");
+							if(compare_strings(&method, "POST")) {
+								printf("La requête est un POST sans body.\n");
+								printf("RENVOYER 400 Bad Request\n");
+							}
+						}
+					}
+				}
 
 				if(compare_strings(&method, "POST")) {
 					printf("Il faut vérifier Content-Length et sa conformité\n");
@@ -87,7 +112,7 @@ int main(int argc, char *argv[])
 							} else printf("Le Content-Length n'est pas égal à la taille du body, faut répondre en conséquence\n");
 						}
 					} else printf("Content-Length est pas présent, il faut rejeter la requete\n");
-				}*/
+				}
 
 				// Disponibilité de la ressource
 				/*test = searchTree(root,"request_target");
@@ -113,7 +138,7 @@ int main(int argc, char *argv[])
     				printf("URI après normalisation : %s\nLongueur après normalisation : %d\n", request_target, request_target_len );
 				}*/
 
-				printf("\n\n===================================== FIN DE LA ZONE DE TEST =====================================\n\n");
+/*				printf("\n\n===================================== FIN DE LA ZONE DE TEST =====================================\n\n");
 				//=====================================================================
 
 				int l;
@@ -134,3 +159,4 @@ int main(int argc, char *argv[])
 	}
 	return (1);
 }
+*/
