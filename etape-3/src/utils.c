@@ -1,4 +1,4 @@
-#define NULL 0
+#include <stdlib.h>
 #include "utils.h"
 
 // Renvoie true si n est compris entre n1 et n2 (inclus), false sinon
@@ -24,12 +24,10 @@ int char_to_int(char c) {
     return is_between(c, '0', '9') ? c - '0' : c;
 }
 
-/*
-* Convertit une chaine de caractères en entier.
-* Si un caractère qui n'est pas un chiffre est rencontré, la fonction retourne -1
-* Sinon Si il y a plus de MAX_DIGITS chiffres, le nombre est tronqué.
-* Sinon, retourne la valeur de la chaine associée
-*/
+// Convertit une chaine de caractères en entier
+// Si un caractère qui n'est pas un chiffre est rencontré, la fonction retourne -1
+// Sinon s'il y a plus de MAX_DIGITS chiffres, le nombre est tronqué
+// Sinon, retourne la valeur de la chaine associée
 int string_to_int(string *s) {
     int i = 0, value = 0, idigit;
     long int value;
@@ -45,26 +43,32 @@ int string_to_int(string *s) {
     return value;
 }
 
-/*char *int_to_string(int n, int *length) {
-    int i = 10, l = 0;
+// Convertit un entier en une chaine de caractères
+// Si length != null, la longueur de la chaîne lui est affectée
+// Sinon s'il y a plus de MAX_DIGITS chiffres, le nombre est tronqué
+char *int_to_string(long int n, int *length) {
+    long int i = 1;
+    int l = 0;
     char *base;
 
-    while (i < n) {
+    // Détermination de la taille de la chaîne
+    while (l == 0 || (i <= n && l < MAX_DIGITS)) {
         l++;
         i *= 10;
     }
 
-    *base = malloc(l * sizeof(char) + 1);
+    base = malloc(l * sizeof(char) + 1);
     base[l] = '\0';
 
-    for (i = 0; i < l; i++) {
+    // Écriture caractère par caractère, en commençant par le chiffre de poids le plus faible
+    for (i = l - 1; i >= 0; i--) {
         base[i] = '0' + n % 10;
         n /= 10;
     }
 
     if (length != NULL) *length = l;
     return base;
-}*/
+}
 
 // Retourne true si s1 et s2 contiennent les mêmes caractères, false sinon
 int compare_strings(string *s1, char *s2) {

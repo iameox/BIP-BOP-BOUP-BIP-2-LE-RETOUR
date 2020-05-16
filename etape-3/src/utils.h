@@ -26,13 +26,16 @@ int is_between(unsigned char c, unsigned char c1, unsigned char c2);
 // Si le caractère n'est pas un chiffre, ne fait rien
 int char_to_int(char c);
 
-/*
-* Convertit une chaine de caractères en entier.
-* Si un caractère qui n'est pas un chiffre est rencontré, la fonction retourne -1
-* Sinon Si il y a plus de MAX_DIGITS chiffres, le nombre est tronqué.
-* Sinon, retourne la valeur de la chaine associée
-*/
+// Convertit une chaine de caractères en entier
+// Si un caractère qui n'est pas un chiffre est rencontré, la fonction retourne -1
+// Sinon s'il y a plus de MAX_DIGITS chiffres, le nombre est tronqué
+// Sinon, retourne la valeur de la chaine associée
 int string_to_int(string *s);
+
+// Convertit un entier en une chaine de caractères
+// Si length != null, la longueur de la chaîne lui est affectée
+// Sinon s'il y a plus de MAX_DIGITS chiffres, le nombre est tronqué
+char *int_to_string(long int n, int *length)
 
 // Convertit une lettre majuscule en lettre minuscule
 // Si le caractère n'est pas une lettre majuscule, ne fait rien
