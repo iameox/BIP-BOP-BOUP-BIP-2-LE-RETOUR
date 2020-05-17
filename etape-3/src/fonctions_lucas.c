@@ -108,7 +108,7 @@ int methodCompliance(string *method, string *body, string *content_length) {
 		printf("RENVOYER 501 Not implemented\n");
 		code = 501;
 	} else if(body->length == 0 || body->base != NULL) { // Vérification de la présence et conformité du body
-		printf("Body de longueur %d présent, vérification de la conformité avec Content-Length...\n", body->length));
+		printf("Body de longueur %d présent, vérification de la conformité avec Content-Length...\n", body->length);
 		if(content_length->base != NULL) {
 			//printf("Le Content-Length = ");
 			//for(int i = 0 ; i < laine2 ; i++) printf("%c", chene2[i]);

@@ -35,7 +35,7 @@ int string_to_int(string *s);
 // Convertit un entier en une chaine de caractères
 // Si length != null, la longueur de la chaîne lui est affectée
 // Sinon s'il y a plus de MAX_DIGITS chiffres, le nombre est tronqué
-char *int_to_string(long int n, int *length)
+char *int_to_string(long int n, int *length);
 
 // Convertit une lettre majuscule en lettre minuscule
 // Si le caractère n'est pas une lettre majuscule, ne fait rien

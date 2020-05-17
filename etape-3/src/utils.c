@@ -29,8 +29,8 @@ int char_to_int(char c) {
 // Sinon s'il y a plus de MAX_DIGITS chiffres, le nombre est tronqué
 // Sinon, retourne la valeur de la chaine associée
 int string_to_int(string *s) {
-    int i = 0, value = 0, idigit;
-    long int value;
+    int i = 0, idigit;
+    long int value = 0;
 
     while(i < s->length && i < MAX_DIGITS && value != -1) {
         if (is_between(s->base[i], '0', '9')) {

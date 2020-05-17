@@ -56,12 +56,12 @@ int main(int argc, char *argv[])
 				_Token *test, *test2, *method_token, *body_token, *request_target_token;
 				int laine, laine2, method_len, body_len, request_target_len;
 				char *chene, *chene2, *method_str, *body_str, *request_target;
-
+				int code;
 
 				//UNICITE DES HEADERS A VERIFIER
 
 
-				int code;
+				
 				string method, body, content_length;
 
 				getElement(root, "method", &method);
@@ -81,18 +81,22 @@ int main(int argc, char *argv[])
 				// VERIFICATION DE LA VERSION
 
 				// Disponibilité de la ressource
-				/*test = searchTree(root,"request_target");
-				test2 = searchTree(root,"Host");
-				chene = (test != NULL)?getElementValue(test->node, &laine):NULL;
-				chene2 = (test2 != NULL)?getElementValue(test2->node, &laine2):NULL;
 
+				if(code == 0) {
+					// Disponibilité de la ressource
+					string request_target, host;
+					getElement(root, "request_target", &request_target);
+					getElement(root, "Host", &host);
 
-				if (chene != NULL && chene2 != NULL) {
-					string target = {chene, laine};
-					string host = {chene2, laine2};
+					int path_len;
+					char *path = isAvailable(&request_target, &host, &path_len);
+					if(path == NULL) {
+						printf("Ressource indisponible.\n");
+					} else {
+						printf("Est ce que la ressource est disponible? %s\n", path);
+					}
+				}
 
-					printf("Est ce que la ressource est disponible? %d\n", isAvailable(&target, &host));
-				}*/
 
 				// Normalisation d'URI
 				/*request_target_token = searchTree(root, "request_target");
