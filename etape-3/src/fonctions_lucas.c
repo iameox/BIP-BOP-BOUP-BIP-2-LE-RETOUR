@@ -29,7 +29,8 @@ int validMethod(string *method) {
 /*
 * Indique si une ressource décrite par le couple (request_target, host) est disponible.
 * On considère que la request_target est de type origin-form
-* Retourne 1 si la ressource est disponible, 0 sinon
+* Si host vaut NULL, on considère que la requête est du HTTP 1.0
+* Retourne un char* pointant vers le path de la requête et écrit dans len si la ressource existe, renvoie NULL sinon
 */
 
 // ATTENTION il faut free le char * retourné après utilisations (si non NULL)
@@ -45,7 +46,7 @@ char *isAvailable(string *request_target, string *host, int *len) {
 	//Normalize according to ABNF
 	normalize_request_target(request_target);
 
-	while(i < KNOWN_HOSTS_COUNT && website_path == NULL) {
+	while(i < KNOWN_HOSTS_COUNT && website_path == NULL && *host != NULL) {
 		if(compare_strings(host, hosts_lists[i])) website_path = hosts_paths[i];
 		i++;
 	}
@@ -73,9 +74,9 @@ char *isAvailable(string *request_target, string *host, int *len) {
 
 		ressource_path[i] = '\0';
 
-		printf("on cherche la ressource avec le path = \"");
-		for(i = 0 ; i < strlen(ROOT_PATH) + strlen(website_path) + request_target->length ; i++) printf("%c", ressource_path[i]);
-		printf("\"\n");
+		//printf("on cherche la ressource avec le path = \"");
+		//for(i = 0 ; i < strlen(ROOT_PATH) + strlen(website_path) + request_target->length ; i++) printf("%c", ressource_path[i]);
+		//printf("\"\n");
 
 		FILE * ressource = fopen(ressource_path, "r");
 
@@ -88,8 +89,35 @@ char *isAvailable(string *request_target, string *host, int *len) {
 			ressource_path = NULL;
 		}
 
+	} else if(*host == NULL) { //HTTP 1.0
+			size = strlen(ROOT_PATH) + strlen(website_path) + request_target->length + 1;
+			ressource_path = malloc(size*sizeof(char));
+
+			//On recopie le début de l'arborescence (propre au serveur)
+			for(i = 0 ; i < strlen(ROOT_PATH) ; i++) ressource_path[i] = ROOT_PATH[i];
+
+			//request-target
+			j = 0;
+			while(j < request_target->length) {
+				ressource_path[i] = request_target->base[j];
+				i++;
+				j++;
+			}
+
+			ressource_path[i] = '\0';
+
+			FILE * ressource = fopen(ressource_path, "r");
+
+			if(ressource != NULL) {
+				if(fclose(ressource) != 0) printf("Erreur lors de la fermeture de la ressource.\n");
+				if(len != NULL) *len = size;
+			} else {
+				printf("Ressource pas accessible\n");
+				free(ressource_path);
+				ressource_path = NULL;
+			}
 	} else {
-		printf("Site pas trouvé\n");
+			printf("Site pas trouvé\n");
 	}
 
 
