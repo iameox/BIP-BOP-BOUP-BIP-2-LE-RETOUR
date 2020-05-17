@@ -13,8 +13,10 @@
 // this will declare internal type used by the parser
 #include "api.h"
 
-#include "../src/fonctions_lucas.h"
-#include "../src/normalization.h"
+#include "utils.h"
+#include "fonctions_lucas.h"
+#include "normalization.h"
+#include "response.h"
 
 #define ERROR "HTTP/1.0 400 SUCKA\r\n\r\n"
 #define REPONSE "HTTP/1.0 200 OK\r\nContent-type: text/plain\r\n\r\nHey Bro why did you send me this:\r\n"
@@ -45,7 +47,7 @@ int main(int argc, char *argv[])
 		if (res=parseur(requete->buf,requete->len)) {
 			_Token *r,*tok,*root;
 
-			writeDirectClient(requete->clientId,REPONSE,strlen(REPONSE));
+			//writeDirectClient(requete->clientId,REPONSE,strlen(REPONSE));
 			root=getRootTree();
 			r=searchTree(root,"HTTP_message");
 			tok=r;
@@ -84,16 +86,19 @@ int main(int argc, char *argv[])
 
 				if(code == 0) {
 					// Disponibilité de la ressource
-					string request_target, host;
-					getElement(root, "request_target", &request_target);
+					string request_target_string, host;
+					getElement(root, "request_target", &request_target_string);
 					getElement(root, "Host", &host);
 
 					int path_len;
-					char *path = isAvailable(&request_target, &host, &path_len);
+					char *path = isAvailable(&request_target_string, &host, &path_len);
 					if(path == NULL) {
 						printf("Ressource indisponible.\n");
 					} else {
 						printf("Est ce que la ressource est disponible? %s\n", path);
+
+						//string p = { path, path_len };
+						//send_response(&method, 200, &p, requete);
 					}
 				}
 
@@ -111,21 +116,20 @@ int main(int argc, char *argv[])
 				printf("\n\n===================================== FIN DE LA ZONE DE TEST =====================================\n\n");
 				//=====================================================================
 
-				int l;
+				/*int l;
 				char *s = getElementValue(tok->node, &l);
-				if (s != NULL) writeDirectClient(requete->clientId,s,l);
-
+				if (s != NULL) writeDirectClient(requete->clientId,s,l);*/
 				tok=tok->next;
 			}
-			purgeElement(&r);
-		purgeTree(root);
+			//purgeElement(&r);
+		//purgeTree(root);
 		} else {
-			writeDirectClient(requete->clientId,ERROR,strlen(ERROR));
+			//writeDirectClient(requete->clientId,ERROR,strlen(ERROR));
 		}
-		endWriteDirectClient(requete->clientId);
-		requestShutdownSocket(requete->clientId);
+		//endWriteDirectClient(requete->clientId);
+		//requestShutdownSocket(requete->clientId);
 	// on ne se sert plus de requete a partir de maintenant, on peut donc liberer...
-	freeRequest(requete);
+	//freeRequest(requete);
 	}
 	return (1);
 }

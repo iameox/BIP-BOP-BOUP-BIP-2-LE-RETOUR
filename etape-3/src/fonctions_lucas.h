@@ -1,5 +1,3 @@
-#include "utils.h"
-
 // Gestion du multi-site et de l'arborescence
 #define ROOT_PATH "./../www/"
 #define KNOWN_HOSTS_LIST {"www.example.com", "www.supersitedu47.wow"}
