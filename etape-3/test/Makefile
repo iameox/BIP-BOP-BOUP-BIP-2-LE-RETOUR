@@ -1,5 +1,5 @@
 all: response.o normalization.o fonctions_lucas.o utils.o 
-	gcc -I ../lib/libparser -I ../lib/librequest/api -I ../src  -L ../lib/libparser -L ../lib/librequest -o serverTest serverTest.c response.o normalization.o fonctions_lucas.o utils.o -lparser -lrequest
+	gcc -I ../lib/libparser -I ../lib/librequest/api -I ../src -L ../lib/libparser -L ../lib/librequest -o serverTest serverTest.c response.o normalization.o fonctions_lucas.o utils.o -lparser -lrequest
 	echo "Faut faire ça : 'export LD_LIBRARY_PATH=.'"
 
 response.o: ../src/response.c ../src/response.h
@@ -15,4 +15,4 @@ utils.o: ../src/utils.c ../src/utils.h
 	gcc -c ../src/utils.c -Wall
 
 clean:
-	rm -rf *.o
+	rm -rf *.o ../src/*.o

@@ -46,7 +46,7 @@ char *isAvailable(string *request_target, string *host, int *len) {
 	//Normalize according to ABNF
 	normalize_request_target(request_target);
 
-	while(i < KNOWN_HOSTS_COUNT && website_path == NULL && *host != NULL) {
+	while(i < KNOWN_HOSTS_COUNT && website_path == NULL && host != NULL) {
 		if(compare_strings(host, hosts_lists[i])) website_path = hosts_paths[i];
 		i++;
 	}
@@ -89,7 +89,7 @@ char *isAvailable(string *request_target, string *host, int *len) {
 			ressource_path = NULL;
 		}
 
-	} else if(*host == NULL) { //HTTP 1.0
+	} else if(host == NULL) { //HTTP 1.0
 			size = strlen(ROOT_PATH) + strlen(website_path) + request_target->length + 1;
 			ressource_path = malloc(size*sizeof(char));
 

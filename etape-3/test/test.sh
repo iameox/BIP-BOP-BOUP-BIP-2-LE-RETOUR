@@ -2,7 +2,7 @@
 #Port 8080 par défaut
 
 # ========================= TESTS POUR LA SYNTAXE DE LA METHODE =========================
-# echo -en 'GET / HTTP/1.0\r\n\r\n' | netcat 127.0.0.1 8080
+#echo -en 'GET / HTTP/1.0\r\n\r\n' | netcat 127.0.0.1 8080
 # echo -en 'GET / HTTP/1.1\r\n\r\n' | netcat 127.0.0.1 8080
 # echo -en 'HEAD / HTTP/1.0\r\n\r\n' | netcat 127.0.0.1 8080
 # echo -en 'POST / HTTP/1.0\r\n\r\n' | netcat 127.0.0.1 8080
@@ -17,7 +17,7 @@
 # ========================= TESTS POUR LE MULTISITE =========================
 # echo -en 'GET / HTTP/1.1\r\nHost: localhost\r\n\r\n' | netcat 127.0.0.1 8080
 # echo -en 'GET / HTTP/1.1\r\nHost: www.example.com\r\n\r\n' | netcat 127.0.0.1 8080
-# echo -en 'GET /index.html HTTP/1.1\r\nHost: www.example.com\r\n\r\n' | netcat 127.0.0.1 8080
+ echo -en 'GET /index.html HTTP/1.1\r\nHost: www.example.com\r\n\r\n' | netcat 127.0.0.1 8080
 # echo -en 'GET /fichierquiexistepas.html HTTP/1.1\r\nHost: www.example.com\r\n\r\n' | netcat 127.0.0.1 8080
 # echo -en 'GET / HTTP/1.1\r\nHost: www.monsitedepeche.haha\r\n\r\n' | netcat 127.0.0.1 8080
 # echo -en 'GET /particles.html HTTP/1.1\r\nHost: www.supersitedu47.wow\r\n\r\n' | netcat 127.0.0.1 8080

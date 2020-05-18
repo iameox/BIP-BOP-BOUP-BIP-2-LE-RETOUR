@@ -1,0 +1,1 @@
+void send_response(string *method, int status_code, string *path, message *request);
