@@ -28,8 +28,9 @@ int validMethod(string *method) {
 
 /*
 * Indique si une ressource décrite par le couple (request_target, host) est disponible.
+* host et request_target target ne doivent PAS valoir NULL
 * On considère que la request_target est de type origin-form
-* Si host vaut NULL, on considère que la requête est du HTTP 1.0
+* Si host->base vaut NULL, on considère que la requête est du HTTP 1.0 (on utilise que la request-target)
 * Retourne un char* pointant vers le path de la requête et écrit dans len si la ressource existe, renvoie NULL sinon
 */
 
@@ -40,23 +41,25 @@ char *isAvailable(string *request_target, string *host, int *len) {
 	char *hosts_lists[] = KNOWN_HOSTS_LIST;
 	char *hosts_paths[] = KNOWN_HOSTS_PATHS;
 	char *website_path = NULL;
-
+	char *default_file = DEFAULT_FILE_PATH;
 	char *ressource_path = NULL;
 
-	if(host != NULL && host->base == NULL) {
-			host = NULL;
-	}
+	int request_size = request_target->length;
 
 	//Normalize according to ABNF
 	normalize_request_target(request_target);
 
-	while(i < KNOWN_HOSTS_COUNT && website_path == NULL && host != NULL) {
+	if(request_target->base[request_target->length - 1] == '/') {
+		request_size += DEFAULT_FILE_LENGTH;
+	}
+
+	while(i < KNOWN_HOSTS_COUNT && website_path == NULL && host->base != NULL) {
 		if(compare_strings(host, hosts_lists[i])) website_path = hosts_paths[i];
 		i++;
 	}
 
 	if(website_path != NULL) {
-		size = strlen(ROOT_PATH) + strlen(website_path) + request_target->length + 1;
+		size = strlen(ROOT_PATH) + strlen(website_path) + request_size + 1;
 		ressource_path = malloc(size*sizeof(char));
 
 		//On recopie le début de l'arborescence (propre au serveur)
@@ -76,11 +79,19 @@ char *isAvailable(string *request_target, string *host, int *len) {
 			j++;
 		}
 
+		//On rajoute un index.html" si besoin
+		if(request_size > request_target->length) { //si on doit rajouter index.html
+			for(j = 0 ; j < DEFAULT_FILE_LENGTH ; j++) {
+				ressource_path[i] = default_file[j];
+				i++;
+			}
+		}
+
 		ressource_path[i] = '\0';
 
-		//printf("on cherche la ressource avec le path = \"");
-		//for(i = 0 ; i < strlen(ROOT_PATH) + strlen(website_path) + request_target->length ; i++) printf("%c", ressource_path[i]);
-		//printf("\"\n");
+		/*printf("on cherche la ressource avec le path = \"");
+		for(i = 0 ; i < size ; i++) printf("%c", ressource_path[i]);
+		printf("\"\n");*/
 
 		FILE * ressource = fopen(ressource_path, "r");
 
@@ -93,8 +104,8 @@ char *isAvailable(string *request_target, string *host, int *len) {
 			ressource_path = NULL;
 		}
 
-	} else if(host == NULL) { //HTTP 1.0
-			size = strlen(ROOT_PATH) + request_target->length + 1;
+	} else if(host->base == NULL) { //HTTP 1.0
+			size = strlen(ROOT_PATH) + request_size + 1;
 			ressource_path = malloc(size*sizeof(char));
 
 			//On recopie le début de l'arborescence (propre au serveur)
@@ -108,7 +119,18 @@ char *isAvailable(string *request_target, string *host, int *len) {
 				j++;
 			}
 
+			//On rajoute un index.html" si besoin
+			if(request_size > request_target->length) { //si on doit rajouter index.html
+				for(j = 0 ; j < DEFAULT_FILE_LENGTH ; j++) {
+					ressource_path[i] = default_file[j];
+				}
+			}
+
 			ressource_path[i] = '\0';
+
+			/*printf("on cherche la ressource avec le path = \"");
+			for(i = 0 ; i < size ; i++) printf("%c", ressource_path[i]);
+			printf("\"\n");*/
 
 			FILE * ressource = fopen(ressource_path, "r");
 

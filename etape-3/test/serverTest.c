@@ -43,7 +43,7 @@ int main(int argc, char *argv[])
 		printf("Client [%d] [%s:%d]\n",requete->clientId,inet_ntoa(requete->clientAddress->sin_addr),htons(requete->clientAddress->sin_port));
 		printf("Contenu de la demande %.*s\n\n",requete->len,requete->buf);
 		if (res=parseur(requete->buf,requete->len)) {
-			_Token *tok, *r, *root, *t1, *t2, *t3, *t4, *t5;
+			_Token *tok, *r, *root, *t1 = NULL, *t2 = NULL, *t3 = NULL, *t4 = NULL, *t5 = NULL;
 
 			//writeDirectClient(requete->clientId,REPONSE,strlen(REPONSE));
 			root=getRootTree();
@@ -77,7 +77,8 @@ int main(int argc, char *argv[])
 					t4 = getElement(root, "request_target", &request_target);
 					t5 = getElement(root, "Host", &host);
 					int path_len;
-					if(host.base != NULL) printf("%s\n", host.base);
+					//if(host.base != NULL) printf("host = \"%s\" l=%d\n", host.base, host.length);
+					//else printf("Pas de host\n");
 					char *path = isAvailable(&request_target, &host, &path_len);
 					if(path == NULL) {
 						printf("Ressource indisponible.\n");
@@ -96,11 +97,12 @@ int main(int argc, char *argv[])
 				//int l;
 				//char *s = getElementValue(tok->node, &l);
 				//if (s != NULL) writeDirectClient(requete->clientId,s,l);
-				purgeElement(&t1);
-				purgeElement(&t2);
-				purgeElement(&t3);
-				purgeElement(&t4);
-				purgeElement(&t5);
+
+				if(t1 != NULL) purgeElement(&t1);
+				if(t2 != NULL) purgeElement(&t2);
+				if(t3 != NULL) purgeElement(&t3);
+				if(t4 != NULL) purgeElement(&t4);
+				if(t5 != NULL) purgeElement(&t5);
 				tok=tok->next;
 			}
 			purgeElement(&r);
