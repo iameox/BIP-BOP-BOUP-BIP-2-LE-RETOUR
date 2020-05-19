@@ -14,12 +14,11 @@ void normalize_percent(string *str) {
     // virtual_index représente l'index de parcourt de la chaîne finale, c'est la position du prochain caractère à écrire
     int real_index = 0,
         virtual_index = 0,
-        nb_to_write, value, digit, i;
+        value, digit, i;
     char *s, c;
 
     while (real_index < str->length) {
         s = str->base + real_index;
-        nb_to_write = 1;
         value = 0;
 
         if (s[0] == '%') {
@@ -31,22 +30,16 @@ void normalize_percent(string *str) {
                 digit = c >= 'A' ? 10 + c - 'A' : c - '0';
                 value = 16 * value + digit;
             }
+            
+            str->base[virtual_index] = value;
+            real_index += 3;
 
-            if (is_between(value, 'A', 'Z') || is_between(value, 'a', 'z') || is_between(value, '0', '9') || value == '-' || value == '.' || value == '_' || value == '~') {
-                str->base[virtual_index] = value;
-                real_index += 3;
-                virtual_index++;
-
-                nb_to_write = 0;
-                
-            } else nb_to_write = 3;
-        }
-
-        for (i = 0; i < nb_to_write; i++) {
+        } else {
             str->base[virtual_index] = str->base[real_index];
             real_index++;
-            virtual_index++;
         }
+
+        virtual_index++;
     }
 
     // Positionne la nouvelle fin de la chaîne
