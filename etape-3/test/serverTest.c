@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
 			r=searchTree(root,"HTTP_message");
 			tok = r;
 			while (tok) {
-			
+
 				//========================= ZONE DE TEST =============================
 				printf("\n\n===================================== DÉBUT DE LA ZONE DE TEST =====================================\n\n");
 				int code;
@@ -58,7 +58,7 @@ int main(int argc, char *argv[])
 				//UNICITE DES HEADERS A VERIFIER
 
 
-				
+
 				string method, body, content_length;
 
 				t1 = getElement(root, "method", &method);
@@ -71,25 +71,24 @@ int main(int argc, char *argv[])
 
 				// VERIFICATION DE LA VERSION
 
-				//if(code == 0) {
+				if(code == 0) {
 					// Disponibilité de la ressource
 					string request_target, host;
 					t4 = getElement(root, "request_target", &request_target);
 					t5 = getElement(root, "Host", &host);
-
 					int path_len;
-					printf("%s\n", host.base);
+					if(host.base != NULL) printf("%s\n", host.base);
 					char *path = isAvailable(&request_target, &host, &path_len);
 					if(path == NULL) {
 						printf("Ressource indisponible.\n");
 					} else {
-						printf("Est ce que la ressource est disponible? %s\n", path);
-						
+						printf("La ressource est disponible via le path : %s\n", path);
+
 						string p = { path, path_len };
 						send_response(&method, 200, &p, requete);
 						free(path);
 					}
-				//}
+				}
 
 				printf("\n\n===================================== FIN DE LA ZONE DE TEST =====================================\n\n");
 				//=====================================================================
