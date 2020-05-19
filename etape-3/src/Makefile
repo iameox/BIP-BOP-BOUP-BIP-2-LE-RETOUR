@@ -1,18 +1,15 @@
-httpparser: main.o fonctions_marin.o libparser.so 
-	gcc $(CCFLAGS) -o $@ $< -L. -lparser 
+all: main.o fonctions_marin.o utils.o
+	gcc -I ../lib/libparser -I ../lib/librequest/api -I ../src -L ../lib/libparser -L ../lib/librequest -o fonctions_marin main.c fonctions_marin.o utils.o -lparser -lrequest
+	echo "Faut faire ça : 'export LD_LIBRARY_PATH=.'"
 
-main.o: main.c test.h
-	gcc $(CCFLAGS) -c $< -o $@
-	
-fonctions_marin.o: fonctions_marin.c fonctions_marin.h
-	gcc $(CCFLAGS) -c $< -o $@
+main.o: ../src/main.c ../src/fonctions_marin.h ../src/utils.h
+	gcc -c ../src/main.c -Wall
 
-.PRECIOUS: %.c %.h
+fonctions_marin.o: ../src/fonctions_marin.c ../src/fonctions_marin.h
+	gcc -c ../src/fonctions_marin.c -Wall
 
-all: httpparser
+utils.o: ../src/utils.c ../src/utils.h
+	gcc -c ../src/utils.c -Wall
 
-clean : 
-	rm -rf httpparser
-	rm -rf *.o 
-
-
+clean:
+	rm -rf *.o ../src/*.o

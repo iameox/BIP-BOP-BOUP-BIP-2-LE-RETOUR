@@ -2,23 +2,14 @@
 #include "fonctions_marin.h"
 
 #include <stdio.h> 
-#include <stdlib.h>
+#include <stdlib.h> 
 
 #include "api.h"
+#include "utils.h"
 
 /*
-	typedef struct _token
-	{
-		void *node; 
-		struct _token *next;
-	} _Token;
-
+	Fonction qui renvoie 0 si deux headers de même type sont présents, 1 sinon
 */
-
-// Fonction qui recherche dans l'arbre tous les noeuds dont l'etiquette est egale à la chaine de caractères en argument.   
-// Par convention si start == NULL alors on commence à la racine 
-// sinon on effectue une recherche dans le sous-arbre à partir du noeud start 
-// _Token *searchTree(void *start,char *name); 
 
 int are_unique_headers(void *root)
 {
@@ -29,7 +20,6 @@ int are_unique_headers(void *root)
 	char *headers_list[] = {"Connection_header", "Content_Length_header", "Content_Type_header", "Cookie_header", "Transfer_Encoding_header", "Expect_header", "Host_header", "Accept_header", "Accept_Charset_header", "Accept_Encoding_header", "Accept_Language_header", "Referer_header", "User_Agent_header"};
 	char *header_possible;
 	_Token *current_header;
-	char *header_tmp;
 
 	for (index_header = 0; (to_return == 1 && index_header < 13); index_header++)
 	{
@@ -49,26 +39,62 @@ int are_unique_headers(void *root)
 			to_return = 0;
 		}
 		size = 0;
+
+		purgeElement(&current_header);
 	}
 
 	return to_return;
 }
 
+
 /*
-void afficherSearchTree(void * root)
-{
-	int index;
-	_Token *header;
-	header = searchTree(root, "header_field");
-	while (header != NULL)
-	{
-		printf("\n\n Search Tree retourné : \n\n");
-		for (index = 0; index < header->node->len; index++)
-		{
-			printf("%c", header->node->value[j]);
-		}
-		printf("\n\n");
-		header = header->next;
-	}
-}
+	Fonction qui renvoie 1 si la start-line se termine par HTTP/1.0  OU
+	si la start-line se termine par HTTP/1.1 ET un unique host-header est présent ; 0 sinon
 */
+
+/*
+		IMPORTANT 
+
+		Utiliser HTTP_version plutôt que start_line
+*/
+int is_http_version_ok(void *root)
+{
+	int to_return = 0;
+	int is_found_host_header = 0;
+	int length;
+
+	_Token *http_version;
+	_Token *host_header;
+
+	host_header = searchTree(root, "Host_header");
+	// host_header = searchTree(root, "Host__________________header");
+	if (host_header != NULL && host_header->next == NULL) is_found_host_header = 1;
+	printf("\n\n Is found host header : %d \n\n", is_found_host_header);
+
+
+	http_version = searchTree(root, "HTTP_version");
+	// http_version = searchTree(root, "HTTP__________________version");
+	printf("\n\n HTTP version found : %d \n\n", http_version == NULL);
+
+	if (http_version != NULL)
+	{
+		// Récupérer ici ce que contient la http_version pour trouver la version HTTP
+		char *http_version_string = getElementValue(http_version->node, &length);
+		
+		if (http_version_string != NULL)
+		{
+			printf("\n\n Ligne récupérée : %s. de longueur %d \n\n", http_version_string, length);
+
+			string my_string = {http_version_string, length};
+			// Comparer cette version HTTP à ce qui est attendu
+			to_return = (compare_strings(&my_string, "HTTP/1.0") || (compare_strings(&my_string, "HTTP/1.1") && is_found_host_header) );
+		}
+		else printf("\n\n LIGNE NULLE \n\n");
+	}
+	else printf("\n\n HTTP VERSION NULLE \n\n");
+
+	purgeElement(&host_header);
+	purgeElement(&http_version);
+	
+	return to_return;
+}
