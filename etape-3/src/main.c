@@ -14,7 +14,8 @@
 
 #include "api.h" 
 #include "fonctions_marin.h"
-#include "utils.h"
+//#include "utils.h"
+#include <magic.h>
 
 #define false 0 
 
@@ -85,8 +86,14 @@ int main(int argc,char *argv[])
 		int resultat = are_unique_headers(root);
 		printf("\n\n Unicité des headers : %d \n\n", resultat);
 
+		/* Paramètres devenus invalides
+
 		int resultat_2 = is_http_version_ok(root);
 		printf("\n\n Validité de la version HTTP : %d \n\n", resultat_2);
+		*/
+
+		const char *mr_mime_jr = mr_mime("fonctions_marin.c");
+		printf("\n\n Le type de Mr MIME est : %s. \n\n", mr_mime_jr);
 		// Fin de la modification exclusive
 
 

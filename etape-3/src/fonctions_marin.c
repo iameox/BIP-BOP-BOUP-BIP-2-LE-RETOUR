@@ -1,11 +1,13 @@
 
-#include "fonctions_marin.h"
 
-#include <stdio.h> 
-#include <stdlib.h> 
+#include <stdio.h>
+#include <stdlib.h>
+#include <magic.h>
 
 #include "api.h"
-#include "utils.h"
+//#include "utils.h"
+#include "fonctions_marin.h"
+
 
 /*
 	Fonction qui renvoie 0 si deux headers de même type sont présents, 1 sinon
@@ -53,10 +55,6 @@ int are_unique_headers(void *root)
 */
 
 /*
-		IMPORTANT 
-
-		Utiliser HTTP_version plutôt que start_line
-*/
 int is_http_version_ok(void *root)
 {
 	int to_return = 0;
@@ -97,4 +95,62 @@ int is_http_version_ok(void *root)
 	purgeElement(&http_version);
 	
 	return to_return;
+}
+*/
+
+
+
+
+int is_http_version_ok(string *http_version, string *host_header)
+{
+	int to_return = 0;
+	int is_found_host_header = 0;
+
+	//  && host_header->next == NULL mais un type string n'a pas de ->next 
+	if (host_header != NULL) is_found_host_header = 1;
+
+	if (http_version != NULL)
+	{
+		to_return = (compare_strings(http_version, "HTTP/1.0") || (compare_strings(http_version, "HTTP/1.1") && is_found_host_header) );
+	}
+
+	return to_return;
+}
+
+
+
+const char *mr_mime(char *filename)
+{
+	// Crée un cookie qui "contient" l'option MAGIC_MIME_TYPE
+	// Evite d'inclure le flag correspondant à chaque utilisation du cookie, entre autre
+	magic_t cookie = magic_open(MAGIC_MIME_TYPE);
+
+	if (cookie == NULL)
+	{
+		printf("\n\n Echec lors de la création du magic cookie. \n\n");
+		magic_close(cookie);
+		exit(0);
+	}
+	
+	int is_load = magic_load(cookie, "/usr/share/misc/magic.mgc");
+	if (is_load == -1)
+	{
+		printf("\n\n Erreur lors du chargement du fichier /usr/share/misc/magic.mgc : %s. \n\n", magic_error(cookie));
+		exit(0);
+	}
+
+	const char *mr_mime_jr;
+	mr_mime_jr = magic_file(cookie, filename);
+
+	if (mr_mime_jr == NULL)
+	{
+		printf("\n\n Erreur lors de la récupération des informations sur le fichier donné avec magic_file : %s. \n\n", magic_error(cookie));
+		magic_close(cookie);
+		exit(0);
+	}
+
+	// Efface toutes les données en mémoire associées au cookie. Oui, TOUTES.
+	//magic_close(cookie);
+
+	return mr_mime_jr;
 }
