@@ -110,7 +110,9 @@ int main(int argc, char *argv[])
 					//else printf("Pas de host\n");
 					char *path = isAvailable(&request_target, &host, &path_len);
 					if(path == NULL) {
+						code = 404;
 						printf("Ressource indisponible.\n");
+						printf("RENVOYER 404 Not Found\n");
 					} else {
 						printf("La ressource est disponible via le path : %s\n", path);
 
