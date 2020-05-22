@@ -15,6 +15,7 @@
 
 #include "utils.h"
 #include "fonctions_lucas.h"
+#include "fonctions_marin.h"
 #include "normalization.h"
 #include "response.h"
 
@@ -43,7 +44,7 @@ int main(int argc, char *argv[])
 		printf("Client [%d] [%s:%d]\n",requete->clientId,inet_ntoa(requete->clientAddress->sin_addr),htons(requete->clientAddress->sin_port));
 		printf("Contenu de la demande %.*s\n\n",requete->len,requete->buf);
 		if (res=parseur(requete->buf,requete->len)) {
-			_Token *tok, *r, *root, *t1 = NULL, *t2 = NULL, *t3 = NULL, *t4 = NULL, *t5 = NULL;
+			_Token *tok, *r, *root, *t1 = NULL, *t2 = NULL, *t3 = NULL, *t4 = NULL, *t5 = NULL, *t6 = NULL;
 
 			//writeDirectClient(requete->clientId,REPONSE,strlen(REPONSE));
 			root=getRootTree();
@@ -53,29 +54,57 @@ int main(int argc, char *argv[])
 
 				//========================= ZONE DE TEST =============================
 				printf("\n\n===================================== DÉBUT DE LA ZONE DE TEST =====================================\n\n");
-				int code;
+				int code, headers_uniques, version_ok;
 
-				//UNICITE DES HEADERS A VERIFIER
+				string method, body, content_length, http_version, request_target, host;
 
+				//Unicité des headers
+				headers_uniques = are_unique_headers(root);
+				printf("Unicité : %d\n", headers_uniques);
 
+				if(headers_uniques) {
+					code = 0;
+					printf("Les headers sont uniques, on peut continuer\n");
+				} else {
+					code = 400;
+					printf("Un header est présent en double.\n");
+					printf("RENVOYER 400 Bad Request\n");
+				}
 
-				string method, body, content_length;
+				printf("Code à répondre = %d (0 = pas de pb)\n", code);
 
-				t1 = getElement(root, "method", &method);
-				t2 = getElement(root, "message_body", &body);
-				t3 = getElement(root, "Content_Length", &content_length);
-
-				code = methodCompliance(&method, &body, &content_length);
-
-				printf("Code à répondre = %d (0 = on continue)\n", code);
-
-				// VERIFICATION DE LA VERSION
-
+				//Conformité de la méthode
 				if(code == 0) {
-					// Disponibilité de la ressource
-					string request_target, host;
-					t4 = getElement(root, "request_target", &request_target);
+					t1 = getElement(root, "method", &method);
+					t2 = getElement(root, "message_body", &body);
+					t3 = getElement(root, "Content_Length", &content_length);
+
+					code = methodCompliance(&method, &body, &content_length);
+
+					printf("Code à répondre = %d (0 = pas de pb)\n", code);
+				}
+
+				//Vérification de la version
+				if(code == 0) {
+					t4 = getElement(root, "HTTP_version", &http_version);
 					t5 = getElement(root, "Host", &host);
+
+					version_ok = is_http_version_ok(&http_version, &host);
+
+					if(version_ok) {
+						code = 0;
+						printf("La version est OK\n");
+					} else {
+						code = 400;
+						printf("Problème de version\n");
+						printf("RENVOYER 400 Bad Request\n");
+					}
+				}
+
+				// Disponibilité de la ressource
+				if(code == 0) {
+					t6 = getElement(root, "request_target", &request_target);
+
 					int path_len;
 					//if(host.base != NULL) printf("host = \"%s\" l=%d\n", host.base, host.length);
 					//else printf("Pas de host\n");
@@ -103,6 +132,7 @@ int main(int argc, char *argv[])
 				if(t3 != NULL) purgeElement(&t3);
 				if(t4 != NULL) purgeElement(&t4);
 				if(t5 != NULL) purgeElement(&t5);
+				if(t5 != NULL) purgeElement(&t6);
 				tok=tok->next;
 			}
 			purgeElement(&r);
