@@ -5,7 +5,7 @@
 #include <magic.h>
 
 #include "api.h"
-//#include "utils.h"
+#include "utils.h"
 #include "fonctions_marin.h"
 
 
@@ -100,26 +100,24 @@ int is_http_version_ok(void *root)
 
 
 
-
+// Les deux strings existent forcément, mais c'est leur champ ->base qui peut être null
 int is_http_version_ok(string *http_version, string *host_header)
 {
 	int to_return = 0;
 	int is_found_host_header = 0;
 
-	//  && host_header->next == NULL mais un type string n'a pas de ->next 
-	if (host_header != NULL) is_found_host_header = 1;
+	//  && host_header->next == NULL mais un type string n'a pas de ->next 	
+	if (host_header->base != NULL) is_found_host_header = 1;
 
-	if (http_version != NULL)
-	{
-		to_return = (compare_strings(http_version, "HTTP/1.0") || (compare_strings(http_version, "HTTP/1.1") && is_found_host_header) );
-	}
+	// http_version->base existe forcément sinon le parsing crash
+	to_return = (compare_strings(http_version, "HTTP/1.0") || (compare_strings(http_version, "HTTP/1.1") && is_found_host_header) );
 
 	return to_return;
 }
 
 
 
-const char *mr_mime(char *filename)
+const char *get_mime_type(char *filename)
 {
 	// Crée un cookie qui "contient" l'option MAGIC_MIME_TYPE
 	// Evite d'inclure le flag correspondant à chaque utilisation du cookie, entre autre
@@ -139,10 +137,10 @@ const char *mr_mime(char *filename)
 		exit(0);
 	}
 
-	const char *mr_mime_jr;
-	mr_mime_jr = magic_file(cookie, filename);
+	const char *mime_type;
+	mime_type = magic_file(cookie, filename);
 
-	if (mr_mime_jr == NULL)
+	if (mime_type == NULL)
 	{
 		printf("\n\n Erreur lors de la récupération des informations sur le fichier donné avec magic_file : %s. \n\n", magic_error(cookie));
 		magic_close(cookie);
@@ -152,5 +150,5 @@ const char *mr_mime(char *filename)
 	// Efface toutes les données en mémoire associées au cookie. Oui, TOUTES.
 	//magic_close(cookie);
 
-	return mr_mime_jr;
+	return mime_type;
 }

@@ -14,7 +14,7 @@ void send_response(string *method, int status_code, string *path, message *reque
     content = malloc(st.st_size * sizeof(char));
     fread(content, 1, st.st_size, f);
 
-    writeDirectClient(request->clientId, "HTTP/1.1 200 OK\r\n", 18);
+    writeDirectClient(request->clientId, "HTTP/1.1 200 OK\r\n", 17);
 
     if (!is_between_int(status_code, 100, 199) && status_code != 204) {
         writeDirectClient(request->clientId, "Content-length: ", 16);
