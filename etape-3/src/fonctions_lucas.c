@@ -26,6 +26,7 @@ int validMethod(string *method) {
 	return valid;
 }
 
+
 /*
 * Indique si une ressource décrite par le couple (request_target, host) est disponible.
 * host et request_target target ne doivent PAS valoir NULL
@@ -40,6 +41,7 @@ char *isAvailable(string *request_target, string *host, int *len) {
 
 	char *hosts_lists[] = KNOWN_HOSTS_LIST;
 	char *hosts_paths[] = KNOWN_HOSTS_PATHS;
+	int hosts_sizes[] = KNOWN_HOSTS_SIZES, website_path_size;
 	char *website_path = NULL;
 	char *default_file = DEFAULT_FILE_PATH;
 	char *ressource_path = NULL;
@@ -56,19 +58,22 @@ char *isAvailable(string *request_target, string *host, int *len) {
 	}
 
 	while(i < KNOWN_HOSTS_COUNT && website_path == NULL && host->base != NULL) {
-		if(compare_strings(host, hosts_lists[i])) website_path = hosts_paths[i];
+		if(compare_strings(host, hosts_lists[i])) {
+			website_path = hosts_paths[i];
+			website_path_size = hosts_sizes[i];
+		}
 		i++;
 	}
 
 	if(website_path != NULL) {
-		size = strlen(ROOT_PATH) + strlen(website_path) + request_size + 1;
+		size = ROOT_PATH_SIZE + website_path_size + request_size + 1;
 		ressource_path = malloc(size*sizeof(char));
 
 		//On recopie le début de l'arborescence (propre au serveur)
-		for(i = 0 ; i < strlen(ROOT_PATH) ; i++) ressource_path[i] = ROOT_PATH[i];
+		for(i = 0 ; i < ROOT_PATH_SIZE ; i++) ressource_path[i] = ROOT_PATH[i];
 		//host
 		j = 0;
-		while(j < strlen(website_path)) {
+		while(j < website_path_size) {
 			ressource_path[i] = website_path[j];
 			i++;
 			j++;
@@ -105,11 +110,11 @@ char *isAvailable(string *request_target, string *host, int *len) {
 		}
 
 	} else if(host->base == NULL) { //HTTP 1.0
-			size = strlen(ROOT_PATH) + request_size + 1;
+			size = ROOT_PATH_SIZE + request_size + 1;
 			ressource_path = malloc(size*sizeof(char));
 
 			//On recopie le début de l'arborescence (propre au serveur)
-			for(i = 0 ; i < strlen(ROOT_PATH) ; i++) ressource_path[i] = ROOT_PATH[i];
+			for(i = 0 ; i < ROOT_PATH_SIZE ; i++) ressource_path[i] = ROOT_PATH[i];
 
 			//request-target
 			j = 0;
@@ -149,6 +154,10 @@ char *isAvailable(string *request_target, string *host, int *len) {
 }
 
 
+/*
+* Retourne le code de réponse HTTP vérifiant la sémantique de la méthode.
+* Retourne 0 si la méthode est valide, le code d'erreur correspondant sinon.
+*/
 int methodCompliance(string *method, string *body, string *content_length) {
 	int content_length_int, code;
 
