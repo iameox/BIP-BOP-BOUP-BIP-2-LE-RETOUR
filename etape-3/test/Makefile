@@ -18,4 +18,4 @@ utils.o: ../src/utils.c ../src/utils.h
 	gcc -c ../src/utils.c -Wall
 
 clean:
-	rm -rf *.o ../src/*.o
+	rm -rf *.o

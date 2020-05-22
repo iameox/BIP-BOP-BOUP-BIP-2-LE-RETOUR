@@ -117,7 +117,7 @@ int main(int argc, char *argv[])
 						printf("La ressource est disponible via le path : %s\n", path);
 
 						string p = { path, path_len };
-						send_response(&method, 200, &p, requete);
+						send_response(&method, 200, &p, get_mime_type(path), requete);
 						free(path);
 					}
 				}
