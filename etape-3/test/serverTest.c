@@ -134,7 +134,7 @@ int main(int argc, char *argv[])
 				if(t3 != NULL) purgeElement(&t3);
 				if(t4 != NULL) purgeElement(&t4);
 				if(t5 != NULL) purgeElement(&t5);
-				if(t5 != NULL) purgeElement(&t6);
+				if(t6 != NULL) purgeElement(&t6);
 				tok=tok->next;
 			}
 			purgeElement(&r);
