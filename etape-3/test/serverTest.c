@@ -117,7 +117,9 @@ int main(int argc, char *argv[])
 						printf("La ressource est disponible via le path : %s\n", path);
 
 						string p = { path, path_len };
-						send_response(&method, 200, &p, get_mime_type(path), requete);
+						printf("\n\n FUYEZ PAUVRES FOUS VOILA LE LEGENDAIRE MR MIME \n\n");
+						printf("\n\n\n\n %s \n\n\n\n", (get_mime_type(&p)->base));
+						send_response(&method, 200, &p, get_mime_type(&p), requete);
 						free(path);
 					}
 				}

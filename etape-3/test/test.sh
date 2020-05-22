@@ -44,3 +44,9 @@
 # echo -en 'GET /%2F%64%69%72%31%2F%64%69%72%32%2F%2E%2F%64%69%72%33%31/%2E%2E/%64%69%72%33%32%2F%69%6E%64%65%78%2E%68%74%6D%6C HTTP/1.1\r\n\r\n' | netcat 127.0.0.1 8080
 # echo -en 'GET /ma/su%49%59per/url/./voiture/mon/su%2eper/sac/a/d%2f%94os/./././main/haha/je/te/hack/ HTTP/1.1\r\n\r\n' | netcat 127.0.0.1 8080
 # echo -en 'GET /ma/su%49%59per/url/./../voiture/../../../mon/su%2eper/sac/a/d%2f%94os/./././../main/haha/je/te/hack/../../../../../../ HTTP/1.1\r\n\r\n' | netcat 127.0.0.1 8080
+
+
+
+echo -en 'GET /index.html HTTP/1.1\r\nHost: www.example.com:8080\r\n\r\n' | netcat 127.0.0.1 8080
+
+echo -en 'GET /index.html HTTP/1.1\r\nHost: www.toto.com:8080\r\n\r\n' | netcat 127.0.0.1 8080
