@@ -2,11 +2,10 @@
 #Port 8080 par défaut
 
 # ========================= TESTS POUR L'UNICITE DES HEADERS=========================
-echo -en 'GET www.example.com/ HTTP/1.1\r\n\r\n' | netcat 127.0.0.1 8080
-echo -en 'GET / HTTP/1.1\r\nHost: www.example.com\r\nHost: www.example.com\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 13\r\n\r\n' | netcat 127.0.0.1 8080
-echo -en 'GET / HTTP/1.1\r\n\r\n' | netcat 127.0.0.1 8080
-echo -en 'GET / HTTP/1.1\r\nHost: www.example.com\r\n\r\n' | netcat 127.0.0.1 8080
-echo -en 'GET www.example.com/index.html HTTP/1.1\r\n\r\n' | netcat 127.0.0.1 8080
+# echo -en 'GET / HTTP/1.0\r\n\r\n' | netcat 127.0.0.1 8080
+# echo -en 'GET / HTTP/1.1\r\nHost: www.example.com:8080\r\nHost: www.example.com\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 13\r\n\r\n' | netcat 127.0.0.1 8080
+# echo -en 'GET / HTTP/1.1\r\n\r\n' | netcat 127.0.0.1 8080
+# echo -en 'GET / HTTP/1.1\r\nHost: www.example.com:8080\r\nHost: www.example.com\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 13\r\nContent-Length: 117\r\n\r\n' | netcat 127.0.0.1 8080
 
 # ========================= TESTS POUR LA SYNTAXE DE LA METHODE =========================
 # echo -en 'GET / HTTP/1.0\r\n\r\n' | netcat 127.0.0.1 8080
@@ -17,16 +16,16 @@ echo -en 'GET www.example.com/index.html HTTP/1.1\r\n\r\n' | netcat 127.0.0.1 80
 
 # ========================= TESTS POUR POST ET CONTENT-LENGTH =========================
 # echo -en 'POST / HTTP/1.0\r\n\r\n' | netcat 127.0.0.1 8080
-# echo -en 'POST / HTTP/1.1\r\nHost: www.example.com\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 13\r\n\r\nsay=Hi&to=Mom' | netcat 127.0.0.1 8080
-# echo -en 'POST / HTTP/1.1\r\nHost: www.example.com\r\nContent-Length: 123456789123\r\n\r\nsay=Hi&to=Mom' | netcat 127.0.0.1 8080
-# echo -en 'POST / HTTP/1.1\r\nHost: www.example.com\r\nContent-Length: 164643844\r\n\r\nsay=Hi&to=Mom' | netcat 127.0.0.1 8080
+# echo -en 'POST / HTTP/1.1\r\nHost: www.example.com:8080\r\nContent-Type: application/x-www-form-urlencoded\r\nContent-Length: 13\r\n\r\nsay=Hi&to=Mom' | netcat 127.0.0.1 8080
+# echo -en 'POST / HTTP/1.1\r\nHost: www.example.com:8080\r\nContent-Length: 123456789123\r\n\r\nsay=Hi&to=Mom' | netcat 127.0.0.1 8080
+# echo -en 'POST / HTTP/1.1\r\nHost: www.example.com:8080\r\nContent-Length: 164643844\r\n\r\nsay=Hi&to=Mom' | netcat 127.0.0.1 8080
 
 # ========================= TESTS POUR LA VERSION=========================
-echo -en 'GET www.example.com/ HTTP/1.0\r\n\r\n' | netcat 127.0.0.1 8080
-echo -en 'GET www.example.com/ HTTP/1.0\r\nHost: www.example.com\r\n\r\n' | netcat 127.0.0.1 8080
-echo -en 'GET / HTTP/1.1\r\n\r\n' | netcat 127.0.0.1 8080
-echo -en 'GET / HTTP/1.1\r\nHost: www.example.com\r\n\r\n' | netcat 127.0.0.1 8080
-echo -en 'GET www.example.com/index.html HTTP/1.1\r\n\r\n' | netcat 127.0.0.1 8080
+# echo -en 'GET / HTTP/1.0\r\n\r\n' | netcat 127.0.0.1 8080
+# echo -en 'GET / HTTP/1.0\r\nHost: www.example.com:8080\r\n\r\n' | netcat 127.0.0.1 8080
+# echo -en 'GET / HTTP/1.1\r\n\r\n' | netcat 127.0.0.1 8080
+# echo -en 'GET / HTTP/1.1\r\nHost: www.example.com:8080\r\n\r\n' | netcat 127.0.0.1 8080
+# echo -en 'GET / HTTP/4.7\r\nHost: www.example.com:8080\r\n\r\n' | netcat 127.0.0.1 8080
 
 # ========================= TESTS POUR LE MULTISITE =========================
 # echo -en 'GET / HTTP/1.1\r\nHost: localhost\r\n\r\n' | netcat 127.0.0.1 8080

@@ -49,6 +49,8 @@ char *isAvailable(string *request_target, string *host, int *len) {
 	//Normalize according to ABNF
 	normalize_request_target(request_target);
 
+	printf("Requete après normalisation : \"%.*s\"\n", request_target->length, request_target->base);
+
 	if(request_target->base[request_target->length - 1] == '/') {
 		request_size += DEFAULT_FILE_LENGTH;
 	}
@@ -79,7 +81,7 @@ char *isAvailable(string *request_target, string *host, int *len) {
 			j++;
 		}
 
-		//On rajoute un index.html" si besoin
+		//On rajoute un "index.html" si besoin
 		if(request_size > request_target->length) { //si on doit rajouter index.html
 			for(j = 0 ; j < DEFAULT_FILE_LENGTH ; j++) {
 				ressource_path[i] = default_file[j];
@@ -89,9 +91,7 @@ char *isAvailable(string *request_target, string *host, int *len) {
 
 		ressource_path[i] = '\0';
 
-		/*printf("on cherche la ressource avec le path = \"");
-		for(i = 0 ; i < size ; i++) printf("%c", ressource_path[i]);
-		printf("\"\n");*/
+		printf("Path de la ressource après concaténation : \"%.*s\"\n", size, ressource_path);
 
 		FILE * ressource = fopen(ressource_path, "r");
 
@@ -119,7 +119,7 @@ char *isAvailable(string *request_target, string *host, int *len) {
 				j++;
 			}
 
-			//On rajoute un index.html" si besoin
+			//On rajoute un "index.html" si besoin
 			if(request_size > request_target->length) { //si on doit rajouter index.html
 				for(j = 0 ; j < DEFAULT_FILE_LENGTH ; j++) {
 					ressource_path[i] = default_file[j];
@@ -128,9 +128,7 @@ char *isAvailable(string *request_target, string *host, int *len) {
 
 			ressource_path[i] = '\0';
 
-			/*printf("on cherche la ressource avec le path = \"");
-			for(i = 0 ; i < size ; i++) printf("%c", ressource_path[i]);
-			printf("\"\n");*/
+			printf("Path de la ressource après concaténation : \"%.*s\"\n", size, ressource_path);
 
 			FILE * ressource = fopen(ressource_path, "r");
 
@@ -165,10 +163,8 @@ int methodCompliance(string *method, string *body, string *content_length) {
 	} else if(body->base != NULL && body->length != 0) { // Vérification de la présence et conformité du body
 		printf("Body de longueur %d présent, vérification de la conformité avec Content-Length...\n", body->length);
 		if(content_length->base != NULL) {
-			//printf("Le Content-Length = ");
-			//for(int i = 0 ; i < laine2 ; i++) printf("%c", chene2[i]);
-			//printf("\n");
 
+			//printf("Le Content-Length = %.*s", content_length->length, content_length->base);
 			content_length_int = string_to_int(content_length);
 			//printf("le Content-Length après passage en int : %d\n", content_length_int);
 
