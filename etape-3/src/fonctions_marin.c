@@ -15,18 +15,19 @@
 
 int are_unique_headers(void *root)
 {
-	int to_return = 1;
+	int to_return = true;
 	int size = 0;
 
 	int index_header;
 	char *headers_list[] = {"Connection_header", "Content_Length_header", "Content_Type_header", "Cookie_header", "Transfer_Encoding_header", "Expect_header", "Host_header", "Accept_header", "Accept_Charset_header", "Accept_Encoding_header", "Accept_Language_header", "Referer_header", "User_Agent_header"};
 	char *header_possible;
-	_Token *current_header;
+	_Token *head, *current_header;
 
-	for (index_header = 0; (to_return == 1 && index_header < 13); index_header++)
+	for (index_header = 0; (to_return == true && index_header < 13); index_header++)
 	{
 		header_possible = headers_list[index_header];
-		current_header = searchTree(root, header_possible);
+		head = searchTree(root, header_possible);
+		current_header = head;
 		// current_header = searchTree(root, "Host__________________header");
 		
 		while(current_header != NULL)
@@ -38,11 +39,11 @@ int are_unique_headers(void *root)
 		if (size != 0 && size != 1)
 		{
 			printf("\n\n Size invalide pour le header %s : %d headers trouvés. \n\n", header_possible, size);
-			to_return = 0;
+			to_return = false;
 		}
 		size = 0;
 
-		purgeElement(&current_header);
+		purgeElement(&head);
 	}
 
 	return to_return;
@@ -103,11 +104,11 @@ int is_http_version_ok(void *root)
 // Les deux strings existent forcément, mais c'est leur champ ->base qui peut être null
 int is_http_version_ok(string *http_version, string *host_header)
 {
-	int to_return = 0;
-	int is_found_host_header = 0;
+	int to_return = true;
+	int is_found_host_header = false;
 
 	//  && host_header->next == NULL mais un type string n'a pas de ->next 	
-	if (host_header->base != NULL) is_found_host_header = 1;
+	if (host_header->base != NULL) is_found_host_header = true;
 
 	// http_version->base existe forcément sinon le parsing crash
 	to_return = (compare_strings(http_version, "HTTP/1.0") || (compare_strings(http_version, "HTTP/1.1") && is_found_host_header) );
@@ -117,24 +118,25 @@ int is_http_version_ok(string *http_version, string *host_header)
 
 
 
-const char *get_mime_type(char *filename)
+string *get_mime_type(char *filename)
 {
 	// Crée un cookie qui "contient" l'option MAGIC_MIME_TYPE
 	// Evite d'inclure le flag correspondant à chaque utilisation du cookie, entre autre
 	magic_t cookie = magic_open(MAGIC_MIME_TYPE);
+	string *result = malloc(sizeof(string));
 
 	if (cookie == NULL)
 	{
 		printf("\n\n Echec lors de la création du magic cookie. \n\n");
 		magic_close(cookie);
-		exit(0);
+		exit(EXIT_FAILURE);
 	}
 	
 	int is_load = magic_load(cookie, "/usr/share/misc/magic.mgc");
 	if (is_load == -1)
 	{
 		printf("\n\n Erreur lors du chargement du fichier /usr/share/misc/magic.mgc : %s. \n\n", magic_error(cookie));
-		exit(0);
+		exit(EXIT_FAILURE);
 	}
 
 	const char *mime_type;
@@ -144,11 +146,12 @@ const char *get_mime_type(char *filename)
 	{
 		printf("\n\n Erreur lors de la récupération des informations sur le fichier donné avec magic_file : %s. \n\n", magic_error(cookie));
 		magic_close(cookie);
-		exit(0);
+		exit(EXIT_FAILURE);
 	}
 
+	copy_to_string(mime_type, result);
 	// Efface toutes les données en mémoire associées au cookie. Oui, TOUTES.
-	//magic_close(cookie);
+	magic_close(cookie);
 
-	return mime_type;
+	return result;
 }

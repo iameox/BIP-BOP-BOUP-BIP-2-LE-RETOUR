@@ -4,7 +4,7 @@
 #include "request.h"
 #include "utils.h"
 
-void send_response(string *method, int status_code, string *path, message *request) {
+void send_response(string *method, int status_code, string *path, string *mime_type, message *request) {
     FILE *f = fopen(path->base, "r");
     struct stat st;
     int length;
@@ -25,12 +25,15 @@ void send_response(string *method, int status_code, string *path, message *reque
         writeDirectClient(request->clientId, "\r\n", 2);
     }
 
-    writeDirectClient(request->clientId, "\r\n", 2);
-
     if (!compare_strings(method, "HEAD")) {
+        writeDirectClient(request->clientId, "Content-Type: ", 14);
+        writeDirectClient(request->clientId, mime_type->base, mime_type->length);
+        writeDirectClient(request->clientId, "\r\n\r\n", 4);
         writeDirectClient(request->clientId, content, st.st_size);
     }
     
+    free(mime_type->base);
+    free(mime_type);
     free(content);
     fclose(f);
 }

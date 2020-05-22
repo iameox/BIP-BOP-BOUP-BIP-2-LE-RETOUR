@@ -1,1 +1,1 @@
-void send_response(string *method, int status_code, string *path, message *request);
+void send_response(string *method, int status_code, string *path, string *mime_type, message *request);

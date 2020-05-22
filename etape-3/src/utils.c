@@ -70,6 +70,21 @@ char *int_to_string(long int n, int *length) {
     return base;
 }
 
+void copy_to_string(const char *s1, string *s2) {
+    int length, i = 0;
+    char *base;
+
+    while (s1[i] != '\0') i++;
+
+    length = i;
+    base = malloc(length * sizeof(char));
+
+    for (i = 0; i < length; i++) base[i] = s1[i];
+
+    s2->base = base;
+    s2->length = length;
+}
+
 // Retourne true si s1 et s2 contiennent les mêmes caractères, false sinon
 int compare_strings(string *s1, char *s2) {
     int p_len;
