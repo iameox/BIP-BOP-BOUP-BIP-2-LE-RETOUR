@@ -18,6 +18,7 @@
 #include "fonctions_marin.h"
 #include "normalization.h"
 #include "response.h"
+#include "../src/response_codes_messages.h"
 
 _Token *getElement(_Token *root, char *name, string *s) {
 	_Token *t = searchTree(root, name);
@@ -113,12 +114,11 @@ int main(int argc, char *argv[])
 						code = 404;
 						printf("Ressource indisponible.\n");
 						printf("RENVOYER 404 Not Found\n");
+						writeDirectClient(requete->clientId, RESPONSE_404, RESPONSE_404_SIZE);
 					} else {
 						printf("La ressource est disponible via le path : %s\n", path);
 
 						string p = { path, path_len };
-						printf("\n\n FUYEZ PAUVRES FOUS VOILA LE LEGENDAIRE MR MIME \n\n");
-						printf("\n\n\n\n %s \n\n\n\n", (get_mime_type(&p)->base));
 						send_response(&method, 200, &p, get_mime_type(&p), requete);
 						free(path);
 					}
