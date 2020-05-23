@@ -111,7 +111,11 @@ int is_http_version_ok(string *http_version, string *host_header)
 	if (host_header->base != NULL) is_found_host_header = true;
 
 	// http_version->base existe forcément sinon le parsing crash
-	to_return = (compare_strings(http_version, "HTTP/1.0") || (compare_strings(http_version, "HTTP/1.1") && is_found_host_header) );
+	if (!(compare_strings(http_version, "HTTP/1.0")) && !(compare_strings(http_version, "HTTP/1.1"))) to_return = 505;
+
+	else if (compare_strings(http_version, "HTTP/1.1") && !(is_found_host_header)) to_return = 400;
+
+	else to_return = 200;
 
 	return to_return;
 }
