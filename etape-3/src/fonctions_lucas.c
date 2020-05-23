@@ -157,8 +157,8 @@ int methodCompliance(string *method, string *body, string *content_length) {
 			}
 		} else {
 			printf("Content-Length est pas présent alors qu'il y a un body.\n");
-			printf("RENVOYER 400 Bad Request\n");
-			code = 400;
+			printf("RENVOYER 411 Length Required\n");
+			code = 411;
 		}
 	} else {
 		printf("Body non présent\n");

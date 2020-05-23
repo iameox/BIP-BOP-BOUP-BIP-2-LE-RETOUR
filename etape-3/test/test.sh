@@ -21,11 +21,11 @@
 # echo -en 'POST / HTTP/1.1\r\nHost: www.example.com:8080\r\nContent-Length: 164643844\r\n\r\nsay=Hi&to=Mom' | netcat 127.0.0.1 8080
 
 # ========================= TESTS POUR LA VERSION=========================
-# echo -en 'GET / HTTP/1.0\r\n\r\n' | netcat 127.0.0.1 8080
-# echo -en 'GET / HTTP/1.0\r\nHost: www.example.com:8080\r\n\r\n' | netcat 127.0.0.1 8080
-# echo -en 'GET / HTTP/1.1\r\n\r\n' | netcat 127.0.0.1 8080
-# echo -en 'GET / HTTP/1.1\r\nHost: www.example.com:8080\r\n\r\n' | netcat 127.0.0.1 8080
-# echo -en 'GET / HTTP/4.7\r\nHost: www.example.com:8080\r\n\r\n' | netcat 127.0.0.1 8080
+echo -en 'GET / HTTP/1.0\r\n\r\n' | netcat 127.0.0.1 8080
+echo -en 'GET / HTTP/1.0\r\nHost: www.toto.com:8080\r\n\r\n' | netcat 127.0.0.1 8080
+echo -en 'GET / HTTP/1.1\r\n\r\n' | netcat 127.0.0.1 8080
+echo -en 'GET / HTTP/1.1\r\nHost: www.example.com:8080\r\n\r\n' | netcat 127.0.0.1 8080
+echo -en 'GET / HTTP/4.7\r\nHost: www.example.com:8080\r\n\r\n' | netcat 127.0.0.1 8080
 
 # ========================= TESTS POUR LE MULTISITE =========================
 # echo -en 'GET / HTTP/1.1\r\nHost: localhost\r\n\r\n' | netcat 127.0.0.1 8080
@@ -45,8 +45,9 @@
 # echo -en 'GET /ma/su%49%59per/url/./voiture/mon/su%2eper/sac/a/d%2f%94os/./././main/haha/je/te/hack/ HTTP/1.1\r\n\r\n' | netcat 127.0.0.1 8080
 # echo -en 'GET /ma/su%49%59per/url/./../voiture/../../../mon/su%2eper/sac/a/d%2f%94os/./././../main/haha/je/te/hack/../../../../../../ HTTP/1.1\r\n\r\n' | netcat 127.0.0.1 8080
 
-
-
-echo -en 'GET /index.html HTTP/1.1\r\nHost: www.example.com:8080\r\n\r\n' | netcat 127.0.0.1 8080
-
-echo -en 'GET /index.html HTTP/1.1\r\nHost: www.toto.com:8080\r\n\r\n' | netcat 127.0.0.1 8080
+# ========================= TESTS POUR LES TYPES MIME =========================
+# echo -en 'GET /index.html HTTP/1.1\r\nHost: www.toto.com:8080\r\n\r\n' | netcat 127.0.0.1 8080
+# echo -en 'GET /index.jpeg HTTP/1.1\r\nHost: www.toto.com:8080\r\n\r\n' | netcat 127.0.0.1 8080
+# echo -en 'GET /index.png HTTP/1.1\r\nHost: www.toto.com:8080\r\n\r\n' | netcat 127.0.0.1 8080
+# echo -en 'GET /index.tif HTTP/1.1\r\nHost: www.toto.com:8080\r\n\r\n' | netcat 127.0.0.1 8080
+# echo -en 'GET /index.tiff HTTP/1.1\r\nHost: www.toto.com:8080\r\n\r\n' | netcat 127.0.0.1 8080
