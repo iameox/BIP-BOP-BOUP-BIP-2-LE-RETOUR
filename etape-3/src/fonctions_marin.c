@@ -129,14 +129,16 @@ string* get_mime_type_with_magic(char *filename)
 	{
 		printf("\n\n Echec lors de la création du magic cookie. \n\n");
 		magic_close(cookie);
-		exit(EXIT_FAILURE);
+		// Retourner null ça permet de continuer l'exécution du programme, c'est pas très intéressant un serveur qui crash à cause d'une erreur qui est pas essentielle à son fonctionnement
+		return NULL;
 	}
 	
 	int is_load = magic_load(cookie, "/usr/share/misc/magic.mgc");
 	if (is_load == -1)
 	{
 		printf("\n\n Erreur lors du chargement du fichier /usr/share/misc/magic.mgc : %s. \n\n", magic_error(cookie));
-		exit(EXIT_FAILURE);
+		// Retourner null ça permet de continuer l'exécution du programme, c'est pas très intéressant un serveur qui crash à cause d'une erreur qui est pas essentielle à son fonctionnement
+		return NULL;
 	}
 
 	const char *mime_type;
@@ -146,7 +148,8 @@ string* get_mime_type_with_magic(char *filename)
 	{
 		printf("\n\n Erreur lors de la récupération des informations sur le fichier donné avec magic_file : %s. \n\n", magic_error(cookie));
 		magic_close(cookie);
-		exit(EXIT_FAILURE);
+		// Retourner null ça permet de continuer l'exécution du programme, c'est pas très intéressant un serveur qui crash à cause d'une erreur qui est pas essentielle à son fonctionnement
+		return NULL;
 	}
 
 	copy_to_string(mime_type, result);

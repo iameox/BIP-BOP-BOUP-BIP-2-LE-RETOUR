@@ -149,7 +149,7 @@ int methodCompliance(string *method, string *body, string *content_length) {
 
 			if (body->length == content_length_int) {
 				printf("Le Content-Length est égal à la taille du body, la méthode est valide.\n");
-				code = 0;
+				code = 200;
 			} else {
 				printf("Le Content-Length n'est pas égal à la taille du body.\n");
 				printf("RENVOYER 400 Bad Request\n");
@@ -168,7 +168,7 @@ int methodCompliance(string *method, string *body, string *content_length) {
 			code = 400;
 		} else {
 			printf("Méthode valide.\n");
-			code = 0;
+			code = 200;
 		}
 	}
 

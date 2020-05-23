@@ -3,37 +3,64 @@
 #include <sys/stat.h>
 #include "request.h"
 #include "utils.h"
+#include "response_codes_messages.h"
 
 void send_response(string *method, int status_code, string *path, string *mime_type, message *request) {
-    FILE *f = fopen(path->base, "r");
+    FILE *f = NULL;
     struct stat st;
-    int length;
-    char *content;
+    char *responses[] = RESPONSES,
+         *response_bodies[] = RESPONSE_BODIES,
+         *content = NULL,
+         *content_length;
+    int codes[] = STATUS_CODES,
+        response_lengths[] = RESPONSE_LENGTHS,
+        response_body_lengths[] = RESPONSE_BODY_LENGTHS,
+        length, i;
 
-    stat(path->base, &st);
-    content = malloc(st.st_size * sizeof(char));
-    fread(content, 1, st.st_size, f);
+    for (i = 0; i < NB_STATUS_CODES; i++) {
+        if (status_code == codes[i]) {
+            writeDirectClient(request->clientId, responses[i], response_lengths[i]);
 
-    writeDirectClient(request->clientId, "HTTP/1.1 200 OK\r\n", 17);
+            if (!is_between_int(status_code, 100, 199) && status_code != 204) {
+                writeDirectClient(request->clientId, "\r\nContent-length: ", 18);
 
-    if (!is_between_int(status_code, 100, 199) && status_code != 204) {
-        writeDirectClient(request->clientId, "Content-length: ", 16);
+                if (status_code == 200) {
+                    f = fopen(path->base, "r");
+                    stat(path->base, &st);
 
-        char *s = int_to_string(st.st_size, &length);
-        writeDirectClient(request->clientId, s, length);
-        free(s);
-        writeDirectClient(request->clientId, "\r\n", 2);
-    }
+                    content = malloc(st.st_size * sizeof(char));
+                    fread(content, 1, st.st_size, f);
 
-    if (!compare_strings(method, "HEAD")) {
-        writeDirectClient(request->clientId, "Content-Type: ", 14);
-        writeDirectClient(request->clientId, mime_type->base, mime_type->length);
-        writeDirectClient(request->clientId, "\r\n\r\n", 4);
-        writeDirectClient(request->clientId, content, st.st_size);
+                    content_length = int_to_string(st.st_size, &length);
+
+                } else content_length = int_to_string(response_body_lengths[i - 1], &length);
+                
+                writeDirectClient(request->clientId, content_length, length);
+                free(content_length);
+                printf("La chaine c'est ça : '%.*s'\n", method->length, method->base);
+                if (!compare_strings(method, "HEAD")) {
+                    writeDirectClient(request->clientId, "\r\nContent-Type: ", 16);
+
+                    if (status_code == 200) {
+                        writeDirectClient(request->clientId, mime_type->base, mime_type->length);
+
+                        writeDirectClient(request->clientId, "\r\n\r\n", 4);
+                        writeDirectClient(request->clientId, content, st.st_size);
+                    
+                    } else {
+                        writeDirectClient(request->clientId, "text/html\r\n\r\n", 13);
+                        writeDirectClient(request->clientId, response_bodies[i - 1], response_body_lengths[i - 1]);
+                    }
+                }
+            }
+        }
     }
     
-    free(mime_type->base);
-    free(mime_type);
-    free(content);
-    fclose(f);
+    if (path->base != NULL) free(path->base);
+    if (mime_type != NULL) {
+        free(mime_type->base);
+        free(mime_type);
+    }
+    if (content != NULL) free(content);
+    if (f != NULL) fclose(f);
 }

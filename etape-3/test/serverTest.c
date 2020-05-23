@@ -18,7 +18,6 @@
 #include "fonctions_marin.h"
 #include "normalization.h"
 #include "response.h"
-#include "../src/response_codes_messages.h"
 
 _Token *getElement(_Token *root, char *name, string *s) {
 	_Token *t = searchTree(root, name);
@@ -55,16 +54,16 @@ int main(int argc, char *argv[])
 
 				//========================= ZONE DE TEST =============================
 				printf("\n\n===================================== DÉBUT DE LA ZONE DE TEST =====================================\n\n");
-				int code, headers_uniques, version_ok;
-
-				string method, body, content_length, http_version, request_target, host;
+				int code, headers_uniques, version_ok, path_len;
+				string *type_mime = NULL, path = { NULL, 0 }, method, body, content_length, http_version, request_target, host;
+				t1 = getElement(root, "method", &method);
 
 				//Unicité des headers
 				headers_uniques = are_unique_headers(root);
 				printf("Unicité : %d\n", headers_uniques);
 
 				if(headers_uniques) {
-					code = 0;
+					code = 200;
 					printf("Les headers sont uniques, on peut continuer\n");
 				} else {
 					code = 400;
@@ -72,28 +71,27 @@ int main(int argc, char *argv[])
 					printf("RENVOYER 400 Bad Request\n");
 				}
 
-				printf("Code à répondre = %d (0 = pas de pb)\n", code);
+				printf("Code à répondre = %d (200 = pas de pb)\n", code);
 
 				//Conformité de la méthode
-				if(code == 0) {
-					t1 = getElement(root, "method", &method);
+				if(code == 200) {
 					t2 = getElement(root, "message_body", &body);
 					t3 = getElement(root, "Content_Length", &content_length);
 
 					code = methodCompliance(&method, &body, &content_length);
 
-					printf("Code à répondre = %d (0 = pas de pb)\n", code);
+					printf("Code à répondre = %d (200 = pas de pb)\n", code);
 				}
 
 				//Vérification de la version
-				if(code == 0) {
+				if(code == 200) {
 					t4 = getElement(root, "HTTP_version", &http_version);
 					t5 = getElement(root, "Host", &host);
 
 					version_ok = is_http_version_ok(&http_version, &host);
 
 					if(version_ok) {
-						code = 0;
+						code = 200;
 						printf("La version est OK\n");
 					} else {
 						code = 400;
@@ -103,26 +101,20 @@ int main(int argc, char *argv[])
 				}
 
 				// Disponibilité de la ressource
-				if(code == 0) {
+				if(code == 200) {
 					t6 = getElement(root, "request_target", &request_target);
 
-					int path_len;
 					//if(host.base != NULL) printf("host = \"%s\" l=%d\n", host.base, host.length);
 					//else printf("Pas de host\n");
-					char *path = isAvailable(&request_target, &host, &path_len);
-					if(path == NULL) {
-						code = 404;
-						printf("Ressource indisponible.\n");
-						printf("RENVOYER 404 Not Found\n");
-						writeDirectClient(requete->clientId, RESPONSE_404, RESPONSE_404_SIZE);
-					} else {
-						printf("La ressource est disponible via le path : %s\n", path);
+					char *p = isAvailable(&request_target, &host, &path_len);
+					path.base = p;
+					path.length = path_len;
 
-						string p = { path, path_len };
-						send_response(&method, 200, &p, get_mime_type(&p), requete);
-						free(path);
-					}
+					if (p == NULL) code = 404;
+					else type_mime = get_mime_type(&path);
 				}
+
+				send_response(&method, code, &path, type_mime, requete);
 
 				printf("\n\n===================================== FIN DE LA ZONE DE TEST =====================================\n\n");
 				//=====================================================================
