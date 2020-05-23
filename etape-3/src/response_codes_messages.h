@@ -1,4 +1,5 @@
 #define STATUS_CODES { 200, 400, 404, 501, 505 }
+#define NB_STATUS_CODES 5
 
 #define RESPONSE_200 "HTTP/1.1 200 OK\r\n\r\n"
 #define RESPONSE_400 "HTTP/1.1 400 Bad Request\r\n\r\n"
