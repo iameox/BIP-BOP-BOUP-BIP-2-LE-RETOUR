@@ -1,7 +1,6 @@
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
-
 #include "utils.h"
 #include "fonctions_lucas.h"
 #include "normalization.h"
@@ -58,13 +57,19 @@ char *isAvailable(string *request_target, string *host, int *len) {
 		request_size += DEFAULT_FILE_LENGTH;
 	}
 
-	while(i < KNOWN_HOSTS_COUNT && website_path == NULL && host->base != NULL) {
-		if(compare_strings(host, hosts_lists[i])) {
-			website_path = hosts_paths[i];
-			website_path_size = hosts_sizes[i];
+	if(host->base != NULL) {
+		while(i < KNOWN_HOSTS_COUNT && website_path == NULL && host->base != NULL) {
+			if(compare_strings(host, hosts_lists[i])) {
+				website_path = hosts_paths[i];
+				website_path_size = hosts_sizes[i];
+			}
+			i++;
 		}
-		i++;
+	} else {
+		website_path = hosts_paths[DEFAULT_HOST_INDEX];
+		website_path_size = hosts_sizes[DEFAULT_HOST_INDEX];
 	}
+	
 
 	if(website_path != NULL) {
 		size = ROOT_PATH_SIZE + website_path_size + request_size + 1;
@@ -110,42 +115,6 @@ char *isAvailable(string *request_target, string *host, int *len) {
 			ressource_path = NULL;
 		}
 
-	} else if(host->base == NULL) { //HTTP 1.0
-			size = ROOT_PATH_SIZE + request_size + 1;
-			ressource_path = malloc(size*sizeof(char));
-
-			//On recopie le début de l'arborescence (propre au serveur)
-			for(i = 0 ; i < ROOT_PATH_SIZE ; i++) ressource_path[i] = ROOT_PATH[i];
-
-			//request-target
-			j = 0;
-			while(j < request_target->length) {
-				ressource_path[i] = request_target->base[j];
-				i++;
-				j++;
-			}
-
-			//On rajoute un "index.html" si besoin
-			if(request_size > request_target->length) { //si on doit rajouter index.html
-				for(j = 0 ; j < DEFAULT_FILE_LENGTH ; j++) {
-					ressource_path[i] = default_file[j];
-				}
-			}
-
-			ressource_path[i] = '\0';
-
-			printf("Path de la ressource après concaténation : \"%.*s\"\n", size, ressource_path);
-
-			FILE * ressource = fopen(ressource_path, "r");
-
-			if(ressource != NULL) {
-				if(fclose(ressource) != 0) printf("Erreur lors de la fermeture de la ressource.\n");
-				if(len != NULL) *len = size;
-			} else {
-				printf("Ressource pas accessible\n");
-				free(ressource_path);
-				ressource_path = NULL;
-			}
 	} else {
 			printf("Site pas trouvé\n");
 	}
