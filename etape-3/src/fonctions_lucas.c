@@ -46,11 +46,12 @@ char *isAvailable(string *request_target, string *host, int *len) {
 	char *default_file = DEFAULT_FILE_PATH;
 	char *ressource_path = NULL;
 
-	int request_size = request_target->length;
+	int request_size;
 
 	//Normalize according to ABNF
 	normalize_request_target(request_target);
 
+	request_size = request_target->length;
 	printf("Requete après normalisation : \"%.*s\"\n", request_target->length, request_target->base);
 
 	if(request_target->base[request_target->length - 1] == '/') {
