@@ -1,8 +1,8 @@
 // Configuration du multi-site
 
 //Arborescence racine (sera accedée pour tous les sites)
-#define ROOT_PATH "./../www/"
-#define ROOT_PATH_SIZE 9
+#define ROOT_PATH "./www/"
+#define ROOT_PATH_SIZE 6
 
 //Liste des sites hébergés, et leurs dossiers correspondants
 #define KNOWN_HOSTS_LIST {"www.example.com:8080", "www.supersitedu47.wow:8080", "www.fake.com:8080", "www.toto.com:8080"}

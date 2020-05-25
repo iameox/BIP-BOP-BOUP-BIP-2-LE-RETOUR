@@ -4,6 +4,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <arpa/inet.h>
+#include <signal.h>
 
 // for librequest
 #include "request.h"
@@ -16,7 +17,6 @@
 #include "utils.h"
 #include "semantic.h"
 #include "resource.h"
-#include "connection.h"
 #include "response.h"
 
 _Token *getElement(_Token *root, char *name, string *s) {
