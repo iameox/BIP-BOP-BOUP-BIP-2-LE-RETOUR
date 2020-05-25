@@ -3,7 +3,7 @@
 #include <magic.h>
 
 #include "utils.h"
-#include "ressource.h"
+#include "resource.h"
 #include "normalization.h"
 
 

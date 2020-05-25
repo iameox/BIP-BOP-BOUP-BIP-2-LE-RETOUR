@@ -15,7 +15,7 @@
 
 #include "utils.h"
 #include "semantic.h"
-#include "ressource.h"
+#include "resource.h"
 #include "connection.h"
 #include "response.h"
 

@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <magic.h>
 
 #include "api.h"
 #include "utils.h"
