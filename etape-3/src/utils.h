@@ -1,12 +1,6 @@
 #define true 1
 #define false 0
 
-//A changer probablement en /var/www/html/
-#define ROOT "./"
-
-#define KNOWN_METHODS {"GET", "HEAD", "POST"}
-#define METHODS_NUMBER 3
-
 //Constante pour prévenir l'overflow des entiers
 #define MAX_DIGITS 18
 
