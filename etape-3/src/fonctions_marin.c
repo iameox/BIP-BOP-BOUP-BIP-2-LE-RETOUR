@@ -119,7 +119,7 @@ string* get_mime_type_with_magic(char *filename)
 		/*
 			Retourner une string de base NULL permet de continuer l'exécution du programme
 		*/
-		return to_return;
+		return result;
 	}
 
 	/*
@@ -132,7 +132,7 @@ string* get_mime_type_with_magic(char *filename)
 		/*
 			Retourner une string de base NULL permet de continuer l'exécution du programme
 		*/
-		return to_return;
+		return result;
 	}
 
 	/*
@@ -149,7 +149,7 @@ string* get_mime_type_with_magic(char *filename)
 		/*
 			Retourner une string de base NULL permet de continuer l'exécution du programme
 		*/
-		return to_return;
+		return result;
 	}
 
 	copy_to_string(mime_type, result);

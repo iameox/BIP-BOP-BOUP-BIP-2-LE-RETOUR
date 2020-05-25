@@ -49,7 +49,7 @@ int main(int argc, char *argv[])
 		printf("Client [%d] [%s:%d]\n",requete->clientId,inet_ntoa(requete->clientAddress->sin_addr),htons(requete->clientAddress->sin_port));
 		printf("Contenu de la demande %.*s\n\n",requete->len,requete->buf);
 
-		_Token *message_token, *root, *t1 = NULL, *t2 = NULL, *t3 = NULL, *t4 = NULL, *t5 = NULL, *t6 = NULL, *t7 = NULL;
+		_Token *message_token = NULL, *root = NULL, *t1 = NULL, *t2 = NULL, *t3 = NULL, *t4 = NULL, *t5 = NULL, *t6 = NULL, *t7 = NULL;
 		int code, headers_uniques, version_ok, path_len;
 		string *type_mime = NULL, path = { NULL, 0 }, method = { NULL, 0 }, body = { NULL, 0 }, content_length = { NULL, 0 }, http_version = { NULL, 0 }, connection_option = { NULL, 0 }, request_target = { NULL, 0 }, host = { NULL, 0 };
 
@@ -116,7 +116,7 @@ int main(int argc, char *argv[])
 
 		t7 = getElement(root, "connection_option", &connection_option);
 		connection_state = get_connection_state(&http_version, &connection_option); //Gestion de la connection
-		send_response(&method, code, &path, type_mime, connection_state, requete); //Envoi de la réponse
+		send_response(&method, code, &path, type_mime, connection_state, requete->clientId); //Envoi de la réponse
 
 		if(message_token != NULL) purgeElement(&message_token);
 		if(t1 != NULL) purgeElement(&t1);
@@ -130,6 +130,8 @@ int main(int argc, char *argv[])
 
 		printf("\n\n===================================== FIN DU TRAITEMENT =====================================\n\n");
 
+		// La condition provoque des fuites de mémoire lorsque la connexion est persistante se fait timeout
+		// Sans le if, il n'y a normalement aucune fuite de mémoire
 		if ((connection_state & CLOSE_CONNECTION) == CLOSE_CONNECTION) {
 			requestShutdownSocket(requete->clientId);
         	freeRequest(requete);
