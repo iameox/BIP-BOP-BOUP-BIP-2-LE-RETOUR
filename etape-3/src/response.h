@@ -37,5 +37,7 @@
 // Applique l'algorithme de la partie 6.3 de la RFC 7230
 int get_connection_state(string *http_version, string *connection_option);
 
-
+// Envoie la réponse générée par l'analyse de la requête
+// Gère les status codes 200, 400, 404, 411, 501 et 505 
+// Gère les headers Content-Type, Content-Length, Connection et Date
 void send_response(string *method, int status_code, string *path, string *mime_type, int connection_state, int client_id);
