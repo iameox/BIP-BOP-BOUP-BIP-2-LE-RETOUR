@@ -9,6 +9,11 @@ typedef struct {
     int length;
 } string;
 
+typedef struct int_stack {
+    int top;
+    struct int_stack *next; 
+} int_stack;
+
 // Renvoie true si n est compris entre n1 et n2 (inclus), false sinon
 int is_between_int(int n, int n1, int n2);
 
@@ -44,3 +49,12 @@ int compare_strings(string *s1, char *s2);
 // Retourne true si p est un préfixe de s, false sinon
 // Si len != NULL, sa valeur devient la longueur de p, si c'est un préfixe de s
 int match_prefix(string *s, char *p, int *len);
+
+// Empile top au sommet de stack
+void push_stack(int_stack **stack, int top);
+
+// Dépile et renvoie la tête de stack si elle existe, 0 sinon
+int pop_stack(int_stack **stack);
+
+// Libère la mémoire associée à la totalité de stack
+void clear_stack(int_stack **stack);

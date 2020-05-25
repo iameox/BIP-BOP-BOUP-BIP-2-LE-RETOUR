@@ -22,6 +22,17 @@
 #define EXTENSIONS_TYPES_MIME { "font/woff2", "application/xhtml+xml", "application/vnd.openxmlformats-officedocument.wordprocessingml.document", "application/epub+zip", "text/html", "image/jpeg", "application/json", "audio/midi", "video/mpeg", "application/vnd.apple.installer+xml", "application/vnd.openxmlformats-officedocument.presentationml.presentation", "image/tiff", "audio/webm", "video/webm", "image/webp", "font/woff", "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", "video/3gpp2", "audio/aac", "application/x-abiword", "application/octet-stream", "video/x-msvideo", "application/vnd.amazon.ebook", "application/octet-stream", "application/x-bzip2", "application/x-csh", "text/css", "text/csv", "application/msword", "application/vnd.ms-fontobject", "image/gif", "text/html", "image/x-icon", "text/calendar", "application/java-archive", "image/jpeg", "audio/midi", "application/vnd.oasis.opendocument.presentation", "application/vnd.oasis.opendocument.spreadsheet", "application/vnd.oasis.opendocument.text", "audio/ogg", "video/ogg", "application/ogg", "font/otf", "image/png", "application/pdf", "application/vnd.ms-powerpoint", "application/x-rar-compressed", "application/rtf", "image/svg+xml", "application/x-shockwave-flash", "application/x-tar", "image/tiff", "font/ttf", "application/vnd.visio", "audio/x-wav", "application/vnd.ms-excel", "application/xml", "application/vnd.mozilla.xul+xml", "application/zip", "video/3gpp", "application/x-bzip", "application/javascript", "application/x-sh", "application/typescript", "application/x-7z-compressed" }
 #define NB_EXTENSIONS 66
 
+// Normalise le champ request-target d'une URI
+// Décode tous les "percent-encodings" et les "dot segments"
+void normalize_request_target(string *request_target);
+
+// Normalise une URI du point de vue des "percent encodings" (décode toutes les occurences)
+void normalize_percent(string *str);
+
+// Normalise une URI du point de vue des "dot segments"
+// Applique l'algorithme de la partie 5.2.4 de la RFC 3986
+void remove_dot_segments(string *str);
+
 /*
 * Indique si une ressource décrite par le couple (request_target, host) est disponible.
 * host et request_target ne doivent PAS valoir NULL

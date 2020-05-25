@@ -1,5 +1,5 @@
-all: connection.o response.o normalization.o resource.o semantic.o utils.o
-	gcc -I ../lib/libparser -I ../lib/librequest/api -I ../src -L ../lib/libparser -L ../lib/librequest -o serverTest serverTest.c connection.o response.o normalization.o resource.o semantic.o utils.o -lparser -lrequest -lmagic
+all: connection.o response.o resource.o semantic.o utils.o
+	gcc -I ../lib/libparser -I ../lib/librequest/api -I ../src -L ../lib/libparser -L ../lib/librequest -o serverTest serverTest.c connection.o response.o resource.o semantic.o utils.o -lparser -lrequest -lmagic
 	echo "Faut faire ça : 'export LD_LIBRARY_PATH=.'"
 
 connection.o: ../src/connection.c ../src/connection.h ../src/utils.h
@@ -8,10 +8,7 @@ connection.o: ../src/connection.c ../src/connection.h ../src/utils.h
 response.o: ../src/response.c ../src/connection.h ../src/utils.h
 	gcc -I ../lib/librequest/api -c ../src/response.c -Wall
 
-normalization.o: ../src/normalization.c ../src/normalization.h ../src/utils.h
-	gcc -c ../src/normalization.c -Wall
-
-resource.o: ../src/resource.c ../src/resource.h ../src/utils.h ../src/normalization.h
+resource.o: ../src/resource.c ../src/resource.h ../src/utils.h
 	gcc -c ../src/resource.c -Wall
 
 semantic.o: ../src/semantic.c ../src/semantic.h ../src/utils.h

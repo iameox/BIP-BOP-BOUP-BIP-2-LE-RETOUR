@@ -109,3 +109,33 @@ int match_prefix(string *s, char *p, int *len) {
     if (p[i] == '\0' && len != NULL) *len = i;
     return p[i] == '\0';
 }
+
+// Empile top au sommet de stack
+void push_stack(int_stack **stack, int top) {
+    int_stack *new = malloc(sizeof(int_stack));
+    new->top = top;
+    new->next = *stack;
+
+    *stack = new;
+}
+
+// Dépile et renvoie la tête de stack si elle existe, 0 sinon
+int pop_stack(int_stack **stack) {
+    int_stack *element = *stack;
+    int top = 0;
+
+    if (element != NULL) {
+        *stack = element->next;
+        top = element->top;
+
+        // Libère la mémoire associée à l'ancienne tête
+        free(element);
+    }
+
+    return top;
+}
+
+// Libère la mémoire associée à la totalité de stack
+void clear_stack(int_stack **stack) {
+    while (*stack != NULL) pop_stack(stack);
+}
