@@ -1,8 +1,11 @@
-all: response.o normalization.o fonctions_lucas.o fonctions_marin.o utils.o
-	gcc -I ../lib/libparser -I ../lib/librequest/api -I ../src -L ../lib/libparser -L ../lib/librequest -o serverTest serverTest.c response.o normalization.o fonctions_lucas.o fonctions_marin.o utils.o -lparser -lrequest -lmagic
+all: connection.o response.o normalization.o fonctions_lucas.o fonctions_marin.o utils.o
+	gcc -I ../lib/libparser -I ../lib/librequest/api -I ../src -L ../lib/libparser -L ../lib/librequest -o serverTest serverTest.c connection.o response.o normalization.o fonctions_lucas.o fonctions_marin.o utils.o -lparser -lrequest -lmagic
 	echo "Faut faire ça : 'export LD_LIBRARY_PATH=.'"
 
-response.o: ../src/response.c ../src/utils.h
+connection.o: ../src/connection.c ../src/connection.h ../src/utils.h
+	gcc -c ../src/connection.c -Wall
+
+response.o: ../src/response.c ../src/connection.h ../src/utils.h
 	gcc -I ../lib/librequest/api -c ../src/response.c -Wall
 
 normalization.o: ../src/normalization.c ../src/normalization.h ../src/utils.h

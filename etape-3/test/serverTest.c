@@ -16,7 +16,7 @@
 #include "utils.h"
 #include "fonctions_lucas.h"
 #include "fonctions_marin.h"
-#include "normalization.h"
+#include "connection.h"
 #include "response.h"
 
 _Token *getElement(_Token *root, char *name, string *s) {
@@ -36,6 +36,8 @@ int main(int argc, char *argv[])
 	message *requete;
 	int res;
 	while ( 1 ) {
+		int connection_state = CLOSE_CONNECTION;
+
 		// on attend la reception d'une requete HTTP requete pointera vers une ressource allouée par librequest.
 		if ((requete=getRequest(8080)) == NULL ) return -1;
 
@@ -44,7 +46,7 @@ int main(int argc, char *argv[])
 		printf("Client [%d] [%s:%d]\n",requete->clientId,inet_ntoa(requete->clientAddress->sin_addr),htons(requete->clientAddress->sin_port));
 		printf("Contenu de la demande %.*s\n\n",requete->len,requete->buf);
 		if (res=parseur(requete->buf,requete->len)) {
-			_Token *tok, *r, *root, *t1 = NULL, *t2 = NULL, *t3 = NULL, *t4 = NULL, *t5 = NULL, *t6 = NULL;
+			_Token *tok, *r, *root, *t1 = NULL, *t2 = NULL, *t3 = NULL, *t4 = NULL, *t5 = NULL, *t6 = NULL, *t7 = NULL;
 
 			//writeDirectClient(requete->clientId,REPONSE,strlen(REPONSE));
 			root=getRootTree();
@@ -55,7 +57,7 @@ int main(int argc, char *argv[])
 				//========================= ZONE DE TEST =============================
 				printf("\n\n===================================== DÉBUT DE LA ZONE DE TEST =====================================\n\n");
 				int code, headers_uniques, version_ok, path_len;
-				string *type_mime = NULL, path = { NULL, 0 }, method, body, content_length, http_version, request_target, host;
+				string *type_mime = NULL, path = { NULL, 0 }, method, body, content_length, http_version, connection_option, request_target, host;
 				t1 = getElement(root, "method", &method);
 
 				//Unicité des headers
@@ -106,7 +108,10 @@ int main(int argc, char *argv[])
 				}
 
 				printf("Code final = %d\n", code);
-				send_response(&method, code, &path, type_mime, requete);
+
+				t7 = getElement(root, "connection_option", &connection_option);
+				connection_state = get_connection_state(&http_version, &connection_option);
+				send_response(&method, code, &path, type_mime, connection_state, requete);
 
 				printf("\n\n===================================== FIN DE LA ZONE DE TEST =====================================\n\n");
 				//=====================================================================
@@ -121,17 +126,19 @@ int main(int argc, char *argv[])
 				if(t4 != NULL) purgeElement(&t4);
 				if(t5 != NULL) purgeElement(&t5);
 				if(t6 != NULL) purgeElement(&t6);
+				if(t7 != NULL) purgeElement(&t7);
 				tok=tok->next;
 			}
 			purgeElement(&r);
-		purgeTree(root);
+			purgeTree(root);
 		} else {
 			//writeDirectClient(requete->clientId,ERROR,strlen(ERROR));
 		}
-		endWriteDirectClient(requete->clientId);
-		requestShutdownSocket(requete->clientId);
-	// on ne se sert plus de requete a partir de maintenant, on peut donc liberer...
-	freeRequest(requete);
+
+		if ((connection_state & CLOSE_CONNECTION) == CLOSE_CONNECTION) {
+			requestShutdownSocket(requete->clientId);
+        	freeRequest(requete);
+        }
 	}
 	return (1);
 }

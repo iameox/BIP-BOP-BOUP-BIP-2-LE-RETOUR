@@ -3,9 +3,10 @@
 #include <sys/stat.h>
 #include "request.h"
 #include "utils.h"
-#include "response_codes_messages.h"
+#include "connection.h"
+#include "response.h"
 
-void send_response(string *method, int status_code, string *path, string *mime_type, message *request) {
+void send_response(string *method, int status_code, string *path, string *mime_type, int connection_state, message *request) {
     FILE *f = NULL;
     struct stat st;
     char *responses[] = RESPONSES,
@@ -22,8 +23,13 @@ void send_response(string *method, int status_code, string *path, string *mime_t
             writeDirectClient(request->clientId, responses[i], response_lengths[i]);
 
             if (!is_between_int(status_code, 100, 199) && status_code != 204) {
-                writeDirectClient(request->clientId, "\r\nContent-length: ", 18);
+                if ((connection_state & SEND_CONNECTION_HEADER) == SEND_CONNECTION_HEADER) {
+                    printf("%d %d\n", connection_state, connection_state & CLOSE_CONNECTION);
+                    if ((connection_state & CLOSE_CONNECTION) == CLOSE_CONNECTION) writeDirectClient(request->clientId, "\r\nConnection: close", 19);
+                    else writeDirectClient(request->clientId, "\r\nConnection: keep-alive", 24);
+                }
 
+                writeDirectClient(request->clientId, "\r\nContent-length: ", 18);
                 if (status_code == 200) {
                     f = fopen(path->base, "r");
                     stat(path->base, &st);
@@ -37,6 +43,7 @@ void send_response(string *method, int status_code, string *path, string *mime_t
 
                 writeDirectClient(request->clientId, content_length, length);
                 free(content_length);
+
                 if (!compare_strings(method, "HEAD")) {
                     writeDirectClient(request->clientId, "\r\nContent-Type: ", 16);
 
@@ -62,4 +69,6 @@ void send_response(string *method, int status_code, string *path, string *mime_t
     }
     if (content != NULL) free(content);
     if (f != NULL) fclose(f);
+
+    endWriteDirectClient(request->clientId);
 }
