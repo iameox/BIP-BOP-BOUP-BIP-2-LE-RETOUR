@@ -70,15 +70,18 @@ char *int_to_string(long int n, int *length) {
     return base;
 }
 
+// Effectue une recopie de mémoire de la chaine s1 vers s2
 void copy_to_string(const char *s1, string *s2) {
     int length, i = 0;
     char *base;
 
+    // Détermine la taille de la chaîne
     while (s1[i] != '\0') i++;
 
     length = i;
     base = malloc(length * sizeof(char));
 
+    // Recopie la chaîne caractère par caractère
     for (i = 0; i < length; i++) base[i] = s1[i];
 
     s2->base = base;

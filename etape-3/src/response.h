@@ -22,7 +22,7 @@
 #define RESPONSE_501_BODY "<!DOCTYPE html><html><head><title>501 - Not Implemented</title></head><body><h1>501 - Not Implemented</h1><p>Sorry but this method is either not implemented by the server or malformed.</p></body></html>"
 #define RESPONSE_505_BODY "<!DOCTYPE html><html><head><title>505 - HTTP Version Not Supported</title></head><body><h1>505 - HTTP Version Not Supported</h1><p>Sorry but this HTTP version isn't supported by the server. Its current version is 1.1.</p></body></html>"
 #define RESPONSE_400_BODY_LENGTH 172
-#define RESPONSE_404_BODY_LENGTH 187
+#define RESPONSE_404_BODY_LENGTH 166
 #define RESPONSE_411_BODY_LENGTH 187
 #define RESPONSE_501_BODY_LENGTH 202
 #define RESPONSE_505_BODY_LENGTH 235

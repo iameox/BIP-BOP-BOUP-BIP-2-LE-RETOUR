@@ -2,13 +2,14 @@
 #include "utils.h"
 #include "normalization.h"
 
-// A WOOSH + .H
+// Normalise le champ request-target d'une URI
+// Décode tous les "percent-encodings" et les "dot segments"
 void normalize_request_target(string *request_target) {
     normalize_percent(request_target);
     remove_dot_segments(request_target);
 }
 
-// A WOOSH
+// Normalise une URI du point de vue des "percent encodings" (décode toutes les occurences)
 void normalize_percent(string *str) {
     // real_index représente l'index de parcourt de la chaîne d'entrée
     // virtual_index représente l'index de parcourt de la chaîne finale, c'est la position du prochain caractère à écrire
@@ -22,6 +23,8 @@ void normalize_percent(string *str) {
         value = 0;
 
         if (s[0] == '%') {
+            // Comme la chaîne est syntaxiquement valide, la présence d'un "%" indique forcément un percent-encoding
+            // Décode les 2 caractères suivants le "%"
             for (i = 1; i < 3; i++) {
                 if (is_between(s[i], 'a', 'f')) s[i] += 'A' - 'a';
                 c = s[i];
@@ -34,6 +37,7 @@ void normalize_percent(string *str) {
             str->base[virtual_index] = value;
             real_index += 3;
 
+        // Le caractère n'indique pas le début d'un percent-encoding, il est simplement recopié
         } else {
             str->base[virtual_index] = str->base[real_index];
             real_index++;
@@ -47,7 +51,6 @@ void normalize_percent(string *str) {
     str->length = virtual_index;
 }
 
-// A WOOSH
 // Normalise une URI du point de vue des "dot segments"
 // Applique l'algorithme de la partie 5.2.4 de la RFC 3986
 void remove_dot_segments(string *str) {
@@ -103,8 +106,6 @@ void remove_dot_segments(string *str) {
 // Empile top au sommet de stack
 void push_stack(int_stack **stack, int top) {
     int_stack *new = malloc(sizeof(int_stack));
-    if (new == NULL) exit(EXIT_FAILURE);
-
     new->top = top;
     new->next = *stack;
 

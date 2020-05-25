@@ -3,7 +3,11 @@ typedef struct int_stack {
     struct int_stack *next; 
 } int_stack;
 
+// Normalise le champ request-target d'une URI
+// Décode tous les "percent-encodings" et les "dot segments"
 void normalize_request_target(string *request_target);
+
+// Normalise une URI du point de vue des "percent encodings" (décode toutes les occurences)
 void normalize_percent(string *str);
 
 // Normalise une URI du point de vue des "dot segments"
