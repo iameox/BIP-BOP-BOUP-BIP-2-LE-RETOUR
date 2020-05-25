@@ -14,8 +14,8 @@
 #include "api.h"
 
 #include "utils.h"
-#include "fonctions_lucas.h"
-#include "fonctions_marin.h"
+#include "semantic.h"
+#include "ressource.h"
 #include "connection.h"
 #include "response.h"
 

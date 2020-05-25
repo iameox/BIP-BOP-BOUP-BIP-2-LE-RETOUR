@@ -1,100 +1,95 @@
-
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <magic.h>
 
-#include "api.h"
 #include "utils.h"
-#include "fonctions_marin.h"
+#include "ressource.h"
+#include "normalization.h"
 
 
 /*
-	Fonction qui renvoie 0 si deux headers de même type sont présents, 1 sinon
+* Indique si une ressource décrite par le couple (request_target, host) est disponible.
+* host et request_target ne doivent PAS valoir NULL
+* On considère que la request_target est de type origin-form
+* Si host->base vaut NULL, on considère que la requête est du HTTP 1.0 (on utilise que la request-target)
+* Retourne un char* pointant vers le path de la requête et écrit dans len si la ressource existe, renvoie NULL sinon
 */
 
-int are_unique_headers(void *root)
-{
-	int to_return = true;
-	int size = 0;
+// ATTENTION il faut free le char * retourné après utilisation (si différent de NULL)
+char *isAvailable(string *request_target, string *host, int *len) {
+	int i, j, final_path_size, 
+	    hosts_sizes[] = KNOWN_HOSTS_SIZES,
+	    website_path_size, 
+	    request_size;
+	char *hosts_lists[] = KNOWN_HOSTS_LIST,
+	     *hosts_paths[] = KNOWN_HOSTS_PATHS,
+	     *website_path = NULL, 
+	     *default_file = DEFAULT_FILE_PATH, 
+	     *final_path = NULL;
 
-	int index_header;
-	char *headers_list[] = HEADERS;
-	char *header_possible;
-	_Token *head, *current_header;
+	normalize_request_target(request_target); //Normalisation 
+	request_size = request_target->length;
 
-	/*
-		Pour chaque header, tant qu'un header n'est pas présent en double
-	*/
-	for (index_header = 0; (to_return == true && index_header < NB_HEADERS); index_header++)
-	{
-		/*
-			On récupère tous les headers au tag correspondant depuis la racine
-		*/
-		header_possible = headers_list[index_header];
-		head = searchTree(root, header_possible);
-		current_header = head;
-		
-		/*
-			Puis on regarde combien on en a récupéré
-		*/
-		while(current_header != NULL)
-		{
-			size++;
-			current_header = current_header->next;
-		}
-
-		/*
-			Enfin, on vérifie que le header n'est pas présent (size == 0)
-			OU qu'il n'est présent qu'en un seul exemplaire (size == 1)
-		*/
-		if (size != 0 && size != 1)
-		{
-			printf("\n\n Size invalide pour le header %s : %d headers trouvés. \n\n", header_possible, size);
-			to_return = false;
-		}
-		/*
-			Puis on réinitialise size pour la taille du prochain header
-		*/
-		size = 0;
-
-		/*
-			On n'oublie pas de libérer la mémoire allouée à chaque fois
-		*/
-		purgeElement(&head);
+	if(request_target->base[request_target->length - 1] == '/') { //Si la request-target est un répertoire, on rajoute un fichier par défaut ("index.html")
+		request_size += DEFAULT_FILE_LENGTH;
 	}
 
-	return to_return;
+	if(host->base != NULL) { // Récupération du nom de dossier correspondant au site
+		i = 0;
+		while(i < KNOWN_HOSTS_COUNT && website_path == NULL) {
+			if(compare_strings(host, hosts_lists[i])) {
+				website_path = hosts_paths[i];
+				website_path_size = hosts_sizes[i];
+			}
+			i++;
+		}
+	} else { // Si le champ Host n'est pas présent, on utilise un site par défaut
+		website_path = hosts_paths[DEFAULT_HOST_INDEX];
+		website_path_size = hosts_sizes[DEFAULT_HOST_INDEX];
+	}
+
+
+	if(website_path != NULL) {
+		final_path_size = ROOT_PATH_SIZE + website_path_size + request_size + 1; // On rajoute 1 emplacement pour la sentinelle
+		final_path = malloc(final_path_size*sizeof(char));
+
+		//On recopie le début de l'arborescence (propre au serveur)
+		for(i = 0 ; i < ROOT_PATH_SIZE ; i++) final_path[i] = ROOT_PATH[i];
+
+		//On recopie le dossier qui correspond à l'host
+		for(j = 0 ; j < website_path_size ; j++) {
+			final_path[i] = website_path[j];
+			i++;
+		}
+
+		//On recopie le champ request-target
+		for(j = 0 ; j < request_target->length ; j++) {
+			final_path[i] = request_target->base[j];
+			i++;
+		}
+
+		//On rajoute le fichier par défaut si besoin
+		if(request_size > request_target->length) {
+			for(j = 0 ; j < DEFAULT_FILE_LENGTH ; j++) {
+				final_path[i] = default_file[j];
+				i++;
+			}
+		}
+		final_path[i] = '\0'; //Ajout d'une sentinelle (nécessaire pour fopen)
+
+		FILE *ressource = fopen(final_path, "r"); //On ouvre le fichier pour tester l'existence
+
+		if(ressource != NULL) {
+			if(fclose(ressource) != 0) printf("Erreur lors de la fermeture de la ressource.\n");
+			if(len != NULL) *len = final_path_size;
+		} else { //Si la ressource n'est pas disponible, on libère tout et on retourne NULL
+			free(final_path); 
+			final_path = NULL;
+		}
+	}
+
+	return final_path;
 }
-
-
-/*
-	Fonction qui renvoie 505 si la version HTTP est différente de 1.0 ou 1.1 ;
-	renvoie 400 si la version est HTTP/1.1 masi que le host header n'est pas présent ;
-	renvoie 200 sinon
-
-	Prend en argument :
-	- une string contenant la version HTTP
-	- une string contenant le host header s'il est présent, NULL sinon
-*/
-
-int is_http_version_ok(string *http_version, string *host_header)
-{
-	int to_return = true;
-	int is_found_host_header = false;
-
-	if (host_header->base != NULL) is_found_host_header = true;
-
-	if (!(compare_strings(http_version, "HTTP/1.0")) && !(compare_strings(http_version, "HTTP/1.1"))) to_return = 505;
-
-	else if (compare_strings(http_version, "HTTP/1.1") && !(is_found_host_header)) to_return = 400;
-
-	else to_return = 200;
-
-	return to_return;
-}
-
-
 
 /*
 	Fonction qui renvoie le type mime d'un fichier à l'aide de la librairie magic.h
