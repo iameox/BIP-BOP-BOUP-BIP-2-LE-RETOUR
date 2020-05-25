@@ -31,6 +31,7 @@ int string_to_int(string *s);
 // Sinon s'il y a plus de MAX_DIGITS chiffres, le nombre est tronqué
 char *int_to_string(long int n, int *length);
 
+// Effectue une recopie de mémoire de la chaine s1 vers s2
 void copy_to_string(const char *s1, string *s2);
 
 // Convertit une lettre majuscule en lettre minuscule
