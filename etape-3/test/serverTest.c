@@ -68,7 +68,6 @@ int main(int argc, char *argv[])
 				} else {
 					code = 400;
 					printf("Un header est présent en double.\n");
-					printf("RENVOYER 400 Bad Request\n");
 				}
 
 				printf("Code à répondre = %d (200 = pas de pb)\n", code);
@@ -80,7 +79,7 @@ int main(int argc, char *argv[])
 
 					code = methodCompliance(&method, &body, &content_length);
 
-					printf("Code à répondre = %d (200 = pas de pb)\n", code);
+					printf("Conformité de la méthode = %d (200 = pas de pb)\n", code);
 				}
 
 				//Vérification de la version
@@ -88,16 +87,8 @@ int main(int argc, char *argv[])
 					t4 = getElement(root, "HTTP_version", &http_version);
 					t5 = getElement(root, "Host", &host);
 
-					version_ok = is_http_version_ok(&http_version, &host);
-
-					if(version_ok) {
-						code = 200;
-						printf("La version est OK\n");
-					} else {
-						code = 400;
-						printf("Problème de version\n");
-						printf("RENVOYER 400 Bad Request\n");
-					}
+					code = is_http_version_ok(&http_version, &host);
+					printf("Version = %d (200 = pas de pb)\n", code);
 				}
 
 				// Disponibilité de la ressource
@@ -114,6 +105,7 @@ int main(int argc, char *argv[])
 					else type_mime = get_mime_type(&path);
 				}
 
+				printf("Code final = %d\n", code);
 				send_response(&method, code, &path, type_mime, requete);
 
 				printf("\n\n===================================== FIN DE LA ZONE DE TEST =====================================\n\n");

@@ -34,10 +34,9 @@ void send_response(string *method, int status_code, string *path, string *mime_t
                     content_length = int_to_string(st.st_size, &length);
 
                 } else content_length = int_to_string(response_body_lengths[i - 1], &length);
-                
+
                 writeDirectClient(request->clientId, content_length, length);
                 free(content_length);
-                printf("La chaine c'est ça : '%.*s'\n", method->length, method->base);
                 if (!compare_strings(method, "HEAD")) {
                     writeDirectClient(request->clientId, "\r\nContent-Type: ", 16);
 
@@ -46,7 +45,7 @@ void send_response(string *method, int status_code, string *path, string *mime_t
 
                         writeDirectClient(request->clientId, "\r\n\r\n", 4);
                         writeDirectClient(request->clientId, content, st.st_size);
-                    
+
                     } else {
                         writeDirectClient(request->clientId, "text/html\r\n\r\n", 13);
                         writeDirectClient(request->clientId, response_bodies[i - 1], response_body_lengths[i - 1]);
@@ -55,7 +54,7 @@ void send_response(string *method, int status_code, string *path, string *mime_t
             }
         }
     }
-    
+
     if (path->base != NULL) free(path->base);
     if (mime_type != NULL) {
         free(mime_type->base);

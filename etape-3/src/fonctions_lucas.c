@@ -69,7 +69,7 @@ char *isAvailable(string *request_target, string *host, int *len) {
 		website_path = hosts_paths[DEFAULT_HOST_INDEX];
 		website_path_size = hosts_sizes[DEFAULT_HOST_INDEX];
 	}
-	
+
 
 	if(website_path != NULL) {
 		size = ROOT_PATH_SIZE + website_path_size + request_size + 1;
@@ -133,11 +133,9 @@ int methodCompliance(string *method, string *body, string *content_length) {
 
 	if(method->base == NULL) {
 		printf("Champ méthode non présent.\n");
-		printf("RENVOYER 400 Bad Request\n");
 		code = 400;
 	} else if (!validMethod(method)) {
 		printf("Méthode inconnue.\n");
-		printf("RENVOYER 501 Not implemented\n");
 		code = 501;
 	} else if(body->base != NULL && body->length != 0) { // Vérification de la présence et conformité du body
 		printf("Body de longueur %d présent, vérification de la conformité avec Content-Length...\n", body->length);
@@ -152,19 +150,16 @@ int methodCompliance(string *method, string *body, string *content_length) {
 				code = 200;
 			} else {
 				printf("Le Content-Length n'est pas égal à la taille du body.\n");
-				printf("RENVOYER 400 Bad Request\n");
 				code = 400;
 			}
 		} else {
 			printf("Content-Length est pas présent alors qu'il y a un body.\n");
-			printf("RENVOYER 411 Length Required\n");
 			code = 411;
 		}
 	} else {
 		printf("Body non présent\n");
 		if(compare_strings(method, "POST")) {
 			printf("La requête est un POST sans body.\n");
-			printf("RENVOYER 400 Bad Request\n");
 			code = 400;
 		} else {
 			printf("Méthode valide.\n");
