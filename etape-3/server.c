@@ -19,6 +19,14 @@
 #include "resource.h"
 #include "response.h"
 
+
+/*
+* Fonction permettant de faciliter l'usage de l'api
+* Paramètres : l'arbre généré par une requête, un nom de champ à chercher dans cet arbre, et une string à remplir
+* Remplit la chaine s avec la valeur et la longueur du champ "name" trouvé dans l'arbre root. 
+* Si root vaut NULL ou que le champ name n'est pas trouvé, s n'est pas modifiée.
+* Retourne le pointeur vers token, pour libérer la mémoire affectée à ce dernier.
+*/
 _Token *getElement(_Token *root, char *name, string *s) {
 	_Token *t = NULL;
 	if(root != NULL) {
@@ -30,7 +38,6 @@ _Token *getElement(_Token *root, char *name, string *s) {
 			s->length = size;
 		}
 	}
-	
 
 	return t;
 }
@@ -44,16 +51,10 @@ int main(int argc, char *argv[])
 		// on attend la reception d'une requete HTTP requete pointera vers une ressource allouée par librequest.
 		if ((requete=getRequest(8080)) == NULL ) return -1;
 
-		// Affichage de debug
-		printf("#########################################\nDemande recue depuis le client %d\n",requete->clientId);
-		printf("Client [%d] [%s:%d]\n",requete->clientId,inet_ntoa(requete->clientAddress->sin_addr),htons(requete->clientAddress->sin_port));
-		printf("Contenu de la demande %.*s\n\n",requete->len,requete->buf);
-
 		_Token *message_token = NULL, *root = NULL, *t1 = NULL, *t2 = NULL, *t3 = NULL, *t4 = NULL, *t5 = NULL, *t6 = NULL, *t7 = NULL;
 		int code, headers_uniques, version_ok, path_len;
 		string *type_mime = NULL, path = { NULL, 0 }, method = { NULL, 0 }, body = { NULL, 0 }, content_length = { NULL, 0 }, http_version = { NULL, 0 }, connection_option = { NULL, 0 }, request_target = { NULL, 0 }, host = { NULL, 0 };
 
-		printf("\n\n===================================== DÉBUT DU TRAITEMENT =====================================\n\n");
 		if (parseur(requete->buf,requete->len)) { //Si le parseur génère bien un arbre
 			root=getRootTree();
 			message_token=searchTree(root,"HTTP_message");
@@ -64,17 +65,12 @@ int main(int argc, char *argv[])
 
 				//Unicité des headers
 				headers_uniques = are_unique_headers(root);
-				printf("Unicité : %d\n", headers_uniques);
 
 				if(headers_uniques) {
 					code = 200;
-					printf("Les headers sont uniques, on peut continuer\n");
 				} else {
 					code = 400;
-					printf("Un header est présent en double.\n");
 				}
-
-				printf("Code à répondre = %d (200 = pas de pb)\n", code);
 
 				//Conformité de la méthode
 				if(code == 200) {
@@ -82,8 +78,6 @@ int main(int argc, char *argv[])
 					t3 = getElement(root, "Content_Length", &content_length);
 
 					code = methodCompliance(&method, &body, &content_length);
-
-					printf("Conformité de la méthode = %d (200 = pas de pb)\n", code);
 				}
 
 				//Vérification de la version
@@ -92,7 +86,6 @@ int main(int argc, char *argv[])
 					t5 = getElement(root, "Host", &host);
 
 					code = is_http_version_ok(&http_version, &host);
-					printf("Version = %d (200 = pas de pb)\n", code);
 				}
 
 				// Disponibilité de la ressource
@@ -112,8 +105,6 @@ int main(int argc, char *argv[])
 			code = 400;
 		}
 
-		printf("Code final = %d\n", code);
-
 		t7 = getElement(root, "connection_option", &connection_option);
 		connection_state = get_connection_state(&http_version, &connection_option); //Gestion de la connection
 		send_response(&method, code, &path, type_mime, connection_state, requete->clientId); //Envoi de la réponse
@@ -127,8 +118,6 @@ int main(int argc, char *argv[])
 		if(t6 != NULL) purgeElement(&t6);
 		if(t7 != NULL) purgeElement(&t7);
 		if(root != NULL) purgeTree(root);
-
-		printf("\n\n===================================== FIN DU TRAITEMENT =====================================\n\n");
 
 		// La condition provoque des fuites de mémoire lorsque la connexion est persistante se fait timeout
 		// Sans le if, il n'y a normalement aucune fuite de mémoire

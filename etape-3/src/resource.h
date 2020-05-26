@@ -37,14 +37,24 @@ void remove_dot_segments(string *str);
 * Indique si une ressource décrite par le couple (request_target, host) est disponible.
 * host et request_target ne doivent PAS valoir NULL
 * On considère que la request_target est de type origin-form
-* Si host->base vaut NULL, on considère que la requête est du HTTP 1.0 (on utilise que la request-target)
-* Retourne un char* pointant vers le path de la requête et écrit dans len si la ressource existe, renvoie NULL sinon
+* Si host->base vaut NULL, on considère que la requête est du HTTP 1.0 (on utilisera un host par défaut)
+* Retourne un char* pointant vers le chemin pour accéder à la ressource et écrit sa taille dans len (si elle existe), renvoie NULL sinon
 */
 
-// ATTENTION il faut free le char * retourné après utilisation (si différent de NULL)
+// ATTENTION il faut libérer la mémoire allouée au char * retourné après utilisation (si il est différent de NULL)
 char *isAvailable(string *request_target, string *host, int *len);
 
+
+/*
+	Fonction qui renvoie le type mime d'un fichier à l'aide de la librairie magic.h
+	
+	Prend en argument le nom du fichier dont on veut connaitre le type mime
+*/
 string* get_mime_type(string *filename);
 
-
+/*
+	Fonction qui renvoie le type mime d'un fichier SANS l'aide de la librairie magic.h
+	
+	Prend en argument une string contenant le nom du fichier dont on veut connaitre le type mime
+*/
 string* get_mime_type_with_magic(char *filename);
