@@ -2,6 +2,7 @@ COMPILER LE SERVEUR
 $ make; make clean
 
 LANCER LE SERVEUR
+$ export LD_LIBRARY_PATH=.
 $ ./server
 
 TESTER LE SERVEUR
