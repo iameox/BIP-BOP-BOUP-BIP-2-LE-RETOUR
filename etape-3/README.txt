@@ -8,7 +8,7 @@ $ ./server
 TESTER LE SERVEUR
 $ ./test.sh
 
-LIST DES HOSTS DISPONIBLES
+LISTE DES HOSTS DISPONIBLES
 www.example.com:8080
 www.fake.com:8080
 www.supersitedu47.wow:8080
